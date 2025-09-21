@@ -1,0 +1,16 @@
+# Development configuration for local development
+# This overrides settings from config/_default/hugo.yaml for development
+
+# Development-specific settings
+build:
+  writeStats: false  # Disable stats generation for faster development
+enableGitInfo: false  # Disable for faster development
+
+# Disable minification for development
+minify:
+  disableXML: true
+  disableHTML: true
+  disableCSS: true
+  disableJS: true
+  disableJSON: true
+  disableSVG: true

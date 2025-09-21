@@ -5,8 +5,10 @@
   "packageManager": "pnpm@10.14.0",
   "description": "Documentation starter template for Hugo Blox with Tailwind CSS v4",
   "scripts": {
-    "dev": "hugo server --disableFastRender",
-    "build": "hugo --minify"
+    "dev": "hugo server --disableFastRender --environment development",
+    "build": "hugo --minify --environment production",
+    "build:local": "hugo --environment development",
+    "preview": "hugo server --environment production --buildFuture"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",

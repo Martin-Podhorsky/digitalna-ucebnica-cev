@@ -4,7 +4,8 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: "Hugo Docs" # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: 'http://localhost:1313/' # Website URL for local development
+# For production, this will be overridden by config/production/hugo.yaml
 
 ############################
 ## PAGE OPTIONS

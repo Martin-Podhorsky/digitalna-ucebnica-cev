@@ -1,0 +1,18 @@
+# Production configuration for GitHub Pages
+# This overrides settings from config/_default/hugo.yaml for production builds
+
+baseURL: 'https://martin-podhorsky.github.io/digitalna-ucebnica-cev/' # Will be set by GitHub Actions automatically
+
+# Production-specific settings
+build:
+  writeStats: true
+enableGitInfo: true  # Enable for production to show last modified dates
+
+# Enable minification for production
+minify:
+  disableXML: false
+  disableHTML: false
+  disableCSS: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
