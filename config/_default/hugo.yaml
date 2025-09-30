@@ -43,7 +43,7 @@ cascade:
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: sk
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
@@ -72,6 +72,9 @@ outputs:
   home: [HTML, RSS, WebAppManifest, headers, redirects, backlinks]
   page: [HTML]
   section: [HTML, RSS]
+params:
+  custom_css:
+    - css/custom.css
 imaging:
   resampleFilter: lanczos
   quality: 90

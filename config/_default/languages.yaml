@@ -2,10 +2,13 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
-en:
+# Default language (Slovak)
+sk:
   languageCode: sk-sk
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+
+# Optional secondary language (English)
+en:
+  languageCode: en-us
   #contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.

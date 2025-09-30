@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: light
-  color: blue
+  color: orange
 
 # SEO
 marketing:
@@ -38,11 +38,7 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
-    button:
-      enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/details/docs/"
+      filename: "spsdtt-logo.png"
     show_search: true
     show_theme_chooser: true
 
