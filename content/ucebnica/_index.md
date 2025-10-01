@@ -1,5 +1,5 @@
 ---
-linkTitle: Documentation
+linkTitle: Učebnica
 title: Introduction
 ---
 

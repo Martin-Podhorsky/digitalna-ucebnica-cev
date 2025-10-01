@@ -159,6 +159,19 @@
   transform: translateY(-115px);
 }
 
+/* Individual positioning for hero elements */
+#section-hero h1 {
+  transform: translateY(-50px);
+}
+
+#section-hero p {
+  transform: translateY(-70px);
+}
+
+#section-hero .mt-10 a {
+  transform: translateY(-35px);
+}
+
 /* Add padding to hero section to compensate for the upward shift */
 #section-hero {
   padding-top: 120px !important;
@@ -176,9 +189,11 @@
   box-shadow: 0 6px 16px rgba(0,0,0,0.18), 0 2px 6px rgba(0,0,0,0.14);
 }
 
+/* Hero button hover effect - similar to CTA card button */
 #section-hero .mt-10 a:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 26px rgba(0,0,0,0.22), 0 4px 10px rgba(0,0,0,0.16);
+  transform: translateY(-37px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25), 0 3px 8px rgba(0,0,0,0.18);
+  background-color: #e8690b !important;
 }
 
 /* Hero subtitle: enlarge and add lift */

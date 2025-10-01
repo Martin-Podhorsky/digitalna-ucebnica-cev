@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'Domov'
 date: 2023-10-24
 type: landing
 
@@ -14,20 +14,20 @@ sections:
       text: Prehľadná učebnica Cestných Vozidiel dostupná kedykoľvek a kdekoľvek!
       primary_action:
         text: Otvoriť
-        url: /docs/
+        url: /ucebnica/
         icon: book-open
     design:
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
       # For full-screen, add `min-h-screen` below
-      css_class: "text-white-block"
+      css_class: "text-white-block text-center"
       background:
         color: ""
         image:
           filename: "hero-background.jpg"
           filters:
-            brightness: 0.25
+            brightness: 0.01
   - block: features
     id: features
     content:
@@ -50,7 +50,7 @@ sections:
       title: "Začni sa učiť s Digitálnou učebnicou Cestných Vozidiel už dnes!"
       button:
         text: Otvoriť učebnicu
-        url: /docs/
+        url: /ucebnica/
     design:
       card:
         # Card background color (CSS class)
