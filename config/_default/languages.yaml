@@ -7,8 +7,8 @@ sk:
   languageCode: sk-sk
 
 # Optional secondary language (English)
-en:
-  languageCode: en-us
+# en:
+#  languageCode: en-us
   #contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
