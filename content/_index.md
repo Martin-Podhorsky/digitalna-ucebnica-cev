@@ -26,8 +26,6 @@ sections:
         color: ""
         image:
           filename: "hero-background.jpg"
-          filters:
-            brightness: 0.01
   - block: features
     id: features
     content:

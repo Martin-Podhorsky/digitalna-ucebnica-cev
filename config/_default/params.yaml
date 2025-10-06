@@ -9,13 +9,13 @@ appearance:
   color: orange
 
 # SEO
-marketing:
-  seo:
-    site_type: Project
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo documentation theme powered by Hugo Blox website builder.'
-    twitter: 'GetResearchDev'
+# marketing:
+#  seo:
+#    site_type: Project
+#    local_business_type: ''
+#    org_name: ''
+#    description: 'A highly-customizable Hugo documentation theme powered by Hugo Blox website builder.'
+#    twitter: 'GetResearchDev'
 
 # Site header
 header:
@@ -27,7 +27,7 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "spsdtt-logo.png"
+      filename: "logo_spsdtt.svg"
     show_search: true
     show_theme_chooser: true
 

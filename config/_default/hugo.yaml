@@ -6,6 +6,7 @@
 title: "Učebnica CEV" # Website name
 baseURL: 'http://localhost:1313/' # Website URL for local development
 # For production, this will be overridden by config/production/hugo.yaml
+# Rebuild trigger
 
 ############################
 ## PAGE OPTIONS
