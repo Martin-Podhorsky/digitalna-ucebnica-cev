@@ -6,8 +6,10 @@
   "description": "Documentation starter template for Hugo Blox with Tailwind CSS v4",
   "scripts": {
     "dev": "hugo server --disableFastRender --environment development",
+    "dev:search": "pnpm build:local && pnpm index && pnpm preview",
     "build": "hugo --minify --environment production",
     "build:local": "hugo --environment development",
+    "index": "pagefind --source public",
     "preview": "hugo server --environment production --buildFuture"
   },
   "dependencies": {
@@ -15,5 +17,8 @@
     "@tailwindcss/typography": "^0.5.10",
     "preact": "10.27.2",
     "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "pagefind": "^1.2.0"
   }
 }
