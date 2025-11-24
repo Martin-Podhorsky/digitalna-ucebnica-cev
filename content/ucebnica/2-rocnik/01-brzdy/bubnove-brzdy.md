@@ -55,24 +55,29 @@ Bubnové brzdy sa rozdeľujú podľa usporiadania čeľustí a ich ovládania:
 {image of SIMPLEX}
 
 **DUPLEX** (dvojnábežná brzda)
-    - pri jazde dopredu sú obe čeľuste nábežné (vysoký brzdný účinok). Pri jazde dozadu sú obe čeluste úbežné (nižší brzdný účinok).
+    - Namiesto jedného dvojpiestového valčeka má jedna aj druhá čeľusť svoj vlastný valček a oporu
+    - pri jazde dopredu sú obe čeľuste nábežné (vysoký brzdný účinok). Pri jazde dozadu sú obe čeluste úbežné (nižší brzdný účinok)
 
 {image of DUPLEX}
 
 **SERVO** (brzda so spriahnutými čeľusťami)
-    - pre smer jazdy dopredu takisto obidve čeľuste nábežné, ale ovládacia sila pôsobí iba na prvú, zatiaľ čo druhá je ovládaná reakcnou silou prvej cez spojovacie ťahadlo
+    - pre smer jazdy dopredu takisto obidve čeľuste nábežné, ale hydraulický valček pôsobí iba na prvú
+    - v momente keď sa prví čeľusť oprie o stenu valca, ten ju začne tlačiť v smere svojej rotácie
+    - tá je spojená s druhou čelusťou, ktorá sa pôsobením sily takisto onedlho oprie o stenu rotujúceho bubna
+    - pri jazde dopredu sú takisto obe čeľuste nábežné (vysoký brzdný účinok) a pri jazde dozadu sú obe čeluste úbežné (nižší brzdný účinok)
+    - pri tomto type môže byť brzdenie pomerne agresívne (menej odstupňovateľné) kvôli veľmi vysokému przdnému účinku
 
 {image of SERVO}
 
 **DUO-DUPLEX** (obojsmerná dvojnábežná brzda)
-    - má rovnaký brzdný účinok v oboch smeroch rotácie
-    - vyžaduje o niečo väčšiu ovládaciu silu ako Duo-Servo
+    - obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi
+    - vďaka tomu má rovnaký brzdný účinok v oboch smeroch rotácie
+    - vyžaduje o niečo väčšiu ovládaciu silu ako DUO-SERVO
 
 {image of DUO-DUPLEX}
 
 **DUO-SERVO** (obojsmerná brzda so spriahnutými čeľusťami)
     - funguje na rovnakom princípe ako brzda Servo, avšak je skonštruovaná tak, že brzda má samozosilňujúci účinok v oboch smeroch rotácie
-    - brzdenie môže byť pomerne agresívne (menej odstupňovateľné) kvôli veľmi vysokému przdnému účinku
 
 {image of DUO-DUPLEX}
 
