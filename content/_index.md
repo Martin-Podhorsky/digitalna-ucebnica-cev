@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: Cestné Vozidlá
-      text: Prehľadná učebnica Cestných Vozidiel dostupná kedykoľvek a kdekoľvek!
+      text: Prehľadná učebnica Cestných vozidiel dostupná kedykoľvek a kdekoľvek!
       primary_action:
         text: Otvoriť
         url: /ucebnica/
@@ -39,13 +39,13 @@ sections:
           description: Nemusíte so sebou vláčiť 4 knihy; stačí mobil, tablet, alebo notebook.
         - name: Up-to-date
           icon: calendar-days
-          description: Učebnica bola vytvorená v roku 2026 a dá sa ľahko aktualizovať, narozodiel od papierových učebníc z roku 2002.
+          description: Učebnica bola vytvorená v roku 2026 a dá sa ľahko aktualizovať, na rozdiel od papierových učebníc z roku 2002.
         - name: Elegantná
           icon: sparkles
           description: Jednoduchý, prehľadný, dobre-sa-naň-pozerajúci dizajn.
   - block: cta-card
     content:
-      title: "Začni sa učiť s Digitálnou učebnicou Cestných Vozidiel už dnes!"
+      title: "Začni sa učiť s Digitálnou učebnicou Cestných vozidiel už dnes!"
       button:
         text: Otvoriť učebnicu
         url: /ucebnica/
