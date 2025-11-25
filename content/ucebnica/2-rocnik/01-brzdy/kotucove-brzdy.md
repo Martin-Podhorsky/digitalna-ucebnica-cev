@@ -5,26 +5,26 @@ type: docs
 sidebar:
   open: false
 ---
-## Konštrukcia
 
-Pracovným médiom prenášajúcim energiu v brzdovej sústave je podľa druhu bŕzd buď kvapalina, alebo vzduch, prípadne ich kombinácia. Čeľuste bubnovej brzdy sú spreto pri hydraulických brzdových sústavách rozovierané hydraulickým valčekom. Obr. 10.10a znázorňuje dvojčinný hydraulický valček, ktorý má v telese 1 dva piestiky 2 s kolíkmi zapadajúcimi výrezmi do čeľustí. Tesnenia 3 sú tvarované tak, aby pri brzdení sa uskutočňuje prostredníctvom stlpca kvapaliny. Pružiaca jednotka pracuje zvyčajne s konštantným množstvom plynu a výšková regulácia sa uskutočňuje zmenou množstva kvapaliny v pracovnom valci.
+Kotúčové brzdy vytvárajú trenie tým, že zvierajú kotúč rotujúci spoločne s kolesom dvojicou (alebo dvojicami) brzdových platničiek. Je to najpoužívanejší typ prevádzkových bŕzd.
 
-## Vlastnosti (výhody, nevýhody)
+{image of disc brake}
 
-**Výhody kotúčových bŕzd:**
+## Výhody kotúčových bŕzd:
+
+- Väčší brzdný efekt a lepšia responzívnosť
 - Lepšie chladenie (kotúč je voľne vystavený okoliu)
-- Jednoduchšia konštrukcia
-- Menšia náchylnosť na fading
-- Stabilnejší brzdný účinok
-- Samočistiaci účinok (voda a nečistoty sa odstreďujú)
-- Konštantná vôľa medzi obložením a kotúčom
-- Menšia hmotnosť neodpružených častí
+- Jednoduchšia konštrukcia a tým pádom aj jednoduchšia údržba
+- Menšia náchylnosť na fading v dôsledku prehriatia alebo vlhkosti oproti bubnovým
 
-**Nevýhody kotúčových bŕzd:**
-- Vyššia prevádková sila potrebná na dosiahnutie rovnakého brzdného momentu
-- Zložitejšia integrácia mechanickej parkovacej brzdy
-- Vyššie namáhanie brzdovej kvapaliny (vyššie teploty)
-- Menšia ochrana proti znečisteniu
+## Nevýhody kotúčových bŕzd:
+
+- Drahšie na výrobu
+- Vyššia sila potrebná na dosiahnutie adekvátnej brzdnej sily (potreba posiňovaču)
+- Zložitejšia integrácia parkovacej brzdy
+- Vyššia frekvencia údržy ako bubnové
+- Viac náchylné na koróziu a znečistenie
+- Hlučnejšie (niekedy vedia pri brzdení pískať)
 
 ## Rozdelenie
 
@@ -32,40 +32,74 @@ Kotúčové brzdy sa rozdeľujú podľa konštrukcie strmeňa:
 
 ### Kotúčová brzda s pevným strmeňom
 
-**Konštrukcia:**
-S rotujúcim kolesom automobilu je pevne spojený brzdový kotúč. Na oboch stranách kotúča je umiestnený brzdový strmeň, ktorý je pevne pripojený k neotáčajúcej sa časti (napr. náprave). V strmeň je umiestnený hydraulický valček s piestami na oboch stranách kotúča.
+{image of Kotúčová brzda s pevným strmeňom}
 
-**Funkcia:**
-Pri brzdení hydraulická kvapalina pritláča piesty z oboch strán na brzdový kotúč. Brzdové doštičky (obloženie) sa pritláčajú na obe strany kotúča rovnakým tlakom. Keďže strmeň je pevný, potrebujeme dva hydraulické valčeky (po jednom na každú stranu).
+#### Hlavné časti:
+1 - Zavesenie
+2 - Príruba
+3 - Brzdový strmeň
+4 - Brzdové doštičky
+5 - Náboj kolesa
+6 - Brzdový kotúč
+7 - Hydraulický brzdový valček
+8 - Tesnenie
 
-**Výhody:**
-- Rovnomerné rozloženie síl
-- Vhodné pre vysoké zaťaženia
-- Vyššia tuhosť konštrukcie
+{image of Kotúčová brzda s pevným strmeňom with description}
 
-**Nevýhody:**
-- Zložitejšia konštrukcia
-- Vyššia hmotnosť
-- Náchylnejšie na netesnosti (viac tesnení)
+#### Princíp činnosti:
+
+Dva piestiky (alebo viac), ktorých tlak kvapaliny tlačí smerom ku kotúču z jednej a druhej strany. Strmeň je pevne priskrutkovaný k zaveseniu a nepohybuje sa.
+
+#### Výhody:
+- **Rovnomerné opotrebovanie:** Vďaka symetrickému pôsobeniu piestikov sa brzdové doštičky opotrebúvajú rovnomerne na oboch stranách kotúča narozdiel od posuvného streňa, kde sa vždy viac opotrebuje vonkajšia doštička.
+- **Vysoká brzdná sila:** Konštrukcia generuje veľmi vysokú a okamžitú brzdnú silu (vyššiu ako pri posuvnom strmeni s jedným piestikom).
+- **Odolnosť voči deformácii:** Pevná a robustná konštrukcia zabezpečuje minimálnu pružnosť pri vysokom tlaku (lepšie ako posuvný strmeň, ktorý sa môže mierne krútiť kvôli vôli posuvného čapu).
+- **Lepšie odvádzanie tepla:** Väčšia a otvorenejšia konštrukcia umožňuje efektívnejšie chladenie (lepšie ako uzavretejší posuvný strmeň).
+
+#### Nevýhody:
+- **Vyššie výrobné náklady:** Výroba strmeňa s viacerými presne opracovanými otvormi pre piestiky je drahšia.
+- **Väčšia hmotnosť:** Strmene sú spravidla ťažšie, čo negatívne ovplyvňuje jazdné vlastnosti a komfort vozidla (odpruženie musí pracovať s väčšou hmotou).
+- **Horšia údržba:** Výmena piestikov alebo tesnení je náročnejšia a drahšia kvôli ich vyššiemu počtu.
+
+#### Použitie:
+Športové a výkonné automobily, pretekárske vozidlá a motocykle. Všade, kde je požiadavka na maximálnu, spoľahlivú a opakovateľnú brzdnú silu a odolnosť voči vysokému zaťaženiu.
 
 ### Kotúčová brzda s plávajúcim strmeňom
 
-**Konštrukcia:**
-Na rozdiel od pevného strmeňa je plávajúci strmeň uložený pohybove na vodiacich čapoch alebo sánkach. Hydraulický valček s piestom je umiestnený len na jednej strane kotúča.
+{image of Kotúčová brzda s plávajúcim strmeňom}
 
-**Funkcia:**
-Pri brzdení sa hydraulický piest posunie a pritlačí vnútornú brzdovú doštičku na kotúč. Súčasne reakciová sila posunie celý strmeň v opačnom smere, čím sa vonkajšia brzdová doštička pritlačí na druhú stranu kotúča. Vzniká tak brzdný účinok na oboch stranách kotúča pomocou jediného piestu.
+#### Hlavné časti:
+1 - Zavesenie
+2 - Príruba
+3 - Brzdový strmeň
+4 - Brzdové doštičky
+5 - Náboj kolesa
+6 - Brzdový kotúč
+7 - Hydraulický brzdový valček
+8 - Posuvné vedenie strmeňa
+9 - Tesnenie
 
-**Výhody:**
-- Jednoduchšia konštrukcia
-- Menšia hmotnosť
-- Menej tesnení (nižšie riziko netesnosti)
-- Lacnejšia výroba
-- Samočinná kompenzácia opotrebenia
+#### Princíp činnosti:
 
-**Nevýhody:**
-- Vodiacce čapy sa môžu zanášať
-- Potreba pravidelného čistenia a mazania vodiacich častí
-- Možné nerovnomerné opotrebenie doštičiek
+Na jednej strane kotúča sa nachádza jeden piestik (niekedy aj dva). Tlak kvapaliny tlačí piestik a platničku z jednej strany ku kotúču. Kvôli Pascalovmu zákonu sa zároveň celý strmeň posúva po vodiacich čapoch smerom k druhej strane a pritláča druhú platničku.
 
-Axiálna kotúčová brzda s plávajúcim strmeňom je v súčasnosti najrozšírenejším typom kotúčovej brzdy na osobných automobiloch. Radiálna konštrukcia sa používa najmä na motocykloch a športových automobiloch.
+#### Výhody:
+- **Nižšie výrobné náklady:** Konštrukcia s jedným piestikom a posuvným mechanizmom je výrazne lacnejšia na výrobu.
+- **Nižšia hmotnosť:** Strmene sú ľahšie, čo pozitívne vplýva na jazdné vlastnosti a komfort.
+- **Jednoduchá údržba:** Výmena brzdových doštičiek je rýchla a jednoduchá.
+- **Ľahká integrácia parkovacej brzdy:** Konštrukcia umožňuje jednoducho začleniť mechanizmus ručnej brzdy priamo do strmeňa (takmer nemožné pri pevnom strmeni).
+
+#### Nevýhody:
+- **Nerovnomerné opotrebenie:** Platnička na strane piestika sa typicky opotrebúva rýchlejšie ako tá na opačnej strane.
+- **Citlivosť na znečistenie a koróziu:** Vodiace čapy sú vystavené vonkajším vplyvom. Ich zaseknutie v dôsledku korózie alebo nečistôt (napríklad ak sa poškodí prachovka) je pomerne častým problémom, ktorý vedie k trvalému pribrzďovaniu alebo zníženiu brzdnej sily 
+- **Nižšia brzdná sila:** V porovnaní s viacpiestikovými pevnými strmeňmi je generovaná maximálna brzdná sila spravidla nižšia.
+
+#### Použitie
+
+Drvivá väčšina sériovo vyrábaných osobných automobilov na prednej aj zadnej náprave a ľahké úžitkové vozidlá.
+
+Nasledujúce učivo:
+ <br/><br/>
+{{< cards >}}
+  {{< card url="hydraulicky-brzdovy-system" title="Konštrukcia hydraulického brzdového systému" subtitle="Hlavné časti, princíp fungovania, rozdelenie...">}}
+{{< /cards >}}

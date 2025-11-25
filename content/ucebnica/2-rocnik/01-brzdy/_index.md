@@ -14,7 +14,27 @@ Brzdy sú **mechanické zariadenie, ktoré zamedzuje pohybu vozidla absorbovaní
 
 ## Hlavná úloha
 
-Úlohou bŕzd je vozidlo **spomaliť, úplne zastaviť počas jazdy alebo zaistiť proti nežiaducemu rozjazdu po odparkovaní alebo odstavení**. 
+Úlohou bŕzd je vozidlo **spomaliť, úplne zastaviť počas jazdy alebo zaistiť proti nežiaducemu rozjazdu po odparkovaní alebo odstavení**.
+
+## Sily pôsobiace na automobil pri brzdení
+
+Pri brzdení vozidla pôsobí viacero fyzikálnych síl, ktoré ovplyvňujú jeho spomaľovanie a stabilitu. Medzi tie najdôležitejšie patria:
+
+- **Brzdná sila (\(F_{b}\))** je hnacia sila brzdenia, ktorá vzniká trením medzi brzdovými platničkami a kotúčmi (alebo bubnami). Táto sila sa prenáša z kolesa na vozovku, kde spôsobuje spomalenie vozidla. Jej veľkosť závisí od sily, ktorou vodič stlačí pedál, a od stavu brzdového systému.
+- **Trecia sila (\(F_{t}\))** medzi pneumatikou a povrchom vozovky. Toto je skutočná sila, ktorá spomaľuje vozidlo a zabraňuje šmyku.
+  - Počas brzdenia pôsobí v smere proti pohybu vozidla.
+  - Jej maximálna hodnota je obmedzená koeficientom trenia (priľnavosti) medzi pneumatikou a vozovkou, ktorý sa mení v závislosti od stavu vozovky (suchá, mokrá, zasnežená).
+- **Zotrvačná sila (\(F_{z}\))** je reakčná sila, ktorá pôsobí proti zmene pohybu vozidla.
+  - Zabezpečuje, že auto má tendenciu zotrvať v pôvodnom pohybe.
+  - Pri prudkom brzdení sa prejavuje pretláčaním osôb a predmetov vo vozidle smerom dopredu.
+- **Gravitačná sila (\(F_{g}\))** ťahá vozidlo smerom k zemi.
+  - V prípade, že vozidlo brzdí na svahu, má táto sila aj zložku, ktorá ovplyvňuje výsledné spomalenie.
+  - Pri jazde do kopca pomáha brzdiť, zatiaľ čo pri jazde z kopca bráni brzdeniu.
+- **Odpor vzduchu (\(F_{odp}\))** je sila, ktorá pôsobí proti pohybu vozidla.
+  - Rastie s rýchlosťou vozidla, takže je najvýraznejšia pri vyšších rýchlostiach.
+  - Zohráva dôležitú rolu aj pri spomaľovaní pomocou aerodynamických bŕzd.
+  
+Aby bolo brzdenie efektívne, je nevyhnutné, aby trecia sila medzi pneumatikou a vozovkou bola väčšia ako zotrvačná sila, inak by došlo k šmyku. Úlohou moderných asistenčných systémov, ako je ABS, je práve regulácia brzdnej sily, aby sa maximalizovala trecia sila bez straty priľnavosti.
 
 ## Priebeh brzdenia
 
@@ -82,7 +102,6 @@ Tie hlavné sú:
     - nie je možné mať len dve možnosti (brzdiť/nebrzdiť), ale musí byť možné brzdiť slabo, stredne alebo silno podľa potreby
 
 Nasledujúce učivo:
- <br/><br/>
 {{< cards >}}
   {{< card url="bubnove-brzdy" title="Bubnové brzdy" subtitle="Konštrukcia, vlastnosti, výhody, nevýhody, rozdelenie...">}}
 {{< /cards >}}
