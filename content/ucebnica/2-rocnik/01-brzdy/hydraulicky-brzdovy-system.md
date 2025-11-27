@@ -6,39 +6,46 @@ sidebar:
   open: false
 ---
 
-## Časti
+
+## Hlavné časti
 
 Hydraulický brzdový systém sa skladá z nasledujúcich hlavných častí:
 
-1. **Brzdový pedál** - ovládací prvok, ktorým vodič pôsobí silou na brzdový systém
-2. **Hlavný brzdový valec** - pretvára mechanickú silu z pedálu na hydraulický tlak
-3. **Podtlakový posilňovač** - znižuje silu potrebnú na ovládanie brzd
-4. **Brzdové potrubia** - rozvod brzdovej kvapaliny (oceľové potrubia a hadice)
-5. **Brzdové valčeky** - v kolesách, premieňajú hydraulický tlak na mechanickú silu
-6. **Brzdové obloženia** (doštičky alebo čeľuste) - vytvárajú trenie
-7. **Brzdové kotúče/bubny** - rotujúce časti spojené s kolesami
-8. **Brzdová kvapalina** - prenosové médium
+1. **Brzdový pedál**
+2. **Podtlakový posilňovač**
+3. **Hlavný (dvojokruhový) brzdový valec**
+4. **Okruh predných bŕzd**
+5. **Okruh zadných bŕzd**
+6. **Predné brzdy**
+7. **Zadné brzdy**
+8. **Nádržka na brzdovú kvapalinu**
 
-**Funkčný princíp:**
+{image of hydraulic brake system}
+
+## Princíp činnosti:
+
 Keď vodič stlačí brzdový pedál, piest v hlavnom brzdovom valci vytvorí tlak v brzdovej kvapaline. Tento tlak sa prenáša potrubím do brzdových valčekov pri kolesách, kde posúva piesty. Piesty pritláčajú brzdové obloženia na kotúče alebo bubny, čím vzniká trenie a brzdná sila.
 
 ## Usporiadanie brzdových okruhov
 
-Pre zvýšenie bezpečnosti sú moderné brzdové systémy konštruované ako dvojokruhové. Pri poruche jedného okruhu zostáva druhý okruh funkčný. Existuje niekoľko typov usporiadania:
+Ako sme spomínali už v požiadavkách, prevádzková brzda musí mať vždy dva samostatné brzdové okruhy, ktoré môžu byť usporiadané nasledovne:
 
-**1. Hlavný pedálový brzdič (dvojokruhový)**
-- Jeden okruh pre predné kolesá
-- Druhý okruh pre zadné kolesá
-- Nevýhoda: pri poruche predného okruhu sa výrazne znižuje brzdná sila
+**TT usporidanie**
 
-**2. Šikmé (diagonálne) usporiadanie**
-- Jeden okruh: pravé predné + ľavé zadné koleso
-- Druhý okruh: ľavé predné + pravé zadné koleso
-- Výhoda: pri poruche jedného okruhu zostáva brzdná sila lepšie rozložená
-- Najrozšírenejšie usporiadanie na osobných automobiloch
+{image}
 
-**3. Trojokruhové usporiadanie**
-- Používa sa na ťažších vozidlách a SUV
-- Ešte vyššia bezpečnosť
+**Diagonálne usporiadanie**
 
-**Zásuvka ABS na prípojenie prívesu** je dôležitou súčasťou brzdového systému, umožňuje integráciu prívesov do brzdového systému ťažného vozidla.
+{image}
+
+**HT usporiadanie**
+
+{image}
+
+**LL usporiadanie**
+
+{image}
+
+**HH usporiadanie**
+
+{image}

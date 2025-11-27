@@ -99,7 +99,6 @@ Na jednej strane kotúča sa nachádza jeden piestik (niekedy aj dva). Tlak kvap
 Drvivá väčšina sériovo vyrábaných osobných automobilov na prednej aj zadnej náprave a ľahké úžitkové vozidlá.
 
 Nasledujúce učivo:
- <br/><br/>
 {{< cards >}}
   {{< card url="hydraulicky-brzdovy-system" title="Konštrukcia hydraulického brzdového systému" subtitle="Hlavné časti, princíp fungovania, rozdelenie...">}}
 {{< /cards >}}

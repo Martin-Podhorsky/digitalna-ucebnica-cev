@@ -92,7 +92,6 @@ Bubnové brzdy sa rozdeľujú podľa usporiadania čeľustí a ich ovládania:
 | DUO-SERVO | Obojsmerná brzda so spriahnutými čeľusťami | 2 | 2 | Veľmi silný (v oboch smeroch) |
 
 Nasledujúce učivo:
- <br/><br/>
 {{< cards >}}
   {{< card url="kotucove-brzdy" title="Kotúčové brzdy" subtitle="Konštrukcia, vlastnosti, výhody, nevýhody, rozdelenie...">}}
 {{< /cards >}}
