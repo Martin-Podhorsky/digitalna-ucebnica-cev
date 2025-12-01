@@ -49,3 +49,8 @@ Ako sme spomínali už v požiadavkách, prevádzková brzda musí mať vždy dv
 **HH usporiadanie**
 
 {image}
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="brzdovy-posilnovac" title="Brzdový posilňovač" subtitle="Rozdelenie, hlavné časti, princíp fungovania, vlastnosti...">}}
+{{< /cards >}}

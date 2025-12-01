@@ -6,49 +6,83 @@ sidebar:
   open: false
 ---
 
-ABS (Anti-lock Braking System) je elektronický systém, ktorý zabraňuje zablokovaniu kolies pri brzdení. Blokujúce kolesá strácajú priľnavosť a riaditeľnosť, ABS toto riziko eliminuje.
+ABS (Anti-lock Braking System) je elektronický bezpečnostný systém, ktorý zabraňuje zablokovaniu kolies počas brzdenia. Zablokované kolesá strácajú priľnavosť k vozovke a vozidlo sa stáva neovládateľným - vodič nemôže zmeniť smer jazdy ani pri otáčaní volantom. ABS tento problém rieši automatickou reguláciou brzdného tlaku na jednotlivých kolesách.
 
-### Princíp činnosti
+{image of ABS system}
 
-Na vozovke s rôznym súčiniteľom adhézie na pravej a ľavej strane sa väčšinou preťaže koleso s horšou adhéziou (účinkom diferenciálu). Prenášaný hnací moment nestačí na rozbehof vozidla. Pri prekĺze hnacej kolesokolesa v zákrute (pri zhoršenej adhézii) môže nastať šmyk vozidla s nepriaznivými následkami.
+## História
 
-**Časti ABS systému:**
-- **Snímače otáčok** - na každom kolese, merajú rýchlosť otáčania
-- **Elektronická riadiaca jednotka** - vyhodnocuje signály zo snímačov
-- **Elektropneumatický riadiaci ventil** - reguluje brzdný tlak
-- **Elektronický spínač** na rozoznanie jazdy s prívesom
-- **Zásuvka ABS** na pripojenie prívesu
+Prvé pokusy o vývoj systémov zabraňujúcich zablokovaniu kolies siahajú do začiatku 20. storočia. V roku 1920 francúzsky priekopník letectva Gabriel Voisin experimentoval so systémami, ktoré regulovali hydraulický brzdný tlak na jeho lietadlách, aby znížil riziko šmyku pneumatík. Prvé oficiálne uznanie ABS systému prišlo neskôr s nemeckým inžinierom Karlom Wässelom, ktorého systém na moduláciu brzdnej síly bol oficiálne patentovaný v roku 1928.
 
-**Spôsoby regulácie ABS:**
+Moderný plne elektronický antiblokovací brzdový systém bol vyvinutý koncom 60. rokov pre lietadlo Concorde. V roku 1971 spoločnosť Chrysler v spolupráci s Bendix Corporation uviedla na trh počítačom riadený trojkanálový štvorsnímačový systém "Sure Brake" pre model Imperial. V tom istom roku predstavil aj Ford systém "Sure-Track" a Nissan ponúkol elektronický ABS vyvinutý spoločnosťou Denso, čím sa stal prvým elektronickým ABS v Japonsku.
 
-1. **IR - Individuálna regulácia**
-Skladá sa z dvoch snímačov, dvoch riadiacich ventilov, riadiacej jednotky. Je výhodné brzdení, keď ľavé a pravé koleso idú po rozličnej podložke.
+Systém ABS bol vynájdený v roku 1971 Mariom Palazzettim (známym ako 'Mister ABS') vo výskumnom centre Fiat. Patent bol predaný spoločnosti Bosch, ktorá ho pomenovala ABS a postupne sa stal štandardom takmer v každom automobile.
 
-2. **MAR - Modifikovaná nápravová regulácia (2S/1M)**
-Skladá sa z dvoch snímačov, Jedného riadiaceho ventilu, riadiacej jednotky. Uspešnejší systém, ale keď kolesá idú po nerovnakom povrchu, brzdný tlak sa pri nižšom kolese skôr súčiniteľom adhézie. Brzdný tlak je menej ako hodnota, ktorá bude zodpovedajúcom hodnote nastavenia, predpísanej výrobcom vozidla. Brzdný tlak je nižší, brzdná dráha sa predĺži oproti IR.
+## Princíp činnosti
 
-3. **MSR - Modifikovaná stranová regulácia (4S/2M)**
-Skladá sa z štyroch snímačov, dvoch regulačných ventilov, riadiacej jednotky. Pracuje obdobne ako MAR. Na viacnápravových brzdových systémoch sa tieto spôsoby vhodne kombinujú.
+Systém ABS neustále monitoruje rýchlosť otáčania každého kolesa pomocou snímačov. Tieto údaje porovnáva elektronická riadiaca jednotka (ECU) s aktuálnou rýchlosťou vozidla a rýchlosťou ostatných kolies. 
 
-**Funkčný cyklus ABS:**
-1. Vodič stlačí brzdový pedál
-2. Snímače detegujú spomaľovanie kolies
-3. Ak hrozí zablokovanie, ECU aktivuje ventily
-4. Brzdný tlak sa: 
-   - Drží konštantný (udržiavacia fáza)
-   - Znižuje (odľahčovacia fáza)
-   - Opäť zvyšuje (zvyšovacia fáza)
-5. Cyklus sa opakuje 4-15x za sekundu
+Keď ECU zistí, že niektoré koleso sa spomaľuje rýchlejšie než ostatné (hrozí zablokovanie), okamžite zníži brzdný tlak na tomto kolese pomocou hydraulických ventilov. Tým umožní kolesu opätovne sa roztočiť a obnoviť priľnavosť k vozovke. Akonáhle sa koleso znovu roztočí, systém opäť zvýši brzdný tlak. Tento proces sa opakuje niekoľkokrát za sekundu, čím sa zabezpečí optimálna brzdná sila bez straty ovládateľnosti vozidla.
 
-**Výhody ABS:**
-- Zachovanie riaditeľnosti počas brzdenia
-- Skrátenie brzdnej dráhy na väčšine povrchov
-- Stabilita vozidla pri brzdení
-- Možnosť brzdenia a riadenia súčasne
-- Rovnomerné opotrebenie pneumatík
+Vodič tento proces vníma ako pulzovanie brzdového pedála a charakteristický zvuk z podvozku.
 
-**Nevýhody ABS:**
-- Predĺžená brzdná dráha na štrku, snehu a ľade (oproti zablokovaným kolesám)
-- Vyššia cena
-- Zložitejšia konštrukcia
-- Potreba servisu špecializovanými pracovníkami
+### Funkčný cyklus ABS:
+
+1. **Normálne brzdenie** - Vodič stlačí brzdový pedál, brzdný tlak sa zvyšuje vo všetkých kolesách.
+
+2. **Detekcia hrozby zablokovania** - Snímače detegujú, že niektoré koleso sa spomaľuje príliš rýchlo oproti ostatným.
+
+3. **Udržiavacia fáza** - ECU aktivuje ventily a brzdný tlak sa drží konštantný, aby sa zabránilo ďalšiemu spomaleniu kolesa.
+
+4. **Odľahčovacia fáza** - Ak koleso stále spomaľuje, systém zníži brzdný tlak, čím umožní kolesu opätovne sa roztočiť.
+
+5. **Zvyšovacia fáza** - Po obnovení rotácie kolesa systém opäť postupne zvyšuje brzdný tlak.
+
+6. **Opakovanie cyklu** - Celý proces sa opakuje 4 až 15-krát za sekundu, až kým trvá brzdenie.
+
+## Hlavné časti
+
+{image of ABS components}
+
+### 1. Snímače otáčok kolies
+
+Sú umiestnené pri každom kolese a merajú rýchlosť jeho otáčania. Najčastejšie ide o magnetické alebo indukčné snímače, ktoré snímajú otáčanie ozubeného kotúča spojeného s kolesom. Signál zo snímača je posielaný do riadiacej jednotky.
+
+### 2. Elektronická riadiaca jednotka (ECU)
+
+Predstavuje "mozog" systému ABS. Neustále vyhodnocuje signály zo všetkých snímačov otáčok a vypočítava, či niektoré koleso nehrozí zablokovať. Na základe týchto výpočtov posiela príkazy hydraulickej jednotke na reguláciu brzdného tlaku. Moderné ECU dokážu vykonať tisíce výpočtov za sekundu.
+
+### 3. Hydraulická riadiaca jednotka (HCU)
+
+Obsahuje elektromagnetické ventily a čerpadlo. Ventily regulujú tok brzdovej kvapaliny k jednotlivým kolesám podľa pokynov ECU. Čerpadlo slúži na obnovenie tlaku v systéme po odľahčovacej fáze. Táto jednotka je zvyčajne integrovaná s hlavným brzdovým valcom alebo umiestnená v jeho blízkosti.
+
+### 4. Varovná kontrolka
+
+Kontrolka na prístrojovej doske informuje vodiča o stave systému. Pri štarte vozidla sa kontrolka rozsvietí na niekoľko sekúnd (samodiagnostika), potom zhasne. Ak zostane svietiť alebo sa rozsvieti počas jazdy, signalizuje poruchu systému ABS.
+
+### 5. Doplnkové komponenty
+
+- **Elektronický spínač** - na rozoznanie jazdy s prívesom (upravuje citlivosť systému)
+- **Zásuvka ABS** - na pripojenie prívesu s kompatibilným brzdovým systémom
+- **Poistky a relé** - ochrana elektrických obvodov systému
+
+## Výhody ABS:
+
+- **Zachovanie riaditeľnosti** - aj počas prudkého brzdenia môže vodič ovládať smer jazdy, pretože kolesá sa neblokujú a pneumatiky si udržiavajú priľnavosť k vozovke
+- **Skrátenie brzdnej dráhy** - na suchých a mokrých povrchoch dokáže ABS skrátiť brzdnú dráhu oproti vozidlám bez tohto systému, pretože optimalizuje brzdnú silu
+- **Stabilita vozidla** - vozidlo zostáva stabilné a nepodliehá šmyku ani vybočovaniu z dráhy
+- **Možnosť brzdenia a riadenia súčasne** - vodič môže brzdiť naplno a zároveň sa vyhýbať prekážkam
+- **Rovnomerné opotrebenie pneumatík** - zabránením zablokovania kolies sa znižuje nerovnomerné opotrebenie pneumatík
+- **Zníženie stresu vodiča** - vodič nemusí ovládať techniku kadencovaného brzdenia, systém to robí automaticky
+
+## Nevýhody ABS:
+
+- **Predĺžená brzdná dráha na sypkých povrchoch** - na štrku, hlbokom snehu alebo ľade môže byť brzdná dráha dlhšia ako pri zablokovaných kolesách, ktoré by sa "zakopali" do podkladu. Napriek tomu ABS zachováva ovládateľnosť vozidla.
+- **Vyššia obstarávacia cena** - vozidlá s ABS sú drahšie na výrobu a tým pádom aj na nákup
+- **Zložitejšia konštrukcia** - systém obsahuje množstvo elektronických a hydraulických komponentov, čo zvyšuje komplexnosť
+- **Potreba špecializovaného servisu** - diagnostika a oprava vyžaduje špecializované zariadenia a vyškolených technikov
+- **Falošný pocit bezpečnosti** - niektorí vodiči sa spoliehajú na ABS a podceňujú bezpečnú vzdialenosť alebo prispôsobenie rýchlosti podmienkam
+
+## Legislatíva
+
+V Európskej únii je systém ABS povinnou výbavou všetkých nových osobných automobilov od roku 2004. Od roku 2016 musia byť všetky nové motocykle s objemom valcov nad 125 cm³ vybavené systémom ABS alebo kombinovaným brzdovým systémom (CBS). V mnohých krajinách sa ABS stal štandardom bezpečnosti a jeho prítomnosť výrazne prispieva k zníženiu počtu dopravných nehôd.

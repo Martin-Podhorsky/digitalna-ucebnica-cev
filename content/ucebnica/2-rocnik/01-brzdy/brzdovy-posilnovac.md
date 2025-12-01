@@ -6,52 +6,59 @@ sidebar:
   open: false
 ---
 
+Brzdový posilňovač je zariadenie zosilňujúce silu, ktorú vodič vyvinie stlačením brzdového pedálu pri brzdení. Tím pádom taktiež znižuje silu, ktorú musí vodič pri brzdení na pedál vyvinúť. Zosílenie býva zvyčajne od 300% do 500%.
+
 ## Podtlakový brzdový posilňovač
 
-Podtlakový brzdový posilňovač znižuje silu, ktorú musí vodič vynaložiť na brzdový pedál, čím zvyšuje komfort a bezpečnosť brzdenia. Využíva podtlak vytvorený v sacom potrubí motora.
+Tento typ brzdového posilňovača využíva na zosílenie podtlak vytvorený v sacom potrubí motora (alebo vo výveve).
 
-**Konštrukcia:**
-- Membrána delí teleso na dve komory
-- Jedna komora je trvalo spojená s podtlakom zo sání motora
-- Druhá komora je spojená s atmosférou cez riadiaci ventil
-- Piest spojený s brzdovým pedálom
+### Hlavné časti:
 
-**Princíp činnosti:**
-Keď vodič nestláča pedál, obe komory sú spojené s podtlakom a posilňovač nepôsobí. Pri stlačení pedála sa do druhej komory vpustí atmosférický tlak. Rozdiel tlakov (podtlak vs. atmosférický tlak) vytvára veľkú silu na membráne, ktorá pomáha stláčať piest hlavného brzdového valca.
+{image of vacuum brake booster}
 
-**Pomer zosilnenia:** typicky 3:1 až 5:1, čo znamená, že posilňovač znásobí silu vodiča 3 až 5-krát.
+1 - Podltlaková prípojka
+2 - Pružina
+3 - Membrána
+4 - Piest
+5 - Podtlakový ventil
+6 - Piestnica
+7 - Brzdový pedál
+8 - Tlačná tyč
+9 - Reakčný kotúč
+10 - Vložka ventila
+11 - Pracovná komora
+12 - Tanierový ventil
+13 - Atmosferický ventil
+14 - Tlačná pružina
+15 - Čistič
+16 - Podtlaková komora
 
-**Výhody:**
-- Výrazné zníženie sily potrebnej na brzdenie
-- Plynulé dávkovanie brzdnej sily
-- Funčnosť aj pri poruche (bez zosilnenia)
-- Spoľahlivosť
 
-**Nevýhody:**
-- Závislosť od podtlaku motora
-- Pri vypnutom motore obmedzenený počet brzdení s posilňovačom
-- Na dieslových motoroch potreba vákuovej pumpy
+### Princíp činnosti:
+
+Keď vodič nestláča pedál, v podtlakovej aj v pracovnej komore je rovnaký tlak (podtlak). Pri stlačení pedála sa do druhej komory vpustí atmosférický tlak. Rozdiel tlakov (podtlak vs. atmosférický tlak) vytvára veľkú silu na membráne, ktorá pomáha stláčať piest hlavného brzdového valca.
 
 ## Elektronicky riadený podtlakový brzdový posilňovač (BAS)
 
-BAS (Brake Assist System) je systém núdzového brzdného asistenta, ktorý rozpoznáva núdzové brzdenie a automaticky zvyšuje brzdný tlak na maximum.
+Mnoho vodičov pri kritických situáciach reaguje síce rýchlo, ale brzdový pedál nezošliapnu dostatočnou silou. To má za následok to, že sa v brzdovom systéme nevyvinie dostatočný tlak a výrazne sa predĺži brzdná dráha. Elektronicky riadený podtlakový posilňovač sa snaží tento problém vyriešiť tým, že v takýchto prípadoch zabezpečí maximálny brzdný účinok.
 
-**Princíp činnosti:**
-Systém vyhodnocuje rýchlosť stláčania brzdového pedála. Pri zistení náhlého, rýchleho stlačenia (typické pre núdzovú situáciu) systém automaticky:
-- Zvyšuje brzdný tlak na maximum
-- Aktivuje plnú brzdnú silu rýchlejšie, než by to dokázal vodič
-- Skracuje brzdnú dráhu
+### Hlavné časti:
 
-**Komponenty:**
-- Snímaš pohybu pedála
-- Elektronická riadiaca jednotka
-- Elektromagnetický ventil
-- Prepojenie s ABS
+{image of vacuum brake booster}
 
-**Výhody:**
-- Skrátenie brzdnej dráhy v núdzových situáciách
-- Kompenzácia nedostatočnej sily vodiča pri núdzovom brzdení
-- Automatická aktivácia (nevyžaduje zásah vodiča)
-- Integrácia s ABS a ESP systémami
+1 - Snímač polohy pracovného piestu
+2 - Membrána
+3 - Magnet
+4 - Vypínač systému
+5 - Pracovná komora
+6 - Podtlaková komora
+7 - Riadiaca jednotka
 
-Študie ukázali, že mnohí vodiči v núdzových situáciách nestláčajú brzdový pedál dostatočne silno. BAS tento problém rieši automatickou aktiváciou maximálneho brzdného tlaku.
+### Princíp činnosti:
+
+Systém vyhodnocuje rýchlosť stláčania brzdového pedála. Pri zistení náhlého, rýchleho stlačenia (typické pre núdzovú situáciu) systém automaticky zvyšuje brzdný tlak na maximum.
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="ABS" title="Systém ABS" subtitle="Princíp činnosti, význam, konštrukcia...">}}
+{{< /cards >}}
