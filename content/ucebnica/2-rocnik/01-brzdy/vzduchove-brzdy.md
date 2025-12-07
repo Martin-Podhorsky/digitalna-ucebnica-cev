@@ -1,73 +1,83 @@
 ---
-title: "Vzduchové brzdy"
-weight: 6
+title: "Vzduchotlakové (strojové) brzdy"
+weight: 8
 type: docs
 sidebar:
   open: false
 ---
 
-## Vzduchové brzdy (strojové)
+Vzduchotlakový brzdový systém je typ brzdy, pri ktorom sa na ovládanie bŕzd používa stlačený vzduch namiesto brzdovej kvapaliny. Používajú sa na ťažkých nákladných vozidlách, autobusoch a súpravách s prívesmi, kde hydraulický systém by nevyvinul dostatočnú brzdnú silu.
 
-Vzduchové brzdy sa používajú predovšetkým na ťažkých úžitkových vozidlách, autobusoch a prívesoch. Využívajú stlačený vzduch ako médium pre prenos brzdnej sily.
+{image of air brake system}
 
-### Konštrukcia
+## Princíp činnosti
 
-Vzduchová brzdová sústava sa skladá z:
+Typický prevádzkový tlak je približne 6,9 až 8,3 bar (100-120 psi). Systém je rozdelený na **zásobovací systém** (výroba a skladovanie vzduchu) a **riadiaci systém** (ovládanie bŕzd).
 
-**Hlavné časti:**
-1. **Kompresor** - vyr ába stlačený vzduch, poháňaný motorom
-2. **Regulátor tlaku** - udržiava konštantný tlak v systéme (typicky 8 barov = 0,8 MPa)
-3. **Zásobníky vzduchu** (vzduch ojemy) - uchovávajú stlačený vzduch
-   - Hlavný zásobník
-   - Prídavné zásobníky
-4. **Brzdový ventil** (brzdová páka/pedál) - ovládaný vodičom
-5. **Ventily rôznych typov:**
-   - Trojcestný ventil
-   - Jednocestný ventil
-   - Odvzdušňovací ventil
-   - Odkaľovací ventil
-6. **Brzdové valce:**
-   - Membrá nové brzdové valce (pri kolesiach)
-   - Piestové brzdové valce
-7. **Manometre** - ukazovatele tlaku v systéme
-8. **Potrubia a hadice** - rozvod stlačeného vzduchu
+### Prevádzková brzda:
 
-### Vlastnosti
+Keď vodič stlačí brzdový pedál, vzduch pod tlakom je vedený zo zásobníka do brzdových komôr pri kolesách. Tlak vzduchu posunie membrány alebo piesty, ktoré pritlačia brzdové platničky alebo čeľuste na kotúče/bubny. Po uvoľnení pedála sa stlačený vzduch vypustí do atmosféry a vratné pružiny odtiahnu brzdy.
 
-**Výhody vzduchových bŕzd:**
-- Veľká brzdná sila pri relatívne malej ovládacej sile
-- Vhodné pre ťažké vozidlá a súpravy
-- Jednoduchšie pripojenie prívesov (vzduchové spojky)
-- Spoľahlivosť pri ťažkých prevádzkových podmienkach
-- Žiadna brzdová kvapalina (odolnosť voči teplotám)
-- Možnosť zásoby energie (vzduchojemy)
+### Parkovacie brzdy:
 
-**Nevýhody vzduchových bŕzd:**
-- Zložitejšia konštrukcia
-- Vyššia hmotnosť systému
-- Pomalšia odozva (kompresibilita vzduchu)
-- Potreba údržby (vypúšťanie kondenzátu)
-- Nebezpečenstvo zamrznutia kondenzátu v zime
-- Hlučnosť pri vypúšťaní vzduchu
-- Nákladnejšia konštrukcia
+Parkovacie brzdy fungují opačne - sú držané v zapnutej polohe silnou pružinou. Vzduch pod tlakom stláča pružinu a uvoľňuje brzdu. Pri stlačení ovládacej páky sa vzduch vypustí a pružina zabrzdi vozidlo. **Náhla strata tlaku vzduchu má za následok okamžité zapnutie parkovacej brzdy** - dôležitá bezpečnostná funkcia.
 
-### Princíp činnosti
+## Hlavné časti
 
-1. **Kompresor** neustále dopĺňa vzduch do zásobníkov
-2. **Regulátor tlaku** zabezpečuje konštantný tlak (8 barov)
-3. Pri stlačení brzdového pedála sa:
-   - Otvorí prívod stlačeného vzduchu k brzdovým valcom
-   - Stlačený vzduch posunie membrány/piesty v brzdových valcoch
-   - Brzd ové čeľuste sa pritlačia na bubny
-4. Pri uvoľnení pedála:
-   - Uzatvára sa prívod vzduchu
-   - Otvára sa vypúšťací ventil
-   - Vzduch uniká do atmosféry
-   - Vratné pružiny odťahujú čeľuste
+{image of air brake components}
 
-**Dvojokruhová vzduchotlaková sústava:**
-Pre bezpečnosť sú moderné systémy dvojokruhové:
-- Prvý okruh: predná náprava + časť zadnej nápravy
-- Druhý okruh: zvyšok zadnej nápravy + prívesy
+### Zásobovací systém:
 
-Pri poruche jedného okruhu zostáva druhý okruh funkčný.
+1. **Kompresor vzduchu** - vyrába stlačený vzduch, poháňaný motorom
+2. **Regulátor tlaku** - udržiava konštantný tlak v systéme (typicky 6,9-8,3 bar)
+3. **Sušička vzduchu** - odstraňuje vlhkosť a olejové nečistoty
+4. **Zásobníky vzduchu** (vzduchojemy):
+   - Hlavný zásobník (mokrá nádrž) - zhromažďuje olej a vodu z kompresora
+   - Prevádzkové zásobníky - primárny zdroj pre brzdy
+5. **Štvorkanálový ochranný ventil** - distribuuje vzduch do jednotlivých okruhov
+
+### Riadiaci systém:
+
+6. **Brzdový pedál (nožný ventil)** - ovláda tok vzduchu do brzdových komôr
+7. **Ovládací ventil parkovacej brzdy** - páka alebo tlačidlo v kabíne
+8. **Brzdové komory:**
+   - Membránové komory (prevádzkové brzdy)
+   - Pružinové komory (parkovacie brzdy)
+9. **Relé ventily** - zlepšujú rýchlosť odozvy systému
+10. **Manometre** - ukazovatele tlaku v systéme
+11. **Varovné zariadenia** - svetelné/zvukové upozornenia pri poklese tlaku
+12. **Potrubia a hadice** - rozvod stlačeného vzduchu
+
+## Výhody vzduchotlakových bŕzd:
+
+- **Veľká brzdná sila** - dokážu zastaviť veľmi ťažké vozidlá
+- **Jednoduchšie pripojenie prívesov** - vzduchové spojky sú spoľahlivejšie ako hydraulické
+- **Žiadna brzdová kvapalina** - odolnosť voči vysokým teplotám, nevrie, nemrzne
+- **Zásoba energie** - vzduchojemy umožňujú niekoľko brzdení aj po vypnutí motora
+- **Automatická parkovacia brzda** - pri strate tlaku sa automaticky zapne
+- **Spoľahlivosť** - robustný systém odolný voči ťažkým podmienkam
+
+## Nevýhody vzduchotlakových bŕzd:
+
+- **Pomalšia odozva** - vzduch je stlačiteľný, preto je odozva pomalšia ako pri hydraulických brzdách
+- **Zložitejšia konštrukcia** - viac komponentov ako pri hydraulickom systéme
+- **Vyššia hmotnosť** - kompresor a zásobníky pridávajú hmotnosť
+- **Potreba pravidelnej údržby** - vypúšťanie kondenzátu zo zásobníkov
+- **Nebezpečenstvo zamrznutia** - vlhkosť vo vzduchu môže zamrznúť a zablokovať ventily
+- **Hlučnosť** - charakteristický zvuk pri vypúšťaní vzduchu
+- **Vyššie náklady** - drahšia výroba a údržba
+
+## Dvojokruhová vzduchotlaková sústava
+
+Pre bezpečnosť sú moderné vzduchotlakové brzdové systémy vždy dvojokruhové - majú dva nezávislé brzdové okruhy s oddelenými zásobníkmi.
+
+**Typické usporiadanie:**
+- **Primárny okruh:** zadná náprava ťahača
+- **Sekundárny okruh:** predná náprava ťahača + brzdy prívesa
+
+Pri poruche jedného okruhu zostáva druhý plne funkčný. Štvorkanálový ochranný ventil automaticky izoluje poškodený okruh, čím sa zabráni strate tlaku v celom systéme.
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="02-pruzenie-tlmenie/_index" title="Pruženie a Tlmenie" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}
+{{< /cards >}}

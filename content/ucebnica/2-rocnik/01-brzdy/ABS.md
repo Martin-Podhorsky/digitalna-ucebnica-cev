@@ -10,14 +10,6 @@ ABS (Anti-lock Braking System) je elektronický bezpečnostný systém, ktorý z
 
 {image of ABS system}
 
-## História
-
-Prvé pokusy o vývoj systémov zabraňujúcich zablokovaniu kolies siahajú do začiatku 20. storočia. V roku 1920 francúzsky priekopník letectva Gabriel Voisin experimentoval so systémami, ktoré regulovali hydraulický brzdný tlak na jeho lietadlách, aby znížil riziko šmyku pneumatík. Prvé oficiálne uznanie ABS systému prišlo neskôr s nemeckým inžinierom Karlom Wässelom, ktorého systém na moduláciu brzdnej síly bol oficiálne patentovaný v roku 1928.
-
-Moderný plne elektronický antiblokovací brzdový systém bol vyvinutý koncom 60. rokov pre lietadlo Concorde. V roku 1971 spoločnosť Chrysler v spolupráci s Bendix Corporation uviedla na trh počítačom riadený trojkanálový štvorsnímačový systém "Sure Brake" pre model Imperial. V tom istom roku predstavil aj Ford systém "Sure-Track" a Nissan ponúkol elektronický ABS vyvinutý spoločnosťou Denso, čím sa stal prvým elektronickým ABS v Japonsku.
-
-Systém ABS bol vynájdený v roku 1971 Mariom Palazzettim (známym ako 'Mister ABS') vo výskumnom centre Fiat. Patent bol predaný spoločnosti Bosch, ktorá ho pomenovala ABS a postupne sa stal štandardom takmer v každom automobile.
-
 ## Princíp činnosti
 
 Systém ABS neustále monitoruje rýchlosť otáčania každého kolesa pomocou snímačov. Tieto údaje porovnáva elektronická riadiaca jednotka (ECU) s aktuálnou rýchlosťou vozidla a rýchlosťou ostatných kolies. 
@@ -86,3 +78,8 @@ Kontrolka na prístrojovej doske informuje vodiča o stave systému. Pri štarte
 ## Legislatíva
 
 V Európskej únii je systém ABS povinnou výbavou všetkých nových osobných automobilov od roku 2004. Od roku 2016 musia byť všetky nové motocykle s objemom valcov nad 125 cm³ vybavené systémom ABS alebo kombinovaným brzdovým systémom (CBS). V mnohých krajinách sa ABS stal štandardom bezpečnosti a jeho prítomnosť výrazne prispieva k zníženiu počtu dopravných nehôd.
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="ASR" title="Regulácia preklzu kolies (ASR)" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}
+{{< /cards >}}

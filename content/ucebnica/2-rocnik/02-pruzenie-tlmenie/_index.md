@@ -6,29 +6,25 @@ sidebar:
   open: false
 ---
 
-Pojem "pruženie a tlmenie vozidla" odkazuje na súbor komponentov, ktoré spájajú karosériu (alebo rám) vozidla s nápravou tak, že umožnujú ich vzájomnému pohybu.
-
-Pruženie a tlmenie zabezpečuje:
-1. **Bezpečnosť** - zabezpečuje stály styk kolies s vozovkou, zabraňujúc prešmyku
-2. **Ochranu vozidla** - zachytáva vačšinu a absorbuje väčšinu otrasov, takže len minimum sa prenáša na samotnú karosériu (alebo rám), čím sa predlžuje jej životnosť
-3. **Komfort vodiča počas jazdy**
-
-**Hlavné úlohy pruženia:**
-1. Zabezpečiť komfort cestujúcich (znižiť nepohodlie pri jazde po nerovnostiach)
-2. Chrániť náklad a vozidlo pred poškodením
-3. Udržiavať kolesá v kontakte s vozovkou
-4. Zabezpečiť stabilitu a riaditeľnosť vozidla
+Pojem "pruženie a tlmenie vozidla" odkazuje na súbor komponentov, ktoré spájajú karosériu (alebo rám) vozidla s nápravou tak, že umožnujú ich vzájomné pohybovanie sa.
 
 ## Požiadavky kladené na pruženie a tlmenie
 
-1. **Komfort** - mäkké pruženie pre pohodlnú jazdu
-2. **Bezpečnosť** - zachovanie kontaktu kolies s vozovkou
-3. **Stabilita** - minimalizácia náklonu karosérie v zákrutách
-4. **Riaditeľnosť** - zachovanie presnej reakcie na pohyb volantu
-5. **Odolnosť** - dlhá životnosť komponentov
-6. **Nízka hmotnosť neodpružených hmôt** - zlepšenie jazdných vlastností
+1. **Stály kontakt kolies s vozovkou** - kolesá musia zostávať v neustálom kontakte s povrchom cesty pri akýchkoľvek jazdných podmienkach. Toto je nevyhnutné pre efektívne brzdenie, riadenie a prenos hnacích síl.
 
-Pruženie a tlmenie musia byť v správnom pomere. Príliš mäkké pružiny s nedostatočným tlmením vedú k náchylnosti na kmitanie (vozidlo sa "hojdá"). Príliš tuhé pružiny s prílišným tlmením vedú k nepohodlnej jazde a horšej priľnavosti kolies.
+2. **Absorpcia nerovností vozovky** - pruženie musí efektívne absorbovať nerovnosti, výmole a vibrácie z povrchu cesty, čím znižuje prenos otrasov na karosériu vozidla a jeho posádku.
+
+3. **Stabilita a ovládateľnosť vozidla** - správne navrhnuté pruženie a tlmenie minimalizuje nakláňanie karosérie pri zatáčaní, zrýchľovaní a brzdení, čím zlepšuje stabilitu a ovládateľnosť vozidla.
+
+4. **Komfort jazdy** - systém musí izolovať posádku od nepríjemných vibrácií a otrasov, čím zabezpečuje pohodlnú jazdu.
+
+5. **Prispôsobivosť zaťaženiu** - systém musí byť schopný prispôsobiť sa rôznym úrovniam zaťaženia vozidla (počet cestujúcich, náklad) a udržať konzistentný výkon.
+
+6. **Odolnosť a životnosť** - komponenty musia byť odolné voči opotrebeniu, korózii a únavovým zlyhaniam, aby zabezpečili dlhodobú spoľahlivosť.
+
+7. **Nízka hmotnosť** - neodpružená hmotnosť (hmotnosť komponentov pod pružinami) by mala byť čo najnižšia, pretože priamo ovplyvňuje schopnosť kolesa kopírovať nerovnosti vozovky.
+
+8. **Jednoduchá údržba** - systém by mal umožňovať jednoduchú kontrolu a výmenu opotrebovaných dielov.
 
 ## Druhy pruženia
 - Listové pružiny

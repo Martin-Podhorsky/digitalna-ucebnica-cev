@@ -6,17 +6,19 @@ sidebar:
   open: true
 ---
 
-Cieľom učebnice je poskytnúť žiakom informácie potrebné počas všetkých štyroch rokov štúdia odboru Technika a prevádzka dopravy pre predmet Cestné vozidlá v prehľadnej a praktickej podobe na jednom mieste.
+Cieľom učebnice je poskytnúť žiakom informácie potrebné počas všetkých štyroch rokov štúdia odboru 3765 M Technika a prevádzka dopravy pre predmet Cestné vozidlá v prehľadnej a praktickej podobe na jednom mieste.
 
-## Tu si vyber ročník ↓
+## Vyber si ročník ↓
 
 {{< cards >}}
-  {{< card url="1-rocnik" title="1. Ročník" >}}
-  {{< card url="2-rocnik" title="2. Ročník" >}}
-  {{< card url="3-rocnik" title="3. Ročník" >}}
-  {{< card url="4-rocnik" title="4. Ročník" >}}
+  {{< card url="1-rocnik" title="1. Ročník" subtitle="História, automobily, motocykle, karosérie, príslušenstvo vozidiel, rámy, nápravy, kolesá a pneumatiky..." >}}
+  {{< card url="2-rocnik" title="2. Ročník" subtitle="Brzdy, pruženie a tlmenie, riadenie vozidiel, prívesy a návesy..." >}}
+  {{< card url="3-rocnik" title="3. Ročník" subtitle="Rozdelenie spaľovacích motorov, ich konštrukcia, pevné časti, kľukový a rozvodový mechanizmus...">}}
+  {{< card url="4-rocnik" title="4. Ročník" subtitle="Preplňovanie, nasávacie a výfukové potrubie, palivové, mazacie a chladiace sústavy...">}}
 {{< /cards >}}
 
 ## Aktuálny stav
 
-Momentálne učebnica obsahuje len učivo 2. ročníka. Ale ak chceš a cítiš sa na to, máš možnosť pomôcť s dokončením ďalších ročníkov (môžeš to následne použiť ako SOČ). Pre viac informácií kontaktuj pani učiteľku Görögovú alebo Gabaľovú.
+**Momentálne učebnica obsahuje len učivo 2. ročníka.** Ale ak chceš a cítiš sa na to, máš možnosť pomôcť s dokončením ďalších ročníkov, čo môžeš následne použiť ako SOČku. 
+
+Pre viac informácií kontaktuj pani učiteľku Görögovú alebo pani učiteľku Gabaľovú.

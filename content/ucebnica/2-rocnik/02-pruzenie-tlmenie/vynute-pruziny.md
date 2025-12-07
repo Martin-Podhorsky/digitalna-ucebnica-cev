@@ -6,50 +6,50 @@ sidebar:
   open: false
 ---
 
-inuté (skrutné) pružiny sa v súčasnosti používajú najčastejšie na osobných automobiloch.
+Vinuté pružiny sa v súčasnosti používajú najčastejšie u osobných automobiloch. Vďaka svojim vlastnostiam sú ideálne pre nezávislé zavesenie kolies, kde sa často kombinujú s tlmičmi v zostave typu McPherson.
 
 ## Konštrukcia
 
-Skrutné tyče sa navíjajú najčastejšie kruhový prierez, ktorý je na oboch koncoch zosilnený, a majú jemne drážkovanú hlavicu na upevnenie. Nou sa zachytáva tyče na krut v mieste upevnenia hnať vej časti prevodovky riadenia:
+Vinutá pružina je vyrobená z oceľového drôtu, ktorý je navinutý do tvaru špirály (skrutkovice). Drôt má najčastejšie kruhový prierez, ale môže byť aj oválny alebo obdĺžnikový.
 
-Vinutá pružina je vyrobená z oceľového drôtu kruhového prierezu. Tvar vinutia je taký, aby pri maximálnom stlačení pružiny bola zaručená bezpečná vôľa medzi závitmi, v opačnom prípade by pružina spôsobovala hluk a prenos nárazov priamo na karoserii automobilu.
+Tvar vinutia je navrhnutý tak, aby pri maximálnom stlačení pružiny bola zaručená bezpečná vzdialenosť medzi závitmi. Ak by sa závity pri stlačení dotýkali, pružina by spôsobovala hluk a prenášala nárazy priamo na karosériu vozidla.
 
-**Vlastnosti drôtu pružiny:**
-- Prierez: kruhový (najčastejšie)
-- Materiál: legovaná oceľ, chróm alebo vanád
-- Tepelné spracovanie: kalenie a popúšťanie
-- Povrchová úprava: zábrusenie, niekedy povrchové kalenie
+**Parametre ovplyvňujúce tuhosť pružiny:**
+- **Priemer drôtu** - väčší priemer znamená vyššiu tuhosť
+- **Šírka pružiny** - väčšia šírka pružiny znižuje tuhosť
+- **Počet činných závitov** - čím viac závitov, tým menšia tuhosť
+- **Materiál** - uhlíkové alebo legované ocele ponúkajú vysokú pevnosť, znášanlivosť tepla a odolnosť voči námahe, zatiaľ čo nelegované ušlachtilé ocele sú mäkkšie a zvládajú len menšie namáhanie
+- **Tepelné spracovanie** - kalenie, žíhanie a popúšťanie má každé iný dopad na vlastnosti daného materiálu
 
-## Vlastnosti
+## Výhody
+- Nízka hmotnosť v porovnaní s listovými pružinami
+- Kompaktné rozmery a tým pádom aj ľahká integrácia do rôznych typov zavesenia
+- Žiadne vnútorné trenie - na rozdiel od listových pružín nedochádza k opotrebeniu
+- Možnosť lineárneho aj progresívneho pruženia
+- Dlhá životnosť pri správnej povrchovej úprave
+- Minimálna údržba (nevyžadujú mazanie)
+- Vhodné pre masovú výrobu
 
-**Výhody vinutých pružín:**
-- Nízka hmotnosť
-- Kompaktné rozmery
-- Vynikajúce mechanické vlastnosti
-- Žiadne trenie (na rozdiel od listových pružín)
-- Lineárna charakteristika (konštantná tuho sť)
-- Dlhá životnosť
-- Minimálna údržba
-
-**Nevýhody vinutých pružín:**
-- Neprenášajú pozdĺžne sily (potrebné ramená)
-- Nemajú samoťlmiaci účinok (nutnosť tlmičov)
-- Vyššia cena než listové pružiny
-- Zložitejšia integrácia do závesenia
+## Nevýhody
+- Neprenášajú pozdĺžne ani priečne sily - vyžadujú samostatné vedenie nápravy (ramená, vzpery)
+- Nemajú samoťlmiaci účinok - nutnosť použitia tlmičov
+- Citlivosť na koróziu - vyžadujú kvalitnú povrchovú úpravu
+- Nižšia únosnosť než listové pružiny
+- Zložitejšia konštrukcia zavesenia - potreba ďalších komponentov
 
 ## Rozdelenie
 
-Vinuté pružiny môžu byť:
+Vinuté pružiny sa rozdeľujú podľa rôznych kritérií:
 
-1. **Podľa charakteristiky:**
-   - **Lineárne** - konštantný priemer drôtu, konštantné stúpanie závitov
-   - **Progresívne** - premenlivý priemer alebo stúpanie, tunosť sa zvyšuje s zaťažením
+### Podľa charakteristiky:
+- **Lineárne** - konštantný priemer drôtu a rovnomerné stúpanie závitov. Tuhosť je konštantná počas celého zdvihu
+- **Progresívne** - premenlivý priemer drôtu alebo nerovnomerné stúpanie závitov. Tuhosť sa zvyšuje so zaťažením, čo zlepšuje komfort pri malom zaťažení a stabilitu pri veľkom
 
-2. **Podľa tvaru:**
-   - Valcové (cylindrické) - najbežnejšie
-   - Kužeľové (kónické)
-   - Sudovité (bочkaové)
+### Podľa tvaru:
+- **Valcové** - najrozšírenejší typ, rovnaká šírka po celej dĺžke
+- **Kužeľové** - šírka sa zmenšuje smerom k jednému koncu, umožňujú kratšiu zástavbovú dĺžku pri stlačení
+- **Súdkovité** - väčšia šírka v strede, menšia na koncoch, lepšia stabilita
 
-3. **Podľa smeru vinutia:**
-   - Pravotočivé
-   - Ľavotočivé
+### Podľa smeru vinutia:
+- **Pravotočivé** - závity stúpajú v smere hodinových ručičiek
+- **Ľavotočivé** - závity stúpajú proti smeru hodinových ručičiek
