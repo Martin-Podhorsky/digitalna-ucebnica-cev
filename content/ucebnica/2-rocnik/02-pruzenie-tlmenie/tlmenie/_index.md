@@ -6,24 +6,32 @@ sidebar:
   open: false
 ---
 
-### Význam
+Tlmiče sú súčasťou odpruženia vozidla. Slúžia na zabránenie rozkmitania pružín. Pružiny samotné by po prejazde nerovnosťou kmitali ešte dlhú dobu - tlmiče tento pohyb brzdia tým, že premieňajú kinetickú energiu kmitania na teplo.
 
-Pružiny zabezpečujú pruženie (odpruženie) vozidla, ale samotné nezabezpečujú dostatočné tlmenie kmitania. Po prejazde cez nerovnosť by vozidlo s pružinami bez tlmičov dlho kmitalo (hoj dale sa). Tlmenie je preto nevyhnutnou súčasťou odpruženia.
+{image of shock absorber}
 
-**Úloha tlmenia:**
-1. Rýchlo utlmiť kmitanie pružín
-2. Zabrániť dlhodobému kmitaniu karosérie
-3. Udržať kolesá v kontakte s vozovkou
-4. Zlepšiť stabilitu a riaditeľnosť
+## Význam
+
+Bez tlmičov by vozidlo po každej nerovnosti dlho kmitalo, kolesá by odskakovali od vozovky a jazda by bola nekomfortná a nebezpečná.
+
+**Úloha tlmičov:**
+1. Rýchlo utlmiť kmitanie pružín po prejazde nerovnosťou
+2. Zabrániť dlhodobému hojdaniu karosérie
+3. Udržať kolesá v stálom kontakte s vozovkou
+4. Zlepšiť stabilitu a ovládateľnosť vozidla
 5. Zvýšiť komfort jazdy
 
-Pruženie, čiže výkyvy (kmitanie) by bolo nežiadúce. Aby sa výkyvy moh dobre zjazdovať rýchlejšie, musíme výkony z vinutej pružiny tlmiť.
+## Rozdelenie tlmičov:
 
-### Typy tlmičov
+### Podľa konštrukcie:
+- **Dvojplášťové (twin-tube)** - vnútorný a vonkajší valec, jednoduchšia konštrukcia, lacnejšie
+- **Jednoplášťové (mono-tube)** - jeden valec s oddeľovacím piestom, lepšie chladenie, drahšie
 
-Existuje niekoľko typov tlmičov, ale v moderných automobiloch sa takmer výlučne používajú hydraulické teleskopické tlmiče.
+### Podľa tlmiaceho média:
+- **Olejové (hydraulické)** - tlmenie zabezpečuje prietok oleja cez ventily
+- **Plynokvapalinové** - olej + stlačený plyn (dusík), menšia náchylnosť na spenenie oleja
 
-**Rozdelenie:**
-1. Hydraulické tlmiče (najrozšírenejšie)
-2. Pneumatické tlmiče (zriedkavé)
-3. Elektromagnetické tlmiče (moderné, adaptívne systémy)
+### Podľa možnosti nastavenia:
+- **Pasívne** - pevne nastavená charakteristika
+- **Nastaviteľné** - možnosť mechanického nastavenia tuhosti
+- **Adaptívne (elektronicky riadené)** - automatické prispôsobenie tlmenia podľa jazdných podmienok

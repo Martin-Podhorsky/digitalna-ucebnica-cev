@@ -6,32 +6,31 @@ sidebar:
   open: false
 ---
 
-Pružiace vlastnosti gumy sa v motorových vozidlách využívajú na tlmenie kmitajúcich agregátov.
+Gumové pruženie využíva elastické vlastnosti gumy (prírodnej alebo syntetickej) na absorbovanie nárazov a vibrácií. Guma zároveň pôsobí ako tlmič vďaka vnútornému treniu, ktoré premieňa energiu na teplo.
 
-**Konštrukcia:**
-- Gumový blok alebo gumové bloky či paraboly
-- Vulkanizovaný na kovové čapy/dosky
-- Rôzne tvary podľa požiadaviek
+{image of rubber suspension elements}
 
-**Vlastnosti gumy:**
-- Pružné namáhané ťahom podlieh a trvalým deformáciam a je citlivé na vruby, takže nevyhovuje na odpruženie podvozka
-- Pruženie namáhané šmykom má výhodnú charakteristiku a je vhodné len ako pružný doraz
-- Pruženie namáhané tlakom má najlepšie jazdné charakteristiky
+## Výhody:
 
-**Použitie:**
-- Uloženie motora a prevodovky (tlmenie vibrácií)
-- Pomocné pružiny (tzv. buffer)
-- Malé motocykle
-- Nízkorýchlostné vozidlá
+- Samotlmiaci efekt
+- Nízka cena a jednoduchá výroba
+- Tichá prevádzka (izoluje hluk a vibrácie)
+- Jednoduchá konštrukcia bez potreby mazania
+- Odolnosť voči korózii
+- Nízka hmotnosť
 
-**Výhody:**
-- Prirodzené tlmenie (vnútorné trenie gumy)
-- Nízka cena
-- Tichá prevádzka
-- Jednoduchá konštrukcia
+## Nevýhody:
 
-**Nevýhody:**
-- Obmedzen á životnosť (stárnutie gumy)
-- Závislosť vlastností od teploty
-- Nižšia únosnosť
-- Progresívna charakteristika (nie vždy vhodná)
+- Obmedzená životnosť (stárnutie gumy vplyvom UV žiarenia a ozónu)
+- Závislosť vlastností od teploty (tvrdne v mraze, mäkne v teple)
+- Nižšia únosnosť v porovnaní s kovovými pružinami
+- Progresívna charakteristika (tuhosť rastie so stlačením)
+
+## Použitie:
+
+- Uloženie motora a prevodovky (silentbloky na tlmenie vibrácií)
+- Pomocné pružiny (tzv. dorazy alebo buffery)
+- Uloženie náprav a ramien zavesenia
+- Malé motocykle a skútre
+- Nízkorýchlostné vozidlá (napr. vysokozdvižné vozíky)
+

@@ -6,50 +6,75 @@ sidebar:
   open: false
 ---
 
-Pneumatické pruženie využíva stlačený vzduch ako pružiaci médium.
+Pneumatické pruženie je systém odpruženia, ktorý využíva stlačený vzduch uzavretý v pružných vakoch (mechoch) na absorbovanie nerovností vozovky. Na rozdiel od oceľových pružín umožňuje plynulé nastavenie výšky a tuhosti odpruženia podľa aktuálnych podmienok a zaťaženia vozidla.
 
-**Princíp:**
-Automobil odpružený pružinami s lineárnou charakteristikou má frekvenciu kmitania nadstavby závislú od okamžitej hmotnosti vozidla. Ak do toho vz áťahu dosadíme vyššie uvedený počet kmitov, dostaneme potrebné statické prepruženie na klakčí, t.j. 0,25 m. Podstatná časť užitočného zaťaženia prenáša na osobných automobiloch zadná náprava. Následkom toho pri veľkom zaťažení v porovnaní s prázdnym automobilom, klesne karoseria nad zadnou nápravou pri plnom zaťažení o 75 až 100 mm.
+{image of air suspension system}
 
-**Konštrukcia pnematické ho pruženia:**
-- **Vakovápružnice** (vzduchové vaky/mech y) - gumové mešce naplnené stlačeným vzdu chom
-- **Kompresor** - vyrába stlačený vzduch
-- **Zásobník vzduchu** - akumulátor
-- **Regulačný ventil** - udržiava konštantnú výšku vozidla
-- **Riadiaca jednotka** - elektronická regulácia
+## Konštrukcia
 
-**Typy pneumatických pružín:**
+**Hlavné časti pneumatického pruženia:**
+1 - Vzduchové mechy (vaky) - pružné gumové komory naplnené stlačeným vzduchom
+2 - Kompresor - stláča vzduch a dodáva ho do systému
+3 - Sušič - odvádza vlhkosť zo systému (často integrovaný priamo v kompresore)  
+4 - Zásobník vzduchu (akumulátor) - uchováva stlačený vzduch (pre rýchle nastavenie svetlej výšky)
+5 - Vzduchové vedenia - potrubia spájajúce komponenty
+6 - Regulačné ventily - riadia prúdenie vzduchu do jednotlivých mechov
+7 - Snímače výšky - monitorujú polohu karosérie voči kolesám
+8 - Riadiaca jednotka - spracováva údaje a ovláda celý systém
 
-1. **Pneumatická pružina s voľným priestorom na plyn**
-   - Valcová náplň, plyn v nej
-   - Používa sa v kvapaline
-   - Pohybová piest spojená s závesením kolesa
+{image of air suspension components with descriptions}
 
-2. **Pneumatická pružina s oddelením tlakovnou nádobou**
-   - Valec pružiny a tlakový zásobník tvoria jeden celok
-   - Každý váčík vlastní akumulátor
+## Princíp činnosti
 
-3. **Hydropneumatická pružina**
-   - Kombinácia pneumatiky a hydrauliky
+Snímače výšky neustále monitorujú polohu karosérie voči kolesám. Pri zmene zaťaženia alebo prejazde nerovnosťou riadiaca jednotka vyhodnotí údaje a prostredníctvom ventilov upraví tlak vzduchu v mechoch. Zvýšením tlaku sa vozidlo zdvihne a odpruženie stvrdne, znížením tlaku sa vozidlo zníži a odpruženie zmäkne. Tento proces prebieha automaticky a nepretržite.
 
-**Výhody pneumatického pruženia:**
-- Automatické udržiavanie výšky vozidla
-- Možnosť nastavenia tvrdosti
-- Konfort aj pri rôznom zaťažení
-- Samočinná progresívna charakteristika
-- Možnosť manuálnej zmeny výšky
-- Veľmi dobrá izolácia karosérie
+## Výhody:
 
-**Nevýhody:**
-- Vysoká cena
-- Zložitá konštrukcia
-- Vyššie nároky na údržbu
-- Nebezpečenstvo zamrznutia kondenzátu
-- Možnosť porúch elektroniky
-- Opotrebenie gumových vakov
+- Automatické udržiavanie konštantnej výšky vozidla bez ohľadu na zaťaženie
+- Možnosť nastavenia tuhosti odpruženia (komfort/šport)
+- Vysoký komfort jazdy aj pri rôznom zaťažení
+- Progresívna charakteristika (tuhosť rastie so stlačením)
+- Možnosť manuálnej zmeny výšky (napr. pre terén alebo nakladanie)
+- Výborná izolácia karosérie od vibrácií
 
-**Použitie:**
-- Luxusné osobné automobily
-- Autobusy
-- Ťažké nákladné automobily
+## Nevýhody:
+
+- Vysoká cena systému aj údržby
+- Zložitá konštrukcia s množstvom komponentov
+- Možnosť porúch elektroniky, úniku vzduchu alebo zamrznutia kondezovanej vody v systéme
+- Zaberá veľa priestoru
+- Neprenášajú pozdĺžne ani priečne sily - vyžadujú samostatné vedenie nápravy (ramená, vzpery)
+
+## Rozdelenie
+
+### Podľa konštrukcie vzduchových mechov:
+
+1. **Vlnovcové mechy**
+   - Tvar vlnovca (harmoniky)
+   - Väčší zdvih, mäkšia charakteristika
+   - Používané v osobných automobiloch
+
+2. **Valivé mechy**
+   - Valcový tvar s odvaľovaním po pieste
+   - Kompaktnejšia konštrukcia
+   - Používané v nákladných vozidlách a autobusoch
+
+### Podľa typu systému:
+
+1. **Čisto pneumatické pruženie**
+   - Využíva iba stlačený vzduch
+   - Jednoduchšia konštrukcia
+
+2. **Hydropneumatické pruženie**
+   - Kombinácia stlačeného plynu (dusík) a hydraulickej kvapaliny
+   - Plyn slúži ako pružina, kvapalina prenáša sily a tlmí
+   - Známe z vozidiel Citroën (systém Hydractive)
+   - Veľmi vysoký komfort a možnosť regulácie
+
+## Použitie:
+
+- Luxusné osobné automobily (Mercedes-Benz S-Class, Audi A8, Range Rover)
+- Autobusy (komfort cestujúcich a automatické nakláňanie pri nastupovaní)
+- Ťažké nákladné automobily (konštantná výška nakladacej plochy)
 - Prívesy a návesy
+- Terénne vozidlá (nastaviteľná svetlá výška)
