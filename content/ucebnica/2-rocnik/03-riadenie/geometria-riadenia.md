@@ -1,7 +1,7 @@
 ---
 title: "Geometria riadenia kolies"
 type: docs
-weight: 4
+weight: 3
 sidebar:
   open: false
 ---

@@ -27,9 +27,9 @@ Hydraulický posilňovač riadenia využíva tlak hydraulickej kvapaliny (oleja)
 
 ### Princíp činnosti:
 
-1. **Čerpadlo** poháňané motorom vozidla (prostredníctvom klinového remeňa) neustále vytvára tlak hydraulickej kvapaliny.
-2. Pri otočení volantu sa aktivuje **rozvádzací ventil**, ktorý usmerní tlak kvapaliny na jednu stranu piesta v pracovnom valci.
-3. **Pracovný valec** využíva tento tlak na pohyb hrebeňa, čím pomáha pri natáčaní kolies.
+1. Čerpadlo poháňané motorom vozidla (prostredníctvom klinového remeňa) neustále vytvára tlak hydraulickej kvapaliny.
+2. Pri otočení volantu sa aktivuje rozvádzací ventil, ktorý usmerní tlak kvapaliny na jednu stranu piesta v pracovnom valci.
+3. Pracovný valec využíva tento tlak na pohyb hrebeňa, čím pomáha pri natáčaní kolies.
 4. Pri priamej jazde alebo neutrálnej polohe volantu kvapalina voľne cirkuluje a systém neposkytuje zosilnenie.
 
 ### Výhody:
@@ -43,10 +43,13 @@ Hydraulický posilňovač riadenia využíva tlak hydraulickej kvapaliny (oleja)
 ### Nevýhody:
 
 - Závislosť od chodu motora (pri vypnutom motore nefunguje)
-- Vyššia spotreba paliva (čerpadlo beží neustále, aj keď nie je potrebné)
+- Čerpadlo beží neustále, aj keď nie je potrebné
 - Potreba pravidelnej údržby (kontrola a výmena oleja, hadíc)
 - Možné úniky hydraulickej kvapaliny
 - Pri poruche úplná strata posilňovania
+
+### Použitie
+
 
 ## Elektrohydraulický posilňovač riadenia (EHPS)
 
@@ -54,9 +57,9 @@ EHPS kombinuje prvky hydraulického a elektrického systému. Namiesto čerpadla
 
 ### Výhody oproti klasickému HPS:
 
-- Čerpadlo pracuje len keď je potrebné (úspora paliva)
+- Čerpadlo pracuje len keď je potrebné
 - Nezávisí od otáčok motora
-- Možnosť premenlivého posilňovania podľa rýchlosti
+- Možnosť meniť silový účinok posilňovača (zvýšiť alebo znížiť) reguláciou elektrického čerpadla
 
 ### Použitie:
 
@@ -78,14 +81,14 @@ EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou
 
 ### Princíp činnosti:
 
-1. **Snímač krútiaceho momentu** meria silu, ktorou vodič pôsobí na volant.
-2. **Snímač uhla natočenia** určuje polohu a smer otáčania volantu.
-3. **Riadiaca jednotka** vyhodnocuje údaje zo snímačov a z ďalších systémov vozidla (rýchlosť, otáčky motora).
-4. Na základe vyhodnotenia ECU aktivuje **elektromotor**, ktorý poskytuje potrebnú pomocnú silu.
+1. Snímač krútiaceho momentu meria silu, ktorou vodič pôsobí na volant.
+2. Snímač uhla natočenia určuje polohu a smer otáčania volantu.
+3. Riadiaca jednotka vyhodnocuje údaje zo snímačov a z ďalších systémov vozidla (rýchlosť, otáčky motora).
+4. Na základe vyhodnotenia ECU aktivuje elektromotor, ktorý poskytuje potrebnú pomocnú silu.
 
 ### Typy EPS podľa umiestnenia elektromotora:
 
-1. **C-EPS (Column-mounted)** - motor pripojený k stĺpcu riadenia. Používa sa v menších a stredných vozidlách.
+1. **C-EPS (Column-mounted)** - motor pripojený k stĺpiku riadenia. Používa sa v menších a stredných vozidlách.
 2. **P-EPS (Pinion-mounted)** - motor na vstupe prevodovky riadenia (na pastorku). Vhodné pre stredné vozidlá.
 3. **R-EPS (Rack-mounted)** - motor priamo na ozubenú tyč (hrebeň). Používa sa vo väčších vozidlách pre vyšší výkon.
 
