@@ -54,22 +54,26 @@ Riadenie môžeme rozdeliť podľa niekoľkých krytérii:
 
 ### Podľa prenosu energie
 
-- **PRIAME (manuálne)** - na kolesá pôsobí len sila vodiča bez akéhokoľvek zosilnenia. Vyžaduje väčšiu námahu, ale má jednoduchšiu konštrukciu.
-- **NEPRIAME (strojové)** - riadenie je ovládané pomocou stlačeného vzduchu alebo hydrauliky, kde vodič len dáva pokyny. Používa sa pri ťažkých nákladných vozidlách.
-- **KOMBINOVANÉ (posilňované)** - priame riadenie je uľahčené posilňovačom (hydraulickým, elektrickým alebo elektro-hydraulickým). Najrozšírenejší typ v moderných vozidlách.
+- **PRIAME** 
+    - na kolesá pôsobí len sila vodiča bez akéhokoľvek zosilnenia
+    - Vyžaduje väčšiu námahu, ale má jednoduchšiu konštrukciu
+- **NEPRIAME**
+    - riadenie je ovládané pomocou stlačeného vzduchu alebo hydrauliky
+    - Používa sa pri ťažkých nákladných vozidlách
+- **KOMBINOVANÉ (posilňované)**
+    - priame riadenie je uľahčené posilňovačom (hydraulickým, elektrickým alebo elektro-hydraulickým)
+    - Najrozšírenejší typ v moderných vozidlách
 
-### Podľa konštrukcie riadiacich tiahel
+### Podľa konštrukcie
 
 - **S DVOMA ŤAHADLAMI** - používa sa pri tuhých nápravách. Obe kolesá sú spojené priečnou tyčou a riadiace tiahla vedú od mechanizmu priamo k tejto tyči.
+
+{image}
+
 - **SO SPÁJACOU (PRIEČNOU) TYČOU** - kolesá sú spojené jednou priečnou tyčou, ktorá zabezpečuje synchronizovaný pohyb oboch kolies. Typické pre tuhé nápravy.
+
+{image}
+
 - **S RIADIACIMI TYČAMI** - používa sa pri nezávislom zavesení kolies. Každé koleso má vlastnú riadiacu tyč vedenú od hrebeňového mechanizmu.
 
-### Podľa typu mechanizmu
-
-- **So skrutkou a maticou (worm and nut)** - jednoduchý systém, kde skrutka (červík) otáča maticou spojenou s riadiacim ramenom. Používal sa v starších vozidlách.
-
-- **Závitovkový (worm and sector/roller)** - červík spolupracuje so sektorovým ozubeným kolesom alebo valčekom. Odolný systém vhodný pre ťažšie vozidlá.
-
-- **Hrebeňový (rack and pinion)** - najbežnejší typ v moderných osobných vozidlách. Pastorok pripojený k volantu zapadá do ozubeného hrebeňa, čím premieňa rotačný pohyb na lineárny. Vyznačuje sa presnou odozvou a jednoduchou konštrukciou.
-
-- **Recirkulačná guľôčková skrutka (recirculating ball)** - používa sa v ťažších vozidlách (nákladné automobily, SUV, autobusy). Guľôčky medzi skrutkou a maticou znižujú trenie a opotrebenie, čím zabezpečujú dlhšiu životnosť a hladší chod.
+{image}

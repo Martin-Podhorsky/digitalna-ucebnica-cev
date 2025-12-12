@@ -6,80 +6,85 @@ sidebar:
   open: false
 ---
 
-Časti mechanizmu riadenia
+## Hlavné časti
 
-**1. VOLANT A HRIADEĽ VOLANTU**
+### Volant a hriadeľ volantu
 
-Volanty sa vyrábajú lisovaním z plastov na kostru z oceľových drôtov. Stredu volantov sú zapustené, prípadne obložené tlmiacim materiálom kvôli väčšej bezpečnosti vodiča pri nehode. Volanty majú zvyčajne dve alebo tri ramená a ich rozmery sú normalizované. Hriadeľ volantu je dutý a volant je k nemu pripevnený na kužeľ s perom a pritlahnutý maticou. 
+Volant je základný ovládací prvok, ktorým vodič určuje smer jazdy. Jeho základ tvorí pevná kovová kostra (najčastejšie z ľahkej hliníkovej alebo horčíkovej zliatiny), na ktorú je nalisovaná vrstva plastu, polyuretánu alebo kože.
 
-Na zvýšenie bezpečnosti pri náraze vozidla sa vyrábajú viacdelné hriadele volantu a medzi jednotlivé diely sú vložené deformačné členy, alebo je spojenie usporiadané tak, aby pri čelnom náraze hriadeľ so stĺpcom volantu neprenikol proti hrudníku vodiča (lomený hriadeľ s kĺbmi).
+Z bezpečnostných dôvodov je stred volantu zapustený (umiestnený hlbšie oproti vencu, ktorého sa vodič drží). Tento priestor je vyplnený mäkkým tlmiacim materiálom a v moderných vozidlách v ňom takmer vždy nájdeme airbag. Volanty majú štandardizované rozmery a ich stred s obvodovým vencom spájajú zvyčajne dve alebo tri ramená.
 
-{image of Volant s deformačným bezpečnostným prvkom}
+Volant je pevne nasadený na hriadeľ riadenia pomocou jemného drážkovania (tzv. tisíchranu) a zaistený maticou. Hriadeľ spolu s jeho ochranným obalom a kĺbmi tvorí celok, ktorý nazývame stĺpik riadenia.
 
-Hriadeľ volantu vyúsťuje do prevodovky riadenia. Podľa volantu v moderných vozidlách je predstaviteľná, čo zabezpečuje nastavenie takmer ideálnej polohy pre každého vodiča.
+Aby sa pri čelnom náraze zabránilo vniknutiu volantu do kabíny a poraneniu vodiča, stĺpik riadenia je navrhnutý ako bezpečnostný prvok:
+- **Deformačné zóny:** Hriadeľ nie je z jedného kusu, ale skladá sa z viacerých častí spojených kardanovými kĺbmi. Pri náraze sa vďaka nim „zalomí“ mimo priestoru vodiča.
+- **Teleskopická funkcia:** Niektoré časti sa pri silnom tlaku do seba zasunú ako ďalekohľad, čím pohltia energiu nárazu.
 
-**2. PREVODOVKA RIADENIA**
+{image: Schéma stĺpika riadenia s deformačnými prvkami}
 
-Kolesá riadených náprav sú na automobiloch ovládané volantom. Prenos pohybu volantu na kolesá musí byť pritom dostatočné citlivý, aby umožnil presné vedenie automobilu po požadovanej dráhe.
+Okrem bezpečnosti moderné stĺpiky riadenia zvyšujú aj komfort – umožňujú vodičovi nastaviť si polohu volantu výškovo aj pozdĺžne.
 
-Aby automobil nebol na riadanie pohyby priliš citlivý a sily potrebné na riadenie neboli veľké, musí byť otáčavý pohýb volantu v porovnaní s natočením kolies mnohonasobne väčší. To zabezpečuje prevodovka riadenia.
+### Prevodovka riadenia
 
-Prevodový pomer prevodovky riadenia je definovaný:
-- **15:1** znamená napr. že pri 15° otočení volantu sa otočné čapy kolesa s kolesami otočia o 1°
+Prevodovka riadenia má za úlohu premeniť otáčavý pohyb volantu na posuvný pohyb, ktorý následne natáča kolesá. Okrem toho slúži na zväčšenie sily, ktorou vodič pôsobí na volant, aby bolo ovládanie vozidla ľahké a pohodlné.
 
-Prevodový pomer musí byť dimenzovaný tak, aby ovládacia sila na volante pri jazde v kruhu s polomerom 12 m neprevyšovala 250 N. Najčastejšie sú využívané nasledujúce prevodové pomery:
-- na osobných motorových vozidlách 12:1 až 24:1
-- na nákladných motorových vozidlách 25:1 až 40:1
+Prevod medzi volantom a kolesami musí byť nastavený tak, aby bolo riadenie presné, ale zároveň nie príliš citlivé. Vodič by mal mať pocit istoty pri ovládaní vozidla, bez potreby vyvíjať veľkú fyzickú námahu.
 
-Maximálny uhol otočenia a vytočenia kolies je ohraničený dorazom na podvozku. V praxi je bežných 35 a 45° na každú stranu, čo dáva celkový uhol otočenia kolies od 70 do 90°.
+#### Prevodový pomer
 
-{image of Prevodovka riadenia v reze}
+Prevodový pomer nám hovorí, o koľko stupňov musíme otočiť volantom, aby sa kolesá natočili o 1 stupeň. Napríklad ak je prevodový pomer 15:1 znamená to, že pri otočení volantu o 15° sa kolesá natočia o 1°.
 
-Niektoré prevodovky riadenia pracujú s premenlivým prevodovým pomerom, a to tak, že pri priamej jazde je najväčší, aby riadenie nebolo príliš citlivé a v krajných polohách má naimensiu hodnotu, aby na manévrovacie pohyby vozidla nebol potrebný veľký počet otáčok volantu. 
+Tento pomer sa volí tak, aby sila potrebná na točenie volantom nebola príliš veľká ale zasa aby sme nemuseli volantom otáčať 5 krát len pri prejazde zákrutou. Bežné hodnoty sú:
+- **Osobné autá:** 12:1 až 24:1
+- **Nákladné autá:** 25:1 až 40:1
 
-Na osobných automobiloch sa používajú nasledovné prevodovky riadenia:
+Niektoré moderné riadenia však nemajú stále rovnaký prevodový pomer - majú takzvaný **variabilný (premenlivý) prevodový pomer**. Keď je volant v **stredovej polohe**, prevodový pomer **je väčší**. To znamená, že malé pohyby volantom (napr. na diaľnici) nespôsobia prudkú zmenu smeru. Jazda je tak stabilnejšia a bezpečnejšia. Naopak, ak je volant v **krajnej polohe**, prevodový pomer **je menší**. To znamená, že na natočenie kolies stačí menej točiť volantom. Toto veľmi uľahčuje parkovanie a manévrovanie v meste.
 
-## Typy prevodoviek riadenia
+#### Rozsah natočenia kolies
 
-**a) MATICOVÁ PREVODOVKA S POHYBOVOU SKRUTKOU A MATICOU**
-- Pri maticovom prevode je pohybová skrutka s lichobežníkovým závitom spojená s hriadeľom volantu
-- Na skrutke sa posúva matica
-- Posuvný pohyb matice sa mení na kývavý pohyb krátkej páky spojenej s čapom riadenia
-  - Pri obehovej guľôčkovej verzii sa guľôčky odvaľujú medzi závitmi skrutky a maticou, čím menia kĺzne trenie na valivé a znižujú ovládacie sily.
+Maximálny uhol, o ktorý sa dajú kolesá natočiť, je obmedzený dorazmi. Zvyčajne je to 35° až 45° na každú stranu. To znamená, že celkový rozsah pohybu kolies zľava doprava je 70° až 90°.
+
+
+#### Typy prevodoviek riadenia
+
+**Maticová prevodovka (so skrutkou a maticou)**
+
+Ide o starší, jednoduchý systém. Hriadeľ volantu je zakončený závitovou tyčou (skrutkou). Na tejto skrutke je nasadená matica, ktorá sa pri točení volantom posúva hore alebo dole. Tento posuvný pohyb sa následne prenáša cez páku na kolesá.
 
 {image of Maticová prevodovka riadenia}
 
-**b) HREBEŇOVÝ PREVOD RIADENIA**
-- V súčasnosti najpoužívanejší systém pre osobné automobily
-- Predstavuje v súčasnosti v osobných automobiloch najpouž ívanej šiu prevodku riadenia
-- Na konci vstupného hriadeľa 1 prevodovky je ozubený pastorok, ktorý zaberá do ozubenej tyče – „hrebeňa" 2
-- Voľa v ozubení pastorka a tyče je vymedovávaná samočinne, tlakom pružiny 4 na piestik 3
-- Výhody: jednoduchosť, minimálne trenie a únavove, hrebeňová tyč nahradzuje časť riadiaceho lichobežníka, čím mechanizmus riadenia zjednodušuje
+Hoci je tento systém jednoduchý, má väčšie trenie a rýchlejšie sa opotrebúva, preto sa v moderných osobných autách už nepoužíva.
+
+**Závitovkový mechanizmus**
+
+Tento systém používa tzv. „červíka“ (závitovku) – špirálu na konci hriadeľa volantu. Tento červík zapadá do ozubeného kolesa (sektora) alebo valčeka, ktorý sa rotáciou závitovky otáča.
+
+{image}
+
+Tieto systémy sú veľmi robustné a odolné, preto sa stále používajú v niektorých ťažších vozidlách, hoci majú menšiu presnosť ako hrebeňové riadenie.
+
+**Hrebeňové riadenie**
+
+Toto je dnes **najbežnejší typ riadenia** v osobných autách. Na konci hriadeľa volantu je malé ozubené koleso (pastorok). To zapadá do dlhej ozubenej tyče (hrebeňa). Keď vodič otáča volantom, pastorok sa točí a posúva ozubený hrebeň doľava alebo doprava. Na koncoch hrebeňa sú tyče, ktoré priamo natáčajú kolesá. Celý mechanizmus je uzavretý v ochrannom puzdre a na oboch koncoch chránený gumovými manžetami (prachovkami), ktoré zabraňujú vniknutiu nečistôt a úniku maziva.
 
 {image of Hrebeňový prevod riadenia - detail}
 
-**c) KOMBINOVANÉ PREVODY**
-- Rozličné kombinácie vyššie spomenutých typov
-- Napr. ozubené koleso + segment (ROSS)
-- Skrutkový prevod + kladka + segment
+Je obľúbené pre svoju jednoduchosť (má málo súčiastok), presnosť (vodič výborne „cíti cestu") a spoľahlivosť (vôľa v riadení sa automaticky vymedzuje pružinou).
 
-## Hlavné časti prenosového mechanizmu
+**Recirkulačná guľôčková skrutka**
 
-{image of Kompletný systém riadenia vozidla}
+Tento systém je vylepšením maticovej prevodovky a nájdeme ho hlavne v **nákladných autách, autobusoch a veľkých SUV**. Funguje podobne ako maticová prevodovka, ale medzi závitmi skrutky a matice sú vložené oceľové guľôčky. Tieto guľôčky tam obiehajú (recirkulujú), čo výrazne znižuje trenie. Vďaka tomu sa predlžuje životnosť a riadenie sa taktiež stáva ľahšie (na otočenie volantu je potrebné vynaložiť menšiu fyzickú silu).
 
-**Od prevodovky riadenia sa pohyb prenáša k čapu kolesa sústavou pák a ťahadiel, ktoré sú spojené guľovými kĺbmi, lebo ich vzájomný pohyb je priestorový:**
+{image}
 
-1. **Riadiaca páka** - spojená s výstupom prevodovky
-2. **Spojovacia tyč/tyče** - prenáša pohyb na kolesá
-3. **Riadiace čapy** (kulisy) - umožňujú natočenie kolies
-4. **Guľové kĺby** - umožňujú priestorový pohyb
-5. **Závitový segment** 
-6. **Hlavná páka riadenia**
+**Kombinované prevody**
 
-**Konštrukčné požiadavky na riadiaci mechanizmus:**
-- Presné vedenie kolies bez vôle
-- Minimálne trenie
-- Vysoká tuhosť (bez pružných deformácií)
-- Bezpečnosť pri havárii
-- Dlhá životnosť
-- Jednoduchá údržba
+Existujú aj rôzne špeciálne kombinácie týchto systémov pre špecifické účely (napr. systém ROSS), ktoré kombinujú prvky ako ozubené kolesá, páky a kladky, ale v bežných osobných autách sa s nimi stretnete zriedka.
+
+### Riadiace tyče a tiahla
+
+Riadiace tyče prenášajú pohyb z prevodovky riadenia na kolesá. Pri nezávislom zavesení kolies sa používa tzv. **delená spojovacia tyč**, ktorá sa skladá z dvoch častí: vnútornej tyče (pripojenej k hrebeňu) a vonkajšej tyče (pripojenej k riadiacemu ramenu kolesa). Tieto časti sú vzájomne spojené a ich dĺžka sa dá nastavovať, čo je dôležité pre správne nastavenie geometrie kolies (zbiehavosti).
+
+{image}
+
+Všetky pohyblivé spoje sú realizované pomocou **guľových čapov**, ktoré umožňujú súčasný pohyb riadenia (otáčanie kolies) aj pruženia (kolesá sa pohybujú hore-dole pri prejazde nerovností). Vďaka tomu kolesá presne kopírujú nerovnosti vozovky a zároveň spoľahlivo reagujú na pohyby volantu.
