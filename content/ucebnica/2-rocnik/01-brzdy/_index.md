@@ -1,4 +1,5 @@
 ---
+linkTitle: "10. Brzdy"
 title: "Brzdy"
 type: docs
 weight: 1
@@ -10,7 +11,7 @@ sidebar:
 
 Brzdy sú **mechanické zariadenie, ktoré zamedzuje pohybu vozidla absorbovaním jeho pohybovovej energie alebo jej premenou na inú energiu**. Najčastejšie sa pohyb mení na energiu tepelnú pomocou trenia, ale môže sa meniť aj na energiu elektrickú pomocou elektromagentickej indukcie (rekuperačné brzdenie pri elektromobiloch). Pri brzdení motorom zabezpečuje spomalenie odpor stlačeného vzduchu vo valci a pri aerodynamickej przde zase zvýšený odpor vzduchu pri vyššej rýchlosti.
 
-{images of normal brakes, recuperation breaks and aerodynamic breaks}
+![Brzdy](brakes.jpg "Obr. 10. 1 - Príklad trecieho, rekuperačného a aerodynamického brzdenia")
 
 ## Hlavná úloha
 

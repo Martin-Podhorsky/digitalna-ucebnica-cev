@@ -14,12 +14,6 @@ Príves je prípojné vozidlo, ktoré má vlastnú prednú nápravu (alebo nápr
 
 {image of Príves - basic trailer configuration}
 
-**Vlastnosti prívesu:**
-- Príves je **samostatne stojaci** - dá sa odpojiť a zostane stáť na vlastných kolesách
-- Celá hmotnosť nákladu spočíva na nápravách prívesu
-- Oje musí byť vyvážené tak, aby sa nemohlo dotknúť vozovky
-- Môže byť jedno-, dvoj- alebo viacnápravový
-
 ## Náves
 
 Náves je prípojné vozidlo bez prednej nápravy, ktoré sa svojou prednou časťou opiera o ťahač prostredníctvom **točnice** (sedlovej spojky) a **kráľovského čapu** (kingpin). Značná časť hmotnosti návesu (typicky 30-40% celkovej hmotnosti, t.j. 8-12 ton) sa prenáša na zadnú nápravu ťahača.

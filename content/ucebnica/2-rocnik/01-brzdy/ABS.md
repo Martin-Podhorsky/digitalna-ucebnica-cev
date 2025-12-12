@@ -8,7 +8,7 @@ sidebar:
 
 ABS (Anti-lock Braking System) je elektronický bezpečnostný systém, ktorý zabraňuje zablokovaniu kolies počas brzdenia. Zablokované kolesá strácajú priľnavosť k vozovke a vozidlo sa stáva neovládateľným - vodič nemôže zmeniť smer jazdy ani pri otáčaní volantom. ABS tento problém rieši automatickou reguláciou brzdného tlaku na jednotlivých kolesách.
 
-{image of ABS system}
+![Systém ABS](ABS.jpg "Obr. 2 - Systém ABS")
 
 ## Princíp činnosti
 

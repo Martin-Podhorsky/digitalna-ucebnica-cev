@@ -1,4 +1,5 @@
 ---
+linkTitle: "10.1 Bubnové brzdy"
 title: "Bubnové Brzdy"
 weight: 1
 type: docs
@@ -8,7 +9,7 @@ sidebar:
 
 Bubnová brzda je brzda, ktorá využíva trenie spôsobené súpravou čeľustí, ktoré tlačia smerom von proti rotujúcej  časti spojenej s hnacím hriadeľom a kolesom, nazývanej brzdový bubon.
 
-{image of drum brake}
+![Bubnová brzda](bubnova-brzda.jpg "Obr. 10. 2 - Bubnová brzda")
 
 ## Konštrukcia
 
