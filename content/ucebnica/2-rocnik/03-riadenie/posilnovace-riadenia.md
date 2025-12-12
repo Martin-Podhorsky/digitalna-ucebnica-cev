@@ -50,6 +50,7 @@ Hydraulický posilňovač riadenia využíva tlak hydraulickej kvapaliny (oleja)
 
 ### Použitie
 
+Staršie osobné automobily, nákladné vozidlá, autobusy a ťažké úžitkové vozidlá.
 
 ## Elektrohydraulický posilňovač riadenia (EHPS)
 
@@ -73,7 +74,7 @@ EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou
 
 ### Hlavné časti:
 
-1 - Elektromotor (jednosmerný DC alebo bezkartáčový)
+1 - Jednosmerný elektromotor (klasický alebo bezkartáčový)
 2 - Riadiaca jednotka (ECU)
 3 - Snímač krútiaceho momentu
 4 - Snímač uhla natočenia volantu
