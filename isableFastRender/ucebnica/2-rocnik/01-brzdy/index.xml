@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brzdy | Učebnica CEV</title>
+    <link>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/</link>
+      <atom:link href="http://localhost:1313/ucebnica/2-rocnik/01-brzdy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Brzdy</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>sk-sk</language>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_6c2847ceeca1dc6e.png</url>
+      <title>Brzdy</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/</link>
+    </image>
+    
+    <item>
+      <title>Bubnové Brzdy</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/bubnove-brzdy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/bubnove-brzdy/</guid>
+      <description>&lt;p&gt;Bubnová brzda je brzda, ktorá využíva trenie spôsobené súpravou čeľustí, ktoré tlačia smerom von proti rotujúcej  časti spojenej s hnacím hriadeľom a kolesom, nazývanej brzdový bubon.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-obr-10-2---bubnová-brzda&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;Bubnová brzda&#34; 
+               srcset=&#34;http://localhost:1313/media/bubnova-brzda_hu_bca96c4169c3178.webp 320w, http://localhost:1313/media/bubnova-brzda_hu_477c05547aa07a04.webp 480w, http://localhost:1313/media/bubnova-brzda_hu_d1da05f1683c26d1.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;http://localhost:1313/media/bubnova-brzda_hu_bca96c4169c3178.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Obr. 10. 2 - Bubnová brzda
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;konštrukcia&#34;&gt;Konštrukcia&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-obr-10-3---konštrukcia-bubnovej-brzdy&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;Bubnová brzda s popisom&#34; 
+               srcset=&#34;http://localhost:1313/media/bubnova-brzda-popis_hu_9dacfae76dab8f6d.webp 320w, http://localhost:1313/media/bubnova-brzda-popis_hu_a867829ccd491b5f.webp 480w, http://localhost:1313/media/bubnova-brzda-popis_hu_c01b0050fca3a7ec.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;http://localhost:1313/media/bubnova-brzda-popis_hu_9dacfae76dab8f6d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;464&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Obr. 10. 3 - Konštrukcia bubnovej brzdy
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hlavné časti bubnovej brzdy:&lt;/strong&gt;
+1 - Brzdový valček
+2 - Brzdový bubon
+3 - Vratná pružina
+4 a 8 - Brzdová čeľusť
+5 - Brzdové obloženie
+6 - Opora brzdovej čeľusti
+7 - Štít brzdy
+9 - Ventil
+10 - Lanová parkovacia brzda&lt;/p&gt;
+&lt;p&gt;{image of drum brake with descriptions}&lt;/p&gt;
+&lt;h2 id=&#34;princíp-činnosti&#34;&gt;Princíp činnosti&lt;/h2&gt;
+&lt;p&gt;Pri pritlačení na brzdový pedál sa piest v brzdovom valčeku (1) posunie a pritlačí brzdové čeľuste 8 a 4 na vnútorný povrch rotujúceho brzdového bubna 2. Vzniknuté trenie medzi brzdovým obložením 5 a bubnom 2 spomaľuje alebo zastavuje koleso. Po uvoľnení brzdového pedála vratné pružiny 3 odťahujú čeľuste od bubna.&lt;/p&gt;
+&lt;h2 id=&#34;výhody-bubnových-bŕzd&#34;&gt;Výhody bubnových bŕzd:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pomerne lacné na výrobu&lt;/li&gt;
+&lt;li&gt;O niečo nižšia frekvencia údržby vďaka lepšej odolnosti voči korózii a znečisteniu v porovnaní s kotúčovými brzdami&lt;/li&gt;
+&lt;li&gt;Majú samozosilovací účinok a tým pádom nepotrebujú posilňovač ako kotúčové&lt;/li&gt;
+&lt;li&gt;Umožnujú jednoduché riešenie parkovacej brzdy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;nevýhody-bubnových-bŕzd&#34;&gt;Nevýhody bubnových bŕzd:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Zle odvádzajú teplo&lt;/li&gt;
+&lt;li&gt;Viac náchylné na dočasné a permanentné zoslabenie brzdného účinku (fading) ako kotúčové vplyvom prehrievania alebo vody v bubne&lt;/li&gt;
+&lt;li&gt;Bubnové brzdy môžu hryzavé, ak povrch bubna mierne zhrdzavie alebo ak je brzda studená a vlhká, čo obloženiu dodáva väčší trecí odpor. Zahryznutie môže byť také závažné, že sa pneumatiky dostanú do šmyku a pokračujú v ňom aj po uvoľnení pedála.&lt;/li&gt;
+&lt;li&gt;Pomerne komplexná konštrukcia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;rozdelenie&#34;&gt;Rozdelenie&lt;/h2&gt;
+&lt;p&gt;Bubnové brzdy sa rozdeľujú podľa usporiadania čeľustí a ich ovládania:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SIMPLEX&lt;/strong&gt; (jednoduchá brzda)
+- obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí
+- na opačnej strane sú obe čeľuste podopreté oporou
+- má jednu nábežnú a jednu úbežnú čeľusť. Ktorá je ktorá závisí od smeru rotácie. Nábežná čeľusť je tá, na ktorú rotujúci bubon nabieha a rotáciou ju tlačí k sebe. Úbežná čeľusť je tá, od ktorej bubon ubieha a rotáciou ju tlačí od seba.&lt;/p&gt;
+&lt;p&gt;{image of SIMPLEX}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DUPLEX&lt;/strong&gt; (dvojnábežná brzda)
+- Namiesto jedného dvojpiestového valčeka má jedna aj druhá čeľusť svoj vlastný valček a oporu
+- pri jazde dopredu sú obe čeľuste nábežné (vysoký brzdný účinok). Pri jazde dozadu sú obe čeluste úbežné (nižší brzdný účinok)&lt;/p&gt;
+&lt;p&gt;{image of DUPLEX}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SERVO&lt;/strong&gt; (brzda so spriahnutými čeľusťami)
+- pre smer jazdy dopredu takisto obidve čeľuste nábežné, ale hydraulický valček pôsobí iba na prvú
+- v momente keď sa prví čeľusť oprie o stenu valca, ten ju začne tlačiť v smere svojej rotácie
+- tá je spojená s druhou čelusťou, ktorá sa pôsobením sily takisto onedlho oprie o stenu rotujúceho bubna
+- pri jazde dopredu sú takisto obe čeľuste nábežné (vysoký brzdný účinok) a pri jazde dozadu sú obe čeluste úbežné (nižší brzdný účinok)
+- pri tomto type môže byť brzdenie pomerne agresívne (menej odstupňovateľné) kvôli veľmi vysokému przdnému účinku&lt;/p&gt;
+&lt;p&gt;{image of SERVO}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DUO-DUPLEX&lt;/strong&gt; (obojsmerná dvojnábežná brzda)
+- obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi
+- vďaka tomu má rovnaký brzdný účinok v oboch smeroch rotácie
+- vyžaduje o niečo väčšiu ovládaciu silu ako DUO-SERVO&lt;/p&gt;
+&lt;p&gt;{image of DUO-DUPLEX}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DUO-SERVO&lt;/strong&gt; (obojsmerná brzda so spriahnutými čeľusťami)
+- funguje na rovnakom princípe ako brzda Servo, avšak je skonštruovaná tak, že brzda má samozosilňujúci účinok v oboch smeroch rotácie&lt;/p&gt;
+&lt;p&gt;{image of DUO-DUPLEX}&lt;/p&gt;
+&lt;h3 id=&#34;tabuľka-porovnania&#34;&gt;Tabuľka porovnania&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Typ&lt;/th&gt;
+          &lt;th&gt;Názov (preklad)&lt;/th&gt;
+          &lt;th&gt;Počet nábežných čeľustí smerom vzad&lt;/th&gt;
+          &lt;th&gt;Počet nábežných čeľustí smerom vpred&lt;/th&gt;
+          &lt;th&gt;Brzdný účinok&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;SIMPLEX&lt;/td&gt;
+          &lt;td&gt;Jednoduchá brzda&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;Stredný (v oboch smeroch)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DULPEX&lt;/td&gt;
+          &lt;td&gt;Dvojnábežná brzda&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;Silný dopredu, slabý dozadu&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;SERVO&lt;/td&gt;
+          &lt;td&gt;Brzda so spriahnutými čeľusťami&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;Veľmi silný dopredu, slabý dozadu&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DUO-DUPLEX&lt;/td&gt;
+          &lt;td&gt;Obojsmerná dvojnábežná brzda&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;Silný (v oboch smeroch)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DUO-SERVO&lt;/td&gt;
+          &lt;td&gt;Obojsmerná brzda so spriahnutými čeľusťami&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;Veľmi silný (v oboch smeroch)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Nasledujúce učivo:
+
+
+
+
+&lt;div class=&#34;hb-cards mt-4 grid gap-4 not-prose&#34; style=&#34;--hb-cols: 1;&#34;&gt;
+  
+  &lt;a
+    class=&#34;hb-card group&#34;href=&#34;kotucove-brzdy&#34; &gt;
+  
+    &lt;span class=&#34;hb-card-title pt-4 px-4&#34;&gt;Kotúčové brzdy&lt;/span&gt;&lt;div class=&#34;hb-card-subtitle&#34;&gt;Konštrukcia, vlastnosti, výhody, nevýhody, rozdelenie&amp;hellip;&lt;/div&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kotúčové Brzdy</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/kotucove-brzdy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/kotucove-brzdy/</guid>
+      <description>&lt;p&gt;Kotúčové brzdy vytvárajú trenie tým, že zvierajú kotúč rotujúci spoločne s kolesom dvojicou (alebo dvojicami) brzdových platničiek. Je to najpoužívanejší typ prevádzkových bŕzd.&lt;/p&gt;
+&lt;p&gt;{image of disc brake}&lt;/p&gt;
+&lt;h2 id=&#34;výhody-kotúčových-bŕzd&#34;&gt;Výhody kotúčových bŕzd:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Väčší brzdný efekt a lepšia responzívnosť&lt;/li&gt;
+&lt;li&gt;Lepšie chladenie (kotúč je voľne vystavený okoliu)&lt;/li&gt;
+&lt;li&gt;Jednoduchšia konštrukcia a tým pádom aj jednoduchšia údržba&lt;/li&gt;
+&lt;li&gt;Menšia náchylnosť na fading v dôsledku prehriatia alebo vlhkosti oproti bubnovým&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;nevýhody-kotúčových-bŕzd&#34;&gt;Nevýhody kotúčových bŕzd:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Drahšie na výrobu&lt;/li&gt;
+&lt;li&gt;Vyššia sila potrebná na dosiahnutie adekvátnej brzdnej sily (potreba posiňovaču)&lt;/li&gt;
+&lt;li&gt;Zložitejšia integrácia parkovacej brzdy&lt;/li&gt;
+&lt;li&gt;Vyššia frekvencia údržy ako bubnové&lt;/li&gt;
+&lt;li&gt;Viac náchylné na koróziu a znečistenie&lt;/li&gt;
+&lt;li&gt;Hlučnejšie (niekedy vedia pri brzdení pískať)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;rozdelenie&#34;&gt;Rozdelenie&lt;/h2&gt;
+&lt;p&gt;Kotúčové brzdy sa rozdeľujú podľa konštrukcie strmeňa:&lt;/p&gt;
+&lt;h3 id=&#34;kotúčová-brzda-s-pevným-strmeňom&#34;&gt;Kotúčová brzda s pevným strmeňom&lt;/h3&gt;
+&lt;p&gt;{image of Kotúčová brzda s pevným strmeňom}&lt;/p&gt;
+&lt;h4 id=&#34;hlavné-časti&#34;&gt;Hlavné časti:&lt;/h4&gt;
+&lt;p&gt;1 - Zavesenie
+2 - Príruba
+3 - Brzdový strmeň
+4 - Brzdové doštičky
+5 - Náboj kolesa
+6 - Brzdový kotúč
+7 - Hydraulický brzdový valček
+8 - Tesnenie&lt;/p&gt;
+&lt;p&gt;{image of Kotúčová brzda s pevným strmeňom with description}&lt;/p&gt;
+&lt;h4 id=&#34;princíp-činnosti&#34;&gt;Princíp činnosti:&lt;/h4&gt;
+&lt;p&gt;Dva piestiky (alebo viac), ktorých tlak kvapaliny tlačí smerom ku kotúču z jednej a druhej strany. Strmeň je pevne priskrutkovaný k zaveseniu a nepohybuje sa.&lt;/p&gt;
+&lt;h4 id=&#34;výhody&#34;&gt;Výhody:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rovnomerné opotrebovanie:&lt;/strong&gt; Vďaka symetrickému pôsobeniu piestikov sa brzdové doštičky opotrebúvajú rovnomerne na oboch stranách kotúča narozdiel od posuvného streňa, kde sa vždy viac opotrebuje vonkajšia doštička.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vysoká brzdná sila:&lt;/strong&gt; Konštrukcia generuje veľmi vysokú a okamžitú brzdnú silu (vyššiu ako pri posuvnom strmeni s jedným piestikom).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Odolnosť voči deformácii:&lt;/strong&gt; Pevná a robustná konštrukcia zabezpečuje minimálnu pružnosť pri vysokom tlaku (lepšie ako posuvný strmeň, ktorý sa môže mierne krútiť kvôli vôli posuvného čapu).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lepšie odvádzanie tepla:&lt;/strong&gt; Väčšia a otvorenejšia konštrukcia umožňuje efektívnejšie chladenie (lepšie ako uzavretejší posuvný strmeň).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;nevýhody&#34;&gt;Nevýhody:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vyššie výrobné náklady:&lt;/strong&gt; Výroba strmeňa s viacerými presne opracovanými otvormi pre piestiky je drahšia.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Väčšia hmotnosť:&lt;/strong&gt; Strmene sú spravidla ťažšie, čo negatívne ovplyvňuje jazdné vlastnosti a komfort vozidla (odpruženie musí pracovať s väčšou hmotou).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Horšia údržba:&lt;/strong&gt; Výmena piestikov alebo tesnení je náročnejšia a drahšia kvôli ich vyššiemu počtu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;použitie&#34;&gt;Použitie:&lt;/h4&gt;
+&lt;p&gt;Športové a výkonné automobily, pretekárske vozidlá a motocykle. Všade, kde je požiadavka na maximálnu, spoľahlivú a opakovateľnú brzdnú silu a odolnosť voči vysokému zaťaženiu.&lt;/p&gt;
+&lt;h3 id=&#34;kotúčová-brzda-s-plávajúcim-strmeňom&#34;&gt;Kotúčová brzda s plávajúcim strmeňom&lt;/h3&gt;
+&lt;p&gt;{image of Kotúčová brzda s plávajúcim strmeňom}&lt;/p&gt;
+&lt;h4 id=&#34;hlavné-časti-1&#34;&gt;Hlavné časti:&lt;/h4&gt;
+&lt;p&gt;1 - Zavesenie
+2 - Príruba
+3 - Brzdový strmeň
+4 - Brzdové doštičky
+5 - Náboj kolesa
+6 - Brzdový kotúč
+7 - Hydraulický brzdový valček
+8 - Posuvné vedenie strmeňa
+9 - Tesnenie&lt;/p&gt;
+&lt;h4 id=&#34;princíp-činnosti-1&#34;&gt;Princíp činnosti:&lt;/h4&gt;
+&lt;p&gt;Na jednej strane kotúča sa nachádza jeden piestik (niekedy aj dva). Tlak kvapaliny tlačí piestik a platničku z jednej strany ku kotúču. Kvôli Pascalovmu zákonu sa zároveň celý strmeň posúva po vodiacich čapoch smerom k druhej strane a pritláča druhú platničku.&lt;/p&gt;
+&lt;h4 id=&#34;výhody-1&#34;&gt;Výhody:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nižšie výrobné náklady:&lt;/strong&gt; Konštrukcia s jedným piestikom a posuvným mechanizmom je výrazne lacnejšia na výrobu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nižšia hmotnosť:&lt;/strong&gt; Strmene sú ľahšie, čo pozitívne vplýva na jazdné vlastnosti a komfort.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jednoduchá údržba:&lt;/strong&gt; Výmena brzdových doštičiek je rýchla a jednoduchá.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ľahká integrácia parkovacej brzdy:&lt;/strong&gt; Konštrukcia umožňuje jednoducho začleniť mechanizmus ručnej brzdy priamo do strmeňa (takmer nemožné pri pevnom strmeni).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;nevýhody-1&#34;&gt;Nevýhody:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nerovnomerné opotrebenie:&lt;/strong&gt; Platnička na strane piestika sa typicky opotrebúva rýchlejšie ako tá na opačnej strane.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Citlivosť na znečistenie a koróziu:&lt;/strong&gt; Vodiace čapy sú vystavené vonkajším vplyvom. Ich zaseknutie v dôsledku korózie alebo nečistôt (napríklad ak sa poškodí prachovka) je pomerne častým problémom, ktorý vedie k trvalému pribrzďovaniu alebo zníženiu brzdnej sily&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nižšia brzdná sila:&lt;/strong&gt; V porovnaní s viacpiestikovými pevnými strmeňmi je generovaná maximálna brzdná sila spravidla nižšia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;použitie-1&#34;&gt;Použitie&lt;/h4&gt;
+&lt;p&gt;Drvivá väčšina sériovo vyrábaných osobných automobilov na prednej aj zadnej náprave a ľahké úžitkové vozidlá.&lt;/p&gt;
+&lt;p&gt;Nasledujúce učivo:
+
+
+
+
+&lt;div class=&#34;hb-cards mt-4 grid gap-4 not-prose&#34; style=&#34;--hb-cols: 1;&#34;&gt;
+  
+  &lt;a
+    class=&#34;hb-card group&#34;href=&#34;hydraulicky-brzdovy-system&#34; &gt;
+  
+    &lt;span class=&#34;hb-card-title pt-4 px-4&#34;&gt;Konštrukcia hydraulického brzdového systému&lt;/span&gt;&lt;div class=&#34;hb-card-subtitle&#34;&gt;Hlavné časti, princíp fungovania, rozdelenie&amp;hellip;&lt;/div&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Konštrukcia hydraulického brzdového systému</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/</guid>
+      <description>&lt;h2 id=&#34;hlavné-časti&#34;&gt;Hlavné časti&lt;/h2&gt;
+&lt;p&gt;Hydraulický brzdový systém sa skladá z nasledujúcich hlavných častí:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Brzdový pedál&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Podtlakový posilňovač&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hlavný (dvojokruhový) brzdový valec&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Okruh predných bŕzd&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Okruh zadných bŕzd&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Predné brzdy&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zadné brzdy&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nádržka na brzdovú kvapalinu&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;{image of hydraulic brake system}&lt;/p&gt;
+&lt;h2 id=&#34;princíp-činnosti&#34;&gt;Princíp činnosti:&lt;/h2&gt;
+&lt;p&gt;Keď vodič stlačí brzdový pedál, piest v hlavnom brzdovom valci vytvorí tlak v brzdovej kvapaline. Tento tlak sa prenáša potrubím do brzdových valčekov pri kolesách, kde posúva piesty. Piesty pritláčajú brzdové obloženia na kotúče alebo bubny, čím vzniká trenie a brzdná sila.&lt;/p&gt;
+&lt;h2 id=&#34;usporiadanie-brzdových-okruhov&#34;&gt;Usporiadanie brzdových okruhov&lt;/h2&gt;
+&lt;p&gt;Ako sme spomínali už v požiadavkách, prevádzková brzda musí mať vždy dva samostatné brzdové okruhy, ktoré môžu byť usporiadané nasledovne:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TT usporidanie&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;{image}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Diagonálne usporiadanie&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;{image}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HT usporiadanie&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;{image}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LL usporiadanie&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;{image}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HH usporiadanie&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;{image}&lt;/p&gt;
+&lt;p&gt;Nasledujúce učivo:
+
+
+
+
+&lt;div class=&#34;hb-cards mt-4 grid gap-4 not-prose&#34; style=&#34;--hb-cols: 1;&#34;&gt;
+  
+  &lt;a
+    class=&#34;hb-card group&#34;href=&#34;brzdovy-posilnovac&#34; &gt;
+  
+    &lt;span class=&#34;hb-card-title pt-4 px-4&#34;&gt;Brzdový posilňovač&lt;/span&gt;&lt;div class=&#34;hb-card-subtitle&#34;&gt;Rozdelenie, hlavné časti, princíp fungovania, vlastnosti&amp;hellip;&lt;/div&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Brzdový posilňovač</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/brzdovy-posilnovac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/brzdovy-posilnovac/</guid>
+      <description>&lt;p&gt;Brzdový posilňovač je zariadenie zosilňujúce silu, ktorú vodič vyvinie stlačením brzdového pedálu pri brzdení. Tím pádom taktiež znižuje silu, ktorú musí vodič pri brzdení na pedál vyvinúť. Zosílenie býva zvyčajne od 300% do 500%.&lt;/p&gt;
+&lt;h2 id=&#34;podtlakový-brzdový-posilňovač&#34;&gt;Podtlakový brzdový posilňovač&lt;/h2&gt;
+&lt;p&gt;Tento typ brzdového posilňovača využíva na zosílenie podtlak vytvorený v sacom potrubí motora (alebo vo výveve).&lt;/p&gt;
+&lt;h3 id=&#34;hlavné-časti&#34;&gt;Hlavné časti:&lt;/h3&gt;
+&lt;p&gt;{image of vacuum brake booster}&lt;/p&gt;
+&lt;p&gt;1 - Podltlaková prípojka
+2 - Pružina
+3 - Membrána
+4 - Piest
+5 - Podtlakový ventil
+6 - Piestnica
+7 - Brzdový pedál
+8 - Tlačná tyč
+9 - Reakčný kotúč
+10 - Vložka ventila
+11 - Pracovná komora
+12 - Tanierový ventil
+13 - Atmosferický ventil
+14 - Tlačná pružina
+15 - Čistič
+16 - Podtlaková komora&lt;/p&gt;
+&lt;h3 id=&#34;princíp-činnosti&#34;&gt;Princíp činnosti:&lt;/h3&gt;
+&lt;p&gt;Keď vodič nestláča pedál, v podtlakovej aj v pracovnej komore je rovnaký tlak (podtlak). Pri stlačení pedála sa do druhej komory vpustí atmosférický tlak. Rozdiel tlakov (podtlak vs. atmosférický tlak) vytvára veľkú silu na membráne, ktorá pomáha stláčať piest hlavného brzdového valca.&lt;/p&gt;
+&lt;h2 id=&#34;elektronicky-riadený-podtlakový-brzdový-posilňovač-bas&#34;&gt;Elektronicky riadený podtlakový brzdový posilňovač (BAS)&lt;/h2&gt;
+&lt;p&gt;Mnoho vodičov pri kritických situáciach reaguje síce rýchlo, ale brzdový pedál nezošliapnu dostatočnou silou. To má za následok to, že sa v brzdovom systéme nevyvinie dostatočný tlak a výrazne sa predĺži brzdná dráha. Elektronicky riadený podtlakový posilňovač sa snaží tento problém vyriešiť tým, že v takýchto prípadoch zabezpečí maximálny brzdný účinok.&lt;/p&gt;
+&lt;h3 id=&#34;hlavné-časti-1&#34;&gt;Hlavné časti:&lt;/h3&gt;
+&lt;p&gt;{image of vacuum brake booster}&lt;/p&gt;
+&lt;p&gt;1 - Snímač polohy pracovného piestu
+2 - Membrána
+3 - Magnet
+4 - Vypínač systému
+5 - Pracovná komora
+6 - Podtlaková komora
+7 - Riadiaca jednotka&lt;/p&gt;
+&lt;h3 id=&#34;princíp-činnosti-1&#34;&gt;Princíp činnosti:&lt;/h3&gt;
+&lt;p&gt;Systém vyhodnocuje rýchlosť stláčania brzdového pedála. Pri zistení náhlého, rýchleho stlačenia (typické pre núdzovú situáciu) systém automaticky zvyšuje brzdný tlak na maximum.&lt;/p&gt;
+&lt;p&gt;Nasledujúce učivo:
+
+
+
+
+&lt;div class=&#34;hb-cards mt-4 grid gap-4 not-prose&#34; style=&#34;--hb-cols: 1;&#34;&gt;
+  
+  &lt;a
+    class=&#34;hb-card group&#34;href=&#34;ABS&#34; &gt;
+  
+    &lt;span class=&#34;hb-card-title pt-4 px-4&#34;&gt;Systém ABS&lt;/span&gt;&lt;div class=&#34;hb-card-subtitle&#34;&gt;Princíp činnosti, význam, konštrukcia&amp;hellip;&lt;/div&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Systém ABS</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/abs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/abs/</guid>
+      <description>&lt;p&gt;ABS (Anti-lock Braking System) je elektronický bezpečnostný systém, ktorý zabraňuje zablokovaniu kolies počas brzdenia. Zablokované kolesá strácajú priľnavosť k vozovke a vozidlo sa stáva neovládateľným - vodič nemôže zmeniť smer jazdy ani pri otáčaní volantom. ABS tento problém rieši automatickou reguláciou brzdného tlaku na jednotlivých kolesách.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-obr-2---systém-abs&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;Systém ABS&#34; 
+               srcset=&#34;http://localhost:1313/media/ABS_hu_2e726a3cd3febd02.webp 320w, http://localhost:1313/media/ABS_hu_7369bea9d5e3419b.webp 480w, http://localhost:1313/media/ABS_hu_a2a274b2461d0b23.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;http://localhost:1313/media/ABS_hu_2e726a3cd3febd02.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;625&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Obr. 2 - Systém ABS
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;princíp-činnosti&#34;&gt;Princíp činnosti&lt;/h2&gt;
+&lt;p&gt;Systém ABS neustále monitoruje rýchlosť otáčania každého kolesa pomocou snímačov. Tieto údaje porovnáva elektronická riadiaca jednotka (ECU) s aktuálnou rýchlosťou vozidla a rýchlosťou ostatných kolies.&lt;/p&gt;
+&lt;p&gt;Keď ECU zistí, že niektoré koleso sa spomaľuje rýchlejšie než ostatné (hrozí zablokovanie), okamžite zníži brzdný tlak na tomto kolese pomocou hydraulických ventilov. Tým umožní kolesu opätovne sa roztočiť a obnoviť priľnavosť k vozovke. Akonáhle sa koleso znovu roztočí, systém opäť zvýši brzdný tlak. Tento proces sa opakuje niekoľkokrát za sekundu, čím sa zabezpečí optimálna brzdná sila bez straty ovládateľnosti vozidla.&lt;/p&gt;
+&lt;p&gt;Vodič tento proces vníma ako pulzovanie brzdového pedála a charakteristický zvuk z podvozku.&lt;/p&gt;
+&lt;h3 id=&#34;funkčný-cyklus-abs&#34;&gt;Funkčný cyklus ABS:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Normálne brzdenie&lt;/strong&gt; - Vodič stlačí brzdový pedál, brzdný tlak sa zvyšuje vo všetkých kolesách.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Detekcia hrozby zablokovania&lt;/strong&gt; - Snímače detegujú, že niektoré koleso sa spomaľuje príliš rýchlo oproti ostatným.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Udržiavacia fáza&lt;/strong&gt; - ECU aktivuje ventily a brzdný tlak sa drží konštantný, aby sa zabránilo ďalšiemu spomaleniu kolesa.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Odľahčovacia fáza&lt;/strong&gt; - Ak koleso stále spomaľuje, systém zníži brzdný tlak, čím umožní kolesu opätovne sa roztočiť.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zvyšovacia fáza&lt;/strong&gt; - Po obnovení rotácie kolesa systém opäť postupne zvyšuje brzdný tlak.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Opakovanie cyklu&lt;/strong&gt; - Celý proces sa opakuje 4 až 15-krát za sekundu, až kým trvá brzdenie.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;hlavné-časti&#34;&gt;Hlavné časti&lt;/h2&gt;
+&lt;p&gt;{image of ABS components}&lt;/p&gt;
+&lt;h3 id=&#34;1-snímače-otáčok-kolies&#34;&gt;1. Snímače otáčok kolies&lt;/h3&gt;
+&lt;p&gt;Sú umiestnené pri každom kolese a merajú rýchlosť jeho otáčania. Najčastejšie ide o magnetické alebo indukčné snímače, ktoré snímajú otáčanie ozubeného kotúča spojeného s kolesom. Signál zo snímača je posielaný do riadiacej jednotky.&lt;/p&gt;
+&lt;h3 id=&#34;2-elektronická-riadiaca-jednotka-ecu&#34;&gt;2. Elektronická riadiaca jednotka (ECU)&lt;/h3&gt;
+&lt;p&gt;Predstavuje &amp;ldquo;mozog&amp;rdquo; systému ABS. Neustále vyhodnocuje signály zo všetkých snímačov otáčok a vypočítava, či niektoré koleso nehrozí zablokovať. Na základe týchto výpočtov posiela príkazy hydraulickej jednotke na reguláciu brzdného tlaku. Moderné ECU dokážu vykonať tisíce výpočtov za sekundu.&lt;/p&gt;
+&lt;h3 id=&#34;3-hydraulická-riadiaca-jednotka-hcu&#34;&gt;3. Hydraulická riadiaca jednotka (HCU)&lt;/h3&gt;
+&lt;p&gt;Obsahuje elektromagnetické ventily a čerpadlo. Ventily regulujú tok brzdovej kvapaliny k jednotlivým kolesám podľa pokynov ECU. Čerpadlo slúži na obnovenie tlaku v systéme po odľahčovacej fáze. Táto jednotka je zvyčajne integrovaná s hlavným brzdovým valcom alebo umiestnená v jeho blízkosti.&lt;/p&gt;
+&lt;h3 id=&#34;4-varovná-kontrolka&#34;&gt;4. Varovná kontrolka&lt;/h3&gt;
+&lt;p&gt;Kontrolka na prístrojovej doske informuje vodiča o stave systému. Pri štarte vozidla sa kontrolka rozsvietí na niekoľko sekúnd (samodiagnostika), potom zhasne. Ak zostane svietiť alebo sa rozsvieti počas jazdy, signalizuje poruchu systému ABS.&lt;/p&gt;
+&lt;h3 id=&#34;5-doplnkové-komponenty&#34;&gt;5. Doplnkové komponenty&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Elektronický spínač&lt;/strong&gt; - na rozoznanie jazdy s prívesom (upravuje citlivosť systému)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zásuvka ABS&lt;/strong&gt; - na pripojenie prívesu s kompatibilným brzdovým systémom&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Poistky a relé&lt;/strong&gt; - ochrana elektrických obvodov systému&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;výhody-abs&#34;&gt;Výhody ABS:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zachovanie riaditeľnosti&lt;/strong&gt; - aj počas prudkého brzdenia môže vodič ovládať smer jazdy, pretože kolesá sa neblokujú a pneumatiky si udržiavajú priľnavosť k vozovke&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skrátenie brzdnej dráhy&lt;/strong&gt; - na suchých a mokrých povrchoch dokáže ABS skrátiť brzdnú dráhu oproti vozidlám bez tohto systému, pretože optimalizuje brzdnú silu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stabilita vozidla&lt;/strong&gt; - vozidlo zostáva stabilné a nepodliehá šmyku ani vybočovaniu z dráhy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Možnosť brzdenia a riadenia súčasne&lt;/strong&gt; - vodič môže brzdiť naplno a zároveň sa vyhýbať prekážkam&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rovnomerné opotrebenie pneumatík&lt;/strong&gt; - zabránením zablokovania kolies sa znižuje nerovnomerné opotrebenie pneumatík&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zníženie stresu vodiča&lt;/strong&gt; - vodič nemusí ovládať techniku kadencovaného brzdenia, systém to robí automaticky&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;nevýhody-abs&#34;&gt;Nevýhody ABS:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Predĺžená brzdná dráha na sypkých povrchoch&lt;/strong&gt; - na štrku, hlbokom snehu alebo ľade môže byť brzdná dráha dlhšia ako pri zablokovaných kolesách, ktoré by sa &amp;ldquo;zakopali&amp;rdquo; do podkladu. Napriek tomu ABS zachováva ovládateľnosť vozidla.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vyššia obstarávacia cena&lt;/strong&gt; - vozidlá s ABS sú drahšie na výrobu a tým pádom aj na nákup&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zložitejšia konštrukcia&lt;/strong&gt; - systém obsahuje množstvo elektronických a hydraulických komponentov, čo zvyšuje komplexnosť&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Potreba špecializovaného servisu&lt;/strong&gt; - diagnostika a oprava vyžaduje špecializované zariadenia a vyškolených technikov&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Falošný pocit bezpečnosti&lt;/strong&gt; - niektorí vodiči sa spoliehajú na ABS a podceňujú bezpečnú vzdialenosť alebo prispôsobenie rýchlosti podmienkam&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;legislatíva&#34;&gt;Legislatíva&lt;/h2&gt;
+&lt;p&gt;V Európskej únii je systém ABS povinnou výbavou všetkých nových osobných automobilov od roku 2004. Od roku 2016 musia byť všetky nové motocykle s objemom valcov nad 125 cm³ vybavené systémom ABS alebo kombinovaným brzdovým systémom (CBS). V mnohých krajinách sa ABS stal štandardom bezpečnosti a jeho prítomnosť výrazne prispieva k zníženiu počtu dopravných nehôd.&lt;/p&gt;
+&lt;p&gt;Nasledujúce učivo:
+
+
+
+
+&lt;div class=&#34;hb-cards mt-4 grid gap-4 not-prose&#34; style=&#34;--hb-cols: 1;&#34;&gt;
+  
+  &lt;a
+    class=&#34;hb-card group&#34;href=&#34;ASR&#34; &gt;
+  
+    &lt;span class=&#34;hb-card-title pt-4 px-4&#34;&gt;Regulácia preklzu kolies (ASR)&lt;/span&gt;&lt;div class=&#34;hb-card-subtitle&#34;&gt;Princíp činnosti, Konštrukcia, výhody, nevýhody&amp;hellip;&lt;/div&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Regulácia preklzu kolies (ASR)</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/asr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/asr/</guid>
+      <description>&lt;p&gt;ASR (Anti-Slip Regulation) alebo TCS (Traction Control System) je aktívny bezpečnostný systém, ktorý zabraňuje preklzu hnacích kolies pri rozjazde a akcelerácii.&lt;/p&gt;
+&lt;p&gt;{image of ASR system}&lt;/p&gt;
+&lt;h2 id=&#34;princíp-činnosti&#34;&gt;Princíp činnosti&lt;/h2&gt;
+&lt;p&gt;ASR pracuje v úzkej súčinnosti so systémom ABS a riadiacou jednotkou motora (ECU). Systém využíva tie isté snímače otáčok kolies ako ABS, ktoré neustále monitorujú rýchlosť otáčania každého kolesa.&lt;/p&gt;
+&lt;p&gt;Keď riadiaca jednotka zistí, že niektoré z hnacích kolies sa otáča výrazne rýchlejšie než nehnané kolesá (alebo než druhé hnacie koleso), systém vyhodnotí túto situáciu ako preklz a okamžite aktivuje reguláciu.&lt;/p&gt;
+&lt;h3 id=&#34;metódy-regulácie&#34;&gt;Metódy regulácie:&lt;/h3&gt;
+&lt;p&gt;ASR zabraňuje preklzu hnacích kolies dvoma hlavnými spôsobmi:&lt;/p&gt;
+&lt;h4 id=&#34;1-zníženie-výkonu-motora-ems&#34;&gt;1. Zníženie výkonu motora (EMS)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Znížením dávky paliva alebo dočasním vypnutím vstrekovania do niektorých valcov&lt;/li&gt;
+&lt;li&gt;Oneskorením iskry alebo jej vynechávaním v niektorých valcoch (benzínové motory)&lt;/li&gt;
+&lt;li&gt;Dočasným znížením prívodu vzduchu pomocou dodatočného prikrytia škrtiacej klapky (benzínové motory)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-pribrzdenie-preklzujúceho-kolesa&#34;&gt;2. Pribrzdenie preklzujúceho kolesa&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatickým aktivovaním ABS bez toho, aby sa vodič dotkol brzdového pedála&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vodič tento proces vníma ako krátkodobé obmedzenie výkonu a prípadne pulzovanie z podvozku. Na prístrojovej doske sa rozsvieti kontrolka ASR.&lt;/p&gt;
+&lt;h2 id=&#34;hlavné-časti-systému-asr&#34;&gt;Hlavné časti systému ASR&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Snímače otáčok kolies&lt;/strong&gt; - zdieľané so systémom ABS, merajú rýchlosť otáčania každého kolesa&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Elektronická riadiaca jednotka (ECU)&lt;/strong&gt; - vyhodnocuje signály a rozhoduje o zásahu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hydraulická riadiaca jednotka&lt;/strong&gt; - rovnaká ako pri ABS, reguluje brzdný tlak&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prepojenie s riadením motora&lt;/strong&gt; - umožňuje zníženie výkonu motora&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kontrolka ASR&lt;/strong&gt; - informuje vodiča o aktivácii systému&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vypínač ASR&lt;/strong&gt; - umožňuje dočasné vypnutie systému&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;{image of ASR system}&lt;/p&gt;
+&lt;h2 id=&#34;výhody&#34;&gt;Výhody:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zlepšená trakcia&lt;/strong&gt; - zabraňuje prešmykovaniu kolies pri zrýchľovaní na klzkom povrchu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zvýšená stabilita&lt;/strong&gt; - vozidlo zostáva stabilné a ovládateľné aj pri rozdielnej priľnavosti kolies&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kratšia dráha zrýchlenia&lt;/strong&gt; - optimálny prenos výkonu na vozovku&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Znížené opotrebenie pneumatík&lt;/strong&gt; - zabránením preklzu sa znižuje nerovnomerné opotrebenie&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ochrana pohonného ústrojenstva&lt;/strong&gt; - minimalizuje zaťaženie diferenciálu a prevodovky&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zníženie rizika aquaplaningu&lt;/strong&gt; - lepšia kontrola na mokrej vozovke&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lepšia ovládateľnosť v zákrutách&lt;/strong&gt; - zabraňuje šmyku pri akcelerácii v zatáčke&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;nevýhody&#34;&gt;Nevýhody:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Obmedzenie výkonu&lt;/strong&gt; - v niektorých situáciách môže ASR znížiť výkon, čo môže byť nevýhodné pri potrebe rýchleho zrýchlenia&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Problémy v hlbokom snehu&lt;/strong&gt; - systém môže zabrániť &amp;ldquo;zakopaniu&amp;rdquo; kolies, čo niekedy pomáha pri rozjazde&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pocit zásahu do ovládania&lt;/strong&gt; - niektorí vodiči vnímajú aktiváciu ASR ako rušivú&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Možnosť vypnutia potrebná&lt;/strong&gt; - v určitých podmienkach (hlboký sneh, blato, štrk) môže byť potrebné ASR vypnúť&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;msr---regulácia-brzdného-momentu-motora&#34;&gt;MSR - Regulácia brzdného momentu motora&lt;/h2&gt;
+&lt;p&gt;MSR (Motor Schleppmoment Regelung) je doplnková funkcia systému ASR, ktorá rieši opačný problém - zablokovanie hnacích kolies pri brzdení motorom.&lt;/p&gt;
+&lt;h3 id=&#34;princíp-činnosti-1&#34;&gt;Princíp činnosti:&lt;/h3&gt;
+&lt;p&gt;Pri prudkom znížení otáčok motora (napríklad pri radení na nižší prevod na klzkom povrchu) môže brzdný účinok motora spôsobiť zablokovanie hnacích kolies. MSR tomuto zabráňuje tým, že:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zvýši otáčky motora (pootvorí škrtíacu klapku)&lt;/li&gt;
+&lt;li&gt;Alebo zníži brzdný účinok kontrolovaným pribrzdením predných nehnacích kolies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nasledujúce učivo:
+
+
+
+
+&lt;div class=&#34;hb-cards mt-4 grid gap-4 not-prose&#34; style=&#34;--hb-cols: 1;&#34;&gt;
+  
+  &lt;a
+    class=&#34;hb-card group&#34;href=&#34;FDR&#34; &gt;
+  
+    &lt;span class=&#34;hb-card-title pt-4 px-4&#34;&gt;Elektronická kontrola stability (ESP/FDR)&lt;/span&gt;&lt;div class=&#34;hb-card-subtitle&#34;&gt;Princíp činnosti, Konštrukcia, výhody, nevýhody&amp;hellip;&lt;/div&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Elektronická kontrola stability (ESP/FDR)</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/fdr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/fdr/</guid>
+      <description>&lt;p&gt;FDR (Fahrdynamikregelung) alebo ESP (Electronic Stability Program) je najkomplexnejší elektronický bezpečnostný systém na zabezpečenie stability vozidla. Kombinuje funkcie ABS, ASR, MSR a pridáva aktívnu kontrolu stability v zákrutách. Systém dokáže rozpoznať a korigovať nebezpečné jazdné situácie skôr, než vodič stihne zareagovat.&lt;/p&gt;
+&lt;p&gt;{image of ESP/FDR system}&lt;/p&gt;
+&lt;h2 id=&#34;princíp-činnosti&#34;&gt;Princíp činnosti&lt;/h2&gt;
+&lt;p&gt;Systém FDR nepretržite monitoruje a vyhodnocuje kľúčové parametre jazdy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Uhol natočenia volantu&lt;/strong&gt; - kam chce vodič smerovať&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rýchlosť vozidla&lt;/strong&gt; - aktuálna rýchlosť pohybu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Priečne zrýchlenie&lt;/strong&gt; - bočné sily pôsobiace na vozidlo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Uhlovú rýchlosť otáčania&lt;/strong&gt; - ako rýchlo sa vozidlo otáča okolo zvislej osi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Otáčky všetkých kolies&lt;/strong&gt; - skutočný pohyb vozidla&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Riadiaca jednotka porovnáva zámer vodiča (uhol natočenia volantu) so skutočným správaním vozidla (snímače). Ak zistí rozdiel - vozidlo reaguje inak, než vodič očakáva - systém okamžite zasahuje.&lt;/p&gt;
+&lt;h3 id=&#34;spôsob-zásahu&#34;&gt;Spôsob zásahu:&lt;/h3&gt;
+&lt;p&gt;Keď FDR deteguje nestabilitu, automaticky:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Pribrzdi vybrané koleso/kolesá&lt;/strong&gt; - selektívnym brzdením jednotlivých kolies koriguje smer jazdy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zníži výkon motora&lt;/strong&gt; - obmedzí prívod paliva alebo oneskorí zápel&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stabilizuje trajektóriu vozidla&lt;/strong&gt; - vráti vozidlo na požadovanú dráhu&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;situácie-kedy-fdr-zasahuje&#34;&gt;Situácie, kedy FDR zasahuje:&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Pretáčavosť (oversteer)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;systém pribrzdi predné vonkajšie koleso&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Nedotáčavosť (understeer)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;systém pribrzdi zadné vnútorné koleso&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Preklz pri rozjazde&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aktivuje sa funkcia ASR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Blokovanie pri brzdení&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aktivuje sa funkcia ABS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hlavné-časti-systému-fdresp&#34;&gt;Hlavné časti systému FDR/ESP&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Všetky komponenty ABS a ASR&lt;/strong&gt; - snímače otáčok kolies, hydraulická jednotka, riadiaca jednotka&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snímač uhla natočenia volantu&lt;/strong&gt; - meria, kam vodič chce smerovať&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snímač priečneho zrýchlenia&lt;/strong&gt; - meria bočné G-sily pôsobiace na vozidlo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snímač uhlovej rýchlosti (gyroskop)&lt;/strong&gt; - meria rýchlosť otáčania vozidla okolo zvislej osi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hydraulická jednotka s pumpou&lt;/strong&gt; - umožňuje aktívne brzdenie jednotlivých kolies bez stlačenia pedála&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Výkonná riadiaca jednotka&lt;/strong&gt; - vyhodnocuje všetky signály a riadi zásahy (až 25-krát za sekundu)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kontrolka ESP&lt;/strong&gt; - informuje vodiča o aktivácii alebo poruche systému&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vypínač ESP&lt;/strong&gt; - umožňuje dočasné vypnutie systému&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;výhody&#34;&gt;Výhody:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Výrazné zvýšenie aktívnej bezpečnosti&lt;/strong&gt; - podľa štúdií znižuje riziko smrteľných nehôd až o 40%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prevencia šmykov a prevrátenia&lt;/strong&gt; - najmä pri náhlych manévroch a v zákrutách&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Účinné aj pre menej skúsených vodičov&lt;/strong&gt; - systém reaguje rýchlejšie než človek&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrácia všetkých stabilizačných systémov&lt;/strong&gt; - ABS, ASR, MSR pracujú koordinovane&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Štatisticky preukazné zníženie nehôd&lt;/strong&gt; - najmä jednostranných havárií a prevrátení&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pomoc pri vyhýbaní prekážkam&lt;/strong&gt; - umožňuje bezpečnejšie úhybné manévre&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;nevýhody&#34;&gt;Nevýhody:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vyššie výrobné náklady&lt;/strong&gt; - pokročilé senzory a riadiace jednotky zvyšujú cenu vozidla&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zložitejšia konštrukcia&lt;/strong&gt; - viac komponentov znamená vyššiu komplexnosť systému&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nákladnejšia údržba a opravy&lt;/strong&gt; - diagnostika a oprava vyžaduje špecializované zariadenia&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Možnosť falošnej aktivácie&lt;/strong&gt; - v extrémnych situáciách môže systém zasiahnuť nesprávne&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Obmedzenie pri off-road jazde&lt;/strong&gt; - na štrku, piesku alebo v blate môže byť ESP kontraproduktívny&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pocit straty kontroly&lt;/strong&gt; - niektorí skúsení vodiči vnímajú zásahy ESP ako rušivé&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Potreba vypnutia v špecifických situáciách&lt;/strong&gt; - pri jazde so snehovými reťazami, v hlbokom snehu alebo pri ťahaní uviaznutého vozidla&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Závislosť od kalibrácie&lt;/strong&gt; - nesprávna kalibrácia môže viesť k nepresným zásahom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;legislatíva&#34;&gt;Legislatíva&lt;/h2&gt;
+&lt;p&gt;Systém FDR je v Európskej únii povinný od roku 2014 pre všetky nové osobné automobily a ľahké úžitkové vozidlá. Táto legislatíva bola zavedená na základe preukázaného prínosu systému k zníženiu počtu dopravných nehôd.&lt;/p&gt;
+&lt;p&gt;Nasledujúce učivo:
+
+
+
+
+&lt;div class=&#34;hb-cards mt-4 grid gap-4 not-prose&#34; style=&#34;--hb-cols: 1;&#34;&gt;
+  
+  &lt;a
+    class=&#34;hb-card group&#34;href=&#34;vzduchove-brzdy&#34; &gt;
+  
+    &lt;span class=&#34;hb-card-title pt-4 px-4&#34;&gt;Vzduchotlakové (strojové) brzdy&lt;/span&gt;&lt;div class=&#34;hb-card-subtitle&#34;&gt;Konštrukcia, vlastnosti, výhody, nevýhody&amp;hellip;&lt;/div&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vzduchotlakové (strojové) brzdy</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/vzduchove-brzdy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ucebnica/2-rocnik/01-brzdy/vzduchove-brzdy/</guid>
+      <description>&lt;p&gt;Vzduchotlakový brzdový systém je typ brzdy, pri ktorom sa na ovládanie bŕzd používa stlačený vzduch namiesto brzdovej kvapaliny. Používajú sa na ťažkých nákladných vozidlách, autobusoch a súpravách s prívesmi, kde hydraulický systém by nevyvinul dostatočnú brzdnú silu.&lt;/p&gt;
+&lt;p&gt;{image of air brake system}&lt;/p&gt;
+&lt;h2 id=&#34;princíp-činnosti&#34;&gt;Princíp činnosti&lt;/h2&gt;
+&lt;p&gt;Typický prevádzkový tlak je približne 6,9 až 8,3 bar (100-120 psi). Systém je rozdelený na &lt;strong&gt;zásobovací systém&lt;/strong&gt; (výroba a skladovanie vzduchu) a &lt;strong&gt;riadiaci systém&lt;/strong&gt; (ovládanie bŕzd).&lt;/p&gt;
+&lt;h3 id=&#34;prevádzková-brzda&#34;&gt;Prevádzková brzda:&lt;/h3&gt;
+&lt;p&gt;Keď vodič stlačí brzdový pedál, vzduch pod tlakom je vedený zo zásobníka do brzdových komôr pri kolesách. Tlak vzduchu posunie membrány alebo piesty, ktoré pritlačia brzdové platničky alebo čeľuste na kotúče/bubny. Po uvoľnení pedála sa stlačený vzduch vypustí do atmosféry a vratné pružiny odtiahnu brzdy.&lt;/p&gt;
+&lt;h3 id=&#34;parkovacie-brzdy&#34;&gt;Parkovacie brzdy:&lt;/h3&gt;
+&lt;p&gt;Parkovacie brzdy fungují opačne - sú držané v zapnutej polohe silnou pružinou. Vzduch pod tlakom stláča pružinu a uvoľňuje brzdu. Pri stlačení ovládacej páky sa vzduch vypustí a pružina zabrzdi vozidlo. &lt;strong&gt;Náhla strata tlaku vzduchu má za následok okamžité zapnutie parkovacej brzdy&lt;/strong&gt; - dôležitá bezpečnostná funkcia.&lt;/p&gt;
+&lt;h2 id=&#34;hlavné-časti&#34;&gt;Hlavné časti&lt;/h2&gt;
+&lt;p&gt;{image of air brake components}&lt;/p&gt;
+&lt;h3 id=&#34;zásobovací-systém&#34;&gt;Zásobovací systém:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Kompresor vzduchu&lt;/strong&gt; - vyrába stlačený vzduch, poháňaný motorom&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Regulátor tlaku&lt;/strong&gt; - udržiava konštantný tlak v systéme (typicky 6,9-8,3 bar)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sušička vzduchu&lt;/strong&gt; - odstraňuje vlhkosť a olejové nečistoty&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zásobníky vzduchu&lt;/strong&gt; (vzduchojemy):
+&lt;ul&gt;
+&lt;li&gt;Hlavný zásobník (mokrá nádrž) - zhromažďuje olej a vodu z kompresora&lt;/li&gt;
+&lt;li&gt;Prevádzkové zásobníky - primárny zdroj pre brzdy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Štvorkanálový ochranný ventil&lt;/strong&gt; - distribuuje vzduch do jednotlivých okruhov&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;riadiaci-systém&#34;&gt;Riadiaci systém:&lt;/h3&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Brzdový pedál (nožný ventil)&lt;/strong&gt; - ovláda tok vzduchu do brzdových komôr&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ovládací ventil parkovacej brzdy&lt;/strong&gt; - páka alebo tlačidlo v kabíne&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Brzdové komory:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Membránové komory (prevádzkové brzdy)&lt;/li&gt;
+&lt;li&gt;Pružinové komory (parkovacie brzdy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relé ventily&lt;/strong&gt; - zlepšujú rýchlosť odozvy systému&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manometre&lt;/strong&gt; - ukazovatele tlaku v systéme&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Varovné zariadenia&lt;/strong&gt; - svetelné/zvukové upozornenia pri poklese tlaku&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Potrubia a hadice&lt;/strong&gt; - rozvod stlačeného vzduchu&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;výhody-vzduchotlakových-bŕzd&#34;&gt;Výhody vzduchotlakových bŕzd:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Veľká brzdná sila&lt;/strong&gt; - dokážu zastaviť veľmi ťažké vozidlá&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jednoduchšie pripojenie prívesov&lt;/strong&gt; - vzduchové spojky sú spoľahlivejšie ako hydraulické&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Žiadna brzdová kvapalina&lt;/strong&gt; - odolnosť voči vysokým teplotám, nevrie, nemrzne&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zásoba energie&lt;/strong&gt; - vzduchojemy umožňujú niekoľko brzdení aj po vypnutí motora&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automatická parkovacia brzda&lt;/strong&gt; - pri strate tlaku sa automaticky zapne&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spoľahlivosť&lt;/strong&gt; - robustný systém odolný voči ťažkým podmienkam&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;nevýhody-vzduchotlakových-bŕzd&#34;&gt;Nevýhody vzduchotlakových bŕzd:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pomalšia odozva&lt;/strong&gt; - vzduch je stlačiteľný, preto je odozva pomalšia ako pri hydraulických brzdách&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zložitejšia konštrukcia&lt;/strong&gt; - viac komponentov ako pri hydraulickom systéme&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vyššia hmotnosť&lt;/strong&gt; - kompresor a zásobníky pridávajú hmotnosť&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Potreba pravidelnej údržby&lt;/strong&gt; - vypúšťanie kondenzátu zo zásobníkov&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nebezpečenstvo zamrznutia&lt;/strong&gt; - vlhkosť vo vzduchu môže zamrznúť a zablokovať ventily&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hlučnosť&lt;/strong&gt; - charakteristický zvuk pri vypúšťaní vzduchu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vyššie náklady&lt;/strong&gt; - drahšia výroba a údržba&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dvojokruhová-vzduchotlaková-sústava&#34;&gt;Dvojokruhová vzduchotlaková sústava&lt;/h2&gt;
+&lt;p&gt;Pre bezpečnosť sú moderné vzduchotlakové brzdové systémy vždy dvojokruhové - majú dva nezávislé brzdové okruhy s oddelenými zásobníkmi.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Typické usporiadanie:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Primárny okruh:&lt;/strong&gt; zadná náprava ťahača&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sekundárny okruh:&lt;/strong&gt; predná náprava ťahača + brzdy prívesa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pri poruche jedného okruhu zostáva druhý plne funkčný. Štvorkanálový ochranný ventil automaticky izoluje poškodený okruh, čím sa zabráni strate tlaku v celom systéme.&lt;/p&gt;
+&lt;p&gt;Nasledujúce učivo:
+
+
+
+
+&lt;div class=&#34;hb-cards mt-4 grid gap-4 not-prose&#34; style=&#34;--hb-cols: 1;&#34;&gt;
+  
+  &lt;a
+    class=&#34;hb-card group&#34;href=&#34;02-pruzenie-tlmenie/_index&#34; &gt;
+  
+    &lt;span class=&#34;hb-card-title pt-4 px-4&#34;&gt;Pruženie a Tlmenie&lt;/span&gt;&lt;div class=&#34;hb-card-subtitle&#34;&gt;Princíp činnosti, Konštrukcia, výhody, nevýhody&amp;hellip;&lt;/div&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

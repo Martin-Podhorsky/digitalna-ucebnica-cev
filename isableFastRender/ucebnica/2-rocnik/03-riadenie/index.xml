@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Riadenie | Učebnica CEV</title>
+    <link>http://localhost:1313/ucebnica/2-rocnik/03-riadenie/</link>
+      <atom:link href="http://localhost:1313/ucebnica/2-rocnik/03-riadenie/index.xml" rel="self" type="application/rss+xml" />
+    <description>Riadenie</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>sk-sk</language>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_6c2847ceeca1dc6e.png</url>
+      <title>Riadenie</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/03-riadenie/</link>
+    </image>
+    
+    <item>
+      <title>Mechanizmus riadenia pri nezávislom zavesení kolies</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/03-riadenie/mechanizmus-riadenia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ucebnica/2-rocnik/03-riadenie/mechanizmus-riadenia/</guid>
+      <description>&lt;h2 id=&#34;hlavné-časti&#34;&gt;Hlavné časti&lt;/h2&gt;
+&lt;h3 id=&#34;volant-a-hriadeľ-volantu&#34;&gt;Volant a hriadeľ volantu&lt;/h3&gt;
+&lt;p&gt;Volant je základný ovládací prvok, ktorým vodič určuje smer jazdy. Jeho základ tvorí pevná kovová kostra (najčastejšie z ľahkej hliníkovej alebo horčíkovej zliatiny), na ktorú je nalisovaná vrstva plastu, polyuretánu alebo kože.&lt;/p&gt;
+&lt;p&gt;Z bezpečnostných dôvodov je stred volantu zapustený (umiestnený hlbšie oproti vencu, ktorého sa vodič drží). Tento priestor je vyplnený mäkkým tlmiacim materiálom a v moderných vozidlách v ňom takmer vždy nájdeme airbag. Volanty majú štandardizované rozmery a ich stred s obvodovým vencom spájajú zvyčajne dve alebo tri ramená.&lt;/p&gt;
+&lt;p&gt;Volant je pevne nasadený na hriadeľ riadenia pomocou jemného drážkovania (tzv. tisíchranu) a zaistený maticou. Hriadeľ spolu s jeho ochranným obalom a kĺbmi tvorí celok, ktorý nazývame stĺpik riadenia.&lt;/p&gt;
+&lt;p&gt;Aby sa pri čelnom náraze zabránilo vniknutiu volantu do kabíny a poraneniu vodiča, stĺpik riadenia je navrhnutý ako bezpečnostný prvok:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deformačné zóny:&lt;/strong&gt; Hriadeľ nie je z jedného kusu, ale skladá sa z viacerých častí spojených kardanovými kĺbmi. Pri náraze sa vďaka nim „zalomí“ mimo priestoru vodiča.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Teleskopická funkcia:&lt;/strong&gt; Niektoré časti sa pri silnom tlaku do seba zasunú ako ďalekohľad, čím pohltia energiu nárazu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;{image: Schéma stĺpika riadenia s deformačnými prvkami}&lt;/p&gt;
+&lt;p&gt;Okrem bezpečnosti moderné stĺpiky riadenia zvyšujú aj komfort – umožňujú vodičovi nastaviť si polohu volantu výškovo aj pozdĺžne.&lt;/p&gt;
+&lt;h3 id=&#34;prevodovka-riadenia&#34;&gt;Prevodovka riadenia&lt;/h3&gt;
+&lt;p&gt;Prevodovka riadenia má za úlohu premeniť otáčavý pohyb volantu na posuvný pohyb, ktorý následne natáča kolesá. Okrem toho slúži na zväčšenie sily, ktorou vodič pôsobí na volant, aby bolo ovládanie vozidla ľahké a pohodlné.&lt;/p&gt;
+&lt;p&gt;Prevod medzi volantom a kolesami musí byť nastavený tak, aby bolo riadenie presné, ale zároveň nie príliš citlivé. Vodič by mal mať pocit istoty pri ovládaní vozidla, bez potreby vyvíjať veľkú fyzickú námahu.&lt;/p&gt;
+&lt;h4 id=&#34;prevodový-pomer&#34;&gt;Prevodový pomer&lt;/h4&gt;
+&lt;p&gt;Prevodový pomer nám hovorí, o koľko stupňov musíme otočiť volantom, aby sa kolesá natočili o 1 stupeň. Napríklad ak je prevodový pomer 15:1 znamená to, že pri otočení volantu o 15° sa kolesá natočia o 1°.&lt;/p&gt;
+&lt;p&gt;Tento pomer sa volí tak, aby sila potrebná na točenie volantom nebola príliš veľká ale zasa aby sme nemuseli volantom otáčať 5 krát len pri prejazde zákrutou. Bežné hodnoty sú:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Osobné autá:&lt;/strong&gt; 12:1 až 24:1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nákladné autá:&lt;/strong&gt; 25:1 až 40:1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Niektoré moderné riadenia však nemajú stále rovnaký prevodový pomer - majú takzvaný &lt;strong&gt;variabilný (premenlivý) prevodový pomer&lt;/strong&gt;. Keď je volant v &lt;strong&gt;stredovej polohe&lt;/strong&gt;, prevodový pomer &lt;strong&gt;je väčší&lt;/strong&gt;. To znamená, že malé pohyby volantom (napr. na diaľnici) nespôsobia prudkú zmenu smeru. Jazda je tak stabilnejšia a bezpečnejšia. Naopak, ak je volant v &lt;strong&gt;krajnej polohe&lt;/strong&gt;, prevodový pomer &lt;strong&gt;je menší&lt;/strong&gt;. To znamená, že na natočenie kolies stačí menej točiť volantom. Toto veľmi uľahčuje parkovanie a manévrovanie v meste.&lt;/p&gt;
+&lt;h4 id=&#34;rozsah-natočenia-kolies&#34;&gt;Rozsah natočenia kolies&lt;/h4&gt;
+&lt;p&gt;Maximálny uhol, o ktorý sa dajú kolesá natočiť, je obmedzený dorazmi. Zvyčajne je to 35° až 45° na každú stranu. To znamená, že celkový rozsah pohybu kolies zľava doprava je 70° až 90°.&lt;/p&gt;
+&lt;h4 id=&#34;typy-prevodoviek-riadenia&#34;&gt;Typy prevodoviek riadenia&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Maticová prevodovka (so skrutkou a maticou)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ide o starší, jednoduchý systém. Hriadeľ volantu je zakončený závitovou tyčou (skrutkou). Na tejto skrutke je nasadená matica, ktorá sa pri točení volantom posúva hore alebo dole. Tento posuvný pohyb sa následne prenáša cez páku na kolesá.&lt;/p&gt;
+&lt;p&gt;{image of Maticová prevodovka riadenia}&lt;/p&gt;
+&lt;p&gt;Hoci je tento systém jednoduchý, má väčšie trenie a rýchlejšie sa opotrebúva, preto sa v moderných osobných autách už nepoužíva.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Závitovkový mechanizmus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Tento systém používa tzv. „červíka“ (závitovku) – špirálu na konci hriadeľa volantu. Tento červík zapadá do ozubeného kolesa (sektora) alebo valčeka, ktorý sa rotáciou závitovky otáča.&lt;/p&gt;
+&lt;p&gt;{image}&lt;/p&gt;
+&lt;p&gt;Tieto systémy sú veľmi robustné a odolné, preto sa stále používajú v niektorých ťažších vozidlách, hoci majú menšiu presnosť ako hrebeňové riadenie.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hrebeňové riadenie&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Toto je dnes &lt;strong&gt;najbežnejší typ riadenia&lt;/strong&gt; v osobných autách. Na konci hriadeľa volantu je malé ozubené koleso (pastorok). To zapadá do dlhej ozubenej tyče (hrebeňa). Keď vodič otáča volantom, pastorok sa točí a posúva ozubený hrebeň doľava alebo doprava. Na koncoch hrebeňa sú tyče, ktoré priamo natáčajú kolesá. Celý mechanizmus je uzavretý v ochrannom puzdre a na oboch koncoch chránený gumovými manžetami (prachovkami), ktoré zabraňujú vniknutiu nečistôt a úniku maziva.&lt;/p&gt;
+&lt;p&gt;{image of Hrebeňový prevod riadenia - detail}&lt;/p&gt;
+&lt;p&gt;Je obľúbené pre svoju jednoduchosť (má málo súčiastok), presnosť (vodič výborne „cíti cestu&amp;quot;) a spoľahlivosť (vôľa v riadení sa automaticky vymedzuje pružinou).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Recirkulačná guľôčková skrutka&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Tento systém je vylepšením maticovej prevodovky a nájdeme ho hlavne v &lt;strong&gt;nákladných autách, autobusoch a veľkých SUV&lt;/strong&gt;. Funguje podobne ako maticová prevodovka, ale medzi závitmi skrutky a matice sú vložené oceľové guľôčky. Tieto guľôčky tam obiehajú (recirkulujú), čo výrazne znižuje trenie. Vďaka tomu sa predlžuje životnosť a riadenie sa taktiež stáva ľahšie (na otočenie volantu je potrebné vynaložiť menšiu fyzickú silu).&lt;/p&gt;
+&lt;p&gt;{image}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kombinované prevody&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Existujú aj rôzne špeciálne kombinácie týchto systémov pre špecifické účely (napr. systém ROSS), ktoré kombinujú prvky ako ozubené kolesá, páky a kladky, ale v bežných osobných autách sa s nimi stretnete zriedka.&lt;/p&gt;
+&lt;h3 id=&#34;riadiace-tyče-a-tiahla&#34;&gt;Riadiace tyče a tiahla&lt;/h3&gt;
+&lt;p&gt;Riadiace tyče prenášajú pohyb z prevodovky riadenia na kolesá. Pri nezávislom zavesení kolies sa používa tzv. &lt;strong&gt;delená spojovacia tyč&lt;/strong&gt;, ktorá sa skladá z dvoch častí: vnútornej tyče (pripojenej k hrebeňu) a vonkajšej tyče (pripojenej k riadiacemu ramenu kolesa). Tieto časti sú vzájomne spojené a ich dĺžka sa dá nastavovať, čo je dôležité pre správne nastavenie geometrie kolies (zbiehavosti).&lt;/p&gt;
+&lt;p&gt;{image}&lt;/p&gt;
+&lt;p&gt;Všetky pohyblivé spoje sú realizované pomocou &lt;strong&gt;guľových čapov&lt;/strong&gt;, ktoré umožňujú súčasný pohyb riadenia (otáčanie kolies) aj pruženia (kolesá sa pohybujú hore-dole pri prejazde nerovností). Vďaka tomu kolesá presne kopírujú nerovnosti vozovky a zároveň spoľahlivo reagujú na pohyby volantu.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posilňovače riadenia</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/03-riadenie/posilnovace-riadenia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ucebnica/2-rocnik/03-riadenie/posilnovace-riadenia/</guid>
+      <description>&lt;p&gt;Posilňovač riadenia je zariadenie, ktoré znižuje silu potrebnú na otáčanie volantu. Bez posilňovača by bolo riadenie, najmä pri nízkych rýchlostiach alebo pri parkovaní, veľmi namáhavé. Posilňovače riadenia znižujú potrebnú ovládaciu silu až o 80%.&lt;/p&gt;
+&lt;h2 id=&#34;hydraulický-posilňovač-riadenia-hps&#34;&gt;Hydraulický posilňovač riadenia (HPS)&lt;/h2&gt;
+&lt;p&gt;Hydraulický posilňovač riadenia využíva tlak hydraulickej kvapaliny (oleja) na zosilnenie sily, ktorú vodič vyvíja na volant.&lt;/p&gt;
+&lt;h3 id=&#34;hlavné-časti&#34;&gt;Hlavné časti:&lt;/h3&gt;
+&lt;p&gt;{image of Hydraulický posilňovač riadenia - schéma}&lt;/p&gt;
+&lt;p&gt;1 - Zásobník hydraulickej kvapaliny
+2 - Hydraulické čerpadlo (zubové alebo lamelové)
+3 - Vysokotlaková hadica
+4 - Rozvádzací (riadiaci) ventil
+5 - Pracovný valec (hydraulický piest)
+6 - Hrebeňový prevod riadenia
+7 - Spätná hadica (nízkotlaková)
+8 - Remennica pohonu čerpadla&lt;/p&gt;
+&lt;h3 id=&#34;princíp-činnosti&#34;&gt;Princíp činnosti:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Čerpadlo poháňané motorom vozidla (prostredníctvom klinového remeňa) neustále vytvára tlak hydraulickej kvapaliny.&lt;/li&gt;
+&lt;li&gt;Pri otočení volantu sa aktivuje rozvádzací ventil, ktorý usmerní tlak kvapaliny na jednu stranu piesta v pracovnom valci.&lt;/li&gt;
+&lt;li&gt;Pracovný valec využíva tento tlak na pohyb hrebeňa, čím pomáha pri natáčaní kolies.&lt;/li&gt;
+&lt;li&gt;Pri priamej jazde alebo neutrálnej polohe volantu kvapalina voľne cirkuluje a systém neposkytuje zosilnenie.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;výhody&#34;&gt;Výhody:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Výrazné zníženie ovládacej sily (až o 80%)&lt;/li&gt;
+&lt;li&gt;Lepší komfort riadenia, najmä pri parkovaní&lt;/li&gt;
+&lt;li&gt;Dobrá spätná väzba z cesty (vodič cíti odpor kolies)&lt;/li&gt;
+&lt;li&gt;Spoľahlivá a overená technológia&lt;/li&gt;
+&lt;li&gt;Vhodné pre ťažké vozidlá a nákladné automobily&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;nevýhody&#34;&gt;Nevýhody:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Závislosť od chodu motora (pri vypnutom motore nefunguje)&lt;/li&gt;
+&lt;li&gt;Čerpadlo beží neustále, aj keď nie je potrebné&lt;/li&gt;
+&lt;li&gt;Potreba pravidelnej údržby (kontrola a výmena oleja, hadíc)&lt;/li&gt;
+&lt;li&gt;Možné úniky hydraulickej kvapaliny&lt;/li&gt;
+&lt;li&gt;Pri poruche úplná strata posilňovania&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;použitie&#34;&gt;Použitie&lt;/h3&gt;
+&lt;p&gt;Staršie osobné automobily, nákladné vozidlá, autobusy a ťažké úžitkové vozidlá.&lt;/p&gt;
+&lt;h2 id=&#34;elektrohydraulický-posilňovač-riadenia-ehps&#34;&gt;Elektrohydraulický posilňovač riadenia (EHPS)&lt;/h2&gt;
+&lt;p&gt;EHPS kombinuje prvky hydraulického a elektrického systému. Namiesto čerpadla poháňaného motorom využíva &lt;strong&gt;elektrické čerpadlo&lt;/strong&gt; na generovanie hydraulického tlaku.&lt;/p&gt;
+&lt;h3 id=&#34;výhody-oproti-klasickému-hps&#34;&gt;Výhody oproti klasickému HPS:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Čerpadlo pracuje len keď je potrebné&lt;/li&gt;
+&lt;li&gt;Nezávisí od otáčok motora&lt;/li&gt;
+&lt;li&gt;Možnosť meniť silový účinok posilňovača (zvýšiť alebo znížiť) reguláciou elektrického čerpadla&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;použitie-1&#34;&gt;Použitie:&lt;/h3&gt;
+&lt;p&gt;Ťažké úžitkové vozidlá a niektoré osobné automobily ako prechodná technológia medzi HPS a EPS.&lt;/p&gt;
+&lt;h2 id=&#34;elektrický-posilňovač-riadenia-eps&#34;&gt;Elektrický posilňovač riadenia (EPS)&lt;/h2&gt;
+&lt;p&gt;EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou elektromotora. V súčasnosti sa používa vo väčšine nových osobných automobilov.&lt;/p&gt;
+&lt;p&gt;{image of EPS systém - komponenty a umiestnenie}&lt;/p&gt;
+&lt;h3 id=&#34;hlavné-časti-1&#34;&gt;Hlavné časti:&lt;/h3&gt;
+&lt;p&gt;1 - Jednosmerný elektromotor (klasický alebo bezkartáčový)
+2 - Riadiaca jednotka (ECU)
+3 - Snímač krútiaceho momentu
+4 - Snímač uhla natočenia volantu
+5 - Prevodovka elektromotora&lt;/p&gt;
+&lt;h3 id=&#34;princíp-činnosti-1&#34;&gt;Princíp činnosti:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Snímač krútiaceho momentu meria silu, ktorou vodič pôsobí na volant.&lt;/li&gt;
+&lt;li&gt;Snímač uhla natočenia určuje polohu a smer otáčania volantu.&lt;/li&gt;
+&lt;li&gt;Riadiaca jednotka vyhodnocuje údaje zo snímačov a z ďalších systémov vozidla (rýchlosť, otáčky motora).&lt;/li&gt;
+&lt;li&gt;Na základe vyhodnotenia ECU aktivuje elektromotor, ktorý poskytuje potrebnú pomocnú silu.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;typy-eps-podľa-umiestnenia-elektromotora&#34;&gt;Typy EPS podľa umiestnenia elektromotora:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;C-EPS (Column-mounted)&lt;/strong&gt; - motor pripojený k stĺpiku riadenia. Používa sa v menších a stredných vozidlách.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;P-EPS (Pinion-mounted)&lt;/strong&gt; - motor na vstupe prevodovky riadenia (na pastorku). Vhodné pre stredné vozidlá.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R-EPS (Rack-mounted)&lt;/strong&gt; - motor priamo na ozubenú tyč (hrebeň). Používa sa vo väčších vozidlách pre vyšší výkon.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;výhody-1&#34;&gt;Výhody:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Nezávisí od chodu motora (funguje aj pri vypnutom motore)&lt;/li&gt;
+&lt;li&gt;Nižšia spotreba paliva (motor pracuje len pri riadení)&lt;/li&gt;
+&lt;li&gt;Premenlivé posilňovanie podľa rýchlosti vozidla&lt;/li&gt;
+&lt;li&gt;Žiadna hydraulika (bez rizika úniku oleja)&lt;/li&gt;
+&lt;li&gt;Jednoduchšia údržba a vyššia spoľahlivosť&lt;/li&gt;
+&lt;li&gt;Tichšia prevádzka&lt;/li&gt;
+&lt;li&gt;Možnosť integrácie s asistenčnými systémami (parkovací asistent, udržiavanie v jazdnom pruhu, autonómne riadenie)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;nevýhody-1&#34;&gt;Nevýhody:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vyššie náklady na opravu elektronických komponentov&lt;/li&gt;
+&lt;li&gt;Menej priamy pocit z riadenia v porovnaní s hydraulickým systémom (závisí od nastavenia výrobcu)&lt;/li&gt;
+&lt;li&gt;Diagnostika vyžaduje špeciálne vybavenie&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;funkcie-moderných-eps-systémov&#34;&gt;Funkcie moderných EPS systémov:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Premenlivé posilňovanie podľa rýchlosti&lt;/strong&gt; - pri nízkych rýchlostiach (parkovanie) je riadenie ľahké, pri vysokých rýchlostiach tuhšie pre lepšiu stabilitu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aktívny návrat volantu&lt;/strong&gt; do stredovej polohy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kompenzácia bočného vetra&lt;/strong&gt; - automatická korekcia pri nárazoch vetra&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Asistent pre udržanie v jazdnom pruhu (LKA)&lt;/strong&gt; - jemné korekcie riadenia&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parkovací asistent&lt;/strong&gt; - automatické natáčanie volantu pri parkovaní&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Geometria riadenia kolies</title>
+      <link>http://localhost:1313/ucebnica/2-rocnik/03-riadenie/geometria-riadenia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ucebnica/2-rocnik/03-riadenie/geometria-riadenia/</guid>
+      <description>&lt;p&gt;Geometria riadenia je súbor parametrov, ktoré určujú postavenie kolies voči vozovke, rámu vozidla a voči sebe navzájom.&lt;/p&gt;
+&lt;p&gt;Správne nastavená geometria kolies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zaisťuje pravidelné odvaľovanie kolies po vozovke (bez šmýkania)&lt;/li&gt;
+&lt;li&gt;Znižuje opotrebenie pneumatík a spotrebu paliva&lt;/li&gt;
+&lt;li&gt;Zaisťuje správnu smerovú stabilitu (jazda v priamom smere)&lt;/li&gt;
+&lt;li&gt;Zabraňuje kmitaniu (rozkmitaniu) kolies&lt;/li&gt;
+&lt;li&gt;Samovoľne vracia kolesá do priameho smeru po vychýlení (zo zákruty)&lt;/li&gt;
+&lt;li&gt;Zlepšuje ovládateľnosť vozidla&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Geometriu tvoria tieto hlavné parametre:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Zbiehavosť alebo rozbiehavosť kolies ($\delta$)&lt;/li&gt;
+&lt;li&gt;Odklon/príklon kolesa ($\alpha$)&lt;/li&gt;
+&lt;li&gt;Príklon osi riadenia ($\gamma$)&lt;/li&gt;
+&lt;li&gt;Záklon osi riadenia ($\beta$)&lt;/li&gt;
+&lt;li&gt;Závlek kolesa ($n_k$)&lt;/li&gt;
+&lt;li&gt;Polomer riadenia ($r_0$)&lt;/li&gt;
+&lt;li&gt;Rozchod kolies&lt;/li&gt;
+&lt;li&gt;Rázvor náprav&lt;/li&gt;
+&lt;li&gt;Diferenčný uhol (Ackermannova podmienka)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;zbiehavosť-a-rozbiehavosť-kolies&#34;&gt;Zbiehavosť a rozbiehavosť kolies&lt;/h3&gt;
+&lt;p&gt;Zbiehavosť je stav, kedy sú predné časti kolies jednej nápravy k sebe bližšie ako zadné časti (pri pohľade zhora). Rozbiehavosť je opačný stav (kolesá sú &amp;ldquo;otvorené&amp;rdquo; von).&lt;/p&gt;
+&lt;p&gt;{image of Toe-in and Toe-out diagram}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vlastnosti a vplyv:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zbiehavosť (Toe-in):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Zlepšuje smerovú stabilitu pri jazde v priamom smere (kolesá sa snažia &amp;ldquo;ísť k sebe&amp;rdquo;, čo stabilizuje vozidlo).&lt;/li&gt;
+&lt;li&gt;Kompenzuje vôle v riadení a silách, ktoré pri jazde tlačia kolesá do rozbiehavosti (najmä pri zadnom náhone).&lt;/li&gt;
+&lt;li&gt;Príliš veľká zbiehavosť spôsobuje opotrebenie vonkajších hrán pneumatík.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rozbiehavosť (Toe-out):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Zlepšuje reakciu vozidla pri nájazde do zákruty (ochota zatáčať).&lt;/li&gt;
+&lt;li&gt;Bežná u pretekárskych áut alebo na prednej náprave áut s predným náhonom (kde ťah motora sťahuje kolesá do zbiehavosti).&lt;/li&gt;
+&lt;li&gt;Príliš veľká rozbiehavosť spôsobuje nestabilitu v priamom smere a opotrebenie vnútorných hrán pneumatík.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;odklonpríklon-kolesa-&#34;&gt;Odklon/príklon kolesa ($\alpha$)&lt;/h3&gt;
+&lt;p&gt;Odklon kolesa (Camber) je uhol, ktorý zviera rovina kolesa so zvislicou pri pohľade spredu alebo zozadu.&lt;/p&gt;
+&lt;p&gt;{image of Camber angle: negative, neutral, positive}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Negatívny odklon (príklon / Negative Camber):&lt;/strong&gt; Vrch kolesa smeruje dovnútra.
+&lt;ul&gt;
+&lt;li&gt;Zvyšuje priľnavosť v zákrutách (pretože pri náklone karosérie sa vonkajšie zaťažené koleso dostane do kolmej polohy voči vozovke a má väčšiu styčnú plochu).&lt;/li&gt;
+&lt;li&gt;Štandard pre moderné osobné a športové autá.&lt;/li&gt;
+&lt;li&gt;Príliš veľký negatívny odklon zhoršuje brzdnú dráhu a akceleráciu v priamom smere a ničí vnútornú stranu pneumatík.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pozitívny odklon (odklon / Positive Camber):&lt;/strong&gt; Vrch kolesa smeruje von.
+&lt;ul&gt;
+&lt;li&gt;Používal sa pri starších vozidlách a nákladných autách na zníženie sily potrebnej na riadenie.&lt;/li&gt;
+&lt;li&gt;Pri zaťažení vozidla nákladom sa kolesá vyrovnajú do nuly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;príklon-osi-riadenia-&#34;&gt;Príklon osi riadenia ($\gamma$)&lt;/h3&gt;
+&lt;p&gt;Príklon osi riadenia (Kingpin Inclination - KPI / SAI) je uhol medzi osou čapu riadenia (os okolo ktorej sa koleso otáča pri riadení) a zvislicou pri pohľade spredu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Funkcia:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pomáha vracať kolesá do priameho smeru (pri zatočení sa vďaka tomuto uhlu predná časť vozidla mierne nadvihne, a váha vozidla sa snaží vrátiť kolesá späť, aby auto &amp;ldquo;kleslo&amp;rdquo;).&lt;/li&gt;
+&lt;li&gt;Znižuje polomer riadenia (viď nižšie).&lt;/li&gt;
+&lt;li&gt;Hodnota býva v rozmedzí 5° až 15°.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;záklon-osi-riadenia-&#34;&gt;Záklon osi riadenia ($\delta$)&lt;/h3&gt;
+&lt;p&gt;Záklon osi riadenia (Caster) je uhol medzi osou čapu riadenia a zvislicou pri pohľade zboku vozidla.&lt;/p&gt;
+&lt;p&gt;{image of Caster angle diagram}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pozitívny záklon:&lt;/strong&gt; Os čapu je naklonená dozadu (horný bod je viac vzadu ako spodný).
+&lt;ul&gt;
+&lt;li&gt;Bod, okolo ktorého sa koleso otáča, je pred bodom dotyku pneumatiky s vozovkou.&lt;/li&gt;
+&lt;li&gt;Vytvára tzv. &lt;strong&gt;vlečný efekt&lt;/strong&gt; (ako kolieska na nákupnom vozíku), čo kolesá stabilizuje.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hlavný prvok pre smerovú stabilitu&lt;/strong&gt; a vracanie volantu.&lt;/li&gt;
+&lt;li&gt;Zvyšuje silu potrebnú na zatočenie volantom.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;závlek-kolesa-&#34;&gt;Závlek kolesa ($n_k$)&lt;/h3&gt;
+&lt;p&gt;Závlek (Mechanical Trail) je vzdialenosť na vozovke medzi predĺženou osou riadenia a stredom dotykovej plochy pneumatiky.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Je priamym dôsledkom záklonu osi riadenia (Caster).&lt;/li&gt;
+&lt;li&gt;Práve na ramene tejto vzdialenosti pôsobia bočné sily, ktoré vytvárajú &amp;ldquo;samo-zrovnávací moment&amp;rdquo; vracajúci volant do stredu.&lt;/li&gt;
+&lt;li&gt;Väčší závlek = lepšia stabilita, ale ťažšie riadenie.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;polomer-riadenia-&#34;&gt;Polomer riadenia ($r_0$)&lt;/h3&gt;
+&lt;p&gt;Polomer riadenia (Scrub Radius) je vzdialenosť medzi stredom odtlačku pneumatiky a priesečníkom osi riadenia s vozovkou.&lt;/p&gt;
+&lt;p&gt;{image of Scrub radius: positive, negative, zero}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pozitívny polomer:&lt;/strong&gt; Os riadenia pretína vozovku &lt;em&gt;vnútri&lt;/em&gt; od stredu pneumatiky.
+&lt;ul&gt;
+&lt;li&gt;Poskytuje dobrú spätnú väzbu do volantu (vodič cíti povrch).&lt;/li&gt;
+&lt;li&gt;Nevýhoda: Pri nerovnostiach alebo defekte môže volant &amp;ldquo;kopnúť&amp;rdquo; alebo sa vytrhnúť z ruky.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Negatívny polomer:&lt;/strong&gt; Os riadenia pretína vozovku &lt;em&gt;vonku&lt;/em&gt; od stredu pneumatiky.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bezpečnejší pre moderné autá.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Pri brzdení na povrchu s rôznou priľnavosťou (napr. ľad na jednej strane) alebo pri výpadku jedného brzdového okruhu auto automaticky kontra-uje a udržuje priamy smer.&lt;/li&gt;
+&lt;li&gt;Bežný u áut s predným náhonom a ABS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nulový polomer:&lt;/strong&gt; Os pretína stred pneumatiky.
+&lt;ul&gt;
+&lt;li&gt;Koleso sa na mieste len točí okolo stredu (neodvaľuje sa), čo spôsobuje veľké trenie a namáhanie čapov (tzv. &amp;ldquo;drhnutie&amp;rdquo; - scrub).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;diferenčný-uhol-ackermannova-geometria&#34;&gt;Diferenčný uhol (Ackermannova geometria)&lt;/h3&gt;
+&lt;p&gt;Pri prejazde zákrutou musí vnútorné koleso opísať menší polomer ako vonkajšie koleso. Preto musí byť &lt;strong&gt;vnútorné koleso natočené viac&lt;/strong&gt; ako vonkajšie.&lt;/p&gt;
+&lt;p&gt;{image of Ackermann steering geometry}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ak by boli kolesá natočené rovnako, jedno z nich by sa muselo šmýkať, čo by zhoršilo ovládateľnosť a ničilo pneumatiky.&lt;/li&gt;
+&lt;li&gt;Tento rozdiel uhlov sa nazýva &lt;strong&gt;diferenčný uhol&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Dosahuje sa lichobežníkovou konštrukciou riadiaceho mechanizmu (spojovacie tyče a páky riadenia netvoria obdĺžnik, ale lichobežník).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rozchod-kolies&#34;&gt;Rozchod kolies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vzdialenosť medzi stredmi pneumatík na jednej náprave.&lt;/li&gt;
+&lt;li&gt;Širší rozchod zvyšuje stabilitu proti prevráteniu v zákrutách.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rázvor-náprav&#34;&gt;Rázvor náprav&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vzdialenosť medzi stredmi predných a zadných kolies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dlhý rázvor:&lt;/strong&gt; Lepšia smerová stabilita, viac miesta pre posádku, ale väčší polomer otáčania (horšia manévrovateľnosť v meste).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Krátky rázvor:&lt;/strong&gt; Auto je &amp;ldquo;hravejšie&amp;rdquo;, ochotnejšie zatáča, ale menej stabilné pri vysokej rýchlosti.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

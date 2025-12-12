@@ -13,6 +13,8 @@ Bubnová brzda je brzda, ktorá využíva trenie spôsobené súpravou čeľust�
 
 ## Konštrukcia
 
+![Bubnová brzda s popisom](bubnova-brzda-popis.jpg "Obr. 10. 3 - Konštrukcia bubnovej brzdy")
+
 **Hlavné časti bubnovej brzdy:**
 1 - Brzdový valček
 2 - Brzdový bubon

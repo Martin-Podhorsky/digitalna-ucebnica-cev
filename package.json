@@ -13,12 +13,12 @@
     "preview": "hugo server --environment production --buildFuture"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.12",
-    "@tailwindcss/typography": "^0.5.10",
-    "preact": "10.27.2",
-    "tailwindcss": "^4.1.12"
+    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/typography": "^0.5.19"
   },
   "devDependencies": {
-    "pagefind": "^1.2.0"
+    "pagefind": "^1.2.0",
+    "preact": "^10.28.0",
+    "tailwindcss": "^4.1.18"
   }
 }
