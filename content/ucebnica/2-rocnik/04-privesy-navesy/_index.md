@@ -6,83 +6,160 @@ sidebar:
   open: false
 ---
 
-## Rozdieľ
+Prívesy a návesy sú prípojné vozidlá bez vlastného pohonu, ktoré sa pripájajú za ťažné vozidlo na prepravu nákladu alebo osôb. Líšia sa spôsobom pripojenia a rozložením hmotnosti.
 
-Prívesy a návesy sú prípojné vozidlá, ktoré sa pripájajú za ťažné vozidlo. Líšia sa spôsobom pripojenia a rozložením hmotnosti:
+## Príves
 
-**PRÍVES** - prípojné vozidlo, ktoré má vlastnú prednú nápravu a pripája sa ojom k ťažnému závesu (háku/guľovej spojke) na ťažnom vozidle. Na ťažné vozidlo sa prenáša len nepatrná časť celkovej hmotnosti prívesu (zvyčajne 50-100 kg na záves). Príves je samostatne stojaci - dá sa odpojiť a zostane stáť na vlastných kolesách.
+Príves je prípojné vozidlo, ktoré má vlastnú prednú nápravu (alebo nápravy) a pripája sa **ojom** k ťažnému závesu (háku alebo guľovej spojke) na ťažnom vozidle. Na ťažné vozidlo sa prenáša len nepatrná časť celkovej hmotnosti prívesu (zvyčajne 50-100 kg na záves, tzv. **prítlak oja**).
 
 {image of Príves - basic trailer configuration}
 
-**NÁVES** - jednonápravové alebo viacnápravové prípojné nesamostatné vozidlo (bez ťahača nemožno s ním manipulovať), ktoré sa svojou prednou časťou opiera o ťahač cez točnicu a kráľovský čap. Značná časť hmotnosti návesu (typicky 30-40% celkovej hmotnosti) sa prenáša na ťahač. Náves nemá prednú nápravu, preto po odpojení od ťahača musí byť podopretý podpornými nohami.
+**Vlastnosti prívesu:**
+- Príves je **samostatne stojaci** - dá sa odpojiť a zostane stáť na vlastných kolesách
+- Celá hmotnosť nákladu spočíva na nápravách prívesu
+- Oje musí byť vyvážené tak, aby sa nemohlo dotknúť vozovky
+- Môže byť jedno-, dvoj- alebo viacnápravový
+
+## Náves
+
+Náves je prípojné vozidlo bez prednej nápravy, ktoré sa svojou prednou časťou opiera o ťahač prostredníctvom **točnice** (sedlovej spojky) a **kráľovského čapu** (kingpin). Značná časť hmotnosti návesu (typicky 30-40% celkovej hmotnosti, t.j. 8-12 ton) sa prenáša na zadnú nápravu ťahača.
 
 {image of Náves - semi-trailer configuration}
 
-**Hlavný rozdiel:**
-- **Príves** má prednú nápravu (je samonosný)
-- **Náves** nemá prednú nápravu (opiera sa o ťahač)
+**Vlastnosti návesu:**
+- Náves je **nesamostatný** - bez ťahača s ním nemožno manipulovať
+- Po odpojení od ťahača musí byť podopretý **podpornými nohami** (podperami)
+- Umožňuje lepšie využitie celkovej hmotnosti súpravy (hmotnosť na ťahači aj návesu)
+- Väčšia ložná plocha pri rovnakej celkovej dĺžke súpravy
 
-## Rozdelenie
+## Hlavný rozdiel medzi prívesom a návesom
 
-### Prívesy sa rozdeľujú na:
-- **Nákladné prívesy**
-- **Traktorové prívesy** 
-- **Autobusové prívesy** (na prepravu osôb – v súčasnosti sa už nepoužívajú)
-- **Karavany** (obytné prívesy)
-- **Špeciálne prívesy**
+| Vlastnosť | Príves | Náves |
+| --- | --- | --- |
+| Predná náprava | Áno (samonosný) | Nie (opiera sa o ťahač) |
+| Pripojenie | Oje + záves/hák | Kingpin + točnica |
+| Prenos hmotnosti na ťažné vozidlo | Minimálny (50-100 kg) | Značný (30-40% hmotnosti) |
+| Samostatné státie | Áno | Len s podperami |
+| Typická dĺžka súpravy | Do 18,75 m | Do 16,50 m |
 
-### Návesy sú:
-- **Jednonápravové** alebo **viacnápravové** prípojné nesamostatné vozidlá
-- Pripájajú sa na **točnicu** alebo **návesný čap** ťažného vozidla
+---
 
-### Podľa konštrukcie:
-1. **Valníkové** - s bočnicami na prepravu rôzneho tovaru
-2. **Plachtové** - s plachtovou nadstavbou
-3. **Skriňové** - uzavretá skriňová nadstavba
-4. **Cisternové** - na prepravu kvapalín
-5. **Chladiace/mraziace** - izotermické s chladiacim agregátom
-6. **Sklápače** - na sypký materiál
-7. **Nízkoložné** - na prepravu ťažkej techniky
-8. **Kontajnerové** - na prepravu kontajnerov
+## Rozdelenie prívesov a návesov
 
-{image of Rôzne typy návesov - valník, cisterna, chladiarenský}
+### Podľa účelu použitia:
+
+**Prívesy:**
+- **Nákladné prívesy** - na prepravu tovaru
+- **Traktorové prívesy** - na poľnohospodárske účely
+- **Karavany** (obytné prívesy) - na rekreáciu
+- **Špeciálne prívesy** - preprava strojov, lodí, koní a pod.
+- **Autobusové prívesy** - historicky na prepravu osôb (dnes sa nepoužívajú)
+
+**Návesy:**
+- **Valníkové** - otvorená ložná plocha s bočnicami
+- **Plachtové (curtainsider)** - s plachtovou nadstavbou, rýchle nakladanie z boku
+- **Skriňové (box)** - uzavretá pevná nadstavba
+- **Cisternové** - na prepravu kvapalín, plynov alebo sypkých materiálov
+- **Chladiace/mraziace (reefer)** - izotermické s chladiacim agregátom
+- **Sklápače (tipper)** - na sypký materiál, hydraulické sklápanie
+- **Nízkoložné (lowboy/lowloader)** - na prepravu ťažkej techniky a strojov
+- **Kontajnerové (container chassis)** - na prepravu ISO kontajnerov
+
+{image of Rôzne typy návesov - valník, cisterna, chladiarenský, plachtový}
 
 ### Podľa počtu náprav:
 
-**Špecifikácie podľa legislatívy:**
+- **Jednonápravové** - menšie prívesy, karavany
+- **Dvojnápravové (tandem)** - štandardné návesy
+- **Trojnápravové (tridem)** - ťažké návesy, vyššia nosnosť
+- **Viacnápravové** - špeciálne ťažkotonážne návesy
 
-**Klasická návesová súprava JUMBO:**
+---
+
+## Hlavné rozmery prívesov a návesov
+
+Maximálne povolené rozmery vozidiel sú stanovené európskou legislatívou (Smernica 96/53/ES a jej novelizácie):
+
+### Maximálne rozmery:
+
+| Parameter | Hodnota |
+| --- | --- |
+| **Šírka** všetkých vozidiel | 2,55 m |
+| **Šírka** chladiarenských vozidiel | 2,60 m |
+| **Výška** všetkých vozidiel | 4,00 m |
+| **Dĺžka** prívesu | 12,00 m |
+| **Dĺžka** návesu | 13,60 m (ložná plocha) |
+| **Dĺžka** návesovej súpravy (ťahač + náves) | 16,50 m |
+| **Dĺžka** prívesovej súpravy (vozidlo + príves) | 18,75 m |
+
+### Maximálne hmotnosti:
+
+| Typ súpravy | Maximálna hmotnosť |
+| --- | --- |
+| Dvojnápravový príves | 18 t |
+| Trojnápravový príves | 24 t |
+| Návesová súprava (2+3 nápravy) | 40 t |
+| Návesová súprava (3+3 nápravy) | 44 t (kombinovaná doprava) |
+| Prívesová súprava | 40 t |
+
+### Typické parametre návesovej súpravy JUMBO:
+
 - Maximálna výška: 4,0 m
-- Dĺžka súpravy: 15,5 – 16,5 m
-- Dĺžka návesu: 12,2 – 13,5 m
-- Dĺžka návesU: 7,8 – 9,5 m
-- Vzdialenosť ložnej plochy od vozovky: 1,0 – 1,1 m
-- Ložná plocha: 2,65 – 3,0 m
-- Svetlá výška nad ložnou plochou: 2,25 – 2,5 m
-- Užitočná hmotnosť: 22 – 26 t
+- Dĺžka súpravy: 16,5 m
+- Dĺžka ložnej plochy návesu: 13,6 m
+- Šírka ložnej plochy: 2,45-2,48 m
+- Svetlá výška nad ložnou plochou: 2,65-3,0 m
+- Ložná kapacita: 33-34 europaliet
+- Užitočná hmotnosť: 24-26 t
 
-**Klasická prívesová súprava VALNÍK:**
-- Maximálna výška: 4,0 m
-- Dĺžka súpravy: 15,8 – 16,5 m
-- Dĺžka ložnej plochy ťažného vozidla: 6,0 m
-- Dĺžka ložnej plochy prívesu: 7,1 – 8,1 m
-- Vzdialenosť ložnej plochy od vozovky: 1,25 – 1,35 m
-- Svetlá výška nad ložnou plochou: 2,2 – 2,5 m
-- Užitočná hmotnosť: 20 – 25 t
+---
 
-## Požiadavky na návesy
+## Činitele ovplyvňujúce manévrovateľnosť súprav
 
-Želaním dopravcov je mať čo najväčší možný objem nákladu a maximálne užitočné zaťaženie. V minulosti tieto podmienky spĺňali najmä delené súpravy – ťažné valníkové vozidlá s prívesom. Európske spoločenstvo schválilo novú dĺžku súpravy so sedlovým ťahacom – na dĺžke nákladného priestoru 13,60 m možno teraz umiestniť 34 normalizovaných europaliet.
+Manévrovateľnosť súpravy je schopnosť vozidla s prívesom/návesom prechádzať zákrutami, cúvať a pohybovať sa v stiesnených priestoroch.
 
-V tomto smere je sedlový ťahač s návesom rovnocenný so súpravou nákladného automobilu s prívesom. Doprava objemných nákladov však neznamená len optimálne využitie možnej dĺžky nákladového priestoru, často je rozhodujúca aj jeho výška. Zasieľateľské firmy požadovali trojmetrovú svetlú výšku.
+### 1. Dĺžka súpravy a rázvor
 
-**Normalizované kocovky oja prívesu (DIN 74 053):**
-- Pre priemer pripájacieho čapu 50 mm
+- **Dlhšia súprava** = väčší polomer otáčania
+- **Väčší rázvor** náprav = horšia manévrovateľnosť, ale lepšia stabilita
+- Návesové súpravy (16,5 m) sú manévrovateľnejšie ako prívesové (18,75 m) pri rovnakej ložnej ploche
 
-## Konštrukcia
+### 2. Vzdialenosť kráľovského čapu od zadnej nápravy (u návesov)
 
-### Konštrukcia prívesov a návesov
+- Čím **väčšia vzdialenosť**, tým **väčší vlečný uhol** zadnej časti návesu
+- Ovplyvňuje tzv. **off-tracking** (vybočenie zadnej časti z dráhy prednej)
 
-Konštrukcia je prispôsobená účelu a konkrétnemu typu prívesu a návesu. Pripájacie zariadenia, rámy, nápravy, brzdy, pruženie sme opísali v predošlých kapitolách.
+{image of Off-tracking - vybočenie prívesu/návesu v zákrute}
 
-V konštrukcii prívesov a návesov sa používajú podobné technické riešenia a materiály (vrátane elektroniky) ako pri ťažných vozidlách.
+### 3. Typ pripájacieho zariadenia
+
+- **Návesová súprava** (točnica) - lepšia manévrovateľnosť, kratší polomer otáčania
+- **Prívesová súprava** (oje) - príves sleduje stopu ťažného vozidla s oneskorením
+
+### 4. Rozloženie hmotnosti nákladu
+
+- **Ťažisko blízko náprav** = lepšia stabilita a ovládateľnosť
+- **Preťažená zadná časť** = nebezpečenstvo "bičovania" (whip effect) pri prudkých manévroch
+- **Preťažená predná časť návesu** = preťaženie ťahača, zhoršená trakcia prednej nápravy
+
+### 5. Počet a usporiadanie náprav
+
+- **Viac náprav** = väčšia nosnosť, ale horšia manévrovateľnosť
+- **Riadené nápravy** (natáčacie) - zlepšujú manévrovateľnosť dlhých súprav
+- **Zdvíhacie nápravy** - možnosť zdvihnúť pri jazde naprázdno
+
+### 6. Rýchlosť jazdy
+
+- Pri **nízkej rýchlosti** (parkovanie, cúvanie) - rozhoduje geometria súpravy
+- Pri **vysokej rýchlosti** - rozhoduje stabilita a dynamické vlastnosti
+
+### Off-tracking (vybočenie)
+
+Off-tracking je jav, kedy zadné kolesá prívesu/návesu nesledujú presnú stopu predných kolies ťažného vozidla, ale "zarezávajú" do vnútra zákruty.
+
+**Faktory ovplyvňujúce off-tracking:**
+- Dĺžka vozidla medzi nápravami
+- Uhol zatočenia
+- Rýchlosť jazdy
+
+Pri projektovaní ciest a parkovísk sa musí počítať s tzv. **vlečnou krivkou** (swept path), ktorá určuje priestor potrebný na prejazd súpravy.
