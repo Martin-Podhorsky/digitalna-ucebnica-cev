@@ -292,3 +292,59 @@ html {
 @media (max-width: 420px) {
   #section-hero h1 { font-size: 2.5rem !important; }
 }
+
+/* Docs layout: push sidebars to the edges and give prose more room */
+@media (min-width: 1024px) {
+  .page-wrapper .page-body .mx-auto.flex.max-w-screen-xl {
+    max-width: 100%;
+    width: 100%;
+    padding-inline: clamp(0.75rem, 2vw, 2rem);
+    gap: clamp(1.5rem, 3vw, 3rem);
+  }
+
+  .page-wrapper .hb-sidebar-container {
+    width: 18rem;
+  }
+
+  .page-wrapper nav.hb-toc {
+    width: 18rem;
+  }
+
+  .page-wrapper article {
+    flex: 1 1 auto;
+    justify-content: flex-start;
+  }
+
+  .page-wrapper article main {
+    max-width: min(78rem, 100%);
+  }
+}
+
+/* Docs body text: slightly smaller and tighter than default, but above 1rem */
+.page-wrapper .page-body article .prose {
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 1024px) {
+  .page-wrapper .page-body article .prose {
+    font-size: 1.1rem;
+    line-height: 1.62;
+  }
+}
+
+/* Docs: center figures and captions */
+.page-wrapper .page-body article figure {
+  text-align: center;
+}
+
+.page-wrapper .page-body article figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-wrapper .page-body article figure figcaption {
+  text-align: center;
+  margin-top: 0.5rem;
+}

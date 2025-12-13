@@ -13,20 +13,17 @@ Bubnová brzda je brzda, ktorá využíva trenie spôsobené súpravou čeľust�
 
 ## Konštrukcia
 
-![Bubnová brzda s popisom](bubnova-brzda-popis.jpg "Obr. 10. 3 - Konštrukcia bubnovej brzdy")
+### Hlavné časti:
+- Príruba (Podložka)
+- Bubon
+- Brzdový valček
+- Vratné pružiny
+- Brzdové čeľuste
+- Brzdové obloženie
+- Nastavovacia skrutka
+- Mechanizmus parkovacej brzdy  
 
-**Hlavné časti bubnovej brzdy:**
-1 - Brzdový valček
-2 - Brzdový bubon
-3 - Vratná pružina
-4 a 8 - Brzdová čeľusť
-5 - Brzdové obloženie
-6 - Opora brzdovej čeľusti
-7 - Štít brzdy
-9 - Ventil
-10 - Lanová parkovacia brzda
-
-{image of drum brake with descriptions}
+![Bubnová brzda s popisom](bubnova-brzda-popis-2.jpg "Obr. 10. 3 - Bubnová brzda s popisom")
 
 ## Princíp činnosti
 
@@ -83,6 +80,8 @@ Bubnové brzdy sa rozdeľujú podľa usporiadania čeľustí a ich ovládania:
     - funguje na rovnakom princípe ako brzda Servo, avšak je skonštruovaná tak, že brzda má samozosilňujúci účinok v oboch smeroch rotácie
 
 {image of DUO-DUPLEX}
+
+![Typy bubnových bŕzd](typy-bubnovych-brzd.png "Obr. 10. X - Porovnanie niekoľkých typov bubnových bŕzd a ich brzdnej sily (čierna farba)")
 
 ### Tabuľka porovnania
 
