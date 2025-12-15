@@ -12,13 +12,13 @@ Prívesy a návesy sú prípojné vozidlá bez vlastného pohonu, ktoré sa prip
 
 Príves je prípojné vozidlo, ktoré má vlastnú prednú nápravu (alebo nápravy) a pripája sa **ojom** k ťažnému závesu (háku alebo guľovej spojke) na ťažnom vozidle. Na ťažné vozidlo sa prenáša len nepatrná časť celkovej hmotnosti prívesu (zvyčajne 50-100 kg na záves, tzv. **prítlak oja**).
 
-{image of Príves - basic trailer configuration}
+{{< figure src="prives.jpeg" alt="Obrázok prívesu" width="90%" caption="Obr. 13.X - Obrázok prívesu" >}}
 
 ## Náves
 
 Náves je prípojné vozidlo bez prednej nápravy, ktoré sa svojou prednou časťou opiera o ťahač prostredníctvom **točnice** (sedlovej spojky) a **kráľovského čapu** (kingpin). Značná časť hmotnosti návesu (typicky 30-40% celkovej hmotnosti, t.j. 8-12 ton) sa prenáša na zadnú nápravu ťahača.
 
-{image of Náves - semi-trailer configuration}
+{{< figure src="naves.webp" alt="Obrázok návesu" width="90%" caption="Obr. 13.X - Obrázok návesu" >}}
 
 **Vlastnosti návesu:**
 - Náves je **nesamostatný** - bez ťahača s ním nemožno manipulovať
@@ -59,7 +59,7 @@ Náves je prípojné vozidlo bez prednej nápravy, ktoré sa svojou prednou čas
 - **Nízkoložné (lowboy/lowloader)** - na prepravu ťažkej techniky a strojov
 - **Kontajnerové (container chassis)** - na prepravu ISO kontajnerov
 
-{image of Rôzne typy návesov - valník, cisterna, chladiarenský, plachtový}
+{{< figure src="typy-navesov.png" alt="Typy návesov" width="90%" caption="Obr. 13.X - Typy návesov" >}}
 
 ### Podľa počtu náprav:
 
@@ -123,7 +123,7 @@ Manévrovateľnosť súpravy je schopnosť vozidla s prívesom/návesom prechád
 - Čím **väčšia vzdialenosť**, tým **väčší vlečný uhol** zadnej časti návesu
 - Ovplyvňuje tzv. **off-tracking** (vybočenie zadnej časti z dráhy prednej)
 
-{image of Off-tracking - vybočenie prívesu/návesu v zákrute}
+{{< figure src="vzdialenosť-kráľovského-čapu-od-zadnej-nápravy-nákladiaku.png" alt="Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" width="90%" caption="Obr. 13.X - Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" >}}
 
 ### 3. Typ pripájacieho zariadenia
 

@@ -39,7 +39,7 @@ Vodič tento proces vníma ako krátkodobé obmedzenie výkonu a prípadne pulzo
 5. **Kontrolka ASR** - informuje vodiča o aktivácii systému
 6. **Vypínač ASR** - umožňuje dočasné vypnutie systému
 
-{image of ASR system}
+{{< figure src="asr-scheme.png" alt="Schéma systému ASR" width="90%" caption="Obr. 10.X - Schéma systému ASR" >}}
 
 ## Výhody:
 

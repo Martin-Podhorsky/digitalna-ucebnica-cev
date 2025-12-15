@@ -33,7 +33,7 @@ Geometriu tvoria tieto hlavné parametre:
 
 Zbiehavosť je stav, kedy sú predné časti kolies jednej nápravy k sebe bližšie ako zadné časti (pri pohľade zhora). Rozbiehavosť je opačný stav (kolesá sú "otvorené" von).
 
-{image of Toe-in and Toe-out diagram}
+{{< figure src="toe-in-toe-out.png" alt="Zbiehavosť a rozbiehavosť kolies" width="45%" caption="Obr. 12.X - Zbiehavosť a rozbiehavosť kolies" >}}
 
 **Vlastnosti a vplyv:**
 - **Zbiehavosť (Toe-in):**
@@ -49,7 +49,7 @@ Zbiehavosť je stav, kedy sú predné časti kolies jednej nápravy k sebe bliž
 
 Odklon kolesa (Camber) je uhol, ktorý zviera rovina kolesa so zvislicou pri pohľade spredu alebo zozadu.
 
-{image of Camber angle: negative, neutral, positive}
+{{< figure src="odklon-priklon.jpg" alt="Odklon/príklon kolesa ($\alpha$)" width="45%" caption="Obr. 12.X - Odklon/príklon kolesa ($\alpha$)" >}}
 
 - **Negatívny odklon (príklon / Negative Camber):** Vrch kolesa smeruje dovnútra.
   - Zvyšuje priľnavosť v zákrutách (pretože pri náklone karosérie sa vonkajšie zaťažené koleso dostane do kolmej polohy voči vozovke a má väčšiu styčnú plochu).
@@ -63,6 +63,8 @@ Odklon kolesa (Camber) je uhol, ktorý zviera rovina kolesa so zvislicou pri poh
 
 Príklon osi riadenia (Kingpin Inclination - KPI / SAI) je uhol medzi osou čapu riadenia (os okolo ktorej sa koleso otáča pri riadení) a zvislicou pri pohľade spredu.
 
+{{< figure src="priklon-osi-riadenia.jpg" alt="Príklon osi riadenia ($\gamma$)" width="45%" caption="Obr. 12.X - Príklon osi riadenia ($\gamma$)" >}}
+
 **Funkcia:**
 - Pomáha vracať kolesá do priameho smeru (pri zatočení sa vďaka tomuto uhlu predná časť vozidla mierne nadvihne, a váha vozidla sa snaží vrátiť kolesá späť, aby auto "kleslo").
 - Znižuje polomer riadenia (viď nižšie).
@@ -72,7 +74,7 @@ Príklon osi riadenia (Kingpin Inclination - KPI / SAI) je uhol medzi osou čapu
 
 Záklon osi riadenia (Caster) je uhol medzi osou čapu riadenia a zvislicou pri pohľade zboku vozidla.
 
-{image of Caster angle diagram}
+{{< figure src="záklon-osi-riadenia.png" alt="Príklon osi riadenia ($\gamma$)" width="40%" caption="Obr. 12.X - Záklon osi riadenia ($\delta$)" >}}
 
 - **Pozitívny záklon:** Os čapu je naklonená dozadu (horný bod je viac vzadu ako spodný).
   - Bod, okolo ktorého sa koleso otáča, je pred bodom dotyku pneumatiky s vozovkou.
@@ -88,11 +90,13 @@ Závlek (Mechanical Trail) je vzdialenosť na vozovke medzi predĺženou osou ri
 - Práve na ramene tejto vzdialenosti pôsobia bočné sily, ktoré vytvárajú "samo-zrovnávací moment" vracajúci volant do stredu.
 - Väčší závlek = lepšia stabilita, ale ťažšie riadenie.
 
+{{< figure src="závlek-kolesa.png" alt="Závlek kolesa ($n_k$)" width="40%" caption="Obr. 12.X - Závlek kolesa ($n_k$)" >}}
+
 ### Polomer riadenia ($r_0$)
 
 Polomer riadenia (Scrub Radius) je vzdialenosť medzi stredom odtlačku pneumatiky a priesečníkom osi riadenia s vozovkou.
 
-{image of Scrub radius: positive, negative, zero}
+{{< figure src="polomer-riadenia.jpg" alt="Polomer riadenia ($r_0$)" width="85%" caption="Obr. 12.X - Polomer riadenia ($r_0$)" >}}
 
 - **Pozitívny polomer:** Os riadenia pretína vozovku *vnútri* od stredu pneumatiky.
   - Poskytuje dobrú spätnú väzbu do volantu (vodič cíti povrch).
@@ -108,7 +112,7 @@ Polomer riadenia (Scrub Radius) je vzdialenosť medzi stredom odtlačku pneumati
 
 Pri prejazde zákrutou musí vnútorné koleso opísať menší polomer ako vonkajšie koleso. Preto musí byť **vnútorné koleso natočené viac** ako vonkajšie.
 
-{image of Ackermann steering geometry}
+{{< figure src="diferencny-uhol.jpg" alt="Diferenčný uhol (Ackermannova geometria)" width="80%" caption="Obr. 12.X - Diferenčný uhol (Ackermannova geometria)" >}}
 
 - Ak by boli kolesá natočené rovnako, jedno z nich by sa muselo šmýkať, čo by zhoršilo ovládateľnosť a ničilo pneumatiky.
 - Tento rozdiel uhlov sa nazýva **diferenčný uhol**.
@@ -119,8 +123,12 @@ Pri prejazde zákrutou musí vnútorné koleso opísať menší polomer ako vonk
 - Vzdialenosť medzi stredmi pneumatík na jednej náprave.
 - Širší rozchod zvyšuje stabilitu proti prevráteniu v zákrutách.
 
+{{< figure src="rozchod.jpg" alt="Rozchod kolies" width="50%" caption="Obr. 12.X - Rozchod kolies" >}}
+
 ### Rázvor náprav
 
 - Vzdialenosť medzi stredmi predných a zadných kolies.
 - **Dlhý rázvor:** Lepšia smerová stabilita, viac miesta pre posádku, ale väčší polomer otáčania (horšia manévrovateľnosť v meste).
 - **Krátky rázvor:** Auto je "hravejšie", ochotnejšie zatáča, ale menej stabilné pri vysokej rýchlosti.
+
+{{< figure src="razvor.jpg" alt="Rázvor náprav" width="70%" caption="Obr. 12.X - Rázvor náprav" >}}

@@ -14,7 +14,7 @@ Tento typ brzdového posilňovača využíva na zosílenie podtlak vytvorený v 
 
 ### Hlavné časti:
 
-{image of vacuum brake booster}
+{{< figure src="brake-booster.png" alt="Schéma podtlakového brzdového posilňovača" width="80%" caption="Obr. 10.X - Schéma podtlakového brzdového posilňovača" >}}
 
 1 - Podltlaková prípojka
 2 - Pružina

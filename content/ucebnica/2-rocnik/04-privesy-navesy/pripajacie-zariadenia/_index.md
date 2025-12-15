@@ -16,7 +16,7 @@ Pripájacie zariadenia umožňujú bezpečné mechanické spojenie medzi ťažn�
 
 Najrozšírenejší systém pripojenia prívesov. Skladá sa z **ťažného závesu** na ťažnom vozidle a **oka oja** na prívese.
 
-{image of Systém záves-oko - schéma pripojenia}
+{image}
 
 ### Ťažný záves
 
