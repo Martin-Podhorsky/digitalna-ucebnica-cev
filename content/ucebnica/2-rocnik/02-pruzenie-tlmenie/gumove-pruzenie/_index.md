@@ -8,7 +8,7 @@ sidebar:
 
 Gumové pruženie využíva elastické vlastnosti gumy (prírodnej alebo syntetickej) na absorbovanie nárazov a vibrácií. Guma zároveň pôsobí ako tlmič vďaka vnútornému treniu, ktoré premieňa energiu na teplo.
 
-{image of rubber suspension elements}
+![Prvky gumového pruženia](gumove-pruzenie.png "Obr. 11.X - Prvky gumového pruženia")
 
 ## Výhody:
 

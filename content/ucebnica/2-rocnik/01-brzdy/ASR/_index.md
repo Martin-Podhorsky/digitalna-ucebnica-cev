@@ -8,7 +8,7 @@ sidebar:
 
 ASR (Anti-Slip Regulation) alebo TCS (Traction Control System) je aktívny bezpečnostný systém, ktorý zabraňuje preklzu hnacích kolies pri rozjazde a akcelerácii.
 
-{image of ASR system}
+![ASR](ASR.jpg "Obr. 10.X - Kontrolka systému ASR")
 
 ## Princíp činnosti
 

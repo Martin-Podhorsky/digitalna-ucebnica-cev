@@ -44,7 +44,6 @@ Niektoré moderné riadenia však nemajú stále rovnaký prevodový pomer - maj
 
 Maximálny uhol, o ktorý sa dajú kolesá natočiť, je obmedzený dorazmi. Zvyčajne je to 35° až 45° na každú stranu. To znamená, že celkový rozsah pohybu kolies zľava doprava je 70° až 90°.
 
-
 #### Typy prevodoviek riadenia
 
 **Maticová prevodovka (so skrutkou a maticou)**
@@ -59,7 +58,7 @@ Hoci je tento systém jednoduchý, má väčšie trenie a rýchlejšie sa opotre
 
 Tento systém používa tzv. „červíka“ (závitovku) – špirálu na konci hriadeľa volantu. Tento červík zapadá do ozubeného kolesa (sektora) alebo valčeka, ktorý sa rotáciou závitovky otáča.
 
-{image}
+{{< figure src="worm-and-sector.jpg" alt="Závitovkový mechanizmus" width="35%" caption="Obr. 12.X - Obrázok závitovkového mechanizmu" >}}
 
 Tieto systémy sú veľmi robustné a odolné, preto sa stále používajú v niektorých ťažších vozidlách, hoci majú menšiu presnosť ako hrebeňové riadenie.
 
@@ -67,7 +66,7 @@ Tieto systémy sú veľmi robustné a odolné, preto sa stále používajú v ni
 
 Toto je dnes **najbežnejší typ riadenia** v osobných autách. Na konci hriadeľa volantu je malé ozubené koleso (pastorok). To zapadá do dlhej ozubenej tyče (hrebeňa). Keď vodič otáča volantom, pastorok sa točí a posúva ozubený hrebeň doľava alebo doprava. Na koncoch hrebeňa sú tyče, ktoré priamo natáčajú kolesá. Celý mechanizmus je uzavretý v ochrannom puzdre a na oboch koncoch chránený gumovými manžetami (prachovkami), ktoré zabraňujú vniknutiu nečistôt a úniku maziva.
 
-{image of Hrebeňový prevod riadenia - detail}
+{{< figure src="rack-and-pinion.webp" alt="Hrebeňové riadenie" width="40%" caption="Obr. 12.X - Obrázok hrebeňového riadenia" >}}
 
 Je obľúbené pre svoju jednoduchosť (má málo súčiastok), presnosť (vodič výborne „cíti cestu") a spoľahlivosť (vôľa v riadení sa automaticky vymedzuje pružinou).
 

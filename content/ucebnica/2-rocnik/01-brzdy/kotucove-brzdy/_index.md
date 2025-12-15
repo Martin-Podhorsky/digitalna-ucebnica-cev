@@ -8,7 +8,7 @@ sidebar:
 
 Kotúčové brzdy vytvárajú trenie tým, že zvierajú kotúč rotujúci spoločne s kolesom dvojicou (alebo dvojicami) brzdových platničiek. Je to najpoužívanejší typ prevádzkových bŕzd.
 
-{image of disc brake}
+![Kotúčová brzda](disc-brake.jpg "Obr. 10. X - Kotúčová brzda")
 
 ## Výhody kotúčových bŕzd:
 
@@ -32,7 +32,7 @@ Kotúčové brzdy sa rozdeľujú podľa konštrukcie strmeňa:
 
 ### Kotúčová brzda s pevným strmeňom
 
-{image of Kotúčová brzda s pevným strmeňom}
+{insert this video https://www.youtube.com/watch?v=80sjvvdj-sg}
 
 #### Hlavné časti:
 1 - Zavesenie
@@ -44,7 +44,7 @@ Kotúčové brzdy sa rozdeľujú podľa konštrukcie strmeňa:
 7 - Hydraulický brzdový valček
 8 - Tesnenie
 
-{image of Kotúčová brzda s pevným strmeňom with description}
+![Kotúčová brzda s pevným strmeňom](pevny-strmen.jpg "Obr. 11.X - Konštrukcia kotúčovej brzdy s pevným strmeňom")
 
 #### Princíp činnosti:
 
@@ -66,7 +66,7 @@ Dva piestiky (alebo viac), ktorých tlak kvapaliny tlačí smerom ku kotúču z 
 
 ### Kotúčová brzda s plávajúcim strmeňom
 
-{image of Kotúčová brzda s plávajúcim strmeňom}
+{insert this video https://www.youtube.com/watch?v=1y17pDLC0E0}
 
 #### Hlavné časti:
 1 - Zavesenie
@@ -78,6 +78,8 @@ Dva piestiky (alebo viac), ktorých tlak kvapaliny tlačí smerom ku kotúču z 
 7 - Hydraulický brzdový valček
 8 - Posuvné vedenie strmeňa
 9 - Tesnenie
+
+![Kotúčová brzda s posuvným strmeňom](posuvny-strmen.jpg "Obr. 11.X - Konštrukcia kotúčovej brzdy s posuvným strmeňom")
 
 #### Princíp činnosti:
 

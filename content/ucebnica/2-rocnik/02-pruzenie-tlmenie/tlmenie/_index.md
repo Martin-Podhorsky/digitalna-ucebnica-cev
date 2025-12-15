@@ -8,7 +8,7 @@ sidebar:
 
 Tlmiče sú súčasťou odpruženia vozidla. Slúžia na zabránenie rozkmitania pružín. Pružiny samotné by po prejazde nerovnosťou kmitali ešte dlhú dobu - tlmiče tento pohyb brzdia tým, že premieňajú kinetickú energiu kmitania na teplo.
 
-{image of shock absorber}
+![Tlmič](tlmic.jpg "Obr. 11.X - Tlmiče")
 
 ## Význam
 

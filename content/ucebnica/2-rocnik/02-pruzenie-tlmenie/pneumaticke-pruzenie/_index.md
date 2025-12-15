@@ -8,7 +8,7 @@ sidebar:
 
 Pneumatické pruženie je systém odpruženia, ktorý využíva stlačený vzduch uzavretý v pružných vakoch (mechoch) na absorbovanie nerovností vozovky. Na rozdiel od oceľových pružín umožňuje plynulé nastavenie výšky a tuhosti odpruženia podľa aktuálnych podmienok a zaťaženia vozidla.
 
-{image of air suspension system}
+![Pneumatické pruženie](air-suspension.jpg "Obr. 11.X - Pneumatické pruženie")
 
 ## Konštrukcia
 
@@ -54,10 +54,14 @@ Snímače výšky neustále monitorujú polohu karosérie voči kolesám. Pri zm
    - Väčší zdvih, mäkšia charakteristika
    - Používané v osobných automobiloch
 
+![Pneumatické pruženie v tvare vlnovca](vlnovcove.jpg "Obr. 11.X - Pneumatické pruženie v tvare vlnovca")
+
 2. **Valivé mechy**
    - Valcový tvar s odvaľovaním po pieste
    - Kompaktnejšia konštrukcia
    - Používané v nákladných vozidlách a autobusoch
+
+![Pneumatické pruženie valivé](valive.webp "Obr. 11.X - Pneumatické pruženie valivé")
 
 ### Podľa typu systému:
 

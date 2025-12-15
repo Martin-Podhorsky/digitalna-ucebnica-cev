@@ -8,7 +8,7 @@ sidebar:
 
 FDR (Fahrdynamikregelung) alebo ESP (Electronic Stability Program) je najkomplexnejší elektronický bezpečnostný systém na zabezpečenie stability vozidla. Kombinuje funkcie ABS, ASR, MSR a pridáva aktívnu kontrolu stability v zákrutách. Systém dokáže rozpoznať a korigovať nebezpečné jazdné situácie skôr, než vodič stihne zareagovat.
 
-{image of ESP/FDR system}
+{https://www.youtube.com/shorts/WPEaJv3pduI}
 
 ## Princíp činnosti
 

@@ -8,6 +8,8 @@ sidebar:
 
 Vinuté pružiny sa v súčasnosti používajú najčastejšie u osobných automobiloch. Vďaka svojim vlastnostiam sú ideálne pre nezávislé zavesenie kolies, kde sa často kombinujú s tlmičmi v zostave typu McPherson.
 
+![Vinutá pružina](coil-spring.webp "Obr. 10.X - Vynutá pružina")
+
 ## Konštrukcia
 
 Vinutá pružina je vyrobená z oceľového drôtu, ktorý je navinutý do tvaru špirály (skrutkovice). Drôt má najčastejšie kruhový prierez, ale môže byť aj oválny alebo obdĺžnikový.

@@ -68,12 +68,12 @@ Riadenie môžeme rozdeliť podľa niekoľkých krytérii:
 
 - **S DVOMA ŤAHADLAMI** - používa sa pri tuhých nápravách. Obe kolesá sú spojené priečnou tyčou a riadiace tiahla vedú od mechanizmu priamo k tejto tyči.
 
-{image}
+{{< figure src="s-dvoma-tahadlami.gif" alt="Riadenie pomocou dvoch ťahadiel" width="35%" caption="Obr. 12.X - Riadenie pomocou dvoch ťahadiel" >}}
 
 - **SO SPÁJACOU (PRIEČNOU) TYČOU** - kolesá sú spojené jednou priečnou tyčou, ktorá zabezpečuje synchronizovaný pohyb oboch kolies. Typické pre tuhé nápravy.
 
-{image}
+{{< figure src="so-spojovacou-tycou.gif" alt="Riadenie pomocou spájacej tyče" width="35%" caption="Obr. 12.X - Riadenie pomocou spájacej tyče" >}}
 
 - **S RIADIACIMI TYČAMI** - používa sa pri nezávislom zavesení kolies. Každé koleso má vlastnú riadiacu tyč vedenú od hrebeňového mechanizmu.
 
-{image}
+{{< figure src="s-riadiacimi-tycami.gif" alt="Riadenie pomocou ridiacich tyčí" width="35%" caption="Obr. 12.X - Riadenie pomocou ridiacich tyčí" >}}

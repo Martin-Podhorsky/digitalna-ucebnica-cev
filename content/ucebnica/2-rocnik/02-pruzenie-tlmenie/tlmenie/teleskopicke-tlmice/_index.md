@@ -8,8 +8,6 @@ sidebar:
 
 Teleskopický hydraulický tlmič je zariadenie, ktoré tlmí kmity pružín a vibrácie vznikajúce pri jazde po nerovnom povrchu. Jeho hlavnou úlohou je zabezpečiť neustály kontakt kolies s vozovkou, čím zlepšuje ovládateľnosť vozidla, skracuje brzdnú dráhu a zvyšuje komfort jazdy.
 
-{image of telescopic shock absorber}
-
 ## Konštrukcia
 
 **Hlavné časti teleskopických tlmičov:**
@@ -28,7 +26,7 @@ Teleskopický hydraulický tlmič je zariadenie, ktoré tlmí kmity pružín a v
 
 Tlmič vie vykonávať dve činnosti: stláčať sa a rozťahovať sa. Pri stláčaní sa piest pohybuje nadol a vytláča hydraulickú kvapalinu cez ventil A z pod piesta nad piest. Pri rozťahovní sa piest pohybuje nahor a kvapalina prúdi cez ventil B z nad piestu pod piest. Ventil B (ten, cez ktorý kvapalina preteká pri rozťahovaní) má spravidla menší prierez alebo väčší tlak potrebný na otvorenie, aby tlmič kládol väčší odpor pri rozťahovaní ako pri stláčaní, čím zachováva pružiaci efekt pružín a zároveň bráni ich rozkmitaniu.
 
-{gif of shock absorbers working}
+{gif of shock absorbers working - https://cdn.shopify.com/s/files/1/2597/3112/t/24/assets/shock-type-twin-tube-foam-cell.gif?v=1631316593}
 
 ## Teleskopický hydraulický tlmič dvoj-plášťový (twin-tube)
 

@@ -33,7 +33,6 @@ Tento typ brzdového posilňovača využíva na zosílenie podtlak vytvorený v 
 15 - Čistič
 16 - Podtlaková komora
 
-
 ### Princíp činnosti:
 
 Keď vodič nestláča pedál, v podtlakovej aj v pracovnej komore je rovnaký tlak (podtlak). Pri stlačení pedála sa do druhej komory vpustí atmosférický tlak. Rozdiel tlakov (podtlak vs. atmosférický tlak) vytvára veľkú silu na membráne, ktorá pomáha stláčať piest hlavného brzdového valca.

@@ -8,7 +8,7 @@ sidebar:
 
 Vzduchotlakový brzdový systém je typ brzdy, pri ktorom sa na ovládanie bŕzd používa stlačený vzduch namiesto brzdovej kvapaliny. Používajú sa na ťažkých nákladných vozidlách, autobusoch a súpravách s prívesmi, kde hydraulický systém by nevyvinul dostatočnú brzdnú silu.
 
-{image of air brake system}
+![Vzduchová brzda](air-brake.png "Obr. 10.X - Kotúčová vzduchová brzda")
 
 ## Princíp činnosti
 

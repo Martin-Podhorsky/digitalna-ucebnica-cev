@@ -6,7 +6,6 @@ sidebar:
   open: false
 ---
 
-
 ## Hlavné časti
 
 Hydraulický brzdový systém sa skladá z nasledujúcich hlavných častí:
@@ -20,7 +19,7 @@ Hydraulický brzdový systém sa skladá z nasledujúcich hlavných častí:
 7. **Zadné brzdy**
 8. **Nádržka na brzdovú kvapalinu**
 
-{image of hydraulic brake system}
+![Hydraulický brzdový systém](hydraulicky-brzdovy-system.png "Obr. 10. X - Schéma hydraulického brzdového systému")
 
 ## Princíp činnosti:
 

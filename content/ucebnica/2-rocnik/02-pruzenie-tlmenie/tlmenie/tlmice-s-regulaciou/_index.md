@@ -41,7 +41,7 @@ Moderné automobily často používajú tlmiče s možnosťou regulácie tlmiace
 
 AIRMATIC je systém pneumatického pruženia s adaptívnym tlmením od Mercedes-Benz. Kombinuje vzduchové pružiny s elektronicky riadenými tlmičmi.
 
-{image of AIRMATIC air suspension system}
+![Systém pneumatického pruženia AIRMATIC](airmatic.jpg "Obr. 11.X - Systém pneumatického pruženia AIRMATIC")
 
 ### Konštrukcia systému
 

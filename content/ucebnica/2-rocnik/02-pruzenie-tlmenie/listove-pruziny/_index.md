@@ -8,7 +8,7 @@ sidebar:
 
 Listové pružiny patria medzi najstarší typ pruženia vozidiel. V minulosti sa používali takmer na všetkých automobiloch, dnes sa používajú predovšetkým na nákladných vozidlách, prívesoch, dodávkach a niektorých terénnych vozidlách vďaka ich vysokej únosnosti a jednoduchej konštrukcii.
 
-{image of leaf spring}
+![Listové pružiny](listova-pruzina.jpg "Obr. 11.1 - Listové pružiny")
 
 ## Konštrukcia
 

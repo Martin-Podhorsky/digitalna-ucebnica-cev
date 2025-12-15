@@ -8,7 +8,7 @@ sidebar:
 
 Hydropneumatické pruženie je typ odpruženia, ktorý kombinuje plyn s kvapalinou. Tento systém bol vyvinutý spoločnosťou Citroën v 50. rokoch 20. storočia a dodnes je považovaný za jedno z najkomfortnejších riešení odpruženia.
 
-{image of hydropneumatic suspension system}
+![Hydropneumatické pruženie](hydropneumatic-suspension.jpg "Obr. 11.X - Hydropneumatické pruženie")
 
 ## Konštrukcia
 
