@@ -43,7 +43,7 @@ Pri brzdení na vozidlo pôsobí viacero fyzikálnych síl, ktoré ovplyvňujú 
   - rastie s rýchlosťou vozidla, takže je najvýraznejšia pri vyšších rýchlostiach
   - zohráva dôležitú rolu aj pri spomaľovaní pomocou aerodynamických bŕzd
 
-{image}
+{{< figure src="sily-pri-brzdeni.png" alt="Sily pôsobiace na automobil pri brzdení" width="120%" caption="Obr. 10.2 - Grafické zobrazenie síl pôsobiacich na automobil pri brzdení" >}}
 
 ## Priebeh brzdenia
 
