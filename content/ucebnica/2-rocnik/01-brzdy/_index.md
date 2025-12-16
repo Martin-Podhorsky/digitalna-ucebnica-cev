@@ -11,7 +11,8 @@ sidebar:
 
 Brzdy sú **mechanické zariadenie, ktoré zamedzuje pohybu vozidla absorbovaním jeho pohybovovej energie alebo jej premenou na inú energiu**. Najčastejšie sa pohyb mení na energiu tepelnú pomocou trenia, ale môže sa meniť aj na energiu elektrickú pomocou elektromagentickej indukcie (rekuperačné brzdenie pri elektromobiloch). Pri brzdení motorom zabezpečuje spomalenie odpor stlačeného vzduchu vo valci a pri aerodynamickej przde zase zvýšený odpor vzduchu pri vyššej rýchlosti.
 
-![Brzdy](brakes.jpg "Obr. 10. 1 - Príklad trecieho, rekuperačného a aerodynamického brzdenia")
+{{< figure src="brakes.jpg" alt="Príklad trecieho, rekuperačného a aerodynamického brzdenia" width="100%" caption="Obr. 10. 1 - Príklad trecieho, rekuperačného a aerodynamického brzdenia" >}}
+
 
 ## Hlavná úloha
 
@@ -19,23 +20,30 @@ Brzdy sú **mechanické zariadenie, ktoré zamedzuje pohybu vozidla absorbovaní
 
 ## Sily pôsobiace na automobil pri brzdení
 
-Pri brzdení vozidla pôsobí viacero fyzikálnych síl, ktoré ovplyvňujú jeho spomaľovanie a stabilitu. Medzi tie najdôležitejšie patria:
+Pri brzdení na vozidlo pôsobí viacero fyzikálnych síl, ktoré ovplyvňujú jeho spomaľovanie a stabilitu. Medzi tie najdôležitejšie patria:
 
-- **Brzdná sila (\(F_{b}\))** je hnacia sila brzdenia, ktorá vzniká trením medzi brzdovými platničkami a kotúčmi (alebo bubnami). Táto sila sa prenáša z kolesa na vozovku, kde spôsobuje spomalenie vozidla. Jej veľkosť závisí od sily, ktorou vodič stlačí pedál, a od stavu brzdového systému.
-- **Trecia sila (\(F_{t}\))** medzi pneumatikou a povrchom vozovky. Toto je skutočná sila, ktorá spomaľuje vozidlo a zabraňuje šmyku.
-  - Počas brzdenia pôsobí v smere proti pohybu vozidla.
-  - Jej maximálna hodnota je obmedzená koeficientom trenia (priľnavosti) medzi pneumatikou a vozovkou, ktorý sa mení v závislosti od stavu vozovky (suchá, mokrá, zasnežená).
-- **Zotrvačná sila (\(F_{z}\))** je reakčná sila, ktorá pôsobí proti zmene pohybu vozidla.
-  - Zabezpečuje, že auto má tendenciu zotrvať v pôvodnom pohybe.
-  - Pri prudkom brzdení sa prejavuje pretláčaním osôb a predmetov vo vozidle smerom dopredu.
-- **Gravitačná sila (\(F_{g}\))** ťahá vozidlo smerom k zemi.
-  - V prípade, že vozidlo brzdí na svahu, má táto sila aj zložku, ktorá ovplyvňuje výsledné spomalenie.
-  - Pri jazde do kopca pomáha brzdiť, zatiaľ čo pri jazde z kopca bráni brzdeniu.
-- **Odpor vzduchu (\(F_{odp}\))** je sila, ktorá pôsobí proti pohybu vozidla.
-  - Rastie s rýchlosťou vozidla, takže je najvýraznejšia pri vyšších rýchlostiach.
-  - Zohráva dôležitú rolu aj pri spomaľovaní pomocou aerodynamických bŕzd.
-  
-Aby bolo brzdenie efektívne, je nevyhnutné, aby trecia sila medzi pneumatikou a vozovkou bola väčšia ako zotrvačná sila, inak by došlo k šmyku. Úlohou moderných asistenčných systémov, ako je ABS, je práve regulácia brzdnej sily, aby sa maximalizovala trecia sila bez straty priľnavosti.
+- **Brzdná sila (\(F_{b}\))**
+  - vzniká trením medzi brzdovými platničkami a kotúčmi (alebo bubnami)
+  - jej veľkosť závisí od sily, ktorou vodič stlačí pedál, a od stavu brzdového systému
+- **Trecia sila (\(F_{t}\))** 
+  - sila medzi pneumatikou a povrchom vozovky
+  - vďaka nej sa auto pohybuje namiesto toho, aby prešmykovalo na mieste a vďaka nej takisto dokáže aj zabrzdiť
+  - počas brzdenia sila pôsobí v smere proti pohybu vozidla
+  - jej veľkosť je závislá na koeficiente trenia medzi pneumatikou a vozovkou, ktorý sa mení v závislosti od stavu pneumatík a stavu vozovky
+- **Zotrvačná sila (\(F_{z}\))**
+  - je to sila pôsobiaca voči zmene rýchlosti pohybu vozidla
+  - pri prudkom brzdení sa prejavuje pretláčaním osôb a nákladu vozidla smerom dopredu
+  - je závislá od hmotnosti a rýchlosti (je ich súčinom)
+- **Gravitačná sila (\(F_{g}\))**
+  - ťahá vozidlo smerom k zemi
+  - ak vozidlo brzdí na svahu, má táto sila aj zložku, ktorá ovplyvňuje výsledné spomalenie
+  - je závislá od hmotnosti vozidla
+- **Odpor vzduchu (\(F_{v}\))**
+  - pôsobí proti pohybu vozidla
+  - rastie s rýchlosťou vozidla, takže je najvýraznejšia pri vyšších rýchlostiach
+  - zohráva dôležitú rolu aj pri spomaľovaní pomocou aerodynamických bŕzd
+
+{image}
 
 ## Priebeh brzdenia
 
@@ -71,15 +79,15 @@ Brzdy môžeme rozdeliť podľa viacerých kritérií. Toto sú tie najhlavnejš
 
 - **STROJOVÉ**- ovládané stlačeným vzduchom (používajú sa na nákladných vozidlách a autobusoch).
   
-- **POLOSTROJOVÉ** - brzdy s posilňovačom brzdového účinku (podtlakovým alebo pretlakovým). Toto je najčastejším systémom pri moderných osobných automobiloch.
+- **POLOSTROJOVÉ** - brzdy s posilňovačom brzdového účinku. Toto je najčastejším systémom pri moderných osobných automobiloch.
 
-- **KOMBINOVANÉ** - kombinácia dvoch rôznych prenosov alebo zdrojov energie. Napríklad traktor (s priamočinnými hydraulickými brzdami) s prívesom (strojové brzdy).
+- **KOMBINOVANÉ** - kombinácia dvoch rôznych prenosov alebo zdrojov energie (napríklad traktor s priamočinnými hydraulickými brzdami s prívesom so strojovými brzdami).
 
 ### 3. Podľa ich konštrukcie
 
-- **BUBNOVÉ**
-- **KOTÚČOVÉ**
-- **PÁSOVÉ**
+- **BUBNOVÉ** - sada čeľustí, ktoré z vnútornej strany pôsobia na rotujúci bubon. Používajú sa najmä v ťažkých vozidlách (autobusy, nákladné vozidlá) pre ich silný brzdný účinok alebo aj pri zadných brzdách osobných automobilov kvôli nízkym nákladom na výrobu a jednoduchou integráciou parkovacej brzdy.
+- **KOTÚČOVÉ** - sada brzdových platničiek, ktoré sa pritláčajú ku rotujúcemu sa kotúču. Sú v dnešnej dobe tým najčastejším typom prevádzkových bŕzd u osobných automobilov a motocyklov.
+- **PÁSOVÉ** -  ocelový pás, ktorý obopína liatinový bubon umiestnený na hriadeli a zovretím ho brzdí. Pri automobiloch sa používajú zriedka (nájdeme ich jedine na niektorých traktoroch alebo úžitkových vozidlácha ako parkovaciu brzdu), skôr sa používajú pri priemyselných strojoch (dopravníky, navijáky, výťahy).
 
 ## Požiadavky
 
@@ -88,7 +96,7 @@ Požiadavky na konštrukciu a účinok brzdovej sústavy určuje pre jednotlivé
 Tie hlavné sú:
 
 1. **Bezpečnosť**
-    - Každé vozidlo musí byť vybavené najmenej dvoma od seba nezávislými brzdovými zariadeniami - prevádzkovou a parkovacou brzdou.
+    - Každé vozidlo musí byť vybavené najmenej dvoma od seba nezávislými brzdovými zariadeniami - prevádzkovou a parkovacou brzdou
     - Každé vozidlo musí byť vybavené prevádzkovou brzdou, ktorá sa skladá z dvoch nezávislých okruhov
     - Vodič musí mať možnosť ovládať mechanizmus prevádzkového brzdenia zo svojho sedadla bez zmeny polohy trupu a bez toho, aby sňal obe ruky z volantu
     - Brzdná sila na ľavom a pravom kolese by mala byť takmer rovnaká, aby sa zabránilo šmyku alebo vybočovaniu vozidla počas brzdenia
