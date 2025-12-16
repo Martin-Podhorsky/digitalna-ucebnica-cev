@@ -12,11 +12,9 @@ Pripájacie zariadenia umožňujú bezpečné mechanické spojenie medzi ťažn�
 
 ## Pripájacie zariadenia pre prívesy
 
-### Systém záves (hák) - oko oja
+Najrozšírenejším systémom pripojenia prívesov je spojenie **oja prívesu** a **ťažného závesu** ťažného vozidla.
 
-Najrozšírenejší systém pripojenia prívesov. Skladá sa z **ťažného závesu** na ťažnom vozidle a **oka oja** na prívese.
-
-{image}
+{{< figure src="oj-a-tazny-zaves.jpg" alt="Spojenie oja prívesu a ťažného závesu" width="90%" caption="Obr. 13.X - Spojenie oja prívesu a ťažného závesu" >}}
 
 ### Ťažný záves
 
@@ -28,19 +26,17 @@ Záves je pripevnený na zadnom zosilnenom priečniku rámu vozidla alebo na zos
 - **Odpruženie** - tlmí nárazy pri rozbehu a brzdení (vinutá pružina alebo gumový blok)
 - **Poistka** - zabraňuje samovoľnému uvoľneniu
 
-**Typy závesov:**
+#### Typy závesov:
+- **Nesamočinný záves**
+  - Pripojenie a odpojenie sa vykonáva ručne
+  - Vodič musí vytiahnuť záverný čap, nasunúť oko oja a opäť zasunúť a zaistiť čap
 
-#### Nesamočinný záves
+{{< figure src="nesamocinny.png" alt="Nesamočinný záves" width="70%" caption="Obr. 13.X - Nesamočinný záves" >}}
 
-Pripojenie a odpojenie sa vykonáva ručne - vodič musí vytiahnuť záverný čap, nasunúť oko oja a opäť zasunúť a zaistiť čap.
+- **Samočinný záves**
+  - Pripojenie prívesu je automatické, odpojenie je ručné
 
-{image of Nesamočinný záves - detail}
-
-#### Samočinný (automatický) záves
-
-Pripojenie prívesu je automatické, odpojenie je ručné.
-
-**Postup pripojenia:**
+**Postup pri pripojovaní:**
 1. Povytiahnutím poistky sa odistí záverný čap
 2. Pomocou páky sa čap nadvihne do pohotovostnej polohy a zaistí západkou
 3. Ťažné vozidlo nacúva na oje prívesu
@@ -48,17 +44,13 @@ Pripojenie prívesu je automatické, odpojenie je ručné.
 5. Pri zasunutí oka sa záverný čap automaticky uvoľní a zapadne do oka
 6. Poistka automaticky zaistí čap proti samovoľnému uvoľneniu
 
-{image of Samočinný záves - princíp činnosti}
-
-**Výhody samočinného závesu:**
-- Rýchle a jednoduché pripojenie
-- Vodič nemusí vstupovať medzi vozidlá
-- Menšie riziko úrazu
-- Signalizácia správneho zaistenia (mechanická alebo elektrická)
+{{< figure src="samocinny.webp" alt="Samočinný záves" width="65%" caption="Obr. 13.X - Samočinný záves" >}}
 
 ### Oko oja prívesu
 
 Oko oja je kruhový otvor na konci oja prívesu, ktorý sa nasúva na záverný čap závesu.
+
+{{< figure src="oko-oja.webp" alt="Oko oja prívesu" width="50%" caption="Obr. 13.X - Oko oja prívesu" >}}
 
 **Normalizované rozmery (DIN 74053):**
 - Priemer otvoru: **40 mm** (ľahké prívesy) alebo **50 mm** (ťažké prívesy)

@@ -16,14 +16,13 @@ Príves je prípojné vozidlo, ktoré má vlastnú prednú nápravu (alebo nápr
 
 ## Náves
 
-Náves je prípojné vozidlo bez prednej nápravy, ktoré sa svojou prednou časťou opiera o ťahač prostredníctvom **točnice** (sedlovej spojky) a **kráľovského čapu** (kingpin). Značná časť hmotnosti návesu (typicky 30-40% celkovej hmotnosti, t.j. 8-12 ton) sa prenáša na zadnú nápravu ťahača.
+Náves je prípojné vozidlo bez prednej nápravy, ktoré sa svojou prednou časťou opiera o ťahač prostredníctvom **točnice** (časť ťahača) a **kráľovského čapu** (časť návesu). Značná časť hmotnosti návesu (30 až 40%) sa prenáša na zadnú nápravu ťahača.
 
 {{< figure src="naves.webp" alt="Obrázok návesu" width="90%" caption="Obr. 13.X - Obrázok návesu" >}}
 
 **Vlastnosti návesu:**
 - Náves je **nesamostatný** - bez ťahača s ním nemožno manipulovať
 - Po odpojení od ťahača musí byť podopretý **podpornými nohami** (podperami)
-- Umožňuje lepšie využitie celkovej hmotnosti súpravy (hmotnosť na ťahači aj návesu)
 - Väčšia ložná plocha pri rovnakej celkovej dĺžke súpravy
 
 ## Hlavný rozdiel medzi prívesom a návesom
@@ -31,9 +30,9 @@ Náves je prípojné vozidlo bez prednej nápravy, ktoré sa svojou prednou čas
 | Vlastnosť | Príves | Náves |
 | --- | --- | --- |
 | Predná náprava | Áno (samonosný) | Nie (opiera sa o ťahač) |
-| Pripojenie | Oje + záves/hák | Kingpin + točnica |
-| Prenos hmotnosti na ťažné vozidlo | Minimálny (50-100 kg) | Značný (30-40% hmotnosti) |
-| Samostatné státie | Áno | Len s podperami |
+| Pripojenie | Oj sa pripojí k háku alebo gulovej spojke | Kráľovský čap sa uchytí do točnice |
+| Prenos hmotnosti na ťažné vozidlo | Minimálny (50 až 100 kg) | Značný (30 až 40% hmotnosti) |
+| Manipuolácía | Áno | Len s ťahačom |
 | Typická dĺžka súpravy | Do 18,75 m | Do 16,50 m |
 
 ---
@@ -78,13 +77,13 @@ Maximálne povolené rozmery vozidiel sú stanovené európskou legislatívou (S
 
 | Parameter | Hodnota |
 | --- | --- |
-| **Šírka** všetkých vozidiel | 2,55 m |
-| **Šírka** chladiarenských vozidiel | 2,60 m |
-| **Výška** všetkých vozidiel | 4,00 m |
-| **Dĺžka** prívesu | 12,00 m |
-| **Dĺžka** návesu | 13,60 m (ložná plocha) |
-| **Dĺžka** návesovej súpravy (ťahač + náves) | 16,50 m |
-| **Dĺžka** prívesovej súpravy (vozidlo + príves) | 18,75 m |
+| Šírka všetkých vozidiel | 2,55 m |
+| Šírka chladiarenských vozidiel | 2,60 m |
+| Výška všetkých vozidiel | 4,00 m |
+| Dĺžka prívesu | 12,00 m |
+| Dĺžka návesu | 13,60 m (ložná plocha) |
+| Dĺžka návesovej súpravy (ťahač + náves) | 16,50 m |
+| Dĺžka prívesovej súpravy (vozidlo + príves) | 18,75 m |
 
 ### Maximálne hmotnosti:
 
@@ -115,15 +114,27 @@ Manévrovateľnosť súpravy je schopnosť vozidla s prívesom/návesom prechád
 ### 1. Dĺžka súpravy a rázvor
 
 - **Dlhšia súprava** = väčší polomer otáčania
-- **Väčší rázvor** náprav = horšia manévrovateľnosť, ale lepšia stabilita
-- Návesové súpravy (16,5 m) sú manévrovateľnejšie ako prívesové (18,75 m) pri rovnakej ložnej ploche
+- **Väčší rázvor náprav** = horšia manévrovateľnosť, ale lepšia stabilita
 
 ### 2. Vzdialenosť kráľovského čapu od zadnej nápravy (u návesov)
+
+{{< figure src="vzdialenosť-kráľovského-čapu-od-zadnej-nápravy-nákladiaku.png" alt="Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" width="90%" caption="Obr. 13.X - Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" >}}
 
 - Čím **väčšia vzdialenosť**, tým **väčší vlečný uhol** zadnej časti návesu
 - Ovplyvňuje tzv. **off-tracking** (vybočenie zadnej časti z dráhy prednej)
 
-{{< figure src="vzdialenosť-kráľovského-čapu-od-zadnej-nápravy-nákladiaku.png" alt="Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" width="90%" caption="Obr. 13.X - Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" >}}
+{{< spoiler text="Off-tracking" >}}- jav, kedy zadné kolesá prívesu/návesu nesledujú presnú stopu predných kolies ťažného vozidla, čím sa "zarezávajú" do vnútra zákruty.
+
+{{< figure src="off-tracking-5km.jpg" alt="Off-tracking (vybočenie)" width="60%" caption="Obr. 13.X - Off-tracking (vybočenie) pri rýchlosti 5 km/h" >}}
+
+{{< figure src="off-tracking-100km.jpg" alt="Off-tracking (vybočenie)" width="60%" caption="Obr. 13.X - Off-tracking (vybočenie) pri rýchlosti 5 km/h" >}}
+
+**Faktory ovplyvňujúce off-tracking:**
+- Dĺžka vozidla medzi nápravami
+- Uhol zatočenia
+- Rýchlosť jazdy
+
+Pri projektovaní ciest a parkovísk sa musí počítať s tzv. **vlečnou krivkou** (swept path), ktorá určuje priestor potrebný na prejazd súpravy.{{< /spoiler >}}
 
 ### 3. Typ pripájacieho zariadenia
 
@@ -147,13 +158,7 @@ Manévrovateľnosť súpravy je schopnosť vozidla s prívesom/návesom prechád
 - Pri **nízkej rýchlosti** (parkovanie, cúvanie) - rozhoduje geometria súpravy
 - Pri **vysokej rýchlosti** - rozhoduje stabilita a dynamické vlastnosti
 
-### Off-tracking (vybočenie)
-
-Off-tracking je jav, kedy zadné kolesá prívesu/návesu nesledujú presnú stopu predných kolies ťažného vozidla, ale "zarezávajú" do vnútra zákruty.
-
-**Faktory ovplyvňujúce off-tracking:**
-- Dĺžka vozidla medzi nápravami
-- Uhol zatočenia
-- Rýchlosť jazdy
-
-Pri projektovaní ciest a parkovísk sa musí počítať s tzv. **vlečnou krivkou** (swept path), ktorá určuje priestor potrebný na prejazd súpravy.
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="pripajacie-zariadenia" title="Pripájacie zariadenia prívesov a návesov" subtitle="__">}}
+{{< /cards >}}
