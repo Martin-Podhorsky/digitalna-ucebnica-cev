@@ -1,4 +1,5 @@
 ---
+linkTitle: "12. Riadenie"
 title: "Riadenie"
 type: docs
 weight: 3
@@ -64,16 +65,23 @@ Riadenie môžeme rozdeliť podľa niekoľkých krytérii:
     - priame riadenie je uľahčené posilňovačom (hydraulickým, elektrickým alebo elektro-hydraulickým)
     - Najrozšírenejší typ v moderných vozidlách
 
-### Podľa konštrukcie
+### Podľa konštrukcie riadiaceho ústrojenstva
 
-- **S DVOMA ŤAHADLAMI** - používa sa pri tuhých nápravách. Obe kolesá sú spojené priečnou tyčou a riadiace tiahla vedú od mechanizmu priamo k tejto tyči.
+- **S DVOMA ŤAHADLAMI** - používa sa pri tuhých nápravách. Od riadiaceho mechanizmu vedú dve samostatné ťahadlá, každé k jednému riadiacemu ramenu kolesa. Kolesá sú navzájom spojené priečnou tyčou, ktorá zabezpečuje ich synchronizovaný pohyb.
 
 {{< figure src="s-dvoma-tahadlami.gif" alt="Riadenie pomocou dvoch ťahadiel" width="35%" caption="Obr. 12.X - Riadenie pomocou dvoch ťahadiel" >}}
 
-- **SO SPÁJACOU (PRIEČNOU) TYČOU** - kolesá sú spojené jednou priečnou tyčou, ktorá zabezpečuje synchronizovaný pohyb oboch kolies. Typické pre tuhé nápravy.
+- **SO SPÁJACOU (PRIEČNOU) TYČOU** - používa sa pri tuhých nápravách. Od riadiaceho mechanizmu vedie jedno ťahadlo k jednému z kolies a kolesá sú navzájom spojené priečnou tyčou, ktorá prenáša pohyb na druhé koleso.
 
 {{< figure src="so-spojovacou-tycou.gif" alt="Riadenie pomocou spájacej tyče" width="35%" caption="Obr. 12.X - Riadenie pomocou spájacej tyče" >}}
 
-- **S RIADIACIMI TYČAMI** - používa sa pri nezávislom zavesení kolies. Každé koleso má vlastnú riadiacu tyč vedenú od hrebeňového mechanizmu.
+- **S RIADIACIMI TYČAMI** - používa sa pri nezávislom zavesení kolies. Každé koleso má vlastnú riadiacu tyč vedenú priamo od hrebeňového mechanizmu. Kolesá nie sú navzájom mechanicky spojené.
 
-{{< figure src="s-riadiacimi-tycami.gif" alt="Riadenie pomocou ridiacich tyčí" width="35%" caption="Obr. 12.X - Riadenie pomocou ridiacich tyčí" >}}
+{{< figure src="s-riadiacimi-tycami.gif" alt="Riadenie pomocou riadiacich tyčí" width="35%" caption="Obr. 12.X - Riadenie pomocou riadiacich tyčí" >}}
+
+---
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="bubnove-brzdy" title="Bubnové brzdy" subtitle="Konštrukcia, vlastnosti, výhody, nevýhody, rozdelenie...">}}
+{{< /cards >}}

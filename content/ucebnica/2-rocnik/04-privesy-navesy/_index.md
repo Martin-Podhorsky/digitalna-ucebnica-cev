@@ -1,4 +1,5 @@
 ---
+linkTitle: "13. Prívesy a návesy"
 title: "Prívesy a návesy"
 type: docs
 weight: 4
@@ -12,13 +13,13 @@ Prívesy a návesy sú prípojné vozidlá bez vlastného pohonu, ktoré sa prip
 
 Príves je prípojné vozidlo, ktoré má vlastnú prednú nápravu (alebo nápravy) a pripája sa **ojom** k ťažnému závesu (háku alebo guľovej spojke) na ťažnom vozidle. Na ťažné vozidlo sa prenáša len nepatrná časť celkovej hmotnosti prívesu (zvyčajne 50-100 kg na záves, tzv. **prítlak oja**).
 
-{{< figure src="prives.jpeg" alt="Obrázok prívesu" width="90%" caption="Obr. 13.X - Obrázok prívesu" >}}
+{{< figure src="prives.jpeg" alt="Obrázok prívesu" width="90%" caption="Obr. 13.1 - Obrázok prívesu" >}}
 
 ## Náves
 
 Náves je prípojné vozidlo bez prednej nápravy, ktoré sa svojou prednou časťou opiera o ťahač prostredníctvom **točnice** (časť ťahača) a **kráľovského čapu** (časť návesu). Značná časť hmotnosti návesu (30 až 40%) sa prenáša na zadnú nápravu ťahača.
 
-{{< figure src="naves.webp" alt="Obrázok návesu" width="90%" caption="Obr. 13.X - Obrázok návesu" >}}
+{{< figure src="naves.webp" alt="Obrázok návesu" width="90%" caption="Obr. 13.2 - Obrázok návesu" >}}
 
 **Vlastnosti návesu:**
 - Náves je **nesamostatný** - bez ťahača s ním nemožno manipulovať
@@ -58,7 +59,7 @@ Náves je prípojné vozidlo bez prednej nápravy, ktoré sa svojou prednou čas
 - **Nízkoložné (lowboy/lowloader)** - na prepravu ťažkej techniky a strojov
 - **Kontajnerové (container chassis)** - na prepravu ISO kontajnerov
 
-{{< figure src="typy-navesov.png" alt="Typy návesov" width="90%" caption="Obr. 13.X - Typy návesov" >}}
+{{< figure src="typy-navesov.png" alt="Typy návesov" width="90%" caption="Obr. 13.3 - Typy návesov" >}}
 
 ### Podľa počtu náprav:
 
@@ -107,58 +108,7 @@ Maximálne povolené rozmery vozidiel sú stanovené európskou legislatívou (S
 
 ---
 
-## Činitele ovplyvňujúce manévrovateľnosť súprav
-
-Manévrovateľnosť súpravy je schopnosť vozidla s prívesom/návesom prechádzať zákrutami, cúvať a pohybovať sa v stiesnených priestoroch.
-
-### 1. Dĺžka súpravy a rázvor
-
-- **Dlhšia súprava** = väčší polomer otáčania
-- **Väčší rázvor náprav** = horšia manévrovateľnosť, ale lepšia stabilita
-
-### 2. Vzdialenosť kráľovského čapu od zadnej nápravy (u návesov)
-
-{{< figure src="vzdialenosť-kráľovského-čapu-od-zadnej-nápravy-nákladiaku.png" alt="Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" width="90%" caption="Obr. 13.X - Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" >}}
-
-- Čím **väčšia vzdialenosť**, tým **väčší vlečný uhol** zadnej časti návesu
-- Ovplyvňuje tzv. **off-tracking** (vybočenie zadnej časti z dráhy prednej)
-
-{{< spoiler text="Off-tracking" >}}- jav, kedy zadné kolesá prívesu/návesu nesledujú presnú stopu predných kolies ťažného vozidla, čím sa "zarezávajú" do vnútra zákruty.
-
-{{< figure src="off-tracking-5km.jpg" alt="Off-tracking (vybočenie)" width="60%" caption="Obr. 13.X - Off-tracking (vybočenie) pri rýchlosti 5 km/h" >}}
-
-{{< figure src="off-tracking-100km.jpg" alt="Off-tracking (vybočenie)" width="60%" caption="Obr. 13.X - Off-tracking (vybočenie) pri rýchlosti 5 km/h" >}}
-
-**Faktory ovplyvňujúce off-tracking:**
-- Dĺžka vozidla medzi nápravami
-- Uhol zatočenia
-- Rýchlosť jazdy
-
-Pri projektovaní ciest a parkovísk sa musí počítať s tzv. **vlečnou krivkou** (swept path), ktorá určuje priestor potrebný na prejazd súpravy.{{< /spoiler >}}
-
-### 3. Typ pripájacieho zariadenia
-
-- **Návesová súprava** (točnica) - lepšia manévrovateľnosť, kratší polomer otáčania
-- **Prívesová súprava** (oje) - príves sleduje stopu ťažného vozidla s oneskorením
-
-### 4. Rozloženie hmotnosti nákladu
-
-- **Ťažisko blízko náprav** = lepšia stabilita a ovládateľnosť
-- **Preťažená zadná časť** = nebezpečenstvo "bičovania" (whip effect) pri prudkých manévroch
-- **Preťažená predná časť návesu** = preťaženie ťahača, zhoršená trakcia prednej nápravy
-
-### 5. Počet a usporiadanie náprav
-
-- **Viac náprav** = väčšia nosnosť, ale horšia manévrovateľnosť
-- **Riadené nápravy** (natáčacie) - zlepšujú manévrovateľnosť dlhých súprav
-- **Zdvíhacie nápravy** - možnosť zdvihnúť pri jazde naprázdno
-
-### 6. Rýchlosť jazdy
-
-- Pri **nízkej rýchlosti** (parkovanie, cúvanie) - rozhoduje geometria súpravy
-- Pri **vysokej rýchlosti** - rozhoduje stabilita a dynamické vlastnosti
-
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="pripajacie-zariadenia" title="Pripájacie zariadenia prívesov a návesov" subtitle="__">}}
+  {{< card url="pripajacie-zariadenia" title="Pripájacie zariadenia prívesov a návesov" subtitle="Rozdelenie, typy, konštrukcia, postupy pri pripájaní a odpájaní...">}}
 {{< /cards >}}

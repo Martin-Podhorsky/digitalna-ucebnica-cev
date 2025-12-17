@@ -1,20 +1,21 @@
 ---
-title: "Pripájacie zariadenia prívesov a návesov"
+linkTitle: "13.1 Pripojovacie zariadenia"
+title: "Pripojovacie zariadenia prívesov a návesov"
 type: docs
 weight: 1
 sidebar:
   open: false
 ---
 
-Pripájacie zariadenia umožňujú bezpečné mechanické spojenie medzi ťažným vozidlom a prípojným vozidlom (prívesom alebo návesom). Musia prenášať ťažné a tlačné sily, umožňovať vzájomný pohyb vozidiel v zákrutách a na nerovnom teréne, a zároveň byť dostatočne pevné a spoľahlivé.
+Pripojovacie zariadenia umožňujú bezpečné mechanické spojenie medzi ťažným vozidlom a prípojným vozidlom (prívesom alebo návesom). Musia prenášať ťažné a tlačné sily, umožňovať vzájomný pohyb vozidiel v zákrutách a na nerovnom teréne, a zároveň byť dostatočne pevné a spoľahlivé.
 
 ---
 
-## Pripájacie zariadenia pre prívesy
+## Pripojovacie zariadenia pre prívesy
 
 Najrozšírenejším systémom pripojenia prívesov je spojenie **oja prívesu** a **ťažného závesu** ťažného vozidla.
 
-{{< figure src="oj-a-tazny-zaves.jpg" alt="Spojenie oja prívesu a ťažného závesu" width="90%" caption="Obr. 13.X - Spojenie oja prívesu a ťažného závesu" >}}
+{{< figure src="oj-a-tazny-zaves.jpg" alt="Spojenie oja prívesu a ťažného závesu" width="90%" caption="Obr. 13.4 - Spojenie oja prívesu a ťažného závesu" >}}
 
 ### Ťažný záves
 
@@ -31,12 +32,12 @@ Záves je pripevnený na zadnom zosilnenom priečniku rámu vozidla alebo na zos
   - Pripojenie a odpojenie sa vykonáva ručne
   - Vodič musí vytiahnuť záverný čap, nasunúť oko oja a opäť zasunúť a zaistiť čap
 
-{{< figure src="nesamocinny.png" alt="Nesamočinný záves" width="70%" caption="Obr. 13.X - Nesamočinný záves" >}}
+{{< figure src="nesamocinny.png" alt="Nesamočinný záves" width="70%" caption="Obr. 13.5 - Nesamočinný záves" >}}
 
 - **Samočinný záves**
   - Pripojenie prívesu je automatické, odpojenie je ručné
 
-**Postup pri pripojovaní:**
+**Postup pri pripájaní:**
 1. Povytiahnutím poistky sa odistí záverný čap
 2. Pomocou páky sa čap nadvihne do pohotovostnej polohy a zaistí západkou
 3. Ťažné vozidlo nacúva na oje prívesu
@@ -44,44 +45,37 @@ Záves je pripevnený na zadnom zosilnenom priečniku rámu vozidla alebo na zos
 5. Pri zasunutí oka sa záverný čap automaticky uvoľní a zapadne do oka
 6. Poistka automaticky zaistí čap proti samovoľnému uvoľneniu
 
-{{< figure src="samocinny.webp" alt="Samočinný záves" width="65%" caption="Obr. 13.X - Samočinný záves" >}}
+{{< figure src="samocinny.jpg" alt="Samočinný záves" width="65%" caption="Obr. 13.6 - Samočinný záves" >}}
 
 ### Oko oja prívesu
 
 Oko oja je kruhový otvor na konci oja prívesu, ktorý sa nasúva na záverný čap závesu.
 
-{{< figure src="oko-oja.webp" alt="Oko oja prívesu" width="50%" caption="Obr. 13.X - Oko oja prívesu" >}}
+{{< figure src="oko-oja.webp" alt="Oko oja prívesu" width="50%" caption="Obr. 13.7 - Oko oja prívesu" >}}
 
 **Normalizované rozmery (DIN 74053):**
 - Priemer otvoru: **40 mm** (ľahké prívesy) alebo **50 mm** (ťažké prívesy)
 - Oko musí byť vybavené výstužným puzdrom
 
-### Guľová spojka (pre ľahké prívesy)
+### Guľová spojka
 
-Pre osobné automobily a ľahké prívesy (do 3,5 t) sa používa systém **guľová hlavica - guľová spojka**.
+Na ľahkých prívesoch a prívesných vozíkoch (do 3,5 t) sa namiesto oja zväčša nachádza **guľová spojka** ktorá sa uchytí o gulový čap automobilu.
 
-{image of Guľová spojka - detail}
+{{< figure src="gulova-spojka.png" alt="Guľová spojka na prívesnom vozíku" width="50%" caption="Obr. 13.8 - Guľová spojka na prívesnom vozíku" >}}
 
 **Parametre:**
 - Priemer guľovej hlavice: **50 mm** (ISO 1103)
 - Maximálne zaťaženie: 75-150 kg (vertikálne), 2000-3500 kg (ťažná sila)
 
-**Výhody:**
-- Jednoduché pripojenie a odpojenie
-- Kompaktné rozmery
-- Vhodné pre časté pripájanie/odpájanie
-
 ---
 
-## Pripájacie zariadenia pre návesy
+## Pripojovacie zariadenia pre návesy
 
-### Systém točnica (sedlová spojka) - kráľovský čap (kingpin)
+Spojenie návesu s ťahačom sa realizuje pomocou **točnice** na ťahači a **kráľovského čapu** na návese.
 
-Spojenie návesu s ťahačom sa realizuje pomocou **točnice** (fifth wheel) na ťahači a **kráľovského čapu** (kingpin) na návesu.
+{{< figure src="kralovsky-cap-a-tocnica.png" alt="Obrázok točnice (dole) a kráľovského čapu (hore)" width="60%" caption="Obr. 13.9 - Obrázok točnice (dole) a kráľovského čapu (hore)" >}}
 
-{image of Točnica a kráľovský čap - spojenie}
-
-### Točnica (sedlová spojka / fifth wheel)
+### Točnica 
 
 Točnica je masívna oceľová platňa s mechanizmom na zachytenie kráľovského čapu. Je namontovaná na ráme ťahača.
 
@@ -91,31 +85,20 @@ Točnica je masívna oceľová platňa s mechanizmom na zachytenie kráľovskéh
 - **Zaistenie** - mechanické alebo pneumatické
 - **Poistka** - zabraňuje samovoľnému uvoľneniu
 
-**Typy točníc:**
+#### Typy točníc:
 
-#### Pevná točnica
+**Pevná točnica**
+- Pevne priskrutkovaná k rámu ťahača pomocou vymedzovacích segmentov
+- Výška nad vozovkou je daná konštrukciou
 
-Pevne priskrutkovaná k rámu ťahača pomocou vymedzovacích segmentov. Výška nad vozovkou je daná konštrukciou.
+**Posuvná točnica**
+- Uložená na sánkach, ktoré umožňujú posuv v pozdĺžnom smere
 
-#### Posuvná točnica
+{{< figure src="JOST.avif" alt="Posuvná točnica JOST" width="50%" caption="Obr. 13.10 - Posuvná točnica JOST" >}}
 
-Uložená na sánkach, ktoré umožňujú posuv v pozdĺžnom smere.
+### Kráľovský čap
 
-{image of Posuvná točnica JOST}
-
-**Výhody posuvnej točnice:**
-- Možnosť pripojenia návesov s rôznou vzdialenosťou kingpinu od prednej steny
-- Optimalizácia rozloženia hmotnosti na nápravy
-- Dodržanie maximálnej celkovej dĺžky súpravy
-- Zlepšenie manévrovateľnosti (posunom dopredu)
-
-**Posun točnice:**
-- Mechanický (ručná páka)
-- Pneumatický (vzduchový valec ovládaný z kabíny)
-
-### Kráľovský čap (kingpin)
-
-Kráľovský čap je masívny oceľový čap umiestnený na spodnej strane prednej časti návesu.
+Kráľovský čap je veľký oceľový čap umiestnený na spodnej strane prednej časti návesu.
 
 **Normalizované rozmery (ISO 337):**
 - **2" (50,8 mm)** - štandard pre bežné návesy v Európe a USA
@@ -124,9 +107,9 @@ Kráľovský čap je masívny oceľový čap umiestnený na spodnej strane predn
 **Požiadavky:**
 - Vyrobený z tepelne spracovanej ocele
 - Nesmie sa nahrádzať ľubovoľným materiálom
-- Pri opotrebení sa musí vymeniť (nie opravovať)
+- Pri opotrebení sa musí vymeniť za originálny diel (nie opravovať)
 
-### Princíp spojenia
+### Postup pripájania návesu
 
 1. Ťahač cúva pod prednú časť návesu (náves je podopretý podpornými nohami)
 2. Kráľovský čap sa zasúva do V-drážky na točnici
@@ -136,58 +119,28 @@ Kráľovský čap je masívny oceľový čap umiestnený na spodnej strane predn
 6. Zdvihne podporné nohy
 7. Skontroluje funkčnosť bŕzd a osvetlenia
 
-{image of Postup pripájania návesu}
-
 ---
 
 ## Bezpečnostné prvky pripájacích zariadení
 
-### Poistné zariadenia
-
 - **Mechanická poistka** - zabraňuje samovoľnému otvoreniu zámku
-- **Pneumatická poistka** - automatické zabrzdenie pri odpojení
+- **Pneumatická poistka** - automatické zabrzdenie prívesu/návesu pri odpojení
 - **Elektrická signalizácia** - kontrolka v kabíne indikuje stav zaistenia
-
-### Bezpečnostné laná/reťaze
-
-Pre ľahké prívesy sú povinné bezpečnostné laná alebo reťaze, ktoré zabránia úplnému odpojeniu prívesu pri zlyhaní hlavného spojenia.
-
-### Automatické brzdenie
-
-Pri prerušení vzduchového vedenia medzi ťahačom a návesom/prívesom sa prípojné vozidlo automaticky zabrzdí (princíp "fail-safe").
+- **Bezpečnostné laná/reťaze** - sú povinné pre ľahké prívesy, kde zabraňujú úplnému odpojeniu pri zlyhaní hlavného spojenia
 
 ---
 
 ## Údržba pripájacích zariadení
 
-### Pravidelná údržba:
-
 - **Čistenie** - odstraňovanie nečistôt a starého maziva
 - **Mazanie** - premazávanie pohyblivých častí (čeľuste, čapy, klzné plochy)
-- **Kontrola opotrebenia** - záverné čapy, kingpin, čeľuste točnice
+- **Kontrola opotrebenia** - záverné čapy, kráľovský čap, čeľuste točnice
 - **Kontrola dotiahnutia** - skrutky uchytenia závesu/točnice
 - **Kontrola poistiek** - funkčnosť zaisťovacích mechanizmov
 
-### Medzné hodnoty opotrebenia:
-
-| Súčiastka | Maximálne opotrebenie |
-| --- | --- |
-| Záverný čap (priemer 50 mm) | Min. 48,5 mm |
-| Kráľovský čap 2" | Min. 48,3 mm |
-| Otvor v oku oja (50 mm) | Max. 52 mm |
-| Sedlová platňa | Podľa výrobcu |
-
-### Výmena opotrebených dielov:
-
-- Záverné čapy a kráľovské čapy sa vyrábajú zo špeciálnych tepelne spracovaných ocelí
-- **Nesmú sa nahrádzať** bežnými materiálmi ani opravovať zváraním
-- Opotrebené diely je nutné **vymeniť za originálne**
-
 ---
 
-## Postup pripájania a odpájania
-
-### Bezpečnostné zásady:
+## Bezpečnostné zásady pripájania a odpájania:
 
 1. Pripájanie a odpájanie sa vykonáva podľa návodu výrobcu
 2. Počas pripájania/odpájania nesmú byť v prípojnom vozidle osoby
@@ -197,11 +150,9 @@ Pri prerušení vzduchového vedenia medzi ťahačom a návesom/prívesom sa pr�
 6. Po pripojení skontrolovať zaistenie, vzduchové a elektrické spojenia
 7. Pred jazdou vykonať skúšku bŕzd
 
-### Odpájanie návesu:
+---
 
-1. Zabrzdiť súpravu parkovacou brzdou
-2. Spustiť podporné nohy návesu
-3. Odpojiť vzduchové a elektrické vedenia
-4. Odistitť a otvoriť zámok točnice
-5. Pomaly vytiahnutť ťahač spod návesu
-6. Zabezpečiť náves proti pohybu (kliny)
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="konstrukcia" title="Konštrukcia prívesov a návesov" subtitle="Hlavné časti, ich popis, ich druhy...">}}
+{{< /cards >}}

@@ -1,4 +1,5 @@
 ---
+linkTitle: "11. Pruženie a Tlmenie"
 title: "Pruženie a Tlmenie"
 type: docs
 weight: 2
