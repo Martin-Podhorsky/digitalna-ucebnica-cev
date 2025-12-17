@@ -1,5 +1,6 @@
 ---
-title: "Mechanizmus riadenia pri nezávislom zavesení kolies"
+linkTitle: "12.1 Mechanizmus riadenia"
+title: "Mechanizmus riadenia"
 weight: 1
 type: docs
 sidebar:
@@ -20,7 +21,7 @@ Aby sa pri čelnom náraze zabránilo vniknutiu volantu do kabíny a poraneniu v
 - **Deformačné zóny:** Hriadeľ nie je z jedného kusu, ale skladá sa z viacerých častí spojených kardanovými kĺbmi. Pri náraze sa vďaka nim „zalomí“ mimo priestoru vodiča.
 - **Teleskopická funkcia:** Niektoré časti sa pri silnom tlaku do seba zasunú ako ďalekohľad, čím pohltia energiu nárazu.
 
-{image: Schéma stĺpika riadenia s deformačnými prvkami}
+{{< figure src="stlpik-riadenia.png" alt="Zobrazenie rozličných spôsobov konštrukcie bezpečnsotných stĺpikov riadenia" width="25%" caption="Obr. 12.4 - Zobrazenie rozličných spôsobov konštrukcie bezpečnsotných stĺpikov riadenia" >}}
 
 Okrem bezpečnosti moderné stĺpiky riadenia zvyšujú aj komfort – umožňujú vodičovi nastaviť si polohu volantu výškovo aj pozdĺžne.
 
@@ -46,46 +47,53 @@ Maximálny uhol, o ktorý sa dajú kolesá natočiť, je obmedzený dorazmi. Zvy
 
 #### Typy prevodoviek riadenia
 
-**Maticová prevodovka (so skrutkou a maticou)**
+***Maticová prevodovka (so skrutkou a maticou)***
 
 Ide o starší, jednoduchý systém. Hriadeľ volantu je zakončený závitovou tyčou (skrutkou). Na tejto skrutke je nasadená matica, ktorá sa pri točení volantom posúva hore alebo dole. Tento posuvný pohyb sa následne prenáša cez páku na kolesá.
 
-{image of Maticová prevodovka riadenia}
+{{< figure src="maticova-prevodovka.png" alt="Maticová prevodovka (so skrutkou a maticou)" width="35%" caption="Obr. 12.5 - Obrázok maticovej prevodovky" >}}
 
 Hoci je tento systém jednoduchý, má väčšie trenie a rýchlejšie sa opotrebúva, preto sa v moderných osobných autách už nepoužíva.
 
-**Závitovkový mechanizmus**
+***Závitovkový mechanizmus***
 
 Tento systém používa tzv. „červíka“ (závitovku) – špirálu na konci hriadeľa volantu. Tento červík zapadá do ozubeného kolesa (sektora) alebo valčeka, ktorý sa rotáciou závitovky otáča.
 
-{{< figure src="worm-and-sector.jpg" alt="Závitovkový mechanizmus" width="40%" caption="Obr. 12.X - Obrázok závitovkového mechanizmu" >}}
+{{< figure src="worm-and-sector.jpg" alt="Závitovkový mechanizmus" width="40%" caption="Obr. 12.6 - Obrázok závitovkového mechanizmu" >}}
 
 Tieto systémy sú veľmi robustné a odolné, preto sa stále používajú v niektorých ťažších vozidlách, hoci majú menšiu presnosť ako hrebeňové riadenie.
 
-**Hrebeňové riadenie**
+***Hrebeňové riadenie***
 
 Toto je dnes **najbežnejší typ riadenia** v osobných autách. Na konci hriadeľa volantu je malé ozubené koleso (pastorok). To zapadá do dlhej ozubenej tyče (hrebeňa). Keď vodič otáča volantom, pastorok sa točí a posúva ozubený hrebeň doľava alebo doprava. Na koncoch hrebeňa sú tyče, ktoré priamo natáčajú kolesá. Celý mechanizmus je uzavretý v ochrannom puzdre a na oboch koncoch chránený gumovými manžetami (prachovkami), ktoré zabraňujú vniknutiu nečistôt a úniku maziva.
 
-{{< figure src="rack-and-pinion.webp" alt="Hrebeňové riadenie" width="50%" caption="Obr. 12.X - Obrázok hrebeňového riadenia" >}}
+{{< figure src="rack-and-pinion.webp" alt="Hrebeňové riadenie" width="50%" caption="Obr. 12.7 - Obrázok hrebeňového riadenia" >}}
 
 Je obľúbené pre svoju jednoduchosť (má málo súčiastok), presnosť (vodič výborne „cíti cestu") a spoľahlivosť (vôľa v riadení sa automaticky vymedzuje pružinou).
 
-**Recirkulačná guľôčková skrutka**
+***Recirkulačná guľôčková skrutka***
 
 Tento systém je vylepšením maticovej prevodovky a nájdeme ho hlavne v **nákladných autách, autobusoch a veľkých SUV**. Funguje podobne ako maticová prevodovka, ale medzi závitmi skrutky a matice sú vložené oceľové guľôčky. Tieto guľôčky tam obiehajú (recirkulujú), čo výrazne znižuje trenie. Vďaka tomu sa predlžuje životnosť a riadenie sa taktiež stáva ľahšie (na otočenie volantu je potrebné vynaložiť menšiu fyzickú silu).
 
-{{< figure src="recirculating-ball.avif" alt="Recirkulačná guľôčková skrutka" width="60%" caption="Obr. 12.X - Obrázok mechanizmu recirkulačnej guľôčkovej skrutky" >}}
+{{< figure src="recirculating-ball.avif" alt="Recirkulačná guľôčková skrutka" width="60%" caption="Obr. 12.8 - Obrázok mechanizmu recirkulačnej guľôčkovej skrutky" >}}
 
-**Kombinované prevody**
+***Kombinované prevody***
 
 Existujú aj rôzne špeciálne kombinácie týchto systémov pre špecifické účely (napr. systém ROSS), ktoré kombinujú prvky ako ozubené kolesá, páky a kladky, ale v bežných osobných autách sa s nimi stretnete zriedka.
 
-{{< figure src="ross.jpg" alt="Prevodovka riadenia typu ROSS používaná vo vojenských vozidlách" width="60%" caption="Obr. 12.X - Prevodovka riadenia typu ROSS (používaná vo vojenských vozidlách počas 2. svetovej vojny)" >}}
+{{< figure src="ross.jpg" alt="Prevodovka riadenia typu ROSS používaná vo vojenských vozidlách" width="60%" caption="Obr. 12.9 - Prevodovka riadenia typu ROSS (používaná vo vojenských vozidlách počas 2. svetovej vojny)" >}}
 
 ### Riadiace tyče a tiahla
 
-Riadiace tyče prenášajú pohyb z prevodovky riadenia na kolesá. Pri nezávislom zavesení kolies sa používa tzv. **delená spojovacia tyč**, ktorá sa skladá z dvoch častí: vnútornej tyče (pripojenej k hrebeňu) a vonkajšej tyče (pripojenej k riadiacemu ramenu kolesa). Tieto časti sú vzájomne spojené a ich dĺžka sa dá nastavovať, čo je dôležité pre správne nastavenie geometrie kolies (zbiehavosti).
+Riadiace tyče prenášajú pohyb z prevodovky riadenia na kolesá. Pri nezávislom zavesení kolies (typické pre osobné automobily) sa používa už spomínaná **delená spojovacia tyč**, ktorá sa skladá z dvoch častí: vnútornej tyče (pripojenej k hrebeňu) a vonkajšej tyče (pripojenej k riadiacemu ramenu kolesa). Tieto časti sú vzájomne spojené a ich dĺžka sa dá nastavovať, čo je dôležité pre správne nastavenie geometrie kolies (zbiehavosti).
 
-{{< figure src="s-riadiacimi-tycami.gif" alt="Riadenie pomocou ridiacich tyčí" width="35%" caption="Obr. 12.X - Riadenie pomocou ridiacich tyčí" >}}
+{{< figure src="s-riadiacimi-tycami.gif" alt="Riadenie pomocou delenej spojovacej tyče" width="50%" caption="Obr. 12.10 - Riadenie pomocou delenej spojovacej tyče" >}}
 
-Všetky pohyblivé spoje sú realizované pomocou **guľových čapov**, ktoré umožňujú súčasný pohyb riadenia (otáčanie kolies) aj pruženia (kolesá sa pohybujú hore-dole pri prejazde nerovností). Vďaka tomu kolesá presne kopírujú nerovnosti vozovky a zároveň spoľahlivo reagujú na pohyby volantu.
+Všetky pohyblivé spoje sú realizované pomocou **guľových čapov**, ktoré umožňujú pohyb vertikálny aj horizontálny. Vďaka tomu kolesá presne kopírujú nerovnosti vozovky a zároveň spoľahlivo reagujú na pohyby volantu.
+
+---
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="posilnovace-riadenia" title="Posilňovače riadenia" subtitle="Typy, ich konštrukcia, vlastnosti, výhody, nevýhody...">}}
+{{< /cards >}}

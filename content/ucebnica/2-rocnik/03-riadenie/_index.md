@@ -69,15 +69,15 @@ Riadenie môžeme rozdeliť podľa niekoľkých krytérii:
 
 - **S DVOMA ŤAHADLAMI** - používa sa pri tuhých nápravách. Od riadiaceho mechanizmu vedú dve samostatné ťahadlá, každé k jednému riadiacemu ramenu kolesa. Kolesá sú navzájom spojené priečnou tyčou, ktorá zabezpečuje ich synchronizovaný pohyb.
 
-{{< figure src="s-dvoma-tahadlami.gif" alt="Riadenie pomocou dvoch ťahadiel" width="35%" caption="Obr. 12.X - Riadenie pomocou dvoch ťahadiel" >}}
+{{< figure src="s-dvoma-tahadlami.gif" alt="Riadenie pomocou dvoch ťahadiel" width="35%" caption="Obr. 12.1 - Riadenie pomocou dvoch ťahadiel" >}}
 
 - **SO SPÁJACOU (PRIEČNOU) TYČOU** - používa sa pri tuhých nápravách. Od riadiaceho mechanizmu vedie jedno ťahadlo k jednému z kolies a kolesá sú navzájom spojené priečnou tyčou, ktorá prenáša pohyb na druhé koleso.
 
-{{< figure src="so-spojovacou-tycou.gif" alt="Riadenie pomocou spájacej tyče" width="35%" caption="Obr. 12.X - Riadenie pomocou spájacej tyče" >}}
+{{< figure src="so-spojovacou-tycou.gif" alt="Riadenie pomocou spájacej tyče" width="35%" caption="Obr. 12.2 - Riadenie pomocou spájacej tyče" >}}
 
-- **S RIADIACIMI TYČAMI** - používa sa pri nezávislom zavesení kolies. Každé koleso má vlastnú riadiacu tyč vedenú priamo od hrebeňového mechanizmu. Kolesá nie sú navzájom mechanicky spojené.
+- **S DELENOU SPOJOVACOU TYČOU** - používa sa pri nezávislom zavesení kolies. Každé koleso má vlastnú riadiacu tyč vedenú priamo od hrebeňového mechanizmu. Kolesá nie sú navzájom mechanicky spojené.
 
-{{< figure src="s-riadiacimi-tycami.gif" alt="Riadenie pomocou riadiacich tyčí" width="35%" caption="Obr. 12.X - Riadenie pomocou riadiacich tyčí" >}}
+{{< figure src="s-riadiacimi-tycami.gif" alt="Riadenie pomocou delenej spojovacej tyče" width="35%" caption="Obr. 12.3 - Riadenie pomocou delenej spojovacej tyče" >}}
 
 ---
 

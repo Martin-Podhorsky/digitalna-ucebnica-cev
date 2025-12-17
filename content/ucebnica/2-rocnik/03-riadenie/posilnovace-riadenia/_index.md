@@ -1,4 +1,5 @@
 ---
+linkTitle: "12.2 Posilňovače riadenia"
 title: "Posilňovače riadenia"
 type: docs
 weight: 2
@@ -14,23 +15,23 @@ Hydraulický posilňovač riadenia využíva tlak hydraulickej kvapaliny (oleja)
 
 ### Hlavné časti:
 
-{image of Hydraulický posilňovač riadenia - schéma}
+{{< figure src="HPS.png" alt="Schéma hydraulického posilňovača riadenia (HPS)" width="80%" caption="Obr. 12.11 - Schéma hydraulického posilňovača riadenia (HPS)" >}}
 
-1 - Zásobník hydraulickej kvapaliny
-2 - Hydraulické čerpadlo (zubové alebo lamelové)
-3 - Vysokotlaková hadica
-4 - Rozvádzací (riadiaci) ventil
-5 - Pracovný valec (hydraulický piest)
-6 - Hrebeňový prevod riadenia
-7 - Spätná hadica (nízkotlaková)
-8 - Remennica pohonu čerpadla
+1 - Riadené kolesá <br>
+2 a 4 - Pomocné páky <br>
+3 - Pracovný valec <br>
+5 - Ovládací ventil <br>
+6 - Posúvač ovládacieho ventilu
+7 - Čerpadlo <br>
+8 - Nádržka <br>
+9 - Hriadeľ volantu <br>
+10 - Prevodovka riadenia <br>
+11 - Hlavná páka riadenia <br>
+12 - Kalibrovaný otvor
 
 ### Princíp činnosti:
 
-1. Čerpadlo poháňané motorom vozidla (prostredníctvom klinového remeňa) neustále vytvára tlak hydraulickej kvapaliny.
-2. Pri otočení volantu sa aktivuje rozvádzací ventil, ktorý usmerní tlak kvapaliny na jednu stranu piesta v pracovnom valci.
-3. Pracovný valec využíva tento tlak na pohyb hrebeňa, čím pomáha pri natáčaní kolies.
-4. Pri priamej jazde alebo neutrálnej polohe volantu kvapalina voľne cirkuluje a systém neposkytuje zosilnenie.
+Pri otáčaní volantu v smere hodiových ručičiek (doprava) sa hlavná páka riadenia (11) prevodovky riadenia (10) otáča v smere hodinových ručičiek a presúva posúvač ovládacieho ventilu (6) dozadu, proti smeru pohybu vozidla. Následkom toho prechádza tlakový olej z čerpadla (7) cez ovládací ventil (5) do priestoru A pracovného valca (3). Pracovný valec (3) začína natáčať riadené kolesá (1) doprava. Priestor B pracovného valca je pritom prepojený cez ovládací ventil s nádržkou (8), do ktorej je z neho olej vytláčaný. Obdobný proces sa deje pri zatáčaní smerom doľava.
 
 ### Výhody:
 
@@ -38,7 +39,6 @@ Hydraulický posilňovač riadenia využíva tlak hydraulickej kvapaliny (oleja)
 - Lepší komfort riadenia, najmä pri parkovaní
 - Dobrá spätná väzba z cesty (vodič cíti odpor kolies)
 - Spoľahlivá a overená technológia
-- Vhodné pre ťažké vozidlá a nákladné automobily
 
 ### Nevýhody:
 
@@ -46,7 +46,6 @@ Hydraulický posilňovač riadenia využíva tlak hydraulickej kvapaliny (oleja)
 - Čerpadlo beží neustále, aj keď nie je potrebné
 - Potreba pravidelnej údržby (kontrola a výmena oleja, hadíc)
 - Možné úniky hydraulickej kvapaliny
-- Pri poruche úplná strata posilňovania
 
 ### Použitie
 
@@ -56,7 +55,7 @@ Staršie osobné automobily, nákladné vozidlá, autobusy a ťažké úžitkov�
 
 EHPS kombinuje prvky hydraulického a elektrického systému. Namiesto čerpadla poháňaného motorom využíva **elektrické čerpadlo** na generovanie hydraulického tlaku.
 
-### Výhody oproti klasickému HPS:
+### Výhody oproti HPS:
 
 - Čerpadlo pracuje len keď je potrebné
 - Nezávisí od otáčok motora
@@ -66,18 +65,18 @@ EHPS kombinuje prvky hydraulického a elektrického systému. Namiesto čerpadla
 
 Ťažké úžitkové vozidlá a niektoré osobné automobily ako prechodná technológia medzi HPS a EPS.
 
-## Elektrický posilňovač riadenia (EPS)
+## Elektronický posilňovač riadenia (EPS)
 
 EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou elektromotora. V súčasnosti sa používa vo väčšine nových osobných automobilov.
 
-{image of EPS systém - komponenty a umiestnenie}
+{{< figure src="eps-schema.png" alt="Schéma elektronického posilňovača riadenia" width="70%" caption="Obr. 12.12 - Schéma elektronického posilňovača riadenia" >}}
 
 ### Hlavné časti:
 
-1 - Jednosmerný elektromotor (klasický alebo bezkartáčový)
-2 - Riadiaca jednotka (ECU)
-3 - Snímač krútiaceho momentu
-4 - Snímač uhla natočenia volantu
+1 - Jednosmerný elektromotor (klasický alebo bezkartáčový) <br>
+2 - Riadiaca jednotka (ECU) <br>
+3 - Snímač krútiaceho momentu <br>
+4 - Snímač uhla natočenia volantu <br>
 5 - Prevodovka elektromotora
 
 ### Princíp činnosti:
@@ -116,3 +115,10 @@ EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou
 - **Kompenzácia bočného vetra** - automatická korekcia pri nárazoch vetra
 - **Asistent pre udržanie v jazdnom pruhu (LKA)** - jemné korekcie riadenia
 - **Parkovací asistent** - automatické natáčanie volantu pri parkovaní
+
+---
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="geometria-riadenia" title="Geometria riadenia" subtitle="Definícia, jednotlivé parametre, ich vplyv na jazdné vlastnosti...">}}
+{{< /cards >}}
