@@ -35,17 +35,15 @@ Pri otáčaní volantu v smere hodiových ručičiek (doprava) sa hlavná páka 
 
 ### Výhody:
 
-- Výrazné zníženie ovládacej sily (až o 80%)
-- Lepší komfort riadenia, najmä pri parkovaní
-- Dobrá spätná väzba z cesty (vodič cíti odpor kolies)
-- Spoľahlivá a overená technológia
+- Poskytuje prirodzenejšiu spätnú väzbu z cesty (vodič lepšie cíti povrch) na rozdiel od elektrických posilňovačov (EPS), ktoré môžu pôsobiť umelo.
+- Má nižšie výrobné náklady a jednoduchšiu konštrukciu v porovnaní s modernými elektronickými systémami.
+- Dokáže vyvinúť veľmi veľkú pomocnú silu, čo je výhoda pri ťažkých nákladných vozidlách oproti bežným systémom EPS.
 
 ### Nevýhody:
 
-- Závislosť od chodu motora (pri vypnutom motore nefunguje)
-- Čerpadlo beží neustále, aj keď nie je potrebné
-- Potreba pravidelnej údržby (kontrola a výmena oleja, hadíc)
-- Možné úniky hydraulickej kvapaliny
+- Má vyššiu spotrebu paliva na rozdiel od EPS, pretože hydraulické čerpadlo beží neustále a zaťažuje motor.
+- Vyžaduje pravidelnú údržbu a hrozí riziko úniku kvapaliny, čo pri EPS odpadá.
+- Posilňovač je nefunkčný pri vypnutom motore (napr. pri ťahaní vozidla), na rozdiel od EPS.
 
 ### Použitie
 
@@ -55,11 +53,16 @@ Staršie osobné automobily, nákladné vozidlá, autobusy a ťažké úžitkov�
 
 EHPS kombinuje prvky hydraulického a elektrického systému. Namiesto čerpadla poháňaného motorom využíva **elektrické čerpadlo** na generovanie hydraulického tlaku.
 
-### Výhody oproti HPS:
+### Výhody:
 
-- Čerpadlo pracuje len keď je potrebné
-- Nezávisí od otáčok motora
-- Možnosť meniť silový účinok posilňovača (zvýšiť alebo znížiť) reguláciou elektrického čerpadla
+- Šetrí palivo v porovnaní s klasickým HPS, pretože elektrické čerpadlo nezaťažuje motor
+- Účinok posilňovača je nezávislý od otáčok motora na rozdiel od mechanického HPS.
+- Umožňuje jednoduchšiu reguláciu sily posilňovania pomocou elektroniky v porovnaní s HPS.
+
+### Nevýhody:
+
+- Systém stále vyžaduje hydraulický okruh a údržbu, na rozdiel od plne elektrického EPS.
+- Konštrukcia je zložitejšia (kombinuje hydrauliku a elektroniku) v porovnaní s jednoduchším HPS alebo EPS.
 
 ### Použitie:
 
@@ -73,11 +76,11 @@ EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou
 
 ### Hlavné časti:
 
-1 - Jednosmerný elektromotor (klasický alebo bezkartáčový) <br>
-2 - Riadiaca jednotka (ECU) <br>
-3 - Snímač krútiaceho momentu <br>
-4 - Snímač uhla natočenia volantu <br>
-5 - Prevodovka elektromotora
+- Jednosmerný elektromotor (klasický alebo bezkartáčový) 
+- Riadiaca jednotka (ECU) 
+- Snímač krútiaceho momentu 
+- Snímač uhla natočenia volantu 
+- Prevodovka elektromotora
 
 ### Princíp činnosti:
 
@@ -88,25 +91,25 @@ EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou
 
 ### Typy EPS podľa umiestnenia elektromotora:
 
-1. **C-EPS (Column-mounted)** - motor pripojený k stĺpiku riadenia. Používa sa v menších a stredných vozidlách.
-2. **P-EPS (Pinion-mounted)** - motor na vstupe prevodovky riadenia (na pastorku). Vhodné pre stredné vozidlá.
-3. **R-EPS (Rack-mounted)** - motor priamo na ozubenú tyč (hrebeň). Používa sa vo väčších vozidlách pre vyšší výkon.
+1. **C-EPS (Column-mounted)** - motor pripojený k stĺpiku riadenia. Vyznačuje sa kompaktnou konštrukciou a nízkymi výrobnými nákladmi. Poskytuje pomocnú silu do 11 kN, preto sa používa najmä v malých a kompaktných vozidlách.
+
+2. **P-EPS (Pinion-mounted)** - motor je umiestnený na pastorku. Vďaka priamemu pôsobeniu na pastorok ponúka lepší pocit z riadenia a nižšiu hlučnosť, keďže motor je umiestnený mimo kabíny. Pomocná sila dosahuje až 12 kN, čo ho robí vhodným pre stredne veľké vozidlá a SUV.
+
+3. **R-EPS (Rack-mounted)** - motor je umiestnený priamo na hrebeni. Tento typ poskytuje najvyššiu pomocnú silu (až 16 kN), najpresnejšie riadenie a najnižšiu hlučnosť. Používa sa v luxusných vozidlách, veľkých SUV a športových automobiloch.
+
+{{< figure src="typy-eps.png" alt="Obrázok porovnania systémov C-EPS, P-EPS a R-EPS" width="70%" caption="Obr. 12.13 - Porovnanie systémov C-EPS, P-EPS a R-EPS" >}}
 
 ### Výhody:
 
-- Nezávisí od chodu motora (funguje aj pri vypnutom motore)
-- Nižšia spotreba paliva (motor pracuje len pri riadení)
-- Premenlivé posilňovanie podľa rýchlosti vozidla
-- Žiadna hydraulika (bez rizika úniku oleja)
-- Jednoduchšia údržba a vyššia spoľahlivosť
-- Tichšia prevádzka
-- Možnosť integrácie s asistenčnými systémami (parkovací asistent, udržiavanie v jazdnom pruhu, autonómne riadenie)
+- Je úplne bezúdržbový a nehrozí únik oleja, na rozdiel od hydraulických systémov.
+- Umožňuje integráciu pokročilých asistenčných systémov (LKA, parkovací asistent)
+- Funguje aj pri vypnutom spaľovacom motore, na rozdiel od HPS.
 
 ### Nevýhody:
 
-- Vyššie náklady na opravu elektronických komponentov
-- Menej priamy pocit z riadenia v porovnaní s hydraulickým systémom (závisí od nastavenia výrobcu)
-- Diagnostika vyžaduje špeciálne vybavenie
+- Poskytuje menej prirodzený cit vo volante (spätná väzba) v porovnaní s hydraulickým HPS.
+- Opravy sú nákladnejšie.
+- Má menšiu maximálnu pomocnú silu ako HPS.
 
 ### Funkcie moderných EPS systémov:
 
