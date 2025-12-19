@@ -9,42 +9,28 @@ sidebar:
 
 Teleskopický hydraulický tlmič je zariadenie, ktoré tlmí kmity pružín a vibrácie vznikajúce pri jazde po nerovnom povrchu. Jeho hlavnou úlohou je zabezpečiť neustály kontakt kolies s vozovkou, čím zlepšuje ovládateľnosť vozidla, skracuje brzdnú dráhu a zvyšuje komfort jazdy.
 
-## Hlavné časti:
-
-1 - **Horné oko** -- slúži na uchytenie ku karosérii alebo k tlmičovej vzpere <br>
-2 - **Tesnenie piestnice** <br>
-3 - **Piestnica** -- <br>
-4 - **Plášť (valec)** -- <br>
-5 - **Piest s prietokovými jednocestnými ventilmi A a B** <br>
-6 - **Pracovná komora naplnená hydraulickým olejom** -- <br>
-7 - **Plynová komora** -- naplnená vzduchom alebo dusíkom <br>
-8 - **Spodné oko** -- slúži na uchytenie k zaveseniu kolesa 
-
-{image of telescopic shock absorber with descriptions Obr. 11.24}
-
-## Princíp činnosti
-
-Tlmič vie vykonávať dve činnosti: stláčať sa a rozťahovať sa. Pri stláčaní sa piest pohybuje nadol a vytláča hydraulickú kvapalinu cez ventil A z pod piesta nad piest. Pri rozťahovní sa piest pohybuje nahor a kvapalina prúdi cez ventil B z nad piestu pod piest. Ventil B (ten, cez ktorý kvapalina preteká pri rozťahovaní) má spravidla menší prierez alebo väčší tlak potrebný na otvorenie, aby tlmič kládol väčší odpor pri rozťahovaní ako pri stláčaní, čím zachováva pružiaci efekt pružín a zároveň bráni ich rozkmitaniu.
-
-{{< figure src="shock-absorber.webp" alt="Činnosť tlmiča" width="40%" caption="Obr. 11.25 - Činnosť tlmiča" >}}
-
 ## Teleskopický hydraulický tlmič dvoj-plášťový (twin-tube)
 
-{image of twin-tube shock absorber}
+### Hlavné časti:
 
-### Konštrukcia
+1 - Vnútorný plášť<br>
+2 - Vonkajší plášť<br> 
+3 - Piestnica<br>
+4 - Piest s prietokovými jednocestnými ventilmi A a B<br>
+5 - Pracovný priestor<br>
+6 - Priestor zásobníka (vzduch alebo dusík) <br>
+7 - Dno s prietokovými jednocestnými ventilmi C a D<br>
+8 - Vedenie piestice <br>
+9 - Tesnenie<br>
+10 - Oká na uchytenie
 
-Dvojplášťový tlmič sa skladá z dvoch valcov - vnútorného pracovného valca a vonkajšieho zásobníkového valca. Medzi týmito valcami sa nachádza priestor slúžiaci ako zásobník oleja. Keď dôjde ku stlačeniu tlmiča, piest s piestnicou sa posunú smerom nadol. To má za následok, že väčšia časť piestnice je teraz v pracovnom priestore, čo znamená menej priestoru pre olej. Olej ako kvapalina však nie je stlačiteľný a preto musí niekam ísť. V tomto prípade ide do zásobníka. A naopak, keď ide piest smerom nahor, tento olej je zasa zo zásobníka vysáhavý.
+{{< figure src="dvoj-plastovy.png" alt="Teleskopický hydraulický tlmič dvoj-plášťový" width="100%" caption="Obr. 11.24 - Teleskopický hydraulický tlmič dvoj-plášťový" >}}
 
-**Hlavné časti:**
-1 - Vnútorný plášť
-2 - Vonkajší plášť
-3 - Piestnica
-4 - Piest s prietokovými jednocestnými ventilmi A a B
-5 - Pracovný priestor
-6 - Priestor zásobníka
-7 - Dno s prietokovými jednocestnými ventilmi C a D
-8 - Tesnenie
+### Princíp činnosti
+
+Dvojplášťový tlmič sa skladá z dvoch valcov - vnútorného pracovného valca a vonkajšieho zásobníkového valca. Medzi týmito valcami sa nachádza priestor slúžiaci ako zásobník oleja. Pri stláčaní sa piest pohybuje nadol a vytláča hydraulickú kvapalinu cez ventil A z pod piesta nad piest. Pri rozťahovní sa piest pohybuje nahor a kvapalina prúdi cez ventil B z nad piestu pod piest. Ventil B (ten, cez ktorý kvapalina preteká pri rozťahovaní) má spravidla menší prierez alebo väčší tlak potrebný na otvorenie, aby tlmič kládol väčší odpor pri rozťahovaní ako pri stláčaní, čím zachováva pružiaci efekt pružín, ale zároveň bráni ich rozkmitaniu. 
+
+Avšak, pri stlačení sa taktiež do pracovného priestoru dostáva väčšia časť piestnice, čo znamená menej miesta pre olej. Olej však nie je stlačiteľný a preto musí niekam ísť. V tomto prípade ide do zásobníka. A naopak, keď ide piest smerom nahor, tento olej je zasa zo zásobníka vysáhavý.
 
 ### Výhody
 
@@ -66,23 +52,22 @@ Dvojplášťový tlmič sa skladá z dvoch valcov - vnútorného pracovného val
 
 Drvivá väčšina sériovo vyrábaných osobných automobilov, ľahké úžitkové vozidlá a motocykle nižších kategórií. Vhodné pre bežné jazdné podmienky, kde nie je prioritou maximálny výkon, ale komfort a nízka cena.
 
-## Teleskopický hydraulický tlmič jedno-plášťový (monotube)
+## Teleskopický hydraulický tlmič jedno-plášťový (mono-tube)
 
-{image of monotube shock absorber}
+### Hlavné časti:
+1 - Plášť<br>
+2 - Piestnica<br>
+3 - Pracovný priestor<br>
+4 - Pružná membrána<br>
+5 - Plynová náplň (dusík pod tlakom 20 až 30 barov)<br>
+6 - Oká na uchytenie<br>
+7 - Tesnenie
 
-### Konštrukcia
+{{< figure src="monotube.png" alt="Teleskopický hydraulický tlmič jedno-plášťový" width="70%" caption="Obr. 11.25 - Teleskopický hydraulický tlmič jedno-plášťový" >}}
 
-Jednoplášťový tlmič pozostáva z jedného valca (plášťa), v ktorom sa nachádza piest s ventilmi. Priestor pod piestom je oddelený od plynovej komory (zvyčajne naplnenej dusíkom pod tlakom 20-30 barov) plávajúcim piestom. Plynová komora kompenzuje zmenu objemu spôsobenú vstupom piestnice do valca a plávajúci piest zabraňuje prieniku plynu do oleja. Vysoký tlak plynu udržiava olej pod stálym tlakom, čím zabraňuje peneniu oleja aj pri intenzívnom zaťažení.
+### Princíp činnosti
 
-**Hlavné časti:**
-1 - Oká na uchytenie (horné a spodné)
-2 - Plášť (jediný valec)
-3 - Tesnenie piestnice
-4 - Piestnica
-5 - Pracovná komora s olejom (nad plávajúcim piestom)
-6 - Piest s prietokovými ventilmi
-7 - Plávajúci piest (oddeľuje olej od plynu)
-8 - Plynová komora s dusíkom pod vysokým tlakom (20-30 bar)
+Obdobný princíp ako pri dvoj-plášťovom. Namiesto zásobníkovej komory je tu plynová komora z dusíkom, ktorý je stlačiteľný. Ten kompenzuje zmenšenie voľného priestoru pre olej a zároveň drží olej pod neustálym tlakom, čím zamedzuje peneniu oleja aj pri vysokom zaťažení.
 
 ### Výhody
 
@@ -117,3 +102,10 @@ Jednoplášťový tlmič pozostáva z jedného valca (plášťa), v ktorom sa na
 | Montážna poloha | Obmedzená | Ľubovoľná |
 | Citlivosť na poškodenie | Nižšia | Vyššia |
 | Použitie | Bežné vozidlá | Športové vozidlá |
+
+---
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="tlmice-s-regulaciou" title="Tlmiče s reguláciou" subtitle="Rozdelenie, rôzne druhy systémov, ich popis, výhody a nevýhody...">}}
+{{< /cards >}}
