@@ -1,4 +1,5 @@
 ---
+linkTitle: "11.7.1 Teleskopické hydraulické tlmiče"
 title: "Teleskopické hydraulické tlmiče"
 type: docs
 weight: 1
@@ -8,25 +9,24 @@ sidebar:
 
 Teleskopický hydraulický tlmič je zariadenie, ktoré tlmí kmity pružín a vibrácie vznikajúce pri jazde po nerovnom povrchu. Jeho hlavnou úlohou je zabezpečiť neustály kontakt kolies s vozovkou, čím zlepšuje ovládateľnosť vozidla, skracuje brzdnú dráhu a zvyšuje komfort jazdy.
 
-## Konštrukcia
+## Hlavné časti:
 
-**Hlavné časti teleskopických tlmičov:**
-1 - Horné oko (uchytenie ku karosérii alebo k tlmičovej vzpere)
-2 - Tesnenie piestnice
-3 - Piestnica (tyč piestu)
-4 - Plášť (valec)
-5 - Piest s prietokovými jednocestnými ventilmi A a B
-6 - Pracovná komora naplnená hydraulickým olejom
-7 - Plynová komora (vzduch alebo dusík)
-8 - Spodné oko (uchytenie k zaveseniu kolesa)
+1 - **Horné oko** -- slúži na uchytenie ku karosérii alebo k tlmičovej vzpere <br>
+2 - **Tesnenie piestnice** <br>
+3 - **Piestnica** -- <br>
+4 - **Plášť (valec)** -- <br>
+5 - **Piest s prietokovými jednocestnými ventilmi A a B** <br>
+6 - **Pracovná komora naplnená hydraulickým olejom** -- <br>
+7 - **Plynová komora** -- naplnená vzduchom alebo dusíkom <br>
+8 - **Spodné oko** -- slúži na uchytenie k zaveseniu kolesa 
 
-{image of telescopic shock absorber with descriptions}
+{image of telescopic shock absorber with descriptions Obr. 11.24}
 
 ## Princíp činnosti
 
 Tlmič vie vykonávať dve činnosti: stláčať sa a rozťahovať sa. Pri stláčaní sa piest pohybuje nadol a vytláča hydraulickú kvapalinu cez ventil A z pod piesta nad piest. Pri rozťahovní sa piest pohybuje nahor a kvapalina prúdi cez ventil B z nad piestu pod piest. Ventil B (ten, cez ktorý kvapalina preteká pri rozťahovaní) má spravidla menší prierez alebo väčší tlak potrebný na otvorenie, aby tlmič kládol väčší odpor pri rozťahovaní ako pri stláčaní, čím zachováva pružiaci efekt pružín a zároveň bráni ich rozkmitaniu.
 
-{gif of shock absorbers working - https://cdn.shopify.com/s/files/1/2597/3112/t/24/assets/shock-type-twin-tube-foam-cell.gif?v=1631316593}
+{{< figure src="shock-absorber.webp" alt="Činnosť tlmiča" width="40%" caption="Obr. 11.25 - Činnosť tlmiča" >}}
 
 ## Teleskopický hydraulický tlmič dvoj-plášťový (twin-tube)
 

@@ -1,4 +1,5 @@
 ---
+linkTitle: "11.3 Skrutné tyče"
 title: "Skrutné (torzné) tyče"
 weight: 3
 type: docs
@@ -8,21 +9,21 @@ sidebar:
 
 Skrutná (torzná) tyč je typ pružiny, ktorá využíva krútenie (torziu) oceľovej tyče na absorbovanie nerovností vozovky. Na rozdiel od vinutých alebo listových pružín, torzná tyč poskytuje pružinový efekt prostredníctvom odporu voči krúteniu okolo svojej pozdĺžnej osi.
 
-![Skrutná tyč](torsion-bar.jpg "Obr. 11.X - Skrutná tyč")
+{{< figure src="torsion-bar.jpg" alt="Skrutná tyč" width="60%" caption="Obr. 11.11 - Skrutná tyč" >}}
 
 ## Konštrukcia
 
 Skrutná tyč je dlhý oceľový prút vyrobený z vysokokvalitnej pružinovej ocele. Má najčastejšie kruhový prierez, ktorý je na oboch koncoch zosilnený a vybavený jemne drážkovanou (ozubenou) hlavicou na upevnenie.
 
-**Hlavné časti:**
-1 - Torzná tyč (kruhový alebo profilovaný prierez)
-2 - Upevňovacie čapy s drážkami
-3 - Rameno zavesenia (spodné alebo horné)
-4 - Nastavovací mechanizmus (skrutka alebo excentrická podložka)
+**Hlavné časti:** <br>
+1 - Torzná tyč (kruhový alebo profilovaný prierez) <br>
+2 - Upevňovacie čapy s drážkami<br>
+3 - Rameno zavesenia (spodné alebo horné)<br>
+4 - Nastavovací mechanizmus (skrutka alebo excentrická podložka)<br>
 5 - Rám alebo karoséria vozidla
-6 - Ochranné puzdro (gumové alebo plastové)
 
-{image of torsion bar construction with descriptions}
+{{< figure src="konstrukcia.png" alt="Hlavné časti skrutnej tyče" width="90%" caption="Obr. 11.12 - Hlavné časti skrutnej tyče" >}}
+
 
 ## Princíp činnosti
 
@@ -70,4 +71,11 @@ Torzné tyče sa používajú v rôznych typoch vozidiel:
 **Stabilizačné tyče (anti-roll bar):**
 Torzná tyč sa využíva aj v stabilizačných tyčiach (tzv. anti-roll bar alebo anti-sway bar), ktoré znižujú naklonenie vozidla v zákrutách alebo pri prejazde po nerovnostiach. Stabilizačná tyč pružne spája ľavé a pravé koleso nápravy tak, že pri stlačení jedného z nich donúti stlačiť aj to druhé, čím pomáha udržať vozidlo v rovnovážnej polohe a taktiež znižuje celkové tažisko vozidla, čo v zákrutách robí vozidlo ešte stabilnejším.
 
-![Anti-roll bar](anti-roll-bar.webp "Obr. 11.X - Stabilizačná tyč")
+{{< figure src="anti-roll-bar.webp" alt="Stabilizačná tyč" width="55%" caption="Obr. 11.13 - Stabilizačná tyč" >}}
+
+---
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="pneumaticke-pruzenie" title="Pnematické pruženie" subtitle="Hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}
+{{< /cards >}}

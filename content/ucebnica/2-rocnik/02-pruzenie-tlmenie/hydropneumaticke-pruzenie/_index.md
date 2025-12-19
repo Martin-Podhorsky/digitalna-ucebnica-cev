@@ -1,4 +1,5 @@
 ---
+linkTitle: "11.5 Hydropneumatické pruženie"
 title: "Hydropneumatické pruženie"
 weight: 5
 type: docs
@@ -8,19 +9,18 @@ sidebar:
 
 Hydropneumatické pruženie je typ odpruženia, ktorý kombinuje plyn s kvapalinou. Tento systém bol vyvinutý spoločnosťou Citroën v 50. rokoch 20. storočia a dodnes je považovaný za jedno z najkomfortnejších riešení odpruženia.
 
-![Hydropneumatické pruženie](hydropneumatic-suspension.jpg "Obr. 11.X - Hydropneumatické pruženie")
+{{< figure src="hydropneumatic-suspension.jpg" alt="Hydropneumatické pruženie" width="100%" caption="Obr. 11.18 - Hydropneumatické pruženie" >}}
 
-## Konštrukcia
+## Hlavné časti:
 
-**Hlavné časti hydropneumatického pruženia:**
-1 - Hydropneumatické gule (akumulátory) - kovové nádoby rozdelené pružnou membránou na dve časti: horná obsahuje stlačený dusík, dolná hydraulickú kvapalinu
-2 - Pužná membrána - mechanicky oddeluje plyn od kvapaliny
-3 - Hydraulický valec (piest) - spojený so zavesením kolesa, prenáša pohyb na hydraulickú kvapalinu
-4 - Hydraulické čerpadlo - vytvára a udržiava tlak v systéme (poháňané motorom)
-5 - Zásobník hydraulickej kvapaliny
-6 - Regulačné ventily - riadia prietok kvapaliny a tým aj výšku vozidla
-7 - Snímače výšky - monitorujú polohu karosérie voči kolesám
-8 - Riadiaca jednotka - spracováva údaje a ovláda celý systém (pri elektronických verziách)
+1 - **Hydropneumatické gule (akumulátory)** -- kovové nádoby rozdelené pružnou membránou na dve časti: horná obsahuje stlačený dusík, dolná hydraulickú kvapalinu <br>
+2 - **Pužná membrána** -- mechanicky oddeluje plyn od kvapaliny<br>
+3 - **Hydraulický valec (piest)** -- spojený so zavesením kolesa, prenáša pohyb na hydraulickú kvapalinu<br>
+4 - **Hydraulické čerpadlo** -- vytvára a udržiava tlak v systéme (poháňané motorom)<br>
+5 - **Zásobník hydraulickej kvapaliny**<br>
+6 - **Regulačné ventily** -- riadia prietok kvapaliny a tým aj výšku vozidla<br>
+7 - **Snímače výšky** -- monitorujú polohu karosérie voči kolesám<br>
+8 - **Riadiaca jednotka** -- spracováva údaje a ovláda celý systém (pri elektronických verziách)
 
 {image of hydropneumatic sphere with description}
 
@@ -63,3 +63,10 @@ Podobné systémy používali aj iné značky:
 - **Rolls-Royce** - niektoré modely využívali hydropneumatické prvky
 
 V súčasnosti sa od hydropneumatického pruženia postupne upúšťa kvôli vysokým nákladom na výrobu a údržbu. Nahrádza ho pneumatické pruženie, ktoré je jednoduchšie a lacnejšie na údržbu.
+
+---
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="gumove-pruzenie" title="Gumové pruženie" subtitle="Výhody, nevýhody, použitie...">}}
+{{< /cards >}}

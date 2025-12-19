@@ -1,4 +1,5 @@
 ---
+linkTitle: "11.4 Pneumatické pruženie"
 title: "Pneumatické pruženie"
 weight: 4
 type: docs
@@ -8,21 +9,20 @@ sidebar:
 
 Pneumatické pruženie je systém odpruženia, ktorý využíva stlačený vzduch uzavretý v pružných vakoch (mechoch) na absorbovanie nerovností vozovky. Na rozdiel od oceľových pružín umožňuje plynulé nastavenie výšky a tuhosti odpruženia podľa aktuálnych podmienok a zaťaženia vozidla.
 
-![Pneumatické pruženie](air-suspension.jpg "Obr. 11.X - Pneumatické pruženie")
+{{< figure src="air-suspension.jpg" alt="Pneumatické pruženie" width="60%" caption="Obr. 11.14 - Pneumatické pruženie" >}}
 
-## Konštrukcia
+## Hlavné časti: <br>
 
-**Hlavné časti pneumatického pruženia:**
-1 - Vzduchové mechy (vaky) - pružné gumové komory naplnené stlačeným vzduchom
-2 - Kompresor - stláča vzduch a dodáva ho do systému
-3 - Sušič - odvádza vlhkosť zo systému (často integrovaný priamo v kompresore)  
-4 - Zásobník vzduchu (akumulátor) - uchováva stlačený vzduch (pre rýchle nastavenie svetlej výšky)
-5 - Vzduchové vedenia - potrubia spájajúce komponenty
-6 - Regulačné ventily - riadia prúdenie vzduchu do jednotlivých mechov
-7 - Snímače výšky - monitorujú polohu karosérie voči kolesám
-8 - Riadiaca jednotka - spracováva údaje a ovláda celý systém
+1 - **Vzduchové mechy (vaky)** -- pružné gumové komory naplnené stlačeným vzduchom<br>
+2 - **Kompresor** -- stláča vzduch a dodáva ho do systému<br>
+3 - **Sušič** -- odvádza vlhkosť zo systému (často integrovaný priamo v kompresore)<br>
+4 - **Zásobník vzduchu (akumulátor)** -- uchováva stlačený vzduch (pre rýchle nastavenie svetlej výšky)<br>
+5 - **Vzduchové vedenia** -- potrubia spájajúce komponenty<br>
+6 - **Regulačné ventily** -- riadia prúdenie vzduchu do jednotlivých mechov<br>
+7 - **Snímače výšky** -- monitorujú polohu karosérie voči kolesám<br>
+8 - **Riadiaca jednotka** -- spracováva údaje a ovláda celý systém
 
-{image of air suspension components with descriptions}
+{{< figure src="konstrukcia.png" alt="Hlavné časti pneumatického pruženia" width="100%" caption="Obr. 11.15 - Hlavné časti pneumatického pruženia" >}}
 
 ## Princíp činnosti
 
@@ -54,14 +54,14 @@ Snímače výšky neustále monitorujú polohu karosérie voči kolesám. Pri zm
    - Väčší zdvih, mäkšia charakteristika
    - Používané v osobných automobiloch
 
-![Pneumatické pruženie v tvare vlnovca](vlnovcove.jpg "Obr. 11.X - Pneumatické pruženie v tvare vlnovca")
+{{< figure src="vlnovcove.jpg" alt="Pneumatické pruženie v tvare vlnovca" width="60%" caption="Obr. 11.16 - Pneumatické pruženie v tvare vlnovca" >}}
 
 2. **Valivé mechy**
    - Valcový tvar s odvaľovaním po pieste
    - Kompaktnejšia konštrukcia
    - Používané v nákladných vozidlách a autobusoch
 
-![Pneumatické pruženie valivé](valive.webp "Obr. 11.X - Pneumatické pruženie valivé")
+{{< figure src="valive.webp" alt="Pneumatické pruženie valivé" width="50%" caption="Obr. 11.17 - Pneumatické pruženie valivé" >}}
 
 ### Podľa typu systému:
 
@@ -82,3 +82,10 @@ Snímače výšky neustále monitorujú polohu karosérie voči kolesám. Pri zm
 - Ťažké nákladné automobily (konštantná výška nakladacej plochy)
 - Prívesy a návesy
 - Terénne vozidlá (nastaviteľná svetlá výška)
+
+---
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="hydropneumaticke-pruzenie" title="Hydropneumatické pruženie" subtitle="Hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}
+{{< /cards >}}

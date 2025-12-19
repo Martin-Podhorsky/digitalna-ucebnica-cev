@@ -34,3 +34,10 @@ Pojem "pruženie a tlmenie vozidla" odkazuje na súbor komponentov, ktoré spáj
 - Gumové pruženie
 - Pneumatické pruženie
 - Hydropneumatické pruženie
+
+---
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="listove-pruziny" title="Listové pružiny" subtitle="Princíp činnosti, konštrukcia, hlavné časti, výhody a nevýhody...">}}
+{{< /cards >}}

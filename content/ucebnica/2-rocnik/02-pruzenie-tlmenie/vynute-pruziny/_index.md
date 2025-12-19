@@ -1,4 +1,5 @@
 ---
+linkTitle: "11.2 Vinuté pružiny"
 title: "Vinuté pružiny"
 weight: 2
 type: docs
@@ -6,9 +7,9 @@ sidebar:
   open: false
 ---
 
-Vinuté pružiny sa v súčasnosti používajú najčastejšie u osobných automobiloch. Vďaka svojim vlastnostiam sú ideálne pre nezávislé zavesenie kolies, kde sa často kombinujú s tlmičmi v zostave typu McPherson.
+Vinuté pružiny sa v súčasnosti používajú najčastejšie u osobných automobiloch. Vďaka svojim vlastnostiam sú ideálne pre nezávislé zavesenie kolies, kde sa často kombinujú s tlmičmi v zostave typu MacPherson.
 
-![Vinutá pružina](coil-spring.webp "Obr. 10.X - Vynutá pružina")
+{{< figure src="coil-spring.webp" alt="Vynutá pružina" width="30%" caption="Obr. 11.8 - Vynutá pružina" >}}
 
 ## Konštrukcia
 
@@ -47,11 +48,23 @@ Vinuté pružiny sa rozdeľujú podľa rôznych kritérií:
 - **Lineárne** - konštantný priemer drôtu a rovnomerné stúpanie závitov. Tuhosť je konštantná počas celého zdvihu
 - **Progresívne** - premenlivý priemer drôtu alebo nerovnomerné stúpanie závitov. Tuhosť sa zvyšuje so zaťažením, čo zlepšuje komfort pri malom zaťažení a stabilitu pri veľkom
 
+{{< figure src="typy-pruzin-charakteristika.jpg" alt="Typy pružín podľa charakteristiky" width="40%" caption="Obr. 11.9 - Typy pružín podľa charakteristiky" >}}
+
 ### Podľa tvaru:
 - **Valcové** - najrozšírenejší typ, rovnaká šírka po celej dĺžke
 - **Kužeľové** - šírka sa zmenšuje smerom k jednému koncu, umožňujú kratšiu zástavbovú dĺžku pri stlačení
 - **Súdkovité** - väčšia šírka v strede, menšia na koncoch, lepšia stabilita
+- **Bikónická** - progresívna tuhosť, vynikajúca bočná stabilita a kompaktnú výška v stlačenom stave vďaka svojmu špecifickému tvaru presýpacích hodín
+
+{{< figure src="typy-pruzin-tvar.png" alt="Typy pružín podľa tvaru" width="40%" caption="Obr. 11.10 - Typy pružín podľa tvaru" >}}
 
 ### Podľa smeru vinutia:
 - **Pravotočivé** - závity stúpajú v smere hodinových ručičiek
 - **Ľavotočivé** - závity stúpajú proti smeru hodinových ručičiek
+
+---
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="skrutne-tyce" title="Skrutné tyče" subtitle="Hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}
+{{< /cards >}}

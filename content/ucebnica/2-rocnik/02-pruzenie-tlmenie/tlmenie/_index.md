@@ -1,4 +1,5 @@
 ---
+linkTitle: "11.7 Tlmenie"
 title: "Tlmenie"
 type: docs
 weight: 6
@@ -8,11 +9,13 @@ sidebar:
 
 Tlmiče sú súčasťou odpruženia vozidla. Slúžia na zabránenie rozkmitania pružín. Pružiny samotné by po prejazde nerovnosťou kmitali ešte dlhú dobu - tlmiče tento pohyb brzdia tým, že premieňajú kinetickú energiu kmitania na teplo.
 
-![Tlmič](tlmic.jpg "Obr. 11.X - Tlmiče")
+{{< figure src="tlmic.jpg" alt="Tlmič" width="60%" caption="Obr. 11.22 - Tlmič" >}}
 
 ## Význam
 
-Bez tlmičov by vozidlo po každej nerovnosti dlho kmitalo, kolesá by odskakovali od vozovky a jazda by bola nekomfortná a nebezpečná.
+Bez tlmičov by sa vozidlo po každej nerovnosti húpalo, kolesá by odskakovali od vozovky a jazda by bola nekomfortná a nebezpečná.
+
+{{< figure src="car-without-shocks.gif" alt="Auto bez zadných tlmičov" width="60%" caption="Obr. 11.23 - Auto bez zadných tlmičov" >}}
 
 **Úloha tlmičov:**
 1. Rýchlo utlmiť kmitanie pružín po prejazde nerovnosťou
@@ -24,14 +27,21 @@ Bez tlmičov by vozidlo po každej nerovnosti dlho kmitalo, kolesá by odskakova
 ## Rozdelenie tlmičov:
 
 ### Podľa konštrukcie:
-- **Dvojplášťové (twin-tube)** - vnútorný a vonkajší valec, jednoduchšia konštrukcia, lacnejšie
-- **Jednoplášťové (mono-tube)** - jeden valec s oddeľovacím piestom, lepšie chladenie, drahšie
+- **Dvojplášťové (twin-tube)** -- vnútorný a vonkajší valec, jednoduchšia konštrukcia, lacnejšie
+- **Jednoplášťové (mono-tube)** -- jeden valec s oddeľovacím piestom, lepšie chladenie, drahšie
 
 ### Podľa tlmiaceho média:
-- **Olejové (hydraulické)** - tlmenie zabezpečuje prietok oleja cez ventily
-- **Plynokvapalinové** - olej + stlačený plyn (dusík), menšia náchylnosť na spenenie oleja
+- **Olejové (hydraulické)** -- tlmenie zabezpečuje prietok oleja cez ventily
+- **Plynokvapalinové** -- olej + stlačený plyn (dusík), menšia náchylnosť na spenenie oleja
 
 ### Podľa možnosti nastavenia:
-- **Pasívne** - pevne nastavená charakteristika
-- **Nastaviteľné** - možnosť mechanického nastavenia tuhosti
-- **Adaptívne (elektronicky riadené)** - automatické prispôsobenie tlmenia podľa jazdných podmienok
+- **Pasívne** -- pevne nastavená charakteristika
+- **Nastaviteľné** -- možnosť mechanického nastavenia tuhosti
+- **Adaptívne (elektronicky riadené)** -- automatické prispôsobenie tlmenia podľa jazdných podmienok
+
+---
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="teleskopicke-tlmice" title="Teleskopické hydraulické tlmiče" subtitle="Rozdelenie, hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}
+{{< /cards >}}
