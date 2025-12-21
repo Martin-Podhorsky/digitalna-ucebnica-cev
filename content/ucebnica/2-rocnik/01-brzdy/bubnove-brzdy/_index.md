@@ -9,11 +9,9 @@ sidebar:
 
 Bubnová brzda je brzda, ktorá využíva trenie spôsobené súpravou čeľustí, ktoré tlačia smerom von proti rotujúcej  časti spojenej s hnacím hriadeľom a kolesom, nazývanej brzdový bubon.
 
-![Bubnová brzda](bubnova-brzda.jpg "Obr. 10. 2 - Bubnová brzda")
+{{< figure src="bubnova-brzda.jpg" alt="Bubnová brzda" width="60%" caption="Obr. 10.2 - Bubnová brzda" >}}
 
-## Konštrukcia
-
-### Hlavné časti:
+## Hlavné časti:
 - Príruba (Podložka)
 - Bubon
 - Brzdový valček
@@ -23,7 +21,7 @@ Bubnová brzda je brzda, ktorá využíva trenie spôsobené súpravou čeľust�
 - Nastavovacia skrutka
 - Mechanizmus parkovacej brzdy  
 
-![Bubnová brzda s popisom](bubnova-brzda-popis-2.jpg "Obr. 10. 3 - Bubnová brzda s popisom")
+{{< figure src="bubnova-brzda-popis-2.jpg" alt="Bubnová brzda s popisom" width="90%" caption="Obr. 10.3 - Bubnová brzda s popisom" >}}
 
 ## Princíp činnosti
 
@@ -48,30 +46,30 @@ Pri pritlačení na brzdový pedál sa piest v brzdovom valčeku (1) posunie a p
 Bubnové brzdy sa rozdeľujú podľa usporiadania čeľustí a ich ovládania:
 
 **SIMPLEX** (jednoduchá brzda)
-    - obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí
-    - na opačnej strane sú obe čeľuste podopreté oporou
-    - má jednu nábežnú a jednu úbežnú čeľusť. Ktorá je ktorá závisí od smeru rotácie. Nábežná čeľusť je tá, na ktorú rotujúci bubon nabieha a rotáciou ju tlačí k sebe. Úbežná čeľusť je tá, od ktorej bubon ubieha a rotáciou ju tlačí od seba.
+- obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí
+- na opačnej strane sú obe čeľuste podopreté oporou
+- má jednu nábežnú a jednu úbežnú čeľusť. Ktorá je ktorá závisí od smeru rotácie. Nábežná čeľusť je tá, na ktorú rotujúci bubon nabieha a rotáciou ju tlačí k sebe. Úbežná čeľusť je tá, od ktorej bubon ubieha a rotáciou ju tlačí od seba.
 
 **DUPLEX** (dvojnábežná brzda)
-    - Namiesto jedného dvojpiestového valčeka má jedna aj druhá čeľusť svoj vlastný valček a oporu
-    - pri jazde dopredu sú obe čeľuste nábežné (vysoký brzdný účinok). Pri jazde dozadu sú obe čeluste úbežné (nižší brzdný účinok)
+- Namiesto jedného dvojpiestového valčeka má jedna aj druhá čeľusť svoj vlastný valček a oporu
+- pri jazde dopredu sú obe čeľuste nábežné (vysoký brzdný účinok). Pri jazde dozadu sú obe čeluste úbežné (nižší brzdný účinok)
 
 **SERVO** (brzda so spriahnutými čeľusťami)
-    - pre smer jazdy dopredu takisto obidve čeľuste nábežné, ale hydraulický valček pôsobí iba na prvú
-    - v momente keď sa prví čeľusť oprie o stenu valca, ten ju začne tlačiť v smere svojej rotácie
-    - tá je spojená s druhou čelusťou, ktorá sa pôsobením sily takisto onedlho oprie o stenu rotujúceho bubna
-    - pri jazde dopredu sú takisto obe čeľuste nábežné (vysoký brzdný účinok) a pri jazde dozadu sú obe čeluste úbežné (nižší brzdný účinok)
-    - pri tomto type môže byť brzdenie pomerne agresívne (menej odstupňovateľné) kvôli veľmi vysokému przdnému účinku
+- pre smer jazdy dopredu takisto obidve čeľuste nábežné, ale hydraulický valček pôsobí iba na prvú
+- v momente keď sa prví čeľusť oprie o stenu valca, ten ju začne tlačiť v smere svojej rotácie
+- tá je spojená s druhou čelusťou, ktorá sa pôsobením sily takisto onedlho oprie o stenu rotujúceho bubna
+- pri jazde dopredu sú takisto obe čeľuste nábežné (vysoký brzdný účinok) a pri jazde dozadu sú obe čeluste úbežné (nižší brzdný účinok)
+- pri tomto type môže byť brzdenie pomerne agresívne (menej odstupňovateľné) kvôli veľmi vysokému przdnému účinku
 
 **DUO-DUPLEX** (obojsmerná dvojnábežná brzda)
-    - obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi
-    - vďaka tomu má rovnaký brzdný účinok v oboch smeroch rotácie
-    - vyžaduje o niečo väčšiu ovládaciu silu ako DUO-SERVO
+- obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi
+- vďaka tomu má rovnaký brzdný účinok v oboch smeroch rotácie
+- vyžaduje o niečo väčšiu ovládaciu silu ako DUO-SERVO
 
 **DUO-SERVO** (obojsmerná brzda so spriahnutými čeľusťami)
-    - funguje na rovnakom princípe ako brzda Servo, avšak je skonštruovaná tak, že brzda má samozosilňujúci účinok v oboch smeroch rotácie
+- funguje na rovnakom princípe ako brzda Servo, avšak je skonštruovaná tak, že brzda má samozosilňujúci účinok v oboch smeroch rotácie
 
-![Typy bubnových bŕzd](typy-bubnovych-brzd.png "Obr. 10. X - Porovnanie niekoľkých typov bubnových bŕzd a ich brzdnej sily (čierna farba)")
+{{< figure src="typy-bubnovych-brzd.png" alt="Typy bubnových bŕzd" width="70%" caption="Obr. 10.4 - Porovnanie niekoľkých typov bubnových bŕzd a ich brzdnej sily (čierna farba)" >}}
 
 ### Tabuľka porovnania
 
@@ -82,6 +80,8 @@ Bubnové brzdy sa rozdeľujú podľa usporiadania čeľustí a ich ovládania:
 | SERVO | Brzda so spriahnutými čeľusťami | 2 | 0 | Veľmi silný dopredu, slabý dozadu |
 | DUO-DUPLEX | Obojsmerná dvojnábežná brzda | 2 | 2 | Silný (v oboch smeroch) |
 | DUO-SERVO | Obojsmerná brzda so spriahnutými čeľusťami | 2 | 2 | Veľmi silný (v oboch smeroch) |
+
+---
 
 Nasledujúce učivo:
 {{< cards >}}

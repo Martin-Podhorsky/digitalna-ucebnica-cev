@@ -13,7 +13,6 @@ Brzdy sú **mechanické zariadenie, ktoré zamedzuje pohybu vozidla absorbovaní
 
 {{< figure src="brakes.jpg" alt="Príklad trecieho, rekuperačného a aerodynamického brzdenia" width="100%" caption="Obr. 10. 1 - Príklad trecieho, rekuperačného a aerodynamického brzdenia" >}}
 
-
 ## Hlavná úloha
 
 Úlohou bŕzd je vozidlo **spomaliť, úplne zastaviť počas jazdy alebo zaistiť proti nežiaducemu rozjazdu po odparkovaní alebo odstavení**.
@@ -49,13 +48,13 @@ Pri brzdení na vozidlo pôsobí viacero fyzikálnych síl, ktoré ovplyvňujú 
 
 Brzdenie automobilu je krátky časový úsek začínajúci v okamihu, keď vodič zaznamená potrebu brzdiť, až do úplného zastavenia vozidla. Tento úsek má viacero fáz:
 
-1. **Reakčný čas vodiča** - čas od okamihu, keď vodič zaznamená prekážku alebo potrebu brzdiť, až po začatie pohybu nohy smerom k brzdovému pedálu (zvyčajne 0,6 až 0,9 s, pri únave alebo rozptýlení až 1,5 s). Počas tejto doby vozidlo pokračuje pôvodnou rýchlosťou.
+1. **Reakčný čas vodiča** -- čas od okamihu, keď vodič zaznamená prekážku alebo potrebu brzdiť, až po začatie pohybu nohy smerom k brzdovému pedálu (zvyčajne 0,6 až 0,9 s, pri únave alebo rozptýlení až 1,5 s). Počas tejto doby vozidlo pokračuje pôvodnou rýchlosťou.
 
-2. **Čas nábehu brzdy** - čas od dotyku pedála až po dosiahnutie maximálnej brzdnej sily. Zahŕňa prekonanie vôle v brzdovom mechanizme, stlačenie brzdovej kvapaliny a pritlačenie brzdových obložení na kotúče/bubny (približne 0,2 až 0,4 s).
+2. **Čas nábehu brzdy** -- čas od dotyku pedála až po dosiahnutie maximálnej brzdnej sily. Zahŕňa prekonanie vôle v brzdovom mechanizme, stlačenie brzdovej kvapaliny a pritlačenie brzdových obložení na kotúče/bubny (približne 0,2 až 0,4 s).
 
-3. **Čas plného brzdného účinku** - fáza, počas ktorej brzdy pôsobia s plnou silou a vozidlo je spomaľované konštantným brzdným spomalením. Toto je najefektívnejšia fáza brzdenia.
+3. **Čas plného brzdného účinku** -- fáza, počas ktorej brzdy pôsobia s plnou silou a vozidlo je spomaľované konštantným brzdným spomalením. Toto je najefektívnejšia fáza brzdenia.
 
-4. **Úplné zastavenie vozidla** - okamih, keď vozidlo dosiahne nulovú rýchlosť.
+4. **Úplné zastavenie vozidla** -- okamih, keď vozidlo dosiahne nulovú rýchlosť.
 
 ## Rozdelenie
 
@@ -63,31 +62,31 @@ Brzdy môžeme rozdeliť podľa viacerých kritérií. Toto sú tie najhlavnejš
 
 ### 1. Podľa účelu použitia
 
-- **PREVÁDZKOVÁ BRZDA** - pôsobí na všetky kolesá vozidla počas bežnej jazdy (ovládanie nohou pomocou pedálu). Slúži na zníženie rýchlosti vozidla alebo úplné zastavenie. Vozidlo pritom musí zostať stabilné a udržať požadovaný smer jazdy.
+- **PREVÁDZKOVÁ BRZDA** -- pôsobí na všetky kolesá vozidla počas bežnej jazdy (ovládanie nohou pomocou pedálu). Slúži na zníženie rýchlosti vozidla alebo úplné zastavenie. Vozidlo pritom musí zostať stabilné a udržať požadovaný smer jazdy.
 
-- **NÚDZOVÁ BRZDA** - pôsobí len na niektoré kolesá. Vodič ju používa pri zlyhaní prevádzkovej brzdy. Má zvyčajne menší účinok než prevádzková brzda, ale musí byť schopná vozidlo bezpečne zastaviť.
+- **NÚDZOVÁ BRZDA** -- pôsobí len na niektoré kolesá. Vodič ju používa pri zlyhaní prevádzkovej brzdy. Má zvyčajne menší účinok než prevádzková brzda, ale musí byť schopná vozidlo bezpečne zastaviť.
 
-- **PARKOVACIA BRZDA** - má zabrániť samovoľnému rozbehu stojaceho vozidla na svahu aj počas neprítomnosti vodiča. Musí udržať vozidlo na mieste aj na strmých svahoch.
+- **PARKOVACIA BRZDA** -- má zabrániť samovoľnému rozbehu stojaceho vozidla na svahu aj počas neprítomnosti vodiča. Musí udržať vozidlo na mieste aj na strmých svahoch.
 
-- **POMOCNÉ (ODĽAHČOVACIE) BRZDY** - udržiavajú stálu rýchlosť vozidla alebo znižujú rýchlosť vozidla, čím odľahčujú a šetria prevádzkovú brzdu (napr. pri schádzaní dlhých svahov). Patria sem výfukové brzdy, retardéry a motorové brzdy.
+- **POMOCNÉ (ODĽAHČOVACIE) BRZDY** -- udržiavajú stálu rýchlosť vozidla alebo znižujú rýchlosť vozidla, čím odľahčujú a šetria prevádzkovú brzdu (napr. pri schádzaní dlhých svahov). Patria sem výfukové brzdy, retardéry a motorové brzdy.
 
 ### 2. Podľa zdroja energie a jej prenosu
 
-- **PRIAMOČINNÉ** - sila vodiča sa prenáša priamo na brzdy. Tá sa môže prenášať:
+- **PRIAMOČINNÉ** -- sila vodiča sa prenáša priamo na brzdy. Tá sa môže prenášať:
     - Mechanicky (pákou, ťahadlom, lankom)
     - Hydraulicky (brzdová kvapalina)
 
-- **STROJOVÉ**- ovládané stlačeným vzduchom (používajú sa na nákladných vozidlách a autobusoch).
+- **STROJOVÉ**-- ovládané stlačeným vzduchom (používajú sa na nákladných vozidlách a autobusoch).
   
-- **POLOSTROJOVÉ** - brzdy s posilňovačom brzdového účinku. Toto je najčastejším systémom pri moderných osobných automobiloch.
+- **POLOSTROJOVÉ** -- brzdy s posilňovačom brzdového účinku. Toto je najčastejším systémom pri moderných osobných automobiloch.
 
-- **KOMBINOVANÉ** - kombinácia dvoch rôznych prenosov alebo zdrojov energie (napríklad traktor s priamočinnými hydraulickými brzdami s prívesom so strojovými brzdami).
+- **KOMBINOVANÉ** -- kombinácia dvoch rôznych prenosov alebo zdrojov energie (napríklad traktor s priamočinnými hydraulickými brzdami s prívesom so strojovými brzdami).
 
 ### 3. Podľa ich konštrukcie
 
-- **BUBNOVÉ** - sada čeľustí, ktoré z vnútornej strany pôsobia na rotujúci bubon. Používajú sa najmä v ťažkých vozidlách (autobusy, nákladné vozidlá) pre ich silný brzdný účinok alebo aj pri zadných brzdách osobných automobilov kvôli nízkym nákladom na výrobu a jednoduchou integráciou parkovacej brzdy.
-- **KOTÚČOVÉ** - sada brzdových platničiek, ktoré sa pritláčajú ku rotujúcemu sa kotúču. Sú v dnešnej dobe tým najčastejším typom prevádzkových bŕzd u osobných automobilov a motocyklov.
-- **PÁSOVÉ** -  ocelový pás, ktorý obopína liatinový bubon umiestnený na hriadeli a zovretím ho brzdí. Pri automobiloch sa používajú zriedka (nájdeme ich jedine na niektorých traktoroch alebo úžitkových vozidlácha ako parkovaciu brzdu), skôr sa používajú pri priemyselných strojoch (dopravníky, navijáky, výťahy).
+- **BUBNOVÉ** -- sada čeľustí, ktoré z vnútornej strany pôsobia na rotujúci bubon. Používajú sa najmä v ťažkých vozidlách (autobusy, nákladné vozidlá) pre ich silný brzdný účinok alebo aj pri zadných brzdách osobných automobilov kvôli nízkym nákladom na výrobu a jednoduchou integráciou parkovacej brzdy.
+- **KOTÚČOVÉ** -- sada brzdových platničiek, ktoré sa pritláčajú ku rotujúcemu sa kotúču. Sú v dnešnej dobe tým najčastejším typom prevádzkových bŕzd u osobných automobilov a motocyklov.
+- **PÁSOVÉ** --  ocelový pás, ktorý obopína liatinový bubon umiestnený na hriadeli a zovretím ho brzdí. Pri automobiloch sa používajú zriedka (nájdeme ich jedine na niektorých traktoroch alebo úžitkových vozidlácha ako parkovaciu brzdu), skôr sa používajú pri priemyselných strojoch (dopravníky, navijáky, výťahy).
 
 ## Požiadavky
 
@@ -109,6 +108,8 @@ Tie hlavné sú:
 3. **Odstupňovateľnosť**
     - vodič musí byť schopný regulovať intenzitu brzdenia - to znamená, že brzdná sila sa musí dať plynule meniť podľa toho, ako silno vodič tlačí na brzdový pedál
     - nie je možné mať len dve možnosti (brzdiť/nebrzdiť), ale musí byť možné brzdiť slabo, stredne alebo silno podľa potreby
+
+---
 
 Nasledujúce učivo:
 {{< cards >}}

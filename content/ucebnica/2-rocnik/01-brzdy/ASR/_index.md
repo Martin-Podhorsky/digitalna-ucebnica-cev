@@ -1,4 +1,5 @@
 ---
+linkTitle: "10.6 ASR"
 title: "Regulácia preklzu kolies (ASR)"
 weight: 6
 type: docs
@@ -8,7 +9,7 @@ sidebar:
 
 ASR (Anti-Slip Regulation) alebo TCS (Traction Control System) je aktívny bezpečnostný systém, ktorý zabraňuje preklzu hnacích kolies pri rozjazde a akcelerácii.
 
-![ASR](ASR.jpg "Obr. 10.X - Kontrolka systému ASR")
+{{< figure src="ASR.jpg" alt="Systém ASR" width="80%" caption="Obr. 10.18 - Systém ASR" >}}
 
 ## Princíp činnosti
 
@@ -32,14 +33,10 @@ Vodič tento proces vníma ako krátkodobé obmedzenie výkonu a prípadne pulzo
 
 ## Hlavné časti systému ASR
 
-1. **Snímače otáčok kolies** - zdieľané so systémom ABS, merajú rýchlosť otáčania každého kolesa
-2. **Elektronická riadiaca jednotka (ECU)** - vyhodnocuje signály a rozhoduje o zásahu
-3. **Hydraulická riadiaca jednotka** - rovnaká ako pri ABS, reguluje brzdný tlak
-4. **Prepojenie s riadením motora** - umožňuje zníženie výkonu motora
-5. **Kontrolka ASR** - informuje vodiča o aktivácii systému
-6. **Vypínač ASR** - umožňuje dočasné vypnutie systému
-
-{{< figure src="asr-scheme.png" alt="Schéma systému ASR" width="90%" caption="Obr. 10.X - Schéma systému ASR" >}}
+1 - **Snímače otáčok kolies** – zdieľané so systémom ABS, merajú rýchlosť otáčania každého kolesa. <br>
+2 - **Hydraulická riadiaca jednotka (HCU)** – zdieľaná s ABS, reguluje brzdný tlak na jednotlivých kolesách. <br>
+3 - **Elektronická riadiaca jednotka ASR (ECU)** – vyhodnocuje dáta zo snímačov a rozhoduje o spôsobe zásahu. <br>
+4 - **Riadiaca jednotka motora (ECU motora)** – na pokyn od ASR znižuje výkon motora.
 
 ## Výhody:
 
@@ -48,7 +45,6 @@ Vodič tento proces vníma ako krátkodobé obmedzenie výkonu a prípadne pulzo
 - **Kratšia dráha zrýchlenia** - optimálny prenos výkonu na vozovku
 - **Znížené opotrebenie pneumatík** - zabránením preklzu sa znižuje nerovnomerné opotrebenie
 - **Ochrana pohonného ústrojenstva** - minimalizuje zaťaženie diferenciálu a prevodovky
-- **Zníženie rizika aquaplaningu** - lepšia kontrola na mokrej vozovke
 - **Lepšia ovládateľnosť v zákrutách** - zabraňuje šmyku pri akcelerácii v zatáčke
 
 ## Nevýhody:
@@ -65,8 +61,10 @@ MSR (Motor Schleppmoment Regelung) je doplnková funkcia systému ASR, ktorá ri
 ### Princíp činnosti:
 
 Pri prudkom znížení otáčok motora (napríklad pri radení na nižší prevod na klzkom povrchu) môže brzdný účinok motora spôsobiť zablokovanie hnacích kolies. MSR tomuto zabráňuje tým, že:
-- Zvýši otáčky motora (pootvorí škrtíacu klapku)
+- Zvýši otáčky motora (pootvorí škrtiacu klapku)
 - Alebo zníži brzdný účinok kontrolovaným pribrzdením predných nehnacích kolies
+
+---
 
 Nasledujúce učivo:
 {{< cards >}}

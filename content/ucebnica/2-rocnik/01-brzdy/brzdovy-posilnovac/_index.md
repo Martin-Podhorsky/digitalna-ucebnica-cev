@@ -1,4 +1,5 @@
 ---
+linkTitle: "10.4 Brzdový posilňovač"
 title: "Brzdový posilňovač"
 weight: 4
 type: docs
@@ -12,30 +13,32 @@ Brzdový posilňovač je zariadenie zosilňujúce silu, ktorú vodič vyvinie st
 
 Tento typ brzdového posilňovača využíva na zosílenie podtlak vytvorený v sacom potrubí motora (alebo vo výveve).
 
-### Hlavné časti:
+### Hlavné časti
 
-{{< figure src="brake-booster.png" alt="Schéma podtlakového brzdového posilňovača" width="80%" caption="Obr. 10.X - Schéma podtlakového brzdového posilňovača" >}}
+{{< figure src="brake-booster.png" alt="Schéma podtlakového brzdového posilňovača" width="80%" caption="Obr. 10.14 - Schéma podtlakového brzdového posilňovača" >}}
 
-1 - Podltlaková prípojka
-2 - Pružina
-3 - Membrána
-4 - Piest
-5 - Podtlakový ventil
-6 - Piestnica
-7 - Brzdový pedál
-8 - Tlačná tyč
-9 - Reakčný kotúč
-10 - Vložka ventila
-11 - Pracovná komora
-12 - Tanierový ventil
-13 - Atmosferický ventil
-14 - Tlačná pružina
-15 - Čistič
-16 - Podtlaková komora
+1 - **Podtlaková komora** -- časť posiľňovača, v ktorej je vytváraný podtlak. <br>
+2 - **Podtlaková prípojka** -- prepojenie zo saním alebo vývevou, ktoré vytvárajú v podtlakovej komore podtlak (vysávajú z nej vzduch).<br>
+3 - **Piest** -- pohyblivá časť.<br>
+4 - **Pružina** -- po ukončení brzdenia vracia piest späť na svoje pôvodné miesto.<br>
+5 - **Membrána** -- Oddeľuje podtlakovú komoru od pracvnej a zároveň umožňuje pohyb piestu.<br>
+6 - **Brzdový pedál** -- vodič ním ovláda brzdové ústrojenstvo; jeho stlačením je vytvorený tlak, ktorý posilňovač posíli.<br>
+7 - **Piestnica** -- prenáša tlak vytvorený zošliapnutím pedálu vodorovným smerom.<br>
+8 - **Tlačná pružina** -- Tlačí na tanierový ventil, ktorý pri stlačením brzdového pedálu uzatvára podtlakový (prepúšťací) kanál. Zároveň vracia brzdový pedál do pôvodnej polohy po jeho zošliapnutí.<br>
+9 - **Tanierový ventil** -- pri stlačením brzdového pedálu uzatvára podtlakový (prepúšťací) kanál.<br>
+10 - **Podtlakový (prepúšťací) kanál** -- ak je brzdový pedál v základnej pozícii, prepúšťa podtlak z podtlakovej do pracovnej komory. Pri zošliapnutí pedála je tento kanál uzatvorený tanierovým ventilom a do pracovnej komory sa dostáva vzduch s atmosferickým tlakom. Tým pádom je v pracovnej komore väčší tlak, ako v podtlakovej, čím je celý piest tlačený smerom doľava.<br>
+11 - **Atmosferický kanál** -- v základnej pozíci je zablokovaný vložkou ventilu, ktorá je pripevnená ku piestnici. Tá sa pri zošliapnutí brzdového pedála hýbe spolu s piestnicou a otvára tento kanál.<br>
+12 - **Čistič** -- zabraňuje vniku nečistôt.<br>
+13 - **Vložka ventilu** -- otvára a zatvára atmosferický kanál a jej širšia časť taktiež udržuje piesticu v požadovanej polohe (ak by tam nebola, piestnica by sa mohla šúchať o spodnú alebo vrchnú časť tanierového ventilu).<br>
+14 - **Pracovná komora** -- v základnej polohe brzdového pedála je v nej podtlak a pri stlačení sa do nej dostáva vzduch z okolitého prostredia.<br>
+15 - **Reakčný kotúč** -- je vložený v strede piestu. Ten ho posúva smerom doľava silou vytvorenou rozdielmi tlakou v podtlakovej a pracovnej komore.<br>
+16 - **Tlačná tyč** -- pripevnená ku reakčnému kotúču. Prenáša výsledný tlak do hlavného brzdového valca.<br>
 
 ### Princíp činnosti:
 
-Keď vodič nestláča pedál, v podtlakovej aj v pracovnej komore je rovnaký tlak (podtlak). Pri stlačení pedála sa do druhej komory vpustí atmosférický tlak. Rozdiel tlakov (podtlak vs. atmosférický tlak) vytvára veľkú silu na membráne, ktorá pomáha stláčať piest hlavného brzdového valca.
+V krátkosti: keď vodič nestláča pedál, v podtlakovej aj v pracovnej komore je rovnaký tlak (podtlak). Pri stlačení pedála sa do pracovnej komory vpustí atmosférický tlak a zablokuje sa prepúšťací kanál. Rozdiel tlakov (podtlak vs. atmosférický tlak) vytvára silu, ktorá tlačí na piest a prenáša sa do hlavného brzdového valca pomocou tlačnej tyče.
+
+{{< figure src="brake-booster-active.png" alt="Podtlakový brzdový posilňovač pri plnom brzdení" width="60%" caption="Obr. 10.15 - Podtlakový brzdový posilňovač pri plnom brzdení" >}}
 
 ## Elektronicky riadený podtlakový brzdový posilňovač (BAS)
 
@@ -43,19 +46,21 @@ Mnoho vodičov pri kritických situáciach reaguje síce rýchlo, ale brzdový p
 
 ### Hlavné časti:
 
-{image of vacuum brake booster}
+{{< figure src="BAS.png" alt="Schéma elektronicky riadeného podtlakového brzdového posilňovača" width=70%" caption="Obr. 10.16 - Schéma elektronicky riadeného podtlakového brzdového posilňovača" >}}
 
-1 - Snímač polohy pracovného piestu
-2 - Membrána
-3 - Magnet
-4 - Vypínač systému
-5 - Pracovná komora
-6 - Podtlaková komora
-7 - Riadiaca jednotka
+1 - **Snímač polohy pracovného piestu** <br>
+2 - **Membrána** <br>
+3 - **Magnet** <br>
+4 - **Vypínač systému** <br>
+5 - **Pracovná komora** <br>
+6 - **Podtlaková komora** <br>
+7 - **Riadiaca jednotka**
 
 ### Princíp činnosti:
 
 Systém vyhodnocuje rýchlosť stláčania brzdového pedála. Pri zistení náhlého, rýchleho stlačenia (typické pre núdzovú situáciu) systém automaticky zvyšuje brzdný tlak na maximum.
+
+---
 
 Nasledujúce učivo:
 {{< cards >}}

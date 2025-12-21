@@ -9,7 +9,7 @@ sidebar:
 
 Gumové pruženie využíva elastické vlastnosti gumy (prírodnej alebo syntetickej) na absorbovanie nárazov a vibrácií. Guma zároveň pôsobí ako tlmič vďaka vnútornému treniu, ktoré premieňa energiu stlačenia na teplo.
 
-{{< figure src="gumove-pruzenie.png" alt="Prvky gumového pruženia" width="60%" caption="Obr. 11.20 - Prvky gumového pruženia" >}}
+{{< figure src="gumove-pruzenie.png" alt="Prvky gumového pruženia" width="60%" caption="Obr. 11.26 - Prvky gumového pruženia" >}}
 
 ## Výhody:
 
@@ -35,7 +35,7 @@ Gumové pruženie využíva elastické vlastnosti gumy (prírodnej alebo synteti
 - Malé motocykle a skútre
 - Nízkorýchlostné vozidlá (napr. vysokozdvižné vozíky)
 
-{{< figure src="silentblok.jpg" alt="Pravý silentblok motora na BMW E46 touring" width="90%" caption="Obr. 11.21 - Pravý silentblok motora na BMW E46 touring" >}}
+{{< figure src="silentblok.jpg" alt="Pravý silentblok motora na BMW E46 touring" width="90%" caption="Obr. 11.27 - Pravý silentblok motora na BMW E46 touring" >}}
 
 ---
 

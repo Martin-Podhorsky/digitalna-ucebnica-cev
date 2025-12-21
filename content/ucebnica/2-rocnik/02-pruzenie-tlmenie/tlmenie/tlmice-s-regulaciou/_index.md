@@ -1,4 +1,5 @@
 ---
+linkTitle: "11.7.2 Tlmiče s reguláciou"
 title: "Tlmiče s reguláciou"
 type: docs
 weight: 2
@@ -23,25 +24,25 @@ Moderné automobily často používajú tlmiče s možnosťou regulácie tlmiace
    - Elektromagnetické ventily
    - Prepojenie so snímačmi (G-sily, pohyb karosérie, stav vozovky)
 
-**Príklady systémov:**
+### Príklady systémov:
 - **CDC** (Continuous Damping Control) - Opel, GM
 - **DCC** (Dynamic Chassis Control) - VW, Audi, Porsche
 - **MagneRide** - elektromagnetické tlmiče s magnetoreologickou kvapalinou (Audi, Ferrari, Cadillac)
 - **ABC** (Active Body Control) - Mercedes-Benz
 - **PASM** (Porsche Active Suspension Management) - Porsche
 
-**Výhody adaptívneho tlmenia:**
+**Výhody tlmenia s reguláciou:**
 - Optimálny komfort a športové vlastnosti v jednom
 - Lepšia stabilita vozidla
-- Prispôsobenie sa rôznym podmienkam
+- Vozidlo sa vie prispôsobiť rôznym podmienkam
 - Zníženie náklonu v zákrutách
-- Lepšie tlmenie pri rôznom zaťažení
+- Lepšie tlmenie pri veľkom aj malom zaťažení
 
 ## Pneumatické pruženie AIRMATIC
 
 AIRMATIC je systém pneumatického pruženia s adaptívnym tlmením od Mercedes-Benz. Kombinuje vzduchové pružiny s elektronicky riadenými tlmičmi.
 
-![Systém pneumatického pruženia AIRMATIC](airmatic.jpg "Obr. 11.X - Systém pneumatického pruženia AIRMATIC")
+{{< figure src="airmatic.jpg" alt="Systém pneumatického pruženia AIRMATIC" width="60%" caption="Obr. 11.32 - Systém pneumatického pruženia AIRMATIC" >}}
 
 ### Konštrukcia systému
 
@@ -81,7 +82,7 @@ AIRMATIC je systém pneumatického pruženia s adaptívnym tlmením od Mercedes-
    - Snímač rýchlosti vozidla
    - Snímač tlaku v systéme
 
-{image of AIRMATIC system components diagram}
+{{< figure src="airmatic-schema.png" alt="Schéma systému AIRMATIC" width="99%" caption="Obr. 11.233 - Schéma systému AIRMATIC" >}}
 
 ### Funkcie systému
 
@@ -153,3 +154,10 @@ Systém automaticky prispôsobuje tvrdosť tlmičov:
 | Land Rover | Electronic Air Suspension (EAS) |
 | Porsche | Porsche Active Suspension Management (PASM) s Air Suspension |
 | Volkswagen | 4-Corner Air Suspension (Touareg) |
+
+---
+
+Nasledujúce učivo:
+{{< cards >}}
+  {{< card url="/ucebnica/2-rocnik/03-riadenie/" title="Riadenie" subtitle="Spôsoby riadenia, mechanizmus riadenia, hlavné časti, geometria riadenia...">}}
+{{< /cards >}}

@@ -1,4 +1,5 @@
 ---
+linkTitle: "10.2 Kotúčové Brzdy"
 title: "Kotúčové Brzdy"
 weight: 2
 type: docs
@@ -8,7 +9,7 @@ sidebar:
 
 Kotúčové brzdy vytvárajú trenie tým, že zvierajú kotúč rotujúci spoločne s kolesom dvojicou (alebo dvojicami) brzdových platničiek. Je to najpoužívanejší typ prevádzkových bŕzd.
 
-![Kotúčová brzda](disc-brake.jpg "Obr. 10. X - Kotúčová brzda")
+{{< figure src="disc-brake.jpg" alt="Kotúčová brzda" width="60%" caption="Obr. 10.5 - Kotúčová brzda" >}}
 
 ## Výhody kotúčových bŕzd:
 
@@ -32,19 +33,17 @@ Kotúčové brzdy sa rozdeľujú podľa konštrukcie strmeňa:
 
 ### Kotúčová brzda s pevným strmeňom
 
-{insert this video https://www.youtube.com/watch?v=80sjvvdj-sg}
+#### Hlavné časti
+1 - **Zavesenie** <br>
+2 - **Príruba**<br>
+3 - **Brzdový strmeň**<br>
+4 - **Brzdové doštičky**<br>
+5 - **Náboj kolesa**<br>
+6 - **Brzdový kotúč**<br>
+7 - **Hydraulický brzdový valček**<br>
+8 - **Tesnenie**<br>
 
-#### Hlavné časti:
-1 - Zavesenie
-2 - Príruba
-3 - Brzdový strmeň
-4 - Brzdové doštičky
-5 - Náboj kolesa
-6 - Brzdový kotúč
-7 - Hydraulický brzdový valček
-8 - Tesnenie
-
-![Kotúčová brzda s pevným strmeňom](pevny-strmen.jpg "Obr. 11.X - Konštrukcia kotúčovej brzdy s pevným strmeňom")
+{{< figure src="pevny-strmen.png" alt="Kotúčová brzda s pevným strmeňom" width="50%" caption="Obr. 10.6 - Kotúčová brzda s pevným strmeňom" >}}
 
 #### Princíp činnosti:
 
@@ -66,20 +65,18 @@ Dva piestiky (alebo viac), ktorých tlak kvapaliny tlačí smerom ku kotúču z 
 
 ### Kotúčová brzda s plávajúcim strmeňom
 
-{insert this video https://www.youtube.com/watch?v=1y17pDLC0E0}
-
 #### Hlavné časti:
-1 - Zavesenie
-2 - Príruba
-3 - Brzdový strmeň
-4 - Brzdové doštičky
-5 - Náboj kolesa
-6 - Brzdový kotúč
-7 - Hydraulický brzdový valček
-8 - Posuvné vedenie strmeňa
-9 - Tesnenie
+1 - **Zavesenie**<br>
+2 - **Príruba**<br>
+3 - **Brzdový strmeň**<br>
+4 - **Brzdové doštičky**<br>
+5 - **Náboj kolesa**<br>
+6 - **Brzdový kotúč**<br>
+7 - **Hydraulický brzdový valček**<br>
+8 - **Posuvné vedenie strmeňa**<br>
+9 - **Tesnenie**
 
-![Kotúčová brzda s posuvným strmeňom](posuvny-strmen.jpg "Obr. 11.X - Konštrukcia kotúčovej brzdy s posuvným strmeňom")
+{{< figure src="posuvny-strmen-2.png" alt="Kotúčová brzda s posuvným strmeňom" width="60%" caption="Obr. 10.7 - Kotúčová brzda s posuvným strmeňom" >}}
 
 #### Princíp činnosti:
 
@@ -99,6 +96,8 @@ Na jednej strane kotúča sa nachádza jeden piestik (niekedy aj dva). Tlak kvap
 #### Použitie
 
 Drvivá väčšina sériovo vyrábaných osobných automobilov na prednej aj zadnej náprave a ľahké úžitkové vozidlá.
+
+---
 
 Nasledujúce učivo:
 {{< cards >}}

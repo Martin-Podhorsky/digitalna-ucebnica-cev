@@ -9,13 +9,13 @@ sidebar:
 
 Tlmiče sú súčasťou odpruženia vozidla. Slúžia na zabránenie rozkmitania pružín. Pružiny samotné by po prejazde nerovnosťou kmitali ešte dlhú dobu - tlmiče tento pohyb brzdia tým, že premieňajú kinetickú energiu kmitania na teplo.
 
-{{< figure src="tlmic.jpg" alt="Tlmič" width="60%" caption="Obr. 11.22 - Tlmič" >}}
+{{< figure src="tlmic.jpg" alt="Tlmič" width="60%" caption="Obr. 11.28 - Tlmič" >}}
 
 ## Význam
 
 Bez tlmičov by sa vozidlo po každej nerovnosti húpalo, kolesá by odskakovali od vozovky a jazda by bola nekomfortná a nebezpečná.
 
-{{< figure src="car-without-shocks.gif" alt="Auto bez zadných tlmičov" width="60%" caption="Obr. 11.23 - Auto bez zadných tlmičov" >}}
+{{< figure src="car-without-shocks.gif" alt="Auto bez zadných tlmičov" width="60%" caption="Obr. 11.29 - Auto bez zadných tlmičov" >}}
 
 **Úloha tlmičov:**
 1. Rýchlo utlmiť kmitanie pružín po prejazde nerovnosťou
