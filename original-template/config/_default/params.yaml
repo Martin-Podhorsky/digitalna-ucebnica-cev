@@ -13,19 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    # Set to space to hide text in navbar (logo only), use seo.title for browser tab
-    name: " "
+    name: "Your Name"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
-    type: organization                       # person | organization | local_business
+    type: person                        # person | organization | local_business
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "digital textbook of road vehicles"
+    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: ""              # Twitter/X handle for Twitter Cards (without @)
+      twitter: "BuildLore"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -38,7 +37,7 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "orange"                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
       secondary: ""
       neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
@@ -93,7 +92,7 @@ hugoblox:
     search: true
     theme_toggle: true
     theme_picker: false
-    language_switcher: false
+    language_switcher: true
     # Call-to-action button
     cta:
       enable: false
@@ -107,7 +106,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal                      # minimal | columns | centered
-    language_switcher: false
+    language_switcher: true
     # Custom footer text (HTML supported)
     text: ""
 
@@ -117,7 +116,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: ""
+    notice: "© {year} {name}. This work is licensed under {license}"
     license:
       type: cc                          # cc | all_rights | custom
       allow_derivatives: false
@@ -130,7 +129,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: "Digitálna učebnica Cestných vozidiel"
+    title: ""
     # For local_business identity type only
     location:
       address:
