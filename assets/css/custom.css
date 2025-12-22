@@ -1,4 +1,4 @@
-/* Make scrollbar overlay the content instead of shifting layout */
+/* Make scrollbar overlay the content instead of shifting it */
 html {
   overflow-y: auto;
   scrollbar-gutter: auto;
@@ -38,7 +38,6 @@ html {
   width: auto !important;
   max-height: 48px !important;
 }
-
 /* Force 2-column layout for the features grid on medium+ screens */
 .blox-features .md\:grid {
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -54,27 +53,16 @@ html {
   text-align: center;
 }
 
-/* Center the icon circle horizontally */
+/* Center the icon as well */
 .blox-features .rounded-full {
   margin-left: auto;
   margin-right: auto;
 }
 
 
-/* Utility: force white text within a specific block */
-.text-white-block,
+/* Make the heading and subheading white */
 .text-white-block h1,
-.text-white-block h2,
-.text-white-block h3,
-.text-white-block h4,
-.text-white-block h5,
-.text-white-block h6,
-.text-white-block p,
-.text-white-block li,
-.text-white-block span,
-.text-white-block small,
-.text-white-block strong,
-.text-white-block em {
+.text-white-block p {
   color: #ffffff !important;
 }
 
@@ -249,7 +237,7 @@ html {
   background-color: #e8690b !important;
 }
 
-/* Hero subtitle: enlarge and add lift */
+/* Hero subtitle: enlarge and add lift effect */
 #section-hero p {
   font-size: 1.25rem; /* 20px */
   line-height: 1.6;
@@ -261,7 +249,7 @@ html {
   text-shadow: 0 10px 32px rgba(0, 0, 0, 0.45), 0 3px 10px rgba(0, 0, 0, 0.35);
 }
 
-/* Make features section title bigger but below hero */
+/* Make features section title bigger */
 .blox-features h2 {
   font-size: 4.5rem !important; /* 1.5x previous */
 }
