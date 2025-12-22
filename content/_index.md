@@ -14,7 +14,7 @@ sections:
       text: Prehľadná učebnica Cestných vozidiel dostupná kedykoľvek a kdekoľvek!
       primary_action:
         text: Otvoriť
-        url: /ucebnica/
+        url: ucebnica/
         icon: book-open
     design:
       spacing:
@@ -48,7 +48,7 @@ sections:
       title: "Začni sa učiť s Digitálnou učebnicou Cestných vozidiel už dnes!"
       button:
         text: Otvoriť učebnicu
-        url: /ucebnica/
+        url: ucebnica/
     design:
       card:
         # Card background color (CSS class)
