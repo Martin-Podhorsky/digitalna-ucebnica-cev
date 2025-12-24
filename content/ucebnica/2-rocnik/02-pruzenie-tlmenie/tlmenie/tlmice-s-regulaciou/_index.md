@@ -82,7 +82,7 @@ AIRMATIC je systém pneumatického pruženia s adaptívnym tlmením od Mercedes-
    - Snímač rýchlosti vozidla
    - Snímač tlaku v systéme
 
-{{< figure src="airmatic-schema.png" alt="Schéma systému AIRMATIC" width="99%" caption="Obr. 11.233 - Schéma systému AIRMATIC" >}}
+{{< figure src="airmatic-schema.png" alt="Schéma systému AIRMATIC" width="99%" caption="Obr. 11.33 - Schéma systému AIRMATIC" >}}
 
 ### Funkcie systému
 
