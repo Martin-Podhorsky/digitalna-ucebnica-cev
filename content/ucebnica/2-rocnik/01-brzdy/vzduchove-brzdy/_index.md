@@ -1,5 +1,5 @@
 ---
-linkTitle: "10. 8 Vzduchotlakové (strojové) brzdy"
+linkTitle: "10. 8 Vzduchotlakové brzdy"
 title: "Vzduchotlakové (strojové) brzdy"
 weight: 8
 type: docs

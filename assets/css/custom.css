@@ -336,3 +336,32 @@ html {
   text-align: center;
   margin-top: 0.5rem;
 }
+
+/* About page: wider prose and more breathing room */
+.about-page-prose .prose {
+  max-width: 56rem !important; /* 4xl - much wider than default prose */
+}
+
+.about-page-prose > div {
+  max-width: 60rem !important; /* widen the container too */
+}
+
+.about-page-prose .prose {
+  line-height: 1.8;
+}
+
+.about-page-prose .prose h1,
+.about-page-prose .prose h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-page-prose .prose p,
+.about-page-prose .prose ul {
+  margin-bottom: 1.5rem;
+}
+
+.about-page-prose .prose hr {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}

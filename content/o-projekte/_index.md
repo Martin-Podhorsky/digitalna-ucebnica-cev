@@ -12,36 +12,34 @@ sections:
   - block: hero
     content:
       title: "O projekte"
-      text: "Build amazing websites with HugoBlox - no coding required!"
-      primary_action:
-        text: "Get Started"
-        url: "https://example.com"
-        icon: "sparkles"
-      secondary_action:
-        text: "Learn More"
-        url: "https://docs.hugoblox.com"
+      text: "Digitálna učebnica Cestných vozidiel"
     design:
       background:
         color: ""
         gradient_start: "#4f46e5"
         gradient_end: "#7c3aed"
         text_color_light: true
+        video:
+          filename: "hero-vid.mp4"
   - block: markdown
     content:
-      title: "O projekte"
-      subtitle: "More details below"
+      title: ""
+      subtitle: ""
       text: |
-        ## Welcome
+        Táto učebnica bola vytvorená žiakmi Strednej priemyselnej školy dopravnej v Trnave ako projekt Stredoškolskej odbornej činnosti (SOČ).
         
-        This is **markdown content** that you can edit.
+        # Autori
+
+        ## Martin Podhorský
+        → vybudovanie a nadizajnovanie učebnice<br>
+        → spísanie učiva pre druhý ročník
+
+        ---
         
-        - Create lists
-        - Add links
-        - Format text
-        
-        [Learn more](https://example.com)
+        [Ďalšie práce študentov z Dopravnej](https://eckari.sk/)
     design:
       columns: "1"
+      css_class: "text-center about-page-prose"
       background:
         color: "white"
 ---
