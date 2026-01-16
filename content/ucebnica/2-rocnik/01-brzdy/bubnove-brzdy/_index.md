@@ -7,7 +7,7 @@ sidebar:
   open: false
 ---
 
-Bubnová brzda je brzda, ktorá využíva trenie spôsobené súpravou čeľustí, ktoré tlačia smerom von proti rotujúcej  časti spojenej s hnacím hriadeľom a kolesom, nazývanej brzdový bubon.
+Bubnová brzda je brzda, ktorá využíva trenie spôsobené súpravou čeľustí tlačiacich smerom von proti rotujúcej časti spojenej s hnacím hriadeľom a kolesom, nazývanej brzdový bubon.
 
 {{< figure src="bubnova-brzda.jpg" alt="Bubnová brzda" width="60%" caption="Obr. 10.2 - Bubnová brzda" >}}
 
@@ -25,7 +25,7 @@ Bubnová brzda je brzda, ktorá využíva trenie spôsobené súpravou čeľust�
 
 ## Princíp činnosti
 
-Pri pritlačení na brzdový pedál sa piest v brzdovom valčeku (1) posunie a pritlačí brzdové čeľuste 8 a 4 na vnútorný povrch rotujúceho brzdového bubna 2. Vzniknuté trenie medzi brzdovým obložením 5 a bubnom 2 spomaľuje alebo zastavuje koleso. Po uvoľnení brzdového pedála vratné pružiny 3 odťahujú čeľuste od bubna.
+Pri zošliapnutí brzdového pedálu sa piest v brzdovom valčeku (1) posunie a pritlačí brzdové čeľuste 8 a 4 na vnútorný povrch rotujúceho brzdového bubna 2. Vzniknuté trenie medzi brzdovým obložením 5 a bubnom 2 spomaľuje alebo zastavuje koleso. Po uvoľnení brzdového pedála vratné pružiny 3 odťahujú čeľuste od bubna do základnej polohy. Pri zatiahnutí parkovacej brzdy lanku potiahne páku parkovacej brzdy (6), ktorá zatlačí na jednu s čelustí, roztiahne ich a tým aktivuje brzdu. 
 
 ## Výhody bubnových bŕzd:
 
