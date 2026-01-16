@@ -77,3 +77,9 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="vzduchove-brzdy" title="Vzduchotlakové (strojové) brzdy" subtitle="Konštrukcia, vlastnosti, výhody, nevýhody...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+{{< /spoiler >}}

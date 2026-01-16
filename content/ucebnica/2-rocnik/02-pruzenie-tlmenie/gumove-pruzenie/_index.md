@@ -43,3 +43,9 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/2-rocnik/02-pruzenie-tlmenie/tlmenie/" title="Tlmenie" subtitle="Význam tlmenia, rozdelenie tlmičov...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+{{< /spoiler >}}

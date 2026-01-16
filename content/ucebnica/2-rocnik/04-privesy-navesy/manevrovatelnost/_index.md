@@ -63,3 +63,10 @@ Koniec učiva druhého ročníka. Vyber si, kam chceš ísť ďalej:
   {{< card url="/ucebnica/3-rocnik" title="3. Ročník" subtitle="Rozdelenie spaľovacích motorov, ich konštrukcia, pevné časti, kľukový a rozvodový mechanizmus...">}}
   {{< card url="/ucebnica/2-rocnik" title="2. Ročník" subtitle="Brzdy, pruženie a tlmenie, riadenie vozidiel, prívesy a návesy..." >}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://romanolawgroup.com/industry-insights/what-role-does-off-tracking-play-in-truck-crashes/
+{{< /spoiler >}}

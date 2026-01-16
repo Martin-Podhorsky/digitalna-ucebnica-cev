@@ -83,3 +83,11 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="02-pruzenie-tlmenie/_index" title="Pruženie a Tlmenie" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://en.wikipedia.org/wiki/Air_brake_(road_vehicle)
+- https://www.tvh.com/de-de/learning-hub/alles-was-sie-uber-druckluftbremsen-wissen-mussen
+{{< /spoiler >}}

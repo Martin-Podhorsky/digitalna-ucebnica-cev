@@ -85,3 +85,9 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="bubnove-brzdy" title="Bubnové brzdy" subtitle="Konštrukcia, vlastnosti, výhody, nevýhody, rozdelenie...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+{{< /spoiler >}}

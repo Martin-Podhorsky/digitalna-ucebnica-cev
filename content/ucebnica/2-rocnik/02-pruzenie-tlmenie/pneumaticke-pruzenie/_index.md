@@ -89,3 +89,10 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="hydropneumaticke-pruzenie" title="Hydropneumatické pruženie" subtitle="Hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://en.wikipedia.org/wiki/Air_suspension
+{{< /spoiler >}}

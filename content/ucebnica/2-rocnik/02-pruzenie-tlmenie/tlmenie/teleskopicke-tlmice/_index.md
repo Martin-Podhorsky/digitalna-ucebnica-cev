@@ -13,18 +13,18 @@ Teleskopický hydraulický tlmič je zariadenie, ktoré tlmí kmity pružín a v
 
 ### Hlavné časti:
 
-1 - **Vnútorný plášť**<br>
-2 - **Vonkajší plášť**<br> 
-3 - **Piestnica**<br>
-4 - **Piest s prietokovými jednocestnými ventilmi A a B**<br>
-5 - **Pracovný priestor**<br>
-6 - **Priestor zásobníka (vzduch alebo dusík)** <br>
-7 - **Dno s prietokovými jednocestnými ventilmi C a D**<br>
-8 - **Vedenie piestice** <br>
-9 - **Tesnenie**<br>
-10 - **Oká na uchytenie**
+1 - Vnútorný plášť<br>
+2 - Vonkajší plášť<br> 
+3 - Piestnica<br>
+4 - Piest s prietokovými jednocestnými ventilmi A a B<br>
+5 - Pracovný priestor<br>
+6 - Priestor zásobníka (vzduch alebo dusík) <br>
+7 - Dno s prietokovými jednocestnými ventilmi C a D<br>
+8 - Vedenie piestice <br>
+9 - Tesnenie<br>
+10 - Oká na uchytenie
 
-{{< figure src="dvoj-plastovy.png" alt="Teleskopický hydraulický tlmič dvoj-plášťový" width="100%" caption="Obr. 11.30 - Teleskopický hydraulický tlmič dvoj-plášťový" >}}
+{{< figure src="dvoj-plastovy.png" alt="Teleskopický hydraulický tlmič dvoj-plášťový" width="100%" caption="Obr. 11.24 - Teleskopický hydraulický tlmič dvoj-plášťový" >}}
 
 ### Princíp činnosti
 
@@ -55,15 +55,15 @@ Drvivá väčšina sériovo vyrábaných osobných automobilov, ľahké úžitko
 ## Teleskopický hydraulický tlmič jedno-plášťový (mono-tube)
 
 ### Hlavné časti:
-1 - **Plášť**<br>
-2 - **Piestnica**<br>
-3 - **Pracovný priestor**<br>
-4 - **Pružná membrána**<br>
-5 - **Plynová náplň (dusík pod tlakom 20 až 30 barov)**<br>
-6 - **Oká na uchytenie**<br>
-7 - **Tesnenie**
+1 - Plášť<br>
+2 - Piestnica<br>
+3 - Pracovný priestor<br>
+4 - Pružná membrána<br>
+5 - Plynová náplň (dusík pod tlakom 20 až 30 barov)<br>
+6 - Oká na uchytenie<br>
+7 - Tesnenie
 
-{{< figure src="monotube.png" alt="Teleskopický hydraulický tlmič jedno-plášťový" width="70%" caption="Obr. 11.31 - Teleskopický hydraulický tlmič jedno-plášťový" >}}
+{{< figure src="monotube.png" alt="Teleskopický hydraulický tlmič jedno-plášťový" width="70%" caption="Obr. 11.25 - Teleskopický hydraulický tlmič jedno-plášťový" >}}
 
 ### Princíp činnosti
 
@@ -109,3 +109,9 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="tlmice-s-regulaciou" title="Tlmiče s reguláciou" subtitle="Rozdelenie, rôzne druhy systémov, ich popis, výhody a nevýhody...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+{{< /spoiler >}}

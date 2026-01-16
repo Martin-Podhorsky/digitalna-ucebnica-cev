@@ -70,3 +70,10 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="FDR" title="Elektronická kontrola stability (ESP/FDR)" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://www.holtsauto.com/blog/what-is-asr-on-a-car-anti-slip-regulation-explained/
+{{< /spoiler >}}

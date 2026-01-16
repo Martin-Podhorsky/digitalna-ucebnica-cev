@@ -125,3 +125,11 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="geometria-riadenia" title="Geometria riadenia" subtitle="Definícia, jednotlivé parametre, ich vplyv na jazdné vlastnosti...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://actgroup.ir/electric-power-steering/
+- https://en.wikipedia.org/wiki/Power_steering
+{{< /spoiler >}}

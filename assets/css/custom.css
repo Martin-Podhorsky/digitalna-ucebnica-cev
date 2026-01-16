@@ -183,27 +183,32 @@ html {
   max-width: 100% !important;
 }
 
-/* Move hero content (title, subtitle, button) up by ~115px */
-#section-hero .mx-auto.max-w-2xl {
-  transform: translateY(-50px);
+/* Hero section: use flexbox centering for consistent positioning across viewports */
+#section-hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
-/* Individual positioning for hero elements */
+/* Position the hero content container using flexbox, shift up by 5vh for visual balance */
+#section-hero .mx-auto.max-w-2xl {
+  transform: translateY(-5vh);
+}
+
+/* Remove individual transforms - let flexbox handle centering */
 #section-hero h1 {
-  transform: translateY(-50px);
+  /* no transform needed */
 }
 
 #section-hero p {
-  transform: translateY(-70px);
+  /* no transform needed */
 }
 
 #section-hero .mt-10 a {
-  transform: translateY(-35px);
-}
-
-/* Add padding to hero section to compensate for the upward shift */
-#section-hero {
-  padding-top: 70px !important;
+  /* no transform needed - base styling applied below */
 }
 
 /* Darken the hero background image */
@@ -232,7 +237,7 @@ html {
 
 /* Hero button hover effect - similar to CTA card button */
 #section-hero .mt-10 a:hover {
-  transform: translateY(-37px);
+  transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.25), 0 3px 8px rgba(0,0,0,0.18);
   background-color: #e8690b !important;
 }

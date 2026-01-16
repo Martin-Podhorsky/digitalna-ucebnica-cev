@@ -66,3 +66,9 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="ABS" title="Systém ABS" subtitle="Princíp činnosti, význam, konštrukcia...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+{{< /spoiler >}}

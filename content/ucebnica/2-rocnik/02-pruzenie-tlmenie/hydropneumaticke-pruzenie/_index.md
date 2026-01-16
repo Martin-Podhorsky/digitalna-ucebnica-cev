@@ -92,3 +92,11 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="gumove-pruzenie" title="Gumové pruženie" subtitle="Výhody, nevýhody, použitie...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://cultureauto.fr/suspensions-hydropneumatiques-citroen/
+- https://www.fiches-auto.fr/articles-auto/trains-roulants/s-2898-suspension-hydropneumatique.php
+{{< /spoiler >}}

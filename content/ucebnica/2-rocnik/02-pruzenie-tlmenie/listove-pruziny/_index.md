@@ -88,3 +88,10 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="vinute-pruziny" title="Vinuté pružiny" subtitle="Parametre ovplyvňujúce vlastnosti pružín, výhody, nevýhody, rozdelenie...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://en.wikipedia.org/wiki/Leaf_spring
+{{< /spoiler >}}

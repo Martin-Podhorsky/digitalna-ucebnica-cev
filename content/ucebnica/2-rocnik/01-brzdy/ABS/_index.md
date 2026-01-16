@@ -61,3 +61,11 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="ASR" title="Regulácia preklzu kolies (ASR)" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://sk.wikipedia.org/wiki/ABS_(vozidlo)
+- https://blog.upfix.com/how-anti-lock-braking-systems-enhance-vehicle-safety
+{{< /spoiler >}}

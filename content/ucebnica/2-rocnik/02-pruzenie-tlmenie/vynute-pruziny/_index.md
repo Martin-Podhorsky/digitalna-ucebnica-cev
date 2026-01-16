@@ -68,3 +68,9 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="skrutne-tyce" title="Skrutné tyče" subtitle="Hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+{{< /spoiler >}}

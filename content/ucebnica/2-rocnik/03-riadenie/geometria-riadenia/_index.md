@@ -165,3 +165,10 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucebnica/2-rocnik/04-privesy-navesy/" title="Prívesy a návesy" subtitle="Rozdieľ medzi prívesom a návesom, rozdelenie, konštrukcia, dopad na jazdnú súpravu...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://lubomir-mazur.webnode.sk/automobily/a2-rocnik/geometria-riadenia/
+{{< /spoiler >}}

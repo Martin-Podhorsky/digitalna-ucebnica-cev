@@ -112,3 +112,9 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="pripajacie-zariadenia" title="Pripájacie zariadenia prívesov a návesov" subtitle="Rozdelenie, typy, konštrukcia, postupy pri pripájaní a odpájaní...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+{{< /spoiler >}}

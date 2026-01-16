@@ -45,3 +45,10 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="teleskopicke-tlmice" title="Teleskopické hydraulické tlmiče" subtitle="Rozdelenie, hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://en.wikipedia.org/wiki/Shock_absorber
+{{< /spoiler >}}

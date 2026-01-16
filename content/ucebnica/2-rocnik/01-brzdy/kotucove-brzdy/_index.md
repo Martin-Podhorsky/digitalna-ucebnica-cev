@@ -103,3 +103,12 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="hydraulicky-brzdovy-system" title="Konštrukcia hydraulického brzdového systému" subtitle="Hlavné časti, princíp fungovania, rozdelenie...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://en.wikipedia.org/wiki/Disc_brake
+- https://www.matfoundrygroup.com/blog/the-difference-between-fixed-and-floating-brake-calipers
+- https://ktg-auto.com/difference-between-fixed-caliper-and-floating-caliper/
+{{< /spoiler >}}

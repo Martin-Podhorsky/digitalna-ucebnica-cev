@@ -87,3 +87,11 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="kotucove-brzdy" title="Kotúčové brzdy" subtitle="Konštrukcia, vlastnosti, výhody, nevýhody, rozdelenie...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://en.wikipedia.org/wiki/Drum_brake
+- https://beliana.sav.sk/heslo/bubnova-brzda
+{{< /spoiler >}}

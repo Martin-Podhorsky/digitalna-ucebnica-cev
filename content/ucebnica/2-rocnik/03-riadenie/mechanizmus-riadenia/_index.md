@@ -97,3 +97,10 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="posilnovace-riadenia" title="Posilňovače riadenia" subtitle="Typy, ich konštrukcia, vlastnosti, výhody, nevýhody...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://usautoindustryworldwartwo.com/rossgear.htm
+{{< /spoiler >}}

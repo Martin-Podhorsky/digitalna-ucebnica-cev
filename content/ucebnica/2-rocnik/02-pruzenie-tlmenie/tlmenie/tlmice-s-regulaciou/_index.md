@@ -161,3 +161,10 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucebnica/2-rocnik/03-riadenie/" title="Riadenie" subtitle="Spôsoby riadenia, mechanizmus riadenia, hlavné časti, geometria riadenia...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- https://www.zf.com/products/en/cars/stories/systematic_damping.html
+{{< /spoiler >}}

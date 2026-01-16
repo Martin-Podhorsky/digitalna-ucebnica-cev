@@ -41,3 +41,9 @@ Nasledujúce učivo:
 {{< cards >}}
   {{< card url="listove-pruziny" title="Listové pružiny" subtitle="Princíp činnosti, konštrukcia, hlavné časti, výhody a nevýhody...">}}
 {{< /cards >}}
+
+---
+
+{{< spoiler text="Zdroje" >}}
+- FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+{{< /spoiler >}}
