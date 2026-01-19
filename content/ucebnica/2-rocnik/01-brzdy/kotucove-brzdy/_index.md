@@ -13,23 +13,23 @@ Kotúčové brzdy vytvárajú trenie tým, že zvierajú kotúč rotujúci spolo
 
 ## Výhody kotúčových bŕzd:
 
-- Väčší brzdný efekt a lepšia responzívnosť
-- Lepšie chladenie (kotúč je voľne vystavený okoliu)
-- Jednoduchšia konštrukcia a tým pádom aj jednoduchšia údržba
-- Menšia náchylnosť na fading v dôsledku prehriatia alebo vlhkosti oproti bubnovým
+- Lepšie chladenie (kotúč je voľne vystavený okoliu).
+- Jednoduchšia konštrukcia a tým pádom aj jednoduchšia údržba.
+- Menšia náchylnosť na fading v dôsledku prehriatia alebo vlhkosti oproti bubnovým brzdám.
+- Na rozdiel od bubnových bŕzd so samozosilňovacím účinkom (ktorý je nelineárny a ťažšie predvídateľný), kotúčové brzdy majú brzdný účinok priamo úmerný stlačeniu brzdového pedála, čo umožňuje presnejšie dávkovanie brzdnej sily.
 
 ## Nevýhody kotúčových bŕzd:
 
-- Drahšie na výrobu
-- Vyššia sila potrebná na dosiahnutie adekvátnej brzdnej sily (potreba posiňovaču)
-- Zložitejšia integrácia parkovacej brzdy
-- Vyššia frekvencia údržy ako bubnové
-- Viac náchylné na koróziu a znečistenie
-- Hlučnejšie (niekedy vedia pri brzdení pískať)
+- Drahšie na výrobu.
+- Vyššia sila potrebná na dosiahnutie adekvátnej brzdnej sily (potreba posiňovaču).
+- Zložitejšia integrácia parkovacej brzdy.
+- Vyššia frekvencia údržy ako bubnové.
+- Viac náchylné na koróziu a znečistenie.
+- Hlučnejšie (ak kotúč mierne zhrdzavie, brzdy začnú pískať).
 
 ## Rozdelenie
 
-Kotúčové brzdy sa rozdeľujú podľa konštrukcie strmeňa:
+Kotúčové brzdy sa rozdeľujú podľa konštrukcie strmeňa na:
 
 ### Kotúčová brzda s pevným strmeňom
 
@@ -47,13 +47,13 @@ Kotúčové brzdy sa rozdeľujú podľa konštrukcie strmeňa:
 
 #### Princíp činnosti:
 
-Dva piestiky (alebo viac), ktorých tlak kvapaliny tlačí smerom ku kotúču z jednej a druhej strany. Strmeň je pevne priskrutkovaný k zaveseniu a nepohybuje sa.
+Dva piestiky (alebo viac) sú tlakom kvapaliny tlačené smerom ku kotúču z jednej a druhej strany. Strmeň je pevne priskrutkovaný k zaveseniu a nepohybuje sa.
 
 #### Výhody:
-- **Rovnomerné opotrebovanie:** Vďaka symetrickému pôsobeniu piestikov sa brzdové doštičky opotrebúvajú rovnomerne na oboch stranách kotúča narozdiel od posuvného streňa, kde sa vždy viac opotrebuje vonkajšia doštička.
-- **Vysoká brzdná sila:** Konštrukcia generuje veľmi vysokú a okamžitú brzdnú silu (vyššiu ako pri posuvnom strmeni s jedným piestikom).
-- **Odolnosť voči deformácii:** Pevná a robustná konštrukcia zabezpečuje minimálnu pružnosť pri vysokom tlaku (lepšie ako posuvný strmeň, ktorý sa môže mierne krútiť kvôli vôli posuvného čapu).
-- **Lepšie odvádzanie tepla:** Väčšia a otvorenejšia konštrukcia umožňuje efektívnejšie chladenie (lepšie ako uzavretejší posuvný strmeň).
+- **Rovnomerné opotrebovanie:** Vďaka symetrickému pôsobeniu piestikov sa brzdové doštičky opotrebúvajú rovnomerne na oboch stranách kotúča na rozdiel od posuvného strmeňa, kde sa vždy viac opotrubúva vonkajšia doštička.
+- **Vysoká brzdná sila:** Konštrukcia vytvára veľmi vysokú a okamžitú brzdnú silu (vyššiu ako pri plávajúcom strmeni s jedným piestikom).
+- **Odolnosť voči deformácii:** Ak sa strmeň mierne deformuje, brzda bude stále funkčná. Pri plávajúcom strmeni je však na deformáciu veľmi náchylné posuvné uloženie (ak ku nej dôjde, brzda sa zasekne).
+- **Lepšie odvádzanie tepla:** Väčšia a otvorenejšia konštrukcia umožňuje efektívnejšie chladenie, ako pri posuvnom strmeni.
 
 #### Nevýhody:
 - **Vyššie výrobné náklady:** Výroba strmeňa s viacerými presne opracovanými otvormi pre piestiky je drahšia.
@@ -89,13 +89,13 @@ Na jednej strane kotúča sa nachádza jeden piestik (niekedy aj dva). Tlak kvap
 - **Ľahká integrácia parkovacej brzdy:** Konštrukcia umožňuje jednoducho začleniť mechanizmus ručnej brzdy priamo do strmeňa (takmer nemožné pri pevnom strmeni).
 
 #### Nevýhody:
-- **Nerovnomerné opotrebenie:** Platnička na strane piestika sa typicky opotrebúva rýchlejšie ako tá na opačnej strane.
-- **Citlivosť na znečistenie a koróziu:** Vodiace čapy sú vystavené vonkajším vplyvom. Ich zaseknutie v dôsledku korózie alebo nečistôt (napríklad ak sa poškodí prachovka) je pomerne častým problémom, ktorý vedie k trvalému pribrzďovaniu alebo zníženiu brzdnej sily 
-- **Nižšia brzdná sila:** V porovnaní s viacpiestikovými pevnými strmeňmi je generovaná maximálna brzdná sila spravidla nižšia.
+- **Nerovnomerné opotrebenie:** Platnička na strane piestika sa opotrebúva rýchlejšie, ako tá na opačnej strane.
+- **Citlivosť na znečistenie a koróziu:** Vodiace čapy sú vystavené vonkajším vplyvom. Ich zaseknutie v dôsledku korózie alebo nečistôt (napríklad ak sa poškodí prachovka) je pomerne častým problémom, ktorý vedie k trvalému pribrzďovaniu alebo výraznému zníženiu brzdnej sily.
+- **Nižšia brzdná sila:** V porovnaní s viacpiestikovými pevnými strmeňmi je maximálna brzdná sila spravidla nižšia.
 
 #### Použitie
 
-Drvivá väčšina sériovo vyrábaných osobných automobilov na prednej aj zadnej náprave a ľahké úžitkové vozidlá.
+Drvivá väčšina sériovo vyrábaných osobných automobilov na prednej aj zadnej náprave. Takisto sa používa aj pri ľahkých úžitkových vozidlách.
 
 ---
 

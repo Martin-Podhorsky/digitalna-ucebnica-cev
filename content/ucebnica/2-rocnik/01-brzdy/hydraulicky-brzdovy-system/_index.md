@@ -7,14 +7,14 @@ sidebar:
   open: false
 ---
 
-## Hlavné časti
+## Hlavné časti systému typického pre osobné automobily:
 
-1 - **Brzdový pedál** -- zašliapnutím vodič vytvára tlak a aktivuje tím brzdy<br>
+1 - **Brzdový pedál** -- zošliapnutím vodič vytvára tlak a aktivuje tým brzdy<br>
 2 - **Podtlakový posilňovač** -- slúži na zosílenie sily, vyvinutej vodičom<br>
 3 - **Hlavný (dvojokruhový) brzdový valec** -- prenáša tlak z tlačnej tyče na kvapalinu a zároveň vytvára dva nezávislé brzdové okruhy<br>
 4 - **Nádržka na brzdovú kvapalinu** -- služi na doliatie brzdovej kvapaliny do systému a mala by byť na ľahko dostupnom a viditeľnom mieste v motorovom priestore<br>
-5 - **Okruh predných bŕzd**<br>
-6 - **Okruh zadných bŕzd**<br>
+5 - **Okruh predných bŕzd** -- slúži na aktiváciu predných bŕzd<br>
+6 - **Okruh zadných bŕzd** slúži na aktiváciu zadných bŕzd<br>
 7 - **Obmedzovač brzdového účinku** -- reguluje tlak v okruhu zadných bŕzd v prípade, že sú zadné brzdy bubnové (je to kvôli tomu, že bubnové brzdy majú dostatočný brzdný účinok aj bez posilovača)<br>
 8 - **Predné brzdy** -- kotúčové<br>
 9 - **Zadné brzdy** -- bubnové
