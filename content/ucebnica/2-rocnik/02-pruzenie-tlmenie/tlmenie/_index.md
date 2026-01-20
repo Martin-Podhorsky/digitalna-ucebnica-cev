@@ -27,7 +27,7 @@ Bez tlmičov by sa vozidlo po každej nerovnosti húpalo, kolesá by odskakovali
 ## Rozdelenie tlmičov:
 
 ### Podľa konštrukcie:
-- **Dvojplášťové (twin-tube)** -- vnútorný a vonkajší valec, jednoduchšia konštrukcia, lacnejšie
+- **Dvojplášťové (twin-tube)** -- vnútorný a vonkajší valec, lacnejšie
 - **Jednoplášťové (mono-tube)** -- jeden valec s oddeľovacím piestom, lepšie chladenie, drahšie
 
 ### Podľa tlmiaceho média:
@@ -36,7 +36,7 @@ Bez tlmičov by sa vozidlo po každej nerovnosti húpalo, kolesá by odskakovali
 
 ### Podľa možnosti nastavenia:
 - **Pasívne** -- pevne nastavená charakteristika
-- **Nastaviteľné** -- možnosť mechanického nastavenia tuhosti
+- **Nastaviteľné** -- možnosť mechanického nastavenia intenzity
 - **Adaptívne (elektronicky riadené)** -- automatické prispôsobenie tlmenia podľa jazdných podmienok
 
 ---

@@ -7,7 +7,7 @@ sidebar:
   open: false
 ---
 
-Pneumatické pruženie je systém odpruženia, ktorý využíva stlačený vzduch uzavretý v pružných vakoch (mechoch) na absorbovanie nerovností vozovky. Na rozdiel od oceľových pružín umožňuje plynulé nastavenie výšky a tuhosti odpruženia podľa aktuálnych podmienok a zaťaženia vozidla.
+Pneumatické pruženie využíva stlačený vzduch uzavretý v pružných vakoch (mechoch) na absorbovanie nerovností vozovky. Umožňuje automatické alebo poloautomatické nastavenie svetlej výšky a tuhosti odpruženia z pohodlia interiéru podľa aktuálnych podmienok a zaťaženia vozidla.
 
 {{< figure src="air-suspension.jpg" alt="Pneumatické pruženie" width="60%" caption="Obr. 11.14 - Pneumatické pruženie" >}}
 
@@ -26,62 +26,45 @@ Pneumatické pruženie je systém odpruženia, ktorý využíva stlačený vzduc
 
 ## Princíp činnosti
 
-Snímače výšky neustále monitorujú polohu karosérie voči kolesám. Pri zmene zaťaženia alebo prejazde nerovnosťou riadiaca jednotka vyhodnotí údaje a prostredníctvom ventilov upraví tlak vzduchu v mechoch. Zvýšením tlaku sa vozidlo zdvihne a odpruženie stvrdne, znížením tlaku sa vozidlo zníži a odpruženie zmäkne. Tento proces prebieha automaticky a nepretržite.
+Snímače výšky sledujú polohu karosérie voči kolesám. Keď vozidlo prejde cez nerovnosť alebo sa zmení zaťaženie (napríklad nastúpia cestujúci), riadiaca jednotka vyhodnotí údaje zo snímačov a cez ventily upraví tlak vzduchu v mechoch. Keď sa tlak zvýši, vozidlo sa zdvihne a pruženie stvrdne. Keď sa tlak zníži, vozidlo sa zníži a pruženie zmäkne. Celý tento proces prebieha automaticky.
 
-## Výhody:
+## Výhody pneumatického pruženia:
 
-- Automatické udržiavanie konštantnej výšky vozidla bez ohľadu na zaťaženie
-- Možnosť nastavenia tuhosti odpruženia (komfort/šport)
-- Vysoký komfort jazdy aj pri rôznom zaťažení
-- Progresívna charakteristika (tuhosť rastie so stlačením)
-- Možnosť manuálnej zmeny výšky (napr. pre terén alebo nakladanie)
-- Výborná izolácia karosérie od vibrácií
+- **Stála svetlá výška:** Vozidlo si udržiava rovnakú výšku bez ohľadu na to, či je prázdne alebo plne naložené.
+- **Nastaviteľná výška podvozku:** Vodič môže meniť svetlú výšku vozidla podľa potreby - napríklad zdvihnúť pre terén alebo znížiť pre ľahšie nastupovanie a vystupovanie.
+- **Nastaviteľná tuhosť:** Dá sa meniť tvrdosť pruženia - mäkšie pre pohodlnú jazdu, tvrdšie pre športovejší pocit.
+- **Vysoký komfort:** Vzduchové mechy veľmi dobre pohlcujú otrasy a chvenie od vozovky.
+- **Progresívna charakteristika:** Tuhosť pruženia rastie so stlačením - čím viac sa vzduchový mech stlačí, tým je tvrdší. To zabraňuje tvrdému nárazu na doraz pri väčších nerovnostiach alebo väčšom zaťažení.
 
-## Nevýhody:
+## Nevýhody pneumatického pruženia:
 
-- Vysoká cena systému aj údržby
-- Zložitá konštrukcia s množstvom komponentov
-- Možnosť porúch elektroniky, úniku vzduchu alebo zamrznutia kondezovanej vody v systéme
-- Zaberá veľa priestoru
-- Neprenášajú pozdĺžne ani priečne sily - vyžadujú samostatné vedenie nápravy (ramená, vzpery)
+- **Vysoká cena:** Systém je drahý na výrobu aj na údržbu. Opravy sú nákladnejšie, ako pri bežnom pružení.
+- **Zložitá konštrukcia:** Veľa súčiastok (kompresor, ventily, snímače, riadiaca jednotka) znamená viac vecí, ktoré sa môžu pokaziť.
+- **Náchylnosť na poruchy:** Gumové mechy časom starnú a môžu prasknúť, vo vzduchových vedeniach môžu vznikať netesnosti, kompresor sa môže prehriať. V zime môže v systéme zamrznúť skondenzovaná voda, ak sušič nefunguje správne.
+- **Priestorová náročnosť:** Kompresor, zásobník vzduchu a vedenia zaberajú miesto, ktoré by sa dalo využiť inak.
+- **Neprenášajú pozdĺžne ani priečne sily:** Vzduchové mechy prenášajú len zvislé sily. Na prenos pozdĺžnych a priečnych síl (na udržanie požadovaného smeru) treba samostatné ramená alebo vzpery (takisto ako pri vynutých pružinách).
 
-## Rozdelenie
-
-### Podľa konštrukcie vzduchových mechov:
+## Rozdelenie podľa konštrukcie vzduchových mechov:
 
 1. **Vlnovcové mechy**
    - Tvar vlnovca (harmoniky)
-   - Väčší zdvih, mäkšia charakteristika
    - Používané v osobných automobiloch
 
 {{< figure src="vlnovcove.jpg" alt="Pneumatické pruženie v tvare vlnovca" width="60%" caption="Obr. 11.16 - Pneumatické pruženie v tvare vlnovca" >}}
 
 2. **Valivé mechy**
    - Valcový tvar s odvaľovaním po pieste
-   - Kompaktnejšia konštrukcia
    - Používané v nákladných vozidlách a autobusoch
 
 {{< figure src="valive.webp" alt="Pneumatické pruženie valivé" width="50%" caption="Obr. 11.17 - Pneumatické pruženie valivé" >}}
 
-### Podľa typu systému:
-
-1. **Čisto pneumatické pruženie**
-   - Využíva iba stlačený vzduch
-   - Jednoduchšia konštrukcia
-
-2. **Hydropneumatické pruženie**
-   - Kombinácia stlačeného plynu (dusík) a hydraulickej kvapaliny
-   - Plyn slúži ako pružina, kvapalina prenáša sily a tlmí
-   - Známe z vozidiel Citroën (systém Hydractive)
-   - Veľmi vysoký komfort a možnosť regulácie
-
 ## Použitie:
 
 - Luxusné osobné automobily (Mercedes-Benz S-Class, Audi A8, Range Rover)
-- Autobusy (komfort cestujúcich a automatické nakláňanie pri nastupovaní)
-- Ťažké nákladné automobily (konštantná výška nakladacej plochy)
+- Autobusy
+- Ťažké nákladné automobily
 - Prívesy a návesy
-- Terénne vozidlá (nastaviteľná svetlá výška)
+- Terénne vozidlá
 
 ---
 

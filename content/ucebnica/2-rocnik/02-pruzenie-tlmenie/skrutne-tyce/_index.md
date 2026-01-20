@@ -31,50 +31,34 @@ Jeden koniec torznej tyče sa pevne uchytáva v ráme alebo karosérii vozidla. 
 
 ## Výhody torzných tyčí:
 
-- **Kompaktné:** Torzné tyče sa montujú pozdĺžne z podvozkom a nezaberajú skoro žiadny priestor. Umožňujú vyhotovenie vozdila s nižšou podlahou.
-- **Nižšia hmotnosť a ťažisko:** Keďže ide o jednu tyč z pružinovej ocele, systém je omnoho ľahší ako masívne zväzky oveľových listov. Ich umiestnenie nízko v ráme vozidla navyše prispieva k nižšiemu ťažisku, čo zlepšuje stabilitu v porovnaní s vysoko uloženými vinutými pružinami.
-- **Spoľahlivosť v teréne:** Menej sa na nich usadzuje blato a nečistoty, ktoré by mohli spôsobiť koróziu v miskách pružín pri vinutých pružinách. Torzná tyč taktiež nemá, oproti pneumatickému/hydropneumatickému pruženiu, žiadne vaky, ktoré by mohli prasknúť, ani hadice, ktoré by sa mohli pretrhnúť. Je to len kus kovu, ktorý funguje aj v extrémnom mraze či prachu. 
-- **Jednoduché nastavenie výšky:** Zmenou predpätia tyče pomocou obyčajnek skrutky alebo excentrickej podložky sa dá ľahko upraviť svetlá výška vozidla.
-- **Rovnomerné zaťaženie materiálu:** Na rozdiel od listových pružín, kde je namáhaný primárne hlavný list, alebo vinutých pružín, kde dochádza ku najväčšiemu napätiu na vonkajších vláknach stočeného drôtu, pri torznej tyči sa napätie rozkladá rovnomerne po celej dĺžke, čo minimalizuje riziko únavy materiálu v kritických bodoch, predlžuje životnosť pruženia a zabezpečuje stále vlastnosti aj pri dlhodobom namáhaní.
+- **Nižšia hmotnosť:** Keďže ide o jednu tyč z pružinovej ocele, systém je ľahší ako zväzok oceľových listov.
+- **Úspora priestoru:** Torzné tyče, najmä pri pozdĺžnom uložení, nezaberajú toľko vertikálneho priestoru ako vinuté pružiny, čo umožňuje nižšiu stavbu vozidla alebo lepšie využitie priestoru pod podlahou.
+- **Spoľahlivosť a jednoduchosť:** Torzná tyč nemá, oproti pneumatickému/hydropneumatickému pruženiu, žiadne vaky, ktoré by mohli prasknúť, ani hadice, ktoré by sa mohli pretrhnúť. Je to jednoduchý mechanický prvok, ktorý funguje aj v extrémnych podmienkach (mráz, prach, blato). Systém má menej súčiastok ako listové alebo vinuté pružiny, čo uľahčuje údržbu.
+- **Jednoduché nastavenie výšky:** Zmenou predpätia tyče pomocou nastavovacej skrutky alebo excentrickej podložky sa dá ľahko upraviť svetlá výška vozidla.
 
 ## Nevýhody torzných tyčí:
 
-1. Lineárna charakteristika (Nedostatok progresivity)
-Na rozdiel od vinutých pružín (ktoré môžu mať premenlivé stúpanie) alebo pneumatického pruženia (ktoré stvrdne pri stlačení), torzná tyč je čisto lineárna.
-Dôsledok: Ak je nastavená tak, aby bola pohodlná, ľahko „dorazí“ na dno pri veľkom náraze. Ak je nastavená tuhšie, je auto nekomfortné na malých nerovnostiach. Nedokáže sa adaptovať na rôzne povrchy tak efektívne ako Vzduchové pruženie na Wikipedia.org.
-2. Nároky na dĺžku a umiestnenie v ráme
-Aby tyč dobre pružila a nebola príliš tvrdá, musí byť dlhá.
-Oproti vinutým pružinám: Tyče sa tiahnu hlboko pod podlahu vozidla, čo komplikuje vedenie výfukového potrubia, umiestnenie nádrže alebo konfiguráciu prevodovky.
-Oproti listovým pružinám: Tie sú na okrajoch podvozku, zatiaľ čo torzné tyče potrebujú priestor uprostred rámu, čo môže obmedzovať svetlú výšku v strede vozidla (tzv. "brucho" auta).
-3. "Drsnosť" a hluk (NVH - Noise, Vibration, Harshness)
-Torzné tyče sú ukotvené priamo do rámu vozidla cez masívne držiaky.
-Prenos vibrácií: Keďže ide o priame kovové spojenie, torzné tyče prenášajú oveľa viac vibrácií a hluku z cesty do karosérie než vinuté pružiny, ktoré sú uložené v gumových miskách. Autoforum.cz o podvozkoch
-4. Náročná výmena pri poškodení
-Ak sa torzná tyč poškodí alebo po rokoch extrémne „unaví“ (hoci sa to stáva zriedka), jej výmena je často nočnou morou.
-Vplyvom korózie sa tyč doslova „zapečie“ do tisíchranov (úchytov). Na jej vybitie sú často potrebné špeciálne sťahováky, autogén a obrovská sila, čo pri vinutej pružine (ktorú jednoducho stlačíte a vyberiete) nehrozí.
-5. Žiadne prirodzené tlmenie
-Podobne ako vinuté pružiny (a na rozdiel od listových), torzná tyč nemá žiadne vnútorné trenie.
-Závislosť od tlmičov: Celú prácu s upokojením auta po náraze musia odviesť tlmiče. Ak sú slabé, auto s torznými tyčami sa nekontrolovane rozkmitá, čo je pri ťažkej prednej náprave (motor) nebezpečné pre stabilitu.
-Zhrnutie: Torzné tyče sú skvelé na prácu a šetrenie miesta, ale prehrávajú v oblasti akustického komfortu a jemného ladenia jazdných vlastností.
+- **Lineárna charakteristika:** Na rozdiel od progresívnych vinutých pružín alebo pneumatického pruženia, torzná tyč má lineárnu charakteristiku (jej tuhosť sa nemení v závislosti od zaťaženia). To znamená, že sa horšie prispôsobuje rôznym zaťaženiam - pri ľahkom zaťažení môže byť jazda tvrdšia a pri veľkom zaťažení hrozí väčšie riziko narazenia na doraz.
+- **Obmedzený zdvih:** Rozsah krútenia tyče je pomerne obmedzený, čo obmedzuje zdvih kolesa v porovnaní s vinutými pružinami.
+- **Koncentrácia napätia na koncoch:** Šmykové napätie pri torznej tyči je najvyššie na povrchu a koncentruje sa najmä v oblasti drážkovaných alebo hranatých koncov, kde sa prenáša krútiaci moment. Tieto miesta sú náchylnejšie na únavu materiálu a vyžadujú kvalitné spracovanie povrchu.
+- **Náročnejšia výmena:** Pri poruche torznej tyče je jej výmena často komplikovanejšia ako výmena vinutej pružiny, pretože vyžaduje demontáž väčšieho počtu komponentov zavesenia.
 
 ## Použitie
 
-Torzné tyče sa používajú v rôznych typoch vozidiel:
+Torzné tyče sa používajú v:
 
-**Osobné automobily:**
-- Predné nezávislé zavesenie (napr. VW Beetle, Porsche 911, mnohé francúzske autá ako Citroën, Peugeot, Renault)
-- Zadné zavesenie niektorých vozidiel
-- Vozidlá značiek Chrysler, Ford, GM, Mitsubishi, Mazda, Nissan, Toyota
+**Osobných automobiloch:**
+- Predné nezávislé zavesenie (napr. VW Beetle, Porsche 911)
+- Staršie vozidlá značiek Chrysler, Ford, GM, Mitsubishi, Mazda, Nissan, Toyota
 
-**Terénne vozidlá a SUV:**
-- Predné nezávislé zavesenie (vhodné pre náročné terénne podmienky)
-- Nákladné automobily a pick-upy
+**Terénnych vozidlách:**
 
-**Vojenské vozidlá:**
+**Vojenských vozidlách:**
 - Tanky (napr. M1 Abrams, Leopard 2, historický Panther)
-- Obrnené vozidlá (robustné odpruženie pre extrémne podmienky)
+- Obrnené vozidlá
 
-**Stabilizačné tyče (anti-roll bar):**
+## Stabilizačné tyče (anti-roll bars)
+
 Torzná tyč sa využíva aj v stabilizačných tyčiach (tzv. anti-roll bar alebo anti-sway bar), ktoré znižujú naklonenie vozidla v zákrutách alebo pri prejazde po nerovnostiach. Stabilizačná tyč pružne spája ľavé a pravé koleso nápravy tak, že pri stlačení jedného z nich donúti stlačiť aj to druhé, čím pomáha udržať vozidlo v rovnovážnej polohe a taktiež znižuje celkové tažisko vozidla, čo v zákrutách robí vozidlo ešte stabilnejším.
 
 {{< figure src="anti-roll-bar.webp" alt="Stabilizačná tyč" width="55%" caption="Obr. 11.13 - Stabilizačná tyč" >}}

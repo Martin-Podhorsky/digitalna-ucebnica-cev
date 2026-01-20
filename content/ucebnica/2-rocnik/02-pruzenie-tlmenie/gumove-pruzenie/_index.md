@@ -15,7 +15,7 @@ Gumové pruženie využíva elastické vlastnosti gumy (prírodnej alebo synteti
 
 - Samotlmiaci efekt
 - Nízka cena a jednoduchá výroba
-- Tichá prevádzka (izoluje hluk a vibrácie)
+- Guma zároveň izoluje hluk a vibrácie
 - Jednoduchá konštrukcia bez potreby mazania
 - Odolnosť voči korózii
 - Nízka hmotnosť
@@ -25,7 +25,6 @@ Gumové pruženie využíva elastické vlastnosti gumy (prírodnej alebo synteti
 - Obmedzená životnosť (stárnutie gumy vplyvom UV žiarenia a ozónu)
 - Závislosť vlastností od teploty (tvrdne v mraze, mäkne v teple)
 - Nižšia únosnosť v porovnaní s kovovými pružinami
-- Progresívna charakteristika (tuhosť rastie so stlačením)
 
 ## Použitie:
 
