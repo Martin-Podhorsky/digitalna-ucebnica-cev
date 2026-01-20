@@ -39,25 +39,25 @@ Tvar vinutia je navrhnutý tak, aby pri maximálnom stlačení pružiny bola zar
 
 ## Rozdelenie
 
-Vinuté pružiny sa rozdeľujú podľa rôznych kritérií:
+Vinuté pružiny sa rozdeľujú podľa týchto kritérií:
 
 ### Podľa charakteristiky:
-- **Lineárne** - konštantný priemer drôtu a rovnomerné stúpanie závitov. Tuhosť je konštantná počas celého zdvihu
-- **Progresívne** - premenlivý priemer drôtu alebo nerovnomerné stúpanie závitov. Tuhosť sa zvyšuje so zaťažením, čo zlepšuje komfort pri malom zaťažení a stabilitu pri veľkom
+- **Lineárne** -- konštantný priemer drôtu a rovnomerné stúpanie závitov. Tuhosť je konštantná počas celého zdvihu.
+- **Progresívne** -- premenlivý priemer drôtu alebo nerovnomerné stúpanie závitov. Tuhosť sa zvyšuje so zaťažením, čo zlepšuje komfort pri malom zaťažení a stabilitu pri veľkom.
 
 {{< figure src="typy-pruzin-charakteristika.jpg" alt="Typy pružín podľa charakteristiky" width="40%" caption="Obr. 11.9 - Typy pružín podľa charakteristiky" >}}
 
 ### Podľa tvaru:
-- **Valcové** - najrozšírenejší typ, rovnaká šírka po celej dĺžke
-- **Kužeľové** - šírka sa zmenšuje smerom k jednému koncu, umožňujú kratšiu zástavbovú dĺžku pri stlačení
-- **Súdkovité** - väčšia šírka v strede, menšia na koncoch, lepšia stabilita
-- **Bikónická** - progresívna tuhosť, vynikajúca bočná stabilita a kompaktnú výška v stlačenom stave vďaka svojmu špecifickému tvaru presýpacích hodín
+- **Valcové** -- najrozšírenejší typ, rovnaká šírka po celej dĺžke.
+- **Kužeľové** -- šírka sa zmenšuje smerom k jednému koncu, umožňujú kratšiu zástavbovú dĺžku pri stlačení.
+- **Súdkovité** -- väčšia šírka v strede, menšia na koncoch, lepšia stabilita.
+- **Bikónická** -- progresívna tuhosť, vynikajúca bočná stabilita a kompaktná výška v stlačenom stave vďaka svojmu tvaru presýpacích hodín.
 
 {{< figure src="typy-pruzin-tvar.png" alt="Typy pružín podľa tvaru" width="40%" caption="Obr. 11.10 - Typy pružín podľa tvaru" >}}
 
 ### Podľa smeru vinutia:
-- **Pravotočivé** - závity stúpajú v smere hodinových ručičiek
-- **Ľavotočivé** - závity stúpajú proti smeru hodinových ručičiek
+- **Pravotočivé** -- závity stúpajú v smere hodinových ručičiek.
+- **Ľavotočivé** -- závity stúpajú proti smeru hodinových ručičiek.
 
 ---
 

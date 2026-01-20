@@ -7,17 +7,17 @@ sidebar:
   open: false
 ---
 
-Skrutná (torzná) tyč je typ pružiny, ktorá využíva krútenie (torziu) oceľovej tyče na absorbovanie nerovností vozovky. Na rozdiel od vinutých alebo listových pružín, torzná tyč poskytuje pružinový efekt prostredníctvom odporu voči krúteniu okolo svojej pozdĺžnej osi.
+Skrutná (torzná) tyč je typ pružiny, ktorý využíva odpor voči krúteniu (torzii) oceľovej tyče na absorbovanie nerovností vozovky.
 
 {{< figure src="torsion-bar.jpg" alt="Skrutná tyč" width="60%" caption="Obr. 11.11 - Skrutná tyč" >}}
 
 ## Konštrukcia
 
-Skrutná tyč je dlhý oceľový prút vyrobený z vysokokvalitnej pružinovej ocele. Má najčastejšie kruhový prierez, ktorý je na oboch koncoch zosilnený a vybavený jemne drážkovanou (ozubenou) hlavicou na upevnenie.
+Skrutná tyč je dlhý oceľový prút vyrobený z vysokokvalitnej pružinovej ocele. Najčastejšie má kruhový prierez, ktorý je na oboch koncoch zosílený. Tieto konce sú taktiež jemne drážkované alebo hranaté, aby sa v uložení pri krútení nepretáčali.
 
 **Hlavné časti:** <br>
 1 - Torzná tyč (kruhový alebo profilovaný prierez) <br>
-2 - Upevňovacie čapy s drážkami<br>
+2 - Drážkovaná (hranatá) hlavica na upevnenie<br>
 3 - Rameno zavesenia (spodné alebo horné)<br>
 4 - Nastavovací mechanizmus (skrutka alebo excentrická podložka)<br>
 5 - Rám alebo karoséria vozidla
@@ -27,29 +27,35 @@ Skrutná tyč je dlhý oceľový prút vyrobený z vysokokvalitnej pružinovej o
 
 ## Princíp činnosti
 
-Jeden koniec torznej tyče sa pevne uchytáva v ráme alebo karosérii vozidla, druhý koniec je spojený s ramenom zavesenia kolesa. Pri pohybe kolesa nahor sa rameno zavesenia otáča a spôsobuje krútenie (torziu) tyče okolo jej pozdĺžnej osi. Odpor tyče voči tomuto krúteniu vytvára pružinový efekt, ktorý absorbuje energiu nárazu. Po prejazde nerovnosti sa tyč vráti do pôvodnej polohy vďaka svojej elasticite.
-
-Poznámka k dimenzovaniu: uhol skrútenia torznej tyče rastie s pôsobiacim momentom a dĺžkou tyče a klesá s tuhosťou tyče (danou materiálom a prierezom). Presné dimenzovanie je predmetom konštrukčného výpočtu a skúšok a je špecifické pre každé vozidlo.
+Jeden koniec torznej tyče sa pevne uchytáva v ráme alebo karosérii vozidla. Druhý koniec je spojený s ramenom zavesenia kolesa. Pri pohybe kolesa nahor sa rameno zavesenia otáča a spôsobuje krútenie (torziu) tyče okolo jej pozdĺžnej osi. Odpor tyče voči tomuto krúteniu vytvára pružinový efekt, ktorý absorbuje energiu nárazu. Po prejazde nerovnosti sa tyč vráti do pôvodnej polohy vďaka svojej elasticite.
 
 ## Výhody torzných tyčí:
 
-- Veľmi kompaktné riešenie (zaberajú málo miesta, umožňujú nižšiu podlahu vozidla)
-- Nízka hmotnosť v porovnaní s listovými pružinami
-- Jednoduché nastavenie výšky vozidla zmenou predpätia tyče
-- Vysoká spoľahlivosť a dlhá životnosť
-- Rovnomerné zaťaženie materiálu po celej dĺžke tyče
-- Možnosť individuálneho nastavenia tuhosti výmenou tyče
-- Odolnosť voči vysokému zaťaženiu
+- **Kompaktné:** Torzné tyče sa montujú pozdĺžne z podvozkom a nezaberajú skoro žiadny priestor. Umožňujú vyhotovenie vozdila s nižšou podlahou.
+- **Nižšia hmotnosť a ťažisko:** Keďže ide o jednu tyč z pružinovej ocele, systém je omnoho ľahší ako masívne zväzky oveľových listov. Ich umiestnenie nízko v ráme vozidla navyše prispieva k nižšiemu ťažisku, čo zlepšuje stabilitu v porovnaní s vysoko uloženými vinutými pružinami.
+- **Spoľahlivosť v teréne:** Menej sa na nich usadzuje blato a nečistoty, ktoré by mohli spôsobiť koróziu v miskách pružín pri vinutých pružinách. Torzná tyč taktiež nemá, oproti pneumatickému/hydropneumatickému pruženiu, žiadne vaky, ktoré by mohli prasknúť, ani hadice, ktoré by sa mohli pretrhnúť. Je to len kus kovu, ktorý funguje aj v extrémnom mraze či prachu. 
+- **Jednoduché nastavenie výšky:** Zmenou predpätia tyče pomocou obyčajnek skrutky alebo excentrickej podložky sa dá ľahko upraviť svetlá výška vozidla.
+- **Rovnomerné zaťaženie materiálu:** Na rozdiel od listových pružín, kde je namáhaný primárne hlavný list, alebo vinutých pružín, kde dochádza ku najväčšiemu napätiu na vonkajších vláknach stočeného drôtu, pri torznej tyči sa napätie rozkladá rovnomerne po celej dĺžke, čo minimalizuje riziko únavy materiálu v kritických bodoch, predlžuje životnosť pruženia a zabezpečuje stále vlastnosti aj pri dlhodobom namáhaní.
 
 ## Nevýhody torzných tyčí:
 
-- Obmedzená schopnosť absorbovať veľké nárazy v porovnaní s vinutými pružinami
-- Potreba presného uloženia a správneho predpätia
-- Náchylnosť na únavu materiálu pri dlhodobom používaní
-- Náchylnosť na koróziu (povrchové vady sú kritické pre životnosť)
-- Potreba ochranného povlaku alebo puzdra
-- Zaberajú priestor pod podlahou vozidla (môže obmedzovať svetlú výšku)
-- Náročnejšia výmena v porovnaní s vinutými pružinami
+1. Lineárna charakteristika (Nedostatok progresivity)
+Na rozdiel od vinutých pružín (ktoré môžu mať premenlivé stúpanie) alebo pneumatického pruženia (ktoré stvrdne pri stlačení), torzná tyč je čisto lineárna.
+Dôsledok: Ak je nastavená tak, aby bola pohodlná, ľahko „dorazí“ na dno pri veľkom náraze. Ak je nastavená tuhšie, je auto nekomfortné na malých nerovnostiach. Nedokáže sa adaptovať na rôzne povrchy tak efektívne ako Vzduchové pruženie na Wikipedia.org.
+2. Nároky na dĺžku a umiestnenie v ráme
+Aby tyč dobre pružila a nebola príliš tvrdá, musí byť dlhá.
+Oproti vinutým pružinám: Tyče sa tiahnu hlboko pod podlahu vozidla, čo komplikuje vedenie výfukového potrubia, umiestnenie nádrže alebo konfiguráciu prevodovky.
+Oproti listovým pružinám: Tie sú na okrajoch podvozku, zatiaľ čo torzné tyče potrebujú priestor uprostred rámu, čo môže obmedzovať svetlú výšku v strede vozidla (tzv. "brucho" auta).
+3. "Drsnosť" a hluk (NVH - Noise, Vibration, Harshness)
+Torzné tyče sú ukotvené priamo do rámu vozidla cez masívne držiaky.
+Prenos vibrácií: Keďže ide o priame kovové spojenie, torzné tyče prenášajú oveľa viac vibrácií a hluku z cesty do karosérie než vinuté pružiny, ktoré sú uložené v gumových miskách. Autoforum.cz o podvozkoch
+4. Náročná výmena pri poškodení
+Ak sa torzná tyč poškodí alebo po rokoch extrémne „unaví“ (hoci sa to stáva zriedka), jej výmena je často nočnou morou.
+Vplyvom korózie sa tyč doslova „zapečie“ do tisíchranov (úchytov). Na jej vybitie sú často potrebné špeciálne sťahováky, autogén a obrovská sila, čo pri vinutej pružine (ktorú jednoducho stlačíte a vyberiete) nehrozí.
+5. Žiadne prirodzené tlmenie
+Podobne ako vinuté pružiny (a na rozdiel od listových), torzná tyč nemá žiadne vnútorné trenie.
+Závislosť od tlmičov: Celú prácu s upokojením auta po náraze musia odviesť tlmiče. Ak sú slabé, auto s torznými tyčami sa nekontrolovane rozkmitá, čo je pri ťažkej prednej náprave (motor) nebezpečné pre stabilitu.
+Zhrnutie: Torzné tyče sú skvelé na prácu a šetrenie miesta, ale prehrávajú v oblasti akustického komfortu a jemného ladenia jazdných vlastností.
 
 ## Použitie
 
