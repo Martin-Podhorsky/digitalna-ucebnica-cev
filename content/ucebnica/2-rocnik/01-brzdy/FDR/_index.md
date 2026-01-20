@@ -7,7 +7,7 @@ sidebar:
   open: false
 ---
 
-FDR (Fahrdynamikregelung) alebo ESP (Electronic Stability Program) je najkomplexnejší elektronický bezpečnostný systém, ktorý pomáha vodičovi udržať vozidlo pod kontrolou v zákrutách a pri prudkých manévroch.
+FDR (Fahrdynamikregelung) alebo ESP (Electronic Stability Program) je komplexný elektronický bezpečnostný systém, ktorý pomáha vodičovi udržať vozidlo pod kontrolou v zákrutách a pri prudkých zmenách smeru vo vysokých rýchlostiach.
 
 {{< youtube WPEaJv3pduI >}}
 
@@ -20,11 +20,11 @@ Systém FDR nepretržite monitoruje a vyhodnocuje kľúčové parametre jazdy:
 - **Uhlovú rýchlosť otáčania vozidla**
 - **Otáčky všetkých kolies**
 
-Riadiaca jednotka porovnáva zámer vodiča (uhol natočenia volantu) so skutočným správaním vozidla (snímače). Ak zistí rozdiel - vozidlo reaguje inak, než by vodič chcel - systém okamžite zasahuje.
+Riadiaca jednotka porovnáva zámer vodiča (uhol natočenia volantu) so skutočným správaním vozidla (ostatné snímače). Ak zistí rozdiel - skutočný smer pohybu vozidla nie je totožný s uhlom natočenia volantu  - systém okamžite zasahuje.
 
 ### Spôsob zásahu:
 
-Keď FDR detekuje nebezpečenstvo šmyku, automaticky:
+Keď FDR detekuje nebezpečenstvo, automaticky:
 1. **Pribrzdi vybrané koleso/kolesá** - selektívnym brzdením jednotlivých kolies koriguje smer jazdy
 2. **Zníži výkon motora** - obmedzí prívod paliva alebo oneskorí zápal
 
@@ -45,27 +45,23 @@ Keď FDR detekuje nebezpečenstvo šmyku, automaticky:
 ## Hlavné časti systému FDR/ESP
 
 1. **Všetky komponenty ABS a ASR** -- snímače otáčok kolies, hydraulická riadiaca jednotka, riadiaca jednotka motora
-2. **Snímač uhla natočenia volantu** -- dáva riadiace jednotke údaj o tom, kam chce vodič ísť
-3. **Snímač priečneho zrýchlenia** --  dáva riadiace jednotke údaj o tom, či je vozidlo v šmyku
-4. **Snímač uhlovej rýchlosti (gyroskop)** - meria rýchlosť otáčania vozidla okolo zvislej osi
+2. **Snímač uhla natočenia volantu** -- dáva riadiacej jednotke údaj o požadovanom smere jazdy
+3. **Snímač priečneho zrýchlenia** --  dáva riadiacej jednotke údaj o tom, či je vozidlo v šmyku
+4. **Snímač uhlovej rýchlosti (gyroskop)** -- meria rýchlosť otáčania vozidla okolo zvislej osi
 5. **Výkonná riadiaca jednotka** -- spracováva údaje zo všetkých snímačov a rozhoduje o zásahu
-6. **Kontrolka ESP** - informuje vodiča o aktivácii alebo poruche systému
-7. **Vypínač ESP** - umožňuje dočasné vypnutie systému
+6. **Kontrolka ESP** -- informuje vodiča o aktivácii systému alebo jeho poruche
+7. **Vypínač ESP** -- umožňuje dočasné vypnutie systému
 
 ## Výhody:
 
-- **Štatisticky preukazné zníženie nehôd** - ESP dokáže zabrániť až 80% nehodám spôsobeným šmykom
-- **Pomáha zabrániť šmyku alebo prevráteniu** - najmä pri náhlych manévroch
-- **Účinné aj pri menej skúsených vodičoch** - systém reaguje rýchlejšie než človek
-- **Zjednotenie všetkých asistenčných systémov** - ABS, ASR a MSR pracujú spoločne
+- **Štatisticky preukazné zníženie nehôd** -- ESP dokáže zabrániť až 80% nehodám spôsobeným šmykom.
+- **Zjednotenie všetkých asistenčných systémov** -- ABS, ASR a MSR pracujú spoločne a synchronizovane
 
 ## Nevýhody:
 
-- **Vyššie výrobné náklady** - pokročilé senzory a riadiace jednotky zvyšujú cenu vozidla
-- **Zložitejšia konštrukcia** - viac komponentov znamená vyššiu komplexnosť systému
-- **Nákladnejšia údržba a opravy** - diagnostika a oprava vyžaduje špecializované zariadenia
-- **Možnosť pochybenia** - v niektorých situáciách môže systém zasiahnuť nesprávne
-- **Závislosť od správnej kalibrácie** - nesprávna kalibrácia môže viesť k nepresným zásahom
+- **Vyššie výrobné náklady** -- pokročilé senzory a riadiace jednotky zvyšujú cenu vozidla
+- **Zložitejšia konštrukcia** -- viac komponentov znamená vyššiu komplexitu systému
+- **Nákladnejšia údržba a opravy** -- diagnostika a oprava vyžaduje špecializované zariadenia
 
 ## Legislatíva
 
