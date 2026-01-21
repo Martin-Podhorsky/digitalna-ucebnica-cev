@@ -11,149 +11,90 @@ Moderné automobily často používajú tlmiče s možnosťou regulácie tlmiace
 
 ## Typy regulácie tlmenia
 
-1. **Manuálna regulácia**
-   - Vodič môže nastaviť tvrdosť (Comfort/Sport/Sport+)
-   - Mechanické prepínanie ventilov
+### 1. Manuálna regulácia
 
-2. **Poloautomatická regulácia**
-   - Systém automaticky mení nastavenie podľa jazdného režimu
-   - Senzory detekujú podmienky (rýchlosť, zákruty, brzdenie)
+Najjednoduchší typ regulácie, kde vodič alebo mechanik môže mechanicky nastaviť tvrdosť tlmenia pomocou nastavovacieho prvku (skrutka, otočný regulátor). Nastavenie sa vykonáva pri stojiacom vozidle a zostáva nemenné počas jazdy.
 
-3. **Aktívne (adaptívne) tlmenie**
-   - Nepretrižité prispôsobovanie v reálnom čase
-   - Elektromagnetické ventily
-   - Prepojenie so snímačmi (G-sily, pohyb karosérie, stav vozovky)
+**Princíp činnosti:** Otáčaním regulátora sa mení prierez prietokového kanála v tlmiči, čím sa ovplyvňuje rýchlosť prúdenia oleja a tým aj tvrdosť tlmenia.
 
-### Príklady systémov:
-- **CDC** (Continuous Damping Control) - Opel, GM
-- **DCC** (Dynamic Chassis Control) - VW, Audi, Porsche
-- **MagneRide** - elektromagnetické tlmiče s magnetoreologickou kvapalinou (Audi, Ferrari, Cadillac)
-- **ABC** (Active Body Control) - Mercedes-Benz
-- **PASM** (Porsche Active Suspension Management) - Porsche
+**Použitie:** Športové vozidlá, vozidlá pre motorsport, aftermarket úpravy.
 
-**Výhody tlmenia s reguláciou:**
-- Optimálny komfort a športové vlastnosti v jednom
-- Lepšia stabilita vozidla
-- Vozidlo sa vie prispôsobiť rôznym podmienkam
-- Zníženie náklonu v zákrutách
-- Lepšie tlmenie pri veľkom aj malom zaťažení
+### 2. Poloautomatická regulácia
 
-## Pneumatické pruženie AIRMATIC
+Vodič môže počas jazdy prepínať medzi niekoľkými prednastavenými režimami tlmenia (napr. Comfort, Normal, Sport) pomocou tlačidla v kabíne. Systém následne upraví tlmenie na všetkých kolesách.
 
-AIRMATIC je systém pneumatického pruženia s adaptívnym tlmením od Mercedes-Benz. Kombinuje vzduchové pružiny s elektronicky riadenými tlmičmi.
+**Princíp činnosti:** Elektromagnetické ventily v tlmičoch menia prierez prietokových kanálov podľa zvoleného režimu. Riadiaca jednotka aktivuje príslušné ventily na základe voľby vodiča.
 
-{{< figure src="airmatic.jpg" alt="Systém pneumatického pruženia AIRMATIC" width="60%" caption="Obr. 11.32 - Systém pneumatického pruženia AIRMATIC" >}}
+**Použitie:** Stredná a vyššia trieda vozidiel s voliteľným športovým podvozkom.
 
-### Konštrukcia systému
+### 3. Aktívne (adaptívne) tlmenie
 
-**Hlavné komponenty:**
+Riadiaca jednotka automaticky a nepretržite upravuje tlmenie každého kolesa nezávisle na základe údajov zo senzorov. Systém reaguje na aktuálne jazdné podmienky v reálnom čase (niekoľkokrát za sekundu).
 
-1. **Vzduchové pružiny (vaky)**
-   - Na každom kolese
-   - Gumový vak vystužený textilným vláknom
-   - Nahradzujú konvenčné oceľové alebo vinuté pružiny
+**Princíp činnosti:** Snímače monitorujú pohyby karosérie, rýchlosť vozidla, uhol natočenia volantu, polohu plynového a brzdového pedálu. Riadiaca jednotka vyhodnocuje tieto údaje a okamžite upravuje tlmenie pomocou rýchlych elektromagnetických ventilov alebo magnetoreologickej kvapaliny.
 
-2. **Adaptívne tlmiče (ADS - Adaptive Damping System)**
-   - Elektronicky riadené tlmiče
-   - Solenoidové ventily pre reguláciu tlmiacej sily
-   - Integrované so vzduchovou pružinou v jednej jednotke
+**Použitie:** Luxusné vozidlá, športové vozidlá, SUV vyššej triedy.
 
-3. **Kompresor**
-   - Dodáva stlačený vzduch do systému
-   - Poháňaný elektromotorom
-   - Maximálny tlak približne 16-20 bar
+## Technológie adaptívneho tlmenia
 
-4. **Zásobník vzduchu**
-   - Uchováva stlačený vzduch pre rýchlu reguláciu výšky
-   - Znižuje zaťaženie kompresora
+### Tlmiče s elektromagnetickými ventilmi (solenoidové)
 
-5. **Rozvodný blok s ventilmi**
-   - Elektromagnetické ventily pre každé koleso
-   - Riadi tok vzduchu do/z jednotlivých vzduchových pružín
+**Hlavné časti:**
+1. Teleskopický tlmič (zvyčajne jednoplášťový)
+2. Elektromagnetický (solenoidový) ventil
+3. Riadiaca jednotka
+4. Snímače (výšky, zrýchlenia, rýchlosti)
 
-6. **Riadiaca jednotka**
-   - Vyhodnocuje údaje zo senzorov
-   - Riadi kompresor, ventily a tlmiče
-   - Komunikuje s ostatnými systémami vozidla
+**Princíp činnosti:**
 
-7. **Snímače:**
-   - Snímače výšky karosérie (na každom kolese)
-   - Snímače zrýchlenia (priečne, pozdĺžne, vertikálne)
-   - Snímač rýchlosti vozidla
-   - Snímač tlaku v systéme
+Elektromagnetický ventil je umiestnený v pieste tlmiča alebo v jeho tele. Prúd prechádzajúci cievkou ventilu vytvára magnetické pole, ktoré ovláda polohu ihly alebo klapky ventilu. Zmenou prúdu sa mení prierez prietokového otvoru:
+- **Väčší prúd** = menší prierez = tvrdšie tlmenie
+- **Menší prúd** = väčší prierez = mäkšie tlmenie
 
-{{< figure src="airmatic-schema.png" alt="Schéma systému AIRMATIC" width="99%" caption="Obr. 11.33 - Schéma systému AIRMATIC" >}}
+Výhodou je rýchla odozva (niekoľko milisekúnd) a možnosť plynulej regulácie v širokom rozsahu.
 
-### Funkcie systému
+### Magnetoreologické tlmiče (MagneRide)
 
-#### 1. Automatická regulácia výšky
+{{< figure src="magneride.webp" alt="Magnetoreologický tlmič MagneRide" width="70%" caption="Obr. 11.26 - Magnetoreologický tlmič MagneRide" >}}
 
-Systém udržiava konštantnú svetlú výšku vozidla bez ohľadu na zaťaženie:
-- Pri naložení vozidla sa automaticky dopumpuje vzduch do pružín
-- Pri odľahčení sa prebytočný vzduch vypustí
-- Regulácia prebieha nezávisle pre každé koleso
+**Hlavné časti:**
+1. Jednoplášťový tlmič
+2. Magnetoreologická kvapalina (olej s kovovými časticami)
+3. Elektromagnetické cievky v pieste
+4. Riadiaca jednotka
+5. Snímače
 
-#### 2. Automatické zníženie pri vysokej rýchlosti
+**Princíp činnosti:**
 
-Pri prekročení určitej rýchlosti (typicky 120-140 km/h) sa vozidlo automaticky zníži o 15-25 mm:
-- Zníženie ťažiska = lepšia stabilita
-- Zníženie čelnej plochy = lepšia aerodynamika
-- Nižšia spotreba paliva
+Magnetoreologická kvapalina obsahuje mikroskopické kovové častice (železný prášok) rozptýlené v syntetickom oleji. V normálnom stave sa častice voľne pohybujú a kvapalina má nízku viskozitu.
 
-#### 3. Manuálne nastavenie výšky
+Keď elektromagnetická cievka v pieste vytvorí magnetické pole, kovové častice sa zoradia do reťazcov v smere magnetických siločiar. Tieto reťazce vytvárajú odpor proti prúdeniu kvapaliny, čím sa zvyšuje jej zdanlivá viskozita a tým aj tlmiaca sila.
 
-Vodič môže manuálne nastaviť výšku vozidla:
-- **Normálna poloha** - štandardná výška
-- **Zvýšená poloha** - pre jazdu v teréne alebo cez prekážky (zdvih o 25-50 mm)
-- **Znížená poloha** - pre ľahšie nastupovanie/vystupovanie
+- **Bez magnetického poľa** = nízka viskozita = mäkké tlmenie
+- **Silné magnetické pole** = vysoká viskozita = tvrdé tlmenie
 
-#### 4. Adaptívne tlmenie (ADS)
+**Výhody magnetoreologických tlmičov:**
+- Extrémne rýchla odozva (menej ako 1 milisekunda)
+- Žiadne mechanické ventily = vyššia spoľahlivosť
+- Plynulá regulácia v širokom rozsahu
+- Tichá prevádzka
 
-Systém automaticky prispôsobuje tvrdosť tlmičov:
-- Pri pokojnej jazde po rovnej ceste = mäkšie tlmenie (komfort)
-- Pri jazde cez nerovnosti = rýchle prispôsobenie
-- Pri športovej jazde = tvrdšie tlmenie (stabilita)
-- Pri brzdení = tvrdšie predné tlmiče (menší predklon)
-- V zákrutách = tvrdšie vonkajšie tlmiče (menší náklon)
+**Nevýhody magnetoreologických tlmičov:**
+- Vysoká cena kvapaliny aj tlmičov
+- Špeciálna kvapalina vyžaduje pravidelnú výmenu
+- Náročná výroba a údržba
 
-### Jazdné režimy
+## Príklady systémov adaptívneho tlmenia
 
-- **Comfort** - mäkké pruženie a tlmenie, maximálny komfort
-- **Sport** - tvrdšie nastavenie, lepšia odozva, menšie náklony karosérie
-- **Individual** - možnosť nezávislého nastavenia pruženia a tlmenia
-
-### Výhody pneumatického pruženia
-
-- Vynikajúci jazdný komfort
-- Konštantná výška vozidla bez ohľadu na zaťaženie
-- Možnosť zmeny výšky podvozku
-- Kombinácia komfortu a športových vlastností
-- Lepšia aerodynamika pri vysokých rýchlostiach
-- Samostatná regulácia každého kolesa
-
-### Nevýhody pneumatického pruženia
-
-- Vysoká cena (systém aj opravy)
-- Zložitá konštrukcia s mnohými komponentmi
-- Vzduchové vaky majú obmedzenú životnosť (praskliny, netesnosti)
-- Náročná diagnostika a opravy
-- Pri poruche systému môže vozidlo zostať v jednej polohe
-- Vyššia hmotnosť oproti konvenčnému pruženiu
-
-### Použitie
-
-- **Mercedes-Benz:** triedy S, E, GLE, GLS, GLC (ako voliteľná výbava)
-- Luxusné limuzíny a SUV modely
-
-### Podobné systémy iných výrobcov
-
-| Výrobca | Názov systému |
-| --- | --- |
-| Audi | Adaptive Air Suspension |
-| BMW | Air Suspension / Adaptive M Suspension |
-| Land Rover | Electronic Air Suspension (EAS) |
-| Porsche | Porsche Active Suspension Management (PASM) s Air Suspension |
-| Volkswagen | 4-Corner Air Suspension (Touareg) |
+| Výrobca | Názov systému | Technológia |
+| --- | --- | --- |
+| Opel, GM | CDC (Continuous Damping Control) | Solenoidové ventily |
+| VW, Audi, Škoda | DCC (Dynamic Chassis Control) | Solenoidové ventily |
+| Audi, Cadillac, Ferrari, Corvette | MagneRide | Magnetoreologická kvapalina |
+| Mercedes-Benz | ADS (Adaptive Damping System) | Solenoidové ventily |
+| Porsche | PASM (Porsche Active Suspension Management) | Solenoidové ventily |
+| BMW | Adaptive M Suspension | Solenoidové ventily |
+| Volvo | Four-C (Continuously Controlled Chassis Concept) | Solenoidové ventily |
 
 ---
 
@@ -166,5 +107,12 @@ Nasledujúce učivo:
 
 {{< spoiler text="Zdroje" >}}
 - FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
-- https://www.zf.com/products/en/cars/stories/systematic_damping.html
+- ZF Friedrichshafen AG – Systematic Damping: https://www.zf.com/products/en/cars/stories/systematic_damping.html
+- BWI Group – MagneRide Technology: https://www.bwigroup.com/products/magneride
+- Audi Technology Portal – Adaptive Damping: https://www.audi-technology-portal.de/en/chassis/suspension-control-systems
+- Porsche – PASM Technical Information: https://www.porsche.com/international/models/911/911-carrera-models/chassis/
+- Volkswagen – DCC Dynamic Chassis Control: https://www.volkswagen.co.uk/en/technology/chassis.html
+- Capital One – What Are Adaptive Dampers: https://www.capitalone.com/cars/learn/finding-the-right-car/what-are-adaptive-dampers-in-your-car/
+- ISC Suspension – Monotube vs Twin Tube: https://iscsuspension-na.com/resources/informative-articles/monotube-vs-twin-tube-what-is-the-difference-what-is-better/
+- Shock Absorber Pro – Adjustable vs Non-Adjustable: https://shockabsorberpro.com/adjustable-vs-non-adjustable/
 {{< /spoiler >}}

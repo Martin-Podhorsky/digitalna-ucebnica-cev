@@ -11,7 +11,7 @@ Posilňovač riadenia je zariadenie, ktoré znižuje silu potrebnú na otáčani
 
 ## Hydraulický posilňovač riadenia (HPS)
 
-Hydraulický posilňovač riadenia využíva tlak hydraulickej kvapaliny (oleja) na zosilnenie sily, ktorú vodič vyvíja na volant.
+Hydraulický posilňovač riadenia využíva tlak hydraulickej kvapaliny (oleja) na zosílnenie sily, ktorú vodič vyvíja na volant.
 
 ### Hlavné časti:
 
@@ -35,15 +35,15 @@ Pri otáčaní volantu v smere hodiových ručičiek (doprava) sa hlavná páka 
 
 ### Výhody:
 
-- Poskytuje prirodzenejšiu spätnú väzbu z cesty (vodič lepšie cíti povrch) na rozdiel od elektrických posilňovačov (EPS), ktoré môžu pôsobiť umelo.
-- Má nižšie výrobné náklady a jednoduchšiu konštrukciu v porovnaní s modernými elektronickými systémami.
-- Dokáže vyvinúť veľmi veľkú pomocnú silu, čo je výhoda pri ťažkých nákladných vozidlách oproti bežným systémom EPS.
+- **Prirodzená spätná väzba:** Tento posilňovač poskytuje prirodzenejšiu spätnú väzbu z cesty (vodič lepšie cíti povrch) na rozdiel od elektrických posilňovačov (EPS), ktoré môžu pôsobiť umelo.
+- **Nižšie výrobné náklady:** Má jednoduchšiu konštrukciu a tým pádom je aj lacnejší na výrobu a prípadnú opravu v porovnaní s elektronickými posilňovačmi.
+- **Veľká sila:** Posilňovač dokáže vyvinúť veľmi veľkú pomocnú silu, čož je výhodou pri ťažkých nákladných vozidlách oproti bežným elektronickým posilňovačom.
 
 ### Nevýhody:
 
-- Má vyššiu spotrebu paliva na rozdiel od EPS, pretože hydraulické čerpadlo beží neustále a zaťažuje motor.
-- Vyžaduje pravidelnú údržbu a hrozí riziko úniku kvapaliny, čo pri EPS odpadá.
-- Posilňovač je nefunkčný pri vypnutom motore (napr. pri ťahaní vozidla), na rozdiel od EPS.
+- **Záťaž motora** Hydraulické čerpadlo beží neustále (aj keď nie je potrebné) a zaťažuje motor.
+- **Údržba:** Hydraulika vyžaduje pravidelnú údržbu, pretože hrozí riziko úniku kvapaliny.
+- **Závislosť od chodu motora:** Posilňovač je nefunkčný pri vypnutom motore (napr. pri ťahaní vozidla) a jeho účinok sa môže meniť v závislosti od otáčok motora, keďže ním je poháňané čerpadlo.
 
 ### Použitie
 
@@ -55,14 +55,14 @@ EHPS kombinuje prvky hydraulického a elektrického systému. Namiesto čerpadla
 
 ### Výhody:
 
-- Šetrí palivo v porovnaní s klasickým HPS, pretože elektrické čerpadlo nezaťažuje motor
-- Účinok posilňovača je nezávislý od otáčok motora na rozdiel od mechanického HPS.
-- Umožňuje jednoduchšiu reguláciu sily posilňovania pomocou elektroniky v porovnaní s HPS.
+- **Nezaťažuje motor:** Elektrické čerpadlo má samostatný pohon.
+- **Nezávislosť od motora:** Účinok a fungovanie posilňovača nie je nezávislý od otáčok motora na rozdiel od HPS.
+- **Regulácia:** Tento posilňovač umožňuje jednoduchšiu reguláciu sily posilňovania pomocou regulácie elektronického čerpadla (čo pri HPS nie je možné).
 
 ### Nevýhody:
 
-- Systém stále vyžaduje hydraulický okruh a údržbu, na rozdiel od plne elektrického EPS.
-- Konštrukcia je zložitejšia (kombinuje hydrauliku a elektroniku) v porovnaní s jednoduchším HPS alebo EPS.
+- **Údržba** Systém stále má hydraulický okruh, ktorý vyžaduje údržbu.
+- **Zložitejšia konštrukcia:** Kombinácia hydrauliky a elektroniky robí systém zložitejším a viac náchylným na poruchy v porovnaní s jednoduchšími HPS alebo EPS.
 
 ### Použitie:
 
@@ -77,7 +77,7 @@ EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou
 ### Hlavné časti:
 
 - Jednosmerný elektromotor (klasický alebo bezkartáčový) 
-- Riadiaca jednotka (ECU) 
+- Riadiaca jednotka
 - Snímač krútiaceho momentu 
 - Snímač uhla natočenia volantu 
 - Prevodovka elektromotora
@@ -87,7 +87,7 @@ EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou
 1. Snímač krútiaceho momentu meria silu, ktorou vodič pôsobí na volant.
 2. Snímač uhla natočenia určuje polohu a smer otáčania volantu.
 3. Riadiaca jednotka vyhodnocuje údaje zo snímačov a z ďalších systémov vozidla (rýchlosť, otáčky motora).
-4. Na základe vyhodnotenia ECU aktivuje elektromotor, ktorý poskytuje potrebnú pomocnú silu.
+4. Na základe vyhodnotenia riadiaca jednotka aktivuje elektromotor, ktorý poskytuje potrebnú pomocnú silu.
 
 ### Typy EPS podľa umiestnenia elektromotora:
 
@@ -101,23 +101,23 @@ EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou
 
 ### Výhody:
 
-- Je úplne bezúdržbový a nehrozí únik oleja, na rozdiel od hydraulických systémov.
-- Umožňuje integráciu pokročilých asistenčných systémov (LKA, parkovací asistent)
-- Funguje aj pri vypnutom spaľovacom motore, na rozdiel od HPS.
+- **Bezúdržbový:** Elektronický posilňovač riadenia je úplne bezúdržbový a nehrozí u neho únik oleja, na rozdiel od hydraulických systémov.
+- **Asistenčné systémy:** Posiňovač umožňuje integráciu pokročilých asistenčných systémov (LKA, parkovací asistent).
+- **Nezávislosť od motora:** Posilňovanie funguje aj pri vypnutom spaľovacom motore, na rozdiel od HPS.
 
 ### Nevýhody:
 
-- Poskytuje menej prirodzený cit vo volante (spätná väzba) v porovnaní s hydraulickým HPS.
-- Opravy sú nákladnejšie.
-- Má menšiu maximálnu pomocnú silu ako HPS.
+- **Menšia spätná väzba:** Poskytuje menej prirodzený cit vo volante v porovnaní s HPS alebo EHPS.
+- **Cena:** EPS je drahší na výrobu a taktiež aj na prípadné opravy.
+- **Sila:** Má spravidla menšiu maximálnu pomocnú silu ako HPS.
 
 ### Funkcie moderných EPS systémov:
 
-- **Premenlivé posilňovanie podľa rýchlosti** - pri nízkych rýchlostiach (parkovanie) je riadenie ľahké, pri vysokých rýchlostiach tuhšie pre lepšiu stabilitu
-- **Aktívny návrat volantu** do stredovej polohy
-- **Kompenzácia bočného vetra** - automatická korekcia pri nárazoch vetra
-- **Asistent pre udržanie v jazdnom pruhu (LKA)** - jemné korekcie riadenia
-- **Parkovací asistent** - automatické natáčanie volantu pri parkovaní
+- **Premenlivé posilňovanie podľa rýchlosti** -- pri nízkych rýchlostiach (parkovanie) je pomocná sila väčšia (ľahké riadenie), pri vysokých rýchlostiach menšia (tuhšie riadenie pre lepšiu stabilitu).
+- **Aktívny návrat volantu** do stredovej polohy.
+- **Kompenzácia bočného vetra** -- automatická korekcia jazdy pri nárazoch vetra.
+- **Asistent pre udržanie v jazdnom pruhu (LKA)** -- jemné korekcie riadenia.
+- **Parkovací asistent** -- automatické natáčanie volantu pri parkovaní.
 
 ---
 

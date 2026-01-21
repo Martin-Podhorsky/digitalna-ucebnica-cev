@@ -7,7 +7,7 @@ sidebar:
   open: false
 ---
 
-Teleskopický hydraulický tlmič je zariadenie, ktoré tlmí kmity pružín a vibrácie vznikajúce pri jazde po nerovnom povrchu. Jeho hlavnou úlohou je zabezpečiť neustály kontakt kolies s vozovkou, čím zlepšuje ovládateľnosť vozidla, skracuje brzdnú dráhu a zvyšuje komfort jazdy.
+Teleskopický hydraulický tlmič je zariadenie, ktoré tlmí kmity pružín a vibrácie vznikajúce pri jazde po nerovnom povrchu. Jeho hlavnou úlohou je zabezpečiť neustály kontakt kolies s vozovkou a tým zlepšovať ovládateľnosť vozidla, skracovať brzdnú dráhu a zvyšovať komfort jazdy.
 
 ## Teleskopický hydraulický tlmič dvoj-plášťový (twin-tube)
 
@@ -28,25 +28,25 @@ Teleskopický hydraulický tlmič je zariadenie, ktoré tlmí kmity pružín a v
 
 ### Princíp činnosti
 
-Dvojplášťový tlmič sa skladá z dvoch valcov - vnútorného pracovného valca a vonkajšieho zásobníkového valca. Medzi týmito valcami sa nachádza priestor slúžiaci ako zásobník oleja. Pri stláčaní sa piest pohybuje nadol a vytláča hydraulickú kvapalinu cez ventil A z pod piesta nad piest. Pri rozťahovní sa piest pohybuje nahor a kvapalina prúdi cez ventil B z nad piestu pod piest. Ventil B (ten, cez ktorý kvapalina preteká pri rozťahovaní) má spravidla menší prierez alebo väčší tlak potrebný na otvorenie, aby tlmič kládol väčší odpor pri rozťahovaní ako pri stláčaní, čím zachováva pružiaci efekt pružín, ale zároveň bráni ich rozkmitaniu. 
+Dvojplášťový tlmič sa skladá z dvoch valcov - vnútorného pracovného valca a vonkajšieho zásobníkového valca. Medzi týmito valcami sa nachádza priestor slúžiaci ako zásobník oleja. Pri stláčaní sa piest pohybuje nadol a vytláča hydraulickú kvapalinu cez ventil A z pod piesta nad piest. Pri rozťahovní sa piest pohybuje nahor a kvapalina prúdi cez ventil B z priestora nad piestom do priestoru pod piestom. Ventil B (ten, cez ktorý kvapalina preteká pri rozťahovaní) má spravidla menší prierez alebo väčší tlak potrebný na otvorenie, aby tlmič kládol väčší odpor pri rozťahovaní ako pri stláčaní, čím zachováva pružiaci efekt pružín, ale zároveň bráni ich rozkmitaniu. 
 
 Avšak, pri stlačení sa taktiež do pracovného priestoru dostáva väčšia časť piestnice, čo znamená menej miesta pre olej. Olej však nie je stlačiteľný a preto musí niekam ísť. V tomto prípade ide do zásobníka. A naopak, keď ide piest smerom nahor, tento olej je zasa zo zásobníka vysáhavý.
 
-### Výhody
+### Výhody:
 
-- Nižšie výrobné náklady (menej prísne výrobné tolerancie)
-- Komfortnejšia jazda pri nízkych rýchlostiach
-- Menej citlivé na mechanické poškodenie vonkajšieho plášťa
-- Tichšia prevádzka
-- Väčšia tolerancia voči drobným ohybom valca (vonkajší plášť chráni vnútorný)
+- **Nižšie výrobné náklady:** Jednoduchšia konštrukcia s menšími nárokmi na presnosť výroby a kvalitu materiálov v porovnaní s jedno-plášťovými tlmičmi.
+- **Komfortnejšia jazda:** Nižší tlak plynu (vzduch alebo dusík) v zásobníkovej komore vedie k mäkšiemu tlmeniu, čo je príjemnejšie pri bežnej jazde po mestských cestách a diaľniciach.
+- **Tichšia prevádzka:** Vonkajší plášť izoluje vnútorný pracovný valec, čím tlmí hluk vznikajúci pri prúdení oleja cez ventily.
+- **Väčšia odolnosť voči mechanickému poškodeniu:** Vonkajší plášť chráni vnútorný pracovný valec pred nárazmi a drobnými deformáciami. Pri miernom ohnutí vonkajšieho plášťa môže tlmič naďalej fungovať.
+- **Nižšie trenie piestnice:** Nižší vnútorný tlak znamená menšie zaťaženie tesnení piestnice, čo znižuje trenie a opotrebovanie.
 
-### Nevýhody
+### Nevýhody:
 
-- Horšie chladenie (vnútorný valec je izolovaný vonkajším)
-- Náchylnejšie na penenie oleja pri intenzívnom zaťažení (fading)
-- Pomalšia odozva na nerovnosti
-- Možnosť pracovať len pri obmedzenom uhle odklonu od zvislej roviny (max 45°)
-- Pri tom istom priemere pracovného piestu bude tlmič širší ako jedno-plášťový (keďže má ešte vonkajší plášť a zásobníkovú komoru)
+- **Horšie chladenie:** Vnútorný pracovný valec je izolovaný vonkajším plášťom a zásobníkovou komorou, čo zhoršuje odvod tepla do okolia. Pri intenzívnom zaťažení sa olej prehrieva.
+- **Náchylnosť na penenie oleja (fading):** Pri vysokom zaťažení a prehriatí oleja môže dochádzať k miešaniu oleja so vzduchom (aerácia), čo výrazne znižuje tlmiacu schopnosť. Tento jav sa nazýva fading.
+- **Pomalšia odozva na nerovnosti:** Olej musí prúdiť cez viac ventilov a komôr, čo spomaľuje reakciu tlmiča na rýchle zmeny.
+- **Obmedzená montážna poloha:** Tlmič musí byť montovaný v takmer zvislej polohe (maximálne do 45° od zvislice), inak hrozí, že vzduch zo zásobníkovej komory prenikne do pracovného priestoru a zhorší tlmenie.
+- **Väčšie vonkajšie rozmery:** Pri rovnakom priemere pracovného piestu je dvojplášťový tlmič širší, pretože obsahuje navyše vonkajší plášť a zásobníkovú komoru.
 
 ### Použitie
 
@@ -58,7 +58,7 @@ Drvivá väčšina sériovo vyrábaných osobných automobilov, ľahké úžitko
 1 - Plášť<br>
 2 - Piestnica<br>
 3 - Pracovný priestor<br>
-4 - Pružná membrána<br>
+4 - Pružná membrána (alebo plávajúci piest)<br>
 5 - Plynová náplň (dusík pod tlakom 20 až 30 barov)<br>
 6 - Oká na uchytenie<br>
 7 - Tesnenie
@@ -67,23 +67,23 @@ Drvivá väčšina sériovo vyrábaných osobných automobilov, ľahké úžitko
 
 ### Princíp činnosti
 
-Obdobný princíp ako pri dvoj-plášťovom. Namiesto zásobníkovej komory je tu plynová komora z dusíkom, ktorý je stlačiteľný. Ten kompenzuje zmenšenie voľného priestoru pre olej a zároveň drží olej pod neustálym tlakom, čím zamedzuje peneniu oleja aj pri vysokom zaťažení.
+Obdobný princíp, ako pri dvoj-plášťovom. Namiesto zásobníkovej komory je tu plynová komora s dusíkom, ktorý je stlačiteľný. Ten kompenzuje zmenšenie voľného priestoru pre olej a zároveň drží olej pod neustálym tlakom, čím zamedzuje peneniu oleja aj pri vysokom zaťažení.
 
-### Výhody
+### Výhody:
 
-- Lepšie chladenie vďaka priamemu kontaktu pracovného valca s okolitým vzduchom
-- Rýchlejšia a presnejšia odozva na nerovnosti
-- Menšia náchylnosť na penenie oleja vďaka oddelenému plynu
-- Konzistentný tlmiaci výkon aj pri dlhodobom zaťažení
-- Možnosť montáže v ľubovoľnej polohe (aj hore nohami)
-- Väčší priemer piestu pri rovnakých vonkajších rozmeroch
+- **Lepšie chladenie:** Pracovný valec je v priamom kontakte s okolitým vzduchom, vďaka čomu lepši odvádza teplo. Tlmič si tak zachováva stabilný výkon aj pri dlhodobom intenzívnom zaťažení.
+- **Rýchlejšia a presnejšia odozva:** Olej je pod neustálym tlakom stlačeného plynu, čo zabezpečuje okamžitú reakciu na nerovnosti bez oneskorenia spôsobeného prúdením oleja cez jednocestné ventily.
+- **Odolnosť voči peneniu oleja:** Plyn a olej sú oddelené pružnou membránou (alebo plávajúcim piestom), čo zabraňuje ich miešaniu. Olej je navyše pod tlakom, čo eliminuje vznik vzduchových bublín aj pri extrémnom zaťažení.
+- **Možnosť montáže v ľubovoľnej polohe:** Vďaka oddeleniu plynu od oleja môže byť tlmič namontovaný v akomkoľvek uhle, dokonca aj hore nohami (inverzná montáž), čo poskytuje väčšiu flexibilitu pri návrhu zavesenia.
+- **Väčší priemer piestu:** Pri rovnakých vonkajších rozmeroch má jedno-plášťový tlmič väčší pracovný piest, čo umožňuje presnejšie a jemnejšie tlmenie s väčším rozsahom nastavenia.
+- **Dlhšia životnosť pri náročnom použití:** Lepšie chladenie a odolnosť voči fadingu znamenajú menšie opotrebovanie oleja a tesnení pri športovej alebo terénnej jazde.
 
-### Nevýhody
+### Nevýhody:
 
-- Vyššie výrobné náklady
-- Citlivejšie na poškodenie (pri ohnutí valca prestane fungovať)
-- Tvrdší pocit z jazdy pri nízkych rýchlostiach
-- Vyšší tlak plynu môže prenášať viac vibrácií do karosérie
+- **Vyššie výrobné náklady:** Konštrukcia vyžaduje presnejšiu výrobu, kvalitnejšie materiály a lepšie tesnenia schopné udržať vysoký tlak plynu (20-30 barov).
+- **Citlivosť na mechanické poškodenie:** Keďže má tlmič len jeden plášť, akékoľvek vyhnutie alebo preliačenie valca priamo ovplyvní pohyb piestu a tlmič prestane fungovať.
+- **Tvrdší pocit z jazdy:** Vysoký tlak plynu vytvára dodatočnú odpružujúcu silu, čím pridáva pruženiu dodatočnú tuhosť.
+- **Väčší prenos vibrácií:** Vyšší tlak a rýchlejšia odozva môžu prenášať viac drobných vibrácií z vozovky do karosérie, čo znižuje komfort pri bežnej jazde.
 
 ### Použitie
 
@@ -94,14 +94,16 @@ Obdobný princíp ako pri dvoj-plášťovom. Namiesto zásobníkovej komory je t
 | Vlastnosť | Dvojplášťový (twin-tube) | Jednoplášťový (monotube) |
 | --- | --- | --- |
 | Počet plášťov | 2 | 1 |
-| Chladenie | Horšie | Lepšie |
-| Odozva | Pomalšia | Rýchlejšia |
-| Komfort | Mäkší | Tvrdší |
-| Odolnosť voči fadingu | Nižšia | Vyššia |
+| Chladenie | Horšie (izolovaný vnútorný valec) | Lepšie (priamy kontakt s vzduchom) |
+| Odozva na nerovnosti | Pomalšia | Rýchlejšia a presnejšia |
+| Komfort jazdy | Mäkší, tichší | Tvrdší, viac vibrácií |
+| Odolnosť voči fadingu | Nižšia (riziko penenia) | Vyššia (olej pod tlakom) |
 | Výrobné náklady | Nižšie | Vyššie (prísne tolerancie) |
-| Montážna poloha | Obmedzená | Ľubovoľná |
-| Citlivosť na poškodenie | Nižšia | Vyššia |
-| Použitie | Bežné vozidlá | Športové vozidlá |
+| Montážna poloha | Obmedzená (max. 45° od zvislice) | Ľubovoľná (aj inverzná) |
+| Citlivosť na poškodenie | Nižšia (chránený vnútorný valec) | Vyššia (jediný plášť) |
+| Priemer piestu | Menší pri rovnakej šírke | Väčší pri rovnakej šírke |
+| Tlak plynu | Nižší alebo len vzduch | Vysoký (20-30 bar) |
+| Použitie | Bežné vozidlá, komfortná jazda | Športové, terénne, pretekárske vozidlá |
 
 ---
 
@@ -114,4 +116,14 @@ Nasledujúce učivo:
 
 {{< spoiler text="Zdroje" >}}
 - FAKTOR, I., 2003, Cestné vozidlá II. Bratislava: EXPOL PEDAGOGIKA. ISBN 978-80-8091-351-9.
+- KYB Corporation – Monotube and Twin Tube Technical Information: https://www.kyb.com/resources/technical-information/monotube-and-twin-tube/
+- ISC Suspension – Monotube vs Twin Tube: What is the Difference?: https://iscsuspension-na.com/resources/informative-articles/monotube-vs-twin-tube-what-is-the-difference-what-is-better/
+- TEIN Inc. – Twin Tube vs Mono Tube: https://www.tein.co.jp/e/special/ni_toryu/
+- Cruisemaster – Types of Shock Absorbers: https://cruisemaster.com.au/cruisemasterclass/types-of-shock-absorbers/
+- Shock Warehouse – Mono Tube Shock Absorber Advantages: https://www.shockwarehouse.com/blogs/suspension-knowledge/mono-tube-shock-absorber-advantages
+- Godspeed Project – Twin Tube vs Mono Tube: https://godspeedproject.com/twin-tube-vs-mono-tube/
+- Coilovers.com – Monotube vs Twin Tube Guide: https://coilovers.com/blogs/guides/monotube-vs-twin-tube
+- Rancho Performance Suspension – Twin Tube vs Monotube Shocks: https://www.gorancho.com/blogs/rancho-performance-suspension-101/twin-tube-vs-monotube-shocks
+- Autoride.sk – Ako funguje tlmič pruženia: https://autoride.sk/vedel-si-ako-funguje-naco-sluzi-tlmic-pruzenia
+- Shock Absorber Pro – Monotube vs Twin Tube: https://shockabsorberpro.com/monotube-vs-twin-tube/
 {{< /spoiler >}}

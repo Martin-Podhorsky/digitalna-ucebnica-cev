@@ -11,19 +11,19 @@ sidebar:
 
 ### Volant a hriadeľ volantu
 
-Volant je základný ovládací prvok, ktorým vodič určuje smer jazdy. Jeho základ tvorí pevná kovová kostra (najčastejšie z ľahkej hliníkovej alebo horčíkovej zliatiny), na ktorú je nalisovaná vrstva plastu, polyuretánu alebo kože.
+Volant je ovládací prvok, ktorým vodič určuje smer jazdy. Jeho základ tvorí pevná kovová kostra (najčastejšie z ľahkej hliníkovej alebo horčíkovej zliatiny), na ktorú je nalisovaná vrstva plastu, polyuretánu alebo kože.
 
-Z bezpečnostných dôvodov je stred volantu zapustený (umiestnený hlbšie oproti vencu, ktorého sa vodič drží). Tento priestor je vyplnený mäkkým tlmiacim materiálom a v moderných vozidlách v ňom takmer vždy nájdeme airbag. Volanty majú štandardizované rozmery a ich stred s obvodovým vencom spájajú zvyčajne dve alebo tri ramená.
+Z bezpečnostných dôvodov je stred volantu zapustený (umiestnený hlbšie oproti vencu, ktorého sa vodič drží). Tento priestor je vyplnený mäkkým tlmiacim materiálom a v moderných vozidlách v ňom takmer vždy nájdeme airbag. Volanty majú štandardizované rozmery a ich stred s obvodovým vencom spájajú dve alebo tri ramená.
 
-Volant je pevne nasadený na hriadeľ riadenia pomocou jemného drážkovania (tzv. tisíchranu) a zaistený maticou. Hriadeľ spolu s jeho ochranným obalom a kĺbmi tvorí celok, ktorý nazývame stĺpik riadenia.
+Volant je pevne nasadený na hriadeľ riadenia pomocou jemného drážkovania (tzv. tisíchranu) a zaistený maticou. Hriadeľ spolu s jeho ochranným obalom a kĺbmi tvorí celok, ktorý nazývame **stĺpik riadenia**.
 
 Aby sa pri čelnom náraze zabránilo vniknutiu volantu do kabíny a poraneniu vodiča, stĺpik riadenia je navrhnutý ako bezpečnostný prvok:
 - **Deformačné zóny:** Hriadeľ nie je z jedného kusu, ale skladá sa z viacerých častí spojených kardanovými kĺbmi. Pri náraze sa vďaka nim „zalomí“ mimo priestoru vodiča.
-- **Teleskopická funkcia:** Niektoré časti sa pri silnom tlaku do seba zasunú ako ďalekohľad, čím pohltia energiu nárazu.
+- **Teleskopická funkcia:** Niektoré časti sa pri silnom tlaku do seba zasunú, čím pohltia energiu nárazu.
 
 {{< figure src="stlpik-riadenia.png" alt="Zobrazenie rozličných spôsobov konštrukcie bezpečnsotných stĺpikov riadenia" width="25%" caption="Obr. 12.4 - Zobrazenie rozličných spôsobov konštrukcie bezpečnsotných stĺpikov riadenia" >}}
 
-Okrem bezpečnosti moderné stĺpiky riadenia zvyšujú aj komfort – umožňujú vodičovi nastaviť si polohu volantu výškovo aj pozdĺžne.
+Okrem bezpečnosti moderné stĺpiky riadenia zvyšujú aj komfort – umožňujú vodičovi nastaviť si polohu volantu výškovo aj pozdĺžne (bližšie/ďalej od seba).
 
 ### Prevodovka riadenia
 
@@ -61,15 +61,15 @@ Tento systém používa tzv. „červíka“ (závitovku) – špirálu na konci
 
 {{< figure src="worm-and-sector.jpg" alt="Závitovkový mechanizmus" width="40%" caption="Obr. 12.6 - Obrázok závitovkového mechanizmu" >}}
 
-Tieto systémy sú veľmi robustné a odolné, preto sa stále používajú v niektorých ťažších vozidlách, hoci majú menšiu presnosť ako hrebeňové riadenie.
+Tieto systémy sú veľmi odolné, preto sa stále používajú v niektorých ťažších vozidlách, hoci majú menšiu presnosť, ako hrebeňové riadenie.
 
 ***Hrebeňové riadenie***
 
-Toto je dnes **najbežnejší typ riadenia** v osobných autách. Na konci hriadeľa volantu je malé ozubené koleso (pastorok). To zapadá do dlhej ozubenej tyče (hrebeňa). Keď vodič otáča volantom, pastorok sa točí a posúva ozubený hrebeň doľava alebo doprava. Na koncoch hrebeňa sú tyče, ktoré priamo natáčajú kolesá. Celý mechanizmus je uzavretý v ochrannom puzdre a na oboch koncoch chránený gumovými manžetami (prachovkami), ktoré zabraňujú vniknutiu nečistôt a úniku maziva.
+Toto je dnes **najbežnejší typ prevodovky riadenia** v osobných autách. Na konci hriadeľa volantu je malé ozubené koleso (pastorok). To zapadá do dlhej ozubenej tyče (hrebeňa). Keď vodič otáča volantom, pastorok sa točí a posúva ozubený hrebeň doľava alebo doprava. Na koncoch hrebeňa sú tyče, ktoré priamo natáčajú kolesá. Celý mechanizmus je uzavretý v ochrannom puzdre a na oboch koncoch chránený gumovými manžetami (prachovkami), ktoré zabraňujú vniknutiu nečistôt a úniku maziva.
 
 {{< figure src="rack-and-pinion.webp" alt="Hrebeňové riadenie" width="50%" caption="Obr. 12.7 - Obrázok hrebeňového riadenia" >}}
 
-Je obľúbené pre svoju jednoduchosť (má málo súčiastok), presnosť (vodič výborne „cíti cestu") a spoľahlivosť (vôľa v riadení sa automaticky vymedzuje pružinou).
+Je obľúbené pre svoju jednoduchosť, presnosť a spoľahlivosť (vôľa v riadení sa automaticky vymedzuje pružinou).
 
 ***Recirkulačná guľôčková skrutka***
 
@@ -79,7 +79,7 @@ Tento systém je vylepšením maticovej prevodovky a nájdeme ho hlavne v **nák
 
 ***Kombinované prevody***
 
-Existujú aj rôzne špeciálne kombinácie týchto systémov pre špecifické účely (napr. systém ROSS), ktoré kombinujú prvky ako ozubené kolesá, páky a kladky, ale v bežných osobných autách sa s nimi stretnete zriedka.
+Existujú aj rôzne špeciálne kombinácie týchto systémov pre špecifické účely (napr. systém ROSS), ktoré kombinujú prvky, ako ozubené kolesá, páky a kladky, ale v bežných osobných autách sa s nimi stretnete zriedka.
 
 {{< figure src="ross.jpg" alt="Prevodovka riadenia typu ROSS používaná vo vojenských vozidlách" width="60%" caption="Obr. 12.9 - Prevodovka riadenia typu ROSS (používaná vo vojenských vozidlách počas 2. svetovej vojny)" >}}
 

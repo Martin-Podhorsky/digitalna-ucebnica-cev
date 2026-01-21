@@ -29,14 +29,14 @@ Skrutná tyč je dlhý oceľový prút vyrobený z vysokokvalitnej pružinovej o
 
 Jeden koniec torznej tyče sa pevne uchytáva v ráme alebo karosérii vozidla. Druhý koniec je spojený s ramenom zavesenia kolesa. Pri pohybe kolesa nahor sa rameno zavesenia otáča a spôsobuje krútenie (torziu) tyče okolo jej pozdĺžnej osi. Odpor tyče voči tomuto krúteniu vytvára pružinový efekt, ktorý absorbuje energiu nárazu. Po prejazde nerovnosti sa tyč vráti do pôvodnej polohy vďaka svojej elasticite.
 
-## Výhody torzných tyčí:
+## Výhody:
 
 - **Nižšia hmotnosť:** Keďže ide o jednu tyč z pružinovej ocele, systém je ľahší ako zväzok oceľových listov.
 - **Úspora priestoru:** Torzné tyče, najmä pri pozdĺžnom uložení, nezaberajú toľko vertikálneho priestoru ako vinuté pružiny, čo umožňuje nižšiu stavbu vozidla alebo lepšie využitie priestoru pod podlahou.
 - **Spoľahlivosť a jednoduchosť:** Torzná tyč nemá, oproti pneumatickému/hydropneumatickému pruženiu, žiadne vaky, ktoré by mohli prasknúť, ani hadice, ktoré by sa mohli pretrhnúť. Je to jednoduchý mechanický prvok, ktorý funguje aj v extrémnych podmienkach (mráz, prach, blato). Systém má menej súčiastok ako listové alebo vinuté pružiny, čo uľahčuje údržbu.
 - **Jednoduché nastavenie výšky:** Zmenou predpätia tyče pomocou nastavovacej skrutky alebo excentrickej podložky sa dá ľahko upraviť svetlá výška vozidla.
 
-## Nevýhody torzných tyčí:
+## Nevýhody:
 
 - **Lineárna charakteristika:** Na rozdiel od progresívnych vinutých pružín alebo pneumatického pruženia, torzná tyč má lineárnu charakteristiku (jej tuhosť sa nemení v závislosti od zaťaženia). To znamená, že sa horšie prispôsobuje rôznym zaťaženiam - pri ľahkom zaťažení môže byť jazda tvrdšia a pri veľkom zaťažení hrozí väčšie riziko narazenia na doraz.
 - **Obmedzený zdvih:** Rozsah krútenia tyče je pomerne obmedzený, čo obmedzuje zdvih kolesa v porovnaní s vinutými pružinami.
