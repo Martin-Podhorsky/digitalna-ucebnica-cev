@@ -26,7 +26,7 @@ Tento typ brzdového posilňovača využíva na zosílenie podtlak vytvorený v 
 7 - **Piestnica** -- prenáša tlak vytvorený zošliapnutím pedálu vodorovným smerom.<br>
 8 - **Tlačná pružina** -- Tlačí na tanierový ventil, ktorý pri stlačením brzdového pedálu uzatvára podtlakový (prepúšťací) kanál. Zároveň vracia brzdový pedál do pôvodnej polohy po jeho zošliapnutí.<br>
 9 - **Tanierový ventil** -- pri stlačením brzdového pedálu uzatvára podtlakový (prepúšťací) kanál.<br>
-10 - **Podtlakový (prepúšťací) kanál** -- keď je brzdový pedál v základnej pozícii, prepúšťa podtlak z podtlakovej do pracovnej komory. Pri zošliapnutí pedála je tento kanál uzatvorený tanierovým ventilom a do pracovnej komory sa dostáva vzduch s atmosferickým tlakom. Tým pádom je v pracovnej komore väčší tlak, ako v podtlakovej, čím je celý piest tlačený požadovaným smerom.<br>
+10 - **Prepúšťací kanál** -- keď je brzdový pedál v základnej pozícii, prepúšťa podtlak z podtlakovej do pracovnej komory. Pri zošliapnutí pedála je tento kanál uzatvorený tanierovým ventilom a do pracovnej komory sa dostáva vzduch s atmosferickým tlakom. Tým pádom je v pracovnej komore väčší tlak, ako v podtlakovej, čím je celý piest tlačený požadovaným smerom.<br>
 11 - **Atmosferický kanál** -- v základnej pozíci je zablokovaný vložkou ventilu, ktorá je pripevnená ku piestnici. Tá sa pri zošliapnutí brzdového pedála hýbe spolu s piestnicou a otvára tento kanál.<br>
 12 - **Vložka ventilu** -- otvára a zatvára atmosferický kanál a jej širšia časť taktiež udržuje piesticu v požadovanej polohe (ak by tam nebola, piestnica by mohla trieť o tanierový ventil).<br>
 13 - **Čistič** -- zabraňuje vniku nečistôt.<br>

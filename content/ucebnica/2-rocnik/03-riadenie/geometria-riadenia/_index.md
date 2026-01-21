@@ -29,7 +29,7 @@ Správne nastavená geometria kolies zabezpečuje:
 
 ## Zbiehavosť alebo rozbiehavosť kolies
 
-Zbiehavosť alebo rozbiehavosť kolies je rozdiel vzdialeností medzi prednými a zadnými časťami kolies na jednej náprave, meraný v horizontálnej rovine.
+Zbiehavosť alebo rozbiehavosť kolies ($\delta$) je rozdiel vzdialeností medzi prednými a zadnými časťami kolies na jednej náprave, meraný v horizontálnej rovine.
 
 - **Zbiehavosť (toe-in):** Predné časti kolies sú k sebe bližšie ako zadné časti
 - **Rozbiehavosť (toe-out):** Zadné časti kolies sú k sebe bližšie ako predné časti
@@ -53,52 +53,51 @@ Zbiehavosť alebo rozbiehavosť kolies je rozdiel vzdialeností medzi prednými 
 
 ## Odklon kolesa
 
-Odklon kolesa (camber) je uhol medzi rovinou kolesa a zvislicou, meraný pri pohľade spredu alebo zozadu na vozidlo.
+Odklon kolesa ($\alpha$) (camber) je uhol medzi rovinou kolesa a zvislicou, meraný pri pohľade spredu alebo zozadu na vozidlo.
 
 - **Pozitívny odklon:** Horná časť kolesa je naklonená von od vozidla
 - **Negatívny odklon (príklon):** Horná časť kolesa je naklonená dovnútra k vozidlu
 
-{{< figure src="odklon-priklon.jpg" alt="Odklon kolesa ($\alpha$)" width="45%" caption="Obr. 12.15 - Odklon kolesa ($\alpha$)" >}}
+{{< figure src="odklon-priklon.jpg" alt="Odklon kolesa" width="45%" caption="Obr. 12.15 - Odklon kolesa" >}}
 
-Odklon kolesa spôsobuje vznik axiálnej sily, ktorá pôsobí na ložiská kolies a vymedzuje v nich vôľu. Táto sila tiež bráni nežiaducemu kmitaniu kolies.
+Odklon kolesa spôsobuje vznik axiálnej sily, ktorá vymedzuje vôlu v ložiskách a znižuje ich opotrebenie. Táto sila tiež bráni nežiaducemu kmitaniu kolies.
 
 ### Vplyv
+
+**Pozitívny odklon:**
+- Vyskytoval sa u starších áut a nákladiakov - pri naložení vozidla sa kolesá pod váhou vyrovnali do zvislej polohy, čo znižovalo silu potrebnú na otáčanie volantom
+- Pri nadmernom pozitívnom odklone dochádza k opotrebovaniu vonkajšej hrany pneumatiky
 
 **Negatívny odklon (príklon):**
 - Zlepšuje priľnavosť pneumatík v zákrutách, pretože pri náklone karosérie sa vonkajšie koleso (nesúce väčšinu zaťaženia) vyrovná a pneumatika má väčšiu styčnú plochu s vozovkou
 - Pri nadmernom negatívnom odklone sa pneumatika v priamom smere dotýka vozovky len vnútornou hranou, čo zhoršuje brzdenie, akceleráciu a spôsobuje rýchle opotrebovanie vnútornej strany pneumatiky
 - Typická hodnota pre športové vozidlá: -0,5° až -2°
 
-**Pozitívny odklon:**
-- Historicky sa používal na vozidlách bez posilňovača riadenia, pretože znižoval silu potrebnú na otáčanie volantom
-- Pri naložení vozidla sa kolesá pod váhou vyrovnajú do zvislej polohy
-- Pri nadmernom pozitívnom odklone dochádza k opotrebovaniu vonkajšej hrany pneumatiky
-
 ## Príklon osi riadenia
 
-Príklon osi riadenia (SAI - Steering Axis Inclination, tiež KPI - Kingpin Inclination) je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade spredu na vozidlo. Os riadenia je naklonená tak, že jej horná časť smeruje k pozdĺžnej osi vozidla.
+Príklon osi riadenia ($\sigma$) (SAI - Steering Axis Inclination, tiež KPI - Kingpin Inclination) je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade spredu na vozidlo.
 
-{{< figure src="priklon-osi-riadenia.png" alt="Príklon osi riadenia ($\sigma$)" width="100%" caption="Obr. 12.16 - Príklon osi riadenia ($\sigma$)" >}}
+{{< figure src="priklon-osi-riadenia.png" alt="Príklon osi riadenia" width="100%" caption="Obr. 12.16 - Príklon osi riadenia" >}}
 
 ### Vplyv
 
 - Zabezpečuje samovoľné vracanie kolies do priameho smeru po vychýlení, pretože pri natočení kolesa dochádza k miernemu zdvihnutiu prednej časti vozidla, ktoré sa vplyvom gravitácie snaží vrátiť do pôvodnej polohy
-- Zmenšuje polomer riadenia, čím sa znižuje namáhanie riadiacich komponentov
+- Zmenšuje polomer riadenia ($r_0$) (ktorý je jeho výslednicou), čím sa znižuje namáhanie riadiacich komponentov
 - Spolu s odkonom kolesa vytvára tzv. zahrnutý uhol (included angle), ktorý ovplyvňuje stabilitu a opotrebovanie pneumatík
 - Typická hodnota: 5° až 15°
 
 ## Záklon osi riadenia
 
-Záklon osi riadenia (caster) je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade zboku na vozidlo.
+Záklon osi riadenia ($\tau$) (caster) je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade zboku na vozidlo.
 
 - **Pozitívny záklon:** Horná časť osi riadenia je naklonená dozadu (smerom k zadnej časti vozidla)
 - **Negatívny záklon:** Horná časť osi riadenia je naklonená dopredu
 
-{{< figure src="záklon-osi-riadenia.png" alt="Záklon osi riadenia ($\tau$)" width="40%" caption="Obr. 12.17 - Záklon osi riadenia ($\tau$)" >}}
+{{< figure src="záklon-osi-riadenia.png" alt="Záklon osi riadenia" width="40%" caption="Obr. 12.17 - Záklon osi riadenia" >}}
 
 ### Vplyv
 
-- Pozitívny záklon je hlavným faktorom zabezpečujúcim samovoľné vracanie kolies do priameho smeru po vychýlení (podobne ako u nákupného vozíka, kde sa kolieska vždy natočia v smere pohybu)
+- Pozitívny záklon je hlavným faktorom zabezpečujúcim samovoľné vracanie kolies do priameho smeru po vychýlení
 - Zvyšuje stabilitu vozidla pri vyšších rýchlostiach
 - Väčší záklon znamená stabilnejšiu jazdu, ale zároveň vyžaduje väčšiu silu na otáčanie volantom
 - Nesymetrický záklon (rozdielny na ľavej a pravej strane) spôsobuje ťahanie vozidla do strany
@@ -106,54 +105,53 @@ Záklon osi riadenia (caster) je uhol medzi osou otáčania kolesa pri riadení 
 
 ## Závlek kolesa
 
-Závlek kolesa je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná v pozdĺžnom smere vozidla.
+Závlek kolesa ($n_k$) je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná v pozdĺžnom smere vozidla. Závlek je priamym dôsledkom záklonu osi riadenia ($\tau$).
 
-{{< figure src="závlek-kolesa.png" alt="Závlek kolesa ($n_k$)" width="40%" caption="Obr. 12.18 - Závlek kolesa ($n_k$)" >}}
+{{< figure src="závlek-kolesa.png" alt="Závlek kolesa" width="40%" caption="Obr. 12.18 - Závlek kolesa" >}}
 
 ### Vplyv
 
-- Závlek je priamym dôsledkom záklonu osi riadenia
-- Vytvára stabilizačný moment, ktorý vracia koleso do priameho smeru (stred kontaktnej plochy pneumatiky je "ťahaný" za osou riadenia, podobne ako koliesko nákupného vozíka)
-- Väčší závlek znamená väčšiu stabilitu, ale aj väčšiu silu potrebnú na riadenie
+- keďže závlek je priamym dôsledkom záklonu osi riadenia, vplyv je rovnaký
 - Typická hodnota: 10 až 40 mm
 
 ## Polomer riadenia
 
-Polomer riadenia (scrub radius) je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná v priečnom smere vozidla.
+Polomer riadenia ($r_0$) (scrub radius) je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná v priečnom smere vozidla. Polomer riadenia je priamym dôsledkom príklonu osi riadenia ($\sigma$).
 
 {{< figure src="polomer-riadenia.jpg" alt="Polomer riadenia ($r_0$)" width="85%" caption="Obr. 12.19 - Polomer riadenia ($r_0$)" >}}
 
 ### Vplyv
 
 **Pozitívny polomer** (os pretína vozovku bližšie k stredu vozidla ako stred pneumatiky):
-- Poskytuje lepšiu spätnú väzbu z vozovky cez volant
+- Poskytuje lepšiu spätnú väzbu od vozovky cez volant
 - Pri náraze do prekážky alebo defekte pneumatiky môže dôjsť k prudkému vytrhnutiu volantu z rúk
 - Uľahčuje otáčanie volantom pri státí, pretože koleso sa pri natáčaní mierne odvaľuje
 - Pri vozidlách s predným náhonom zosilňuje nežiaduce sily v riadení pri akcelerácii (tzv. torque steer)
 
 **Negatívny polomer** (os pretína vozovku ďalej od stredu vozidla ako stred pneumatiky):
-- Znižuje spätnú väzbu z vozovky
+- Znižuje spätnú väzbu od vozovky
 - Pri rozdielnej intenzite brzdenia ľavého a pravého kolesa (napr. na povrchu s rozdielnou priľnavosťou) automaticky kompenzuje ťahanie vozidla do strany
 - Minimalizuje nežiaduce sily v riadení pri akcelerácii vozidiel s predným náhonom
 - Je štandardom pre moderné vozidlá s predným náhonom a systémom ABS
 
 **Nulový polomer** (os pretína presne stred kontaktnej plochy pneumatiky):
-- Minimálna spätná väzba z vozovky
+- Minimálna spätná väzba od vozovky
 - Sťažené otáčanie volantom pri státí, pretože pneumatika sa otáča okolo jedného bodu
 - Chýba stabilizačný účinok pri brzdení
 
 ## Diferenčný uhol (Ackermannova geometria)
 
-Diferenčný uhol je rozdiel medzi uhlom natočenia vnútorného a vonkajšieho kolesa pri prejazde zákrutou. Vnútorné koleso musí byť natočené o väčší uhol ako vonkajšie, pretože opisuje oblúk s menším polomerom.
+Diferenčný uhol je rozdiel medzi uhlom natočenia vnútorného a vonkajšieho kolesa pri prejazde zákrutou. Vnútorné koleso musí vždy zvierať väčší uhol ako vonkajšie, pretože opisuje oblúk s menším polomerom.
 
 {{< figure src="diferencny-uhol.jpg" alt="Diferenčný uhol (Ackermannova geometria)" width="80%" caption="Obr. 12.20 - Diferenčný uhol (Ackermannova geometria)" >}}
 
 ### Vplyv
 
-- Správny diferenčný uhol zabezpečuje, že obe kolesá sa odvaľujú po kružniciach so spoločným stredom, bez bočného šmyku
-- Zabraňuje nadmernému opotrebovaniu a zahrievaniu pneumatík v zákrutách
+- Správny diferenčný uhol zabezpečuje, že obe kolesá sa odvaľujú rovnomerne bez bočného šmyku
+- Tým pádom zabraňuje nadmernému opotrebeniu a zahrievaniu pneumatík v zákrutách
 - Zmenšuje polomer otáčania vozidla
-- Ackermannova geometria sa dosahuje vhodným sklonom riadiacich ramien (lichobežníkové usporiadanie)
+
+Diferenčný uhol sa dosahuje vhodným sklonom riadiacich ramien (lichobežníkové usporiadanie).
 
 ## Rozchod kolies
 
@@ -163,10 +161,13 @@ Rozchod kolies je vzdialenosť medzi stredmi styčných plôch ľavej a pravej p
 
 ### Vplyv
 
-- Širší rozchod zvyšuje priečnu stabilitu vozidla a znižuje riziko prevrátenia v zákrutách
-- Širší rozchod zlepšuje správanie vozidla pri bočnom vetre
-- Užší rozchod umožňuje lepšiu manévrovateľnosť v úzkych priestoroch
-- Rozchod prednej a zadnej nápravy môže byť rozdielny
+**Široký rozchod:**
+- zvyšuje priečnu stabilitu vozidla a znižuje riziko prevrátenia v zákrutách
+
+**Úzky rozchod:**
+- zlepšuje manévrovateľnosť v úzkych priestoroch (napr. v meste)
+
+Rozchod prednej a zadnej nápravy môže byť rozdielny
 
 ## Rázvor náprav
 

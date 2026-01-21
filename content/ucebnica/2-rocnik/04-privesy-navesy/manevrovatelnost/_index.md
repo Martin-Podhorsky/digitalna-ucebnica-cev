@@ -16,16 +16,16 @@ Manévrovateľnosť súpravy je schopnosť vozidla s prívesom/návesom prechád
 
 ## 2. Vzdialenosť kráľovského čapu od zadnej nápravy (u návesov)
 
-{{< figure src="vzdialenosť-kráľovského-čapu-od-zadnej-nápravy-nákladiaku.png" alt="Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" width="90%" caption="Obr. 13.11 - Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" >}}
+{{< figure src="vzdialenosť-kráľovského-čapu-od-zadnej-nápravy-nákladiaku.png" alt="Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" width="90%" caption="Obr. 13.13 - Vzdialenosť kráľovského čapu od zadnej nápravy nákladiaku" >}}
 
 - Čím **väčšia vzdialenosť**, tým **väčší vlečný uhol** zadnej časti návesu
 - Ovplyvňuje tzv. **off-tracking** (vybočenie zadnej časti z dráhy prednej)
 
 {{< spoiler text="Off-tracking" >}}- jav, kedy zadné kolesá prívesu/návesu nesledujú presnú stopu predných kolies ťažného vozidla, čím sa "zarezávajú" do vnútra zákruty.
 
-{{< figure src="off-tracking-5km.jpg" alt="Off-tracking (vybočenie)" width="60%" caption="Obr. 13.12 - Off-tracking (vybočenie) pri rýchlosti 5 km/h" >}}
+{{< figure src="off-tracking-5km.jpg" alt="Off-tracking (vybočenie)" width="60%" caption="Obr. 13.14 - Off-tracking (vybočenie) pri rýchlosti 5 km/h" >}}
 
-{{< figure src="off-tracking-100km.jpg" alt="Off-tracking (vybočenie)" width="60%" caption="Obr. 13.13 - Off-tracking (vybočenie) pri rýchlosti 5 km/h" >}}
+{{< figure src="off-tracking-100km.jpg" alt="Off-tracking (vybočenie)" width="60%" caption="Obr. 13.15 - Off-tracking (vybočenie) pri rýchlosti 5 km/h" >}}
 
 **Faktory ovplyvňujúce off-tracking:**
 - Dĺžka vozidla medzi nápravami
@@ -36,8 +36,8 @@ Pri projektovaní ciest a parkovísk sa musí počítať s tzv. **vlečnou krivk
 
 ## 3. Typ pripájacieho zariadenia
 
-- **Návesová súprava** (točnica) - lepšia manévrovateľnosť, kratší polomer otáčania
-- **Prívesová súprava** (oje) - príves sleduje stopu ťažného vozidla s oneskorením
+- **Návesová súprava** (točnica) -- lepšia manévrovateľnosť, kratší polomer otáčania
+- **Prívesová súprava** (oj) -- príves sleduje stopu ťažného vozidla s oneskorením
 
 ## 4. Rozloženie hmotnosti nákladu
 
@@ -48,13 +48,13 @@ Pri projektovaní ciest a parkovísk sa musí počítať s tzv. **vlečnou krivk
 ## 5. Počet a usporiadanie náprav
 
 - **Viac náprav** = väčšia nosnosť, ale horšia manévrovateľnosť
-- **Riadené nápravy** (natáčacie) - zlepšujú manévrovateľnosť dlhých súprav
-- **Zdvíhacie nápravy** - možnosť zdvihnúť pri jazde naprázdno
+- **Riadené nápravy** (natáčacie) -- zlepšujú manévrovateľnosť dlhých súprav
+- **Zdvíhacie nápravy** -- možnosť zdvihnúť pri jazde naprázdno
 
 ## 6. Rýchlosť jazdy
 
-- Pri **nízkej rýchlosti** (parkovanie, cúvanie) - rozhoduje geometria súpravy
-- Pri **vysokej rýchlosti** - rozhoduje stabilita a dynamické vlastnosti
+- Pri **nízkej rýchlosti** (parkovanie, cúvanie) -- rozhoduje geometria súpravy
+- Pri **vysokej rýchlosti** -- rozhoduje stabilita a dynamické vlastnosti
 
 ---
 

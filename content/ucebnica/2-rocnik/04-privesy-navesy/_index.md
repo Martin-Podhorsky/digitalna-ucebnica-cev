@@ -43,30 +43,30 @@ Náves je prípojné vozidlo bez prednej nápravy, ktoré sa svojou prednou čas
 ### Podľa účelu použitia:
 
 **Prívesy:**
-- **Nákladné prívesy** - na prepravu tovaru
-- **Traktorové prívesy** - na poľnohospodárske účely
-- **Karavany** (obytné prívesy) - na rekreáciu
-- **Špeciálne prívesy** - preprava strojov, lodí, koní a pod.
-- **Autobusové prívesy** - historicky na prepravu osôb (dnes sa nepoužívajú)
+- **Nákladné prívesy** -- na prepravu tovaru
+- **Traktorové prívesy** -- na poľnohospodárske účely
+- **Karavany** (obytné prívesy) -- na rekreáciu
+- **Špeciálne prívesy** -- preprava strojov, lodí, koní a pod.
+- **Autobusové prívesy** -- historicky na prepravu osôb (dnes sa nepoužívajú)
 
 **Návesy:**
-- **Valníkové** - otvorená ložná plocha s bočnicami
-- **Plachtové (curtainsider)** - s plachtovou nadstavbou, rýchle nakladanie z boku
-- **Skriňové (box)** - uzavretá pevná nadstavba
-- **Cisternové** - na prepravu kvapalín, plynov alebo sypkých materiálov
-- **Chladiace/mraziace (reefer)** - izotermické s chladiacim agregátom
-- **Sklápače (tipper)** - na sypký materiál, hydraulické sklápanie
-- **Nízkoložné (lowboy/lowloader)** - na prepravu ťažkej techniky a strojov
-- **Kontajnerové (container chassis)** - na prepravu ISO kontajnerov
+- **Valníkové** -- otvorená ložná plocha s bočnicami
+- **Plachtové (curtainsider)** -- s plachtovou nadstavbou, rýchle nakladanie z boku
+- **Skriňové (box)** -- uzavretá pevná nadstavba
+- **Cisternové** -- na prepravu kvapalín, plynov alebo sypkých materiálov
+- **Chladiace/mraziace (reefer)** -- izotermické s chladiacim agregátom
+- **Sklápače (tipper)** -- na sypký materiál, hydraulické sklápanie
+- **Nízkoložné (lowboy/lowloader)** -- na prepravu ťažkej techniky a strojov
+- **Kontajnerové (container chassis)** -- na prepravu ISO kontajnerov
 
 {{< figure src="typy-navesov.png" alt="Typy návesov" width="90%" caption="Obr. 13.3 - Typy návesov" >}}
 
 ### Podľa počtu náprav:
 
-- **Jednonápravové** - menšie prívesy, karavany
-- **Dvojnápravové (tandem)** - štandardné návesy
-- **Trojnápravové (tridem)** - ťažké návesy, vyššia nosnosť
-- **Viacnápravové** - špeciálne ťažkotonážne návesy
+- **Jednonápravové** -- menšie prívesy, karavany
+- **Dvojnápravové (tandem)** -- štandardné návesy
+- **Trojnápravové (tridem)** -- ťažké návesy, vyššia nosnosť
+- **Viacnápravové** -- špeciálne ťažkotonážne návesy
 
 ---
 
