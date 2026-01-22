@@ -65,7 +65,7 @@ Pri prudkom znížení otáčok motora (napríklad pri radení na nižší prevo
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="FDR" title="Elektronická kontrola stability (ESP/FDR)" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}
+  {{< card url="/ucebnica/2-rocnik/01-brzdy/FDR" title="Elektronická kontrola stability (ESP/FDR)" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}
 {{< /cards >}}
 
 ---

@@ -39,7 +39,7 @@ Pojem "pruženie a tlmenie vozidla" odkazuje na súbor komponentov, ktoré spáj
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="listove-pruziny" title="Listové pružiny" subtitle="Princíp činnosti, konštrukcia, hlavné časti, výhody a nevýhody...">}}
+  {{< card url="/ucebnica/2-rocnik/02-pruzenie-tlmenie/listove-pruziny" title="Listové pružiny" subtitle="Princíp činnosti, konštrukcia, hlavné časti, výhody a nevýhody...">}}
 {{< /cards >}}
 
 ---

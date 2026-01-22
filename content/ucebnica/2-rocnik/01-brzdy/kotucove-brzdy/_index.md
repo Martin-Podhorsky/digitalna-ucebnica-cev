@@ -101,7 +101,7 @@ Drvivá väčšina sériovo vyrábaných osobných automobilov na prednej aj zad
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="hydraulicky-brzdovy-system" title="Konštrukcia hydraulického brzdového systému" subtitle="Hlavné časti, princíp fungovania, rozdelenie...">}}
+  {{< card url="/ucebnica/2-rocnik/01-brzdy/hydraulicky-brzdovy-system" title="Konštrukcia hydraulického brzdového systému" subtitle="Hlavné časti, princíp fungovania, rozdelenie...">}}
 {{< /cards >}}
 
 ---

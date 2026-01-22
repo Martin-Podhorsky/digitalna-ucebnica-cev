@@ -40,7 +40,5 @@ sections:
     design:
       columns: "1"
       css_class: "text-center about-page-prose"
-      background:
-        color: "white"
 ---
 

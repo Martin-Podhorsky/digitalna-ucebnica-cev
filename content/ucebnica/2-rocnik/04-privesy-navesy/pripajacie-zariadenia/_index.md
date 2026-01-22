@@ -158,7 +158,7 @@ Kráľovský čap:
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="manevrovatelnost" title="Činitele ovplyvňujúce manévrovateľnosť súprav" subtitle="Popis, vplyv...">}}
+  {{< card url="/ucebnica/2-rocnik/04-privesy-navesy/manevrovatelnost" title="Činitele ovplyvňujúce manévrovateľnosť súprav" subtitle="Popis, vplyv...">}}
 {{< /cards >}}
 
 ---

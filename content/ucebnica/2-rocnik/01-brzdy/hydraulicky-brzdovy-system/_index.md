@@ -54,7 +54,7 @@ Ako sme spomínali už v požiadavkách, prevádzková brzda musí mať vždy dv
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="brzdovy-posilnovac" title="Brzdový posilňovač" subtitle="Rozdelenie, hlavné časti, princíp fungovania, vlastnosti...">}}
+  {{< card url="/ucebnica/2-rocnik/01-brzdy/brzdovy-posilnovac" title="Brzdový posilňovač" subtitle="Rozdelenie, hlavné časti, princíp fungovania, vlastnosti...">}}
 {{< /cards >}}
 
 ---

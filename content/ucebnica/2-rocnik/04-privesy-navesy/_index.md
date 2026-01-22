@@ -110,7 +110,7 @@ Maximálne povolené rozmery vozidiel sú stanovené európskou legislatívou (S
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="pripajacie-zariadenia" title="Pripájacie zariadenia prívesov a návesov" subtitle="Rozdelenie, typy, konštrukcia, postupy pri pripájaní a odpájaní...">}}
+  {{< card url="/ucebnica/2-rocnik/04-privesy-navesy/pripajacie-zariadenia" title="Pripájacie zariadenia prívesov a návesov" subtitle="Rozdelenie, typy, konštrukcia, postupy pri pripájaní a odpájaní...">}}
 {{< /cards >}}
 
 ---

@@ -44,7 +44,7 @@ V Európskej únii je systém ABS povinnou výbavou všetkých nových osobných
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="ASR" title="Regulácia preklzu kolies (ASR)" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}
+  {{< card url="/ucebnica/2-rocnik/01-brzdy/ASR" title="Regulácia preklzu kolies (ASR)" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}
 {{< /cards >}}
 
 ---

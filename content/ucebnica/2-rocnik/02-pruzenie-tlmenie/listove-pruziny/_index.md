@@ -80,7 +80,7 @@ Listové pružiny sa rozdeľujú podľa rôznych kritérii:
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="vinute-pruziny" title="Vinuté pružiny" subtitle="Parametre ovplyvňujúce vlastnosti pružín, výhody, nevýhody, rozdelenie...">}}
+  {{< card url="/ucebnica/2-rocnik/02-pruzenie-tlmenie/vinute-pruziny" title="Vinuté pružiny" subtitle="Parametre ovplyvňujúce vlastnosti pružín, výhody, nevýhody, rozdelenie...">}}
 {{< /cards >}}
 
 ---

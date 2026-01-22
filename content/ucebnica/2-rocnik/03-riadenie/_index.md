@@ -81,7 +81,7 @@ Riadiaci systém slúži na:
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="mechanizmus-riadenia" title="Mechanizmus Riadenia" subtitle="Typy, konštrukcia, hlavné časti...">}}
+  {{< card url="/ucebnica/2-rocnik/03-riadenie/mechanizmus-riadenia" title="Mechanizmus Riadenia" subtitle="Typy, konštrukcia, hlavné časti...">}}
 {{< /cards >}}
 
 ---

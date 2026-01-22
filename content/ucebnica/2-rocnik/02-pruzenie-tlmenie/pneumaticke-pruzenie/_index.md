@@ -70,7 +70,7 @@ Snímače výšky sledujú polohu karosérie voči kolesám. Keď vozidlo prejde
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="hydropneumaticke-pruzenie" title="Hydropneumatické pruženie" subtitle="Hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}
+  {{< card url="/ucebnica/2-rocnik/02-pruzenie-tlmenie/hydropneumaticke-pruzenie" title="Hydropneumatické pruženie" subtitle="Hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}
 {{< /cards >}}
 
 ---

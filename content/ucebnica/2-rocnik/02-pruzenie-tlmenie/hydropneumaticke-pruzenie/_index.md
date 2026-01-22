@@ -86,7 +86,7 @@ V súčasnosti sa od hydropneumatického pruženia postupne upúšťa kvôli vys
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="gumove-pruzenie" title="Gumové pruženie" subtitle="Výhody, nevýhody, použitie...">}}
+  {{< card url="/ucebnica/2-rocnik/02-pruzenie-tlmenie/gumove-pruzenie" title="Gumové pruženie" subtitle="Výhody, nevýhody, použitie...">}}
 {{< /cards >}}
 
 ---

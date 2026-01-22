@@ -40,7 +40,7 @@ Gumové pruženie využíva elastické vlastnosti gumy (prírodnej alebo synteti
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="/2-rocnik/02-pruzenie-tlmenie/tlmenie/" title="Tlmenie" subtitle="Význam tlmenia, rozdelenie tlmičov...">}}
+  {{< card url="/ucebnica/2-rocnik/02-pruzenie-tlmenie/tlmenie/" title="Tlmenie" subtitle="Význam tlmenia, rozdelenie tlmičov...">}}
 {{< /cards >}}
 
 ---

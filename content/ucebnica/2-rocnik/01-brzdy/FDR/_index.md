@@ -71,7 +71,7 @@ Systém FDR je v Európskej únii povinný od novembra 2011 pre nové modely voz
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="vzduchove-brzdy" title="Vzduchotlakové (strojové) brzdy" subtitle="Konštrukcia, vlastnosti, výhody, nevýhody...">}}
+  {{< card url="/ucebnica/2-rocnik/01-brzdy/vzduchove-brzdy" title="Vzduchotlakové (strojové) brzdy" subtitle="Konštrukcia, vlastnosti, výhody, nevýhody...">}}
 {{< /cards >}}
 
 ---

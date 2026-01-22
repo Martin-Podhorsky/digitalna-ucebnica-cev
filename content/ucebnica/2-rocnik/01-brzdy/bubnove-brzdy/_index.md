@@ -88,7 +88,7 @@ Bubnové brzdy sa rozdeľujú podľa usporiadania čeľustí a ich ovládania na
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="kotucove-brzdy" title="Kotúčové brzdy" subtitle="Konštrukcia, vlastnosti, výhody, nevýhody, rozdelenie...">}}
+  {{< card url="/ucebnica/2-rocnik/01-brzdy/kotucove-brzdy" title="Kotúčové brzdy" subtitle="Konštrukcia, vlastnosti, výhody, nevýhody, rozdelenie...">}}
 {{< /cards >}}
 
 ---

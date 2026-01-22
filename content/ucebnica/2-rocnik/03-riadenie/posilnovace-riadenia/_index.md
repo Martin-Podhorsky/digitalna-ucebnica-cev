@@ -123,7 +123,7 @@ EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="geometria-riadenia" title="Geometria riadenia" subtitle="Definícia, jednotlivé parametre, ich vplyv na jazdné vlastnosti...">}}
+  {{< card url="/ucebnica/2-rocnik/03-riadenie/geometria-riadenia" title="Geometria riadenia" subtitle="Definícia, jednotlivé parametre, ich vplyv na jazdné vlastnosti...">}}
 {{< /cards >}}
 
 ---

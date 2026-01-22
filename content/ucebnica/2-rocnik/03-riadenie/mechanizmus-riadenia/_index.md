@@ -95,7 +95,7 @@ Všetky pohyblivé spoje sú realizované pomocou **guľových čapov**, ktoré 
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="posilnovace-riadenia" title="Posilňovače riadenia" subtitle="Typy, ich konštrukcia, vlastnosti, výhody, nevýhody...">}}
+  {{< card url="/ucebnica/2-rocnik/03-riadenie/posilnovace-riadenia" title="Posilňovače riadenia" subtitle="Typy, ich konštrukcia, vlastnosti, výhody, nevýhody...">}}
 {{< /cards >}}
 
 ---

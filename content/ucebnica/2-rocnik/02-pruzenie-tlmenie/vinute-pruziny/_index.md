@@ -63,7 +63,7 @@ Vinuté pružiny sa rozdeľujú podľa týchto kritérií:
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="skrutne-tyce" title="Skrutné tyče" subtitle="Hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}
+  {{< card url="/ucebnica/2-rocnik/02-pruzenie-tlmenie/skrutne-tyce" title="Skrutné tyče" subtitle="Hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}
 {{< /cards >}}
 
 ---

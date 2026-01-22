@@ -78,7 +78,7 @@ Pri poruche jedného okruhu zostáva druhý plne funkčný. Štvorkanálový och
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="02-pruzenie-tlmenie/_index" title="Pruženie a Tlmenie" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}
+  {{< card url="/ucebnica/2-rocnik/02-pruzenie-tlmenie" title="Pruženie a Tlmenie" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}
 {{< /cards >}}
 
 ---

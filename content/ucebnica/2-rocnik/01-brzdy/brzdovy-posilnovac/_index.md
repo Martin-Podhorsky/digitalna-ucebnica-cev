@@ -64,7 +64,7 @@ Systém vyhodnocuje rýchlosť stláčania brzdového pedála. Pri zistení náh
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="ABS" title="Systém ABS" subtitle="Princíp činnosti, význam, konštrukcia...">}}
+  {{< card url="/ucebnica/2-rocnik/01-brzdy/ABS" title="Systém ABS" subtitle="Princíp činnosti, význam, konštrukcia...">}}
 {{< /cards >}}
 
 ---

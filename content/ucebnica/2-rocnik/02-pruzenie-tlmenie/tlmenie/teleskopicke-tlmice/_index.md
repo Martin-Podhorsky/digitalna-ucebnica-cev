@@ -109,7 +109,7 @@ Obdobný princíp, ako pri dvoj-plášťovom. Namiesto zásobníkovej komory je 
 
 Nasledujúce učivo:
 {{< cards >}}
-  {{< card url="tlmice-s-regulaciou" title="Tlmiče s reguláciou" subtitle="Rozdelenie, rôzne druhy systémov, ich popis, výhody a nevýhody...">}}
+  {{< card url="/ucebnica/2-rocnik/02-pruzenie-tlmenie/tlmenie/tlmice-s-regulaciou" title="Tlmiče s reguláciou" subtitle="Rozdelenie, rôzne druhy systémov, ich popis, výhody a nevýhody...">}}
 {{< /cards >}}
 
 ---
