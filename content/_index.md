@@ -14,7 +14,7 @@ sections:
       text: Všetko z predmetu Cestné vozidlá na jednom mieste dostupné kedykoľvek a kdekoľvek!
       primary_action:
         text: Otvoriť
-        url: ucebnica/
+        url: obsah/
         icon: book-open
       announcement:
         text: "Učebná pomôcka pre predmet"
@@ -47,10 +47,10 @@ sections:
           description: Jednoduchý, prehľadný, dobre-sa-naň-pozerajúci dizajn.
   - block: cta-card
     content:
-      title: "Začni sa učiť s Digitálnou učebnicou Cestných vozidiel už dnes!"
+      title: "Začni sa učiť na predmet Cestné vozidlá už dnes!"
       button:
-        text: Otvoriť učebnicu
-        url: ucebnica/
+        text: Otvoriť obsah
+        url: obsah/
     design:
       card:
         # Card background color (CSS class)

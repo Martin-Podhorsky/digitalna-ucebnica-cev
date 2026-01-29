@@ -31,7 +31,7 @@ sections:
         # Autori
 
         ## Martin Podhorský
-        → vybudovanie a nadizajnovanie učebnice<br>
+        → vybudovanie a nadizajnovanie webovej stránky<br>
         → spísanie učiva pre druhý ročník
 
         ---
