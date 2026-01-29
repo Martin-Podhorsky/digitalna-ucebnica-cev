@@ -5,8 +5,8 @@ main:
   - name: Domov
     url: /
     weight: 10
-  - name: Učebnica
-    url: ucebnica/
+  - name: Obsah
+    url: obsah/
     weight: 20
   - name: O projekte
     url: o-projekte/

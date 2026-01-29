@@ -12,7 +12,7 @@ sections:
   - block: hero
     content:
       title: "O projekte"
-      text: "Digitálna učebnica Cestných vozidiel"
+      text: "Digitálna učebná pomôcka pre predmet Cestné vozidlá"
     design:
       background:
         color: ""
@@ -26,7 +26,7 @@ sections:
       title: ""
       subtitle: ""
       text: |
-        Táto učebnica bola vytvorená žiakmi Strednej priemyselnej školy dopravnej v Trnave ako projekt Stredoškolskej odbornej činnosti (SOČ).
+        Táto učebná pomôcka bola vytvorená žiakmi Strednej priemyselnej školy dopravnej v Trnave ako projekt Stredoškolskej odbornej činnosti (SOČ).
         
         # Autori
 

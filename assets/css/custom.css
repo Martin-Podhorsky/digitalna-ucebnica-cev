@@ -66,6 +66,18 @@ html {
   color: #ffffff !important;
 }
 
+/* Hero announcement badge: white and bold (theme-independent) */
+#section-hero .rounded-full {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  --tw-ring-color: #ffffff !important;
+  font-weight: 700 !important;
+}
+#section-hero .rounded-full span {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
 /*
  * Typography: custom display font + modular type scale (Major Third ~1.25)
  * Scope: homepage sections (hero, features, cta-card) to avoid global impact

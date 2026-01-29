@@ -130,7 +130,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: "Digitálna učebnica Cestných vozidiel"
+    title: "Digitálna učebná pomôcka pre CEV"
     # For local_business identity type only
     location:
       address:

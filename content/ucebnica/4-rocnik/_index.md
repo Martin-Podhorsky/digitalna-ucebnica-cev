@@ -1,6 +1,6 @@
 ---
-linkTitle: 4. Ročník
-title: 4. Ročník
+linkTitle: 4. ročník
+title: 4. ročník
 type: docs
 weight: 4
 sidebar:

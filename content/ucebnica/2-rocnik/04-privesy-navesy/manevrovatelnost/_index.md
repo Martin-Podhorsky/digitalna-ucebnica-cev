@@ -60,8 +60,8 @@ Pri projektovaní ciest a parkovísk sa musí počítať s tzv. **vlečnou krivk
 
 Koniec učiva druhého ročníka. Vyber si, kam chceš ísť ďalej:
 {{< cards >}}
-  {{< card url="/ucebnica/3-rocnik" title="3. Ročník" subtitle="Rozdelenie spaľovacích motorov, ich konštrukcia, pevné časti, kľukový a rozvodový mechanizmus...">}}
-  {{< card url="/ucebnica/2-rocnik" title="2. Ročník" subtitle="Brzdy, pruženie a tlmenie, riadenie vozidiel, prívesy a návesy..." >}}
+  {{< card url="/ucebnica/3-rocnik" title="3. ročník" subtitle="Rozdelenie spaľovacích motorov, ich konštrukcia, pevné časti, kľukový a rozvodový mechanizmus...">}}
+  {{< card url="/ucebnica/2-rocnik" title="2. ročník" subtitle="Brzdy, pruženie a tlmenie, riadenie vozidiel, prívesy a návesy..." >}}
 {{< /cards >}}
 
 ---

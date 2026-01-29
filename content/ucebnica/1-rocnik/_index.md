@@ -1,6 +1,6 @@
 ---
-linkTitle: 1. Ročník
-title: 1. Ročník
+linkTitle: 1. ročník
+title: 1. ročník
 type: docs
 weight: 1
 sidebar:
