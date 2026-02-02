@@ -15,26 +15,26 @@ Správne nastavená geometria kolies zabezpečuje:
 - Samovoľné vracanie kolies do priameho smeru po prejazde zákrutou
 
 **Hlavné parametre:**
-1. Zbiehavosť alebo rozbiehavosť kolies ($\delta$)
-2. Odklon kolesa ($\alpha$)
-3. Príklon osi riadenia ($\sigma$)
-4. Záklon osi riadenia ($\tau$)
-5. Závlek kolesa ($n_k$)
-6. Polomer riadenia ($r_0$)
+1. Zbiehavosť alebo rozbiehavosť kolies (δ)
+2. Odklon kolesa (α)
+3. Príklon osi riadenia (σ)
+4. Záklon osi riadenia (τ)
+5. Závlek kolesa (nₖ)
+6. Polomer riadenia (r₀)
 7. Rozchod kolies
 8. Rázvor náprav
 9. Diferenčný uhol (Ackermannova geometria)
 
 ---
 
-## Zbiehavosť alebo rozbiehavosť kolies
+## Zbiehavosť alebo rozbiehavosť kolies (δ)
 
-Zbiehavosť alebo rozbiehavosť kolies ($\delta$) je rozdiel vzdialeností medzi prednými a zadnými časťami kolies na jednej náprave, meraný v horizontálnej rovine.
+Zbiehavosť alebo rozbiehavosť kolies (δ) je rozdiel vzdialeností medzi prednými a zadnými časťami kolies na jednej náprave, meraný v horizontálnej rovine.
 
 - **Zbiehavosť (toe-in):** Predné časti kolies sú k sebe bližšie ako zadné časti
 - **Rozbiehavosť (toe-out):** Zadné časti kolies sú k sebe bližšie ako predné časti
 
-{{< figure src="toe-in-toe-out.png" alt="Zbiehavosť a rozbiehavosť kolies" width="45%" caption="Obr. 12.14 - Zbiehavosť a rozbiehavosť kolies" >}}
+{{< figure src="toe-in-toe-out.png" alt="Zbiehavosť a rozbiehavosť kolies" width="45%" caption="Obr. 12.14 - Zbiehavosť a rozbiehavosť kolies (δ)" >}}
 
 ### Vplyv
 
@@ -51,14 +51,14 @@ Zbiehavosť alebo rozbiehavosť kolies ($\delta$) je rozdiel vzdialeností medzi
 
 **Poznámka:** Zadná náprava má zvyčajne miernu zbiehavosť pre lepšiu stabilitu. Rozbiehavosť na zadnej náprave spôsobuje nestabilitu (pretáčavosť).
 
-## Odklon kolesa
+## Odklon kolesa (α)
 
-Odklon kolesa ($\alpha$) (camber) je uhol medzi rovinou kolesa a zvislicou, meraný pri pohľade spredu alebo zozadu na vozidlo.
+Odklon kolesa (α) je uhol medzi rovinou kolesa a zvislicou, meraný pri pohľade spredu alebo zozadu na vozidlo.
 
 - **Pozitívny odklon:** Horná časť kolesa je naklonená von od vozidla
 - **Negatívny odklon (príklon):** Horná časť kolesa je naklonená dovnútra k vozidlu
 
-{{< figure src="odklon-priklon.jpg" alt="Odklon kolesa" width="45%" caption="Obr. 12.15 - Odklon kolesa" >}}
+{{< figure src="odklon-priklon.jpg" alt="Odklon kolesa" width="45%" caption="Obr. 12.15 - Odklon kolesa (α)" >}}
 
 Odklon kolesa spôsobuje vznik axiálnej sily, ktorá vymedzuje vôlu v ložiskách a znižuje ich opotrebenie. Táto sila tiež bráni nežiaducemu kmitaniu kolies.
 
@@ -73,27 +73,27 @@ Odklon kolesa spôsobuje vznik axiálnej sily, ktorá vymedzuje vôlu v ložisk�
 - Pri nadmernom negatívnom odklone sa pneumatika v priamom smere dotýka vozovky len vnútornou hranou, čo zhoršuje brzdenie, akceleráciu a spôsobuje rýchle opotrebovanie vnútornej strany pneumatiky
 - Typická hodnota pre športové vozidlá: -0,5° až -2°
 
-## Príklon osi riadenia
+## Príklon osi riadenia (σ)
 
-Príklon osi riadenia ($\sigma$) (SAI - Steering Axis Inclination, tiež KPI - Kingpin Inclination) je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade spredu na vozidlo.
+Príklon osi riadenia (σ) je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade spredu na vozidlo.
 
-{{< figure src="priklon-osi-riadenia.png" alt="Príklon osi riadenia" width="100%" caption="Obr. 12.16 - Príklon osi riadenia" >}}
+{{< figure src="priklon-osi-riadenia.png" alt="Príklon osi riadenia" width="100%" caption="Obr. 12.16 - Príklon osi riadenia (σ)" >}}
 
 ### Vplyv
 
 - Zabezpečuje samovoľné vracanie kolies do priameho smeru po vychýlení, pretože pri natočení kolesa dochádza k miernemu zdvihnutiu prednej časti vozidla, ktoré sa vplyvom gravitácie snaží vrátiť do pôvodnej polohy
-- Zmenšuje polomer riadenia ($r_0$) (ktorý je jeho výslednicou), čím sa znižuje namáhanie riadiacich komponentov
+- Zmenšuje polomer riadenia (r₀), ktorý je jeho výslednicou, čím sa znižuje namáhanie riadiacich komponentov
 - Spolu s odkonom kolesa vytvára tzv. zahrnutý uhol (included angle), ktorý ovplyvňuje stabilitu a opotrebovanie pneumatík
 - Typická hodnota: 5° až 15°
 
-## Záklon osi riadenia
+## Záklon osi riadenia (τ)
 
-Záklon osi riadenia ($\tau$) (caster) je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade zboku na vozidlo.
+Záklon osi riadenia (τ) je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade zboku na vozidlo.
 
 - **Pozitívny záklon:** Horná časť osi riadenia je naklonená dozadu (smerom k zadnej časti vozidla)
 - **Negatívny záklon:** Horná časť osi riadenia je naklonená dopredu
 
-{{< figure src="záklon-osi-riadenia.png" alt="Záklon osi riadenia" width="40%" caption="Obr. 12.17 - Záklon osi riadenia" >}}
+{{< figure src="záklon-osi-riadenia.png" alt="Záklon osi riadenia" width="40%" caption="Obr. 12.17 - Záklon osi riadenia (τ)" >}}
 
 ### Vplyv
 
@@ -103,22 +103,22 @@ Záklon osi riadenia ($\tau$) (caster) je uhol medzi osou otáčania kolesa pri 
 - Nesymetrický záklon (rozdielny na ľavej a pravej strane) spôsobuje ťahanie vozidla do strany
 - Typická hodnota pre moderné vozidlá: +3° až +8°
 
-## Závlek kolesa
+## Závlek kolesa (nₖ)
 
-Závlek kolesa ($n_k$) je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná v pozdĺžnom smere vozidla. Závlek je priamym dôsledkom záklonu osi riadenia ($\tau$).
+Závlek kolesa (nₖ) je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná v pozdĺžnom smere vozidla. Závlek je priamym dôsledkom záklonu osi riadenia (τ).
 
-{{< figure src="závlek-kolesa.png" alt="Závlek kolesa" width="40%" caption="Obr. 12.18 - Závlek kolesa" >}}
+{{< figure src="závlek-kolesa.png" alt="Závlek kolesa" width="40%" caption="Obr. 12.18 - Závlek kolesa (nₖ)" >}}
 
 ### Vplyv
 
 - keďže závlek je priamym dôsledkom záklonu osi riadenia, vplyv je rovnaký
 - Typická hodnota: 10 až 40 mm
 
-## Polomer riadenia
+## Polomer riadenia (r₀)
 
-Polomer riadenia ($r_0$) (scrub radius) je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná v priečnom smere vozidla. Polomer riadenia je priamym dôsledkom príklonu osi riadenia ($\sigma$).
+Polomer riadenia (r₀) je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná v priečnom smere vozidla. Polomer riadenia je priamym dôsledkom príklonu osi riadenia (σ).
 
-{{< figure src="polomer-riadenia.jpg" alt="Polomer riadenia ($r_0$)" width="85%" caption="Obr. 12.19 - Polomer riadenia ($r_0$)" >}}
+{{< figure src="polomer-riadenia.jpg" alt="Polomer riadenia (r₀)" width="85%" caption="Obr. 12.19 - Polomer riadenia (r₀)" >}}
 
 ### Vplyv
 
