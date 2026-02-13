@@ -1,0 +1,42 @@
+<div id="test-config" class="test-config-container">
+  <div class="test-config-card">
+    <div class="test-config-header">
+      <div class="test-config-field">
+        <label for="time-limit">Časový limit (min):</label>
+        <input type="number" id="time-limit" min="1" max="120" value="15">
+      </div>
+      <div class="test-config-field">
+        <label for="question-count">Počet otázok:</label>
+        <input type="number" id="question-count" min="1" max="100" value="10">
+      </div>
+    </div>
+    
+    <div class="test-config-topics">
+      <h3>Vyber témy:</h3>
+      <div id="topic-tree" class="topic-tree">
+        <!-- Topic tree will be populated by JavaScript -->
+        <p class="loading-text">Načítavam témy...</p>
+      </div>
+    </div>
+    
+    <button id="start-test" class="test-start-btn" disabled>Spustiť test</button>
+  </div>
+</div>
+
+<div id="test-area" class="test-area" style="display: none;">
+  <div class="test-header">
+    <div class="test-timer" id="test-timer">00:00</div>
+    <div class="test-progress" id="test-progress">Otázka 1 z 10</div>
+  </div>
+  <div id="test-questions" class="test-questions"></div>
+  <button id="submit-test" class="test-submit-btn">Odovzdať test</button>
+</div>
+
+<div id="test-results" class="test-results" style="display: none;">
+  <div class="results-card">
+    <h2>Výsledky testu</h2>
+    <div id="results-score" class="results-score"></div>
+    <div id="results-details" class="results-details"></div>
+    <button id="retry-test" class="test-retry-btn">Skúsiť znova</button>
+  </div>
+</div>

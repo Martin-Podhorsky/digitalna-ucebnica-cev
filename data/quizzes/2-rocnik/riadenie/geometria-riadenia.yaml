@@ -1,0 +1,106 @@
+topic: "Geometria riadenia"
+parent: "Riadenie"
+year: 2
+questions:
+  - id: "geometria-riadenia-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Geometria riadenia\"?"
+    options:
+      - "Riadenie"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Geometria riadenia patrí do celku Riadenie."
+
+  - id: "geometria-riadenia-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Geometria riadenia\"?"
+    options:
+      - "zbiehavosť"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem zbiehavosť."
+
+  - id: "geometria-riadenia-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Geometria riadenia\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "odklon"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Geometria riadenia patrí aj pojem odklon."
+
+  - id: "geometria-riadenia-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: zbiehavosť, odklon, záklon."
+    accepted_answers:
+      - "geometria riadenia"
+      - "Geometria riadenia"
+    explanation: "Správna odpoveď je Geometria riadenia."
+
+  - id: "geometria-riadenia-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Geometria riadenia\"?"
+    options:
+      - "zbiehavosť, záklon"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je zbiehavosť a záklon."
+
+  - id: "geometria-riadenia-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Geometria riadenia\"."
+    accepted_answers:
+      - "zbiehavosť"
+      - "odklon"
+      - "záklon"
+      - "príklon"
+    explanation: "Medzi správne odpovede patria napr. zbiehavosť, odklon, záklon, príklon."
+
+  - id: "geometria-riadenia-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Geometria riadenia\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: riadenie"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti riadenie."
+
+  - id: "geometria-riadenia-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "príklon"
+      - "odklon"
+      - "zapaľovacia sviečka"
+      - "zbiehavosť"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "geometria-riadenia-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Geometria riadenia\" patrí do celku ______."
+    accepted_answers:
+      - "riadenie"
+      - "riadenie"
+    explanation: "Správne doplnenie je Riadenie."
+
+  - id: "geometria-riadenia-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Geometria riadenia\" najvhodnejšia?"
+    options:
+      - "odklon + príklon"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je odklon a príklon."

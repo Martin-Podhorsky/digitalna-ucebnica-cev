@@ -1,0 +1,106 @@
+topic: "Mechanizmus riadenia"
+parent: "Riadenie"
+year: 2
+questions:
+  - id: "mechanizmus-riadenia-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Mechanizmus riadenia\"?"
+    options:
+      - "Riadenie"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Mechanizmus riadenia patrí do celku Riadenie."
+
+  - id: "mechanizmus-riadenia-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Mechanizmus riadenia\"?"
+    options:
+      - "hrebeň"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem hrebeň."
+
+  - id: "mechanizmus-riadenia-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Mechanizmus riadenia\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "prevod"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Mechanizmus riadenia patrí aj pojem prevod."
+
+  - id: "mechanizmus-riadenia-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: hrebeň, prevod, stĺpik."
+    accepted_answers:
+      - "mechanizmus riadenia"
+      - "Mechanizmus riadenia"
+    explanation: "Správna odpoveď je Mechanizmus riadenia."
+
+  - id: "mechanizmus-riadenia-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Mechanizmus riadenia\"?"
+    options:
+      - "hrebeň, stĺpik"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je hrebeň a stĺpik."
+
+  - id: "mechanizmus-riadenia-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Mechanizmus riadenia\"."
+    accepted_answers:
+      - "hrebeň"
+      - "prevod"
+      - "stĺpik"
+      - "tiahla"
+    explanation: "Medzi správne odpovede patria napr. hrebeň, prevod, stĺpik, tiahla."
+
+  - id: "mechanizmus-riadenia-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Mechanizmus riadenia\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: riadenie"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti riadenie."
+
+  - id: "mechanizmus-riadenia-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "tiahla"
+      - "prevod"
+      - "zapaľovacia sviečka"
+      - "hrebeň"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "mechanizmus-riadenia-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Mechanizmus riadenia\" patrí do celku ______."
+    accepted_answers:
+      - "riadenie"
+      - "riadenie"
+    explanation: "Správne doplnenie je Riadenie."
+
+  - id: "mechanizmus-riadenia-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Mechanizmus riadenia\" najvhodnejšia?"
+    options:
+      - "prevod + tiahla"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je prevod a tiahla."

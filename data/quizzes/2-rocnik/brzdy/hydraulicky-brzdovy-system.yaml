@@ -1,0 +1,149 @@
+topic: "Hydraulický brzdový systém"
+parent: "Brzdy"
+year: 2
+questions:
+  - id: "hydraulicky-brzdovy-system-01"
+    type: write
+    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/pedal.png"
+    accepted_answers:
+      - "brzdový pedál"
+
+  - id: "hydraulicky-brzdovy-system-02"
+    type: write
+    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/posilnovac.png"
+    accepted_answers:
+      - "podtlakový brzdový posilňovač"
+      - "podtlakový posilňovač"
+
+  - id: "hydraulicky-brzdovy-system-03"
+    type: write
+    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/valec.png"
+    accepted_answers:
+      - "dvojokruhový brzdový valec"
+      - "hlavný (dvojokruhový) brzdový valec"
+      - "hlavný brzdový valec"
+
+  - id: "hydraulicky-brzdovy-system-04"
+    type: write
+    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/nadrzka.png"
+    accepted_answers:
+      - "nádržka na brzdovú kvapalinu"
+      - "nádržka"
+      - "nádržka brzdovej kvapaliny"
+      - "nádržka na brzdový olej"
+
+  - id: "hydraulicky-brzdovy-system-05"
+    type: write
+    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/predny-okruh.png"
+    accepted_answers:
+      - "okruh predných brzd"
+      - "predný brzdový okruh"
+      - "predný okruh"
+
+  - id: "hydraulicky-brzdovy-system-06"
+    type: write
+    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/zadny-okruh.png"
+    accepted_answers:
+      - "okruh zadných brzd"
+      - "zadný brzdový okruh"
+      - "zadný okruh"
+
+  - id: "hydraulicky-brzdovy-system-07"
+    type: write
+    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/obmedzovac.png"
+    accepted_answers:
+      - "obmedzovač brzdového účinku"
+      - "obmedzovač účinku"
+      - "obmedzovač"
+
+  - id: "hydraulicky-brzdovy-system-08"
+    type: write
+    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/predne-brzdy.png"
+    accepted_answers:
+      - "predné brzdy"
+      - "predné kotúčové brzdy"
+      - "kotúčové brzdy"
+
+  - id: "hydraulicky-brzdovy-system-09"
+    type: single
+    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/zadne-brzdy.png"
+    accepted_answers:
+      - "zadné brzdy"
+      - "zadné bubnové brzdy"
+      - "bubnové brzdy"
+
+  - id: "hydraulicky-brzdovy-system-10"
+    type: single
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/TT.png"
+    accepted_answers:
+      - "TT"
+      - "HH"
+      - "LL"
+      - "HT"
+      - "Diagonálne usporiadanie"
+    correct: 1
+    explanation: "Usporiadanie pripomína tvar písmen TT."
+
+  - id: "hydraulicky-brzdovy-system-11"
+    type: single
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/diagonalne.png"
+    options:
+      - "TT"
+      - "HH"
+      - "LL"
+      - "HT"
+      - "Diagonálne usporiadanie"
+    correct: 5
+    explanation: "Okruhy sú usporiadané diagonálne (uhlopriečky)."
+
+  - id: "hydraulicky-brzdovy-system-12"
+    type: single
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/hh.png"
+    options:
+      - "TT"
+      - "HH"
+      - "LL"
+      - "HT"
+      - "Diagonálne usporiadanie"
+    correct: 2
+    explanation: "Usporiadanie pripomína tvar písmen HH."
+
+  - id: "hydraulicky-brzdovy-system-13"
+    type: single
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/LL.png"
+    options:
+      - "TT"
+      - "HH"
+      - "LL"
+      - "HT"
+      - "Diagonálne usporiadanie"
+    correct: 3
+    explanation: "Usporiadanie pripomína tvar písmen LL."
+
+  - id: "hydraulicky-brzdovy-system-14"
+    type: single
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
+    image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/HT.png"
+    options:
+      - "TT"
+      - "HH"
+      - "LL"
+      - "HT"
+      - "Diagonálne usporiadanie"
+    correct: 4
+    explanation: "Usporiadanie pripomína tvar písmen HT."
+
+ 

@@ -1,0 +1,133 @@
+topic: "ABS"
+parent: "Brzdy"
+year: 2
+questions:
+  - id: "abs-01"
+    type: write
+    question: "Čo znamená skratka ABS?"
+    accepted_answers:
+      - "Anti-lock Braking System"
+      - "Antilock Braking System"
+      - "protiblokovací brzdový systém"
+      - "protiblokovací systém"
+    explanation: "ABS znamená Anti-lock Braking System - protiblokovací brzdový systém."
+
+  - id: "abs-02"
+    type: single
+    question: "Aká je hlavná funkcia systému ABS?"
+    options:
+      - "Zvýšiť brzdnú silu"
+      - "Zabrániť zablokovaniu kolies počas brzdenia"
+      - "Znížiť opotrebenie brzdových doštičiek"
+      - "Automaticky brzdiť pred prekážkou"
+    correct: 1
+    explanation: "ABS zabraňuje zablokovaniu kolies, čím zachováva ovládateľnosť vozidla."
+
+  - id: "abs-03"
+    type: single
+    question: "Čo sa stane, keď sa kolesá počas brzdenia zablokujú?"
+    options:
+      - "Brzdná dráha sa skráti"
+      - "Vozidlo sa stane neovládateľným"
+      - "Brzdy sa prehrejú"
+      - "Spotreba paliva sa zvýši"
+    correct: 1
+    explanation: "Zablokované kolesá strácajú priľnavosť a vodič nemôže zmeniť smer jazdy."
+
+  - id: "abs-04"
+    type: single
+    question: "Ako vodič vníma činnosť systému ABS počas núdzového brzdenia?"
+    options:
+      - "Pedál sa stane tvrdým"
+      - "Pulzovanie brzdového pedála a charakteristický zvuk"
+      - "Pedál klesne na podlahu"
+      - "Nepozná žiadny rozdiel"
+    correct: 1
+    explanation: "Rýchle opakovanie regulácie tlaku spôsobuje pulzovanie pedála a charakteristický zvuk."
+
+  - id: "abs-05"
+    type: write
+    question: "Ako sa nazýva časť systému ABS, ktorá monitoruje rýchlosť otáčania každého kolesa?"
+    accepted_answers:
+      - "snímač otáčok"
+      - "snímače otáčok"
+      - "senzor otáčok"
+      - "senzory otáčok"
+    explanation: "Snímače otáčok sú umiestnené pri každom kolese a posielajú signály riadiacej jednotke."
+
+  - id: "abs-06"
+    type: single
+    question: "Ktorá časť systému ABS vyhodnocuje signály zo snímačov a riadi činnosť systému?"
+    options:
+      - "Hlavný brzdový valec"
+      - "Hydraulická riadiaca jednotka"
+      - "Elektronická riadiaca jednotka (ECU)"
+      - "Brzdový posilňovač"
+    correct: 2
+    explanation: "ECU spracúva údaje zo snímačov a v prípade potreby posiela príkazy na reguláciu tlaku."
+
+  - id: "abs-07"
+    type: single
+    question: "Čo obsahuje hydraulická riadiaca jednotka (HCU) systému ABS?"
+    options:
+      - "Len snímače"
+      - "Elektromagnetické ventily a čerpadlo"
+      - "Len brzdovú kvapalinu"
+      - "Len elektroniku"
+    correct: 1
+    explanation: "HCU obsahuje ventily na reguláciu toku kvapaliny a čerpadlo na jej odčerpávanie."
+
+  - id: "abs-08"
+    type: single
+    question: "Na akom povrchu môže mať vozidlo s ABS dlhšiu brzdnú dráhu ako vozidlo bez ABS?"
+    options:
+      - "Na suchom asfalte"
+      - "Na mokrom asfalte"
+      - "Na štrku, hlbokom snehu alebo ľade"
+      - "Na betóne"
+    correct: 2
+    explanation: "Na sypkých povrchoch ako štrk alebo hlboký sneh je brzdná dráha s ABS dlhšia."
+
+  - id: "abs-09"
+    type: single
+    question: "Od ktorého roku je ABS povinnou výbavou nových osobných automobilov v EÚ?"
+    options:
+      - "1998"
+      - "2000"
+      - "2004"
+      - "2010"
+    correct: 2
+    explanation: "V Európskej únii je ABS povinný pre všetky nové osobné automobily od roku 2004."
+
+  - id: "abs-10"
+    type: single
+    question: "Aká je hlavná výhoda systému ABS pri prudkom brzdení?"
+    options:
+      - "Zníženie hluku"
+      - "Zachovanie ovládateľnosti vozidla"
+      - "Zníženie spotreby paliva"
+      - "Predĺženie životnosti bŕzd"
+    correct: 1
+    explanation: "ABS umožňuje vodičovi meniť smer jazdy aj počas prudkého brzdenia."
+
+  - id: "abs-11"
+    type: write
+    question: "Aký typ snímačov sa najčastejšie používa v systéme ABS na monitorovanie otáčok kolies?"
+    accepted_answers:
+      - "indukčné"
+      - "Hallove"
+      - "indukčné alebo Hallove"
+      - "indukčné snímače"
+      - "Hallove snímače"
+    explanation: "Najčastejšie sa používajú indukčné alebo Hallove snímače otáčok."
+
+  - id: "abs-12"
+    type: single
+    question: "Prečo ABS pomáha znižovať nerovnomerné opotrebenie pneumatík?"
+    options:
+      - "Znižuje teplotu pneumatík"
+      - "Zabraňuje blokovaniu kolies a tým šmyku"
+      - "Zvyšuje tlak v pneumatikách"
+      - "Chladí pneumatiky"
+    correct: 1
+    explanation: "Bez blokovania kolies nedochádza k šmyku, ktorý spôsobuje nerovnomerné opotrebenie."

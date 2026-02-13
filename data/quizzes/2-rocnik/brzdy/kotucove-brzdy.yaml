@@ -1,0 +1,131 @@
+topic: "Kotúčové brzdy"
+parent: "Brzdy"
+year: 2
+questions:
+  - id: "kotucove-01"
+    type: single
+    question: "Aký typ kotúčovej brzdy sa používa vo väčšine sériovo vyrábaných osobných automobilov?"
+    options:
+      - "S pevným strmeňom"
+      - "S plávajúcim (posuvným) strmeňom"
+      - "S viacnásobným piestikom"
+      - "S pneumatickým ovládaním"
+    correct: 1
+    explanation: "Plávajúci (posuvný) strmeň je lacnejší a ľahší, preto sa používa vo väčšine bežných vozidiel."
+
+  - id: "kotucove-02"
+    type: write
+    question: "Ako sa nazývajú časti, ktoré sa pritláčajú na kotúč pri brzdení?"
+    accepted_answers:
+      - "brzdové doštičky"
+      - "brzdové platničky"
+      - "doštičky"
+      - "platničky"
+    explanation: "Brzdové doštičky (platničky) sa pritláčajú na kotúč a vytvárajú trenie."
+
+  - id: "kotucove-03"
+    type: single
+    question: "Ktorá je hlavná výhoda kotúčových bŕzd oproti bubnovým?"
+    options:
+      - "Nižšia cena"
+      - "Lepšie chladenie"
+      - "Vyššia hmotnosť"
+      - "Jednoduchšia integrácia parkovacej brzdy"
+    correct: 1
+    explanation: "Kotúč je voľne vystavený okoliu, čo umožňuje lepšie odvádzanie tepla."
+
+  - id: "kotucove-04"
+    type: single
+    question: "Čo je hlavnou nevýhodou kotúčových bŕzd s pevným strmeňom?"
+    options:
+      - "Nižšia brzdná sila"
+      - "Vyššie výrobné náklady"
+      - "Horšie chladenie"
+      - "Nerovnomerné opotrebenie doštičiek"
+    correct: 1
+    explanation: "Výroba strmeňa s viacerými presne opracovanými otvormi pre piestiky je drahšia."
+
+  - id: "kotucove-05"
+    type: single
+    question: "Kde sa najčastejšie používajú kotúčové brzdy s pevným strmeňom?"
+    options:
+      - "V lacných mestských autách"
+      - "V športových a pretekárskych vozidlách"
+      - "V nákladných automobiloch"
+      - "V autobusoch"
+    correct: 1
+    explanation: "Pevný strmeň poskytuje vyššiu a spoľahlivejšiu brzdnú silu, čo je dôležité pre výkonné vozidlá."
+
+  - id: "kotucove-06"
+    type: write
+    question: "Ako sa nazýva jav, keď brzdy pri prehriatí strácajú brzdný účinok?"
+    accepted_answers:
+      - "fading"
+      - "fadeing"
+      - "fade"
+    explanation: "Fading je dočasné alebo trvalé zníženie brzdného účinku v dôsledku prehriatia."
+
+  - id: "kotucove-07"
+    type: single
+    question: "Koľko piestikov má typicky kotúčová brzda s plávajúcim strmeňom?"
+    options:
+      - "Žiadny"
+      - "Jeden (niekedy dva)"
+      - "Štyri"
+      - "Šesť"
+    correct: 1
+    explanation: "Plávajúci strmeň má zvyčajne jeden piestik, niekedy dva, na jednej strane kotúča."
+
+  - id: "kotucove-08"
+    type: single
+    question: "Prečo sa brzdové doštičky u plávajúceho strmeňa opotrebúvajú nerovnomerne?"
+    options:
+      - "Kvôli zlému chladeniu"
+      - "Kvôli asymetrickému pôsobeniu piestika"
+      - "Kvôli nízkej kvalite materiálu"
+      - "Kvôli vode v systéme"
+    correct: 1
+    explanation: "Piestik tlačí priamo len na jednu doštičku, preto sa táto opotrebúva rýchlejšie."
+
+  - id: "kotucove-09"
+    type: single
+    question: "Čo sa môže stať, ak vodiace čapy plávajúceho strmeňa zhrdzavejú?"
+    options:
+      - "Brzda začne pískať"
+      - "Brzda sa zasekne alebo výrazne zníži brzdná sila"
+      - "Zvýši sa spotreba paliva"
+      - "Kotúč sa rýchlejšie opotrebuje"
+    correct: 1
+    explanation: "Zaseknutie vodiacich čapov vedie k trvalému pribrzďovaniu alebo výraznému zníženiu brzdnej sily."
+
+  - id: "kotucove-10"
+    type: write
+    question: "Ako sa nazýva časť kotúčovej brzdy, ktorá rotuje spoločne s kolesom?"
+    accepted_answers:
+      - "brzdový kotúč"
+      - "kotúč"
+      - "disk"
+      - "brzdový disk"
+    explanation: "Brzdový kotúč je pripevnený ku kolesu a rotuje spoločne s ním."
+
+  - id: "kotucove-11"
+    type: single
+    question: "Ktorá vlastnosť je výhodou kotúčových bŕzd oproti bubnovým?"
+    options:
+      - "Lepšia ochrana pred nečistotami"
+      - "Presnejšie dávkovanie brzdnej sily"
+      - "Nižšia potreba posilňovača"
+      - "Nižšia frekvencia údržby"
+    correct: 1
+    explanation: "Kotúčové brzdy majú brzdný účinok priamo úmerný stlačeniu pedála, čo umožňuje presnejšie dávkovanie."
+
+  - id: "kotucove-12"
+    type: single
+    question: "Prečo je integrácia parkovacej brzdy do kotúčovej brzdy s pevným strmeňom problematická?"
+    options:
+      - "Strmeň je príliš malý"
+      - "Konštrukcia to takmer neumožňuje"
+      - "Kotúč sa príliš zahrieva"
+      - "Brzda je príliš silná"
+    correct: 1
+    explanation: "Konštrukcia pevného strmeňa takmer neumožňuje jednoduchú integráciu mechanizmu parkovacej brzdy."

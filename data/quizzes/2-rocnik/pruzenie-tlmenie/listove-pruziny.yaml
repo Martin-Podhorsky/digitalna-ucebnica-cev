@@ -1,0 +1,106 @@
+topic: "Listové pružiny"
+parent: "Pruženie a tlmenie"
+year: 2
+questions:
+  - id: "listove-pruziny-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Listové pružiny\"?"
+    options:
+      - "Pruženie a tlmenie"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Listové pružiny patrí do celku Pruženie a tlmenie."
+
+  - id: "listove-pruziny-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Listové pružiny\"?"
+    options:
+      - "listy"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem listy."
+
+  - id: "listove-pruziny-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Listové pružiny\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "náprava"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Listové pružiny patrí aj pojem náprava."
+
+  - id: "listove-pruziny-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: listy, náprava, nosnosť."
+    accepted_answers:
+      - "listové pružiny"
+      - "Listové pružiny"
+    explanation: "Správna odpoveď je Listové pružiny."
+
+  - id: "listove-pruziny-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Listové pružiny\"?"
+    options:
+      - "listy, nosnosť"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je listy a nosnosť."
+
+  - id: "listove-pruziny-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Listové pružiny\"."
+    accepted_answers:
+      - "listy"
+      - "náprava"
+      - "nosnosť"
+      - "pružnica"
+    explanation: "Medzi správne odpovede patria napr. listy, náprava, nosnosť, pružnica."
+
+  - id: "listove-pruziny-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Listové pružiny\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: pruženie a tlmenie"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti pruženie a tlmenie."
+
+  - id: "listove-pruziny-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "pružnica"
+      - "náprava"
+      - "zapaľovacia sviečka"
+      - "listy"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "listove-pruziny-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Listové pružiny\" patrí do celku ______."
+    accepted_answers:
+      - "pruženie a tlmenie"
+      - "pruženie a tlmenie"
+    explanation: "Správne doplnenie je Pruženie a tlmenie."
+
+  - id: "listove-pruziny-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Listové pružiny\" najvhodnejšia?"
+    options:
+      - "náprava + pružnica"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je náprava a pružnica."

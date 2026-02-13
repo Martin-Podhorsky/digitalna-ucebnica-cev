@@ -1,0 +1,39 @@
+{{- /* Aggregate all questions from all topics for the test generator */ -}}
+{{- $allQuestions := slice -}}
+{{- $topicTree := dict -}}
+
+{{- /* Walk through all quiz data files */ -}}
+{{- range $yearKey, $yearData := site.Data.quizzes -}}
+  {{- $yearTopics := dict -}}
+  {{- range $parentKey, $parentData := $yearData -}}
+    {{- $parentTopics := dict -}}
+    {{- range $topicKey, $topicData := $parentData -}}
+      {{- if $topicData.questions -}}
+        {{- /* Add topic info to each question */ -}}
+        {{- range $topicData.questions -}}
+          {{- $questionWithMeta := merge . (dict "topicKey" $topicKey "parentKey" $parentKey "yearKey" $yearKey "topicName" $topicData.topic "parentName" $topicData.parent) -}}
+          {{- $allQuestions = $allQuestions | append $questionWithMeta -}}
+        {{- end -}}
+        {{- /* Build topic tree entry */ -}}
+        {{- $parentTopics = merge $parentTopics (dict $topicKey (dict "name" $topicData.topic "count" (len $topicData.questions))) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $parentTopics -}}
+      {{- $yearTopics = merge $yearTopics (dict $parentKey (dict "name" $parentKey "topics" $parentTopics)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $yearTopics -}}
+    {{- $topicTree = merge $topicTree (dict $yearKey (dict "name" $yearKey "parents" $yearTopics)) -}}
+  {{- end -}}
+{{- end -}}
+
+<script type="application/json" id="all-quiz-data">
+{
+  "questions": {{ $allQuestions | jsonify }},
+  "topicTree": {{ $topicTree | jsonify }},
+  "totalCount": {{ len $allQuestions }}
+}
+</script>
+
+{{- /* Load quiz JavaScript */ -}}
+<script src="/js/quiz.js" defer></script>

@@ -1,0 +1,106 @@
+topic: "Teleskopické tlmiče"
+parent: "Tlmenie"
+year: 2
+questions:
+  - id: "teleskopicke-tlmice-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Teleskopické tlmiče\"?"
+    options:
+      - "Tlmenie"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Teleskopické tlmiče patrí do celku Tlmenie."
+
+  - id: "teleskopicke-tlmice-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Teleskopické tlmiče\"?"
+    options:
+      - "monotube"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem monotube."
+
+  - id: "teleskopicke-tlmice-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Teleskopické tlmiče\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "dvojplášť"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Teleskopické tlmiče patrí aj pojem dvojplášť."
+
+  - id: "teleskopicke-tlmice-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: monotube, dvojplášť, piest."
+    accepted_answers:
+      - "teleskopické tlmiče"
+      - "Teleskopické tlmiče"
+    explanation: "Správna odpoveď je Teleskopické tlmiče."
+
+  - id: "teleskopicke-tlmice-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Teleskopické tlmiče\"?"
+    options:
+      - "monotube, piest"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je monotube a piest."
+
+  - id: "teleskopicke-tlmice-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Teleskopické tlmiče\"."
+    accepted_answers:
+      - "monotube"
+      - "dvojplášť"
+      - "piest"
+      - "ventily"
+    explanation: "Medzi správne odpovede patria napr. monotube, dvojplášť, piest, ventily."
+
+  - id: "teleskopicke-tlmice-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Teleskopické tlmiče\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: tlmenie"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti tlmenie."
+
+  - id: "teleskopicke-tlmice-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "ventily"
+      - "dvojplášť"
+      - "zapaľovacia sviečka"
+      - "monotube"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "teleskopicke-tlmice-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Teleskopické tlmiče\" patrí do celku ______."
+    accepted_answers:
+      - "tlmenie"
+      - "tlmenie"
+    explanation: "Správne doplnenie je Tlmenie."
+
+  - id: "teleskopicke-tlmice-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Teleskopické tlmiče\" najvhodnejšia?"
+    options:
+      - "dvojplášť + ventily"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je dvojplášť a ventily."

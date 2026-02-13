@@ -1,0 +1,130 @@
+topic: "Všeobecné informácie o brzdách"
+parent: "Brzdy"
+year: 2
+questions:
+  - id: "vseobecne-info-01"
+    type: single
+    question: "Čo sú to brzdy?"
+    options:
+      - "{doplnit}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "vseobecne-info-02"
+    type: single
+    question: "Brzdy menia energiu _____ na inú energiu?"
+    options:
+      - "{doplnit}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "vseobecne-info-03"
+    type: single
+    question: "Aká je hlavná úloha bŕzd?"
+    options:
+      - "{doplnit}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "vseobecne-info-04"
+    type: single
+    question: "Aké všetky sily pôsobia na automobil pri brzdení?"
+    options:
+      - "{doplnit}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "vseobecne-info-05"
+    type: write
+    question: "Ako sa volá sila, ktorá je zobrazená na obrázku? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/odpor-vzduchu.png"
+    accepted_answers:
+      - "odpor vzduchu"
+      - "vzduchový odpor"
+
+  - id: "vseobecne-info-06"
+    type: write
+    question: "Ako sa volá sila, ktorá je zobrazená na obrázku? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdna-sila.png"
+    accepted_answers:
+      - "brzdná sila"
+      - "sila brzdenia"
+
+  - id: "vseobecne-info-07"
+    type: write
+    question: "Ako sa volá sila, ktorá je zobrazená na obrázku? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/trecia-sila.png"
+    accepted_answers:
+      - "trecia sila"
+      - "sila trenia"
+
+  - id: "vseobecne-info-08"
+    type: write
+    question: "Ako sa volá sila, ktorá je zobrazená na obrázku? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/gravitacna-sila.png"
+    accepted_answers:
+      - "gravitačná sila"
+      - "sila gravitácie"
+
+  - id: "vseobecne-info-09"
+    type: write
+    question: "Ako sa volá sila, ktorá je zobrazená na obrázku? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/zotrvacna-sila.png"
+    accepted_answers:
+      - "zotrvačná sila"
+
+  - id: "vseobecne-info-10"
+    type: single
+    question: "Na aké fázy vieme rozdeliť brzdenie?"
+    options:
+      - "{doplnit}"
+    correct: 0
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "vseobecne-info-11"
+    type: single
+    question: "Podľa akých kritérií vieme brzdy rozdeliť?"
+    options:
+      - "{doplnit}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "vseobecne-info-12"
+    type: single
+    question: "Ako delíme brzdy podľa účelu ich použitia?"
+    options:
+      - "{doplnit}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "vseobecne-info-13"
+    type: single
+    question: "Ako delíme brzdy podľa zdroja energie a jej prenosu?"
+    options:
+      - "{doplnit}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "vseobecne-info-14"
+    type: single
+    question: "Ako delíme brzdy podľa ich konštrukcie?"
+    options:
+      - "{doplnit}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "vseobecne-info-15"
+    type: single
+    question: "Ako delíme brzdy podľa ich konštrukcie?"
+    options:
+      - "{doplnit}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "vseobecne-info-16"
+    type: single
+    question: "Aké sú hlavné požiadavky kladené na brzdový systém?"
+    options:
+      - "{doplnit}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"

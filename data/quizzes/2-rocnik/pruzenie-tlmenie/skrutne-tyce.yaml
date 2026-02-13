@@ -1,0 +1,106 @@
+topic: "Skrutné tyče"
+parent: "Pruženie a tlmenie"
+year: 2
+questions:
+  - id: "skrutne-tyce-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Skrutné tyče\"?"
+    options:
+      - "Pruženie a tlmenie"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Skrutné tyče patrí do celku Pruženie a tlmenie."
+
+  - id: "skrutne-tyce-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Skrutné tyče\"?"
+    options:
+      - "krut"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem krut."
+
+  - id: "skrutne-tyce-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Skrutné tyče\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "tyč"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Skrutné tyče patrí aj pojem tyč."
+
+  - id: "skrutne-tyce-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: krut, tyč, torzia."
+    accepted_answers:
+      - "skrutné tyče"
+      - "Skrutné tyče"
+    explanation: "Správna odpoveď je Skrutné tyče."
+
+  - id: "skrutne-tyce-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Skrutné tyče\"?"
+    options:
+      - "krut, torzia"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je krut a torzia."
+
+  - id: "skrutne-tyce-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Skrutné tyče\"."
+    accepted_answers:
+      - "krut"
+      - "tyč"
+      - "torzia"
+      - "uloženie"
+    explanation: "Medzi správne odpovede patria napr. krut, tyč, torzia, uloženie."
+
+  - id: "skrutne-tyce-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Skrutné tyče\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: pruženie a tlmenie"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti pruženie a tlmenie."
+
+  - id: "skrutne-tyce-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "uloženie"
+      - "tyč"
+      - "zapaľovacia sviečka"
+      - "krut"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "skrutne-tyce-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Skrutné tyče\" patrí do celku ______."
+    accepted_answers:
+      - "pruženie a tlmenie"
+      - "pruženie a tlmenie"
+    explanation: "Správne doplnenie je Pruženie a tlmenie."
+
+  - id: "skrutne-tyce-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Skrutné tyče\" najvhodnejšia?"
+    options:
+      - "tyč + uloženie"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je tyč a uloženie."

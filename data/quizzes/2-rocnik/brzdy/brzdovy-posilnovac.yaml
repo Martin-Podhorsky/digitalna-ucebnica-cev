@@ -1,0 +1,106 @@
+topic: "Brzdový posilňovač"
+parent: "Brzdy"
+year: 2
+questions:
+  - id: "brzdovy-posilnovac-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Brzdový posilňovač\"?"
+    options:
+      - "Brzdy"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Brzdový posilňovač patrí do celku Brzdy."
+
+  - id: "brzdovy-posilnovac-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Brzdový posilňovač\"?"
+    options:
+      - "podtlak"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem podtlak."
+
+  - id: "brzdovy-posilnovac-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Brzdový posilňovač\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "pedál"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Brzdový posilňovač patrí aj pojem pedál."
+
+  - id: "brzdovy-posilnovac-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: podtlak, pedál, pomocná sila."
+    accepted_answers:
+      - "brzdový posilňovač"
+      - "Brzdový posilňovač"
+    explanation: "Správna odpoveď je Brzdový posilňovač."
+
+  - id: "brzdovy-posilnovac-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Brzdový posilňovač\"?"
+    options:
+      - "podtlak, pomocná sila"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je podtlak a pomocná sila."
+
+  - id: "brzdovy-posilnovac-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Brzdový posilňovač\"."
+    accepted_answers:
+      - "podtlak"
+      - "pedál"
+      - "pomocná sila"
+      - "komfort"
+    explanation: "Medzi správne odpovede patria napr. podtlak, pedál, pomocná sila, komfort."
+
+  - id: "brzdovy-posilnovac-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Brzdový posilňovač\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: brzdy"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti brzdy."
+
+  - id: "brzdovy-posilnovac-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "komfort"
+      - "pedál"
+      - "zapaľovacia sviečka"
+      - "podtlak"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "brzdovy-posilnovac-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Brzdový posilňovač\" patrí do celku ______."
+    accepted_answers:
+      - "brzdy"
+      - "brzdy"
+    explanation: "Správne doplnenie je Brzdy."
+
+  - id: "brzdovy-posilnovac-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Brzdový posilňovač\" najvhodnejšia?"
+    options:
+      - "pedál + komfort"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je pedál a komfort."

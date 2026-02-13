@@ -1,0 +1,106 @@
+topic: "Manévrovateľnosť"
+parent: "Prívesy a návesy"
+year: 2
+questions:
+  - id: "manevrovatelnost-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Manévrovateľnosť\"?"
+    options:
+      - "Prívesy a návesy"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Manévrovateľnosť patrí do celku Prívesy a návesy."
+
+  - id: "manevrovatelnost-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Manévrovateľnosť\"?"
+    options:
+      - "off-tracking"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem off-tracking."
+
+  - id: "manevrovatelnost-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Manévrovateľnosť\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "polomer"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Manévrovateľnosť patrí aj pojem polomer."
+
+  - id: "manevrovatelnost-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: off-tracking, polomer, súprava."
+    accepted_answers:
+      - "manévrovateľnosť"
+      - "Manévrovateľnosť"
+    explanation: "Správna odpoveď je Manévrovateľnosť."
+
+  - id: "manevrovatelnost-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Manévrovateľnosť\"?"
+    options:
+      - "off-tracking, súprava"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je off-tracking a súprava."
+
+  - id: "manevrovatelnost-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Manévrovateľnosť\"."
+    accepted_answers:
+      - "off-tracking"
+      - "polomer"
+      - "súprava"
+      - "dráha"
+    explanation: "Medzi správne odpovede patria napr. off-tracking, polomer, súprava, dráha."
+
+  - id: "manevrovatelnost-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Manévrovateľnosť\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: prívesy a návesy"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti prívesy a návesy."
+
+  - id: "manevrovatelnost-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "dráha"
+      - "polomer"
+      - "zapaľovacia sviečka"
+      - "off-tracking"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "manevrovatelnost-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Manévrovateľnosť\" patrí do celku ______."
+    accepted_answers:
+      - "prívesy a návesy"
+      - "prívesy a návesy"
+    explanation: "Správne doplnenie je Prívesy a návesy."
+
+  - id: "manevrovatelnost-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Manévrovateľnosť\" najvhodnejšia?"
+    options:
+      - "polomer + dráha"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je polomer a dráha."

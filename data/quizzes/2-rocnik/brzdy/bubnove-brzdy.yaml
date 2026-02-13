@@ -1,0 +1,184 @@
+topic: "Bubnové brzdy"
+parent: "Brzdy"
+year: 2
+questions:
+  - id: "bubnove-01"
+    type: single
+    question: "Akým spôsobom vzniká brzdná sila pri bubnových brzdách?"
+    options:
+      - "Brzdové doštičky zovierajú rotujúci brzdový kotúč"
+      - "Brzdové čeľuste tlačia na vnútornú stenu rotujúceho brzdového bubna"
+      - "Ocelový pás obopína liatinový bubon umiestnený na hriadeli a zovretím ho brzdí"
+      - "Trením medzi bubnom a brzdnými doštičkami"
+    correct: 2
+    explanation: "{vysvetlenie, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "bubnove-02"
+    type: write
+    question: "Ako sa nazýva táto časť bubnovej brzdy? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/bubnove-brzdy/bubnova-brzda-popis.png"
+    accepted_answers:
+      - "príruba"
+      - "podložka"
+      - "príruba (podložka)"
+
+  - id: "bubnove-03"
+    type: write
+    question: "Ako sa nazýva táto časť bubnovej brzdy? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/bubnove-brzdy/priruba.png"
+    accepted_answers:
+      - "príruba"
+      - "podložka"
+      - "príruba (podložka)"
+
+  - id: "bubnove-04"
+    type: write
+    question: "Ako sa nazýva táto časť bubnovej brzdy? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/bubnove-brzdy/bubon.png"
+    accepted_answers:
+      - "bubon"
+      - "brzdový bubon"
+      - "bubon brzdový"
+      - "bubon brzdy"
+      - "bubon brzdový"
+      - "bubon brzdový"
+
+  - id: "bubnove-05"
+    type: write
+    question: "Ako sa nazýva táto časť bubnovej brzdy? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/bubnove-brzdy/brzdovy-valcek.png"
+    accepted_answers:
+      - "brzdový valček"
+      - "valček brzdový"
+      - "valček brzdy"
+      - "valček brzdový"
+      - "hydraulický brzdový valček"
+      - "hydraulický valček"
+      - "hydraulický valček brzdy"
+      - "hydraulický valček brzdový"
+
+  - id: "bubnove-06"
+    type: write
+    question: "Ako sa nazýva táto časť bubnovej brzdy? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/bubnove-brzdy/vratne-pruziny.png"
+    accepted_answers:
+      - "vratné pružiny"
+      - "pružiny vratné"
+      - "pružiny vratné brzdové"
+      - "pružiny vratné brzdy"
+      - "pružiny vratné brzdové"
+
+  - id: "bubnove-07"
+    type: write
+    question: "Ako sa nazýva táto časť bubnovej brzdy? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/bubnove-brzdy/celuste.png"
+    accepted_answers:
+      - "brzdové čeľuste"
+      - "čeľuste brzdové"
+      - "čeľuste brzdy"
+      - "čeľuste brzdové"
+      - "čeľuste brzdové"
+      - "čeľuste"
+      - "čeluste"
+
+  - id: "bubnove-08"
+    type: write
+    question: "Ako sa nazýva táto časť bubnovej brzdy? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/bubnove-brzdy/oblozenie.png"
+    accepted_answers:
+      - "brzdové obloženie"
+      - "obloženie brzdové"
+      - "obloženie čeľustí"
+      - "obloženie čelustí"
+      - "obloženie brzdových čelustí"
+      - "obloženie brzdových čelustí"
+
+  - id: "bubnove-09"
+    type: write
+    question: "Ako sa nazýva táto časť bubnovej brzdy? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/bubnove-brzdy/nastavovacia-skrutka.png"
+    options:
+      - "nastavovacia skrutka"
+      - "vzpera"
+
+  - id: "bubnove-10"
+    type: write
+    question: "Ako sa nazýva táto časť bubnovej brzdy? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/bubnove-brzdy/misky.png"
+    accepted_answers:
+      - "zaisťovacie misky"
+      - "zaisťovacie súčiastky"
+      - "zaisťovacie prvky"
+      - "zaisťovacie prvky brzdových čelustí"
+      - "zaisťovacie prvky brzdových čeľustí"
+      - "zaisťovacie prvky čelustí"
+      - "zaisťovacie prvky čeľustí"
+      - "fixácia"
+      - "fixácia brzdových čelustí"
+      - "fixácia brzdových čelustí"
+
+  - id: "bubnove-11"
+    type: write
+    question: "Ako sa nazýva táto časť bubnovej brzdy? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/bubnove-brzdy/paka.png"
+    accepted_answers:
+      - "páka parkovacej brzdy"
+      - "páka ručnej brzdy"
+      - "páka mechanizmu parkovacej brzdy"
+      - "páka mechanizmu ručnej brzdy"
+
+  - id: "bubnove-12"
+    type: single
+    question: "Ktorá z možností najviac zodpovedá výhodám bubnových bŕzd?"
+    options:
+      - "{doplniť}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "bubnove-13"
+    type: single
+    question: "Ktorá z možností najviac zodpovedá nevýhodám bubnových bŕzd?"
+    options:
+      - "{doplniť}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "bubnove-14"
+    type: single
+    question: "Ako funguje bubnová brzda typu SIMPLEX?"
+    options:
+      - "{doplniť}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "bubnove-15"
+    type: single
+    question: "Ako funguje bubnová brzda typu DUPLEX?"
+    options:
+      - "{doplniť}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "bubnove-16"
+    type: single
+    question: "Ako funguje bubnová brzda typu SERVO?"
+    options:
+      - "{doplniť}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "bubnove-17"
+    type: single
+    question: "Ako funguje bubnová brzda typu DUO-DUPLEX?"
+    options:
+      - "{doplniť}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+
+  - id: "bubnove-18"
+    type: single
+    question: "Ako funguje bubnová brzda typu DUO-SERVO?"
+    options:
+      - "{doplniť}"
+    correct: 1
+    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"

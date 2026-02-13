@@ -1,0 +1,106 @@
+topic: "FDR"
+parent: "Brzdy"
+year: 2
+questions:
+  - id: "fdr-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"FDR\"?"
+    options:
+      - "Brzdy"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola FDR patrí do celku Brzdy."
+
+  - id: "fdr-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"FDR\"?"
+    options:
+      - "rozdeľovanie sily"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem rozdeľovanie sily."
+
+  - id: "fdr-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"FDR\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "nápravy"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme FDR patrí aj pojem nápravy."
+
+  - id: "fdr-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: rozdeľovanie sily, nápravy, brzdný účinok."
+    accepted_answers:
+      - "fdr"
+      - "FDR"
+    explanation: "Správna odpoveď je FDR."
+
+  - id: "fdr-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"FDR\"?"
+    options:
+      - "rozdeľovanie sily, brzdný účinok"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je rozdeľovanie sily a brzdný účinok."
+
+  - id: "fdr-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"FDR\"."
+    accepted_answers:
+      - "rozdeľovanie sily"
+      - "nápravy"
+      - "brzdný účinok"
+      - "regulácia"
+    explanation: "Medzi správne odpovede patria napr. rozdeľovanie sily, nápravy, brzdný účinok, regulácia."
+
+  - id: "fdr-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"FDR\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: brzdy"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti brzdy."
+
+  - id: "fdr-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "regulácia"
+      - "nápravy"
+      - "zapaľovacia sviečka"
+      - "rozdeľovanie sily"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "fdr-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"FDR\" patrí do celku ______."
+    accepted_answers:
+      - "brzdy"
+      - "brzdy"
+    explanation: "Správne doplnenie je Brzdy."
+
+  - id: "fdr-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"FDR\" najvhodnejšia?"
+    options:
+      - "nápravy + regulácia"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je nápravy a regulácia."

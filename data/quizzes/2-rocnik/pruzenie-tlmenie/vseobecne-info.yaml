@@ -1,0 +1,106 @@
+topic: "Všeobecné informácie o pružení a tlmení"
+parent: "Pruženie a tlmenie"
+year: 2
+questions:
+  - id: "vseobecne-info-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Všeobecné informácie o pružení a tlmení\"?"
+    options:
+      - "Pruženie a tlmenie"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Všeobecné informácie o pružení a tlmení patrí do celku Pruženie a tlmenie."
+
+  - id: "vseobecne-info-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Všeobecné informácie o pružení a tlmení\"?"
+    options:
+      - "komfort"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem komfort."
+
+  - id: "vseobecne-info-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Všeobecné informácie o pružení a tlmení\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "stabilita"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Všeobecné informácie o pružení a tlmení patrí aj pojem stabilita."
+
+  - id: "vseobecne-info-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: komfort, stabilita, pruženie."
+    accepted_answers:
+      - "všeobecné informácie o pružení a tlmení"
+      - "Všeobecné informácie o pružení a tlmení"
+    explanation: "Správna odpoveď je Všeobecné informácie o pružení a tlmení."
+
+  - id: "vseobecne-info-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Všeobecné informácie o pružení a tlmení\"?"
+    options:
+      - "komfort, pruženie"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je komfort a pruženie."
+
+  - id: "vseobecne-info-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Všeobecné informácie o pružení a tlmení\"."
+    accepted_answers:
+      - "komfort"
+      - "stabilita"
+      - "pruženie"
+      - "tlmenie"
+    explanation: "Medzi správne odpovede patria napr. komfort, stabilita, pruženie, tlmenie."
+
+  - id: "vseobecne-info-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Všeobecné informácie o pružení a tlmení\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: pruženie a tlmenie"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti pruženie a tlmenie."
+
+  - id: "vseobecne-info-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "tlmenie"
+      - "stabilita"
+      - "zapaľovacia sviečka"
+      - "komfort"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "vseobecne-info-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Všeobecné informácie o pružení a tlmení\" patrí do celku ______."
+    accepted_answers:
+      - "pruženie a tlmenie"
+      - "pruženie a tlmenie"
+    explanation: "Správne doplnenie je Pruženie a tlmenie."
+
+  - id: "vseobecne-info-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Všeobecné informácie o pružení a tlmení\" najvhodnejšia?"
+    options:
+      - "stabilita + tlmenie"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je stabilita a tlmenie."

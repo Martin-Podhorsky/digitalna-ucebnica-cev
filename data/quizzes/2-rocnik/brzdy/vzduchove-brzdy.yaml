@@ -1,0 +1,106 @@
+topic: "Vzduchové brzdy"
+parent: "Brzdy"
+year: 2
+questions:
+  - id: "vzduchove-brzdy-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Vzduchové brzdy\"?"
+    options:
+      - "Brzdy"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Vzduchové brzdy patrí do celku Brzdy."
+
+  - id: "vzduchove-brzdy-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Vzduchové brzdy\"?"
+    options:
+      - "kompresor"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem kompresor."
+
+  - id: "vzduchove-brzdy-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Vzduchové brzdy\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "vzduch"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Vzduchové brzdy patrí aj pojem vzduch."
+
+  - id: "vzduchove-brzdy-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: kompresor, vzduch, zásobník."
+    accepted_answers:
+      - "vzduchové brzdy"
+      - "Vzduchové brzdy"
+    explanation: "Správna odpoveď je Vzduchové brzdy."
+
+  - id: "vzduchove-brzdy-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Vzduchové brzdy\"?"
+    options:
+      - "kompresor, zásobník"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je kompresor a zásobník."
+
+  - id: "vzduchove-brzdy-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Vzduchové brzdy\"."
+    accepted_answers:
+      - "kompresor"
+      - "vzduch"
+      - "zásobník"
+      - "ventil"
+    explanation: "Medzi správne odpovede patria napr. kompresor, vzduch, zásobník, ventil."
+
+  - id: "vzduchove-brzdy-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Vzduchové brzdy\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: brzdy"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti brzdy."
+
+  - id: "vzduchove-brzdy-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "ventil"
+      - "vzduch"
+      - "zapaľovacia sviečka"
+      - "kompresor"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "vzduchove-brzdy-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Vzduchové brzdy\" patrí do celku ______."
+    accepted_answers:
+      - "brzdy"
+      - "brzdy"
+    explanation: "Správne doplnenie je Brzdy."
+
+  - id: "vzduchove-brzdy-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Vzduchové brzdy\" najvhodnejšia?"
+    options:
+      - "vzduch + ventil"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je vzduch a ventil."

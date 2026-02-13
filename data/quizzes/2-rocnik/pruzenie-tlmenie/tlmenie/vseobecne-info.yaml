@@ -1,0 +1,106 @@
+topic: "Všeobecné informácie o tlmení"
+parent: "Tlmenie"
+year: 2
+questions:
+  - id: "vseobecne-info-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Všeobecné informácie o tlmení\"?"
+    options:
+      - "Tlmenie"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Všeobecné informácie o tlmení patrí do celku Tlmenie."
+
+  - id: "vseobecne-info-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Všeobecné informácie o tlmení\"?"
+    options:
+      - "tlmič"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem tlmič."
+
+  - id: "vseobecne-info-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Všeobecné informácie o tlmení\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "kmitanie"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Všeobecné informácie o tlmení patrí aj pojem kmitanie."
+
+  - id: "vseobecne-info-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: tlmič, kmitanie, olej."
+    accepted_answers:
+      - "všeobecné informácie o tlmení"
+      - "Všeobecné informácie o tlmení"
+    explanation: "Správna odpoveď je Všeobecné informácie o tlmení."
+
+  - id: "vseobecne-info-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Všeobecné informácie o tlmení\"?"
+    options:
+      - "tlmič, olej"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je tlmič a olej."
+
+  - id: "vseobecne-info-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Všeobecné informácie o tlmení\"."
+    accepted_answers:
+      - "tlmič"
+      - "kmitanie"
+      - "olej"
+      - "odpor"
+    explanation: "Medzi správne odpovede patria napr. tlmič, kmitanie, olej, odpor."
+
+  - id: "vseobecne-info-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Všeobecné informácie o tlmení\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: tlmenie"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti tlmenie."
+
+  - id: "vseobecne-info-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "odpor"
+      - "kmitanie"
+      - "zapaľovacia sviečka"
+      - "tlmič"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "vseobecne-info-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Všeobecné informácie o tlmení\" patrí do celku ______."
+    accepted_answers:
+      - "tlmenie"
+      - "tlmenie"
+    explanation: "Správne doplnenie je Tlmenie."
+
+  - id: "vseobecne-info-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Všeobecné informácie o tlmení\" najvhodnejšia?"
+    options:
+      - "kmitanie + odpor"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je kmitanie a odpor."

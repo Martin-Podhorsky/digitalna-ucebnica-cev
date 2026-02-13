@@ -14,7 +14,7 @@ sections:
       text: Všetko z predmetu Cestné vozidlá na jednom mieste dostupné kedykoľvek a kdekoľvek!
       primary_action:
         text: Otvoriť
-        url: obsah/
+        url: ucivo/
         icon: book-open
       announcement:
         text: "Učebná pomôcka pre predmet"
@@ -49,8 +49,8 @@ sections:
     content:
       title: "Začni sa učiť na predmet Cestné vozidlá už dnes!"
       button:
-        text: Otvoriť obsah
-        url: obsah/
+        text: Otvoriť učivo
+        url: ucivo/
     design:
       card:
         # Card background color (CSS class)

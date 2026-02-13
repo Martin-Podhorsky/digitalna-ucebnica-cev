@@ -1,0 +1,106 @@
+topic: "Všeobecné informácie o riadení"
+parent: "Riadenie"
+year: 2
+questions:
+  - id: "vseobecne-info-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Všeobecné informácie o riadení\"?"
+    options:
+      - "Riadenie"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Všeobecné informácie o riadení patrí do celku Riadenie."
+
+  - id: "vseobecne-info-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Všeobecné informácie o riadení\"?"
+    options:
+      - "smer"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem smer."
+
+  - id: "vseobecne-info-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Všeobecné informácie o riadení\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "volant"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Všeobecné informácie o riadení patrí aj pojem volant."
+
+  - id: "vseobecne-info-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: smer, volant, stabilita."
+    accepted_answers:
+      - "všeobecné informácie o riadení"
+      - "Všeobecné informácie o riadení"
+    explanation: "Správna odpoveď je Všeobecné informácie o riadení."
+
+  - id: "vseobecne-info-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Všeobecné informácie o riadení\"?"
+    options:
+      - "smer, stabilita"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je smer a stabilita."
+
+  - id: "vseobecne-info-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Všeobecné informácie o riadení\"."
+    accepted_answers:
+      - "smer"
+      - "volant"
+      - "stabilita"
+      - "geometria"
+    explanation: "Medzi správne odpovede patria napr. smer, volant, stabilita, geometria."
+
+  - id: "vseobecne-info-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Všeobecné informácie o riadení\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: riadenie"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti riadenie."
+
+  - id: "vseobecne-info-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "geometria"
+      - "volant"
+      - "zapaľovacia sviečka"
+      - "smer"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "vseobecne-info-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Všeobecné informácie o riadení\" patrí do celku ______."
+    accepted_answers:
+      - "riadenie"
+      - "riadenie"
+    explanation: "Správne doplnenie je Riadenie."
+
+  - id: "vseobecne-info-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Všeobecné informácie o riadení\" najvhodnejšia?"
+    options:
+      - "volant + geometria"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je volant a geometria."

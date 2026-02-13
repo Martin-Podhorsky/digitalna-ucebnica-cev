@@ -1,0 +1,25 @@
+{{- $topic := .Get "topic" -}}
+{{- $count := .Get "count" | default "5" -}}
+
+{{- /* Parse the topic path to get the data */ -}}
+{{- $parts := split $topic "/" -}}
+{{- $data := site.Data.quizzes -}}
+{{- range $parts -}}
+  {{- $data = index $data . -}}
+{{- end -}}
+
+{{- if $data -}}
+<div class="quiz-container" data-quiz-count="{{ $count }}">
+  <script type="application/json" class="quiz-data">
+    {{ $data.questions | jsonify | safeJS }}
+  </script>
+  <div class="quiz-questions"></div>
+  <button class="quiz-submit-btn" disabled>Skontrolovať odpovede</button>
+  <div class="quiz-results"></div>
+</div>
+
+{{- /* Load quiz JavaScript */ -}}
+<script src="/js/quiz.js" defer></script>
+{{- else -}}
+<p class="quiz-error">Chyba: Otázky pre tému "{{ $topic }}" neboli nájdené.</p>
+{{- end -}}

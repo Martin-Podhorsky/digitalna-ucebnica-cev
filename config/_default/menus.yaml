@@ -5,9 +5,15 @@ main:
   - name: Domov
     url: /
     weight: 10
-  - name: Obsah
-    url: obsah/
+  - name: Učivo
+    url: ucivo/
     weight: 20
+  - name: Testy
+    url: testy/
+    weight: 30
+  - name: Pracovné listy
+    url: pracovne-listy/
+    weight: 40
   - name: O projekte
     url: o-projekte/
-    weight: 30
+    weight: 50

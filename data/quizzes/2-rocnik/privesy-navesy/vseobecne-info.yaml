@@ -1,0 +1,106 @@
+topic: "Všeobecné informácie o prívesoch a návesoch"
+parent: "Prívesy a návesy"
+year: 2
+questions:
+  - id: "vseobecne-info-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Všeobecné informácie o prívesoch a návesoch\"?"
+    options:
+      - "Prívesy a návesy"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Všeobecné informácie o prívesoch a návesoch patrí do celku Prívesy a návesy."
+
+  - id: "vseobecne-info-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Všeobecné informácie o prívesoch a návesoch\"?"
+    options:
+      - "súprava"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem súprava."
+
+  - id: "vseobecne-info-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Všeobecné informácie o prívesoch a návesoch\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "príves"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Všeobecné informácie o prívesoch a návesoch patrí aj pojem príves."
+
+  - id: "vseobecne-info-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: súprava, príves, náves."
+    accepted_answers:
+      - "všeobecné informácie o prívesoch a návesoch"
+      - "Všeobecné informácie o prívesoch a návesoch"
+    explanation: "Správna odpoveď je Všeobecné informácie o prívesoch a návesoch."
+
+  - id: "vseobecne-info-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Všeobecné informácie o prívesoch a návesoch\"?"
+    options:
+      - "súprava, náves"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je súprava a náves."
+
+  - id: "vseobecne-info-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Všeobecné informácie o prívesoch a návesoch\"."
+    accepted_answers:
+      - "súprava"
+      - "príves"
+      - "náves"
+      - "zapojenie"
+    explanation: "Medzi správne odpovede patria napr. súprava, príves, náves, zapojenie."
+
+  - id: "vseobecne-info-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Všeobecné informácie o prívesoch a návesoch\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: prívesy a návesy"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti prívesy a návesy."
+
+  - id: "vseobecne-info-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "zapojenie"
+      - "príves"
+      - "zapaľovacia sviečka"
+      - "súprava"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "vseobecne-info-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Všeobecné informácie o prívesoch a návesoch\" patrí do celku ______."
+    accepted_answers:
+      - "prívesy a návesy"
+      - "prívesy a návesy"
+    explanation: "Správne doplnenie je Prívesy a návesy."
+
+  - id: "vseobecne-info-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Všeobecné informácie o prívesoch a návesoch\" najvhodnejšia?"
+    options:
+      - "príves + zapojenie"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je príves a zapojenie."

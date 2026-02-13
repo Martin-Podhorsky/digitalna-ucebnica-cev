@@ -1,0 +1,106 @@
+topic: "ASR"
+parent: "Brzdy"
+year: 2
+questions:
+  - id: "asr-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"ASR\"?"
+    options:
+      - "Brzdy"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola ASR patrí do celku Brzdy."
+
+  - id: "asr-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"ASR\"?"
+    options:
+      - "trakcia"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem trakcia."
+
+  - id: "asr-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"ASR\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "preklz"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme ASR patrí aj pojem preklz."
+
+  - id: "asr-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: trakcia, preklz, akcelerácia."
+    accepted_answers:
+      - "asr"
+      - "ASR"
+    explanation: "Správna odpoveď je ASR."
+
+  - id: "asr-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"ASR\"?"
+    options:
+      - "trakcia, akcelerácia"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je trakcia a akcelerácia."
+
+  - id: "asr-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"ASR\"."
+    accepted_answers:
+      - "trakcia"
+      - "preklz"
+      - "akcelerácia"
+      - "stabilita"
+    explanation: "Medzi správne odpovede patria napr. trakcia, preklz, akcelerácia, stabilita."
+
+  - id: "asr-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"ASR\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: brzdy"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti brzdy."
+
+  - id: "asr-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "stabilita"
+      - "preklz"
+      - "zapaľovacia sviečka"
+      - "trakcia"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "asr-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"ASR\" patrí do celku ______."
+    accepted_answers:
+      - "brzdy"
+      - "brzdy"
+    explanation: "Správne doplnenie je Brzdy."
+
+  - id: "asr-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"ASR\" najvhodnejšia?"
+    options:
+      - "preklz + stabilita"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je preklz a stabilita."

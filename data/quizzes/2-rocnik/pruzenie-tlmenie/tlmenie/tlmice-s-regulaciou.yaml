@@ -1,0 +1,106 @@
+topic: "Tlmiče s reguláciou"
+parent: "Tlmenie"
+year: 2
+questions:
+  - id: "tlmice-s-regulaciou-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Tlmiče s reguláciou\"?"
+    options:
+      - "Tlmenie"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Tlmiče s reguláciou patrí do celku Tlmenie."
+
+  - id: "tlmice-s-regulaciou-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Tlmiče s reguláciou\"?"
+    options:
+      - "elektronika"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem elektronika."
+
+  - id: "tlmice-s-regulaciou-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Tlmiče s reguláciou\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "adaptívne"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Tlmiče s reguláciou patrí aj pojem adaptívne."
+
+  - id: "tlmice-s-regulaciou-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: elektronika, adaptívne, ventil."
+    accepted_answers:
+      - "tlmiče s reguláciou"
+      - "Tlmiče s reguláciou"
+    explanation: "Správna odpoveď je Tlmiče s reguláciou."
+
+  - id: "tlmice-s-regulaciou-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Tlmiče s reguláciou\"?"
+    options:
+      - "elektronika, ventil"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je elektronika a ventil."
+
+  - id: "tlmice-s-regulaciou-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Tlmiče s reguláciou\"."
+    accepted_answers:
+      - "elektronika"
+      - "adaptívne"
+      - "ventil"
+      - "riadenie"
+    explanation: "Medzi správne odpovede patria napr. elektronika, adaptívne, ventil, riadenie."
+
+  - id: "tlmice-s-regulaciou-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Tlmiče s reguláciou\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: tlmenie"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti tlmenie."
+
+  - id: "tlmice-s-regulaciou-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "riadenie"
+      - "adaptívne"
+      - "zapaľovacia sviečka"
+      - "elektronika"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "tlmice-s-regulaciou-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Tlmiče s reguláciou\" patrí do celku ______."
+    accepted_answers:
+      - "tlmenie"
+      - "tlmenie"
+    explanation: "Správne doplnenie je Tlmenie."
+
+  - id: "tlmice-s-regulaciou-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Tlmiče s reguláciou\" najvhodnejšia?"
+    options:
+      - "adaptívne + riadenie"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je adaptívne a riadenie."

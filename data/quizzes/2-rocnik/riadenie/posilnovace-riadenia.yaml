@@ -1,0 +1,106 @@
+topic: "Posilňovače riadenia"
+parent: "Riadenie"
+year: 2
+questions:
+  - id: "posilnovace-riadenia-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Posilňovače riadenia\"?"
+    options:
+      - "Riadenie"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Posilňovače riadenia patrí do celku Riadenie."
+
+  - id: "posilnovace-riadenia-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Posilňovače riadenia\"?"
+    options:
+      - "HPS"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem HPS."
+
+  - id: "posilnovace-riadenia-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Posilňovače riadenia\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "EPS"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Posilňovače riadenia patrí aj pojem EPS."
+
+  - id: "posilnovace-riadenia-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: HPS, EPS, EPAS."
+    accepted_answers:
+      - "posilňovače riadenia"
+      - "Posilňovače riadenia"
+    explanation: "Správna odpoveď je Posilňovače riadenia."
+
+  - id: "posilnovace-riadenia-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Posilňovače riadenia\"?"
+    options:
+      - "HPS, EPAS"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je HPS a EPAS."
+
+  - id: "posilnovace-riadenia-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Posilňovače riadenia\"."
+    accepted_answers:
+      - "HPS"
+      - "EPS"
+      - "EPAS"
+      - "pomocná sila"
+    explanation: "Medzi správne odpovede patria napr. HPS, EPS, EPAS, pomocná sila."
+
+  - id: "posilnovace-riadenia-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Posilňovače riadenia\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: riadenie"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti riadenie."
+
+  - id: "posilnovace-riadenia-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "pomocná sila"
+      - "EPS"
+      - "zapaľovacia sviečka"
+      - "HPS"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "posilnovace-riadenia-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Posilňovače riadenia\" patrí do celku ______."
+    accepted_answers:
+      - "riadenie"
+      - "riadenie"
+    explanation: "Správne doplnenie je Riadenie."
+
+  - id: "posilnovace-riadenia-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Posilňovače riadenia\" najvhodnejšia?"
+    options:
+      - "EPS + pomocná sila"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je EPS a pomocná sila."

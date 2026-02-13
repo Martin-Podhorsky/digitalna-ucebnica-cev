@@ -1,0 +1,106 @@
+topic: "Gumové pruženie"
+parent: "Pruženie a tlmenie"
+year: 2
+questions:
+  - id: "gumove-pruzenie-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Gumové pruženie\"?"
+    options:
+      - "Pruženie a tlmenie"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Gumové pruženie patrí do celku Pruženie a tlmenie."
+
+  - id: "gumove-pruzenie-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Gumové pruženie\"?"
+    options:
+      - "silentblok"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem silentblok."
+
+  - id: "gumove-pruzenie-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Gumové pruženie\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "pružnosť"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Gumové pruženie patrí aj pojem pružnosť."
+
+  - id: "gumove-pruzenie-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: silentblok, pružnosť, vibrácie."
+    accepted_answers:
+      - "gumové pruženie"
+      - "Gumové pruženie"
+    explanation: "Správna odpoveď je Gumové pruženie."
+
+  - id: "gumove-pruzenie-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Gumové pruženie\"?"
+    options:
+      - "silentblok, vibrácie"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je silentblok a vibrácie."
+
+  - id: "gumove-pruzenie-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Gumové pruženie\"."
+    accepted_answers:
+      - "silentblok"
+      - "pružnosť"
+      - "vibrácie"
+      - "guma"
+    explanation: "Medzi správne odpovede patria napr. silentblok, pružnosť, vibrácie, guma."
+
+  - id: "gumove-pruzenie-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Gumové pruženie\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: pruženie a tlmenie"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti pruženie a tlmenie."
+
+  - id: "gumove-pruzenie-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "guma"
+      - "pružnosť"
+      - "zapaľovacia sviečka"
+      - "silentblok"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "gumove-pruzenie-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Gumové pruženie\" patrí do celku ______."
+    accepted_answers:
+      - "pruženie a tlmenie"
+      - "pruženie a tlmenie"
+    explanation: "Správne doplnenie je Pruženie a tlmenie."
+
+  - id: "gumove-pruzenie-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Gumové pruženie\" najvhodnejšia?"
+    options:
+      - "pružnosť + guma"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je pružnosť a guma."

@@ -1,0 +1,106 @@
+topic: "Pripájacie zariadenia"
+parent: "Prívesy a návesy"
+year: 2
+questions:
+  - id: "pripajacie-zariadenia-01"
+    type: single
+    question: "Do ktorého tematického celku patrí kapitola \"Pripájacie zariadenia\"?"
+    options:
+      - "Prívesy a návesy"
+      - "Elektrická výzbroj"
+      - "Motorové vozidlá"
+      - "Diagnostika"
+    correct: 0
+    explanation: "Kapitola Pripájacie zariadenia patrí do celku Prívesy a návesy."
+
+  - id: "pripajacie-zariadenia-02"
+    type: single
+    question: "Ktorý pojem najviac súvisí s témou \"Pripájacie zariadenia\"?"
+    options:
+      - "točnica"
+      - "karburátor"
+      - "štartér"
+      - "sviečka"
+    correct: 0
+    explanation: "Pre túto tému je kľúčový pojem točnica."
+
+  - id: "pripajacie-zariadenia-03"
+    type: single
+    question: "Ktorý pojem je tiež typický pre kapitolu \"Pripájacie zariadenia\"?"
+    options:
+      - "chladiaca kvapalina"
+      - "kráľovský čap"
+      - "palivová mapa"
+      - "alternátor"
+    correct: 1
+    explanation: "K téme Pripájacie zariadenia patrí aj pojem kráľovský čap."
+
+  - id: "pripajacie-zariadenia-04"
+    type: write
+    question: "Napíš názov kapitoly, ktorá sa venuje téme: točnica, kráľovský čap, guľová spojka."
+    accepted_answers:
+      - "pripájacie zariadenia"
+      - "Pripájacie zariadenia"
+    explanation: "Správna odpoveď je Pripájacie zariadenia."
+
+  - id: "pripajacie-zariadenia-05"
+    type: single
+    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Pripájacie zariadenia\"?"
+    options:
+      - "točnica, guľová spojka"
+      - "turbodúchadlo, intercooler"
+      - "vstrekovač, lambda sonda"
+      - "akumulátor, štartér"
+    correct: 0
+    explanation: "Správna kombinácia je točnica a guľová spojka."
+
+  - id: "pripajacie-zariadenia-06"
+    type: write
+    question: "Napíš jeden odborný pojem z kapitoly \"Pripájacie zariadenia\"."
+    accepted_answers:
+      - "točnica"
+      - "kráľovský čap"
+      - "guľová spojka"
+      - "záves"
+    explanation: "Medzi správne odpovede patria napr. točnica, kráľovský čap, guľová spojka, záves."
+
+  - id: "pripajacie-zariadenia-07"
+    type: single
+    question: "Čo je hlavným cieľom kapitoly \"Pripájacie zariadenia\"?"
+    options:
+      - "Vysvetliť princípy pre oblasť: prívesy a návesy"
+      - "Naučiť opravu klimatizácie"
+      - "Vysvetliť chladenie spaľovania"
+      - "Opísať systém osvetlenia"
+    correct: 0
+    explanation: "Cieľom je porozumieť princípom v oblasti prívesy a návesy."
+
+  - id: "pripajacie-zariadenia-08"
+    type: single
+    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    options:
+      - "záves"
+      - "kráľovský čap"
+      - "zapaľovacia sviečka"
+      - "točnica"
+    correct: 2
+    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+
+  - id: "pripajacie-zariadenia-09"
+    type: write
+    question: "Dokonči vetu jedným slovom: Kapitola \"Pripájacie zariadenia\" patrí do celku ______."
+    accepted_answers:
+      - "prívesy a návesy"
+      - "prívesy a návesy"
+    explanation: "Správne doplnenie je Prívesy a návesy."
+
+  - id: "pripajacie-zariadenia-10"
+    type: single
+    question: "Ktorá dvojica je pre tému \"Pripájacie zariadenia\" najvhodnejšia?"
+    options:
+      - "kráľovský čap + záves"
+      - "olej + sviečka"
+      - "kľukový hriadeľ + ventilátor"
+      - "spojka + zotrvačník"
+    correct: 0
+    explanation: "Najvhodnejšia dvojica je kráľovský čap a záves."
