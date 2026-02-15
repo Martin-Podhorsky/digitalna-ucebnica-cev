@@ -6,7 +6,10 @@ questions:
     type: single
     question: "Čo sú to brzdy?"
     options:
-      - "{doplnit}"
+      - "mechanické zariadenie, ktoré zamedzuje pohybu vozidla absorbovaním jeho pohybovovej energie alebo jej premenou na inú energiu"
+      - "súčiastka, ktorá mení treciu energiu na tepelnú energiu a tým spomaľuje vozidlo"
+      - "mechanické zariadenie, ktoré bráni pohybu vozidla premenou jeho elektrickej energie na mechanickú energiu"
+      - "chemická zlúčenina, ktorá zamedzuje pohybu vozidla absorbovaním jeho pohybovovej energie alebo jej premenou na inú energiu"
     correct: 1
     explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
 
@@ -14,16 +17,22 @@ questions:
     type: single
     question: "Brzdy menia energiu _____ na inú energiu?"
     options:
-      - "{doplnit}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+      - "treciu energiu"
+      - "pohybovú energiu"
+      - "tepelnú energiu"
+      - "svoju energiu"
+    correct: 2
+    explanation: "Brzdy zamedzujú pohybu vozidla PREMENOU POHYBOVEJ ENERGIE na inú energiu, najčastejšie NA TEPELNÚ, POMOCOU TRENIA. "
 
   - id: "vseobecne-info-03"
     type: single
-    question: "Aká je hlavná úloha bŕzd?"
+    question: "Aké sú hlavné úlohy bŕzd?"
     options:
-      - "{doplnit}"
-    correct: 1
+      - "Brzdiť, kedy chceme a nebrzdiť, kedy nechceme"
+      - "Spomaliť vozidlo alebo úplne ho zastaviť počas jazdy"
+      - "Spomaliť vozidlo, úplne ho zastaviť počas jazdy alebo zaistiť proti nežiaducemu rozjazdu po odparkovaní alebo odstavení."
+      - ""
+    correct: 3
     explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
 
   - id: "vseobecne-info-04"
