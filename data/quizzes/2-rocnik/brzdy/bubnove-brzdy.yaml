@@ -97,7 +97,7 @@ questions:
     type: write
     question: "Ako sa nazýva táto časť bubnovej brzdy? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/bubnove-brzdy/nastavovacia-skrutka.png"
-    options:
+    accepted_answers:
       - "nastavovacia skrutka"
       - "vzpera"
 

@@ -10,7 +10,7 @@ questions:
       - "Elektrická výzbroj"
       - "Motorové vozidlá"
       - "Diagnostika"
-    correct: 0
+    correct: 1
     explanation: "Kapitola Mechanizmus riadenia patrí do celku Riadenie."
 
   - id: "mechanizmus-riadenia-02"
@@ -21,7 +21,7 @@ questions:
       - "karburátor"
       - "štartér"
       - "sviečka"
-    correct: 0
+    correct: 1
     explanation: "Pre túto tému je kľúčový pojem hrebeň."
 
   - id: "mechanizmus-riadenia-03"
@@ -51,7 +51,7 @@ questions:
       - "turbodúchadlo, intercooler"
       - "vstrekovač, lambda sonda"
       - "akumulátor, štartér"
-    correct: 0
+    correct: 1
     explanation: "Správna kombinácia je hrebeň a stĺpik."
 
   - id: "mechanizmus-riadenia-06"
@@ -72,7 +72,7 @@ questions:
       - "Naučiť opravu klimatizácie"
       - "Vysvetliť chladenie spaľovania"
       - "Opísať systém osvetlenia"
-    correct: 0
+    correct: 1
     explanation: "Cieľom je porozumieť princípom v oblasti riadenie."
 
   - id: "mechanizmus-riadenia-08"
@@ -102,5 +102,5 @@ questions:
       - "olej + sviečka"
       - "kľukový hriadeľ + ventilátor"
       - "spojka + zotrvačník"
-    correct: 0
+    correct: 1
     explanation: "Najvhodnejšia dvojica je prevod a tiahla."

@@ -10,7 +10,7 @@ questions:
       - "Elektrická výzbroj"
       - "Motorové vozidlá"
       - "Diagnostika"
-    correct: 0
+    correct: 1
     explanation: "Kapitola Geometria riadenia patrí do celku Riadenie."
 
   - id: "geometria-riadenia-02"
@@ -21,7 +21,7 @@ questions:
       - "karburátor"
       - "štartér"
       - "sviečka"
-    correct: 0
+    correct: 1
     explanation: "Pre túto tému je kľúčový pojem zbiehavosť."
 
   - id: "geometria-riadenia-03"
@@ -51,7 +51,7 @@ questions:
       - "turbodúchadlo, intercooler"
       - "vstrekovač, lambda sonda"
       - "akumulátor, štartér"
-    correct: 0
+    correct: 1
     explanation: "Správna kombinácia je zbiehavosť a záklon."
 
   - id: "geometria-riadenia-06"
@@ -72,7 +72,7 @@ questions:
       - "Naučiť opravu klimatizácie"
       - "Vysvetliť chladenie spaľovania"
       - "Opísať systém osvetlenia"
-    correct: 0
+    correct: 1
     explanation: "Cieľom je porozumieť princípom v oblasti riadenie."
 
   - id: "geometria-riadenia-08"
@@ -102,5 +102,5 @@ questions:
       - "olej + sviečka"
       - "kľukový hriadeľ + ventilátor"
       - "spojka + zotrvačník"
-    correct: 0
+    correct: 1
     explanation: "Najvhodnejšia dvojica je odklon a príklon."

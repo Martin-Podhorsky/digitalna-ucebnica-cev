@@ -10,7 +10,7 @@ questions:
       - "Elektrická výzbroj"
       - "Motorové vozidlá"
       - "Diagnostika"
-    correct: 0
+    correct: 1
     explanation: "Kapitola Vinuté pružiny patrí do celku Pruženie a tlmenie."
 
   - id: "vinute-pruziny-02"
@@ -21,7 +21,7 @@ questions:
       - "karburátor"
       - "štartér"
       - "sviečka"
-    correct: 0
+    correct: 1
     explanation: "Pre túto tému je kľúčový pojem závit."
 
   - id: "vinute-pruziny-03"
@@ -51,7 +51,7 @@ questions:
       - "turbodúchadlo, intercooler"
       - "vstrekovač, lambda sonda"
       - "akumulátor, štartér"
-    correct: 0
+    correct: 1
     explanation: "Správna kombinácia je závit a pružina."
 
   - id: "vinute-pruziny-06"
@@ -72,7 +72,7 @@ questions:
       - "Naučiť opravu klimatizácie"
       - "Vysvetliť chladenie spaľovania"
       - "Opísať systém osvetlenia"
-    correct: 0
+    correct: 1
     explanation: "Cieľom je porozumieť princípom v oblasti pruženie a tlmenie."
 
   - id: "vinute-pruziny-08"
@@ -102,5 +102,5 @@ questions:
       - "olej + sviečka"
       - "kľukový hriadeľ + ventilátor"
       - "spojka + zotrvačník"
-    correct: 0
+    correct: 1
     explanation: "Najvhodnejšia dvojica je charakteristika a deformácia."

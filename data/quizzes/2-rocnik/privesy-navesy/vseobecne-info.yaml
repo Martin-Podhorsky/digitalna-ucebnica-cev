@@ -10,7 +10,7 @@ questions:
       - "Elektrická výzbroj"
       - "Motorové vozidlá"
       - "Diagnostika"
-    correct: 0
+    correct: 1
     explanation: "Kapitola Všeobecné informácie o prívesoch a návesoch patrí do celku Prívesy a návesy."
 
   - id: "vseobecne-info-02"
@@ -21,7 +21,7 @@ questions:
       - "karburátor"
       - "štartér"
       - "sviečka"
-    correct: 0
+    correct: 1
     explanation: "Pre túto tému je kľúčový pojem súprava."
 
   - id: "vseobecne-info-03"
@@ -51,7 +51,7 @@ questions:
       - "turbodúchadlo, intercooler"
       - "vstrekovač, lambda sonda"
       - "akumulátor, štartér"
-    correct: 0
+    correct: 1
     explanation: "Správna kombinácia je súprava a náves."
 
   - id: "vseobecne-info-06"
@@ -72,7 +72,7 @@ questions:
       - "Naučiť opravu klimatizácie"
       - "Vysvetliť chladenie spaľovania"
       - "Opísať systém osvetlenia"
-    correct: 0
+    correct: 1
     explanation: "Cieľom je porozumieť princípom v oblasti prívesy a návesy."
 
   - id: "vseobecne-info-08"
@@ -102,5 +102,5 @@ questions:
       - "olej + sviečka"
       - "kľukový hriadeľ + ventilátor"
       - "spojka + zotrvačník"
-    correct: 0
+    correct: 1
     explanation: "Najvhodnejšia dvojica je príves a zapojenie."

@@ -73,7 +73,7 @@ questions:
       - "kotúčové brzdy"
 
   - id: "hydraulicky-brzdovy-system-09"
-    type: single
+    type: write
     question: "Ako sa volá táto časť hydraulického brzdového systému?"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/zadne-brzdy.png"
     accepted_answers:
@@ -85,7 +85,7 @@ questions:
     type: single
     question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/TT.png"
-    accepted_answers:
+    options:
       - "TT"
       - "HH"
       - "LL"

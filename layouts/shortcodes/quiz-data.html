@@ -2,20 +2,31 @@
 {{- $allQuestions := slice -}}
 {{- $topicTree := dict -}}
 
-{{- /* Walk through all quiz data files */ -}}
+{{- /* Walk through all quiz data files - supports up to 4 levels of nesting */ -}}
 {{- range $yearKey, $yearData := site.Data.quizzes -}}
   {{- $yearTopics := dict -}}
   {{- range $parentKey, $parentData := $yearData -}}
     {{- $parentTopics := dict -}}
     {{- range $topicKey, $topicData := $parentData -}}
       {{- if $topicData.questions -}}
-        {{- /* Add topic info to each question */ -}}
+        {{- /* This is a leaf topic with questions */ -}}
         {{- range $topicData.questions -}}
           {{- $questionWithMeta := merge . (dict "topicKey" $topicKey "parentKey" $parentKey "yearKey" $yearKey "topicName" $topicData.topic "parentName" $topicData.parent) -}}
           {{- $allQuestions = $allQuestions | append $questionWithMeta -}}
         {{- end -}}
-        {{- /* Build topic tree entry */ -}}
         {{- $parentTopics = merge $parentTopics (dict $topicKey (dict "name" $topicData.topic "count" (len $topicData.questions))) -}}
+      {{- else -}}
+        {{- /* This might be a nested folder - check for sub-topics */ -}}
+        {{- range $subTopicKey, $subTopicData := $topicData -}}
+          {{- if $subTopicData.questions -}}
+            {{- $nestedKey := printf "%s/%s" $topicKey $subTopicKey -}}
+            {{- range $subTopicData.questions -}}
+              {{- $questionWithMeta := merge . (dict "topicKey" $nestedKey "parentKey" $parentKey "yearKey" $yearKey "topicName" $subTopicData.topic "parentName" $subTopicData.parent) -}}
+              {{- $allQuestions = $allQuestions | append $questionWithMeta -}}
+            {{- end -}}
+            {{- $parentTopics = merge $parentTopics (dict $nestedKey (dict "name" $subTopicData.topic "count" (len $subTopicData.questions))) -}}
+          {{- end -}}
+        {{- end -}}
       {{- end -}}
     {{- end -}}
     {{- if $parentTopics -}}
@@ -29,11 +40,11 @@
 
 <script type="application/json" id="all-quiz-data">
 {
-  "questions": {{ $allQuestions | jsonify }},
-  "topicTree": {{ $topicTree | jsonify }},
+  "questions": {{ $allQuestions | jsonify | safeJS }},
+  "topicTree": {{ $topicTree | jsonify | safeJS }},
   "totalCount": {{ len $allQuestions }}
 }
 </script>
 
 {{- /* Load quiz JavaScript */ -}}
-<script src="/js/quiz.js" defer></script>
+<script src="/js/quiz.js?v={{ now.Unix }}" defer></script>

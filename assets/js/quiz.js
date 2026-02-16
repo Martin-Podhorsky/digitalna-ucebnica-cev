@@ -4,21 +4,12 @@
  */
 
 document.addEventListener('DOMContentLoaded', function() {
-  // #region agent log
-  fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:10',message:'DOMContentLoaded fired',data:{readyState:document.readyState},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H2'})}).catch(()=>{});
-  // #endregion
   // Initialize inline quizzes on Učivo pages
   initInlineQuizzes();
   
   // Initialize test generator on Testy page
   initTestGenerator();
 });
-
-// #region agent log
-window.addEventListener('error', function(event) {
-  fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:24',message:'window error',data:{message:event.message,filename:event.filename,lineno:event.lineno,colno:event.colno},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H1'})}).catch(()=>{});
-});
-// #endregion
 
 /**
  * Shuffle array using Fisher-Yates algorithm
@@ -68,7 +59,9 @@ function renderQuestion(question, index, namePrefix = 'quiz') {
     : '';
   
   if (question.type === 'single') {
-    div.dataset.correct = question.correct;
+    // Convert 1-based correct index to 0-based for internal use
+    const correctIndex = question.correct - 1;
+    div.dataset.correct = correctIndex;
     const shuffledOptions = question.options.map((opt, i) => ({ text: opt, originalIndex: i }));
     // Shuffle options
     const shuffled = shuffleArray(shuffledOptions);
@@ -105,9 +98,6 @@ function renderQuestion(question, index, namePrefix = 'quiz') {
  * Initialize inline quizzes on Učivo pages
  */
 function initInlineQuizzes() {
-  // #region agent log
-  fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:98',message:'initInlineQuizzes start',data:{containers:document.querySelectorAll('.quiz-container').length},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H2'})}).catch(()=>{});
-  // #endregion
   document.querySelectorAll('.quiz-container').forEach(container => {
     const dataScript = container.querySelector('.quiz-data');
     if (!dataScript) return;
@@ -124,7 +114,11 @@ function initInlineQuizzes() {
     // Render questions
     const questionsDiv = container.querySelector('.quiz-questions');
     selected.forEach((q, i) => {
-      questionsDiv.appendChild(renderQuestion(q, i, 'inline'));
+      try {
+        questionsDiv.appendChild(renderQuestion(q, i, 'inline'));
+      } catch (e) {
+        console.error(`Error rendering question ${q.id}:`, e);
+      }
     });
     
     // Track answered questions
@@ -244,60 +238,27 @@ function initTestGenerator() {
   const testArea = document.getElementById('test-area');
   const resultsArea = document.getElementById('test-results');
   
-  // #region agent log
-  fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:186',message:'initTestGenerator start',data:{hasConfig:!!configContainer,hasTestArea:!!testArea,hasResults:!!resultsArea},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H1'})}).catch(()=>{});
-  // #endregion
   if (!configContainer) return;
   
   const allDataScript = document.getElementById('all-quiz-data');
-  // #region agent log
-  fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:193',message:'all-quiz-data element check',data:{hasAllDataScript:!!allDataScript},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H3'})}).catch(()=>{});
-  // #endregion
   if (!allDataScript) return;
   
   const data = JSON.parse(allDataScript.textContent);
   let { questions, topicTree, totalCount } = data;
-  // #region agent log
-  fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:203',message:'post-parse raw types',data:{questionsType:typeof questions,topicTreeType:typeof topicTree},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H3'})}).catch(()=>{});
-  // #endregion
 
+  // Handle potential double-stringification (fallback)
   if (typeof questions === 'string') {
-    try {
-      questions = JSON.parse(questions);
-      // #region agent log
-      fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:210',message:'questions string parsed',data:{parsedLength:questions.length},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H3'})}).catch(()=>{});
-      // #endregion
-    } catch (e) {
-      // #region agent log
-      fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:215',message:'questions parse error',data:{error:String(e)},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H3'})}).catch(()=>{});
-      // #endregion
-    }
+    try { questions = JSON.parse(questions); } catch (e) {}
   }
-
   if (typeof topicTree === 'string') {
-    try {
-      topicTree = JSON.parse(topicTree);
-      // #region agent log
-      fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:223',message:'topicTree string parsed',data:{keys:Object.keys(topicTree).length},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H3'})}).catch(()=>{});
-      // #endregion
-    } catch (e) {
-      // #region agent log
-      fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:228',message:'topicTree parse error',data:{error:String(e)},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H3'})}).catch(()=>{});
-      // #endregion
-    }
+    try { topicTree = JSON.parse(topicTree); } catch (e) {}
   }
-  // #region agent log
-  fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:233',message:'quiz data parsed',data:{questionCount:questions.length,totalCount,questionsType:typeof questions,topicTreeType:typeof topicTree},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H3'})}).catch(()=>{});
-  // #endregion
   
   // Store globally for test
   window.allQuestions = questions;
   window.selectedTopics = new Set();
   
   // Build topic tree UI
-  // #region agent log
-  fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:214',message:'before buildTopicTree',data:{hasTopicTreeEl:!!document.getElementById('topic-tree')},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H1'})}).catch(()=>{});
-  // #endregion
   buildTopicTree(topicTree);
   
   // Update question count max
@@ -330,16 +291,9 @@ function initTestGenerator() {
  */
 function buildTopicTree(topicTree) {
   const container = document.getElementById('topic-tree');
-  if (!container) {
-    // #region agent log
-    fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:270',message:'buildTopicTree missing container',data:{hasContainer:false},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H1'})}).catch(()=>{});
-    // #endregion
-    return;
-  }
+  if (!container) return;
+  
   container.innerHTML = '';
-  // #region agent log
-  fetch('http://127.0.0.1:7242/ingest/ddad0fdf-fcdb-4243-911d-da00f56a16bb',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'assets/js/quiz.js:237',message:'buildTopicTree start',data:{hasContainer:!!container,years:Object.keys(topicTree || {}).length},timestamp:Date.now(),sessionId:'debug-session',runId:'pre-fix',hypothesisId:'H4'})}).catch(()=>{});
-  // #endregion
   
   // Add "Select All" checkbox
   const selectAllDiv = document.createElement('div');
@@ -545,7 +499,11 @@ function startTest() {
   const questionsDiv = document.getElementById('test-questions');
   questionsDiv.innerHTML = '';
   selected.forEach((q, i) => {
-    questionsDiv.appendChild(renderQuestion(q, i, 'test'));
+    try {
+      questionsDiv.appendChild(renderQuestion(q, i, 'test'));
+    } catch (e) {
+      console.error(`Error rendering question ${q.id}:`, e);
+    }
   });
   
   // Update progress

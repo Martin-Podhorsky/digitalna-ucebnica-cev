@@ -19,7 +19,7 @@
 </div>
 
 {{- /* Load quiz JavaScript */ -}}
-<script src="/js/quiz.js" defer></script>
+<script src="/js/quiz.js?v={{ now.Unix }}" defer></script>
 {{- else -}}
 <p class="quiz-error">Chyba: Otázky pre tému "{{ $topic }}" neboli nájdené.</p>
 {{- end -}}

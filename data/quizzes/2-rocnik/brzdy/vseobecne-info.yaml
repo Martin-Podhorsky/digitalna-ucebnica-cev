@@ -87,7 +87,7 @@ questions:
     question: "Na aké fázy vieme rozdeliť brzdenie?"
     options:
       - "{doplnit}"
-    correct: 0
+    correct: 1
     explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
 
   - id: "vseobecne-info-11"

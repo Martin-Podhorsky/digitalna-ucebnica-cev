@@ -20,7 +20,7 @@ questions:
       - "Zabrániť zablokovaniu kolies počas brzdenia"
       - "Znížiť opotrebenie brzdových doštičiek"
       - "Automaticky brzdiť pred prekážkou"
-    correct: 1
+    correct: 2
     explanation: "ABS zabraňuje zablokovaniu kolies, čím zachováva ovládateľnosť vozidla."
 
   - id: "abs-03"
@@ -31,7 +31,7 @@ questions:
       - "Vozidlo sa stane neovládateľným"
       - "Brzdy sa prehrejú"
       - "Spotreba paliva sa zvýši"
-    correct: 1
+    correct: 2
     explanation: "Zablokované kolesá strácajú priľnavosť a vodič nemôže zmeniť smer jazdy."
 
   - id: "abs-04"
@@ -42,7 +42,7 @@ questions:
       - "Pulzovanie brzdového pedála a charakteristický zvuk"
       - "Pedál klesne na podlahu"
       - "Nepozná žiadny rozdiel"
-    correct: 1
+    correct: 2
     explanation: "Rýchle opakovanie regulácie tlaku spôsobuje pulzovanie pedála a charakteristický zvuk."
 
   - id: "abs-05"
@@ -63,7 +63,7 @@ questions:
       - "Hydraulická riadiaca jednotka"
       - "Elektronická riadiaca jednotka (ECU)"
       - "Brzdový posilňovač"
-    correct: 2
+    correct: 3
     explanation: "ECU spracúva údaje zo snímačov a v prípade potreby posiela príkazy na reguláciu tlaku."
 
   - id: "abs-07"
@@ -74,7 +74,7 @@ questions:
       - "Elektromagnetické ventily a čerpadlo"
       - "Len brzdovú kvapalinu"
       - "Len elektroniku"
-    correct: 1
+    correct: 2
     explanation: "HCU obsahuje ventily na reguláciu toku kvapaliny a čerpadlo na jej odčerpávanie."
 
   - id: "abs-08"
@@ -85,7 +85,7 @@ questions:
       - "Na mokrom asfalte"
       - "Na štrku, hlbokom snehu alebo ľade"
       - "Na betóne"
-    correct: 2
+    correct: 3
     explanation: "Na sypkých povrchoch ako štrk alebo hlboký sneh je brzdná dráha s ABS dlhšia."
 
   - id: "abs-09"
@@ -96,7 +96,7 @@ questions:
       - "2000"
       - "2004"
       - "2010"
-    correct: 2
+    correct: 3
     explanation: "V Európskej únii je ABS povinný pre všetky nové osobné automobily od roku 2004."
 
   - id: "abs-10"
@@ -107,7 +107,7 @@ questions:
       - "Zachovanie ovládateľnosti vozidla"
       - "Zníženie spotreby paliva"
       - "Predĺženie životnosti bŕzd"
-    correct: 1
+    correct: 2
     explanation: "ABS umožňuje vodičovi meniť smer jazdy aj počas prudkého brzdenia."
 
   - id: "abs-11"
@@ -129,5 +129,5 @@ questions:
       - "Zabraňuje blokovaniu kolies a tým šmyku"
       - "Zvyšuje tlak v pneumatikách"
       - "Chladí pneumatiky"
-    correct: 1
+    correct: 2
     explanation: "Bez blokovania kolies nedochádza k šmyku, ktorý spôsobuje nerovnomerné opotrebenie."

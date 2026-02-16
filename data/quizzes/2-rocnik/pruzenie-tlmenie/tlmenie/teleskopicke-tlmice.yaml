@@ -10,7 +10,7 @@ questions:
       - "Elektrická výzbroj"
       - "Motorové vozidlá"
       - "Diagnostika"
-    correct: 0
+    correct: 1
     explanation: "Kapitola Teleskopické tlmiče patrí do celku Tlmenie."
 
   - id: "teleskopicke-tlmice-02"
@@ -21,7 +21,7 @@ questions:
       - "karburátor"
       - "štartér"
       - "sviečka"
-    correct: 0
+    correct: 1
     explanation: "Pre túto tému je kľúčový pojem monotube."
 
   - id: "teleskopicke-tlmice-03"
@@ -51,7 +51,7 @@ questions:
       - "turbodúchadlo, intercooler"
       - "vstrekovač, lambda sonda"
       - "akumulátor, štartér"
-    correct: 0
+    correct: 1
     explanation: "Správna kombinácia je monotube a piest."
 
   - id: "teleskopicke-tlmice-06"
@@ -72,7 +72,7 @@ questions:
       - "Naučiť opravu klimatizácie"
       - "Vysvetliť chladenie spaľovania"
       - "Opísať systém osvetlenia"
-    correct: 0
+    correct: 1
     explanation: "Cieľom je porozumieť princípom v oblasti tlmenie."
 
   - id: "teleskopicke-tlmice-08"
@@ -102,5 +102,5 @@ questions:
       - "olej + sviečka"
       - "kľukový hriadeľ + ventilátor"
       - "spojka + zotrvačník"
-    correct: 0
+    correct: 1
     explanation: "Najvhodnejšia dvojica je dvojplášť a ventily."

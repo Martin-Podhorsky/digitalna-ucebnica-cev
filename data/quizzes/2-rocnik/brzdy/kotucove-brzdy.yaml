@@ -10,7 +10,7 @@ questions:
       - "S plávajúcim (posuvným) strmeňom"
       - "S viacnásobným piestikom"
       - "S pneumatickým ovládaním"
-    correct: 1
+    correct: 2
     explanation: "Plávajúci (posuvný) strmeň je lacnejší a ľahší, preto sa používa vo väčšine bežných vozidiel."
 
   - id: "kotucove-02"
@@ -31,7 +31,7 @@ questions:
       - "Lepšie chladenie"
       - "Vyššia hmotnosť"
       - "Jednoduchšia integrácia parkovacej brzdy"
-    correct: 1
+    correct: 2
     explanation: "Kotúč je voľne vystavený okoliu, čo umožňuje lepšie odvádzanie tepla."
 
   - id: "kotucove-04"
@@ -42,7 +42,7 @@ questions:
       - "Vyššie výrobné náklady"
       - "Horšie chladenie"
       - "Nerovnomerné opotrebenie doštičiek"
-    correct: 1
+    correct: 2
     explanation: "Výroba strmeňa s viacerými presne opracovanými otvormi pre piestiky je drahšia."
 
   - id: "kotucove-05"
@@ -53,7 +53,7 @@ questions:
       - "V športových a pretekárskych vozidlách"
       - "V nákladných automobiloch"
       - "V autobusoch"
-    correct: 1
+    correct: 2
     explanation: "Pevný strmeň poskytuje vyššiu a spoľahlivejšiu brzdnú silu, čo je dôležité pre výkonné vozidlá."
 
   - id: "kotucove-06"
@@ -73,7 +73,7 @@ questions:
       - "Jeden (niekedy dva)"
       - "Štyri"
       - "Šesť"
-    correct: 1
+    correct: 2
     explanation: "Plávajúci strmeň má zvyčajne jeden piestik, niekedy dva, na jednej strane kotúča."
 
   - id: "kotucove-08"
@@ -84,7 +84,7 @@ questions:
       - "Kvôli asymetrickému pôsobeniu piestika"
       - "Kvôli nízkej kvalite materiálu"
       - "Kvôli vode v systéme"
-    correct: 1
+    correct: 2
     explanation: "Piestik tlačí priamo len na jednu doštičku, preto sa táto opotrebúva rýchlejšie."
 
   - id: "kotucove-09"
@@ -95,7 +95,7 @@ questions:
       - "Brzda sa zasekne alebo výrazne zníži brzdná sila"
       - "Zvýši sa spotreba paliva"
       - "Kotúč sa rýchlejšie opotrebuje"
-    correct: 1
+    correct: 2
     explanation: "Zaseknutie vodiacich čapov vedie k trvalému pribrzďovaniu alebo výraznému zníženiu brzdnej sily."
 
   - id: "kotucove-10"
@@ -116,7 +116,7 @@ questions:
       - "Presnejšie dávkovanie brzdnej sily"
       - "Nižšia potreba posilňovača"
       - "Nižšia frekvencia údržby"
-    correct: 1
+    correct: 2
     explanation: "Kotúčové brzdy majú brzdný účinok priamo úmerný stlačeniu pedála, čo umožňuje presnejšie dávkovanie."
 
   - id: "kotucove-12"
@@ -127,5 +127,5 @@ questions:
       - "Konštrukcia to takmer neumožňuje"
       - "Kotúč sa príliš zahrieva"
       - "Brzda je príliš silná"
-    correct: 1
+    correct: 2
     explanation: "Konštrukcia pevného strmeňa takmer neumožňuje jednoduchú integráciu mechanizmu parkovacej brzdy."
