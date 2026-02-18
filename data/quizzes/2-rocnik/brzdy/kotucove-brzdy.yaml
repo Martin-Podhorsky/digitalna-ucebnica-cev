@@ -4,128 +4,175 @@ year: 2
 questions:
   - id: "kotucove-01"
     type: single
-    question: "Aký typ kotúčovej brzdy sa používa vo väčšine sériovo vyrábaných osobných automobilov?"
+    question: "Akým spôsobom vzniká brzdná sila pri bubnových brzdách?"
     options:
-      - "S pevným strmeňom"
-      - "S plávajúcim (posuvným) strmeňom"
-      - "S viacnásobným piestikom"
-      - "S pneumatickým ovládaním"
-    correct: 2
-    explanation: "Plávajúci (posuvný) strmeň je lacnejší a ľahší, preto sa používa vo väčšine bežných vozidiel."
+      - "Brzdové doštičky zovierajú rotujúci brzdový kotúč"
+      - "Brzdové čeľuste tlačia na vnútornú stenu rotujúceho brzdového bubna"
+      - "Ocelový pás obopína liatinový bubon umiestnený na hriadeli a zovretím ho brzdí"
+      - "Trením medzi bubnom a brzdnými doštičkami"
+    correct: 1
+    explanation: "Brzdové čeľuste tlačia na vnútornú stenu rotujúceho brzdového bubna -- takto fungujú bubnové brzdy.<br>Ocelový pás obopína liatinový bubon umiestnený na hriadeli a zovretím ho brzdí -- takto fungujú pásové brzdy.<br>Trením medzi bubnom a brzdnými doštičkami -- kotúčové brzdy majú kotúč, nie bubon."
 
   - id: "kotucove-02"
-    type: write
-    question: "Ako sa nazývajú časti, ktoré sa pritláčajú na kotúč pri brzdení?"
-    accepted_answers:
-      - "brzdové doštičky"
-      - "brzdové platničky"
-      - "doštičky"
-      - "platničky"
-    explanation: "Brzdové doštičky (platničky) sa pritláčajú na kotúč a vytvárajú trenie."
+    type: single
+    question: "Ktorá z možností najviac zodpovedá výhodám kotúčových bŕzd?"
+    options:
+      - "Nižšie výrobné náklady, samozosilňovací účinok, ochrana pred nečistotami, jednoduchá integrácia parkovacej brzdy, dlhšia životnosť obloženia"
+      - "Vyššie výrobné náklady, nemá samozosilňovací účinok, náchylnosť na znečistenie, komplikovanejšia integrácia parkovacej brzdy, kratšia životnosť obloženia"
+      - "Zlý odvod tepla, vyššia náchylnosť na fading, vyššia hmotnosť"
+      - "Lepšie chladenie, jednoduchšia konštrukcia, menšia náchylnosť na fading"
+    correct: 4
+    explanation: "Nižšie výrobné náklady, samozosilňovací účinok, ochrana pred nečistotami, jednoduchá integrácia parkovacej brzdy, dlhšia životnosť obloženia -- toto sú výhody bubnových bŕzd.<br>Vyššie výrobné náklady, nemá samozosilňovací účinok, náchylnosť na znečistenie, komplikovanejšia integrácia parkovacej brzdy, kratšia životnosť obloženia -- toto sú nevýhody kotúčoých bŕzd.<br>Zlý odvod tepla, vyššia náchylnosť na fading, vyššia hmotnosť -- toto sú nevýhody bubnových bŕzd."
 
   - id: "kotucove-03"
     type: single
-    question: "Ktorá je hlavná výhoda kotúčových bŕzd oproti bubnovým?"
+    question: "Ktorá z možností najviac zodpovedá nevýhodám kotúčových bŕzd?"
     options:
-      - "Nižšia cena"
-      - "Lepšie chladenie"
-      - "Vyššia hmotnosť"
-      - "Jednoduchšia integrácia parkovacej brzdy"
+      - "Nižšie výrobné náklady, samozosilňovací účinok, ochrana pred nečistotami, jednoduchá integrácia parkovacej brzdy, dlhšia životnosť obloženia"
+      - "Vyššie výrobné náklady, nemá samozosilňovací účinok, náchylnosť na znečistenie, komplikovanejšia integrácia parkovacej brzdy, kratšia životnosť obloženia"
+      - "Zlý odvod tepla, vyššia náchylnosť na fading, vyššia hmotnosť"
+      - "Lepšie chladenie, jednoduchšia konštrukcia, menšia náchylnosť na fading"
     correct: 2
-    explanation: "Kotúč je voľne vystavený okoliu, čo umožňuje lepšie odvádzanie tepla."
+    explanation: "Nižšie výrobné náklady, samozosilňovací účinok, ochrana pred nečistotami, jednoduchá integrácia parkovacej brzdy, dlhšia životnosť obloženia -- toto sú výhody bubnových bŕzd.<br>Zlý odvod tepla, vyššia náchylnosť na fading, vyššia hmotnosť -- toto sú nevýhody bubnových bŕzd.<br>Lepšie chladenie, jednoduchšia konštrukcia, menšia náchylnosť na fading -- toto sú výhody kotúčových bŕzd."
 
   - id: "kotucove-04"
     type: single
-    question: "Čo je hlavnou nevýhodou kotúčových bŕzd s pevným strmeňom?"
+    question: "Aké je základné rozdelenie kotúčových bŕzd?"
     options:
-      - "Nižšia brzdná sila"
-      - "Vyššie výrobné náklady"
-      - "Horšie chladenie"
-      - "Nerovnomerné opotrebenie doštičiek"
-    correct: 2
-    explanation: "Výroba strmeňa s viacerými presne opracovanými otvormi pre piestiky je drahšia."
+      - "Kotúčová brzda s pevným a plávajúcim strmeňom"
+      - "Kotúčová brzda pravá a lavá"
+      - "Kotúčová brzda SIMPLEX, DUPLEX, SERVO, DUO-DUPLEX a DUO-SERVO"
+      - "Kotúčová brzda jednopiestiková, dvojpiestiková a viacpiestiková"
+    correct: 1
+    explanation: "Kotúčová brzda pravá a lavá -- toto nie je základné rozdelenie.<br>Kotúčová brzda SIMPLEX, DUPLEX, SERVO, DUO-DUPLEX a DUO-SERVO -- toto je rozdelenie bubnových bŕzd.<br>Kotúčová brzda jednopiestiková, dvojpiestiková a viacpiestiková -- toto nie je základné rozdelenie."
 
   - id: "kotucove-05"
-    type: single
-    question: "Kde sa najčastejšie používajú kotúčové brzdy s pevným strmeňom?"
-    options:
-      - "V lacných mestských autách"
-      - "V športových a pretekárskych vozidlách"
-      - "V nákladných automobiloch"
-      - "V autobusoch"
-    correct: 2
-    explanation: "Pevný strmeň poskytuje vyššiu a spoľahlivejšiu brzdnú silu, čo je dôležité pre výkonné vozidlá."
+    type: write
+    question: "Ako sa volá táto časť kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/zavesenie.png"
+    accepted_answers:
+      - "Zavesenie strmeňa"
+      - "Zavesenie"
 
   - id: "kotucove-06"
     type: write
-    question: "Ako sa nazýva jav, keď brzdy pri prehriatí strácajú brzdný účinok?"
+    question: "Ako sa volá táto časť kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/priruba.png"
     accepted_answers:
-      - "fading"
-      - "fadeing"
-      - "fade"
-    explanation: "Fading je dočasné alebo trvalé zníženie brzdného účinku v dôsledku prehriatia."
+      - "Príruba"
+      - "Príruba (podložka)"
+      - "Podložka"
 
   - id: "kotucove-07"
-    type: single
-    question: "Koľko piestikov má typicky kotúčová brzda s plávajúcim strmeňom?"
-    options:
-      - "Žiadny"
-      - "Jeden (niekedy dva)"
-      - "Štyri"
-      - "Šesť"
-    correct: 2
-    explanation: "Plávajúci strmeň má zvyčajne jeden piestik, niekedy dva, na jednej strane kotúča."
+    type: write
+    question: "Ako sa volá táto časť kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/strmen.png"
+    accepted_answers:
+      - "Brzdový strmeň"
+      - "Brzdný strmeň"
+      - "Strmeň"
+      - "Pevný strmeň"
 
   - id: "kotucove-08"
-    type: single
-    question: "Prečo sa brzdové doštičky u plávajúceho strmeňa opotrebúvajú nerovnomerne?"
-    options:
-      - "Kvôli zlému chladeniu"
-      - "Kvôli asymetrickému pôsobeniu piestika"
-      - "Kvôli nízkej kvalite materiálu"
-      - "Kvôli vode v systéme"
-    correct: 2
-    explanation: "Piestik tlačí priamo len na jednu doštičku, preto sa táto opotrebúva rýchlejšie."
+    type: write
+    question: "Ako sa volajú tieto časti kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/dosticky.png"
+    accepted_answers:
+      - "Brzdové doštičky"
+      - "Brzdné doštičky"
+      - "Doštičky"
 
   - id: "kotucove-09"
-    type: single
-    question: "Čo sa môže stať, ak vodiace čapy plávajúceho strmeňa zhrdzavejú?"
-    options:
-      - "Brzda začne pískať"
-      - "Brzda sa zasekne alebo výrazne zníži brzdná sila"
-      - "Zvýši sa spotreba paliva"
-      - "Kotúč sa rýchlejšie opotrebuje"
-    correct: 2
-    explanation: "Zaseknutie vodiacich čapov vedie k trvalému pribrzďovaniu alebo výraznému zníženiu brzdnej sily."
+    type: write
+    question: "Ako sa volá táto časť kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/naboj.png"
+    accepted_answers:
+      - "Náboj kolesa"
+      - "Náboj"
 
   - id: "kotucove-10"
     type: write
-    question: "Ako sa nazýva časť kotúčovej brzdy, ktorá rotuje spoločne s kolesom?"
+    question: "Ako sa volá táto časť kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/kotuc.png"
     accepted_answers:
-      - "brzdový kotúč"
-      - "kotúč"
-      - "disk"
-      - "brzdový disk"
-    explanation: "Brzdový kotúč je pripevnený ku kolesu a rotuje spoločne s ním."
+      - "Brzdový kotúč"
+      - "Kotúč"
+      - "Brzdný kotúč"
 
   - id: "kotucove-11"
-    type: single
-    question: "Ktorá vlastnosť je výhodou kotúčových bŕzd oproti bubnovým?"
-    options:
-      - "Lepšia ochrana pred nečistotami"
-      - "Presnejšie dávkovanie brzdnej sily"
-      - "Nižšia potreba posilňovača"
-      - "Nižšia frekvencia údržby"
-    correct: 2
-    explanation: "Kotúčové brzdy majú brzdný účinok priamo úmerný stlačeniu pedála, čo umožňuje presnejšie dávkovanie."
+    type: write
+    question: "Ako sa volajú tieto časti kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/piestiky.png"
+    accepted_answers:
+      - "Hydraulické brzdové piestiky"
+      - "Hydraulické piestiky"
+      - "Brzdové piestiky"
+      - "Piestiky"
 
   - id: "kotucove-12"
+    type: write
+    question: "Ako sa volajú tieto časti kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/tesnenie.png"
+    accepted_answers:
+      - "Tesnenie"
+      - "Tesnenia"
+      - "Prachovky"
+      - "Prachovka"
+    
+  - id: "kotucove-13"
     type: single
-    question: "Prečo je integrácia parkovacej brzdy do kotúčovej brzdy s pevným strmeňom problematická?"
+    question: "Aké sú výhody pevného strmeňa oproti plávajúcemu strmeňu?"
     options:
-      - "Strmeň je príliš malý"
-      - "Konštrukcia to takmer neumožňuje"
-      - "Kotúč sa príliš zahrieva"
-      - "Brzda je príliš silná"
+      - "Rovnomerné opotrebenie doštičiek, vysoká brzdná sila, odolnosť voči deformáciam, lepšie odvádzanie tepla"
+      - "Vyššie výrobné náklady, väčšia hmotnosť, náročnejšia/drahšia údržba"
+      - "Nižšie výrobné náklady, menšia hmotnosť, jednoduhšia/lacnejšia údržba, ľahšia integrácia parkovacej brzdy"
+      - "Nerovnomerné opotrebenie doštičiek, nižšia brzdná sila, veľká citlivosť na znečistenie, koróziu, alebo deformácií"
+    correct: 1
+    explanation: "Vyššie výrobné náklady, väčšia hmotnosť, náročnejšia/drahšia údržba -- toto sú nevýhody pevného strmeňa.<br>Nižšie výrobné náklady, menšia hmotnosť, jednoduhšia/lacnejšia údržba, ľahšia integrácia parkovacej brzdy -- toto sú výhody plávajúceho strmeňa.<br>Nerovnomerné opotrebenie doštičiek, nižšia brzdná sila, veľká citlivosť na znečistenie, koróziu, alebo deformácií -- toto sú nevýhody plávajúceho strmeňa."
+
+  - id: "kotucove-14"
+    type: single
+    question: "Aké sú nevýhody pevného strmeňa oproti plávajúcemu strmeňu?"
+    options:
+      - "Rovnomerné opotrebenie doštičiek, vysoká brzdná sila, odolnosť voči deformáciam, lepšie odvádzanie tepla"
+      - "Vyššie výrobné náklady, väčšia hmotnosť, náročnejšia/drahšia údržba"
+      - "Nižšie výrobné náklady, menšia hmotnosť, jednoduhšia/lacnejšia údržba, ľahšia integrácia parkovacej brzdy"
+      - "Nerovnomerné opotrebenie doštičiek, nižšia brzdná sila, veľká citlivosť na znečistenie, koróziu, alebo deformácií"
     correct: 2
-    explanation: "Konštrukcia pevného strmeňa takmer neumožňuje jednoduchú integráciu mechanizmu parkovacej brzdy."
+    explanation: "Rovnomerné opotrebenie doštičiek, vysoká brzdná sila, odolnosť voči deformáciam, lepšie odvádzanie tepla -- toto sú výhody pevného strmeňa.<br>Nižšie výrobné náklady, menšia hmotnosť, jednoduhšia/lacnejšia údržba, ľahšia integrácia parkovacej brzdy -- toto sú výhody plávajúceho strmeňa.<br>Nerovnomerné opotrebenie doštičiek, nižšia brzdná sila, veľká citlivosť na znečistenie, koróziu, alebo deformácií -- toto sú nevýhody plávajúceho strmeňa."
+
+  - id: "kotucove-15"
+    type: single
+    question: "Aké sú výhody plávajúceho strmeňa oproti pevnému strmeňu?"
+    options:
+      - "Rovnomerné opotrebenie doštičiek, vysoká brzdná sila, odolnosť voči deformáciam, lepšie odvádzanie tepla"
+      - "Vyššie výrobné náklady, väčšia hmotnosť, náročnejšia/drahšia údržba"
+      - "Nižšie výrobné náklady, menšia hmotnosť, jednoduhšia/lacnejšia údržba, ľahšia integrácia parkovacej brzdy"
+      - "Nerovnomerné opotrebenie doštičiek, nižšia brzdná sila, veľká citlivosť na znečistenie, koróziu, alebo deformácií"
+    correct: 3
+    explanation: "Rovnomerné opotrebenie doštičiek, vysoká brzdná sila, odolnosť voči deformáciam, lepšie odvádzanie tepla -- toto sú výhody pevného strmeňa.<br>Vyššie výrobné náklady, väčšia hmotnosť, náročnejšia/drahšia údržba -- toto sú nevýhody pevného strmeňa.<br>Nerovnomerné opotrebenie doštičiek, nižšia brzdná sila, veľká citlivosť na znečistenie, koróziu, alebo deformácií -- toto sú nevýhody plávajúceho strmeňa."
+
+  - id: "kotucove-16"
+    type: single
+    question: "Aké sú nevýhody plávajúceho strmeňa oproti pevnému strmeňu?"
+    options:
+      - "Rovnomerné opotrebenie doštičiek, vysoká brzdná sila, odolnosť voči deformáciam, lepšie odvádzanie tepla"
+      - "Vyššie výrobné náklady, väčšia hmotnosť, náročnejšia/drahšia údržba"
+      - "Nižšie výrobné náklady, menšia hmotnosť, jednoduhšia/lacnejšia údržba, ľahšia integrácia parkovacej brzdy"
+      - "Nerovnomerné opotrebenie doštičiek, nižšia brzdná sila, veľká citlivosť na znečistenie, koróziu, alebo deformácií"
+    correct: 4
+    explanation: "Rovnomerné opotrebenie doštičiek, vysoká brzdná sila, odolnosť voči deformáciam, lepšie odvádzanie tepla -- toto sú výhody pevného strmeňa.<br>Vyššie výrobné náklady, väčšia hmotnosť, náročnejšia/drahšia údržba -- toto sú nevýhody pevného strmeňa.<br>Nižšie výrobné náklady, menšia hmotnosť, jednoduhšia/lacnejšia údržba, ľahšia integrácia parkovacej brzdy -- toto sú výhody plávajúceho strmeňa."
+
+  - id: "kotucove-17"
+    type: write
+    question: "Ako sa volajú tieto časti kotúčovej brzdy s plávajúcim strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/posuvne-vedenie.png"
+    accepted_answers:
+      - "Posuvné vedenie strmeňa"
+      - "Posuvné vedenie"
+      - "Vedenie"
+      - "Vedenie strmeňa"
+      - "Vedenie brzdové"
+      - "Vedenie brzdy"
+      - "Vedenie brzdové"
+

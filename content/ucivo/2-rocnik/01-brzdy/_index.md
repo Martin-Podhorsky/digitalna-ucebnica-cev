@@ -21,23 +21,23 @@ Brzdy sú **mechanické zariadenie, ktoré zamedzuje pohybu vozidla absorbovaní
 
 Pri brzdení na vozidlo pôsobí viacero fyzikálnych síl, ktoré ovplyvňujú jeho spomaľovanie a stabilitu. Sú nimi:
 
-- **Brzdná sila (\(F_{b}\))**
+- **Brzdná sila F<sub>b</sub>**
   - vzniká trením medzi brzdovými platničkami a kotúčmi (alebo bubnami)
   - jej veľkosť závisí od úrovne stlačenia brzdového pedálu a od stavu brzdového systému
-- **Trecia sila (\(F_{t}\))** 
+- **Trecia sila F<sub>t</sub>** 
   - sila medzi pneumatikou a povrchom vozovky
   - vďaka nej sa automobil pohybuje namiesto toho, aby prešmykoval na mieste a vďaka nej takisto dokáže aj zabrzdiť
   - počas brzdenia táto sila pôsobí v smere proti pohybu vozidla
   - jej veľkosť je závislá na koeficiente trenia medzi pneumatikou a vozovkou, ktorý sa mení v závislosti od stavu pneumatík a stavu vozovky
-- **Zotrvačná sila (\(F_{z}\))**
+- **Zotrvačná sila F<sub>z</sub>**
   - je to sila pôsobiaca voči zmene rýchlosti pohybu vozidla
   - pri prudkom brzdení sa prejavuje pretláčaním osôb a nákladu vozidla smerom dopredu
   - je závislá od celkovej hmotnosti a rýchlosti vozidla (je ich súčinom)
-- **Gravitačná sila (\(F_{g}\))**
+- **Gravitačná sila F<sub>g</sub>**
   - tlačí vozidlo smerom k zemi
   - ak vozidlo brzdí v svahu, má táto sila aj zložku, ktorá ovplyvňuje výsledné spomalenie
   - je závislá od hmotnosti vozidla
-- **Odpor vzduchu (\(F_{v}\))**
+- **Odpor vzduchu F<sub>v </sub>**
   - pôsobí proti pohybu vozidla
   - jeho veľkosť rastie s rýchlosťou vozidla, takže je najvýraznejší pri vyšších rýchlostiach
   - zohráva dôležitú rolu aj pri spomaľovaní ak je automobil vybavený aerodynamickými brzdami

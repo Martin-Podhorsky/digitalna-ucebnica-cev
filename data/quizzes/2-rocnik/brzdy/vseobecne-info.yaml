@@ -11,7 +11,7 @@ questions:
       - "mechanické zariadenie, ktoré bráni pohybu vozidla premenou jeho elektrickej energie na mechanickú energiu"
       - "chemická zlúčenina, ktorá zamedzuje pohybu vozidla absorbovaním jeho pohybovovej energie alebo jej premenou na inú energiu"
     correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+    explanation: "Brzdy sú mechanické zariadenie alebo súčiastka (a nie chemická zlúčenina), ktorá zamedzuje pohybu vozidla absorbovaním jeho pohybovovej energie (nie elektrickej ani trecej)alebo jej premenou na inú energiu (zvyčajne na tepelnú, ale určite nikdy nie na mechanickú)."
 
   - id: "vseobecne-info-02"
     type: single
@@ -31,17 +31,20 @@ questions:
       - "Brzdiť, kedy chceme a nebrzdiť, kedy nechceme"
       - "Spomaliť vozidlo alebo úplne ho zastaviť počas jazdy"
       - "Spomaliť vozidlo, úplne ho zastaviť počas jazdy alebo zaistiť proti nežiaducemu rozjazdu po odparkovaní alebo odstavení."
-      - ""
+      - "Zaistiť vozidlo proti nežiaducemu rozjazdu po odparkovaní alebo odstavení"
     correct: 3
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+    explanation: "Zadanie sa pýta na hlavné úlohy (v možnom čísle) a v každej z ostatných možností niečo chýba."
 
   - id: "vseobecne-info-04"
     type: single
-    question: "Aké všetky sily pôsobia na automobil pri brzdení?"
+    question: "Aké konkrétne sily pôsobia na automobil pri brzdení?"
     options:
-      - "{doplnit}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+      - "Axiálne, radiálne a tangenciálne"
+      - "Brzdná sila, trecia sila, odpor vzduchu, gravitačná sila a zotrvačná sila"
+      - "Priamočinné a nepriamočinné"
+      - "Ťah, tlak, strih, ohyb a krútenie"
+    correct: 2
+    explanation: "Axiálne, radiálne a tangenciálne -- mohli by byť, ale pýtame sa na konkrétne sily.<br>Priamočinné a nepriamočinné -- také nempoznáme (priamočinné a nepriamočinné môžu byť jedine len brzdy).<br>Ťah, tlak, strih, ohyb a krútenie -- toto je z STT."
 
   - id: "vseobecne-info-05"
     type: write
@@ -58,6 +61,8 @@ questions:
     accepted_answers:
       - "brzdná sila"
       - "sila brzdenia"
+      - "brzdová sila"
+      - "sila bŕzd"
 
   - id: "vseobecne-info-07"
     type: write
@@ -74,6 +79,8 @@ questions:
     accepted_answers:
       - "gravitačná sila"
       - "sila gravitácie"
+      - "tiažová sila"
+      - "sila tiaže"
 
   - id: "vseobecne-info-09"
     type: write
@@ -81,59 +88,73 @@ questions:
     image: "/ucivo/2-rocnik/01-brzdy/zotrvacna-sila.png"
     accepted_answers:
       - "zotrvačná sila"
+      - "sila zotrvačnosti"
+      - "zotrvačnosť"
 
   - id: "vseobecne-info-10"
     type: single
     question: "Na aké fázy vieme rozdeliť brzdenie?"
     options:
-      - "{doplnit}"
+      - "Reakčný čas vodiča, čas nábehu brzdy, čas plného brzdného účinku a úplné zastavenie vozidla" 
+      - "Reakčný čas vodiča, čas nábehu brzdy a čas plného brzdného účinku"
+      - "Reakčný čas vodiča, čas plného brzdného účinku a úplné zastavenie vozidla" 
+      - "Brzdenie, spomalenie a zastavenie"
     correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+    explanation: "V každej z ostatných možností niečo chýba."
 
   - id: "vseobecne-info-11"
     type: single
     question: "Podľa akých kritérií vieme brzdy rozdeliť?"
     options:
-      - "{doplnit}"
+      - "Účelu použitia, zdroja energie a jej prenosu a konštrukcie"
+      - "Prevázkové, núdzové, parkovacie a pomocné (odľahčovacie)"
+      - "Priamočinné, strojové, polostrojové a kombinované"
+      - "Bubnové, kotúčové a pásové"
     correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+    explanation: "Pýtame sa podľa 'akých kritérií' a v každej z ostatných možností sú rozdelenia už podľa jedného daného kritéria (účelu použitia, zdroja energie a jej prenosu, alebo konštrukcie)."
 
   - id: "vseobecne-info-12"
     type: single
     question: "Ako delíme brzdy podľa účelu ich použitia?"
     options:
-      - "{doplnit}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+      - "Účelu použitia, zdroja energie a jej prenosu a konštrukcie"
+      - "Prevázkové, núdzové, parkovacie a pomocné (odľahčovacie)"
+      - "Priamočinné, strojové, polostrojové a kombinované"
+      - "Bubnové, kotúčové a pásové"
+    correct: 2
+    explanation: "Priamočinné, strojové, polostrojové a kombinované -- podľa prenosu energie.<br>Bubnové, kotúčové a pásové -- podľa konštrukcie.<br>Účelu použitia, zdroja energie a jej prenosu a konštrukcie -- podľa akých kritérií."
 
   - id: "vseobecne-info-13"
     type: single
-    question: "Ako delíme brzdy podľa zdroja energie a jej prenosu?"
+    question: "Ako delíme brzdy podľa zdroju energie a jej prenosu?"
     options:
-      - "{doplnit}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+      - "Účelu použitia, zdroja energie a jej prenosu a konštrukcie"
+      - "Prevázkové, núdzové, parkovacie a pomocné (odľahčovacie)"
+      - "Priamočinné, strojové, polostrojové a kombinované"
+      - "Bubnové, kotúčové a pásové"
+    correct: 3
+    explanation: "Prevázkové, núdzové, parkovacie a pomocné (odľahčovacie) -- podľa účelu použitia.<br>Bubnové, kotúčové a pásové -- podľa konštrukcie.<br>Účelu použitia, zdroja energie a jej prenosu a konštrukcie -- podľa akých kritérií."
+
 
   - id: "vseobecne-info-14"
     type: single
     question: "Ako delíme brzdy podľa ich konštrukcie?"
     options:
-      - "{doplnit}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+      - "Účelu použitia, zdroja energie a jej prenosu a konštrukcie"
+      - "Prevázkové, núdzové, parkovacie a pomocné (odľahčovacie)"
+      - "Priamočinné, strojové, polostrojové a kombinované"
+      - "Bubnové, kotúčové a pásové"
+    correct: 4
+    explanation: "Prevázkové, núdzové, parkovacie a pomocné (odľahčovacie) -- podľa účelu použitia.<br>Priamočinné, strojové, polostrojové a kombinované -- podľa zdroju energie a jej prenosu.<br>Účelu použitia, zdroja energie a jej prenosu a konštrukcie -- podľa akých kritérií."
+
 
   - id: "vseobecne-info-15"
     type: single
-    question: "Ako delíme brzdy podľa ich konštrukcie?"
-    options:
-      - "{doplnit}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
-
-  - id: "vseobecne-info-16"
-    type: single
     question: "Aké sú hlavné požiadavky kladené na brzdový systém?"
     options:
-      - "{doplnit}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+      - "Bezpečnosť, účinnosť, jednoduchosť a spoľahlivosť"
+      - "Bezpečnosť, funkčnosť, spoľahlivosť a odstupňovateľnosť"
+      - "Nízke výrobné náklady, malá hmotnosť, jednoduchá obsluha a dlhá životnosť"
+      - "Vysoké výrobné náklady, nespoľahlivosť a vysoká hmotnosť"
+    correct: 2
+    explanation: "Pýtame sa na hlavné požiadavky. Jednoduchosť, nízke výrobné náklady, malá hmotnosť, jednoduchá obsluha a dlhá životnosť sú takisto požiadavky kladené na brzdový systém, ale nie sú to tie hlavné."

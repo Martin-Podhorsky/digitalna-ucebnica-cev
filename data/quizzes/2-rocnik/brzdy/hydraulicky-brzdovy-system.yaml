@@ -4,68 +4,81 @@ year: 2
 questions:
   - id: "hydraulicky-brzdovy-system-01"
     type: write
-    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    question: "Ako sa volá táto časť hydraulického brzdového systému? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/pedal.png"
     accepted_answers:
       - "brzdový pedál"
 
   - id: "hydraulicky-brzdovy-system-02"
     type: write
-    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    question: "Ako sa volá táto časť hydraulického brzdového systému? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/posilnovac.png"
     accepted_answers:
       - "podtlakový brzdový posilňovač"
       - "podtlakový posilňovač"
+      - "podtlakový posilňovač brzdového účinku"
+      - "podtlakový posilňovač brzdného účinku"
 
   - id: "hydraulicky-brzdovy-system-03"
     type: write
-    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    question: "Ako sa volá táto časť hydraulického brzdového systému? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/valec.png"
     accepted_answers:
       - "dvojokruhový brzdový valec"
       - "hlavný (dvojokruhový) brzdový valec"
+      - "hlavný dvojokruhový brzdový valec"
       - "hlavný brzdový valec"
+      - "dvojokruhový brzdný valec"
+      - "hlavný brzdný valec"
+      - "hlavný dvojokruhový brzdný valec"
+      - "hlavný (dvojokruhový) brzdný valec"
 
   - id: "hydraulicky-brzdovy-system-04"
     type: write
-    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    question: "Ako sa volá táto časť hydraulického brzdového systému? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/nadrzka.png"
     accepted_answers:
       - "nádržka na brzdovú kvapalinu"
+      - "nádržka na brzdnú kvapalinu"
+      - "nádržka na brzdný olej"
       - "nádržka"
       - "nádržka brzdovej kvapaliny"
-      - "nádržka na brzdový olej"
+      - "nádržka brzdného oleja"
+      - "nádržka brzdnej kvapaliny"
 
   - id: "hydraulicky-brzdovy-system-05"
     type: write
-    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    question: "Ako sa volá táto časť hydraulického brzdového systému? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/predny-okruh.png"
     accepted_answers:
-      - "okruh predných brzd"
+      - "okruh predných bŕzd"
       - "predný brzdový okruh"
       - "predný okruh"
+      - "predný okruh bŕzd"
 
   - id: "hydraulicky-brzdovy-system-06"
     type: write
-    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    question: "Ako sa volá táto časť hydraulického brzdového systému? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/zadny-okruh.png"
     accepted_answers:
-      - "okruh zadných brzd"
+      - "okruh zadných bŕzd"
       - "zadný brzdový okruh"
       - "zadný okruh"
+      - "zadný okruh bŕzd"
 
   - id: "hydraulicky-brzdovy-system-07"
     type: write
-    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    question: "Ako sa volá táto časť hydraulického brzdového systému? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/obmedzovac.png"
     accepted_answers:
       - "obmedzovač brzdového účinku"
+      - "obmedzovač brzdného účinku"
       - "obmedzovač účinku"
       - "obmedzovač"
 
   - id: "hydraulicky-brzdovy-system-08"
     type: write
-    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    question: "Ako sa volajú tieto časti hydraulického brzdového systému? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/predne-brzdy.png"
     accepted_answers:
       - "predné brzdy"
@@ -74,7 +87,7 @@ questions:
 
   - id: "hydraulicky-brzdovy-system-09"
     type: write
-    question: "Ako sa volá táto časť hydraulického brzdového systému?"
+    question: "Ako sa volajú tieto časti hydraulického brzdového systému? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/zadne-brzdy.png"
     accepted_answers:
       - "zadné brzdy"
@@ -83,7 +96,7 @@ questions:
 
   - id: "hydraulicky-brzdovy-system-10"
     type: single
-    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/TT.png"
     options:
       - "TT"
@@ -96,7 +109,7 @@ questions:
 
   - id: "hydraulicky-brzdovy-system-11"
     type: single
-    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/diagonalne.png"
     options:
       - "TT"
@@ -109,7 +122,7 @@ questions:
 
   - id: "hydraulicky-brzdovy-system-12"
     type: single
-    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/hh.png"
     options:
       - "TT"
@@ -122,7 +135,7 @@ questions:
 
   - id: "hydraulicky-brzdovy-system-13"
     type: single
-    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/LL.png"
     options:
       - "TT"
@@ -135,7 +148,7 @@ questions:
 
   - id: "hydraulicky-brzdovy-system-14"
     type: single
-    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov? (prosím písať aj s diakritikou)"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/HT.png"
     options:
       - "TT"

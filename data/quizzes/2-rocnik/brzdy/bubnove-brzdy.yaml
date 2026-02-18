@@ -11,7 +11,7 @@ questions:
       - "Ocelový pás obopína liatinový bubon umiestnený na hriadeli a zovretím ho brzdí"
       - "Trením medzi bubnom a brzdnými doštičkami"
     correct: 2
-    explanation: "{vysvetlenie, prečo to nemôžu byť ostatné možnosti}"
+    explanation: "Brzdové doštičky zovierajú rotujúci brzdový kotúč -- takto fungujú kotúčové brzdy.<br>Ocelový pás obopína liatinový bubon umiestnený na hriadeli a zovretím ho brzdí -- takto fungujú pásové brzdy.<br>Trením medzi bubnom a brzdnými doštičkami -- bubnové brzdy majú čeľuste, nie doštičky."
 
   - id: "bubnove-02"
     type: write
@@ -131,54 +131,80 @@ questions:
     type: single
     question: "Ktorá z možností najviac zodpovedá výhodám bubnových bŕzd?"
     options:
-      - "{doplniť}"
+      - "Nižšie výrobné náklady, samozosilňovací účinok, ochrana pred nečistotami, jednoduchá integrácia parkovacej brzdy, dlhšia životnosť obloženia"
+      - "Vyššie výrobné náklady, nemá samozosilňovací účinok, náchylnosť na znečistenie, komplikovaná integrácia parkovacej brzdy, krátšia životnosť obloženia"
+      - "Zlý odvod tepla, vyššia náchylnosť na fading, vyššia hmotnosť"
+      - "Lepšie chaldenie, jednoduchšia konštrukcia, menšia náchylnosť na fading"
     correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+    explanation: "Vyššie výrobné náklady, nemá samozosilňovací účinok, náchylnosť na znečistenie, komplikovaná integrácia parkovacej brzdy, krátšia životnosť obloženia -- presný opak správnej odpovede.<br>Zlý odvod tepla, vyššia náchylnosť na fading, vyššia hmotnosť -- toto sú nevýhody a my sa pýtame na výhody.<br>Lepšie chaldenie, jednoduchšia konštrukcia, menšia náchylnosť na fading -- toto sú výhody kotúčových bŕzd."
 
   - id: "bubnove-13"
     type: single
     question: "Ktorá z možností najviac zodpovedá nevýhodám bubnových bŕzd?"
     options:
-      - "{doplniť}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+      - "Nižšie výrobné náklady, samozosilňovací účinok, ochrana pred nečistotami, jednoduchá integrácia parkovacej brzdy, dlhšia životnosť obloženia"
+      - "Vyššie výrobné náklady, nemá samozosilňovací účinok, náchylnosť na znečistenie, komplikovaná integrácia parkovacej brzdy, krátšia životnosť obloženia"
+      - "Zlý odvod tepla, vyššia náchylnosť na fading, vyššia hmotnosť"
+      - "Lepšie chaldenie, jednoduchšia konštrukcia, menšia náchylnosť na fading"
+    correct: 3
+    explanation: "Nižšie výrobné náklady, samozosilňovací účinok, ochrana pred nečistotami, jednoduchá integrácia parkovacej brzdy, dlhšia životnosť obloženia -- toto sú výhody a my sa pýtame na nevýhody.<br>Vyššie výrobné náklady, nemá samozosilňovací účinok, náchylnosť na znečistenie, komplikovaná integrácia parkovacej brzdy, krátšia životnosť obloženia -- táto odpoveď nezodpovedá nevýhodám bubnových bŕzd.<br>Lepšie chaldenie, jednoduchšia konštrukcia, menšia náchylnosť na fading -- toto sú výhody kotúčových bŕzd a my sa pýtame na nevýhody bubnových brźd."
 
   - id: "bubnove-14"
     type: single
     question: "Ako funguje bubnová brzda typu SIMPLEX?"
     options:
-      - "{doplniť}"
+      - "Obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí. Na opačnej strane sú obe čeľuste podopreté oporou. Jedna z čeľustí je vždy nábežná a druhá úbežná."
+      - "Každá čeľusť má svoj vlastný valček a oporu. V smere dopredu sú obe čeľuste nábežné a v smere dozadu sú obe čeľuste úbežné."
+      - "Na hornej strane brzdy je jedna čeľusť uchytená o oporu a druhá je roztláčaná hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa čeľusť spojená s hydraulickým valčekom oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt však funguje iba v jednom smere rotácie."
+      - "Obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi. Brzda má rovnaký brzdný účinok v oboch smeroch rotácie."
+      - "Na hornej strane brzdy sú obe čeľuste roztláčané jedným spoločným hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa jedna z čeľustí oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt funguje v oboch smeroch rotácie."
     correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+    explanation: "Každá čeľusť má svoj vlastný valček a oporu. V smere dopredu sú obe čeľuste nábežné a v smere dozadu sú obe čeľuste úbežné. -- takto funguje DUPLEX.<br>Na hornej strane brzdy je jedna čeľusť uchytená o oporu a druhá je roztláčaná hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa čeľusť spojená s hydraulickým valčekom oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt však funguje iba v jednom smere rotácie. -- takto funguje SERVO.<br>Obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi. Brzda má rovnaký brzdný účinok v oboch smeroch rotácie. -- takto funguje DUO-DUPLEX.<br>Na hornej strane brzdy sú obe čeľuste roztláčané jedným spoločným hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa jedna z čeľustí oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt funguje v oboch smeroch rotácie. -- takto funguje DUO-SERVO."
 
   - id: "bubnove-15"
     type: single
     question: "Ako funguje bubnová brzda typu DUPLEX?"
-    options:
-      - "{doplniť}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+    options: 
+      - "Obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí. Na opačnej strane sú obe čeľuste podopreté oporou. Jedna z čeľustí je vždy nábežná a druhá úbežná."
+      - "Každá čeľusť má svoj vlastný valček a oporu. V smere dopredu sú obe čeľuste nábežné a v smere dozadu sú obe čeľuste úbežné."
+      - "Na hornej strane brzdy je jedna čeľusť uchytená o oporu a druhá je roztláčaná hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa čeľusť spojená s hydraulickým valčekom oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt však funguje iba v jednom smere rotácie."
+      - "Obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi. Brzda má rovnaký brzdný účinok v oboch smeroch rotácie."
+      - "Na hornej strane brzdy sú obe čeľuste roztláčané jedným spoločným hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa jedna z čeľustí oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt funguje v oboch smeroch rotácie."
+    correct: 2
+    explanation: "Obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí. Na opačnej strane sú obe čeľuste podopreté oporou. Jedna z čeľustí je vždy nábežná a druhá úbežná. -- takto funguje SIMPLEX.<br>Na hornej strane brzdy je jedna čeľusť uchytená o oporu a druhá je roztláčaná hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa čeľusť spojená s hydraulickým valčekom oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt však funguje iba v jednom smere rotácie. -- takto funguje SERVO.<br>Obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi. Brzda má rovnaký brzdný účinok v oboch smeroch rotácie. -- takto funguje DUO-DUPLEX.<br>Na hornej strane brzdy sú obe čeľuste roztláčané jedným spoločným hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa jedna z čeľustí oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt funguje v oboch smeroch rotácie. -- takto funguje DUO-SERVO."
 
   - id: "bubnove-16"
     type: single
     question: "Ako funguje bubnová brzda typu SERVO?"
     options:
-      - "{doplniť}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+      - "Obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí. Na opačnej strane sú obe čeľuste podopreté oporou. Jedna z čeľustí je vždy nábežná a druhá úbežná."
+      - "Každá čeľusť má svoj vlastný valček a oporu. V smere dopredu sú obe čeľuste nábežné a v smere dozadu sú obe čeľuste úbežné."
+      - "Na hornej strane brzdy je jedna čeľusť uchytená o oporu a druhá je roztláčaná hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa čeľusť spojená s hydraulickým valčekom oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt však funguje iba v jednom smere rotácie."
+      - "Obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi. Brzda má rovnaký brzdný účinok v oboch smeroch rotácie."
+      - "Na hornej strane brzdy sú obe čeľuste roztláčané jedným spoločným hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa jedna z čeľustí oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt funguje v oboch smeroch rotácie."
+    correct: 3
+    explanation: "Obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí. Na opačnej strane sú obe čeľuste podopreté oporou. Jedna z čeľustí je vždy nábežná a druhá úbežná. -- takto funguje SIMPLEX.<br>Každá čeľusť má svoj vlastný valček a oporu. V smere dopredu sú obe čeľuste nábežné a v smere dozadu sú obe čeľuste úbežné. -- takto funguje DUPLEX.<br>Obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi. Brzda má rovnaký brzdný účinok v oboch smeroch rotácie. -- takto funguje DUO-DUPLEX.<br>Na hornej strane brzdy sú obe čeľuste roztláčané jedným spoločným hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa jedna z čeľustí oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt funguje v oboch smeroch rotácie. -- takto funguje DUO-SERVO."
 
   - id: "bubnove-17"
     type: single
     question: "Ako funguje bubnová brzda typu DUO-DUPLEX?"
     options:
-      - "{doplniť}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+      - "Obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí. Na opačnej strane sú obe čeľuste podopreté oporou. Jedna z čeľustí je vždy nábežná a druhá úbežná."
+      - "Každá čeľusť má svoj vlastný valček a oporu. V smere dopredu sú obe čeľuste nábežné a v smere dozadu sú obe čeľuste úbežné."
+      - "Na hornej strane brzdy je jedna čeľusť uchytená o oporu a druhá je roztláčaná hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa čeľusť spojená s hydraulickým valčekom oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt však funguje iba v jednom smere rotácie."
+      - "Obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi. Brzda má rovnaký brzdný účinok v oboch smeroch rotácie."
+      - "Na hornej strane brzdy sú obe čeľuste roztláčané jedným spoločným hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa jedna z čeľustí oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt funguje v oboch smeroch rotácie."
+    correct: 4
+    explanation: "Obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí. Na opačnej strane sú obe čeľuste podopreté oporou. Jedna z čeľustí je vždy nábežná a druhá úbežná. -- takto funguje SIMPLEX.<br>Každá čeľusť má svoj vlastný valček a oporu. V smere dopredu sú obe čeľuste nábežné a v smere dozadu sú obe čeľuste úbežné. -- takto funguje DUPLEX.<br>Na hornej strane brzdy je jedna čeľusť uchytená o oporu a druhá je roztláčaná hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa čeľusť spojená s hydraulickým valčekom oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt však funguje iba v jednom smere rotácie. -- takto funguje SERVO.<br>Na hornej strane brzdy sú obe čeľuste roztláčané jedným spoločným hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa jedna z čeľustí oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt funguje v oboch smeroch rotácie. -- takto funguje DUO-SERVO."
 
   - id: "bubnove-18"
     type: single
     question: "Ako funguje bubnová brzda typu DUO-SERVO?"
     options:
-      - "{doplniť}"
-    correct: 1
-    explanation: "{vysvetli, prečo to nemôžu byť ostatné možnosti}"
+      - "Obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí. Na opačnej strane sú obe čeľuste podopreté oporou. Jedna z čeľustí je vždy nábežná a druhá úbežná."
+      - "Každá čeľusť má svoj vlastný valček a oporu. V smere dopredu sú obe čeľuste nábežné a v smere dozadu sú obe čeľuste úbežné."
+      - "Na hornej strane brzdy je jedna čeľusť uchytená o oporu a druhá je roztláčaná hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa čeľusť spojená s hydraulickým valčekom oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt však funguje iba v jednom smere rotácie."
+      - "Obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi. Brzda má rovnaký brzdný účinok v oboch smeroch rotácie."
+      - "Na hornej strane brzdy sú obe čeľuste roztláčané jedným spoločným hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa jedna z čeľustí oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt funguje v oboch smeroch rotácie."
+    correct: 5
+    explanation: "Obe čeľuste sú roztláčané jedným spoločným hydraulickým valčekom, ktorý je umiestnený na jednom konci čeľustí. Na opačnej strane sú obe čeľuste podopreté oporou. Jedna z čeľustí je vždy nábežná a druhá úbežná. -- takto funguje SIMPLEX.<br>Každá čeľusť má svoj vlastný valček a oporu. V smere dopredu sú obe čeľuste nábežné a v smere dozadu sú obe čeľuste úbežné. -- takto funguje DUPLEX.<br>Na hornej strane brzdy je jedna čeľusť uchytená o oporu a druhá je roztláčaná hydraulickým valčekom. Na opačnej strane sú obidve čeľuste spojené pomocou plávajúceho čapu. Akonáhle sa čeľusť spojená s hydraulickým valčekom oprie o stenu bubna, sila rotácie ju stiahne so sebou a vďaka spojeniu oboch čeľustí posuvným čapom sa vysunie druhá čeľusť, ktorá sa takisto oprie o rotujúci bubon. Tento efekt však funguje iba v jednom smere rotácie. -- takto funguje SERVO.<br>Obe čeľuste sú roztláčané na oboch stranách dvojitými piestikmi. Brzda má rovnaký brzdný účinok v oboch smeroch rotácie. -- takto funguje DUO-DUPLEX."

@@ -40,7 +40,7 @@ Kotúčové brzdy sa rozdeľujú podľa konštrukcie strmeňa na:
 4 - **Brzdové doštičky**<br>
 5 - **Náboj kolesa**<br>
 6 - **Brzdový kotúč**<br>
-7 - **Hydraulický brzdový valček**<br>
+7 - **Hydraulické brzdové piestiky**<br>
 8 - **Tesnenie**<br>
 
 {{< figure src="pevny-strmen.png" alt="Kotúčová brzda s pevným strmeňom" width="50%" caption="Obr. 10.6 - Kotúčová brzda s pevným strmeňom" >}}
@@ -72,7 +72,7 @@ Dva piestiky (alebo viac) sú tlakom kvapaliny tlačené smerom ku kotúču z je
 4 - **Brzdové doštičky**<br>
 5 - **Náboj kolesa**<br>
 6 - **Brzdový kotúč**<br>
-7 - **Hydraulický brzdový valček**<br>
+7 - **Hydraulický brzdový piestik**<br>
 8 - **Posuvné vedenie strmeňa**<br>
 9 - **Tesnenie**
 
