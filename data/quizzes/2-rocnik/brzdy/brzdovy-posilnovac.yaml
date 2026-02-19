@@ -4,103 +4,140 @@ year: 2
 questions:
   - id: "brzdovy-posilnovac-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Brzdový posilňovač\"?"
+    question: "Ktorá z možností najviac zodpovedá princípu činnosti podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/brake-booster-active.png"
     options:
-      - "Brzdy"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Keď vodič nestláča brzdový pedál, v podtlakovej aj v pracovnej komore je rovnaký tlak (podtlak). Pri stlačení pedála sa do pracovnej komory vpustí atmosférický tlak a zablokuje sa prepúšťací kanál. Rozdiel tlakov (podtlak vs. atmosférický tlak) vytvára silu, ktorá tlačí na piest a prenáša sa do hlavného brzdového valca pomocou tlačnej tyče."
+      - "Keď vodič nestláča brzdový pedál, v podtlakovej aj v pracovnej komore je rovnaký tlak (atmosferický tlak). Pri stlačení pedála sa z pracovnej komory začne vysávať atmosférický tlak a zablokuje sa prepúšťací kanál. Rozdiel tlakov (atmosférický tlak vs. podtlak) vytvára silu, ktorá tlačí na piest a prenáša sa do hlavného brzdového valca pomocou tlačnej tyče."
+      - "Keď vodič nestláča brzdový pedál, v oboch komorách je atmosférický tlak. Pri stlačení pedála sa do oboch komôr vpustí podtlak a otvorí sa prepúšťací kanál. Rozdiel tlakov medzi komorami vytvára silu, ktorá tlačí na membránu a prenáša sa do hlavného brzdového valca pomocou tlačnej tyče."
+      - "Keď vodič nestláča brzdový pedál, v podtlakovej komore je podtlak a v pracovnej komore je atmosférický tlak. Pri stlačení pedála sa do pracovnej komory vpustí ešte vyšší tlak (pretlak) a otvorí sa prepúšťací kanál. Rozdiel tlakov (pretlak vs. podtlak) vytvára silu, ktorá tlačí na piest a prenáša sa do hlavného brzdového valca pomocou tlačnej tyče."
     correct: 1
-    explanation: "Kapitola Brzdový posilňovač patrí do celku Brzdy."
+    explanation: "Na to, aby došlo k zosíleniu sily požadovaným smerom (doľava), musí byť pri stlačení pedálu v podtlakovej komore podtlak a v pracovnej komore atmosférický tlak. V ostatných možnostiach k tomuto javu nedochádza."
 
   - id: "brzdovy-posilnovac-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Brzdový posilňovač\"?"
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/podtlakova-komora.png"
     options:
-      - "podtlak"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Podtlaková komora"
+      - "Pracovná komora"
+      - "Atmosferická komora"
+      - "Pretlaková komora"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem podtlak."
+    explanation: "Je to podtlaková komora, pretože je z nej cez podtlakovú prípojku, pripojenú ku saniu alebo výveve, odsávaný vzduch, čím sa vytvára podtlak."
 
   - id: "brzdovy-posilnovac-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Brzdový posilňovač\"?"
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/podtlakova-pripojka.png"
     options:
-      - "chladiaca kvapalina"
-      - "pedál"
-      - "palivová mapa"
-      - "alternátor"
+      - "Podtlaková prípojka"
+      - "Pracovná prípojka"
+      - "Atmosferická prípojka"
+      - "Pretlaková prípojka"
     correct: 1
-    explanation: "K téme Brzdový posilňovač patrí aj pojem pedál."
+    explanation: "Táto prípojka je pripojená ku saniu alebo výveve, ktoré vytvárajú PODTLAK v podtlakovej komore."
 
   - id: "brzdovy-posilnovac-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: podtlak, pedál, pomocná sila."
-    accepted_answers:
-      - "brzdový posilňovač"
-      - "Brzdový posilňovač"
-    explanation: "Správna odpoveď je Brzdový posilňovač."
+    type: single
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/piest.png"
+    options:
+      - "Piest"
+      - "Membrána"
+      - "Reakčný kotúč"
+      - "Valec"
+    correct: 1
+    explanation: "Membrána to nie je -- tá sa nachádza na krajoch piesta a oddeľuje podtlakovú komoru od pracovnej.<br>Reakčný kotúč to tiež nie je -- ten je uložený v strede piestu.<br>A valec to taktieť nie je -- takáto časť sa v podtlakovom brzdovom posilňovači nenachádza."
 
   - id: "brzdovy-posilnovac-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Brzdový posilňovač\"?"
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/pruzina-piest.png"
     options:
-      - "podtlak, pomocná sila"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Vratná pružina piestu"
+      - "Vratná pružina brzdového pedálu"
+      - "Ťažná pružina"
+      - "Doraz"
     correct: 1
-    explanation: "Správna kombinácia je podtlak a pomocná sila."
+    explanation: "Pružina je pripevnená k PIESTU a TLAČÍ naň v opačnom smere, ako sila vytvorená rozdielmi tlakov v podtlakovej a pracovnej komore. Doraz to nemôže byť, pretože potom by brzda nefungovala -- piest by narazil na doraz a nebol by vytvorený žiadny tlak v hydraulickej kvapaline."
 
   - id: "brzdovy-posilnovac-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Brzdový posilňovač\"."
-    accepted_answers:
-      - "podtlak"
-      - "pedál"
-      - "pomocná sila"
-      - "komfort"
-    explanation: "Medzi správne odpovede patria napr. podtlak, pedál, pomocná sila, komfort."
+    type: single
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/membrana.png"
+    options:
+      - "Membrána"
+      - "Piest"
+      - "Vratná pružina piestu"
+      - "Čistič"
+    correct: 1
+    explanation: "Membrána je oddeľovací prvok medzi podtlakovou a pracovnou komorou. Jej hlavná funkcia je umožniť pohyb piestu v podtlakovej komore a zároveň oddeľovať tlak v podtlakovej komore od pracovnej."
 
   - id: "brzdovy-posilnovac-07"
     type: single
-    question: "Čo je hlavným cieľom kapitoly \"Brzdový posilňovač\"?"
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/pedal.png"
     options:
-      - "Vysvetliť princípy pre oblasť: brzdy"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
+      - "Brzdový pedál"
+      - "Piestnica"
+      - "Plynový pedál"
+      - "Spojkový pedál"
     correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti brzdy."
 
   - id: "brzdovy-posilnovac-08"
     type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/piestnica.png"
     options:
-      - "komfort"
-      - "pedál"
-      - "zapaľovacia sviečka"
-      - "podtlak"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+      - "Piestnica"
+      - "Tlačná tyč"
+      - "Brzdová tyč"
+      - "Reakčná tyč"
+    correct: 1
+    explanation: "Tlačná tyč je pripevnená k reakčnému kotúču a prenáša výsledný tlak do hlavného brzdového valca. Reakčná tyč a brzdová tyč sú vymyslené pojmy a nenachádzajú sa v podtlakovom brzdovom posilňovači."
 
   - id: "brzdovy-posilnovac-09"
-    type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Brzdový posilňovač\" patrí do celku ______."
-    accepted_answers:
-      - "brzdy"
-      - "brzdy"
-    explanation: "Správne doplnenie je Brzdy."
+    type: single
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/pruzina-pedal.png"
+    options:
+      - "Vratná pružina piestu"
+      - "Vratná pružina brzdového pedálu"
+      - "Ťažná pružina"
+      - "Doraz"
+    correct: 1
+    explanation: "Vratná pružina brzdového pedálu je pripevnená k BRZDOVÉMU PEDÁLU a TLAČÍ naň v opačnom smere, ako sila vytvorená vodičom. Doraz to nemôže byť, pretože potom by brzda nefungovala -- pedál by sa nedal stlačiť."
 
   - id: "brzdovy-posilnovac-10"
     type: single
-    question: "Ktorá dvojica je pre tému \"Brzdový posilňovač\" najvhodnejšia?"
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/tanierovy-ventil.png"
     options:
-      - "pedál + komfort"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
+      - "Tanierový ventil"
+      - "Atmosferický ventil"
+      - "Prepúšťací kanál"
+      - "Prepúšťací ventil"
     correct: 1
-    explanation: "Najvhodnejšia dvojica je pedál a komfort."
+    explanation: "Táto časť sa nazýva ventil, nie kanál (kanálom by bola nejaká medzera, nejaký otvor -- ani mezdera ani otvor však nie sú na obrázku zvýraznené). A tanierový preto, pretože má tvar taniera."
+
+  - id: "brzdovy-posilnovac-11"
+    type: single
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/prepustacny-kanal.png"
+    options:
+      - "Prepúšťací kanál"
+      - "Atmosferický kanál"
+      - "Tanierový ventil"
+      - "Pracovný kanál"
+    correct: 1
+    explanation: "Prepúšťací kanál je kanál, ktorým sa podtlak z podtlakovej komore prepustí do pracovnej komory. Atmosferický kanál je kanál, ktorým sa atmosférický tlak z okolitého prostredia prepustí do pracovnej komory."
+
+  - id: "brzdovy-posilnovac-12"
+    type: single
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/vlozka-ventilu.png"
+    options:
+      - "Vložka ventilu"
+      - "Atmosferický ventil"
+      - "Prepúšťací kanál"

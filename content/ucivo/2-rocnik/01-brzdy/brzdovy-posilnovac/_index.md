@@ -20,11 +20,11 @@ Tento typ brzdového posilňovača využíva na zosílenie podtlak vytvorený v 
 1 - **Podtlaková komora** -- časť posilňovača, v ktorej je vytváraný podtlak. <br>
 2 - **Podtlaková prípojka** -- prepojenie so saním alebo vývevou, ktoré vytvárajú v podtlakovej komore podtlak (vysávajú z nej vzduch).<br>
 3 - **Piest** -- pohyblivá časť.<br>
-4 - **Pružina** -- po ukončení brzdenia vracia piest späť na svoje pôvodné miesto.<br>
+4 - **Vratná pružina piestu** -- po ukončení brzdenia vracia piest späť na svoje pôvodné miesto.<br>
 5 - **Membrána** -- oddeľuje podtlakovú komoru od pracovnej a zároveň umožňuje pohyb piestu.<br>
 6 - **Brzdový pedál** -- vodič ním ovláda brzdové ústrojenstvo; jeho stlačením je vytvorený tlak, ktorý posilňovač zosíli.<br>
 7 - **Piestnica** -- prenáša tlak vytvorený zošliapnutím pedálu vodorovným smerom.<br>
-8 - **Tlačná pružina** -- Tlačí na tanierový ventil, ktorý pri stlačením brzdového pedálu uzatvára podtlakový (prepúšťací) kanál. Zároveň vracia brzdový pedál do pôvodnej polohy po jeho zošliapnutí.<br>
+8 - **Vratná pružina brzdového pedálu** -- Tlačí na tanierový ventil, ktorý pri stlačením brzdového pedálu uzatvára podtlakový (prepúšťací) kanál. Zároveň vracia brzdový pedál do pôvodnej polohy po jeho zošliapnutí.<br>
 9 - **Tanierový ventil** -- pri stlačením brzdového pedálu uzatvára podtlakový (prepúšťací) kanál.<br>
 10 - **Prepúšťací kanál** -- keď je brzdový pedál v základnej pozícii, prepúšťa podtlak z podtlakovej do pracovnej komory. Pri zošliapnutí pedála je tento kanál uzatvorený tanierovým ventilom a do pracovnej komory sa dostáva vzduch s atmosferickým tlakom. Tým pádom je v pracovnej komore väčší tlak, ako v podtlakovej, čím je celý piest tlačený požadovaným smerom.<br>
 11 - **Atmosferický kanál** -- v základnej pozíci je zablokovaný vložkou ventilu, ktorá je pripevnená ku piestnici. Tá sa pri zošliapnutí brzdového pedála hýbe spolu s piestnicou a otvára tento kanál.<br>

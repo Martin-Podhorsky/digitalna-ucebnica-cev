@@ -49,24 +49,24 @@ questions:
   - id: "kotucove-05"
     type: write
     question: "Ako sa volá táto časť kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
-    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/zavesenie.png"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/zavesenie-pevny.png"
     accepted_answers:
-      - "Zavesenie strmeňa"
       - "Zavesenie"
+      - "Zavesenie strmeňa"
+      - "Zavesenie brzdy"
+      - "Brzdové zavesenie"
 
   - id: "kotucove-06"
     type: write
     question: "Ako sa volá táto časť kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
-    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/priruba.png"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/priruba-pevny.png"
     accepted_answers:
       - "Príruba"
-      - "Príruba (podložka)"
-      - "Podložka"
 
   - id: "kotucove-07"
     type: write
     question: "Ako sa volá táto časť kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
-    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/strmen.png"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/strmen-pevny.png"
     accepted_answers:
       - "Brzdový strmeň"
       - "Brzdný strmeň"
@@ -76,7 +76,7 @@ questions:
   - id: "kotucove-08"
     type: write
     question: "Ako sa volajú tieto časti kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
-    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/dosticky.png"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/dosticky-pevny.png"
     accepted_answers:
       - "Brzdové doštičky"
       - "Brzdné doštičky"
@@ -85,7 +85,7 @@ questions:
   - id: "kotucove-09"
     type: write
     question: "Ako sa volá táto časť kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
-    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/naboj.png"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/naboj-pevny.png"
     accepted_answers:
       - "Náboj kolesa"
       - "Náboj"
@@ -93,7 +93,7 @@ questions:
   - id: "kotucove-10"
     type: write
     question: "Ako sa volá táto časť kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
-    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/kotuc.png"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/kotuc-pevny.png"
     accepted_answers:
       - "Brzdový kotúč"
       - "Kotúč"
@@ -102,7 +102,7 @@ questions:
   - id: "kotucove-11"
     type: write
     question: "Ako sa volajú tieto časti kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
-    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/piestiky.png"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/piestiky-pevny.png"
     accepted_answers:
       - "Hydraulické brzdové piestiky"
       - "Hydraulické piestiky"
@@ -112,7 +112,7 @@ questions:
   - id: "kotucove-12"
     type: write
     question: "Ako sa volajú tieto časti kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
-    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/tesnenie.png"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/tesnenie-pevny.png"
     accepted_answers:
       - "Tesnenie"
       - "Tesnenia"
@@ -165,14 +165,84 @@ questions:
 
   - id: "kotucove-17"
     type: write
+    question: "Ako sa volá táto časť kotúčovej brzdy s plávajúcim strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/zavesenie-plavajuci.png"
+    accepted_answers:
+      - "Zavesenie"
+      - "Zavesenie strmeňa"
+      - "Zavesenie brzdy"
+      - "Brzdové zavesenie"
+
+  - id: "kotucove-18"
+    type: write
+    question: "Ako sa volá táto časť kotúčovej brzdy s plávajúcim strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/priruba-plavajuci.png"
+    accepted_answers:
+      - "Príruba"
+
+  - id: "kotucove-19"
+    type: write
+    question: "Ako sa volá táto časť kotúčovej brzdy s plávajúcim strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/strmen-plavajuci.png"
+    accepted_answers:
+      - "Strmeň"
+      - "Brzdný strmeň"
+      - "Brzdový strmeň"
+      - "Plávajúci strmeň"
+      - "Plávjúci brzdový strmeň"
+
+  - id: "kotucove-20"
+    type: write
     question: "Ako sa volajú tieto časti kotúčovej brzdy s plávajúcim strmeňom? (prosím písať aj s diakritikou)"
-    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/posuvne-vedenie.png"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/dosticky-plavajuci.png"
+    accepted_answers:
+      - "Brzdové doštičky"
+      - "Brzdné doštičky"
+      - "Doštičky"
+
+  - id: "kotucove-21"
+    type: write
+    question: "Ako sa volá táto časť kotúčovej brzdy s plávajúcim strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/naboj-plavajuci.png"
+    accepted_answers:
+      - "Náboj kolesa"
+      - "Náboj"
+
+  - id: "kotucove-22" 
+    type: write
+    question: "Ako sa volá táto časť kotúčovej brzdy s plávajúcim strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/kotuc-plavajuci.png"
+    accepted_answers:
+      - "Brzdový kotúč"
+      - "Kotúč"
+      - "Brzdný kotúč"
+
+  - id: "kotucove-23" 
+    type: write
+    question: "Ako sa volá táto časť kotúčovej brzdy s plávajúcim strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/piestik-plavajuci.png"
+    accepted_answers:
+      - "Hydraulický brzdový piestik"
+      - "Hydraulický piestik"
+      - "Brzdový piestik"
+      - "Piestik"
+
+  - id: "kotucove-24"
+    type: write
+    question: "Ako sa volá táto časť kotúčovej brzdy s plávajúcim strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/vedenie-plavajuci.png"
     accepted_answers:
       - "Posuvné vedenie strmeňa"
       - "Posuvné vedenie"
-      - "Vedenie"
       - "Vedenie strmeňa"
-      - "Vedenie brzdové"
-      - "Vedenie brzdy"
-      - "Vedenie brzdové"
+      - "Vedenie"
 
+  - id: "kotucove-25"
+    type: write
+    question: "Ako sa volajú tieto časti kotúčovej brzdy s plávajúcim strmeňom? (prosím písať aj s diakritikou)"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/tesnenie-plavajuci.png"
+    accepted_answers:
+      - "Tesnenie"
+      - "Tesnenia"
+      - "Prachovky"
+      - "Prachovka"
