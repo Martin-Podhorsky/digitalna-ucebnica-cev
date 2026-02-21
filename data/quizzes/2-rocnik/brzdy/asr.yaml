@@ -1,106 +1,77 @@
-topic: "ASR"
+topic: "Regulácia preklzu kolies (ASR)"
 parent: "Brzdy"
 year: 2
 questions:
   - id: "asr-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"ASR\"?"
+    question: "Čo je to ASR?"
     options:
-      - "Brzdy"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Aktívny bezpečnostný systém, ktorý zabraňuje preklzu hnacích kolies pri rozjazde a akcelerácii"
+      - "Systém, ktorý zabraňuje zablokovaniu kolies počas brzdenia"
+      - "Systém elektronickej kontroly stability v zákrutách"
+      - "Systém automatického riadenia vozidla"
     correct: 1
-    explanation: "Kapitola ASR patrí do celku Brzdy."
+    explanation: "Zabraňuje zablokovaniu pri brzdení -- to je systém ABS, nie ASR.<br>Elektronická kontrola stability v zákrutách -- to je systém FDR/ESP.<br>Automatické riadenie -- ASR neriadi vozidlo, ale zabraňuje preklzu hnacích kolies."
 
   - id: "asr-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"ASR\"?"
+    question: "S ktorým systémom ASR úzko spolupracuje a zdieľa rovnaké snímače?"
     options:
-      - "trakcia"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "So systémom ABS -- využíva tie isté snímače otáčok kolies"
+      - "So systémom klimatizácie"
+      - "So systémom osvetlenia"
+      - "So systémom odpruženia"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem trakcia."
+    explanation: "So systémom klimatizácie -- klimatizácia nesúvisí s reguláciou preklzu.<br>So systémom osvetlenia -- osvetlenie nesúvisí s reguláciou preklzu.<br>So systémom odpruženia -- hoci adaptívne odpruženie môže spolupracovať s ASR, ASR primárne zdieľa snímače s ABS."
 
   - id: "asr-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"ASR\"?"
+    question: "Akými dvoma hlavnými spôsobmi ASR zabraňuje preklzu hnacích kolies?"
     options:
-      - "chladiaca kvapalina"
-      - "preklz"
-      - "palivová mapa"
-      - "alternátor"
+      - "Znížením výkonu motora a pribrzdením preklzujúceho kolesa"
+      - "Zvýšením výkonu motora a uvoľnením bŕzd"
+      - "Odpojením hnacieho kolesa od prevodovky a aktivovaním parkovacej brzdy"
+      - "Nafúknutím pneumatík na vyšší tlak a aktivovaním diferenciálu"
     correct: 1
-    explanation: "K téme ASR patrí aj pojem preklz."
+    explanation: "Zvýšenie výkonu a uvoľnenie bŕzd -- to by naopak preklz zhoršilo, nie eliminovalo.<br>Odpojenie od prevodovky a parkovacia brzda -- ASR neodpája kolesá od prevodovky ani neaktivuje parkovaciu brzdu.<br>Nafúknutie pneumatík a aktivovanie diferenciálu -- ASR neovplyvňuje tlak v pneumatikách."
 
   - id: "asr-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: trakcia, preklz, akcelerácia."
-    accepted_answers:
-      - "asr"
-      - "ASR"
-    explanation: "Správna odpoveď je ASR."
+    type: single
+    question: "Ako ASR znižuje výkon motora pri benzínových motoroch?"
+    options:
+      - "Znížením dávky paliva, oneskorením alebo vynechávaním iskry a dočasným prikrytím škrtiacej klapky"
+      - "Odpojením zapaľovania a vypnutím motora"
+      - "Znížením tlaku oleja v motore"
+      - "Zvýšením kompresného pomeru"
+    correct: 1
+    explanation: "Odpojenie zapaľovania a vypnutie motora -- ASR motor nevypína, len kontrolovane znižuje jeho výkon.<br>Zníženie tlaku oleja -- tlak oleja nesúvisí s reguláciou výkonu motora cez ASR.<br>Zvýšenie kompresného pomeru -- kompresný pomer sa počas jazdy meniť nedá."
 
   - id: "asr-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"ASR\"?"
+    question: "Čo je to MSR a aký problém rieši?"
     options:
-      - "trakcia, akcelerácia"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Regulácia brzdného momentu motora -- zabráňuje zablokovaniu hnacích kolies pri brzdení motorom (napr. pri radení na nižší prevod na klzkom povrchu)"
+      - "Monitorovací systém riadenia -- sleduje stav riadiacich komponentov"
+      - "Manuálna stabilizácia riadenia -- pomáha vodičovi udržať volant v priamom smere"
+      - "Merací systém rýchlosti -- meria aktuálnu rýchlosť vozidla"
     correct: 1
-    explanation: "Správna kombinácia je trakcia a akcelerácia."
+    explanation: "Monitorovací systém riadenia -- MSR znamená Motor Schleppmoment Regelung, nie monitorovací systém.<br>Manuálna stabilizácia riadenia -- MSR reguluje brzdný moment motora, nie riadenie.<br>Merací systém rýchlosti -- MSR nemeria rýchlosť, ale reguluje brzdný moment motora."
 
   - id: "asr-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"ASR\"."
-    accepted_answers:
-      - "trakcia"
-      - "preklz"
-      - "akcelerácia"
-      - "stabilita"
-    explanation: "Medzi správne odpovede patria napr. trakcia, preklz, akcelerácia, stabilita."
+    type: single
+    question: "Kedy je vhodné systém ASR vypnúť?"
+    options:
+      - "Pri jazde v snehu, blate, štrku alebo na ľade"
+      - "Pri jazde na diaľnici"
+      - "Pri parkovaní"
+      - "ASR sa nedá vypnúť"
+    correct: 1
+    explanation: "Na suchej diaľnici -- na suchej diaľnici ASR neškodí a môže pomôcť.<br>Pri parkovaní v garáži -- pri parkovaní ASR neškodí.<br>ASR sa nedá vypnúť -- väčšina vozidiel umožňuje dočasné vypnutie ASR."
 
   - id: "asr-07"
-    type: single
-    question: "Čo je hlavným cieľom kapitoly \"ASR\"?"
-    options:
-      - "Vysvetliť princípy pre oblasť: brzdy"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
-    correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti brzdy."
-
-  - id: "asr-08"
-    type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
-    options:
-      - "stabilita"
-      - "preklz"
-      - "zapaľovacia sviečka"
-      - "trakcia"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
-
-  - id: "asr-09"
     type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"ASR\" patrí do celku ______."
+    question: "Čo znamená skratka ASR? Napíšte celý anglický alebo nemecký názov. (prosím, píšte aj s diakritikou)"
     accepted_answers:
-      - "brzdy"
-      - "brzdy"
-    explanation: "Správne doplnenie je Brzdy."
-
-  - id: "asr-10"
-    type: single
-    question: "Ktorá dvojica je pre tému \"ASR\" najvhodnejšia?"
-    options:
-      - "preklz + stabilita"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
-    correct: 1
-    explanation: "Najvhodnejšia dvojica je preklz a stabilita."
+      - "Anti-Slip Regulation"
+      - "Anti Slip Regulation"
+      - "Antriebsschlupfregelung"

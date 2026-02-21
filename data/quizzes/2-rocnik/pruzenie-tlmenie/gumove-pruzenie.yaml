@@ -4,103 +4,73 @@ year: 2
 questions:
   - id: "gumove-pruzenie-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Gumové pruženie\"?"
+    question: "Aké vlastnosti gumy využíva gumové pruženie?"
     options:
-      - "Pruženie a tlmenie"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Elastické vlastnosti gumy na absorbovanie nárazov a vibrácií, pričom guma zároveň pôsobí ako tlmič vďaka vnútornému treniu"
+      - "Tepelné vlastnosti gumy na odvádzanie tepla z brzdového systému"
+      - "Elektrické izolačné vlastnosti gumy na ochranu pred elektrickým výbojom"
+      - "Magnetické vlastnosti gumy na priťahovanie kovových častíc"
     correct: 1
-    explanation: "Kapitola Gumové pruženie patrí do celku Pruženie a tlmenie."
+    explanation: "Tepelné vlastnosti -- guma sa v pružení nepoužíva na odvádzanie tepla.<br>Elektrické izolačné vlastnosti -- hoci guma je izolátor, toto nie je dôvod jej použitia v pružení.<br>Magnetické vlastnosti -- guma nemá magnetické vlastnosti."
 
   - id: "gumove-pruzenie-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Gumové pruženie\"?"
+    question: "Ktorá z možností najviac zodpovedá výhodám gumového pruženia?"
     options:
-      - "silentblok"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Samotlmiaci efekt, nízka cena, izolácia hluku a vibrácií, jednoduchá konštrukcia, odolnosť voči korózii a nízka hmotnosť"
+      - "Vysoká únosnosť, samovodiaca funkcia a odolnosť voči prasknutiu"
+      - "Nastaviteľná výška podvozku, nastaviteľná tuhosť a stála svetlá výška"
+      - "Väčší jazdný komfort, väčší vertikálny pohyb a vhodnosť pre masovú výrobu"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem silentblok."
+    explanation: "Vysoká únosnosť, samovodiaca funkcia a odolnosť voči prasknutiu -- toto sú výhody listových pružín.<br>Nastaviteľná výška podvozku, nastaviteľná tuhosť a stála svetlá výška -- toto sú výhody pneumatického pruženia.<br>Väčší jazdný komfort, väčší vertikálny pohyb a vhodnosť pre masovú výrobu -- toto sú výhody vinutých pružín."
 
   - id: "gumove-pruzenie-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Gumové pruženie\"?"
+    question: "Ktorá z možností najviac zodpovedá nevýhodám gumového pruženia?"
     options:
-      - "chladiaca kvapalina"
-      - "pružnosť"
-      - "palivová mapa"
-      - "alternátor"
+      - "Obmedzená životnosť (stárnutie gumy vplyvom UV žiarenia a ozónu), závislosť vlastností od teploty a nižšia únosnosť v porovnaní s kovovými pružinami"
+      - "Vysoká cena, zložitá konštrukcia a náchylnosť na netesnosti"
+      - "Horší komfort jazdy, fenomén axle wrap a vŕzganie"
+      - "Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch"
     correct: 1
-    explanation: "K téme Gumové pruženie patrí aj pojem pružnosť."
+    explanation: "Vysoká cena, zložitá konštrukcia a náchylnosť na netesnosti -- toto sú nevýhody pneumatického pruženia.<br>Horší komfort jazdy, fenomén axle wrap a vŕzganie -- toto sú nevýhody listových pružín.<br>Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch -- toto sú nevýhody skrutných (torzných) tyčí."
 
   - id: "gumove-pruzenie-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: silentblok, pružnosť, vibrácie."
-    accepted_answers:
-      - "gumové pruženie"
-      - "Gumové pruženie"
-    explanation: "Správna odpoveď je Gumové pruženie."
+    type: single
+    question: "Ako sa menia vlastnosti gumy v závislosti od teploty?"
+    options:
+      - "Guma tvrdne v mraze a mäkne v teple"
+      - "Guma mäkne v mraze a tvrdne v teple"
+      - "Teplota nemá vplyv na vlastnosti gumy"
+      - "Guma sa pri akomkoľvek výkyve teploty rozpadne"
+    correct: 1
+    explanation: "Guma mäkne v mraze a tvrdne v teple -- je to presne naopak.<br>Teplota nemá vplyv -- teplota má výrazný vplyv na vlastnosti gumy, čo je jednou z jej nevýhod v pružení.<br>Guma sa rozpadne -- guma sa pri bežných teplotných výkyvoch nerozpadne, len sa menia jej vlastnosti."
 
   - id: "gumove-pruzenie-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Gumové pruženie\"?"
+    question: "Kde sa gumové pruženie najčastejšie používa?"
     options:
-      - "silentblok, vibrácie"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Uloženie motora a prevodovky (silentbloky), pomocné pružiny, uloženie náprav a ramien zavesenia"
+      - "Ako hlavné pruženie na všetkých osobných automobiloch"
+      - "Na ťažkých nákladných automobiloch a prívesoch"
+      - "Na závodných vozidlách a formulách"
     correct: 1
-    explanation: "Správna kombinácia je silentblok a vibrácie."
+    explanation: "Hlavné pruženie osobných automobilov -- gumové pruženie sa nepoužíva ako hlavné pruženie na osobných automobiloch, tam sa používajú vinuté pružiny.<br>Ťažké nákladné automobily a prívesy -- tam sa používajú listové pružiny alebo pneumatické pruženie.<br>Závodné vozidlá a formuly -- tam sa gumové pruženie nepoužíva ako hlavné pruženie."
 
   - id: "gumove-pruzenie-06"
     type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Gumové pruženie\"."
+    question: "Ako sa nazývajú gumové prvky používané na tlmenie vibrácií motora a prevodovky? (prosím, píšte aj s diakritikou)"
     accepted_answers:
+      - "silentbloky"
       - "silentblok"
-      - "pružnosť"
-      - "vibrácie"
-      - "guma"
-    explanation: "Medzi správne odpovede patria napr. silentblok, pružnosť, vibrácie, guma."
 
   - id: "gumove-pruzenie-07"
     type: single
-    question: "Čo je hlavným cieľom kapitoly \"Gumové pruženie\"?"
+    question: "Čo spôsobuje stárnutie gumy a tým obmedzenú životnosť gumového pruženia?"
     options:
-      - "Vysvetliť princípy pre oblasť: pruženie a tlmenie"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
+      - "UV žiarenie a ozón"
+      - "Kontakt s hydraulickou kvapalinou"
+      - "Mechanické trenie o kovové časti"
+      - "Elektrický prúd prechádzajúci cez gumu"
     correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti pruženie a tlmenie."
-
-  - id: "gumove-pruzenie-08"
-    type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
-    options:
-      - "guma"
-      - "pružnosť"
-      - "zapaľovacia sviečka"
-      - "silentblok"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
-
-  - id: "gumove-pruzenie-09"
-    type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Gumové pruženie\" patrí do celku ______."
-    accepted_answers:
-      - "pruženie a tlmenie"
-      - "pruženie a tlmenie"
-    explanation: "Správne doplnenie je Pruženie a tlmenie."
-
-  - id: "gumove-pruzenie-10"
-    type: single
-    question: "Ktorá dvojica je pre tému \"Gumové pruženie\" najvhodnejšia?"
-    options:
-      - "pružnosť + guma"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
-    correct: 1
-    explanation: "Najvhodnejšia dvojica je pružnosť a guma."
+    explanation: "Kontakt s hydraulickou kvapalinou -- gumové pruženie nepracuje s hydraulickou kvapalinou.<br>Mechanické trenie o kovové časti -- gumové prvky sú konštruované tak, aby sa o kovové časti neodierali.<br>Elektrický prúd prechádzajúci cez gumu -- guma je elektrický izolátor, prúd ňou neprechádza."

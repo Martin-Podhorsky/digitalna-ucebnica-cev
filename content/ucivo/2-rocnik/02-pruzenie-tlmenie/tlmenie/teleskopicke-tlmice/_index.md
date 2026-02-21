@@ -58,10 +58,11 @@ Drvivá väčšina sériovo vyrábaných osobných automobilov, ľahké úžitko
 1 - Plášť<br>
 2 - Piestnica<br>
 3 - Pracovný priestor<br>
-4 - Pružná membrána (alebo plávajúci piest)<br>
-5 - Plynová náplň (dusík pod tlakom 20 až 30 barov)<br>
-6 - Oká na uchytenie<br>
-7 - Tesnenie
+4 - Piest s prietokovými jednocestnými ventilmi<br>
+5 - Pružná membrána (alebo plávajúci piest)<br>
+6 - Plynová náplň (dusík pod tlakom 20 až 30 barov)<br>
+7 - Oká na uchytenie<br>
+8 - Tesnenie
 
 {{< figure src="monotube.png" alt="Teleskopický hydraulický tlmič jedno-plášťový" width="70%" caption="Obr. 11.25 - Teleskopický hydraulický tlmič jedno-plášťový" >}}
 

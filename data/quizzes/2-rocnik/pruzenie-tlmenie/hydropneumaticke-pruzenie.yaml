@@ -4,103 +4,136 @@ year: 2
 questions:
   - id: "hydropneumaticke-pruzenie-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Hydropneumatické pruženie\"?"
+    question: "Čo kombinuje hydropneumatické pruženie?"
     options:
-      - "Pruženie a tlmenie"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Hydrauliku (kvapalinu) s pneumatikou (plynom)"
+      - "Stlačený vzduch s gumovými mechmi"
+      - "Oceľové listy s gumovými vložkami"
+      - "Vinuté pružiny s torznou tyčou"
     correct: 1
-    explanation: "Kapitola Hydropneumatické pruženie patrí do celku Pruženie a tlmenie."
+    explanation: "Stlačený vzduch s gumovými mechmi -- takto funguje pneumatické pruženie, nie hydropneumatické.<br>Oceľové listy s gumovými vložkami -- to popisuje konštrukciu listových pružín s vložkami.<br>Vinuté pružiny s torznou tyčou -- takáto kombinácia sa v praxi bežne nepoužíva."
 
   - id: "hydropneumaticke-pruzenie-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Hydropneumatické pruženie\"?"
+    question: "Ktorá automobilka vyvinula hydropneumatické pruženie a kedy?"
     options:
-      - "dusík"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Citroën v 50. rokoch 20. storočia"
+      - "Mercedes-Benz v 70. rokoch 20. storočia"
+      - "BMW v 90. rokoch 20. storočia"
+      - "Audi v 60. rokoch 20. storočia"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem dusík."
+    explanation: "Mercedes-Benz v 70. rokoch -- Mercedes-Benz vyvinul iné systémy, hydropneumatické pruženie je spojené s Citroënom.<br>BMW v 90. rokoch -- BMW nevyvinulo hydropneumatické pruženie.<br>Audi v 60. rokoch -- Audi nevyvinulo hydropneumatické pruženie."
 
   - id: "hydropneumaticke-pruzenie-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Hydropneumatické pruženie\"?"
+    question: "Čo sa nachádza vo vnútri hydropneumatickej gule (akumulátora)?"
     options:
-      - "chladiaca kvapalina"
-      - "kvapalina"
-      - "palivová mapa"
-      - "alternátor"
+      - "Pružná membrána, ktorá oddeľuje dolnú časť s hydraulickou kvapalinou od hornej časti so stlačeným dusíkom"
+      - "Stlačený vzduch a vinutá pružina"
+      - "Dva piestiky oddelené tesnením"
+      - "Gumový mech naplnený brzdovou kvapalinou"
     correct: 1
-    explanation: "K téme Hydropneumatické pruženie patrí aj pojem kvapalina."
+    explanation: "Stlačený vzduch a vinutá pružina -- hydropneumatická guľa neobsahuje vinutú pružinu ani vzduch, ale dusík.<br>Dva piestiky oddelené tesnením -- vnútri gule nie sú piestiky, ale pružná membrána.<br>Gumový mech naplnený brzdovou kvapalinou -- guľa neobsahuje gumový mech, ale membránu, a kvapalina je hydraulická, nie brzdová."
 
   - id: "hydropneumaticke-pruzenie-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: dusík, kvapalina, sféra."
-    accepted_answers:
-      - "hydropneumatické pruženie"
-      - "Hydropneumatické pruženie"
-    explanation: "Správna odpoveď je Hydropneumatické pruženie."
+    type: single
+    question: "Ako vzniká pružiaci efekt v hydropneumatickom pružení?"
+    options:
+      - "Piest tlačí hydraulickú kvapalinu do gule, kvapalina stláča membránu, tá stláča dusík -- stlačený dusík pôsobí ako pružina"
+      - "Stlačený vzduch v mechoch sa rozťahuje a stláča, čím absorbuje nárazy"
+      - "Oceľové listy sa ohýbajú a trením medzi nimi sa energia premieňa na teplo"
+      - "Oceľový drôt navinutý do špirály sa pri zaťažení stláča"
+    correct: 1
+    explanation: "Stlačený vzduch v mechoch -- takto funguje pneumatické pruženie, nie hydropneumatické.<br>Oceľové listy sa ohýbajú -- takto fungujú listové pružiny.<br>Oceľový drôt navinutý do špirály sa stláča -- takto fungujú vinuté pružiny."
 
   - id: "hydropneumaticke-pruzenie-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Hydropneumatické pruženie\"?"
+    question: "Ako je v hydropneumatickom pružení zabezpečené tlmenie?"
     options:
-      - "dusík, sféra"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Prietokom kvapaliny cez jednocestné ventily, kde dochádza k premene kinetickej energie na teplo"
+      - "Trením medzi oceľovými listami"
+      - "Pomocou samostatných teleskopických tlmičov"
+      - "Pomocou gumových silentblokov"
     correct: 1
-    explanation: "Správna kombinácia je dusík a sféra."
+    explanation: "Trením medzi oceľovými listami -- takto je zabezpečený samotlmiaci efekt listových pružín.<br>Pomocou samostatných teleskopických tlmičov -- hydropneumatické pruženie má tlmenie zabudované priamo v systéme (cez jednocestné ventily), nepotrebuje samostatné tlmiče.<br>Pomocou gumových silentblokov -- silentbloky slúžia na izoláciu vibrácií, nie na tlmenie pruženia."
 
   - id: "hydropneumaticke-pruzenie-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Hydropneumatické pruženie\"."
-    accepted_answers:
-      - "dusík"
-      - "kvapalina"
-      - "sféra"
-      - "výška"
-    explanation: "Medzi správne odpovede patria napr. dusík, kvapalina, sféra, výška."
+    type: single
+    question: "Ako si vodič vie pri hydropneumatickom pružení zvoliť mäkšie alebo tvrdšie pruženie?"
+    options:
+      - "Aktivovaním a deaktivovaním prídavných hydropneumatických gulí"
+      - "Manuálnym nastavením tlaku v pneumatikách"
+      - "Výmenou vinutých pružín za tvrdšie alebo mäkšie"
+      - "Otáčaním nastavovacej skrutky na torznej tyči"
+    correct: 1
+    explanation: "Manuálne nastavenie tlaku v pneumatikách -- tlak v pneumatikách nesúvisí s pružením podvozku.<br>Výmena vinutých pružín -- hydropneumatické pruženie nepoužíva vinuté pružiny.<br>Otáčanie nastavovacej skrutky na torznej tyči -- to je spôsob nastavenia výšky pri torzných tyčiach, nie zmena tuhosti pri hydropneumatickom pružení."
 
   - id: "hydropneumaticke-pruzenie-07"
     type: single
-    question: "Čo je hlavným cieľom kapitoly \"Hydropneumatické pruženie\"?"
+    question: "Ktorá z možností najviac zodpovedá výhodám hydropneumatického pruženia?"
     options:
-      - "Vysvetliť princípy pre oblasť: pruženie a tlmenie"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
+      - "Konštantná svetlá výška, nastaviteľná svetlá výška, vysoký komfort jazdy, progresívne pruženie, bezpečnosť a stabilita"
+      - "Nízka cena, jednoduchá konštrukcia, minimálna údržba"
+      - "Vysoká únosnosť, samovodiaca funkcia, samotlmiaca schopnosť"
+      - "Nižšia hmotnosť, úspora priestoru, spoľahlivosť a jednoduchosť"
     correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti pruženie a tlmenie."
+    explanation: "Nízka cena, jednoduchá konštrukcia, minimálna údržba -- presný opak, hydropneumatické pruženie je drahé a zložité.<br>Vysoká únosnosť, samovodiaca funkcia, samotlmiaca schopnosť -- toto sú výhody listových pružín.<br>Nižšia hmotnosť, úspora priestoru, spoľahlivosť a jednoduchosť -- toto sú výhody torzných tyčí."
 
   - id: "hydropneumaticke-pruzenie-08"
     type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    question: "Ktorá z možností najviac zodpovedá nevýhodám hydropneumatického pruženia?"
     options:
-      - "výška"
-      - "kvapalina"
-      - "zapaľovacia sviečka"
-      - "dusík"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+      - "Vysoké servisné náklady, náchylnosť na netesnosti, nutnosť pravidelnej údržby, zložitosť a hmotnosť, morská choroba a obmedzená dostupnosť"
+      - "Horší komfort jazdy, fenomén axle wrap, vysoká neodpružená hmotnosť a vŕzganie"
+      - "Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch"
+      - "Nižšia únosnosť, neprenášanie pozdĺžnych síl a absencia samotlmiaceho účinku"
+    correct: 1
+    explanation: "Horší komfort jazdy, fenomén axle wrap, vysoká neodpružená hmotnosť a vŕzganie -- toto sú nevýhody listových pružín.<br>Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch -- toto sú nevýhody skrutných (torzných) tyčí.<br>Nižšia únosnosť, neprenášanie pozdĺžnych síl a absencia samotlmiaceho účinku -- toto sú nevýhody vinutých pružín."
 
   - id: "hydropneumaticke-pruzenie-09"
-    type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Hydropneumatické pruženie\" patrí do celku ______."
-    accepted_answers:
-      - "pruženie a tlmenie"
-      - "pruženie a tlmenie"
-    explanation: "Správne doplnenie je Pruženie a tlmenie."
+    type: single
+    question: "Prečo musia byť hydropneumatické gule menené približne každých 5 až 6 rokov?"
+    options:
+      - "Pretože časom strácajú tlak (dusík postupne uniká cez membránu)"
+      - "Pretože sa mechanicky opotrebúvajú trením"
+      - "Pretože hydraulická kvapalina v nich zostarne a stráca vlastnosti"
+      - "Pretože ich tvar sa natrvalo zdeformuje zaťažením"
+    correct: 1
+    explanation: "Mechanické opotrebenie trením -- vo vnútri gule nie sú pohyblivé časti, ktoré by sa opotrebúvali trením (membrána sa len ohýba).<br>Hydraulická kvapalina zostarnie -- kvapalina sa vymieňa samostatne, nie spolu s guľami.<br>Trvalá deformácia zaťažením -- guľa je kovová nádoba, ktorá sa bežným zaťažením nedeformuje."
 
   - id: "hydropneumaticke-pruzenie-10"
     type: single
-    question: "Ktorá dvojica je pre tému \"Hydropneumatické pruženie\" najvhodnejšia?"
+    question: "Prečo sa v súčasnosti od hydropneumatického pruženia postupne upúšťa?"
     options:
-      - "kvapalina + výška"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
+      - "Kvôli vysokým nákladom na výrobu a údržbu -- nahrádza ho pneumatické pruženie, ktoré je jednoduchšie a lacnejšie"
+      - "Pretože bolo nahradené listovými pružinami, ktoré sú pohodlnejšie"
+      - "Pretože sa zistilo, že je nebezpečné pre posádku"
+      - "Pretože Citroën zanikol a nikto iný tento systém nevyrába"
     correct: 1
-    explanation: "Najvhodnejšia dvojica je kvapalina a výška."
+    explanation: "Nahradené listovými pružinami -- listové pružiny sú menej komfortné, nie pohodlnejšie, a nenahrádzajú hydropneumatické pruženie.<br>Nebezpečné pre posádku -- hydropneumatické pruženie nie je nebezpečné, len drahé na údržbu.<br>Citroën zanikol -- Citroën stále existuje, len prestal tento systém inštalovať do nových modelov."
+
+  - id: "hydropneumaticke-pruzenie-11"
+    type: write
+    question: "Aké vozidlo bolo prvým sériovo vyrábaným vozidlom s hydropneumatickým pružením? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "Citroën DS"
+      - "Citroen DS"
+      - "DS"
+
+  - id: "hydropneumaticke-pruzenie-12"
+    type: write
+    question: "Aký plyn sa používa v hornej časti hydropneumatickej gule? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "dusík"
+      - "stlačený dusík"
+
+  - id: "hydropneumaticke-pruzenie-13"
+    type: single
+    question: "Prečo jednocestný ventil aktívny pri rozťahovaní má väčšiu silu potrebnú na otvorenie ako ventil aktívny pri stláčaní?"
+    options:
+      - "Aby kládol primeraný odpor a zabraňoval rozkmitaniu kolies -- ventil pri stláčaní má klásť čo najmenší odpor, aby sa zachovalo pruženie"
+      - "Aby sa zvýšila rýchlosť stláčania a pruženie bolo tvrdšie"
+      - "Aby sa šetril hydraulický olej v systéme"
+      - "Aby sa zabránilo prehriatiu hydraulickej kvapaliny"
+    correct: 1
+    explanation: "Zvýšenie rýchlosti stláčania -- ventil pri rozťahovaní nesúvisí s rýchlosťou stláčania.<br>Šetrenie hydraulického oleja -- jednocestné ventily neslúžia na šetrenie oleja, ale na tlmenie.<br>Zabránenie prehriatiu -- hoci pri prietoku cez ventily vzniká teplo, to nie je hlavný dôvod rozdielu v odpore ventilov."

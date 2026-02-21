@@ -1,106 +1,119 @@
-topic: "Skrutné tyče"
+topic: "Skrutné (torzné) tyče"
 parent: "Pruženie a tlmenie"
 year: 2
 questions:
   - id: "skrutne-tyce-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Skrutné tyče\"?"
+    question: "Aký princíp využíva skrutná (torzná) tyč na absorbovanie nerovností vozovky?"
     options:
-      - "Pruženie a tlmenie"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Odpor voči krúteniu (torzii) oceľovej tyče"
+      - "Stlačený vzduch uzavretý v pružných vakoch"
+      - "Trenie medzi jednotlivými oceľovými listami"
+      - "Elastické vlastnosti gumy"
     correct: 1
-    explanation: "Kapitola Skrutné tyče patrí do celku Pruženie a tlmenie."
+    explanation: "Stlačený vzduch uzavretý v pružných vakoch -- takto funguje pneumatické pruženie.<br>Trenie medzi jednotlivými oceľovými listami -- takto fungujú listové pružiny.<br>Elastické vlastnosti gumy -- takto funguje gumové pruženie."
 
   - id: "skrutne-tyce-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Skrutné tyče\"?"
+    question: "Z čoho je torzná tyč vyrobená a aký má najčastejšie prierez?"
     options:
-      - "krut"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Z vysokokvalitnej pružinovej ocele s najčastejšie kruhovým prierezom"
+      - "Z hliníkovej zliatiny s obdĺžnikovým prierezom"
+      - "Z uhlíkových vlákien s oválnym prierezom"
+      - "Z liatiny s šesťhranným prierezom"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem krut."
+    explanation: "Hliníková zliatina -- hliník má nízky modul pružnosti v šmyku, takže by bol nevhodný pre torznú tyč.<br>Uhlíkové vlákna -- tie sa v bežných torzných tyčiach nepoužívajú.<br>Liatina -- liatina je krehká a nevhodná na pružinové účely."
 
   - id: "skrutne-tyce-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Skrutné tyče\"?"
+    question: "Prečo sú konce torznej tyče drážkované alebo hranaté?"
     options:
-      - "chladiaca kvapalina"
-      - "tyč"
-      - "palivová mapa"
-      - "alternátor"
+      - "Aby sa tyč pri krútení v uložení nepretáčala"
+      - "Aby sa znížila hmotnosť tyče"
+      - "Aby sa zväčšila pružnosť tyče"
+      - "Aby bolo jednoduchšie tyč natrieť antikoróznym náterom"
     correct: 1
-    explanation: "K téme Skrutné tyče patrí aj pojem tyč."
+    explanation: "Zníženie hmotnosti -- drážkovanie alebo hranatý tvar koncov neslúži na zníženie hmotnosti, ale na prenos krútiaceho momentu.<br>Zväčšenie pružnosti -- pružnosť závisí od materiálu a rozmerov tyče, nie od tvaru koncov.<br>Antikorózny náter -- to s tvarom koncov nesúvisí."
 
   - id: "skrutne-tyce-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: krut, tyč, torzia."
-    accepted_answers:
-      - "skrutné tyče"
-      - "Skrutné tyče"
-    explanation: "Správna odpoveď je Skrutné tyče."
+    type: single
+    question: "Ako funguje torzná tyč?"
+    options:
+      - "Jeden koniec je uchytený v ráme/karosérii a druhý je spojený s ramenom zavesenia. Pri pohybe kolesa nahor sa rameno otáča a spôsobuje krútenie tyče, odpor voči ktorému vytvára pružinový efekt."
+      - "Oba konce sú pevne uchytené v ráme a pri zaťažení sa tyč ohýba do tvaru oblúka"
+      - "Tyč sa pri zaťažení stláča v axiálnom smere, podobne ako vinutá pružina"
+      - "Jeden koniec tyče je voľný a pri zaťažení sa vysúva z druhého konca"
+    correct: 1
+    explanation: "Oba konce pevne uchytené v ráme -- jeden koniec musí byť spojený s ramenom zavesenia kolesa, inak by tyč nemohla reagovať na pohyb kolesa.<br>Tyč sa stláča v axiálnom smere -- torzná tyč pracuje na princípe krútenia, nie axiálneho stláčania.<br>Jeden koniec voľný a vysúva sa -- torzná tyč sa nevysúva, ale krúti okolo svojej pozdĺžnej osi."
 
   - id: "skrutne-tyce-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Skrutné tyče\"?"
+    question: "Ktorá z možností najviac zodpovedá výhodám torzných tyčí?"
     options:
-      - "krut, torzia"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Nižšia hmotnosť, úspora priestoru, spoľahlivosť a jednoduchosť, jednoduché nastavenie výšky"
+      - "Vysoká únosnosť, samovodiaca funkcia, samotlmiaca schopnosť a odolnosť"
+      - "Väčší jazdný komfort, malé rozmery, väčší vertikálny pohyb a minimálna údržba"
+      - "Stála svetlá výška, nastaviteľná tuhosť, vysoký komfort a progresívna charakteristika"
     correct: 1
-    explanation: "Správna kombinácia je krut a torzia."
+    explanation: "Vysoká únosnosť, samovodiaca funkcia, samotlmiaca schopnosť a odolnosť -- toto sú výhody listových pružín.<br>Väčší jazdný komfort, malé rozmery, väčší vertikálny pohyb a minimálna údržba -- toto sú výhody vinutých pružín.<br>Stála svetlá výška, nastaviteľná tuhosť, vysoký komfort a progresívna charakteristika -- toto sú výhody pneumatického pruženia."
 
   - id: "skrutne-tyce-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Skrutné tyče\"."
-    accepted_answers:
-      - "krut"
-      - "tyč"
-      - "torzia"
-      - "uloženie"
-    explanation: "Medzi správne odpovede patria napr. krut, tyč, torzia, uloženie."
+    type: single
+    question: "Akú charakteristiku má torzná tyč a prečo je to nevýhoda?"
+    options:
+      - "Lineárnu -- jej tuhosť sa nemení v závislosti od zaťaženia, takže sa horšie prispôsobuje rôznym zaťaženiam"
+      - "Progresívnu -- jej tuhosť sa príliš rýchlo zvyšuje so zaťažením"
+      - "Degresívnu -- jej tuhosť sa znižuje so zaťažením, čo znižuje stabilitu"
+      - "Žiadnu -- torzná tyč nemá pružinové vlastnosti"
+    correct: 1
+    explanation: "Progresívnu -- torzná tyč nemá progresívnu, ale lineárnu charakteristiku.<br>Degresívnu -- degresívna charakteristika u torzných tyčí nevzniká.<br>Žiadnu -- torzná tyč má lineárnu charakteristiku a pružinové vlastnosti."
 
   - id: "skrutne-tyce-07"
     type: single
-    question: "Čo je hlavným cieľom kapitoly \"Skrutné tyče\"?"
+    question: "Ktorá z možností najviac zodpovedá nevýhodám torzných tyčí?"
     options:
-      - "Vysvetliť princípy pre oblasť: pruženie a tlmenie"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
+      - "Lineárna charakteristika, obmedzený zdvih, koncentrácia napätia na koncoch a náročnejšia výmena"
+      - "Horší komfort jazdy, fenomén axle wrap, vysoká neodpružená hmotnosť a vŕzganie"
+      - "Vysoká cena, zložitá konštrukcia, náchylnosť na netesnosti a priestorová náročnosť"
+      - "Nižšia únosnosť, neprenášanie pozdĺžnych síl, absencia samotlmiaceho účinku a citlivosť na koróziu"
     correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti pruženie a tlmenie."
+    explanation: "Horší komfort jazdy, fenomén axle wrap, vysoká neodpružená hmotnosť a vŕzganie -- toto sú nevýhody listových pružín.<br>Vysoká cena, zložitá konštrukcia, náchylnosť na netesnosti a priestorová náročnosť -- toto sú nevýhody pneumatického pruženia.<br>Nižšia únosnosť, neprenášanie pozdĺžnych síl, absencia samotlmiaceho účinku a citlivosť na koróziu -- toto sú nevýhody vinutých pružín."
 
   - id: "skrutne-tyce-08"
     type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    question: "Kde na torznej tyči je šmykové napätie najvyššie a prečo sú tieto miesta náchylnejšie na únavu?"
     options:
-      - "uloženie"
-      - "tyč"
-      - "zapaľovacia sviečka"
-      - "krut"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+      - "Na povrchu tyče, predovšetkým v oblasti drážkovaných alebo hranatých koncov, kde sa prenáša krútiaci moment"
+      - "V strede tyče, pretože tam je najväčšie ohybové napätie"
+      - "Na vnútornom jadre tyče, pretože tam je najmenší prierez"
+      - "V mieste uchytenia k rámu, pretože tam pôsobí gravitačná sila"
+    correct: 1
+    explanation: "V strede tyče -- šmykové napätie pri torzii je najvyššie na povrchu, nie v strede.<br>Na vnútornom jadre tyče -- pri krútení je napätie na povrchu najvyššie a smerom k osi klesá.<br>V mieste uchytenia k rámu -- konzentrácia napätia je predovšetkým na drážkovaných/hranatých koncoch, nie priamo v mieste uchytenia."
 
   - id: "skrutne-tyce-09"
-    type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Skrutné tyče\" patrí do celku ______."
-    accepted_answers:
-      - "pruženie a tlmenie"
-      - "pruženie a tlmenie"
-    explanation: "Správne doplnenie je Pruženie a tlmenie."
+    type: single
+    question: "Na čo slúžia stabilizačné tyče (anti-roll bars) a na akom princípe fungujú?"
+    options:
+      - "Znižujú naklonenie vozidla v zákrutách -- pružne spájajú ľavé a pravé koleso nápravy tak, že pri stlačení jedného donútia stlačiť aj druhé"
+      - "Zvyšujú únosnosť pruženia -- podopierajú karosériu pri veľkom zaťažení"
+      - "Znižujú vibrácie motora -- izolujú motor od karosérie"
+      - "Zabraňujú prevráteniu vozidla -- blokujú koleso pri prekročení maximálneho natočenia"
+    correct: 1
+    explanation: "Zvyšovanie únosnosti -- stabilizačné tyče neslúžia na zvýšenie únosnosti, ale na zníženie nakláňania karosérie.<br>Zníženie vibrácií motora -- na to slúžia silentbloky (gumové pruženie), nie stabilizačné tyče.<br>Zabránenie prevráteniu blokovaním kolesa -- stabilizačné tyče neblokujú kolesá, ale pružne ich spájajú."
 
   - id: "skrutne-tyce-10"
-    type: single
-    question: "Ktorá dvojica je pre tému \"Skrutné tyče\" najvhodnejšia?"
-    options:
-      - "tyč + uloženie"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
-    correct: 1
-    explanation: "Najvhodnejšia dvojica je tyč a uloženie."
+    type: write
+    question: "Ako sa po anglicky nazývajú stabilizačné tyče? Uveďte aspoň jeden anglický názov. (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "anti-roll bar"
+      - "anti-sway bar"
+      - "anti roll bar"
+      - "anti sway bar"
+
+  - id: "skrutne-tyce-11"
+    type: write
+    question: "Ako sa nazýva mechanizmus, pomocou ktorého sa dá u torzných tyčí ľahko upraviť svetlá výška vozidla? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "nastavovací mechanizmus"
+      - "nastavovacia skrutka"
+      - "excentrická podložka"

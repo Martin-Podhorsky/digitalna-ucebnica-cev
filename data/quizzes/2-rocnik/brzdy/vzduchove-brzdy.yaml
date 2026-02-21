@@ -1,106 +1,257 @@
-topic: "Vzduchové brzdy"
+topic: "Vzduchotlakové (strojové) brzdy"
 parent: "Brzdy"
 year: 2
 questions:
   - id: "vzduchove-brzdy-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Vzduchové brzdy\"?"
+    question: "Čo používajú vzduchotlakové brzdy na prenos sily od brzdového pedálu?"
     options:
-      - "Brzdy"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Stlačený vzduch"
+      - "Brzdovú kvapalinu"
+      - "Elektrickú energiu"
+      - "Mechanické lanko"
     correct: 1
-    explanation: "Kapitola Vzduchové brzdy patrí do celku Brzdy."
+    explanation: "Brzdovú kvapalinu -- tú používajú hydraulické brzdy, nie vzduchotlakové.<br>Elektrickú energiu -- elektrické brzdy sa v bežných vozidlách ako hlavné brzdy nepoužívajú.<br>Mechanické lanko -- lanko sa používa iba pri mechanickej ručnej brzde."
 
   - id: "vzduchove-brzdy-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Vzduchové brzdy\"?"
+    question: "Kde sa vzduchotlakové brzdy najčastejšie používajú?"
     options:
-      - "kompresor"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Pri ťažkých nákladných vozidlách, autobusoch a súpravách s prívesmi"
+      - "Pri bežných osobných automobiloch"
+      - "Pri motocykloch"
+      - "Pri bicykloch"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem kompresor."
+    explanation: "Bežné osobné automobily -- tie používajú hydraulický brzdový systém.<br>Motocykle -- tie používajú hydraulické brzdy.<br>Bicykle -- tie používajú mechanické brzdy."
 
   - id: "vzduchove-brzdy-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Vzduchové brzdy\"?"
+    question: "Aký je typický prevádzkový tlak vzduchotlakového brzdového systému?"
     options:
-      - "chladiaca kvapalina"
-      - "vzduch"
-      - "palivová mapa"
-      - "alternátor"
+      - "Približne 6,9 až 8,3 bar"
+      - "Približne 1 až 2 bar"
+      - "Približne 50 až 100 bar"
+      - "Približne 200 až 300 bar"
     correct: 1
-    explanation: "K téme Vzduchové brzdy patrí aj pojem vzduch."
+    explanation: "1 až 2 bar -- to je príliš nízky tlak, ktorý by nevytvoril dostatočnú brzdnú silu.<br>50 až 100 bar -- to je tlak typický pre hydraulické brzdové systémy.<br>200 až 300 bar -- to je extrémne vysoký tlak, nepoužívaný vo vzduchotlakových brzdách."
 
   - id: "vzduchove-brzdy-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: kompresor, vzduch, zásobník."
-    accepted_answers:
-      - "vzduchové brzdy"
-      - "Vzduchové brzdy"
-    explanation: "Správna odpoveď je Vzduchové brzdy."
+    type: single
+    question: "Ako fungujú parkovacie brzdy pri vzduchotlakovom systéme?"
+    options:
+      - "V základnej polohe sú brzdy zabrzdené tým, že na brzdy tlačí silná pružina. Pri naštartovaní motora a vytvorenia tlaku v brzdovom okruhu vzduch zatlačí na pružinu a uvolné ju. Ak počas jazdy dôjde ku náhlej strate tlaku vzduchu, pružina sa uvolní a auto začne samo brzdiť."
+      - "Fungujú rovnako ako prevádzkové brzdy -- vodič stlačí pedál a vzduch aktivuje brzdu"
+      - "Sú čisto mechanické -- vodič ručne zatiahne páku"
+      - "Sú elektrické -- elektromotor aktivuje brzdové čeľuste"
+    correct: 1
+    explanation: "Rovnako ako prevádzkové -- parkovacie brzdy fungujú OPAČNE, sú brzdené pružinou a uvoľňované vzduchom.<br>Čisto mechanické -- pri ťažkých vozidlách sú parkovacie brzdy súčasťou vzduchotlakového systému, nie mechanické.<br>Elektrické -- parkovacie brzdy pri vzduchotlakovom systéme sú pružinové, nie elektrické."
 
   - id: "vzduchove-brzdy-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Vzduchové brzdy\"?"
+    question: "Čo sa stane pri náhlej strate tlaku vzduchu vo vzduchotlakovom brzdovom systéme?"
     options:
-      - "kompresor, zásobník"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Okamžite sa zapne parkovacia brzda (bezpečnostná funkcia)"
+      - "Nič sa nestane, vozidlo pokračuje v jazde"
+      - "Vozidlo zrýchli"
+      - "Na palubnej doske začne blikať výstražná kontrolka"
     correct: 1
-    explanation: "Správna kombinácia je kompresor a zásobník."
+    explanation: "Nič sa nestane -- naopak, strata tlaku spôsobí okamžité zabrzdenie parkovacou brzdou, čo je dôležitá bezpečnostná funkcia.<br>Vozidlo zrýchli -- strata tlaku nespôsobí zrýchlenie, ale zabrzdenie.<br>Aktivujú sa iba predné brzdy -- aktivuje sa parkovacia brzda, nie iba predné brzdy."
 
   - id: "vzduchove-brzdy-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Vzduchové brzdy\"."
-    accepted_answers:
-      - "kompresor"
-      - "vzduch"
-      - "zásobník"
-      - "ventil"
-    explanation: "Medzi správne odpovede patria napr. kompresor, vzduch, zásobník, ventil."
+    type: single
+    question: "Na čo slúži sušič vzduchu v systéme vzduchových bŕzd?"
+    options:
+      - "Na odstraňovanie vlhkosti a olejových pár zo stlačeného vzduchu -- vlhkosť by mohla v zime zamrznúť a zablokovať ventily"
+      - "Na ochladzovanie brzdových kotúčov"
+      - "Na filtrovanie nečistôt z brzdovej kvapaliny"
+      - "Na zvyšovanie tlaku vzduchu v systéme"
+    correct: 1
+    explanation: "Ochladzovanie brzdových kotúčov -- sušič neochladzuje kotúče, ale odstraňuje vlhkosť zo vzduchu.<br>Filtrovanie brzdovej kvapaliny -- vzduchotlakový systém nepoužíva brzdovú kvapalinu.<br>Zvyšovanie tlaku -- to je úloha kompresora, nie sušiča."
 
   - id: "vzduchove-brzdy-07"
     type: single
-    question: "Čo je hlavným cieľom kapitoly \"Vzduchové brzdy\"?"
+    question: "Na čo slúži štvorkanálový ochranný ventil?"
     options:
-      - "Vysvetliť princípy pre oblasť: brzdy"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
+      - "Rozdeľuje vzduch do štyroch samostatných okruhov a pri poruche jedného automaticky uzavrie poškodený okruh, ostatné zostanú funkčné"
+      - "Zvyšuje tlak vzduchu na štvornásobok"
+      - "Rozdeľuje brzdovú kvapalinu na štyri kolesá"
+      - "Ovláda štyri parkovacie brzdy súčasne"
     correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti brzdy."
+    explanation: "Zvyšuje tlak na štvornásobok -- ochranný ventil nezvyšuje tlak, ale rozdeľuje vzduch do okruhov.<br>Rozdeľuje brzdovú kvapalinu -- vzduchotlakový systém nepoužíva brzdovú kvapalinu.<br>Ovláda štyri parkovacie brzdy -- parkovacie brzdy sú ovládané samostatným ventilom."
 
   - id: "vzduchove-brzdy-08"
     type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    question: "Ktorá z možností najviac zodpovedá výhodám vzduchotlakových bŕzd?"
     options:
-      - "ventil"
-      - "vzduch"
-      - "zapaľovacia sviečka"
-      - "kompresor"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+      - "Veľká brzdná sila, odolnosť voči malým únikom, jednoduché prepojenie s prívesmi, neobmedzené médium, viacúčelovosť a odolnosť voči prehriatiu"
+      - "Nízka odozva, nízka cena, jednoduchá konštrukcia a tichá prevádzka"
+      - "Nízka hmotnosť, malé rozmery a jednoduchá údržba"
+      - "Bezúdržbovosť, nezávislosť od motora a dlhá životnosť"
+    correct: 1
+    explanation: "Okamžitá reakcia, nízka cena, jednoduchá konštrukcia a tichá prevádzka -- toto sú naopak nevýhody vzduchových bŕzd (pomalšia reakcia, vysoká cena, zložitá konštrukcia a hlučnosť).<br>Nízka hmotnosť a malé rozmery -- vzduchové brzdy sú naopak ťažké a rozmerné.<br>Bezúdržbovosť a nezávislosť od motora -- vzduchové brzdy vyžadujú údržbu a kompresor je poháňaný motorom."
 
   - id: "vzduchove-brzdy-09"
-    type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Vzduchové brzdy\" patrí do celku ______."
-    accepted_answers:
-      - "brzdy"
-      - "brzdy"
-    explanation: "Správne doplnenie je Brzdy."
+    type: single
+    question: "Prečo majú vzduchotlakové brzdy pomalšiu reakciu (brake lag) ako hydraulické?"
+    options:
+      - "Pretože vzduch je stlačiteľný, takže trvá dlhšie, kým sa tlak prenesie k brzdám (približne 0,5 sekundy)"
+      - "Pretože kompresor potrebuje čas na stlačenie vzduchu"
+      - "Pretože brzdové kotúče sa musia najprv zahriať"
+      - "Pretože elektronická riadiaca jednotka spracováva údaje"
+    correct: 1
+    explanation: "Kompresor potrebuje čas -- vzduch je už stlačený v zásobníkoch, brake lag je spôsobený stlačiteľnosťou vzduchu v potrubí.<br>Brzdové kotúče sa musia zahriať -- kotúče sa pri brzdení nemusia zahrievať.<br>Elektronická riadiaca jednotka spracováva údaje -- oneskorenie je spôsobené fyzikálnymi vlastnosťami vzduchu, nie elektronikou."
 
   - id: "vzduchove-brzdy-10"
     type: single
-    question: "Ktorá dvojica je pre tému \"Vzduchové brzdy\" najvhodnejšia?"
+    question: "Prečo sú moderné vzduchotlakové brzdové systémy vždy dvojokruhové?"
     options:
-      - "vzduch + ventil"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
+      - "Pre bezpečnosť -- pri poruche jedného okruhu zostáva druhý plne funkčný"
+      - "Pre zvýšenie brzdnej sily na dvojnásobok"
+      - "Pre zníženie hluku pri brzdení"
+      - "Pre zníženie spotreby vzduchu"
     correct: 1
-    explanation: "Najvhodnejšia dvojica je vzduch a ventil."
+    explanation: "Pre zvýšenie brzdnej sily -- dvojokruhový systém nie je primárne o zvýšení sily, ale o bezpečnosti.<br>Pre zníženie hluku -- dvojokruhový systém neznižuje hluk.<br>Pre zníženie spotreby vzduchu -- dvojokruhový systém nešetrí vzduch, ale zabezpečuje brzdenie aj pri poruche."
+
+  - id: "vzduchove-brzdy-11"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/kompresor.png"
+    options:
+      - "Kompresor"
+      - "Regulátor tlaku"
+      - "Sušič vzduchu"
+      - "Relé ventil"
+    correct: 1
+    explanation: "Regulátor tlaku -- regulátor riadi činnosť kompresora (zapína a vypína ho), ale sám vzduch nestláča.<br>Sušič vzduchu -- sušič odstraňuje vlhkosť zo stlačeného vzduchu, ale nestláča ho.<br>Relé ventil -- relé ventil urýchľuje plnenie a vypúšťanie vzduchu z brzdových komôr."
+
+  - id: "vzduchove-brzdy-12"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/regulator.png"
+    options:
+      - "Sušič vzduchu"
+      - "Regulátor tlaku"
+      - "Kompresor vzduchu"
+      - "Štvorkanálový ochranný ventil"
+    correct: 2
+    explanation: "Sušič vzduchu -- sušič odstraňuje vlhkosť, ale neriadi činnosť kompresora.<br>Kompresor vzduchu -- kompresor stláča vzduch, ale nereguluje tlak v systéme.<br>Štvorkanálový ochranný ventil -- ten rozdeľuje vzduch do štyroch okruhov."
+
+  - id: "vzduchove-brzdy-13"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/susic.png"
+    options:
+      - "Regulátor tlaku"
+      - "Kompresor vzduchu"
+      - "Sušič vzduchu"
+      - "Mokrá nádrž"
+    correct: 3
+    explanation: "Regulátor tlaku -- regulátor riadi zapínanie a vypínanie kompresora, neodstraňuje vlhkosť.<br>Kompresor vzduchu -- kompresor stláča vzduch, neodstraňuje vlhkosť.<br>Mokrá nádrž -- mokrá nádrž je prvý zásobník za sušičom, ktorý zachytáva zvyškovú vlhkosť a olej."
+
+  - id: "vzduchove-brzdy-14"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/mokra-nadrz.png"
+    options:
+      - "Prevádzkový zásobník"
+      - "Mokrá nádrž"
+      - "Sušič vzduchu"
+      - "Plynová komora"
+    correct: 2
+    explanation: "Prevádzkový zásobník -- prevádzkové zásobníky skladujú suchý vzduch pre brzdové okruhy, mokrá nádrž zachytáva vlhkosť a olej.<br>Sušič vzduchu -- sušič je samostatný komponent pred mokrou nádržou.<br>Plynová komora -- plynová komora je súčasťou jednoplášťového tlmiča, nie vzduchových bŕzd."
+
+  - id: "vzduchove-brzdy-15"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/stvorkanalovy-ventil.png"
+    options:
+      - "Bezpečnostný ventil parkovacej brzdy"
+      - "Relé ventil"
+      - "Brzdový pedál (brzdový ventil)"
+      - "Štvorkanálový ochranný ventil"
+    correct: 4
+    explanation: "Bezpečnostný ventil parkovacej brzdy -- ten automaticky aktivuje parkovaciu brzdu pri poklese tlaku, nerozdeľuje vzduch do okruhov.<br>Relé ventil -- relé ventil urýchľuje plnenie a vypúšťanie brzdových komôr, nerozdeľuje vzduch.<br>Brzdový pedál (brzdový ventil) -- ten dávkuje vzduch do brzdových komôr podľa sily stlačenia."
+
+  - id: "vzduchove-brzdy-16"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/prevadzkove-zasobniky.png"
+    options:
+      - "Mokrá nádrž"
+      - "Prevádzkové zásobníky"
+      - "Pružinové komory"
+      - "Membránové komory"
+    correct: 2
+    explanation: "Mokrá nádrž -- mokrá nádrž je prvý zásobník za sušičom na zachytávanie vlhkosti a oleja, nie na skladovanie suchého vzduchu.<br>Pružinové komory -- pružinové komory sú brzdové komory pre parkovacie a núdzové brzdy.<br>Membránové komory -- membránové komory sú brzdové komory pre prevádzkové brzdy."
+
+  - id: "vzduchove-brzdy-17"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/parkovacia-brzda.png"
+    options:
+      - "Brzdový pedál (brzdový ventil)"
+      - "Bezpečnostný ventil parkovacej brzdy"
+      - "Ovládací ventil parkovacej brzdy"
+      - "Regulátor tlaku"
+    correct: 3
+    explanation: "Brzdový pedál (brzdový ventil) -- brzdový pedál ovláda prevádzkové brzdy, nie parkovaciu brzdu.<br>Bezpečnostný ventil parkovacej brzdy -- bezpečnostný ventil automaticky aktivuje parkovaciu brzdu pri poklese tlaku, ovládací ventil je páka/tlačidlo v kabíne.<br>Regulátor tlaku -- regulátor riadi zapínanie kompresora, nie parkovaciu brzdu."
+
+  - id: "vzduchove-brzdy-18"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/bezpecnostny-ventil.png"
+    options:
+      - "Ovládací ventil parkovacej brzdy"
+      - "Štvorkanálový ochranný ventil"
+      - "Bezpečnostný ventil parkovacej brzdy"
+      - "Relé ventil"
+    correct: 3
+    explanation: "Ovládací ventil parkovacej brzdy -- ovládací ventil je manuálne ovládaný vodičom, bezpečnostný ventil funguje automaticky pri poklese tlaku.<br>Štvorkanálový ochranný ventil -- ten rozdeľuje vzduch do štyroch okruhov, automaticky neaktivuje parkovaciu brzdu.<br>Relé ventil -- relé ventil urýchľuje plnenie a vypúšťanie brzdových komôr."
+
+  - id: "vzduchove-brzdy-19"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/brzdovy-pedal.png"
+    options:
+      - "Ovládací ventil parkovacej brzdy"
+      - "Regulátor tlaku"
+      - "Brzdový pedál (brzdový ventil)"
+      - "Relé ventil"
+    correct: 3
+    explanation: "Ovládací ventil parkovacej brzdy -- ten ovláda parkovaciu brzdu, nie prevádzkové brzdenie.<br>Regulátor tlaku -- regulátor riadi zapínanie kompresora, nie brzdenie.<br>Relé ventil -- relé ventil urýchľuje plnenie brzdových komôr, nie je to brzdový pedál."
+
+  - id: "vzduchove-brzdy-20"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/membranove-komory.png"
+    options:
+      - "Membránové komory (pre prevádzkové brzdy)"
+      - "Pružinové komory (pre parkovacie brzdy)"
+      - "Prevádzkové zásobníky"
+      - "Mokrá nádrž"
+    correct: 1
+    explanation: "Pružinové komory -- pružinové komory sú pre parkovacie a núdzové brzdy, nie pre prevádzkové brzdy.<br>Prevádzkové zásobníky -- zásobníky skladujú stlačený vzduch, nie sú to brzdové komory.<br>Mokrá nádrž -- mokrá nádrž zachytáva vlhkosť, nie je to brzdová komora."
+
+  - id: "vzduchove-brzdy-21"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/pruzinove-komory.png"
+    options:
+      - "Membránové komory (pre prevádzkové brzdy)"
+      - "Prevádzkové zásobníky"
+      - "Pružinové komory (pre parkovacie a núdzové brzdy)"
+      - "Sušič vzduchu"
+    correct: 3
+    explanation: "Membránové komory -- membránové komory sú pre prevádzkové brzdy, nie pre parkovacie a núdzové.<br>Prevádzkové zásobníky -- zásobníky skladujú stlačený vzduch, nie sú to brzdové komory.<br>Sušič vzduchu -- sušič odstraňuje vlhkosť zo vzduchu, nie je to brzdová komora."
+
+  - id: "vzduchove-brzdy-22"
+    type: single
+    question: "Ako sa volá táto časť systému vzduchových bŕzd?"
+    image: "/ucivo/2-rocnik/01-brzdy/vzduchove-brzdy/rele.png"
+    options:
+      - "Štvorkanálový ochranný ventil"
+      - "Regulátor tlaku"
+      - "Sušič vzduchu"
+      - "Relé ventil"
+    correct: 4
+    explanation: "Štvorkanálový ochranný ventil -- ten rozdeľuje vzduch do štyroch okruhov, neslúži na urýchľovanie plnenia komôr.<br>Regulátor tlaku -- regulátor riadi zapínanie kompresora.<br>Sušič vzduchu -- sušič odstraňuje vlhkosť zo stlačeného vzduchu."

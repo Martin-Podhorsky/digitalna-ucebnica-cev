@@ -1,106 +1,109 @@
-topic: "Všeobecné informácie o riadení"
+topic: "Riadenie"
 parent: "Riadenie"
 year: 2
 questions:
-  - id: "vseobecne-info-01"
+  - id: "riadenie-vseobecne-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Všeobecné informácie o riadení\"?"
+    question: "Čo je to riadenie vozidla?"
     options:
-      - "Riadenie"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Mechanizmus, ktorý umožňuje vodičovi ovládať smer jazdy vozidla zmenou uhlov riadených kolies"
+      - "Mechanizmus, ktorý zamedzuje pohybu vozidla absorbovaním jeho pohybovej energie"
+      - "Súbor komponentov, ktoré spájajú karosériu s nápravou a umožnujú ich vzájomné pohybovanie sa"
+      - "Zariadenie, ktoré prenáša krútiaci moment z motora na hnacie kolesá"
     correct: 1
-    explanation: "Kapitola Všeobecné informácie o riadení patrí do celku Riadenie."
+    explanation: "Mechanizmus zamedzujúci pohybu absorbovaním pohybovej energie -- to sú brzdy.<br>Súbor komponentov spájajúcich karosériu s nápravou -- to je pruženie a tlmenie.<br>Zariadenie prenášajúce krútiaci moment z motora na kolesá -- to je prevodovka a hnací systém."
 
-  - id: "vseobecne-info-02"
+  - id: "riadenie-vseobecne-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Všeobecné informácie o riadení\"?"
+    question: "Na čo slúži riadiaci systém?"
     options:
-      - "smer"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Na zmenu smeru jazdy, udržanie priameho smeru a prenos sily od vodiča na kolesá"
+      - "Iba na zmenu smeru jazdy"
+      - "Iba na udržanie priameho smeru jazdy"
+      - "Na brzdenie a spomaľovanie vozidla"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem smer."
+    explanation: "Iba na zmenu smeru jazdy -- chýba udržanie priameho smeru a prenos sily.<br>Iba na udržanie priameho smeru jazdy -- chýba zmena smeru a prenos sily.<br>Na brzdenie a spomaľovanie -- to je funkcia brzdového systému."
 
-  - id: "vseobecne-info-03"
+  - id: "riadenie-vseobecne-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Všeobecné informácie o riadení\"?"
+    question: "Čo znamená požiadavka 'vratnosť' riadenia?"
     options:
-      - "chladiaca kvapalina"
-      - "volant"
-      - "palivová mapa"
-      - "alternátor"
+      - "Po uvoľnení volantu sa kolesá musia samočinne vrátiť do polohy pre priamu jazdu"
+      - "Vodič musí mať možnosť vrátiť volant ručne do pôvodnej polohy"
+      - "Riadenie sa musí dať vrátiť do pôvodného stavu po poruche"
+      - "Kolesá sa musia dať otočiť o 360 stupňov"
     correct: 1
-    explanation: "K téme Všeobecné informácie o riadení patrí aj pojem volant."
+    explanation: "Ručné vrátenie volantu -- vratnosť znamená SAMOčinné vrátenie, nie ručné.<br>Vrátenie do pôvodného stavu po poruche -- to je opraviteľnosť, nie vratnosť.<br>Otočenie o 360 stupňov -- kolesá sa nemôžu otočiť o 360°, sú obmedzené dorazmi."
 
-  - id: "vseobecne-info-04"
+  - id: "riadenie-vseobecne-04"
+    type: single
+    question: "Prečo musí byť volantová tyč skonštruovaná ako bezpečnostný prvok?"
+    options:
+      - "Aby vodiča pri čelnom náraze nezranila"
+      - "Aby bola odolná voči korózii"
+      - "Aby sa znížila hmotnosť riadenia"
+      - "Aby sa zvýšila presnosť riadenia"
+    correct: 1
+    explanation: "Odolnosť voči korózii -- to je síce dôležité, ale nie je to hlavný dôvod bezpečnostnej konštrukcie.<br>Zníženie hmotnosti -- bezpečnostná konštrukcia neslúži na zníženie hmotnosti.<br>Zvýšenie presnosti -- bezpečnostná konštrukcia volantovej tyče nesúvisí s presnosťou riadenia."
+
+  - id: "riadenie-vseobecne-05"
+    type: single
+    question: "Aký je najrozšírenejší spôsob riadenia podľa riadených kolies?"
+    options:
+      - "Riadenie predných kolies"
+      - "Riadenie zadných kolies"
+      - "Riadenie všetkých kolies (4WS)"
+      - "Riadenie bočných kolies"
+    correct: 1
+    explanation: "Riadenie zadných kolies -- používa sa pri špeciálnych vozidlách (vysokozdvižné vozíky, poľnohospodárske stroje).<br>Riadenie všetkých kolies (4WS) -- používa sa pri niektorých športových a luxusných vozidlách, nie je najrozšírenejšie.<br>Riadenie bočných kolies -- taký systém riadenia neexistuje."
+
+  - id: "riadenie-vseobecne-06"
+    type: single
+    question: "Ako funguje riadenie všetkých kolies (4WS) pri nízkych a vysokých rýchlostiach?"
+    options:
+      - "Pri nízkych rýchlostiach sa zadné kolesá natáčajú opačným smerom ako predné (menší polomer otáčania), pri vysokých rýchlostiach rovnakým smerom (väčšia stabilita)"
+      - "Pri nízkych aj vysokých rýchlostiach sa zadné kolesá natáčajú rovnakým smerom ako predné"
+      - "Pri nízkych rýchlostiach sa zadné kolesá natáčajú rovnakým smerom a pri vysokých opačným"
+      - "Zadné kolesá sa pri 4WS vôbec nenatáčajú, otáčajú sa len predné"
+    correct: 1
+    explanation: "Vždy rovnakým smerom -- pri nízkych rýchlostiach sa natáčajú opačným smerom pre zmenšenie polomeru otáčania.<br>Pri nízkych rovnakým a pri vysokých opačným -- je to presne naopak.<br>Zadné kolesá sa vôbec nenatáčajú -- pri 4WS sa natáčajú aj zadné kolesá, to je podstata tohto systému."
+
+  - id: "riadenie-vseobecne-07"
+    type: single
+    question: "Ako delíme riadenie podľa prenosu energie?"
+    options:
+      - "Priame, nepriame a kombinované (posilňované)"
+      - "Predné, zadné a všetky kolesá"
+      - "S dvoma ťahadlami, so spájacou tyčou a s delenou spojovacou tyčou"
+      - "Hydraulické, elektrické a pneumatické"
+    correct: 1
+    explanation: "Predné, zadné a všetky kolesá -- toto je rozdelenie podľa riadených kolies, nie podľa prenosu energie.<br>S dvoma ťahadlami, so spájacou tyčou a s delenou spojovacou tyčou -- toto je rozdelenie podľa konštrukcie riadiaceho ústrojenstva.<br>Hydraulické, elektrické a pneumatické -- toto sú typy posilňovačov riadenia, nie rozdelenie podľa prenosu energie."
+
+  - id: "riadenie-vseobecne-08"
+    type: single
+    question: "Aký typ riadenia podľa prenosu energie sa najčastejšie používa v moderných vozidlách?"
+    options:
+      - "Priame -- na kolesá pôsobí len sila vodiča"
+      - "Nepriame -- kolesá sú ovládané pomocou stlačeného vzduchu alebo hydraulickej kvapaliny"
+      - "Kombinované (posilňované) -- priame riadenie uľahčené posilňovačom"
+      - "Elektrické -- kolesá sú ovládané výhradne elektromotorom bez mechanického spojenia s volantom"
+    correct: 3
+    explanation: "Priame -- priame riadenie bez posilňovača sa v moderných vozidlách takmer nepoužíva.<br>Nepriame -- nepriame riadenie sa používa pri ťažkých nákladných vozidlách, nie pri väčšine moderných vozidiel.<br>Elektrické bez mechanického spojenia -- hoci sa vyvíja (steer-by-wire), zatiaľ nie je bežným štandardom."
+
+  - id: "riadenie-vseobecne-09"
+    type: single
+    question: "Aký typ konštrukcie riadiaceho ústrojenstva sa používa pri nezávislom zavesení kolies?"
+    options:
+      - "S dvoma ťahadlami"
+      - "So spájacou (priečnou) tyčou"
+      - "S delenou spojovacou tyčou"
+      - "S pružnou spojovacou tyčou"
+    correct: 3
+    explanation: "S dvoma ťahadlami -- používa sa pri tuhých nápravách, nie pri nezávislom zavesení.<br>So spájacou (priečnou) tyčou -- používa sa taktiež pri tuhých nápravách.<br>S pružnou spojovacou tyčou -- taký typ konštrukcie neexistuje."
+
+  - id: "riadenie-vseobecne-10"
     type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: smer, volant, stabilita."
+    question: "Ako sa nazýva typ riadenia, pri ktorom sa natáčajú všetky štyri kolesá? Uveďte skratku. (prosím, píšte aj s diakritikou)"
     accepted_answers:
-      - "všeobecné informácie o riadení"
-      - "Všeobecné informácie o riadení"
-    explanation: "Správna odpoveď je Všeobecné informácie o riadení."
-
-  - id: "vseobecne-info-05"
-    type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Všeobecné informácie o riadení\"?"
-    options:
-      - "smer, stabilita"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
-    correct: 1
-    explanation: "Správna kombinácia je smer a stabilita."
-
-  - id: "vseobecne-info-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Všeobecné informácie o riadení\"."
-    accepted_answers:
-      - "smer"
-      - "volant"
-      - "stabilita"
-      - "geometria"
-    explanation: "Medzi správne odpovede patria napr. smer, volant, stabilita, geometria."
-
-  - id: "vseobecne-info-07"
-    type: single
-    question: "Čo je hlavným cieľom kapitoly \"Všeobecné informácie o riadení\"?"
-    options:
-      - "Vysvetliť princípy pre oblasť: riadenie"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
-    correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti riadenie."
-
-  - id: "vseobecne-info-08"
-    type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
-    options:
-      - "geometria"
-      - "volant"
-      - "zapaľovacia sviečka"
-      - "smer"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
-
-  - id: "vseobecne-info-09"
-    type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Všeobecné informácie o riadení\" patrí do celku ______."
-    accepted_answers:
-      - "riadenie"
-      - "riadenie"
-    explanation: "Správne doplnenie je Riadenie."
-
-  - id: "vseobecne-info-10"
-    type: single
-    question: "Ktorá dvojica je pre tému \"Všeobecné informácie o riadení\" najvhodnejšia?"
-    options:
-      - "volant + geometria"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
-    correct: 1
-    explanation: "Najvhodnejšia dvojica je volant a geometria."
+      - "4WS"
+      - "riadenie všetkých kolies"

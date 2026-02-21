@@ -1,106 +1,83 @@
-topic: "Manévrovateľnosť"
+topic: "Činitele ovplyvňujúce manévrovateľnosť súprav"
 parent: "Prívesy a návesy"
 year: 2
 questions:
   - id: "manevrovatelnost-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Manévrovateľnosť\"?"
+    question: "Čo je to manévrovateľnosť súpravy?"
     options:
-      - "Prívesy a návesy"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Schopnosť vozidla s prívesom/návesom prechádzať zákrutami, cúvať a pohybovať sa v stiesnených priestoroch"
+      - "Maximálna rýchlosť, ktorú súprava dokáže dosiahnuť"
+      - "Schopnosť prívesu jazdiť bez ťažného vozidla"
+      - "Hmotnosť nákladu, ktorý dokáže súprava previezť"
     correct: 1
-    explanation: "Kapitola Manévrovateľnosť patrí do celku Prívesy a návesy."
+    explanation: "Maximálna rýchlosť -- manévrovateľnosť sa netýka rýchlosti, ale schopnosti pohybovať sa v stiesnených priestoroch.<br>Jazda bez ťažného vozidla -- príves sa bez ťažného vozidla nepohybuje, to nie je manévrovateľnosť.<br>Hmotnosť nákladu -- to je nosnosť, nie manévrovateľnosť."
 
   - id: "manevrovatelnost-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Manévrovateľnosť\"?"
+    question: "Ako ovplyvňuje dĺžka súpravy jej manévrovateľnosť?"
     options:
-      - "off-tracking"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Dlhšia súprava má väčší polomer otáčania a horšiu manévrovateľnosť"
+      - "Dlhšia súprava má menší polomer otáčania a lepšiu manévrovateľnosť"
+      - "Dĺžka súpravy nemá vplyv na manévrovateľnosť"
+      - "Dlhšia súprava má lepšiu manévrovateľnosť pri cúvaní"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem off-tracking."
+    explanation: "Menší polomer otáčania -- naopak, dlhšia súprava má väčší polomer otáčania.<br>Dĺžka nemá vplyv -- dĺžka je jedným z hlavných faktorov ovplyvňujúcich manévrovateľnosť.<br>Lepšia manévrovateľnosť pri cúvaní -- naopak, dlhšia súprava je ťažšie ovládateľná pri cúvaní."
 
   - id: "manevrovatelnost-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Manévrovateľnosť\"?"
+    question: "Čo je to off-tracking?"
     options:
-      - "chladiaca kvapalina"
-      - "polomer"
-      - "palivová mapa"
-      - "alternátor"
+      - "Jav, kedy zadné kolesá prívesu/návesu nesledujú presnú stopu predných kolies ťažného vozidla a zarezávajú sa do vnútra zákruty"
+      - "Jav, kedy sa príves odpojí od ťažného vozidla"
+      - "Jav, kedy sa pneumatiky prehrievajú pri vysokej rýchlosti"
+      - "Jav, kedy príves predbeháva ťažné vozidlo v zákrute"
     correct: 1
-    explanation: "K téme Manévrovateľnosť patrí aj pojem polomer."
+    explanation: "Odpojenie prívesu -- off-tracking nie je odpojenie, ale vybočenie zadnej časti z dráhy prednej.<br>Prehrievanie pneumatík -- to nesúvisí s off-trackingom.<br>Príves predbeháva ťažné vozidlo -- príves nemôže predbehať ťažné vozidlo, pretože nemá vlastný pohon."
 
   - id: "manevrovatelnost-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: off-tracking, polomer, súprava."
-    accepted_answers:
-      - "manévrovateľnosť"
-      - "Manévrovateľnosť"
-    explanation: "Správna odpoveď je Manévrovateľnosť."
+    type: single
+    question: "Ktorý typ súpravy má lepšiu manévrovateľnosť?"
+    options:
+      - "Návesová súprava (s točnicou) -- kratší polomer otáčania"
+      - "Prívesová súprava (s ojom) -- príves sleduje stopu presnejšie"
+      - "Oba typy majú rovnakú manévrovateľnosť"
+      - "Závisí výhradne od rýchlosti jazdy"
+    correct: 1
+    explanation: "Prívesová súprava sleduje stopu presnejšie -- naopak, príves sleduje stopu ťažného vozidla s oneskorením.<br>Rovnaká manévrovateľnosť -- návesová súprava má lepšiu manévrovateľnosť vďaka kratšiemu polomeru otáčania.<br>Závisí výhradne od rýchlosti -- manévrovateľnosť závisí od viacerých faktorov, nielen od rýchlosti."
 
   - id: "manevrovatelnost-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Manévrovateľnosť\"?"
+    question: "Čo sa stane, ak je zadná časť návesu preťažená?"
     options:
-      - "off-tracking, súprava"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Hrozí nebezpečenstvo 'bičovania' (whip effect) pri prudkých manévroch"
+      - "Náves bude stabilnejší v zákrutách"
+      - "Zlepší sa trakcia ťahača"
+      - "Zmenší sa polomer otáčania"
     correct: 1
-    explanation: "Správna kombinácia je off-tracking a súprava."
+    explanation: "Náves bude stabilnejší -- naopak, preťaženie zadnej časti znižuje stabilitu a spôsobuje bičovanie.<br>Zlepší sa trakcia ťahača -- preťaženie zadnej časti návesu nemá pozitívny vplyv na trakciu ťahača; naopak, preťažená predná časť by preťažila zadnú nápravu ťahača.<br>Zmenší sa polomer otáčania -- preťaženie zadnej časti priamo neovplyvňuje polomer otáčania."
 
   - id: "manevrovatelnost-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Manévrovateľnosť\"."
-    accepted_answers:
-      - "off-tracking"
-      - "polomer"
-      - "súprava"
-      - "dráha"
-    explanation: "Medzi správne odpovede patria napr. off-tracking, polomer, súprava, dráha."
+    type: single
+    question: "Ako riadené (natáčacie) nápravy ovplyvňujú manévrovateľnosť dlhých súprav?"
+    options:
+      - "Zlepšujú manévrovateľnosť, pretože sa natáčajú do smeru zákruty"
+      - "Zhoršujú manévrovateľnosť, pretože pridávajú hmotnosť"
+      - "Nemajú žiadny vplyv na manévrovateľnosť"
+      - "Zlepšujú iba stabilitu, nie manévrovateľnosť"
+    correct: 1
+    explanation: "Zhoršujú manévrovateľnosť pridaním hmotnosti -- pridaná hmotnosť je zanedbateľná v porovnaní so zlepšením manévrovateľnosti.<br>Nemajú žiadny vplyv -- riadené nápravy majú výrazný pozitívny vplyv na manévrovateľnosť.<br>Zlepšujú iba stabilitu -- zlepšujú predovšetkým manévrovateľnosť, pretože zmenšujú polomer otáčania."
 
   - id: "manevrovatelnost-07"
-    type: single
-    question: "Čo je hlavným cieľom kapitoly \"Manévrovateľnosť\"?"
-    options:
-      - "Vysvetliť princípy pre oblasť: prívesy a návesy"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
-    correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti prívesy a návesy."
+    type: write
+    question: "Ako sa nazýva krivka, ktorá určuje priestor potrebný na prejazd súpravy zákrutou? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "vlečná krivka"
+      - "swept path"
 
   - id: "manevrovatelnost-08"
-    type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
-    options:
-      - "dráha"
-      - "polomer"
-      - "zapaľovacia sviečka"
-      - "off-tracking"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
-
-  - id: "manevrovatelnost-09"
     type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Manévrovateľnosť\" patrí do celku ______."
+    question: "Ako sa po anglicky nazýva jav, kedy sa zadné kolesá prívesu zarezávajú do vnútra zákruty? (prosím, píšte aj s diakritikou)"
     accepted_answers:
-      - "prívesy a návesy"
-      - "prívesy a návesy"
-    explanation: "Správne doplnenie je Prívesy a návesy."
-
-  - id: "manevrovatelnost-10"
-    type: single
-    question: "Ktorá dvojica je pre tému \"Manévrovateľnosť\" najvhodnejšia?"
-    options:
-      - "polomer + dráha"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
-    correct: 1
-    explanation: "Najvhodnejšia dvojica je polomer a dráha."
+      - "off-tracking"
+      - "offtracking"

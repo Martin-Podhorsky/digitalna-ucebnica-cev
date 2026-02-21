@@ -1,106 +1,88 @@
-topic: "Všeobecné informácie o tlmení"
-parent: "Tlmenie"
+topic: "Tlmenie"
+parent: "Pruženie a tlmenie"
 year: 2
 questions:
-  - id: "vseobecne-info-01"
+  - id: "tlmenie-vseobecne-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Všeobecné informácie o tlmení\"?"
+    question: "Na čo slúžia tlmiče?"
     options:
-      - "Tlmenie"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Na zabránenie rozkmitania pružín -- premieňajú kinetickú energiu kmitania na teplo"
+      - "Na zvýšenie únosnosti pružín pri veľkom zaťažení"
+      - "Na nastavovanie svetlej výšky vozidla"
+      - "Na vedenie nápravy v správnom smere"
     correct: 1
-    explanation: "Kapitola Všeobecné informácie o tlmení patrí do celku Tlmenie."
+    explanation: "Zvýšenie únosnosti pružín -- tlmiče nezvyšujú únosnosť, ale tlmia kmitanie pružín.<br>Nastavovanie svetlej výšky -- to je funkcia pneumatického alebo hydropneumatického pruženia, nie tlmičov.<br>Vedenie nápravy -- na to slúžia ramená zavesenia, nie tlmiče (hoci niektoré typy tlmičov, napr. MacPherson, čiastočne plnia aj vodiacu funkciu)."
 
-  - id: "vseobecne-info-02"
+  - id: "tlmenie-vseobecne-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Všeobecné informácie o tlmení\"?"
+    question: "Čo by sa stalo s vozidlom bez tlmičov?"
     options:
-      - "tlmič"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Vozidlo by sa po každej nerovnosti húpalo, kolesá by odskakovali od vozovky a jazda by bola nekomfortná a nebezpečná"
+      - "Vozidlo by nemohlo jazdiť, pretože by nemalo žiadne pruženie"
+      - "Vozidlo by jazdu zvládlo normálne, tlmiče sú len doplnok"
+      - "Vozidlo by malo tvrdšiu jazdu, ale bolo by stabilnejšie"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem tlmič."
+    explanation: "Vozidlo by nemohlo jazdiť -- mohlo by jazdiť, pretože pružiny by stále fungovali, ale jazda by bola nebezpečná.<br>Tlmiče sú len doplnok -- tlmiče sú nevyhnutnou súčasťou odpruženia, bez nich je jazda nebezpečná.<br>Tvrdšia jazda, ale stabilnejšia -- naopak, bez tlmičov by vozidlo bolo nestabilné kvôli kmitaniu."
 
-  - id: "vseobecne-info-03"
+  - id: "tlmenie-vseobecne-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Všeobecné informácie o tlmení\"?"
+    question: "Ktorá z nasledujúcich NIE je úlohou tlmičov?"
     options:
-      - "chladiaca kvapalina"
-      - "kmitanie"
-      - "palivová mapa"
-      - "alternátor"
+      - "Rýchlo utlmiť kmitanie pružín po prejazde nerovnosťou"
+      - "Udržať kolesá v stálom kontakte s vozovkou"
+      - "Prenášať pozdĺžne a priečne sily medzi nápravou a karosériou"
+      - "Zvýšiť komfort jazdy"
+    correct: 3
+    explanation: "Prenos pozdĺžnych a priečnych síl je úlohou ramien zavesenia alebo listových pružín (samovodiaca funkcia), nie tlmičov. Rýchle utlmenie kmitania, udržanie kontaktu kolies s vozovkou a zvýšenie komfortu jazdy sú skutočné úlohy tlmičov."
+
+  - id: "tlmenie-vseobecne-04"
+    type: single
+    question: "Ako delíme tlmiče podľa konštrukcie?"
+    options:
+      - "Dvojplášťové (twin-tube) a jednoplášťové (mono-tube)"
+      - "Olejové (hydraulické) a plynokvapalinové"
+      - "Pasívne, nastaviteľné a adaptívne"
+      - "Jednolistové a viaclistové"
     correct: 1
-    explanation: "K téme Všeobecné informácie o tlmení patrí aj pojem kmitanie."
+    explanation: "Olejové a plynokvapalinové -- toto je rozdelenie podľa tlmiaceho média, nie podľa konštrukcie.<br>Pasívne, nastaviteľné a adaptívne -- toto je rozdelenie podľa možnosti nastavenia, nie podľa konštrukcie.<br>Jednolistové a viaclistové -- toto je rozdelenie listových pružín, nie tlmičov."
 
-  - id: "vseobecne-info-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: tlmič, kmitanie, olej."
-    accepted_answers:
-      - "všeobecné informácie o tlmení"
-      - "Všeobecné informácie o tlmení"
-    explanation: "Správna odpoveď je Všeobecné informácie o tlmení."
-
-  - id: "vseobecne-info-05"
+  - id: "tlmenie-vseobecne-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Všeobecné informácie o tlmení\"?"
+    question: "Ako delíme tlmiče podľa tlmiaceho média?"
     options:
-      - "tlmič, olej"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
-    correct: 1
-    explanation: "Správna kombinácia je tlmič a olej."
-
-  - id: "vseobecne-info-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Všeobecné informácie o tlmení\"."
-    accepted_answers:
-      - "tlmič"
-      - "kmitanie"
-      - "olej"
-      - "odpor"
-    explanation: "Medzi správne odpovede patria napr. tlmič, kmitanie, olej, odpor."
-
-  - id: "vseobecne-info-07"
-    type: single
-    question: "Čo je hlavným cieľom kapitoly \"Všeobecné informácie o tlmení\"?"
-    options:
-      - "Vysvetliť princípy pre oblasť: tlmenie"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
-    correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti tlmenie."
-
-  - id: "vseobecne-info-08"
-    type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
-    options:
-      - "odpor"
-      - "kmitanie"
-      - "zapaľovacia sviečka"
-      - "tlmič"
+      - "Dvojplášťové (twin-tube) a jednoplášťové (mono-tube)"
+      - "Olejové (hydraulické) a plynokvapalinové"
+      - "Pasívne, nastaviteľné a adaptívne"
+      - "Lineárne a progresívne"
     correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+    explanation: "Dvojplášťové a jednoplášťové -- toto je rozdelenie podľa konštrukcie, nie podľa tlmiaceho média.<br>Pasívne, nastaviteľné a adaptívne -- toto je rozdelenie podľa možnosti nastavenia.<br>Lineárne a progresívne -- toto je rozdelenie vinutých pružín podľa charakteristiky."
 
-  - id: "vseobecne-info-09"
-    type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Všeobecné informácie o tlmení\" patrí do celku ______."
-    accepted_answers:
-      - "tlmenie"
-      - "tlmenie"
-    explanation: "Správne doplnenie je Tlmenie."
-
-  - id: "vseobecne-info-10"
+  - id: "tlmenie-vseobecne-06"
     type: single
-    question: "Ktorá dvojica je pre tému \"Všeobecné informácie o tlmení\" najvhodnejšia?"
+    question: "Ako delíme tlmiče podľa možnosti nastavenia?"
     options:
-      - "kmitanie + odpor"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
+      - "Dvojplášťové (twin-tube) a jednoplášťové (mono-tube)"
+      - "Olejové (hydraulické) a plynokvapalinové"
+      - "Pasívne, nastaviteľné a adaptívne (elektronicky riadené)"
+      - "Vlnovcové a valivé"
+    correct: 3
+    explanation: "Dvojplášťové a jednoplášťové -- toto je rozdelenie podľa konštrukcie.<br>Olejové a plynokvapalinové -- toto je rozdelenie podľa tlmiaceho média.<br>Vlnovcové a valivé -- toto je rozdelenie vzduchových mechov pneumatického pruženia."
+
+  - id: "tlmenie-vseobecne-07"
+    type: single
+    question: "Aký je hlavný rozdiel medzi plynokvapalinovou a olejovou náplňou tlmiča?"
+    options:
+      - "Plynokvapalinové tlmiče obsahujú olej aj stlačený dusík, čo znižuje náchylnosť na spenenie oleja"
+      - "Plynokvapalinové tlmiče neobsahujú olej, iba stlačený plyn"
+      - "Olejové tlmiče sú vždy jednoplášťové a plynokvapalinové vždy dvojplášťové"
+      - "Olejové tlmiče sú drahšie ako plynokvapalinové"
     correct: 1
-    explanation: "Najvhodnejšia dvojica je kmitanie a odpor."
+    explanation: "Plynokvapalinové neobsahujú olej -- obsahujú olej aj stlačený plyn (dusík).<br>Olejové sú vždy jednoplášťové -- obidva typy môžu byť jednoplášťové aj dvojplášťové.<br>Olejové sú drahšie -- plynokvapalinové sú spravidla drahšie kvôli zložitejšej konštrukcii."
+
+  - id: "tlmenie-vseobecne-08"
+    type: write
+    question: "Na akú energiu premieňajú tlmiče kinetickú energiu kmitania pružín? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "teplo"
+      - "tepelnú energiu"
+      - "tepelná energia"

@@ -1,106 +1,88 @@
-topic: "Pripájacie zariadenia"
+topic: "Pripojovacie zariadenia prívesov a návesov"
 parent: "Prívesy a návesy"
 year: 2
 questions:
   - id: "pripajacie-zariadenia-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Pripájacie zariadenia\"?"
+    question: "Na čo slúžia pripojovacie zariadenia?"
     options:
-      - "Prívesy a návesy"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Na spojenie ťažného vozidla s prípojným vozidlom -- musia prenášať ťažné a tlačné sily a umožňovať vzájomný pohyb v zákrutách"
+      - "Na posilňovanie brzdového účinku prívesu"
+      - "Na prenos krútiaceho momentu z ťažného vozidla na príves"
+      - "Na reguláciu svetlej výšky prívesu"
     correct: 1
-    explanation: "Kapitola Pripájacie zariadenia patrí do celku Prívesy a návesy."
+    explanation: "Posilňovanie brzdového účinku -- pripojovacie zariadenia neslúžia na brzdenie, ale na mechanické spojenie vozidiel.<br>Prenos krútiaceho momentu -- prívesy nemajú vlastný pohon, krútiaci moment sa na ne neprenáša.<br>Regulácia svetlej výšky -- pripojovacie zariadenia neregulujú výšku prívesu."
 
   - id: "pripajacie-zariadenia-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Pripájacie zariadenia\"?"
+    question: "Aký je rozdiel medzi nesamočinným a samočinným ťažným závesom?"
     options:
-      - "točnica"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Pri nesamočinnom sa pripojenie aj odpojenie vykonáva ručne, pri samočinnom je pripojenie automatické a odpojenie ručné"
+      - "Nesamočinný záves je pre ľahké prívesy a samočinný pre ťažké"
+      - "Nesamočinný záves je starší typ a samočinný novší"
+      - "Nesamočinný záves nemá poistku a samočinný áno"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem točnica."
+    explanation: "Ľahké vs. ťažké prívesy -- typ závesu (samočinný/nesamočinný) sa neodlišuje podľa hmotnosti prívesu.<br>Starší vs. novší -- obidva typy sa stále používajú, nejde o chronologický vývoj.<br>Bez poistky vs. s poistkou -- oba typy závesov musia mať poistku proti samovoľnému uvoľneniu."
 
   - id: "pripajacie-zariadenia-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Pripájacie zariadenia\"?"
+    question: "Aké sú hlavné časti točnice?"
     options:
-      - "chladiaca kvapalina"
-      - "kráľovský čap"
-      - "palivová mapa"
-      - "alternátor"
+      - "Sedlová platňa, mazacie drážky, čeľuste zámku, zaisťovacia tyč, rukoväť a západka"
+      - "Hlavný list, pomocné listy, stredová objímka a ušká"
+      - "Vnútorný plášť, vonkajší plášť, piestnica a piest"
+      - "Pastorok, hrebeň a riadiace tyče"
     correct: 1
-    explanation: "K téme Pripájacie zariadenia patrí aj pojem kráľovský čap."
+    explanation: "Hlavný list, pomocné listy, stredová objímka a ušká -- toto sú časti listovej pružiny.<br>Vnútorný plášť, vonkajší plášť, piestnica a piest -- toto sú časti dvojplášťového tlmiča.<br>Pastorok, hrebeň a riadiace tyče -- toto sú časti hrebeňového riadenia."
 
   - id: "pripajacie-zariadenia-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: točnica, kráľovský čap, guľová spojka."
-    accepted_answers:
-      - "pripájacie zariadenia"
-      - "Pripájacie zariadenia"
-    explanation: "Správna odpoveď je Pripájacie zariadenia."
+    type: single
+    question: "Aký je priemer guľovej hlavice na guľovej spojke podľa normy ISO 1103?"
+    options:
+      - "50 mm"
+      - "40 mm"
+      - "2 palce (50,8 mm)"
+      - "75 mm"
+    correct: 1
+    explanation: "40 mm -- to je priemer otvoru na oku oja pre ľahké prívesy, nie priemer guľovej hlavice.<br>2 palce (50,8 mm) -- to je priemer kráľovského čapu pre bežné návesy (nie guľovej hlavice, hoci rozmer je podobný).<br>75 mm -- taký štandardizovaný rozmer guľovej hlavice neexistuje."
 
   - id: "pripajacie-zariadenia-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Pripájacie zariadenia\"?"
+    question: "Aký je správny postup pripájania návesu k ťahači?"
     options:
-      - "točnica, guľová spojka"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Ťahač cúva pod náves → kráľovský čap sa zasúva do V-drážky → čeľuste zachytia čap → kontrola zaistenia → pripojenie vedení → zdvihnutie podporných nôh → skúška bŕzd a osvetlenia"
+      - "Náves sa priťahuje k stojacemu ťahači lanom → pripojenie vedení → skúška bŕzd"
+      - "Ťahač cúva → pripojenie vedení → zdvihnutie podporných nôh → potom sa zasunie kráľovský čap"
+      - "Podporné nohy sa zdvihnú → ťahač cúva → pripojenie čapu → skúška osvetlenia"
     correct: 1
-    explanation: "Správna kombinácia je točnica a guľová spojka."
+    explanation: "Priťahovanie lanom -- náves sa nepriťahuje lanom, ťahač cúva pod náves.<br>Najprv vedenia, potom čap -- vedenia sa pripájajú až po mechanickom spojení (zasunutí kráľovského čapu).<br>Najprv zdvihnutie nôh -- podporné nohy sa zdvíhajú až po kontrole zaistenia, nie pred cúvaním."
 
   - id: "pripajacie-zariadenia-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Pripájacie zariadenia\"."
-    accepted_answers:
-      - "točnica"
-      - "kráľovský čap"
-      - "guľová spojka"
-      - "záves"
-    explanation: "Medzi správne odpovede patria napr. točnica, kráľovský čap, guľová spojka, záves."
+    type: single
+    question: "Prečo sa kráľovský čap pri opotrebení nesmie opravovať, ale musí sa vymeniť za originálny diel?"
+    options:
+      - "Pretože je vyrobený z tepelne spracovanej ocele a oprava by narušila jeho mechanické vlastnosti a bezpečnosť"
+      - "Pretože je príliš malý na opravu"
+      - "Pretože oprava by bola drahšia ako výmena"
+      - "Pretože legislatíva zakazuje akékoľvek opravy na prípojných vozidlách"
+    correct: 1
+    explanation: "Príliš malý na opravu -- kráľovský čap nie je malý (má priemer 50,8 mm), dôvodom je bezpečnosť.<br>Oprava by bola drahšia -- nie je to otázka ceny, ale bezpečnosti.<br>Legislatíva zakazuje opravy na prípojných vozidlách -- legislatíva nezakazuje všetky opravy, ale kráľovský čap je bezpečnostný prvok."
 
   - id: "pripajacie-zariadenia-07"
-    type: single
-    question: "Čo je hlavným cieľom kapitoly \"Pripájacie zariadenia\"?"
-    options:
-      - "Vysvetliť princípy pre oblasť: prívesy a návesy"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
-    correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti prívesy a návesy."
+    type: write
+    question: "Ako sa nazýva časť točnice, ktorá nesie hmotnosť návesu a umožňuje jeho natáčanie? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "sedlová platňa"
+      - "platňa"
+      - "sedlo"
 
   - id: "pripajacie-zariadenia-08"
     type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    question: "Aké bezpečnostné prvky musia mať ľahké prívesy?"
     options:
-      - "záves"
-      - "kráľovský čap"
-      - "zapaľovacia sviečka"
-      - "točnica"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
-
-  - id: "pripajacie-zariadenia-09"
-    type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Pripájacie zariadenia\" patrí do celku ______."
-    accepted_answers:
-      - "prívesy a návesy"
-      - "prívesy a návesy"
-    explanation: "Správne doplnenie je Prívesy a návesy."
-
-  - id: "pripajacie-zariadenia-10"
-    type: single
-    question: "Ktorá dvojica je pre tému \"Pripájacie zariadenia\" najvhodnejšia?"
-    options:
-      - "kráľovský čap + záves"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
+      - "Bezpečnostné laná alebo reťaze, ktoré zabraňujú úplnému odpojeniu pri zlyhaní hlavného spojenia"
+      - "Iba mechanickú poistku"
+      - "Elektrický brzdový systém s ABS"
+      - "Pneumatickú poistku a elektronickú signalizáciu"
     correct: 1
-    explanation: "Najvhodnejšia dvojica je kráľovský čap a záves."
+    explanation: "Iba mechanická poistka -- mechanická poistka je súčasťou závesu, ale ľahké prívesy musia mať aj bezpečnostné laná/reťaze.<br>Elektrický brzdový systém s ABS -- ABS nie je povinný pre ľahké prívesy.<br>Pneumatická poistka a elektronická signalizácia -- tieto prvky sú typické pre ťažké prívesy a návesy, nie pre ľahké prívesy."

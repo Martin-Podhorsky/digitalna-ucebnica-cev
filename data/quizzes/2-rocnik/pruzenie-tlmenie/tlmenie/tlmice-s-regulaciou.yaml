@@ -1,106 +1,129 @@
 topic: "Tlmiče s reguláciou"
-parent: "Tlmenie"
+parent: "Pruženie a tlmenie"
 year: 2
 questions:
   - id: "tlmice-s-regulaciou-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Tlmiče s reguláciou\"?"
+    question: "Aké tri typy regulácie tlmenia existujú?"
     options:
-      - "Tlmenie"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Manuálna, poloautomatická a aktívna (adaptívna) regulácia"
+      - "Hydraulická, pneumatická a elektrická regulácia"
+      - "Pasívna, lineárna a progresívna regulácia"
+      - "Jednoplášťová, dvojplášťová a trojplášťová regulácia"
     correct: 1
-    explanation: "Kapitola Tlmiče s reguláciou patrí do celku Tlmenie."
+    explanation: "Hydraulická, pneumatická a elektrická -- toto sú typy pohonov/médií, nie typy regulácie tlmenia.<br>Pasívna, lineárna a progresívna -- pasívne tlmiče nemajú reguláciu, lineárna a progresívna sú charakteristiky pružín.<br>Jednoplášťová, dvojplášťová a trojplášťová -- toto sú konštrukčné typy tlmičov, nie typy regulácie."
 
   - id: "tlmice-s-regulaciou-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Tlmiče s reguláciou\"?"
+    question: "Ako funguje manuálna regulácia tlmenia?"
     options:
-      - "elektronika"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Otáčaním regulátora sa mení prierez prietokového kanála v tlmiči, čím sa ovplyvňuje tvrdosť tlmenia -- nastavenie sa vykonáva pri stojiacom vozidle"
+      - "Riadiaca jednotka automaticky upravuje tlmenie podľa jazdných podmienok"
+      - "Vodič mení tvrdosť tlmenia počas jazdy pomocou tlačidla v kabíne"
+      - "Tlmenie sa nastavuje výmenou oleja s rôznou viskozitou"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem elektronika."
+    explanation: "Riadiaca jednotka automaticky -- to popisuje aktívne (adaptívne) tlmenie, nie manuálne.<br>Tlačidlo v kabíne počas jazdy -- to popisuje poloautomatickú reguláciu, nie manuálnu.<br>Výmena oleja s rôznou viskozitou -- zmena viskozity oleja nie je spôsob regulácie tlmenia."
 
   - id: "tlmice-s-regulaciou-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Tlmiče s reguláciou\"?"
+    question: "Čím sa líši poloautomatická regulácia od manuálnej?"
     options:
-      - "chladiaca kvapalina"
-      - "adaptívne"
-      - "palivová mapa"
-      - "alternátor"
+      - "Vodič môže prepínať medzi režimami (napr. Comfort, Normal, Sport) počas jazdy pomocou tlačidla, namiesto mechanického nastavovania pri stojiacom vozidle"
+      - "Poloautomatická regulácia nevyžaduje žiadny zásah vodiča"
+      - "Poloautomatická regulácia sa nastavuje iba v servise"
+      - "Manuálna regulácia je drahšia ako poloautomatická"
     correct: 1
-    explanation: "K téme Tlmiče s reguláciou patrí aj pojem adaptívne."
+    explanation: "Nevyžaduje žiadny zásah vodiča -- poloautomatická regulácia vyžaduje zásah vodiča (výber režimu), úplne automatická je len adaptívna regulácia.<br>Nastavuje sa iba v servise -- poloautomatická sa nastavuje priamo z kabíny vodiča počas jazdy.<br>Manuálna je drahšia -- spravidla naopak, poloautomatická je drahšia vďaka elektronike."
 
   - id: "tlmice-s-regulaciou-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: elektronika, adaptívne, ventil."
-    accepted_answers:
-      - "tlmiče s reguláciou"
-      - "Tlmiče s reguláciou"
-    explanation: "Správna odpoveď je Tlmiče s reguláciou."
+    type: single
+    question: "Ako funguje aktívne (adaptívne) tlmenie?"
+    options:
+      - "Riadiaca jednotka automaticky a nepretržite upravuje tlmenie každého kolesa nezávisle na základe údajov zo senzorov v reálnom čase"
+      - "Vodič manuálne prepína medzi režimami Comfort, Normal a Sport"
+      - "Mechanik nastavuje tvrdosť tlmenia otáčaním regulátora pri stojiacom vozidle"
+      - "Tlmiče sa automaticky vymenia po dosiahnutí určitého počtu kilometrov"
+    correct: 1
+    explanation: "Vodič manuálne prepína medzi režimami -- to popisuje poloautomatickú reguláciu, nie aktívnu.<br>Mechanik nastavuje tvrdosť otáčaním regulátora -- to popisuje manuálnu reguláciu.<br>Automatická výmena tlmičov -- tlmiče sa nevymieňajú automaticky, aktívne tlmenie znamená automatické prispôsobovanie charakteristiky."
 
   - id: "tlmice-s-regulaciou-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Tlmiče s reguláciou\"?"
+    question: "Aké snímače monitoruje riadiaca jednotka pri aktívnom tlmení?"
     options:
-      - "elektronika, ventil"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Pohyby karosérie, rýchlosť vozidla, uhol natočenia volantu, polohu plynového a brzdového pedálu"
+      - "Iba rýchlosť vozidla"
+      - "Iba teplotu oleja v tlmiči"
+      - "Iba otáčky motora a stupeň zaradený v prevodovke"
     correct: 1
-    explanation: "Správna kombinácia je elektronika a ventil."
+    explanation: "Iba rýchlosť vozidla -- riadiaca jednotka vyhodnocuje viacero údajov, nielen rýchlosť.<br>Iba teplotu oleja -- teplota oleja nie je primárnym vstupom pre riadenie adaptívneho tlmenia.<br>Iba otáčky motora a stupeň prevodovky -- tieto údaje priamo nesúvisia s riadením tlmenia."
 
   - id: "tlmice-s-regulaciou-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Tlmiče s reguláciou\"."
-    accepted_answers:
-      - "elektronika"
-      - "adaptívne"
-      - "ventil"
-      - "riadenie"
-    explanation: "Medzi správne odpovede patria napr. elektronika, adaptívne, ventil, riadenie."
+    type: single
+    question: "Ako fungujú tlmiče s elektromagnetickými (solenoidovými) ventilmi?"
+    options:
+      - "Prúd prechádzajúci cievkou ventilu vytvára magnetické pole, ktoré ovláda polohu ihly alebo klapky -- zmenou prúdu sa mení prierez prietokového otvoru a tým aj tvrdosť tlmenia"
+      - "Ventily sa otvárajú a zatvárajú pomocou mechanických pružín"
+      - "Ventily sú ovládané stlačeným vzduchom z kompresora"
+      - "Ventily sa otvárajú len pri vysokých teplotách oleja"
+    correct: 1
+    explanation: "Mechanické pružiny -- solenoidové ventily sú ovládané elektricky (elektromagneticky), nie mechanicky.<br>Stlačený vzduch z kompresora -- pneumatické ovládanie sa pri solenoidových ventiloch nepoužíva.<br>Otvárajú sa len pri vysokých teplotách -- solenoidové ventily reagujú na elektrický prúd, nie na teplotu."
 
   - id: "tlmice-s-regulaciou-07"
     type: single
-    question: "Čo je hlavným cieľom kapitoly \"Tlmiče s reguláciou\"?"
+    question: "Čo obsahuje magnetoreologická kvapalina?"
     options:
-      - "Vysvetliť princípy pre oblasť: tlmenie"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
+      - "Mikroskopické kovové častice (železný prášok) rozptýlené v syntetickom oleji"
+      - "Stlačený dusík zmiešaný s brzdovou kvapalinou"
+      - "Vodu s antikoróznou prísadou"
+      - "Gumové guličky rozptýlené v minerálnom oleji"
     correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti tlmenie."
+    explanation: "Stlačený dusík s brzdovou kvapalinou -- to nemá nič spoločné s magnetoreologickou kvapalinou.<br>Vodu s antikoróznou prísadou -- to popisuje chladiacu kvapalinu, nie magnetoreologickú.<br>Gumové guličky -- magnetoreologická kvapalina obsahuje kovové (železné) častice, nie gumové."
 
   - id: "tlmice-s-regulaciou-08"
     type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    question: "Čo sa stane s magnetoreologickou kvapalinou, keď elektromagnetická cievka v pieste vytvorí magnetické pole?"
     options:
-      - "riadenie"
-      - "adaptívne"
-      - "zapaľovacia sviečka"
-      - "elektronika"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+      - "Kovové častice sa zoradia do reťazcov v smere magnetických siločiar, čím sa zvýši viskozita kvapaliny a tým aj tlmiaca sila"
+      - "Kvapalina sa zahrieva a mení skupenstvo na plyn"
+      - "Kovové častice sa usadia na dne tlmiča"
+      - "Kvapalina sa stane menej viskóznou a tlmenie sa zmäkčí"
+    correct: 1
+    explanation: "Kvapalina sa zahrieva a mení na plyn -- magnetické pole nemení skupenstvo kvapaliny.<br>Kovové častice sa usadia na dne -- magnetické pole ich zoraďuje do reťazcov, neusadzuje ich na dno.<br>Kvapalina sa stane menej viskóznou -- naopak, magnetické pole viskozitu zvyšuje, čím sa tlmenie stvrdne."
 
   - id: "tlmice-s-regulaciou-09"
-    type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Tlmiče s reguláciou\" patrí do celku ______."
-    accepted_answers:
-      - "tlmenie"
-      - "tlmenie"
-    explanation: "Správne doplnenie je Tlmenie."
+    type: single
+    question: "Aká je odozva magnetoreologických tlmičov v porovnaní so solenoidovými?"
+    options:
+      - "Magnetoreologické tlmiče sú rýchlejšie -- ich odozva je menej ako 1 milisekunda, kým solenoidové reagujú v niekoľkých milisekundách"
+      - "Solenoidové tlmiče sú rýchlejšie ako magnetoreologické"
+      - "Oba typy majú rovnakú odozvu"
+      - "Magnetoreologické tlmiče reagujú až po niekoľkých sekundách"
+    correct: 1
+    explanation: "Solenoidové sú rýchlejšie -- naopak, magnetoreologické sú rýchlejšie (pod 1 ms vs. niekoľko ms).<br>Oba majú rovnakú odozvu -- magnetoreologické sú rýchlejšie.<br>Magnetoreologické reagujú po sekundách -- ich odozva je pod 1 milisekundu, čo je extrémne rýchle."
 
   - id: "tlmice-s-regulaciou-10"
     type: single
-    question: "Ktorá dvojica je pre tému \"Tlmiče s reguláciou\" najvhodnejšia?"
+    question: "Aké sú nevýhody magnetoreologických tlmičov?"
     options:
-      - "adaptívne + riadenie"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
+      - "Vysoká cena kvapaliny aj tlmičov, špeciálna kvapalina vyžaduje pravidelnú výmenu a náročná výroba a údržba"
+      - "Pomalá odozva, hlučná prevádzka a nízka spoľahlivosť"
+      - "Nemožnosť plynulej regulácie a obmedzený rozsah nastavenia"
+      - "Závislosti vlastností od teploty a stárnutie vplyvom UV žiarenia"
     correct: 1
-    explanation: "Najvhodnejšia dvojica je adaptívne a riadenie."
+    explanation: "Pomalá odozva, hlučná prevádzka a nízka spoľahlivosť -- naopak, magnetoreologické tlmiče majú extrémne rýchlu odozvu, tichú prevádzku a vysokú spoľahlivosť.<br>Nemožnosť plynulej regulácie -- naopak, plynulá regulácia v širokom rozsahu je jednou z ich výhod.<br>Závislosť od teploty a UV žiarenia -- to sú nevýhody gumového pruženia."
+
+  - id: "tlmice-s-regulaciou-11"
+    type: write
+    question: "Ako sa nazýva systém adaptívneho tlmenia od VW/Audi/Škoda? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "DCC"
+      - "Dynamic Chassis Control"
+
+  - id: "tlmice-s-regulaciou-12"
+    type: write
+    question: "Ako sa nazýva technológia adaptívneho tlmenia využívajúca magnetoreologickú kvapalinu, ktorú používa napr. Audi, Cadillac, Ferrari alebo Corvette? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "MagneRide"
+      - "Magneride"
+      - "magnetoreologické tlmiče"
+      - "magnetoreologické tlmenie"

@@ -4,103 +4,141 @@ year: 2
 questions:
   - id: "vseobecne-info-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Všeobecné informácie o pružení a tlmení\"?"
+    question: "Ktorá s možností zodpovedá definícii pojmu 'pruženie a tlmenie vozidla'?"
     options:
-      - "Pruženie a tlmenie"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Súbor komponentov, ktoré spájajú karosériu (alebo rám) vozidla s nápravou (kolesami) tak, že umožnujú ich vzájomné pohybovanie sa"
+      - "Súbor komponentov, ktoré spájajú motor vozidla s prevodovkou tak, že umožnujú prenos krútiaceho momentu"
+      - "Mechanické zariadenie, ktoré zamedzuje pohybu vozidla absorbovaním jeho pohybovej energie"
+      - "Súbor elektrických komponentov, ktoré riadia výšku podvozku pomocou senzorov"
     correct: 1
-    explanation: "Kapitola Všeobecné informácie o pružení a tlmení patrí do celku Pruženie a tlmenie."
+    explanation: "Motor s prevodovkou spája spojka, nie pruženie a tlmenie.<br>Mechanické zariadenie zamedzujúce pohybu absorbovaním pohybovej energie sú brzdy.<br>Riadenie výšky podvozku pomocou elektrických senzorov sa vzťahuje na aktívne/elektronicky riadené odpruženie, nie na bežné pruženie a tlmenie."
 
   - id: "vseobecne-info-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Všeobecné informácie o pružení a tlmení\"?"
+    question: "Aké časti vozidla spája pruženie a tlmenie?"
     options:
-      - "komfort"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
-    correct: 1
-    explanation: "Pre túto tému je kľúčový pojem komfort."
+      - "Motor s prevodovkou"
+      - "Volant s riadenými kolesami"
+      - "Karosériu (alebo rám) vozidla s nápravou (kolesami)"
+      - "Brzdový pedál s brzdovými mechanizmami"
+    correct: 3
+    explanation: "Motor s prevodovkou spája spojka.<br>Volant s riadenými kolesami spája systém riadenia.<br>Brzdový pedál s brzdovými mechanizmami spája brzdový systém."
 
   - id: "vseobecne-info-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Všeobecné informácie o pružení a tlmení\"?"
+    question: "Aké sú hlavné požiadavky kladené na pruženie a tlmenie?"
     options:
-      - "chladiaca kvapalina"
-      - "stabilita"
-      - "palivová mapa"
-      - "alternátor"
+      - "Udržovať stály kontakt kolies s vozovkou, absorbovať nerovnosti vozovky, zabezpečiť stabilitu a ovládateľnosť, izolovať posádku od nepríjemných vibrácií a otrasov, prispôsobiť sa rôznym úrovniam zaťaženia vozidla"
+      - "Udržovať tálny kontakt kolies s vozovkou, absorbovať nerovnosti vozovky, zabezpečiť stabilitu a ovládateľnosť a komfort jazdy"
+      - "Bezpečnosť, funkčnosť, spoľahlivosť a odstupňovateľnosť"
+      - "Stály kontakt kolies s vozovkou, vysoká hmotnosť, nízka odolnosť a komplikovaná údržba"
     correct: 1
-    explanation: "K téme Všeobecné informácie o pružení a tlmení patrí aj pojem stabilita."
+    explanation: "Udržovať stály kontakt kolies s vozovkou, absorbovať nerovnosti vozovky, zabezpečiť stabilitu a ovládateľnosť, izolovať posádku od nepríjemných vibrácií a otrasov, prispôsobiť sa rôznym úrovniam zaťaženia vozidla -- chýbajú štyri požiadavky (prispôsobivosť zaťaženiu, odolnosť a životnosť, nízka hmotnosť a jednoduchá údržba).<br>Bezpečnosť, funkčnosť, spoľahlivosť a odstupňovateľnosť -- sú hlavné požiadavky kladené na brzdový systém, nie na pruženie a tlmenie.<br>Udržovať stály kontakt kolies s vozovkou, vysoká hmotnosť, nízka odolnosť a komplikovaná údržba -- niektoré požiadavky sú opačné (vysoká hmotnosť namiesto nízkej, nízka odolnosť namiesto vysokej, komplikovaná údržba namiesto jednoduchej)."
 
   - id: "vseobecne-info-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: komfort, stabilita, pruženie."
-    accepted_answers:
-      - "všeobecné informácie o pružení a tlmení"
-      - "Všeobecné informácie o pružení a tlmení"
-    explanation: "Správna odpoveď je Všeobecné informácie o pružení a tlmení."
+    type: single
+    question: "Ktorá z nasledujúcich NIE je požiadavkou kladenou na pruženie a tlmenie?"
+    options:
+      - "Stály kontakt kolies s vozovkou"
+      - "Komfort jazdy"
+      - "Maximálna hmotnosť komponentov"
+      - "Jednoduchá údržba"
+    correct: 3
+    explanation: "Požiadavkou je naopak NÍZKA hmotnosť (predovšetkým neodpružená), nie maximálna. Stály kontakt kolies s vozovkou, komfort jazdy a jednoduchá údržba sú skutočné požiadavky kladené na pruženie a tlmenie."
 
   - id: "vseobecne-info-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Všeobecné informácie o pružení a tlmení\"?"
+    question: "Prečo je stály kontakt kolies s vozovkou jednou z požiadaviek kladených na pruženie a tlmenie?"
     options:
-      - "komfort, pruženie"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Pretože je nevyhnutný pre efektívne brzdenie, riadenie a prenos hnacích síl"
+      - "Pretože zvyšuje opotrebenie pneumatík a tým zabezpečuje ich pravidelnú výmenu"
+      - "Pretože znižuje spotrebu paliva zmenšením valivého odporu"
+      - "Pretože zabraňuje prehrievaniu brzdového systému"
     correct: 1
-    explanation: "Správna kombinácia je komfort a pruženie."
+    explanation: "Zvyšovanie opotrebenia pneumatík nie je cieľom, ale nežiaducim javom.<br>Stály kontakt kolies s vozovkou priamo nesúvisí so znižovaním spotreby paliva.<br>Zabránenie prehrievaniu brzdového systému taktiež nie je dôvodom požiadavky stáleho kontaktu kolies s vozovkou."
 
   - id: "vseobecne-info-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Všeobecné informácie o pružení a tlmení\"."
-    accepted_answers:
-      - "komfort"
-      - "stabilita"
-      - "pruženie"
-      - "tlmenie"
-    explanation: "Medzi správne odpovede patria napr. komfort, stabilita, pruženie, tlmenie."
+    type: single
+    question: "Voči čomu musia byť komponenty pruženia a tlmenia odolné?"
+    options:
+      - "Opotrebeniu, korózii a únavovým zlyhaniam"
+      - "Iba korózii"
+      - "Iba opotrebeniu"
+      - "Vysokým teplotám, radiácii a elektrickému výboju"
+    correct: 1
+    explanation: "Iba korózii -- chýba opotrebenie a únavové zlyhania.<br>Iba opotrebeniu -- chýba korózia a únavové zlyhania.<br>Vysoké teploty, radiácia a elektrický výboj nie sú hlavné faktory ovplyvňujúce komponenty pruženia a tlmenia."
 
   - id: "vseobecne-info-07"
     type: single
-    question: "Čo je hlavným cieľom kapitoly \"Všeobecné informácie o pružení a tlmení\"?"
+    question: "Čo je to neodpružená hmotnosť?"
     options:
-      - "Vysvetliť princípy pre oblasť: pruženie a tlmenie"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
-    correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti pruženie a tlmenie."
+      - "Hmotnosť celého vozidla bez paliva a posádky"
+      - "Hmotnosť komponentov nad pružinami (karoséria, motor, posádka)"
+      - "Hmotnosť komponentov pod pružinami"
+      - "Hmotnosť samotných pružín"
+    correct: 3
+    explanation: "Hmotnosť celého vozidla bez paliva a posádky je pohotovostná hmotnosť.<br>Hmotnosť komponentov nad pružinami (karoséria, motor, posádka) je odpružená hmotnosť -- teda presný opak.<br>Hmotnosť samotných pružín nie je ani odpružená, ani neodpružená hmotnosť."
 
   - id: "vseobecne-info-08"
     type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    question: "Prečo by mala byť neodpružená hmotnosť čo najnižšia?"
     options:
-      - "tlmenie"
-      - "stabilita"
-      - "zapaľovacia sviečka"
-      - "komfort"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+      - "Pretože priamo ovplyvňuje schopnosť kolesa kopírovať nerovnosti vozovky"
+      - "Pretože znižuje spotrebu paliva"
+      - "Pretože zvyšuje hmotnosť vozidla a tým zlepšuje stabilitu"
+      - "Pretože uľahčuje výrobu vozidla"
+    correct: 1
+    explanation: "Zníženie spotreby paliva nie je hlavný dôvod požiadavky na nízku neodpruženú hmotnosť.<br>Zvyšovanie hmotnosti NEzlepšuje stabilitu -- vyššia neodpružená hmotnosť by naopak zhoršila schopnosť kolesa kopírovať nerovnosti.<br>Uľahčenie výroby priamo nesúvisí s jazdnými vlastnosťami vozidla."
 
   - id: "vseobecne-info-09"
     type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Všeobecné informácie o pružení a tlmení\" patrí do celku ______."
+    question: "Ako sa nazýva hmotnosť komponentov pod pružinami, ktorá priamo ovplyvňuje schopnosť kolesa kopírovať nerovnosti vozovky? (prosím, píšte aj s diakritikou)"
     accepted_answers:
-      - "pruženie a tlmenie"
-      - "pruženie a tlmenie"
-    explanation: "Správne doplnenie je Pruženie a tlmenie."
+      - "neodpružená hmotnosť"
+      - "neodprúžená hmotnosť"
+      - "neodpružená"
 
   - id: "vseobecne-info-10"
+    type: write
+    question: "Na obrázku je znázornená schéma vozidla s vyznačenou hmotnosťou. Ako sa nazýva vyznačená hmotnosť? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/vseobecne-info/neodpruzena-hmotnost.png"
+    accepted_answers:
+      - "neodpružená hmotnosť"
+      - "neodprúžená hmotnosť"
+      - "neodpružená"
+
+  - id: "vseobecne-info-11"
     type: single
-    question: "Ktorá dvojica je pre tému \"Všeobecné informácie o pružení a tlmení\" najvhodnejšia?"
+    question: "Aké sú druhy pruženia?"
     options:
-      - "stabilita + tlmenie"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
+      - "Listové pružiny, vinuté pružiny, skrutné (torzné) tyče, gumové pruženie, pneumatické pruženie a hydropneumatické pruženie"
+      - "Listové pružiny, vinuté pružiny a gumové pruženie"
+      - "SIMPLEX, DUPLEX, SERVO, DUO-DUPLEX a DUO-SERVO"
+      - "Bubnové, kotúčové a pásové"
     correct: 1
-    explanation: "Najvhodnejšia dvojica je stabilita a tlmenie."
+    explanation: "Listové pružiny, vinuté pružiny a gumové pruženie -- chýbajú tri druhy pruženia (skrutné tyče, pneumatické a hydropneumatické pruženie).<br>SIMPLEX, DUPLEX, SERVO, DUO-DUPLEX a DUO-SERVO -- sú typy bubnových bŕzd, nie druhy pruženia.<br>Bubnové, kotúčové a pásové -- sú typy bŕzd podľa konštrukcie."
+
+  - id: "vseobecne-info-12"
+    type: single
+    question: "Ktorý z nasledujúcich NIE je druhom pruženia?"
+    options:
+      - "Listové pružiny"
+      - "Vinuté pružiny"
+      - "Kotúčové pružiny"
+      - "Pneumatické pruženie"
+    correct: 3
+    explanation: "Listové pružiny, vinuté pružiny a pneumatické pruženie sú skutočné druhy pruženia. Kotúčové pružiny ako druh pruženia neexistujú -- kotúčové môžu byť jedine len brzdy."
+
+  - id: "vseobecne-info-13"
+    type: write
+    question: "Ako inak nazývame skrutné tyče? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "torzné tyče"
+      - "torzné"
+
+  - id: "vseobecne-info-14"
+    type: write
+    question: "Aký druh pruženia kombinuje hydraulický a pneumatický princíp? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "hydropneumatické pruženie"
+      - "hydropneumatické"

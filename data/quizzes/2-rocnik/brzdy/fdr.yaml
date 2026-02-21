@@ -1,106 +1,81 @@
-topic: "FDR"
+topic: "Elektronická kontrola stability (ESP/FDR)"
 parent: "Brzdy"
 year: 2
 questions:
   - id: "fdr-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"FDR\"?"
+    question: "Čo je to FDR/ESP?"
     options:
-      - "Brzdy"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Komplexný elektronický bezpečnostný systém, ktorý pomáha vodičovi udržať vozidlo pod kontrolou v zákrutách a pri prudkých zmenách smeru"
+      - "Systém, ktorý zabraňuje iba zablokovaniu kolies počas brzdenia"
+      - "Systém, ktorý zabraňuje iba preklzu hnacích kolies pri rozjazde"
+      - "Systém automatického parkovania"
     correct: 1
-    explanation: "Kapitola FDR patrí do celku Brzdy."
+    explanation: "Zabraňuje iba zablokovaniu pri brzdení -- to je systém ABS, FDR/ESP je komplexnejší systém.<br>Zabraňuje iba preklzu pri rozjazde -- to je systém ASR, FDR/ESP zahŕňa aj ASR, ale je komplexnejší.<br>Automatické parkovanie -- FDR/ESP neslúži na parkovanie."
 
   - id: "fdr-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"FDR\"?"
+    question: "Aké parametre FDR nepretržite monitoruje?"
     options:
-      - "rozdeľovanie sily"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Uhol natočenia volantu, rýchlosť vozidla, priečne zrýchlenie, uhlovú rýchlosť otáčania a otáčky všetkých kolies"
+      - "Iba rýchlosť vozidla a otáčky kolies"
+      - "Iba uhol natočenia volantu a rýchlosť vozidla"
+      - "Teplotu motora, tlak oleja a napätie batérie"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem rozdeľovanie sily."
+    explanation: "Iba rýchlosť a otáčky kolies -- to sú parametre systému ABS, FDR monitoruje oveľa viac údajov.<br>Iba uhol volantu a rýchlosť -- FDR monitoruje aj priečne zrýchlenie a uhlovú rýchlosť otáčania.<br>Teplota motora, tlak oleja a napätie batérie -- tieto parametre nesúvisia s kontrolou stability."
 
   - id: "fdr-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"FDR\"?"
+    question: "Ako FDR zistí, že vozidlo je v nebezpečnej situácii?"
     options:
-      - "chladiaca kvapalina"
-      - "nápravy"
-      - "palivová mapa"
-      - "alternátor"
+      - "Porovnáva zámer vodiča (uhol natočenia volantu) so skutočným správaním vozidla (ostatné snímače)"
+      - "Meria teplotu pneumatík a ak je príliš vysoká, zasahuje"
+      - "Kontroluje hladinu brzdovej kvapaliny"
+      - "Monitoruje otáčky motora a ak sú príliš vysoké, zasahuje"
     correct: 1
-    explanation: "K téme FDR patrí aj pojem nápravy."
+    explanation: "Meria teplotu pneumatík -- FDR nemeria teplotu pneumatík.<br>Kontroluje hladinu brzdovej kvapaliny -- FDR nekontroluje hladinu kvapaliny, to je úloha kontrolky na prístrojovej doske.<br>Monitoruje otáčky motora -- FDR nemonitoruje otáčky motora ako primárny ukazovateľ nestability."
 
   - id: "fdr-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: rozdeľovanie sily, nápravy, brzdný účinok."
-    accepted_answers:
-      - "fdr"
-      - "FDR"
-    explanation: "Správna odpoveď je FDR."
+    type: single
+    question: "Čo urobí FDR pri pretáčavosti, aby zabránil šmyku?"
+    options:
+      - "Pribrzdi predné vonkajšie koleso"
+      - "Pribrzdi zadné vnútorné koleso"
+      - "Pribrzdi všetky štyri kolesá rovnomerne"
+      - "Zvýši výkon motora"
+    correct: 1
+    explanation: "Pribrzdi zadné vnútorné koleso -- to robí FDR pri nedotáčavosti (understeer), nie pri pretáčavosti.<br>Pribrzdi všetky štyri kolesá -- FDR selektívne brzdí vybrané koleso, nie všetky.<br>Zvýši výkon motora -- FDR výkon motora naopak znižuje."
 
   - id: "fdr-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"FDR\"?"
+    question: "Čo urobí FDR pri nedotáčavosti, aby dostal vozidlo do požadovaného smeru?"
     options:
-      - "rozdeľovanie sily, brzdný účinok"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
-    correct: 1
-    explanation: "Správna kombinácia je rozdeľovanie sily a brzdný účinok."
+      - "Pribrzdi predné vonkajšie koleso"
+      - "Pribrzdi zadné vnútorné koleso"
+      - "Odpojí pohon všetkých kolies"
+      - "Aktivuje parkovaciu brzdu"
+    correct: 2
+    explanation: "Pribrzdi predné vonkajšie koleso -- to robí FDR pri pretáčavosti, nie pri nedotáčavosti.<br>Odpojí pohon všetkých kolies -- FDR neodpája pohon, ale selektívne brzdí a znižuje výkon motora.<br>Aktivuje parkovaciu brzdu -- FDR neaktivuje parkovaciu brzdu, tá je určená len na parkovanie."
 
   - id: "fdr-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"FDR\"."
-    accepted_answers:
-      - "rozdeľovanie sily"
-      - "nápravy"
-      - "brzdný účinok"
-      - "regulácia"
-    explanation: "Medzi správne odpovede patria napr. rozdeľovanie sily, nápravy, brzdný účinok, regulácia."
+    type: single
+    question: "Aké dodatočné časti má FDR/ESP oproti systémom ABS a ASR?"
+    options:
+      - "Snímač uhla natočenia volantu, snímač priečneho zrýchlenia, snímač uhlovej rýchlosti (gyroskop) a výkonná riadiaca jednotka"
+      - "Iba snímač uhla natočenia volantu"
+      - "Kompresor a vzduchové nádrže"
+      - "Hydraulický posilňovač riadenia"
+    correct: 1
+    explanation: "Iba snímač uhla volantu -- FDR má aj snímač priečneho zrýchlenia a gyroskop, nie iba snímač uhla volantu.<br>Kompresor a vzduchové nádrže -- to sú súčasti vzduchotlakového brzdového systému, nie FDR.<br>Hydraulický posilňovač riadenia -- posilňovač riadenia je samostatný systém, nie súčasť FDR."
 
   - id: "fdr-07"
     type: single
-    question: "Čo je hlavným cieľom kapitoly \"FDR\"?"
+    question: "Od kedy je systém ESP povinný pre všetky nové registrácie osobných automobilov v EÚ?"
     options:
-      - "Vysvetliť princípy pre oblasť: brzdy"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
-    correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti brzdy."
-
-  - id: "fdr-08"
-    type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
-    options:
-      - "regulácia"
-      - "nápravy"
-      - "zapaľovacia sviečka"
-      - "rozdeľovanie sily"
+      - "Od novembra 2011"
+      - "Od novembra 2014"
+      - "Od roku 2004"
+      - "Od roku 2020"
     correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+    explanation: "Od novembra 2011 -- v novembri 2011 bolo ESP povinné pre nové modely, nie pre všetky nové registrácie.<br>Od roku 2004 -- v roku 2004 bolo zavedené povinné ABS, nie ESP.<br>Od roku 2020 -- ESP bolo povinné oveľa skôr."
 
-  - id: "fdr-09"
-    type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"FDR\" patrí do celku ______."
-    accepted_answers:
-      - "brzdy"
-      - "brzdy"
-    explanation: "Správne doplnenie je Brzdy."
-
-  - id: "fdr-10"
-    type: single
-    question: "Ktorá dvojica je pre tému \"FDR\" najvhodnejšia?"
-    options:
-      - "nápravy + regulácia"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
-    correct: 1
-    explanation: "Najvhodnejšia dvojica je nápravy a regulácia."

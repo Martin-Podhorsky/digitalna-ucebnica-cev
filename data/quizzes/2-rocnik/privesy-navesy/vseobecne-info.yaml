@@ -1,106 +1,101 @@
-topic: "Všeobecné informácie o prívesoch a návesoch"
+topic: "Prívesy a návesy"
 parent: "Prívesy a návesy"
 year: 2
 questions:
-  - id: "vseobecne-info-01"
+  - id: "privesy-navesy-vseobecne-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Všeobecné informácie o prívesoch a návesoch\"?"
+    question: "Čo sú to prívesy a návesy?"
     options:
-      - "Prívesy a návesy"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Prípojné vozidlá bez vlastného pohonu, ktoré sa pripájajú za ťažné vozidlo na prepravu nákladu alebo osôb"
+      - "Samostatné motorové vozidlá určené na prepravu nákladu"
+      - "Časti karosérie ťažného vozidla"
+      - "Prídavné motory pripojené k ťažnému vozidlu pre zvýšenie výkonu"
     correct: 1
-    explanation: "Kapitola Všeobecné informácie o prívesoch a návesoch patrí do celku Prívesy a návesy."
+    explanation: "Samostatné motorové vozidlá -- prívesy a návesy nemajú vlastný pohon, nie sú to motorové vozidlá.<br>Časti karosérie ťažného vozidla -- sú to samostatné prípojné vozidlá, nie časti ťažného vozidla.<br>Prídavné motory -- prívesy a návesy neslúžia na zvýšenie výkonu, ale na prepravu."
 
-  - id: "vseobecne-info-02"
+  - id: "privesy-navesy-vseobecne-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Všeobecné informácie o prívesoch a návesoch\"?"
+    question: "Aký je hlavný rozdiel medzi prívesom a návesom?"
     options:
-      - "súprava"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Príves má vlastnú prednú nápravu a pripája sa ojom, náves nemá prednú nápravu a opiera sa o ťahač prostredníctvom točnice a kráľovského čapu"
+      - "Príves je väčší ako náves"
+      - "Príves má vlastný motor a náves nie"
+      - "Príves sa používa len na prepravu osôb a náves len na prepravu nákladu"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem súprava."
+    explanation: "Príves je väčší ako náves -- veľkosť nie je definujúci rozdiel, existujú veľké prívesy aj malé návesy.<br>Príves má vlastný motor -- ani príves, ani náves nemá vlastný motor.<br>Príves na osoby a náves na náklad -- obidva sa môžu používať na rôzne účely."
 
-  - id: "vseobecne-info-03"
+  - id: "privesy-navesy-vseobecne-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Všeobecné informácie o prívesoch a návesoch\"?"
+    question: "Koľko percent hmotnosti návesu sa prenáša na zadnú nápravu ťahača?"
     options:
-      - "chladiaca kvapalina"
-      - "príves"
-      - "palivová mapa"
-      - "alternátor"
+      - "30 až 40%"
+      - "Iba 1 až 5%"
+      - "80 až 90%"
+      - "Presne 50%"
     correct: 1
-    explanation: "K téme Všeobecné informácie o prívesoch a návesoch patrí aj pojem príves."
+    explanation: "Iba 1 až 5% -- pri prívesu sa prenáša iba minimálna časť (50-100 kg), ale pri návese je to 30-40%.<br>80 až 90% -- to by bolo príliš veľa, zvyšok hmotnosti nesú vlastné nápravy návesu.<br>Presne 50% -- typická hodnota je 30-40%, nie presne 50%."
 
-  - id: "vseobecne-info-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: súprava, príves, náves."
-    accepted_answers:
-      - "všeobecné informácie o prívesoch a návesoch"
-      - "Všeobecné informácie o prívesoch a návesoch"
-    explanation: "Správna odpoveď je Všeobecné informácie o prívesoch a návesoch."
-
-  - id: "vseobecne-info-05"
+  - id: "privesy-navesy-vseobecne-04"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Všeobecné informácie o prívesoch a návesoch\"?"
+    question: "Prečo musí byť náves po odpojení od ťahača podopretý podpornými nohami?"
     options:
-      - "súprava, náves"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Pretože náves nemá prednú nápravu a bez ťahača by spadol na zem"
+      - "Pretože podporné nohy slúžia ako brzdy"
+      - "Pretože náves je príliš ľahký a vietor by ho mohol prevrátiť"
+      - "Pretože to vyžaduje legislatíva, hoci náves by aj bez nich stál"
     correct: 1
-    explanation: "Správna kombinácia je súprava a náves."
+    explanation: "Podporné nohy slúžia ako brzdy -- podporné nohy neslúžia na brzdenie, ale na podopretie prednej časti návesu.<br>Náves je príliš ľahký -- náves býva veľmi ťažký, problém je v tom, že nemá prednú nápravu.<br>Legislatíva vyžaduje, hoci by stál -- bez podporných nôh by náves skutočne spadol na zem."
 
-  - id: "vseobecne-info-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Všeobecné informácie o prívesoch a návesoch\"."
-    accepted_answers:
-      - "súprava"
-      - "príves"
-      - "náves"
-      - "zapojenie"
-    explanation: "Medzi správne odpovede patria napr. súprava, príves, náves, zapojenie."
-
-  - id: "vseobecne-info-07"
+  - id: "privesy-navesy-vseobecne-05"
     type: single
-    question: "Čo je hlavným cieľom kapitoly \"Všeobecné informácie o prívesoch a návesoch\"?"
+    question: "Aká je maximálna povolená dĺžka návesovej súpravy (ťahač + náves) v Európe?"
     options:
-      - "Vysvetliť princípy pre oblasť: prívesy a návesy"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
+      - "16,50 m"
+      - "18,75 m"
+      - "12,00 m"
+      - "25,00 m"
     correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti prívesy a návesy."
+    explanation: "18,75 m -- to je maximálna dĺžka prívesovej súpravy (vozidlo + príves), nie návesovej.<br>12,00 m -- to je maximálna dĺžka samotného prívesu.<br>25,00 m -- to presahuje maximálne povolené rozmery v Európe."
 
-  - id: "vseobecne-info-08"
+  - id: "privesy-navesy-vseobecne-06"
     type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    question: "Aká je maximálna povolená šírka chladiarenských vozidiel v Európe?"
     options:
-      - "zapojenie"
-      - "príves"
-      - "zapaľovacia sviečka"
-      - "súprava"
+      - "2,55 m"
+      - "2,60 m"
+      - "3,00 m"
+      - "2,45 m"
     correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+    explanation: "2,55 m -- to je maximálna šírka všetkých bežných vozidiel, chladiarenské majú výnimku 2,60 m kvôli izolačným stenám.<br>3,00 m -- to presahuje maximálne povolené rozmery.<br>2,45 m -- to je šírka ložnej plochy, nie celková šírka vozidla."
 
-  - id: "vseobecne-info-09"
+  - id: "privesy-navesy-vseobecne-07"
     type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Všeobecné informácie o prívesoch a návesoch\" patrí do celku ______."
+    question: "Ako sa nazýva čap na spodnej strane prednej časti návesu, pomocou ktorého sa náves pripája k ťahači? (prosím, píšte aj s diakritikou)"
     accepted_answers:
-      - "prívesy a návesy"
-      - "prívesy a návesy"
-    explanation: "Správne doplnenie je Prívesy a návesy."
+      - "kráľovský čap"
+      - "kráľovský"
 
-  - id: "vseobecne-info-10"
+  - id: "privesy-navesy-vseobecne-08"
+    type: write
+    question: "Ako sa nazýva zariadenie na ťahači, do ktorého sa uchytáva kráľovský čap návesu? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "točnica"
+      - "sedlová točnica"
+
+  - id: "privesy-navesy-vseobecne-09"
+    type: write
+    question: "Ako sa nazýva tyč, pomocou ktorej sa príves pripája k ťažnému závesu? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "oj"
+      - "oje"
+
+  - id: "privesy-navesy-vseobecne-10"
     type: single
-    question: "Ktorá dvojica je pre tému \"Všeobecné informácie o prívesoch a návesoch\" najvhodnejšia?"
+    question: "Aký je normalizovaný priemer kráľovského čapu pre bežné návesy v Európe?"
     options:
-      - "príves + zapojenie"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
+      - "2 palce (50,8 mm)"
+      - "3,5 palca (88,9 mm)"
+      - "40 mm"
+      - "50 mm"
     correct: 1
-    explanation: "Najvhodnejšia dvojica je príves a zapojenie."
+    explanation: "3,5 palca (88,9 mm) -- to je priemer pre ťažké návesy (nad 60 t), nie pre bežné.<br>40 mm -- to je priemer otvoru na oku oja pre ľahké prívesy.<br>50 mm -- to je priemer guľovej hlavice na guľovej spojke, nie kráľovského čapu."

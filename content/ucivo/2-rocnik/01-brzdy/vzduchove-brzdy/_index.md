@@ -33,6 +33,7 @@ Parkovacie brzdy fungují opačne - sú držané v polohe brzdenia silnou pruži
 4 a 6 - **Zásobníky vzduchu (vzduchojemy):**<br>
    - **Mokrá nádrž** (4) -- prvý zásobník za sušičom. Zachytáva vlhkosť a olej, ktoré sa pravidelne vypúšťajú cez výpustný kohút.
    - **Prevádzkové zásobníky** (6) -- skladujú suchý vzduch pre brzdové okruhy. Poskytujú rezervu vzduchu na niekoľko brzdení aj pri vypnutom motore.
+
 5 - **Štvorkanálový ochranný ventil** -- rozdeľuje vzduch do štyroch samostatných okruhov (predná náprava, zadná náprava, príves, pomocné zariadenia). Pri poruche jedného okruhu automaticky uzavrie poškodený okruh a ostatné zostanú funkčné.<br>
 
 ### Riadiaci systém:

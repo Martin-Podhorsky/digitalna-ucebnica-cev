@@ -124,7 +124,7 @@ questions:
   - id: "brzdovy-posilnovac-11"
     type: single
     question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
-    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/prepustacny-kanal.png"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/prepustaci-kanal.png"
     options:
       - "Prepúšťací kanál"
       - "Atmosferický kanál"
@@ -136,8 +136,71 @@ questions:
   - id: "brzdovy-posilnovac-12"
     type: single
     question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
-    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/vlozka-ventilu.png"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/atmosfericky-kanal.png"
+    options:
+      - "Atmosferický kanál"
+      - "Prepúšťací kanál"
+      - "Tanierový ventil"
+      - "Pracovný kanál"
+    correct: 1
+    explanation: "Časť zvýraznená na obrázku je KANÁL, ktorým sa pri stlžení brzdového pedálu dostáva o pracovnej komory atmosferický tlak. Preto to nie je prepúšťací ani pracovný kanál."
+
+  - id: "brzdovy-posilnovac-13"
+    type: single
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/vlozka.png"
     options:
       - "Vložka ventilu"
-      - "Atmosferický ventil"
-      - "Prepúšťací kanál"
+      - "Vložka piestu"
+      - "Vložka membrány"
+      - "Vložka kanálu"
+    correct: 1
+    explanation: "Táto vložka zatvára tanierový ventil. Preto to nie je ani vložka piestu, ani vložka membrány, ani vložka kanálu."
+
+  - id: "brzdovy-posilnovac-14"
+    type: single
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/cistic.png"
+    options:
+      - "Čistič"
+      - "Membrána"
+      - "Atmosferický kanál"
+      - "Atmosferická prípojka"
+    correct: 1
+    explanation: "Membrána -- je pripevnená ku piestu a oddeľuje podtlakovú komoru od pracovnej (tá to teda nemôže byť).<br>Atmosferický kanál -- nachádza sa v strede tanierového ventilu (takže to tiež nemôže byť).<br> Atmosferická prípojka -- takáto časť sa v podtlakovom brzdovom posilňovači nenachádza."
+
+  - id: "brzdovy-posilnovac-15"
+    type: single
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/pracovna-komora.png"
+    options:
+      - "Pracovná komora"
+      - "Podtlaková komora"
+      - "Atmosferická komora"
+      - "Pretlaková komora"
+    correct: 1
+    explanation: "Časť zvýraznená na obrázku je PRACOVNÁ KOMORA, ktorá je v základnej polohe brzdového pedála podtlaková. Preto to nie je ani podtlaková komora, ani atmosferická komora, ani pretlaková komora."
+
+  - id: "brzdovy-posilnovac-16"
+    type: single
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/reakcny-kotuc.png"
+    options:
+      - "Reakčný kotúč"
+      - "Piest"
+      - "Vložka piestu"
+      - "Vložka ventilu"
+    correct: 1
+    explanation: "Piest -- zvýraznená časť (reakčný kotúč) je v ňom vložená, takže to nie je správna odpoveď.<br>Vložka ventilu -- tá je pripevnená na piestnici a otvára a zatvára atmosferický ventil (preto to takžiež nemôže byť).<br>Vložka piestu -- takáto časť sa v podtlakovom brzdovom posilňovači nenachádza."
+
+  - id: "brzdovy-posilnovac-17"
+    type: single
+    question: "Ako sa volá táto časť podtlakového brzdového posilňovača?"
+    image: "/ucivo/2-rocnik/01-brzdy/brzdovy-posilnovac/tlacna-tyc.png"
+    options:
+      - "Tlačná tyč"
+      - "Reakčný kotúč"
+      - "Piestnica"
+      - "Brzdová tyč"
+    correct: 1
+    explanation: "Reakčný kotúč -- zvýraznená časť (tlačná tyč) je oň pripevnená, takže to nie je správna odpoveď (taktiež zvýraznená časť viditeľne nie je kotúčom).<br>Piestnica -- táto tyč sa nachádza na opačnej strane posilňovača (spojená s brzdovým pedálom).<br>Brzdová tyč -- takáto časť sa v podtlakovom brzdovom posilňovači nenachádza."

@@ -1,106 +1,249 @@
-topic: "Teleskopické tlmiče"
-parent: "Tlmenie"
+topic: "Teleskopické hydraulické tlmiče"
+parent: "Pruženie a tlmenie"
 year: 2
 questions:
   - id: "teleskopicke-tlmice-01"
     type: single
-    question: "Do ktorého tematického celku patrí kapitola \"Teleskopické tlmiče\"?"
+    question: "Z čoho sa skladá dvojplášťový (twin-tube) tlmič?"
     options:
-      - "Tlmenie"
-      - "Elektrická výzbroj"
-      - "Motorové vozidlá"
-      - "Diagnostika"
+      - "Z vnútorného pracovného valca a vonkajšieho zásobníkového valca"
+      - "Z jedného valca s oddeľovacím piestom"
+      - "Z dvoch vedľa seba umiestnených valcov rovnakej veľkosti"
+      - "Z troch valcov uložených nad sebou"
     correct: 1
-    explanation: "Kapitola Teleskopické tlmiče patrí do celku Tlmenie."
+    explanation: "Jeden valec s oddeľovacím piestom -- takto je konštruovaný jednoplášťový (mono-tube) tlmič.<br>Dva vedľa seba umiestnené valce -- valce dvojplášťového tlmiča sú v sebe (jeden vo vnútri druhého), nie vedľa seba.<br>Tri valce nad sebou -- takáto konštrukcia tlmiča neexistuje."
 
   - id: "teleskopicke-tlmice-02"
     type: single
-    question: "Ktorý pojem najviac súvisí s témou \"Teleskopické tlmiče\"?"
+    question: "Prečo má ventil B v dvojplášťovom tlmiči (cez ktorý kvapalina preteká pri rozťahovaní) menší prierez alebo väčší tlak potrebný na otvorenie ako ventil A?"
     options:
-      - "monotube"
-      - "karburátor"
-      - "štartér"
-      - "sviečka"
+      - "Aby tlmič kládol väčší odpor pri rozťahovaní, čím zachováva pružiaci efekt pružín, ale zároveň bráni ich rozkmitaniu"
+      - "Aby sa olej rýchlejšie vrátil do zásobníkovej komory"
+      - "Aby sa znížil hluk pri prevádzke tlmiča"
+      - "Aby sa zabránilo pretečeniu oleja mimo tlmiča"
     correct: 1
-    explanation: "Pre túto tému je kľúčový pojem monotube."
+    explanation: "Rýchlejšie vrátenie oleja do zásobníka -- ventil B riadi prietok medzi priestormi nad a pod piestom, nie do zásobníka.<br>Zníženie hluku -- menší prierez ventilu hluk neznižuje, slúži na väčší odpor pri rozťahovaní.<br>Zabránenie pretečeniu oleja -- na to slúžia tesnenia, nie veľkosť prietokových ventilov."
 
   - id: "teleskopicke-tlmice-03"
     type: single
-    question: "Ktorý pojem je tiež typický pre kapitolu \"Teleskopické tlmiče\"?"
+    question: "Ktorá z možností najviac zodpovedá výhodám dvojplášťového tlmiča?"
     options:
-      - "chladiaca kvapalina"
-      - "dvojplášť"
-      - "palivová mapa"
-      - "alternátor"
+      - "Nižšie výrobné náklady, komfortnejšia jazda, tichšia prevádzka, väčšia odolnosť voči mechanickému poškodeniu a nižšie trenie piestnice"
+      - "Lepšie chladenie, rýchlejšia odozva, odolnosť voči peneniu oleja, ľubovoľná montážna poloha a väčší priemer piestu"
+      - "Nastaviteľná tvrdosť, automatické prispôsobenie podmienkam a extrémne rýchla odozva"
+      - "Samotlmiaci efekt, nízka cena, izolácia hluku a jednoduchá konštrukcia"
     correct: 1
-    explanation: "K téme Teleskopické tlmiče patrí aj pojem dvojplášť."
+    explanation: "Lepšie chladenie, rýchlejšia odozva, odolnosť voči peneniu oleja, ľubovoľná montážna poloha a väčší priemer piestu -- toto sú výhody jednoplášťového tlmiča.<br>Nastaviteľná tvrdosť, automatické prispôsobenie a extrémne rýchla odozva -- toto sú vlastnosti adaptívnych (elektronicky riadených) tlmičov.<br>Samotlmiaci efekt, nízka cena, izolácia hluku a jednoduchá konštrukcia -- toto sú výhody gumového pruženia."
 
   - id: "teleskopicke-tlmice-04"
-    type: write
-    question: "Napíš názov kapitoly, ktorá sa venuje téme: monotube, dvojplášť, piest."
-    accepted_answers:
-      - "teleskopické tlmiče"
-      - "Teleskopické tlmiče"
-    explanation: "Správna odpoveď je Teleskopické tlmiče."
+    type: single
+    question: "Ktorá z možností najviac zodpovedá nevýhodám dvojplášťového tlmiča?"
+    options:
+      - "Horšie chladenie, náchylnosť na penenie oleja (fading), pomalšia odozva, obmedzená montážna poloha a väčšie vonkajšie rozmery"
+      - "Vyššie výrobné náklady, citlivosť na mechanické poškodenie, tvrdší pocit z jazdy a väčší prenos vibrácií"
+      - "Vysoké servisné náklady, náchylnosť na netesnosti a nutnosť pravidelnej údržby"
+      - "Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch"
+    correct: 1
+    explanation: "Vyššie výrobné náklady, citlivosť na mechanické poškodenie, tvrdší pocit z jazdy a väčší prenos vibrácií -- toto sú nevýhody jednoplášťového tlmiča.<br>Vysoké servisné náklady, náchylnosť na netesnosti a nutnosť pravidelnej údržby -- toto sú nevýhody hydropneumatického pruženia.<br>Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch -- toto sú nevýhody torzných tyčí."
 
   - id: "teleskopicke-tlmice-05"
     type: single
-    question: "Ktorá kombinácia pojmov patrí ku kapitole \"Teleskopické tlmiče\"?"
+    question: "Čo je to fading pri dvojplášťovom tlmiči?"
     options:
-      - "monotube, piest"
-      - "turbodúchadlo, intercooler"
-      - "vstrekovač, lambda sonda"
-      - "akumulátor, štartér"
+      - "Miešanie oleja so vzduchom (aerácia) pri prehriatí, čo výrazne znižuje tlmiacu schopnosť"
+      - "Mechanické opotrebenie piestnice pri dlhodobom používaní"
+      - "Únava materiálu vonkajšieho plášťa"
+      - "Strácanie farby z tlmiča vplyvom UV žiarenia"
     correct: 1
-    explanation: "Správna kombinácia je monotube a piest."
+    explanation: "Mechanické opotrebenie piestnice -- to nie je fading, ale bežné opotrebenie.<br>Únava materiálu vonkajšieho plášťa -- to tiež nie je fading.<br>Strácanie farby z tlmiča -- fading v kontexte tlmičov sa vzťahuje na stratu tlmiacej schopnosti, nie na farbu."
 
   - id: "teleskopicke-tlmice-06"
-    type: write
-    question: "Napíš jeden odborný pojem z kapitoly \"Teleskopické tlmiče\"."
-    accepted_answers:
-      - "monotube"
-      - "dvojplášť"
-      - "piest"
-      - "ventily"
-    explanation: "Medzi správne odpovede patria napr. monotube, dvojplášť, piest, ventily."
+    type: single
+    question: "V akom maximálnom uhle od zvislice smie byť montovaný dvojplášťový tlmič?"
+    options:
+      - "Maximálne 45°"
+      - "Maximálne 90°"
+      - "V ľubovoľnom uhle"
+      - "Maximálne 10°"
+    correct: 1
+    explanation: "Maximálne 90° -- pri takomto uhle by vzduch zo zásobníkovej komory prenikol do pracovného priestoru.<br>V ľubovoľnom uhle -- v ľubovoľnom uhle sa smie montovať jednoplášťový tlmič, nie dvojplášťový.<br>Maximálne 10° -- to je príliš prísne obmedzenie, dvojplášťový tlmič zvláda do 45°."
 
   - id: "teleskopicke-tlmice-07"
     type: single
-    question: "Čo je hlavným cieľom kapitoly \"Teleskopické tlmiče\"?"
+    question: "Čím sa v jednoplášťovom tlmiči oddeľuje olej od plynu?"
     options:
-      - "Vysvetliť princípy pre oblasť: tlmenie"
-      - "Naučiť opravu klimatizácie"
-      - "Vysvetliť chladenie spaľovania"
-      - "Opísať systém osvetlenia"
+      - "Pružnou membránou alebo plávajúcim piestom"
+      - "Vonkajším plášťom"
+      - "Jednocestnými ventilmi"
+      - "Ničím -- olej a plyn sú zmiešané"
     correct: 1
-    explanation: "Cieľom je porozumieť princípom v oblasti tlmenie."
+    explanation: "Vonkajším plášťom -- jednoplášťový tlmič má len jeden plášť, vonkajší plášť je súčasťou dvojplášťového tlmiča.<br>Jednocestnými ventilmi -- ventily regulujú prietok oleja, nie oddeľovanie oleja od plynu.<br>Ničím -- olej a plyn sú v jednoplášťovom tlmiči oddelené, inak by došlo k peneniu."
 
   - id: "teleskopicke-tlmice-08"
     type: single
-    question: "Ktorý z pojmov do tejto kapitoly NEpatrí?"
+    question: "Ktorá z možností najviac zodpovedá výhodám jednoplášťového tlmiča?"
     options:
-      - "ventily"
-      - "dvojplášť"
-      - "zapaľovacia sviečka"
-      - "monotube"
-    correct: 2
-    explanation: "Zapaľovacia sviečka patrí do inej oblasti."
+      - "Lepšie chladenie, rýchlejšia odozva, odolnosť voči peneniu oleja, ľubovoľná montážna poloha, väčší priemer piestu a dlhšia životnosť pri náročnom použití"
+      - "Nižšie výrobné náklady, komfortnejšia jazda, tichšia prevádzka a väčšia odolnosť voči mechanickému poškodeniu"
+      - "Samotlmiaci efekt, nízka cena a izolácia hluku"
+      - "Stála svetlá výška, nastaviteľná výška podvozku a progresívna charakteristika"
+    correct: 1
+    explanation: "Nižšie výrobné náklady, komfortnejšia jazda, tichšia prevádzka a väčšia odolnosť voči mechanickému poškodeniu -- toto sú výhody dvojplášťového tlmiča.<br>Samotlmiaci efekt, nízka cena a izolácia hluku -- toto sú výhody gumového pruženia.<br>Stála svetlá výška, nastaviteľná výška podvozku a progresívna charakteristika -- toto sú výhody pneumatického pruženia."
 
   - id: "teleskopicke-tlmice-09"
-    type: write
-    question: "Dokonči vetu jedným slovom: Kapitola \"Teleskopické tlmiče\" patrí do celku ______."
-    accepted_answers:
-      - "tlmenie"
-      - "tlmenie"
-    explanation: "Správne doplnenie je Tlmenie."
+    type: single
+    question: "Prečo je jednoplášťový tlmič citlivejší na mechanické poškodenie ako dvojplášťový?"
+    options:
+      - "Pretože má len jeden plášť -- akékoľvek vyhnutie alebo preliačenie valca priamo ovplyvní pohyb piestu"
+      - "Pretože je vyrobený z mäkšieho materiálu"
+      - "Pretože je dlhší a teda náchylnejší na ohyb"
+      - "Pretože vonkajší plášť dvojplášťového tlmiča je hrubší"
+    correct: 1
+    explanation: "Mäkší materiál -- materiál nie je mäkší, problém je v absencii ochranného vonkajšieho plášťa.<br>Dlhší a náchylnejší na ohyb -- dĺžka nie je hlavný faktor, problém je, že nemá ochranný vonkajší plášť.<br>Vonkajší plášť dvojplášťového je hrubší -- nie je hrubší, ale chráni vnútorný pracovný valec pred poškodením."
 
   - id: "teleskopicke-tlmice-10"
     type: single
-    question: "Ktorá dvojica je pre tému \"Teleskopické tlmiče\" najvhodnejšia?"
+    question: "Kde sa najčastejšie používajú dvojplášťové tlmiče?"
     options:
-      - "dvojplášť + ventily"
-      - "olej + sviečka"
-      - "kľukový hriadeľ + ventilátor"
-      - "spojka + zotrvačník"
+      - "Na drvivej väčšine sériovo vyrábaných osobných automobilov, ľahkých úžitkových vozidlách"
+      - "Na športových a pretekárskych vozidlách"
+      - "Na terénnych vozidlách a motocykloch vyšších kategórií"
+      - "Výhradne na nákladných automobiloch"
     correct: 1
-    explanation: "Najvhodnejšia dvojica je dvojplášť a ventily."
+    explanation: "Športové a pretekárske vozidlá -- tam sa prednostne používajú jednoplášťové tlmiče pre ich lepší výkon.<br>Terénne vozidlá a motocykle vyšších kategórií -- aj tam sa častejšie používajú jednoplášťové tlmiče.<br>Výhradne na nákladných automobiloch -- dvojplášťové tlmiče sa nepoužívajú výhradne na nákladných automobiloch."
+
+  - id: "teleskopicke-tlmice-11"
+    type: write
+    question: "Aký plyn sa používa v jednoplášťovom tlmiči a pod akým tlakom? (stačí uviesť plyn a rozsah tlaku)"
+    accepted_answers:
+      - "dusík pod tlakom 20 až 30 barov"
+      - "dusík, 20-30 barov"
+      - "dusík"
+
+  - id: "teleskopicke-tlmice-12"
+    type: write
+    question: "Ako sa nazýva jav, pri ktorom sa olej v tlmiči mieša so vzduchom pri prehriatí a výrazne sa tým zníži tlmiaca schopnosť? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "fading"
+      - "penenie oleja"
+      - "aerácia"
+
+  - id: "teleskopicke-tlmice-13"
+    type: write
+    question: "Ako sa nazýva táto časť dvojplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/vnutorny-plast-dvojplastovy.png"
+    accepted_answers:
+      - "vnútorný plášť"
+
+  - id: "teleskopicke-tlmice-14"
+    type: write
+    question: "Ako sa nazýva táto časť dvojplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/vonkajsi-plast-dvojplastovy.png"
+    accepted_answers:
+      - "vonkajší plášť"
+
+  - id: "teleskopicke-tlmice-15"
+    type: write
+    question: "Ako sa nazýva táto časť dvojplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/piestnica-dvojplastovy.png"
+    accepted_answers:
+      - "piestnica"
+
+  - id: "teleskopicke-tlmice-16"
+    type: write
+    question: "Ako sa nazýva táto časť dvojplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/piest-dvojplastovy.png"
+    accepted_answers:
+      - "piest"
+      - "piest s prietokovými jednocestnými ventilmi"
+
+  - id: "teleskopicke-tlmice-17"
+    type: write
+    question: "Ako sa nazýva táto časť dvojplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/pracovna-komora-dvojplastovy.png"
+    accepted_answers:
+      - "pracovný priestor"
+      - "pracovná komora"
+
+  - id: "teleskopicke-tlmice-18"
+    type: write
+    question: "Ako sa nazýva táto časť dvojplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/zasobnik-dvojplastovy.png"
+    accepted_answers:
+      - "priestor zásobníka"
+      - "zásobníková komora"
+      - "zásobník"
+
+  - id: "teleskopicke-tlmice-19"
+    type: write
+    question: "Ako sa nazýva táto časť dvojplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/dno-dvojplastovy.png"
+    accepted_answers:
+      - "dno"
+      - "dno s prietokovými jednocestnými ventilmi"
+
+  - id: "teleskopicke-tlmice-20"
+    type: write
+    question: "Ako sa nazýva táto časť dvojplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/oka-dvojplastovy.png"
+    accepted_answers:
+      - "oká na uchytenie"
+      - "oká"
+      - "oko na uchytenie"
+
+  - id: "teleskopicke-tlmice-21"
+    type: write
+    question: "Ako sa nazýva táto časť jednoplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/plast-jednoplastovy.png"
+    accepted_answers:
+      - "plášť"
+
+  - id: "teleskopicke-tlmice-22"
+    type: write
+    question: "Ako sa nazýva táto časť jednoplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/piestnica-jednoplastovy.png"
+    accepted_answers:
+      - "piestnica"
+
+  - id: "teleskopicke-tlmice-23"
+    type: write
+    question: "Ako sa nazýva táto časť jednoplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/pracovna-komora-jednoplastovy.png"
+    accepted_answers:
+      - "pracovný priestor"
+      - "pracovná komora"
+
+  - id: "teleskopicke-tlmice-24"
+    type: write
+    question: "Ako sa nazýva táto časť jednoplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/piest-jednoplastovy.png"
+    accepted_answers:
+      - "piest"
+      - "piest s prietokovými jednocestnými ventilmi"
+
+  - id: "teleskopicke-tlmice-25"
+    type: write
+    question: "Ako sa nazýva táto časť jednoplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/membrana-jednoplastovy.png"
+    accepted_answers:
+      - "pružná membrána"
+      - "plávajúci piest"
+      - "membrána"
+
+  - id: "teleskopicke-tlmice-26"
+    type: write
+    question: "Ako sa nazýva táto časť jednoplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/plyn-jednoplastovy.png"
+    accepted_answers:
+      - "plynová náplň"
+      - "dusík"
+      - "plynová komora"
+
+  - id: "teleskopicke-tlmice-27"
+    type: write
+    question: "Ako sa nazýva táto časť jednoplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/oka-jednoplastovy.png"
+    accepted_answers:
+      - "oká na uchytenie"
+      - "oká"
+      - "oko na uchytenie"
