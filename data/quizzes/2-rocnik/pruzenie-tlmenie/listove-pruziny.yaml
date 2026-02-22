@@ -126,7 +126,7 @@ questions:
       - "Je to nastavovací mechanizmus na zmenu tuhosti pružiny"
       - "Je to tlmič umiestnený priamo na listovej pružine"
     correct: 1
-    explanation: "Poistka zabraňujúca vypadnutiu listov -- na to slúži stredová objímka a spona, nie záves.<br>Nastavovací mechanizmus na zmenu tuhosti -- listové pružiny nemajú nastaviteľnú tuhosť (to umožňuje napr. pneumatické pruženie).<br>Tlmič umiestnený na pružine -- záves nie je tlmič, tlmiče sú samostatné komponenty.""
+    explanation: "Poistka zabraňujúca vypadnutiu listov -- na to slúži stredová objímka a spona, nie záves.<br>Nastavovací mechanizmus na zmenu tuhosti -- listové pružiny nemajú nastaviteľnú tuhosť (to umožňuje napr. pneumatické pruženie).<br>Tlmič umiestnený na pružine -- záves nie je tlmič, tlmiče sú samostatné komponenty."
 
   - id: "listove-pruziny-13"
     type: write
@@ -175,7 +175,7 @@ questions:
     question: "Ako sa nazývajú tieto časti listovej pružiny? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/puzdra.png"
     options:
-      - "ložiská
+      - "ložiská"
       - "púzdra"
       - "silenbloky"
       - "vložky"
