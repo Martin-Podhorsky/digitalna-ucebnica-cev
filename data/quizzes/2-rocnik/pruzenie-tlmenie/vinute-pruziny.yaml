@@ -4,17 +4,6 @@ year: 2
 questions:
   - id: "vinute-pruziny-01"
     type: single
-    question: "Kde sa vinuté pružiny v súčasnosti používajú najčastejšie?"
-    options:
-      - "Na osobných automobiloch, často v zostave typu MacPherson"
-      - "Na ťažkých nákladných vozidlách a prívesoch"
-      - "Na autobusoch a luxusných limuzínach"
-      - "Na motocykloch a štvorkolkách"
-    correct: 1
-    explanation: "Na ťažkých nákladných vozidlách a prívesoch sa najčastejšie používajú listové pružiny alebo pneumatické pruženie.<br>Na autobusoch a luxusných limuzínach sa často používa pneumatické pruženie.<br>Na motocykloch sa používajú vinuté pružiny, ale najčastejšie sa vinuté pružiny používajú na osobných automobiloch."
-
-  - id: "vinute-pruziny-02"
-    type: single
     question: "Z čoho je vyrobená vinutá pružina?"
     options:
       - "Z oceľového drôtu navinutého do tvaru špirály (skrutkovice)"
@@ -24,51 +13,39 @@ questions:
     correct: 1
     explanation: "Niekoľko oblúkovito zahnutých oceľových listov rôznej dĺžky -- takto sú konštruované listové pružiny.<br>Dlhý oceľový prút s kruhovým prierezom -- takto sú konštruované skrutné (torzné) tyče.<br>Gumové bloky vrstvené medzi kovovými platňami -- takto funguje gumové pruženie (silentbloky)."
 
-  - id: "vinute-pruziny-03"
-    type: single
-    question: "Čo by sa stalo, ak by sa závity vinutej pružiny pri maximálnom stlačení dotýkali?"
-    options:
-      - "Pružina by spôsobovala hluk a prenášala nárazy priamo na karosériu vozidla"
-      - "Pružina by sa stala progresívnou a zlepšil by sa komfort jazdy"
-      - "Pružina by sa zlomila"
-      - "Nič, je to bežný a žiadaný jav"
-    correct: 1
-    explanation: "Pružina by sa stala progresívnou -- dotyk závitov nespôsobuje progresívnu charakteristiku, ale tvrdé nárazy.<br>Pružina by sa zlomila -- dotyk závitov nevedie priamo k zlomeniu, ale k hluku a prenosu nárazov.<br>Bežný a žiadaný jav -- naopak, konštrukcia vinutej pružiny sa navrhuje tak, aby sa závity pri maximálnom stlačení nedotýkali."
-
-  - id: "vinute-pruziny-04"
+  - id: "vinute-pruziny-02"
     type: single
     question: "Ktorý z nasledujúcich parametrov NEOVPLYVŇUJE tuhosť vinutej pružiny?"
     options:
       - "Priemer drôtu"
       - "Počet činných závitov"
-      - "Farba pružiny"
-      - "Materiál (modul pružnosti v šmyku G)"
+      - "Náter"
+      - "Materiál"
     correct: 3
     explanation: "Priemer drôtu ovplyvňuje tuhosť -- väčší priemer znamená vyššiu tuhosť.<br>Počet činných závitov ovplyvňuje tuhosť -- čím viac závitov, tým menšia tuhosť.<br>Materiál ovplyvňuje tuhosť -- modul pružnosti v šmyku G je hlavná materiálová konštanta vo vzorci pre výpočet tuhosti."
 
-  - id: "vinute-pruziny-05"
+  - id: "vinute-pruziny-03"
     type: single
     question: "Ako ovplyvňuje väčší priemer drôtu tuhosť vinutej pružiny?"
     options:
       - "Väčší priemer drôtu zvyšuje tuhosť"
       - "Väčší priemer drôtu znižuje tuhosť"
       - "Priemer drôtu nemá vplyv na tuhosť"
-      - "Väčší priemer drôtu mení len hmotnosť, nie tuhosť"
     correct: 1
-    explanation: "Väčší priemer drôtu znižuje tuhosť -- naopak, väčší priemer drôtu tuhosť zvyšuje.<br>Priemer drôtu nemá vplyv na tuhosť -- priemer drôtu je jedným z kľúčových parametrov ovplyvňujúcich tuhosť.<br>Mení len hmotnosť, nie tuhosť -- mení oboje."
+    explanation: "Väčší priemer drôtu znižuje tuhosť -- naopak, väčší priemer drôtu znamená vyššiu tuhosť, pretože hrubší drôt kladie väčší odpor voči krúteniu.<br>Priemer drôtu nemá vplyv na tuhosť -- priemer drôtu je jedným z kľúčových parametrov vo vzorci pre výpočet tuhosti vinutej pružiny."
 
-  - id: "vinute-pruziny-06"
+  - id: "vinute-pruziny-04"
     type: single
     question: "Ako ovplyvňuje väčší počet činných závitov tuhosť vinutej pružiny?"
     options:
       - "Väčší počet závitov zvyšuje tuhosť"
       - "Väčší počet závitov znižuje tuhosť"
       - "Počet závitov nemá vplyv na tuhosť"
-      - "Väčší počet závitov mení len výšku pružiny, nie tuhosť"
+      - "Pri nepárnom počte závitou má pružina vyššiu tuhosť ako pri párnom"
     correct: 2
-    explanation: "Väčší počet závitov zvyšuje tuhosť -- naopak, čím viac závitov, tým menšia tuhosť.<br>Počet závitov nemá vplyv na tuhosť -- počet činných závitov je jedným z kľúčových parametrov ovplyvňujúcich tuhosť.<br>Mení len výšku pružiny -- mení aj tuhosť."
+    explanation: "Väčší počet závitov zvyšuje tuhosť -- naopak, čím viac činných závitov, tým je pružina mäkšia, pretože sa zaťaženie rozloží na väčšiu dĺžku drôtu.<br>Počet závitov nemá vplyv na tuhosť -- počet činných závitov je kľúčový parameter vo vzorci pre výpočet tuhosti.<br>Pri nepárnom počte závitov má pružina vyššiu tuhosť ako pri párnom -- párnosť počtu závitov nemá žiadny vplyv na tuhosť; rozhoduje ich celkový počet."
 
-  - id: "vinute-pruziny-07"
+  - id: "vinute-pruziny-05"
     type: single
     question: "Ktorá z možností najviac zodpovedá výhodám vinutých pružín?"
     options:
@@ -79,71 +56,40 @@ questions:
     correct: 1
     explanation: "Vysoká únosnosť, samovodiaca funkcia, samotlmiaca schopnosť a odolnosť -- toto sú výhody listových pružín.<br>Nastaviteľná výška podvozku, nastaviteľná tuhosť, stála svetlá výška -- toto sú výhody pneumatického pruženia.<br>Jednoduchá výroba, nízka cena, izolácia hluku a vibrácií -- toto sú výhody gumového pruženia."
 
-  - id: "vinute-pruziny-08"
+  - id: "vinute-pruziny-06"
     type: single
     question: "Ktorá z možností najviac zodpovedá nevýhodám vinutých pružín?"
     options:
       - "Nižšia únosnosť, neprenášajú pozdĺžne ani priečne sily, nemajú samotlmiaci účinok a väčšia citlivosť na koróziu a únavu materiálu"
-      - "Horší komfort jazdy, fenomén axle wrap, vysoká neodpružená hmotnosť a vŕzganie"
+      - "Horší komfort jazdy, vysoká neodpružená hmotnosť a vŕzganie"
       - "Vysoká cena, zložitá konštrukcia a náchylnosť na netesnosti"
       - "Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch"
     correct: 1
-    explanation: "Horší komfort jazdy, fenomén axle wrap, vysoká neodpružená hmotnosť a vŕzganie -- toto sú nevýhody listových pružín.<br>Vysoká cena, zložitá konštrukcia a náchylnosť na netesnosti -- toto sú nevýhody pneumatického pruženia.<br>Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch -- toto sú nevýhody skrutných (torzných) tyčí."
+    explanation: "Horší komfort jazdy, vysoká neodpružená hmotnosť a vŕzganie -- toto sú nevýhody listových pružín.<br>Vysoká cena, zložitá konštrukcia a náchylnosť na netesnosti -- toto sú nevýhody pneumatického pruženia.<br>Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch -- toto sú nevýhody skrutných (torzných) tyčí."
 
-  - id: "vinute-pruziny-09"
-    type: single
-    question: "Prečo sú listové pružiny vhodnejšie na veľmi ťažké zaťaženie (napr. kamióny) ako vinuté pružiny?"
-    options:
-      - "Pretože vinuté pružiny sú vyrobené z jedného kusu drôtu a pri extrémnom zaťažení by musel byť tento drôt neprakticky hrubý"
-      - "Pretože vinuté pružiny sa nedajú pripevniť na rám kamióna"
-      - "Pretože vinuté pružiny sa pri veľkom zaťažení okamžite zlomia"
-      - "Pretože listové pružiny sú lacnejšie na výrobu"
-    correct: 1
-    explanation: "Vinuté pružiny sa nedajú pripevniť na rám kamióna -- dajú sa, ale nie je to praktické pri požadovanej únosnosti.<br>Vinuté pružiny sa pri veľkom zaťažení okamžite zlomia -- nezlomia sa okamžite, ale drôt by musel byť neprakticky hrubý.<br>Listové pružiny sú lacnejšie na výrobu -- to je síce pravda, ale nie je to hlavný dôvod ich použitia na kamióny."
-
-  - id: "vinute-pruziny-10"
+  - id: "vinute-pruziny-07"
     type: single
     question: "Ako delíme vinuté pružiny podľa charakteristiky?"
     options:
       - "Lineárne a progresívne"
-      - "Jednolistová a viaclistová"
+      - "Tenké a hrubé"
       - "Valcové a kužeľové"
       - "Pravotočivé a ľavotočivé"
     correct: 1
-    explanation: "Jednolistová a viaclistová -- takto sa delia listové pružiny podľa počtu listov.<br>Valcové a kužeľové -- toto je rozdelenie vinutých pružín podľa tvaru, nie podľa charakteristiky.<br>Pravotočivé a ľavotočivé -- toto je rozdelenie vinutých pružín podľa smeru vinutia, nie podľa charakteristiky."
+    explanation: "Tenké a hrubé -- hrúbka (priemer) drôtu je parameter ovplyvňujúci tuhosť, nie kritérium klasifikácie pružín podľa charakteristiky.<br>Valcové a kužeľové -- toto je delenie podľa tvaru, nie podľa charakteristiky.<br>Pravotočivé a ľavotočivé -- toto je delenie podľa smeru vinutia, nie podľa charakteristiky."
 
-  - id: "vinute-pruziny-11"
-    type: single
-    question: "Aký je rozdiel medzi lineárnou a progresívnou vinutou pružinou?"
-    options:
-      - "Lineárna má konštantnú tuhosť počas celého zdvihu, progresívna má tuhosť, ktorá sa zvyšuje so zaťažením"
-      - "Lineárna je valcového tvaru, progresívna je kužeľového tvaru"
-      - "Lineárna je pravotočivá, progresívna je ľavotočivá"
-      - "Lineárna sa používa na prednej náprave, progresívna na zadnej"
-    correct: 1
-    explanation: "Lineárna je valcového tvaru, progresívna je kužeľového tvaru -- tvar a charakteristika sú dva rôzne kritériá delenia; lineárna pružina môže byť aj kužeľová.<br>Lineárna je pravotočivá, progresívna je ľavotočivá -- smer vinutia nesúvisí s charakteristikou pružiny.<br>Lineárna na prednej, progresívna na zadnej -- použitie nezávisí od tohto delenia."
-
-  - id: "vinute-pruziny-12"
+  - id: "vinute-pruziny-09"
     type: single
     question: "Ako delíme vinuté pružiny podľa tvaru?"
     options:
       - "Valcové, kužeľové, súdkovité a bikónické"
-      - "Lineárne a progresívne"
-      - "Jednolistová a viaclistová"
-      - "Polo-eliptické, eliptické a parabolické"
+      - "S kruhovým, obdĺžnikovým a šesťhranným prierezom	"
+      - "Jednodrôtové a viacdrôtové"
+      - "Štvrť-eliptické, polo-eliptické, eliptické a parabolické"
     correct: 1
-    explanation: "Lineárne a progresívne -- toto je rozdelenie vinutých pružín podľa charakteristiky, nie podľa tvaru.<br>Jednolistová a viaclistová -- toto je rozdelenie listových pružín podľa počtu listov.<br>Polo-eliptické, eliptické a parabolické -- toto je rozdelenie listových pružín podľa tvaru."
+    explanation: "S kruhovým, obdĺžnikovým a šesťhranným prierezom -- toto je delenie podľa prierezu drôtu, nie podľa tvaru celej pružiny.<br>Jednodrôtové a viacdrôtové -- vinuté pružiny sú štandardne z jedného drôtu; toto nie je zaužívané kritérium delenia podľa tvaru.<br>Štvrť-eliptické, polo-eliptické, eliptické a parabolické -- toto je delenie listových pružín podľa tvaru, nie vinutých."
 
-  - id: "vinute-pruziny-13"
-    type: write
-    question: "Ako sa nazýva materiálová konštanta, ktorá je hlavnou materiálovou konštantou vo vzorci pre výpočet tuhosti vinutej pružiny? (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "modul pružnosti v šmyku"
-      - "modul pružnosti v šmyku G"
-      - "modul pružnosti"
-      - "G"
-
-  - id: "vinute-pruziny-14"
+  - id: "vinute-pruziny-10"
     type: single
     question: "Aký tvar vinutej pružiny sa vyznačuje progresívnou tuhosťou, vynikajúcou bočnou stabilitou a kompaktnou výškou v stlačenom stave?"
     options:

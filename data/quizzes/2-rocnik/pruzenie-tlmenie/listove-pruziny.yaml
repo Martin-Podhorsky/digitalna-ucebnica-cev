@@ -28,12 +28,12 @@ questions:
     type: single
     question: "Čo spôsobuje samotlmiaci efekt listových pružín?"
     options:
-      - "Trenie medzi jednotlivými listami pri ich vzájomnom pohybe"
-      - "Odpor vzduchu pôsobiaci na listy pružiny"
-      - "Magnetické pole vznikajúce medzi oceľovými listami"
-      - "Hydraulická kvapalina prúdiaca medzi listami"
+      - "Trenie medzi jednotlivými listami pri ich vzájomnom pohybe spôsobené stlačením pružiny"
+      - "Hmotnosť jednotlivých listov"
+      - "Ich zahnutý tvar"
+      - "Stredová objímka"
     correct: 1
-    explanation: "Odpor vzduchu na samotlmiaci efekt nemá vplyv.<br>Magnetické pole medzi oceľovými listami pri pružení nevzniká.<br>Medzi listami sa nenachádza žiadna hydraulická kvapalina -- samotlmiaci efekt je spôsobený mechanickým trením."
+    explanation: "Hmotnosť jednotlivých listov -- hmotnosť nemá priamy vplyv na samotlmiaci efekt, ten vzniká trením medzi listami.<br>Ich zahnutý tvar -- tvar listov určuje charakteristiku pruženia, ale samotlmiaci efekt vzniká trením, nie tvarom.<br>Stredová objímka -- objímka drží listy pohromade, ale samotlmenie spôsobuje vzájomné trenie listov pri ich pohybe."
 
   - id: "listove-pruziny-04"
     type: single
@@ -55,20 +55,14 @@ questions:
 
   - id: "listove-pruziny-06"
     type: write
-    question: "Ako sa nazývajú zakrútené konce hlavného listu, ktoré slúžia na pripevnenie pružiny k rámu vozidla? (prosím, píšte aj s diakritikou)"
+    question: "Ako sa nazývajú zakrútené konce hlavného listu listovej pružiny, ktoré slúžia na pripevnenie pružiny k rámu vozidla? (prosím, píšte aj s diakritikou)"
     accepted_answers:
       - "ušká"
       - "oká"
       - "ušká (oká)"
+      - "uši"
 
   - id: "listove-pruziny-07"
-    type: write
-    question: "Ako sa nazýva kovová svorka, ktorá drží listy listovej pružiny pohromade a zabraňuje ich bočnému posuvu? (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "stredová objímka"
-      - "objímka"
-
-  - id: "listove-pruziny-08"
     type: single
     question: "Ktorá z možností najviac zodpovedá výhodám listových pružín?"
     options:
@@ -79,29 +73,7 @@ questions:
     correct: 1
     explanation: "Vysoký komfort jazdy, nízka hmotnosť, malé rozmery a minimálna údržba -- toto sú výhody vinutých pružín.<br>Nastaviteľná výška podvozku, nastaviteľná tuhosť a progresívna charakteristika -- toto sú výhody pneumatického pruženia.<br>Jednoduchá výroba, nízka cena a odolnosť voči korózii -- toto sú výhody gumového pruženia."
 
-  - id: "listove-pruziny-09"
-    type: single
-    question: "Prečo majú listové pružiny vysokú únosnosť?"
-    options:
-      - "Pretože rozvádzajú hmotnosť nákladu na väčšiu plochu cez dva upevňovacie body, čo zabraňuje lokálnemu preťaženiu rámu"
-      - "Pretože sú vyrobené z jedného kusu extra hrubého oceľového drôtu"
-      - "Pretože obsahujú stlačený vzduch, ktorý absorbuje záťaž"
-      - "Pretože sú uchytené iba v jednom bode rámu"
-    correct: 1
-    explanation: "Jeden kus extra hrubého oceľového drôtu -- listové pružiny sa skladajú z viacerých listov, nie z jedného drôtu.<br>Stlačený vzduch absorbujúci záťaž -- to platí pre pneumatické pruženie.<br>Uchytenie iba v jednom bode -- listové pružiny sú uchytené v dvoch bodoch, a práve preto majú vysokú únosnosť."
-
-  - id: "listove-pruziny-10"
-    type: single
-    question: "Čo znamená samovodiaca funkcia listových pružín?"
-    options:
-      - "Listové pružiny vďaka ukotveniu v dvoch bodoch dokážu nápravu aj viesť (udržať v správnej polohe) bez potreby ďalších komponentov"
-      - "Listové pružiny automaticky nastavujú svetlú výšku vozidla"
-      - "Listové pružiny sa dokážu samy opraviť po poškodení"
-      - "Listové pružiny automaticky menia svoju tuhosť podľa zaťaženia"
-    correct: 1
-    explanation: "Automatické nastavovanie svetlej výšky -- to je vlastnosť pneumatického alebo hydropneumatického pruženia.<br>Samooprava po poškodení -- žiadna pružina sa nedokáže sama opraviť.<br>Automatická zmena tuhosti -- to je vlastnosť progresívnych vinutých pružín alebo pneumatického pruženia."
-
-  - id: "listove-pruziny-11"
+  - id: "listove-pruziny-08"
     type: single
     question: "Čo je to fenomén 'Axle Wrap' u listových pružín?"
     options:
@@ -112,29 +84,29 @@ questions:
     correct: 1
     explanation: "Trvalá deformácia pri dlhodobom zaťažení -- to je únavové zlyhanie materiálu, nie axle wrap.<br>Rozkmitávanie pri vysokých rýchlostiach -- to je rezonancia, nie axle wrap.<br>Skrútenie okolo nápravy v zákrutách -- takýto jav pri listových pružinách nevzniká."
 
-  - id: "listove-pruziny-12"
+  - id: "listove-pruziny-09"
     type: single
     question: "Ktorá z možností najviac zodpovedá nevýhodám listových pružín?"
     options:
-      - "Horší komfort jazdy, fenomén axle wrap, vysoká neodpružená hmotnosť, väčšie priestorové nároky a vŕzganie"
+      - "Horší komfort, vysoká neodpružená hmotnosť, väčšie priestorové nároky a vŕzganie"
       - "Nižšia únosnosť, neprenášanie pozdĺžnych síl, absencia samotlmiaceho účinku a citlivosť na koróziu"
       - "Vysoká cena, zložitá konštrukcia, náchylnosť na netesnosti a priestorová náročnosť"
-      - "Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch"
+      - "Lineárna charakteristika, obmedzený zdvih a vznik veľkého ohybového napätia na koncoch listov"
     correct: 1
     explanation: "Nižšia únosnosť, neprenášanie pozdĺžnych síl, absencia samotlmiaceho účinku a citlivosť na koróziu -- toto sú nevýhody vinutých pružín.<br>Vysoká cena, zložitá konštrukcia, náchylnosť na netesnosti a priestorová náročnosť -- toto sú nevýhody pneumatického pruženia.<br>Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch -- toto sú nevýhody skrutných (torzných) tyčí."
 
-  - id: "listove-pruziny-13"
+  - id: "listove-pruziny-10"
     type: single
-    question: "Ako delíme listové pružiny podľa počtu listov?"
+    question: "Podľa akých kritérií delíme listové pružiny?"
     options:
-      - "Jednolistová (mono-leaf) a viaclistová (multi-leaf)"
-      - "Lineárne a progresívne"
-      - "Valcové, kužeľové, súdkovité a bikónické"
-      - "Pravotočivé a ľavotočivé"
+      - "Podľa počtu listov, tvaru a spôsobu uloženia"
+      - "Podľa tuhosti a charakteristiky pruženia"
+      - "Podľa prierezu, hrúbky a dĺžky listov"
+      - "Podľa veľkosti a podľa hmotnosti"
     correct: 1
-    explanation: "Lineárne a progresívne -- takto sa delia vinuté pružiny podľa charakteristiky.<br>Valcové, kužeľové, súdkovité a bikónické -- takto sa delia vinuté pružiny podľa tvaru.<br>Pravotočivé a ľavotočivé -- takto sa delia vinuté pružiny podľa smeru vinutia."
+    explanation: "Podľa tuhosti a charakteristiky pruženia -- tuhosť a charakteristika nie sú kritériá delenia listových pružín, ale vinutých pružín.<br>Podľa prierezu, hrúbky a dĺžky listov -- toto sú parametre jednotlivých listov, nie kritériá klasifikácie listových pružín.<br>Podľa veľkosti a podľa hmotnosti -- veľkosť a hmotnosť nie sú kritériá delenia listových pružín."
 
-  - id: "listove-pruziny-14"
+  - id: "listove-pruziny-11"
     type: single
     question: "Aký je najrozšírenejší tvar listovej pružiny?"
     options:
@@ -145,49 +117,34 @@ questions:
     correct: 2
     explanation: "Eliptická -- dve polo-eliptické pružiny spojené koncami, používala sa na starých vozidlách.<br>Štvrť-eliptická -- jeden koniec je pevne uchytený, používa sa zriedkavo.<br>Parabolická -- má premenlivú hrúbku, lepší komfort, ale nie je najrozšírenejším typom."
 
-  - id: "listove-pruziny-15"
+  - id: "listove-pruziny-12"
     type: single
     question: "Na čo slúži záves listovej pružiny?"
     options:
-      - "Je to spojovací článok medzi uškom pružiny a rámom vozidla, ktorý umožňuje zmenu dĺžky pružiny pri zaťažení"
+      - "Je to spojovací článok medzi listovou pružinou a rámom vozidla, ktorý umožňuje pružine sa predĺžiť pri stlačení"
       - "Je to poistka, ktorá zabraňuje vypadnutiu listov z pružiny"
       - "Je to nastavovací mechanizmus na zmenu tuhosti pružiny"
       - "Je to tlmič umiestnený priamo na listovej pružine"
     correct: 1
-    explanation: "Poistka zabraňujúca vypadnutiu listov -- na to slúži stredová objímka a spona, nie záves.<br>Nastavovací mechanizmus na zmenu tuhosti -- listové pružiny nemajú nastaviteľnú tuhosť (to umožňuje napr. pneumatické pruženie).<br>Tlmič umiestnený na pružine -- záves nie je tlmič, tlmiče sú samostatné komponenty."
+    explanation: "Poistka zabraňujúca vypadnutiu listov -- na to slúži stredová objímka a spona, nie záves.<br>Nastavovací mechanizmus na zmenu tuhosti -- listové pružiny nemajú nastaviteľnú tuhosť (to umožňuje napr. pneumatické pruženie).<br>Tlmič umiestnený na pružine -- záves nie je tlmič, tlmiče sú samostatné komponenty.""
 
-  - id: "listove-pruziny-16"
-    type: write
-    question: "Akým iným slovom sa označujú jednotlivé oceľové listy v listovej pružine? (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "pružnice"
-      - "pružnica"
-
-  - id: "listove-pruziny-17"
-    type: write
-    question: "Ako sa nazýva čap (skrutka), ktorý prechádza stredom všetkých listov a spája ich do jedného celku? (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "stredový čap"
-      - "stredová skrutka"
-      - "čap"
-
-  - id: "listove-pruziny-18"
+  - id: "listove-pruziny-13"
     type: write
     question: "Ako sa nazýva táto časť listovej pružiny? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/hlavny.png"
     accepted_answers:
       - "hlavný list"
-      - "hlavný"
+      - "hlavná pružnica"
 
-  - id: "listove-pruziny-19"
+  - id: "listove-pruziny-14"
     type: write
-    question: "Ako sa nazýva táto časť listovej pružiny? (prosím, píšte aj s diakritikou)"
+    question: "Ako sa nazývajú tieto časti listovej pružiny? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/pomocne.png"
     accepted_answers:
       - "pomocné listy"
-      - "pomocné"
+      - "prídavné listy"
 
-  - id: "listove-pruziny-20"
+  - id: "listove-pruziny-15"
     type: write
     question: "Ako sa nazýva táto časť listovej pružiny? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/objimka.png"
@@ -195,50 +152,61 @@ questions:
       - "stredová objímka"
       - "objímka"
 
-  - id: "listove-pruziny-21"
+  - id: "listove-pruziny-16"
     type: write
     question: "Ako sa nazýva táto časť listovej pružiny? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/cap.png"
     accepted_answers:
       - "stredový čap"
-      - "stredová skrutka"
       - "čap"
 
-  - id: "listove-pruziny-22"
+  - id: "listove-pruziny-17"
     type: write
-    question: "Ako sa nazýva táto časť listovej pružiny? (prosím, píšte aj s diakritikou)"
+    question: "Ako sa nazývajú tieto časti listovej pružiny? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/oka.png"
     accepted_answers:
       - "ušká"
       - "oká"
       - "ušká (oká)"
+      - "uši"
 
-  - id: "listove-pruziny-23"
-    type: write
-    question: "Ako sa nazýva táto časť listovej pružiny? (prosím, píšte aj s diakritikou)"
+  - id: "listove-pruziny-18"
+    type: single
+    question: "Ako sa nazývajú tieto časti listovej pružiny? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/puzdra.png"
-    accepted_answers:
-      - "puzdro"
-      - "puzdrá"
-      - "puzdra"
-
-  - id: "listove-pruziny-24"
-    type: write
-    question: "Ako sa nazýva táto časť listovej pružiny? (prosím, píšte aj s diakritikou)"
-    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/spony.png"
-    accepted_answers:
-      - "spona"
-      - "spony"
-
-  - id: "listove-pruziny-25"
-    type: write
-    question: "Ako sa nazýva táto časť listovej pružiny? (prosím, píšte aj s diakritikou)"
-    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/vlozky.png"
-    accepted_answers:
-      - "vložka"
+    options:
+      - "ložiská
+      - "púzdra"
+      - "silenbloky"
       - "vložky"
+    correct: 2
+    explanation: "Ložiská -- ložiská umožňujú rotáciu hriadeľov a náprav; púzdra sú gumové alebo kovové vložky v uškách pružiny, ktoré umožňujú otáčavý pohyb a znižujú opotrebenie spojenia s rámom.<br>Silentbloky -- silentbloky sú pružné gumovo-kovové prvky na tlmenie vibrácií (napr. motora); púzdra v uškách listovej pružiny majú inú funkciu -- umožňujú kývavý pohyb pružiny okolo čapu.<br>Vložky -- vložky sú plastové alebo kovové podložky vkladané medzi listy na zníženie trenia a hlučnosti; púzdra sa nachádzajú v uškách pružiny."
 
-  - id: "listove-pruziny-26"
+  - id: "listove-pruziny-19"
+    type: single
+    question: "Ako sa nazývajú tieto časti listovej pružiny? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/spony.png"
+    options:
+      - "spony"
+      - "objímky"
+      - "silenbloky"
+      - "závesy"
+    correct: 1
+    explanation: "Objímky -- stredová objímka je jedna a drží listy pohromade v strede pružiny; spony sú kovové svorky rozmiestnené po dĺžke pružiny, ktoré udržiavajú listy v správnej polohe.<br>Silentbloky -- silentbloky sú gumovo-kovové prvky na tlmenie vibrácií (napr. uloženie motora); spony sú kovové objímky obopínajúce listy.<br>Závesy -- záves je spojovací článok medzi uškom pružiny a rámom vozidla, ktorý umožňuje zmenu dĺžky pružiny pri zaťažení; spony sú na samotných listoch."
+
+  - id: "listove-pruziny-20"
+    type: single
+    question: "Ako sa nazývajú tieto časti listovej pružiny? (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/vlozky.png"
+    options:
+      - "vymedzenia"
+      - "púzdra"
+      - "vložky"
+      - "silenbloky"
+    correct: 3
+    explanation: "Vymedzenia -- vymedzovacie podložky sa používajú na nastavenie vôle v ložiskách alebo prevodovkách; vložky v listovej pružine sú plastové alebo kovové podložky medzi listami na zníženie trenia a hlučnosti.<br>Púzdra -- púzdra sú gumové alebo kovové vložky v uškách pružiny; vložky sa nachádzajú medzi jednotlivými listami.<br>Silentbloky -- silentbloky sú gumovo-kovové prvky na tlmenie vibrácií (napr. uloženie motora); vložky medzi listami znižujú trenie pri vzájomnom pohybe listov."
+
+  - id: "listove-pruziny-21"
     type: write
     question: "Ako sa nazýva táto časť listovej pružiny? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny/zaves.png"

@@ -59,17 +59,6 @@ questions:
 
   - id: "vseobecne-info-06"
     type: single
-    question: "Voči čomu musia byť komponenty pruženia a tlmenia odolné?"
-    options:
-      - "Opotrebeniu, korózii a únavovým zlyhaniam"
-      - "Iba korózii"
-      - "Iba opotrebeniu"
-      - "Vysokým teplotám, radiácii a elektrickému výboju"
-    correct: 1
-    explanation: "Iba korózii -- chýba opotrebenie a únavové zlyhania.<br>Iba opotrebeniu -- chýba korózia a únavové zlyhania.<br>Vysoké teploty, radiácia a elektrický výboj nie sú hlavné faktory ovplyvňujúce komponenty pruženia a tlmenia."
-
-  - id: "vseobecne-info-07"
-    type: single
     question: "Čo je to neodpružená hmotnosť?"
     options:
       - "Hmotnosť celého vozidla bez paliva a posádky"
@@ -79,46 +68,18 @@ questions:
     correct: 3
     explanation: "Hmotnosť celého vozidla bez paliva a posádky je pohotovostná hmotnosť.<br>Hmotnosť komponentov nad pružinami (karoséria, motor, posádka) je odpružená hmotnosť -- teda presný opak.<br>Hmotnosť samotných pružín nie je ani odpružená, ani neodpružená hmotnosť."
 
-  - id: "vseobecne-info-08"
+  - id: "vseobecne-info-07"
     type: single
-    question: "Prečo by mala byť neodpružená hmotnosť čo najnižšia?"
-    options:
-      - "Pretože priamo ovplyvňuje schopnosť kolesa kopírovať nerovnosti vozovky"
-      - "Pretože znižuje spotrebu paliva"
-      - "Pretože zvyšuje hmotnosť vozidla a tým zlepšuje stabilitu"
-      - "Pretože uľahčuje výrobu vozidla"
-    correct: 1
-    explanation: "Zníženie spotreby paliva nie je hlavný dôvod požiadavky na nízku neodpruženú hmotnosť.<br>Zvyšovanie hmotnosti NEzlepšuje stabilitu -- vyššia neodpružená hmotnosť by naopak zhoršila schopnosť kolesa kopírovať nerovnosti.<br>Uľahčenie výroby priamo nesúvisí s jazdnými vlastnosťami vozidla."
-
-  - id: "vseobecne-info-09"
-    type: write
-    question: "Ako sa nazýva hmotnosť komponentov pod pružinami, ktorá priamo ovplyvňuje schopnosť kolesa kopírovať nerovnosti vozovky? (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "neodpružená hmotnosť"
-      - "neodprúžená hmotnosť"
-      - "neodpružená"
-
-  - id: "vseobecne-info-10"
-    type: write
-    question: "Na obrázku je znázornená schéma vozidla s vyznačenou hmotnosťou. Ako sa nazýva vyznačená hmotnosť? (prosím, píšte aj s diakritikou)"
-    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/vseobecne-info/neodpruzena-hmotnost.png"
-    accepted_answers:
-      - "neodpružená hmotnosť"
-      - "neodprúžená hmotnosť"
-      - "neodpružená"
-
-  - id: "vseobecne-info-11"
-    type: single
-    question: "Aké sú druhy pruženia?"
+    question: "Aké druhy pruženia poznáme?"
     options:
       - "Listové pružiny, vinuté pružiny, skrutné (torzné) tyče, gumové pruženie, pneumatické pruženie a hydropneumatické pruženie"
-      - "Listové pružiny, vinuté pružiny a gumové pruženie"
+      - "Kvapalinové, mechanické, pneumatické a elektromagnetické pruženie"
       - "SIMPLEX, DUPLEX, SERVO, DUO-DUPLEX a DUO-SERVO"
       - "Bubnové, kotúčové a pásové"
     correct: 1
-    explanation: "Listové pružiny, vinuté pružiny a gumové pruženie -- chýbajú tri druhy pruženia (skrutné tyče, pneumatické a hydropneumatické pruženie).<br>SIMPLEX, DUPLEX, SERVO, DUO-DUPLEX a DUO-SERVO -- sú typy bubnových bŕzd, nie druhy pruženia.<br>Bubnové, kotúčové a pásové -- sú typy bŕzd podľa konštrukcie."
+    explanation: "Kvapalinové, mechanické, pneumatické a elektromagnetické pruženie -- toto sú spôsoby ovládanie bŕzd.<br>SIMPLEX, DUPLEX, SERVO, DUO-DUPLEX a DUO-SERVO -- sú typy bubnových bŕzd, nie druhy pruženia.<br>Bubnové, kotúčové a pásové -- sú typy bŕzd podľa konštrukcie."
 
-  - id: "vseobecne-info-12"
+  - id: "vseobecne-info-08"
     type: single
     question: "Ktorý z nasledujúcich NIE je druhom pruženia?"
     options:
@@ -129,16 +90,10 @@ questions:
     correct: 3
     explanation: "Listové pružiny, vinuté pružiny a pneumatické pruženie sú skutočné druhy pruženia. Kotúčové pružiny ako druh pruženia neexistujú -- kotúčové môžu byť jedine len brzdy."
 
-  - id: "vseobecne-info-13"
+  - id: "vseobecne-info-09"
     type: write
     question: "Ako inak nazývame skrutné tyče? (prosím, píšte aj s diakritikou)"
     accepted_answers:
       - "torzné tyče"
       - "torzné"
 
-  - id: "vseobecne-info-14"
-    type: write
-    question: "Aký druh pruženia kombinuje hydraulický a pneumatický princíp? (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "hydropneumatické pruženie"
-      - "hydropneumatické"

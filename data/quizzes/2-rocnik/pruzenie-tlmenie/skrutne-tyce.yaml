@@ -4,25 +4,25 @@ year: 2
 questions:
   - id: "skrutne-tyce-01"
     type: single
-    question: "Aký princíp využíva skrutná (torzná) tyč na absorbovanie nerovností vozovky?"
+    question: "Na akom princípe funguje pruženie pomocou torzných tyčí?"
     options:
-      - "Odpor voči krúteniu (torzii) oceľovej tyče"
-      - "Stlačený vzduch uzavretý v pružných vakoch"
-      - "Trenie medzi jednotlivými oceľovými listami"
-      - "Elastické vlastnosti gumy"
-    correct: 1
-    explanation: "Stlačený vzduch uzavretý v pružných vakoch -- takto funguje pneumatické pruženie.<br>Trenie medzi jednotlivými oceľovými listami -- takto fungujú listové pružiny.<br>Elastické vlastnosti gumy -- takto funguje gumové pruženie."
+      - "V strede osi rotácie kolesa je vložená tyč s obdĺžnikovým prierezom, ktorá sa pri prejazde po nerovnosti pružne ohýba a následne vracia koleso späť do pôvodnej polohy"
+      - "Tyč je uložená v pozdĺžnej polohe. Jeden koniec smerujúc do predu a druhý dozadu. Jeden z koncov je pevne uchytený v ráme a druhý je spojený s ramenom zavesenia kolesa. Pri pohybe kolesa nahor sa rameno otáča a spôsobuje krútenie tyče, voči ktorému tyč kladie odpor, čo vytvára pružinový efekt."
+      - "Tyč je navynutá do špirály, ktorá sa dá pružne stláčať"
+      - "Každe koleso má dve vlastné tyče obdĺžnikového prierezu, prepevnené ku hornému a dolnému ramenu zavesenia. Spodná tyč je držaná v napnutej (ohnutej) polohe. Otrasom spôsobeným prejazdom po nerovnosti sa spodná tyč odistí a koleso vykoná prudký pohyb smerom hore. Tento pohyb ohne vrhnú tyč, ktorá ho vďaka svojej pružnosti vráti späť na svoje miesto."
+    correct: 2
+    explanation: "V strede osi rotácie kolesa je vložená tyč s obdĺžnikovým prierezom, ktorá sa pružne ohýba -- torzná tyč sa nekrúti v osi kolesa a nefunguje na princípe ohybu, ale na princípe krútenia (torzie) okolo vlastnej pozdĺžnej osi.<br>Tyč je navynutá do špirály, ktorá sa dá pružne stláčať -- to je popis vinutej pružiny, nie torznej tyče.<br>Každé koleso má dve vlastné tyče... spodná tyč sa odistí -- torzné tyče nefungujú na princípe odisťovania; ide o plynulý pružný odpor voči krúteniu jednej tyče."
 
   - id: "skrutne-tyce-02"
     type: single
     question: "Z čoho je torzná tyč vyrobená a aký má najčastejšie prierez?"
     options:
-      - "Z vysokokvalitnej pružinovej ocele s najčastejšie kruhovým prierezom"
+      - "Z pružinovej ocele s kruhovým prierezom"
       - "Z hliníkovej zliatiny s obdĺžnikovým prierezom"
       - "Z uhlíkových vlákien s oválnym prierezom"
-      - "Z liatiny s šesťhranným prierezom"
+      - "Z legovanej ocele s šesťhranným prierezom"
     correct: 1
-    explanation: "Hliníková zliatina -- hliník má nízky modul pružnosti v šmyku, takže by bol nevhodný pre torznú tyč.<br>Uhlíkové vlákna -- tie sa v bežných torzných tyčiach nepoužívajú.<br>Liatina -- liatina je krehká a nevhodná na pružinové účely."
+    explanation: "Z hliníkovej zliatiny s obdĺžnikovým prierezom -- hliník má nízky modul pružnosti v šmyku (G ≈ 26 GPa), preto by bol nevhodný na torzné tyče; používa sa pružinová oceľ.<br>Z uhlíkových vlákien s oválnym prierezom -- uhlíkové vlákna sú krehké pri krútení a nepoužívajú sa na torzné tyče.<br>Z legovanej ocele s šesťhranným prierezom -- materiál by mohol byť správny, ale torzné tyče majú najčastejšie kruhový prierez, nie šesťhranný."
 
   - id: "skrutne-tyce-03"
     type: single
@@ -37,17 +37,6 @@ questions:
 
   - id: "skrutne-tyce-04"
     type: single
-    question: "Ako funguje torzná tyč?"
-    options:
-      - "Jeden koniec je uchytený v ráme/karosérii a druhý je spojený s ramenom zavesenia. Pri pohybe kolesa nahor sa rameno otáča a spôsobuje krútenie tyče, odpor voči ktorému vytvára pružinový efekt."
-      - "Oba konce sú pevne uchytené v ráme a pri zaťažení sa tyč ohýba do tvaru oblúka"
-      - "Tyč sa pri zaťažení stláča v axiálnom smere, podobne ako vinutá pružina"
-      - "Jeden koniec tyče je voľný a pri zaťažení sa vysúva z druhého konca"
-    correct: 1
-    explanation: "Oba konce pevne uchytené v ráme -- jeden koniec musí byť spojený s ramenom zavesenia kolesa, inak by tyč nemohla reagovať na pohyb kolesa.<br>Tyč sa stláča v axiálnom smere -- torzná tyč pracuje na princípe krútenia, nie axiálneho stláčania.<br>Jeden koniec voľný a vysúva sa -- torzná tyč sa nevysúva, ale krúti okolo svojej pozdĺžnej osi."
-
-  - id: "skrutne-tyce-05"
-    type: single
     question: "Ktorá z možností najviac zodpovedá výhodám torzných tyčí?"
     options:
       - "Nižšia hmotnosť, úspora priestoru, spoľahlivosť a jednoduchosť, jednoduché nastavenie výšky"
@@ -57,63 +46,35 @@ questions:
     correct: 1
     explanation: "Vysoká únosnosť, samovodiaca funkcia, samotlmiaca schopnosť a odolnosť -- toto sú výhody listových pružín.<br>Väčší jazdný komfort, malé rozmery, väčší vertikálny pohyb a minimálna údržba -- toto sú výhody vinutých pružín.<br>Stála svetlá výška, nastaviteľná tuhosť, vysoký komfort a progresívna charakteristika -- toto sú výhody pneumatického pruženia."
 
-  - id: "skrutne-tyce-06"
-    type: single
-    question: "Akú charakteristiku má torzná tyč a prečo je to nevýhoda?"
-    options:
-      - "Lineárnu -- jej tuhosť sa nemení v závislosti od zaťaženia, takže sa horšie prispôsobuje rôznym zaťaženiam"
-      - "Progresívnu -- jej tuhosť sa príliš rýchlo zvyšuje so zaťažením"
-      - "Degresívnu -- jej tuhosť sa znižuje so zaťažením, čo znižuje stabilitu"
-      - "Žiadnu -- torzná tyč nemá pružinové vlastnosti"
-    correct: 1
-    explanation: "Progresívnu -- torzná tyč nemá progresívnu, ale lineárnu charakteristiku.<br>Degresívnu -- degresívna charakteristika u torzných tyčí nevzniká.<br>Žiadnu -- torzná tyč má lineárnu charakteristiku a pružinové vlastnosti."
-
-  - id: "skrutne-tyce-07"
+  - id: "skrutne-tyce-05"
     type: single
     question: "Ktorá z možností najviac zodpovedá nevýhodám torzných tyčí?"
     options:
       - "Lineárna charakteristika, obmedzený zdvih, koncentrácia napätia na koncoch a náročnejšia výmena"
-      - "Horší komfort jazdy, fenomén axle wrap, vysoká neodpružená hmotnosť a vŕzganie"
+      - "Horší komfort jazdy, vysoká neodpružená hmotnosť a vŕzganie"
       - "Vysoká cena, zložitá konštrukcia, náchylnosť na netesnosti a priestorová náročnosť"
       - "Nižšia únosnosť, neprenášanie pozdĺžnych síl, absencia samotlmiaceho účinku a citlivosť na koróziu"
     correct: 1
-    explanation: "Horší komfort jazdy, fenomén axle wrap, vysoká neodpružená hmotnosť a vŕzganie -- toto sú nevýhody listových pružín.<br>Vysoká cena, zložitá konštrukcia, náchylnosť na netesnosti a priestorová náročnosť -- toto sú nevýhody pneumatického pruženia.<br>Nižšia únosnosť, neprenášanie pozdĺžnych síl, absencia samotlmiaceho účinku a citlivosť na koróziu -- toto sú nevýhody vinutých pružín."
+    explanation: "Horší komfort jazdy, vysoká neodpružená hmotnosť a vŕzganie -- toto sú nevýhody listových pružín.<br>Vysoká cena, zložitá konštrukcia, náchylnosť na netesnosti a priestorová náročnosť -- toto sú nevýhody pneumatického pruženia.<br>Nižšia únosnosť, neprenášanie pozdĺžnych síl, absencia samotlmiaceho účinku a citlivosť na koróziu -- toto sú nevýhody vinutých pružín."
 
-  - id: "skrutne-tyce-08"
+  - id: "skrutne-tyce-06"
     type: single
     question: "Kde na torznej tyči je šmykové napätie najvyššie a prečo sú tieto miesta náchylnejšie na únavu?"
     options:
-      - "Na povrchu tyče, predovšetkým v oblasti drážkovaných alebo hranatých koncov, kde sa prenáša krútiaci moment"
-      - "V strede tyče, pretože tam je najväčšie ohybové napätie"
-      - "Na vnútornom jadre tyče, pretože tam je najmenší prierez"
-      - "V mieste uchytenia k rámu, pretože tam pôsobí gravitačná sila"
+      - "Na povrchu tyče, predovšetkým v oblasti drážkovaných alebo hranatých koncov"
+      - "V strede tyče"
+      - "Na koncoch tyče"
+      - "V mieste uchytenia k rámu"
     correct: 1
-    explanation: "V strede tyče -- šmykové napätie pri torzii je najvyššie na povrchu, nie v strede.<br>Na vnútornom jadre tyče -- pri krútení je napätie na povrchu najvyššie a smerom k osi klesá.<br>V mieste uchytenia k rámu -- konzentrácia napätia je predovšetkým na drážkovaných/hranatých koncoch, nie priamo v mieste uchytenia."
+    explanation: "V strede tyče -- pri krútení je šmykové napätie rovnomerne rozložené po celej dĺžke tyče, ale koncentruje sa na povrchu, nie v strede prierezu.<br>Na koncoch tyče -- konce sú síce kritické miesta, ale otázka sa pýta na presnejšiu odpoveď: na povrchu, predovšetkým v oblasti drážkovaných koncov, kde sa prenáša krútiaci moment.<br>V mieste uchytenia k rámu -- uchytenie k rámu je pevný bod, ale najvyššie napätie je na povrchu tyče v oblasti drážkovaných koncov."
 
-  - id: "skrutne-tyce-09"
+  - id: "skrutne-tyce-07"
     type: single
-    question: "Na čo slúžia stabilizačné tyče (anti-roll bars) a na akom princípe fungujú?"
+    question: "Na čo slúžia stabilizačné tyče?"
     options:
-      - "Znižujú naklonenie vozidla v zákrutách -- pružne spájajú ľavé a pravé koleso nápravy tak, že pri stlačení jedného donútia stlačiť aj druhé"
-      - "Zvyšujú únosnosť pruženia -- podopierajú karosériu pri veľkom zaťažení"
-      - "Znižujú vibrácie motora -- izolujú motor od karosérie"
-      - "Zabraňujú prevráteniu vozidla -- blokujú koleso pri prekročení maximálneho natočenia"
+      - "Zabraňujú nadmernému naklánaniu karosérie v zákrutách"
+      - "Zabezpečujú lepšiu stabilitu vozidla pri brzdení"
+      - "Zabezpečujú lepšiu stabilitu vozidla pri vysokých rýchlostiach"
+      - "Zmäkčujú pružnenie (vďaka nim vozidlo po ceste 'pláva')"
     correct: 1
-    explanation: "Zvyšovanie únosnosti -- stabilizačné tyče neslúžia na zvýšenie únosnosti, ale na zníženie nakláňania karosérie.<br>Zníženie vibrácií motora -- na to slúžia silentbloky (gumové pruženie), nie stabilizačné tyče.<br>Zabránenie prevráteniu blokovaním kolesa -- stabilizačné tyče neblokujú kolesá, ale pružne ich spájajú."
-
-  - id: "skrutne-tyce-10"
-    type: write
-    question: "Ako sa po anglicky nazývajú stabilizačné tyče? Uveďte aspoň jeden anglický názov. (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "anti-roll bar"
-      - "anti-sway bar"
-      - "anti roll bar"
-      - "anti sway bar"
-
-  - id: "skrutne-tyce-11"
-    type: write
-    question: "Ako sa nazýva mechanizmus, pomocou ktorého sa dá u torzných tyčí ľahko upraviť svetlá výška vozidla? (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "nastavovací mechanizmus"
-      - "nastavovacia skrutka"
-      - "excentrická podložka"
+    explanation: "Zabezpečujú lepšiu stabilitu vozidla pri brzdení -- stabilita pri brzdení závisí od brzdového systému (ABS, rozloženie brzdnej sily), nie od stabilizačných tyčí.<br>Zabezpečujú lepšiu stabilitu vozidla pri vysokých rýchlostiach -- stabilita pri vysokých rýchlostiach závisí od aerodynamiky a geometrie riadenia; stabilizačné tyče pôsobia pri bočnom naklánení v zákrutách.<br>Zmäkčujú pruženie -- naopak, stabilizačné tyče pruženie stužujú tým, že pri stlačení jedného kolesa donútia stlačiť aj druhé, čím znižujú nakláňanie karosérie."

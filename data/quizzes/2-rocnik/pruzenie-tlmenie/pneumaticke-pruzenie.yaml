@@ -9,106 +9,73 @@ questions:
       - "Stlačený vzduch uzavretý v pružných vakoch (mechoch)"
       - "Odpor voči krúteniu oceľovej tyče"
       - "Trenie medzi oceľovými listami"
-      - "Hydraulickú kvapalinu a stlačený dusík v hydropneumatických guliach"
+      - "Hydraulickú kvapalinu a stlačený plyn"
     correct: 1
-    explanation: "Odpor voči krúteniu oceľovej tyče -- takto fungujú skrutné (torzné) tyče.<br>Trenie medzi oceľovými listami -- takto fungujú listové pružiny.<br>Hydraulická kvapalina a stlačený dusík v hydropneumatických guliach -- takto funguje hydropneumatické pruženie."
+    explanation: "Odpor voči krúteniu oceľovej tyče -- takto fungujú skrutné (torzné) tyče.<br>Trenie medzi oceľovými listami -- takto fungujú listové pružiny.<br>Hydraulická kvapalina a stlačený plyn -- takto funguje hydropneumatické pruženie."
 
   - id: "pneumaticke-pruzenie-02"
     type: single
     question: "Aké sú hlavné časti pneumatického pruženia?"
     options:
-      - "Vzduchové mechy, kompresor, sušič, zásobník vzduchu, vzduchové vedenia, regulačné ventily, snímače výšky a riadiaca jednotka"
-      - "Hydropneumatické gule, hydraulický valec, hydraulické čerpadlo a zásobník hydraulickej kvapaliny"
-      - "Hlavný list, pomocné listy, stredová objímka, stredový čap a ušká"
-      - "Torzná tyč, drážkovaná hlavica, rameno zavesenia a nastavovací mechanizmus"
+      - "Vzduchové mechy, regulátor tlaku, kompresor, sušič, zásobník vzduchu, vzduchové vedenia, regulačné ventily, snímače výšky a riadiaca jednotka"
+      - "Gulové nádoby, hydraulický valec, hydraulické čerpadlo a zásobník hydraulickej kvapaliny"
+      - "Pneumatiky, pružná membrána, jednocestné ventily a regulačné ventily"
+      - "Kompresor, Regulátor tlaku, sušič, zásobník vzduchu, brzdové komory, riadiace jednotky"
     correct: 1
-    explanation: "Hydropneumatické gule, hydraulický valec, hydraulické čerpadlo a zásobník hydraulickej kvapaliny -- toto sú hlavné časti hydropneumatického pruženia.<br>Hlavný list, pomocné listy, stredová objímka, stredový čap a ušká -- toto sú časti listovej pružiny.<br>Torzná tyč, drážkovaná hlavica, rameno zavesenia a nastavovací mechanizmus -- toto sú časti skrutnej (torznej) tyče."
+    explanation: "Gulové nádoby, hydraulický valec, hydraulické čerpadlo a zásobník hydraulickej kvapaliny -- toto sú časti hydropneumatického pruženia (napr. Citroën DS).<br>Pneumatiky, pružná membrána, jednocestné ventily a regulačné ventily -- pneumatiky nie sú súčasťou pneumatického pruženia; pružná membrána je súčasťou jednoplášťového tlmiča.<br>Kompresor, regulátor tlaku, sušič, zásobník vzduchu, brzdové komory, riadiace jednotky -- brzdové komory sú súčasťou vzduchového brzdového systému, nie pneumatického pruženia; namiesto nich sú vzduchové mechy."
 
   - id: "pneumaticke-pruzenie-03"
-    type: single
-    question: "Ako funguje automatická regulácia svetlej výšky pri pneumatickom pružení?"
-    options:
-      - "Snímače výšky sledujú polohu karosérie, riadiaca jednotka vyhodnotí údaje a cez ventily upraví tlak vzduchu v mechoch"
-      - "Vodič musí manuálne prepumpovať vzduch z jedného mecha do druhého"
-      - "Vozidlo sa automaticky dvíha a klesá podľa rýchlosti jazdy"
-      - "Pružiny sa pri zaťažení samy predĺžia vďaka svojej elasticite"
-    correct: 1
-    explanation: "Manuálne prepumpovanie -- regulácia prebieha automaticky pomocou riadiacej jednotky, nie manuálne.<br>Dvíhanie a klesanie podľa rýchlosti -- regulácia závisí od zaťaženia a polohy karosérie voči kolesám, nie primárne od rýchlosti.<br>Samopredĺženie vďaka elasticite -- to popisuje bežné pružiny, nie pneumatické pruženie."
-
-  - id: "pneumaticke-pruzenie-04"
     type: single
     question: "Čo sa stane, keď sa zvýši tlak vzduchu v mechoch pneumatického pruženia?"
     options:
       - "Vozidlo sa zdvihne a pruženie stvrdne"
       - "Vozidlo sa zníži a pruženie zmäkne"
       - "Vozidlo sa zdvihne a pruženie zmäkne"
-      - "Nič sa nezmení, tlak nemá vplyv na výšku ani tuhosť"
+      - "Vozidlo sa zníži a pruženie stvrdne"
     correct: 1
-    explanation: "Vozidlo sa zníži a pruženie zmäkne -- to sa stane pri znížení tlaku, nie pri zvýšení.<br>Vozidlo sa zdvihne a pruženie zmäkne -- pri zvýšení tlaku pruženie stvrdne, nie zmäkne.<br>Nič sa nezmení -- zmena tlaku priamo ovplyvňuje aj výšku, aj tuhosť pruženia."
+    explanation: "Vozidlo sa zníži a pruženie zmäkne -- zníženie tlaku spôsobí zníženie a zmäknutie, nie zvýšenie tlaku.<br>Vozidlo sa zdvihne a pruženie zmäkne -- vyšší tlak vzduch v mechoch stvrdne, pretože stlačený vzduch kladie väčší odpor voči ďalšiemu stlačeniu.<br>Vozidlo sa zníži a pruženie stvrdne -- vyšší tlak mechy nafúkne, čím sa vozidlo zdvihne, nie zníži."
 
-  - id: "pneumaticke-pruzenie-05"
+  - id: "pneumaticke-pruzenie-04"
     type: single
     question: "Ktorá z možností najviac zodpovedá výhodám pneumatického pruženia?"
     options:
       - "Stála svetlá výška, nastaviteľná výška podvozku, nastaviteľná tuhosť, vysoký komfort a progresívna charakteristika"
-      - "Vysoká únosnosť, samovodiaca funkcia, samotlmiaca schopnosť a odolnosť"
+      - "Vysoká cena, zložitá konštrukcia, náchylnosť na poruchy, priestorová náročnosť, neprenáša pozdĺžne ani priečne sily"
       - "Nižšia hmotnosť, úspora priestoru, spoľahlivosť a jednoduché nastavenie výšky"
       - "Nízka cena, jednoduchá konštrukcia, izolácia hluku a odolnosť voči korózii"
     correct: 1
-    explanation: "Vysoká únosnosť, samovodiaca funkcia, samotlmiaca schopnosť a odolnosť -- toto sú výhody listových pružín.<br>Nižšia hmotnosť, úspora priestoru, spoľahlivosť a jednoduché nastavenie výšky -- toto sú výhody torzných tyčí.<br>Nízka cena, jednoduchá konštrukcia, izolácia hluku a odolnosť voči korózii -- toto sú výhody gumového pruženia."
+    explanation: "Vysoká cena, zložitá konštrukcia, náchylnosť na poruchy, priestorová náročnosť, neprenáša pozdĺžne ani priečne sily -- toto sú nevýhody pneumatického pruženia, nie výhody.<br>Nižšia hmotnosť, úspora priestoru, spoľahlivosť a jednoduché nastavenie výšky -- toto sú výhody skrutných (torzných) tyčí.<br>Nízka cena, jednoduchá konštrukcia, izolácia hluku a odolnosť voči korózii -- toto sú výhody gumového pruženia."
 
-  - id: "pneumaticke-pruzenie-06"
-    type: single
-    question: "Prečo má pneumatické pruženie progresívnu charakteristiku?"
-    options:
-      - "Čím viac sa vzduchový mech stlačí, tým je tvrdší -- tuhosť pruženia rastie so stlačením"
-      - "Pretože obsahuje pružiny s premenlivým priemerom drôtu"
-      - "Pretože riadiaca jednotka postupne zvyšuje tlak v mechoch"
-      - "Pretože vzduchové mechy sú vyrobené z progresívneho materiálu"
-    correct: 1
-    explanation: "Pružiny s premenlivým priemerom drôtu -- to platí pre progresívne vinuté pružiny, nie pre pneumatické pruženie.<br>Riadiaca jednotka postupne zvyšuje tlak -- progresívna charakteristika je vlastnosťou samotného stláčania vzduchu, nie riadiacej jednotky.<br>Progresívny materiál -- progresívna charakteristika vyplýva z fyzikálnych vlastností stlačeného vzduchu, nie z materiálu mechov."
-
-  - id: "pneumaticke-pruzenie-07"
+  - id: "pneumaticke-pruzenie-05"
     type: single
     question: "Ktorá z možností najviac zodpovedá nevýhodám pneumatického pruženia?"
     options:
-      - "Vysoká cena, zložitá konštrukcia, náchylnosť na poruchy, priestorová náročnosť a neprenášanie pozdĺžnych ani priečnych síl"
-      - "Horší komfort jazdy, fenomén axle wrap, vysoká neodpružená hmotnosť a vŕzganie"
-      - "Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch"
-      - "Nižšia únosnosť, neprenášanie pozdĺžnych síl a absencia samotlmiaceho účinku"
-    correct: 1
-    explanation: "Horší komfort jazdy, fenomén axle wrap, vysoká neodpružená hmotnosť a vŕzganie -- toto sú nevýhody listových pružín.<br>Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch -- toto sú nevýhody skrutných (torzných) tyčí.<br>Nižšia únosnosť, neprenášanie pozdĺžnych síl a absencia samotlmiaceho účinku -- toto sú nevýhody vinutých pružín."
+      - "Stála svetlá výška, nastaviteľná výška podvozku, nastaviteľná tuhosť, vysoký komfort a progresívna charakteristika"
+      - "Vysoká cena, zložitá konštrukcia, náchylnosť na poruchy, priestorová náročnosť, neprenáša pozdĺžne ani priečne sily"
+      - "Nižšia hmotnosť, úspora priestoru, spoľahlivosť a jednoduché nastavenie výšky"
+      - "Vysoká cena, zložitá konštrukcia, náchylnosť na poruchy, lineárna charakteristika"
+    correct: 2
+    explanation: "Stála svetlá výška, nastaviteľná výška podvozku, nastaviteľná tuhosť, vysoký komfort a progresívna charakteristika -- toto sú výhody pneumatického pruženia, nie nevýhody.<br>Nižšia hmotnosť, úspora priestoru, spoľahlivosť a jednoduché nastavenie výšky -- toto sú výhody skrutných (torzných) tyčí, nie nevýhody pneumatického pruženia.<br>Vysoká cena, zložitá konštrukcia, náchylnosť na poruchy, lineárna charakteristika -- pneumatické pruženie má naopak progresívnu charakteristiku (tuhosť rastie so stlačením), nie lineárnu."
 
-  - id: "pneumaticke-pruzenie-08"
+  - id: "pneumaticke-pruzenie-06"
     type: single
     question: "Aké sú dva základné typy konštrukcie vzduchových mechov?"
     options:
       - "Vlnovcové mechy a valivé mechy"
-      - "Jednolistové a viaclistové mechy"
-      - "Lineárne a progresívne mechy"
-      - "Valcové a kužeľové mechy"
+      - "Súdkovité a bikónické mechy"
+      - "Valcové a oválne mechy"
+      - "Veľké a malé mechy"
     correct: 1
-    explanation: "Jednolistové a viaclistové -- takto sa delia listové pružiny podľa počtu listov.<br>Lineárne a progresívne -- takto sa delia vinuté pružiny podľa charakteristiky.<br>Valcové a kužeľové -- takto sa delia vinuté pružiny podľa tvaru."
+    explanation: "Súdkovité a bikónické mechy -- toto sú tvary vinutých pružín, nie vzduchových mechov.<br>Valcové a oválne mechy -- toto nie je zaužívané delenie vzduchových mechov; rozlišujeme vlnovcové (tvar harmoniky, osobné autá) a valivé (valcový tvar s odvaľovaním po pieste, nákladné vozidlá).<br>Veľké a malé mechy -- veľkosť nie je kritérium konštrukčného delenia vzduchových mechov."
 
-  - id: "pneumaticke-pruzenie-09"
-    type: single
-    question: "Kde sa valivé mechy pneumatického pruženia najčastejšie používajú?"
-    options:
-      - "V nákladných vozidlách a autobusoch"
-      - "V osobných automobiloch"
-      - "V motocykloch"
-      - "V závodných vozidlách"
-    correct: 1
-    explanation: "V osobných automobiloch sa používajú skôr vlnovcové mechy.<br>V motocykloch sa pneumatické pruženie bežne nepoužíva.<br>V závodných vozidlách sa pneumatické pruženie bežne nepoužíva."
-
-  - id: "pneumaticke-pruzenie-10"
+  - id: "pneumaticke-pruzenie-07"
     type: write
     question: "Ako sa nazýva časť pneumatického pruženia, ktorá odvádza vlhkosť zo systému? (prosím, píšte aj s diakritikou)"
     accepted_answers:
       - "sušič"
       - "sušič vzduchu"
 
-  - id: "pneumaticke-pruzenie-11"
+  - id: "pneumaticke-pruzenie-08"
     type: write
     question: "Ako sa nazýva časť pneumatického pruženia, ktorá uchováva stlačený vzduch pre rýchle nastavenie svetlej výšky? (prosím, píšte aj s diakritikou)"
     accepted_answers:
@@ -122,7 +89,7 @@ questions:
     options:
       - "V systéme môže zamrznúť skondenzovaná voda"
       - "Vzduchové mechy sa zmrštia a vozidlo klesne"
-      - "Kompresor začne pracovať rýchlejšie"
-      - "Riadiaca jednotka sa reštartuje"
+      - "Kompresor nasaje vlhkosť a zasekne sa"
+      - "Automobil nebude možné naštartovať"
     correct: 1
-    explanation: "Vzduchové mechy sa zmrštia -- mechy sa nemrštia vplyvom zimy, vzduch v nich je stlačený kompresorom.<br>Kompresor začne pracovať rýchlejšie -- porucha sušiča nemá priamy vplyv na rýchlosť kompresora.<br>Riadiaca jednotka sa reštartuje -- porucha sušiča nespôsobuje reštart riadiacej jednotky."
+    explanation: "Vzduchové mechy sa zmrštia a vozidlo klesne -- mechy sa nezmršťujú vplyvom zimy; ich objem závisí od tlaku vzduchu dodávaného kompresorom, nie od teploty.<br>Kompresor nasaje vlhkosť a zasekne sa -- kompresor nasáva vzduch a stláča ho; vlhkosť v systéme zamŕza vo vedeniach a ventiloch, nie v kompresore.<br>Automobil nebude možné naštartovať -- pneumatické pruženie nemá vplyv na štartovanie motora."
