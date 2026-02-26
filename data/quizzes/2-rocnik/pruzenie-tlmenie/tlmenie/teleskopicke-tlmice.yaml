@@ -3,30 +3,32 @@ parent: "Pruženie a tlmenie"
 year: 2
 questions:
   - id: "teleskopicke-tlmice-01"
-    type: single
-    question: "Z čoho sa skladá dvojplášťový (twin-tube) tlmič?"
-    options:
-      - "Z vnútorného pracovného valca a vonkajšieho zásobníkového valca"
-      - "Z jedného valca s oddeľovacím piestom"
-      - "Z dvoch vedľa seba umiestnených valcov rovnakej veľkosti"
-      - "Z troch valcov uložených nad sebou"
-    correct: 1
-    explanation: "Jeden valec s oddeľovacím piestom -- takto je konštruovaný jednoplášťový (mono-tube) tlmič.<br>Dva vedľa seba umiestnené valce -- valce dvojplášťového tlmiča sú v sebe (jeden vo vnútri druhého), nie vedľa seba.<br>Tri valce nad sebou -- takáto konštrukcia tlmiča neexistuje."
+    type: write
+    question: "Pomenujte tlmič pruženia, ktorý je zobrazený na obrázku. (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/twintube.png"
+    accepted_answers:
+      - "dvojplášťový tlmič"
+      - "teleskopický tlmič dvojplášťový"
+      - "dvojplášťový teleskopický tlmič"
+      - "teleskopický dvojplášťový tlmič"
+      - "tlmič dvojplášťový teleskopický"
+      - "tlmič dvojplášťový"
 
   - id: "teleskopicke-tlmice-02"
-    type: single
-    question: "Prečo má ventil B v dvojplášťovom tlmiči (cez ktorý kvapalina preteká pri rozťahovaní) menší prierez alebo väčší tlak potrebný na otvorenie ako ventil A?"
-    options:
-      - "Aby tlmič kládol väčší odpor pri rozťahovaní, čím zachováva pružiaci efekt pružín, ale zároveň bráni ich rozkmitaniu"
-      - "Aby sa olej rýchlejšie vrátil do zásobníkovej komory"
-      - "Aby sa znížil hluk pri prevádzke tlmiča"
-      - "Aby sa zabránilo pretečeniu oleja mimo tlmiča"
-    correct: 1
-    explanation: "Rýchlejšie vrátenie oleja do zásobníka -- ventil B riadi prietok medzi priestormi nad a pod piestom, nie do zásobníka.<br>Zníženie hluku -- menší prierez ventilu hluk neznižuje, slúži na väčší odpor pri rozťahovaní.<br>Zabránenie pretečeniu oleja -- na to slúžia tesnenia, nie veľkosť prietokových ventilov."
+    type: write
+    question: "Pomenujte tlmič pruženia, ktorý je zobrazený na obrázku. (prosím, píšte aj s diakritikou)"
+    image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/jednoplastovy.png"
+    accepted_answers:
+      - "jednoplášťový tlmič"
+      - "teleskopický tlmič jednoplášťový"
+      - "jednoplášťový teleskopický tlmič"
+      - "teleskopický jednoplášťový tlmič"
+      - "tlmič jednoplášťový teleskopický"
+      - "tlmič jednoplášťový"
 
   - id: "teleskopicke-tlmice-03"
     type: single
-    question: "Ktorá z možností najviac zodpovedá výhodám dvojplášťového tlmiča?"
+    question: "Ktorá z možností najviac zodpovedá výhodám dvojplášťového tlmiča oproti jednoplášťovému?"
     options:
       - "Nižšie výrobné náklady, komfortnejšia jazda, tichšia prevádzka, väčšia odolnosť voči mechanickému poškodeniu a nižšie trenie piestnice"
       - "Lepšie chladenie, rýchlejšia odozva, odolnosť voči peneniu oleja, ľubovoľná montážna poloha a väčší priemer piestu"
@@ -37,7 +39,7 @@ questions:
 
   - id: "teleskopicke-tlmice-04"
     type: single
-    question: "Ktorá z možností najviac zodpovedá nevýhodám dvojplášťového tlmiča?"
+    question: "Ktorá z možností najviac zodpovedá nevýhodám dvojplášťového tlmiča oproti jednoplášťovému?"
     options:
       - "Horšie chladenie, náchylnosť na penenie oleja (fading), pomalšia odozva, obmedzená montážna poloha a väčšie vonkajšie rozmery"
       - "Vyššie výrobné náklady, citlivosť na mechanické poškodenie, tvrdší pocit z jazdy a väčší prenos vibrácií"
@@ -48,17 +50,6 @@ questions:
 
   - id: "teleskopicke-tlmice-05"
     type: single
-    question: "Čo je to fading pri dvojplášťovom tlmiči?"
-    options:
-      - "Miešanie oleja so vzduchom (aerácia) pri prehriatí, čo výrazne znižuje tlmiacu schopnosť"
-      - "Mechanické opotrebenie piestnice pri dlhodobom používaní"
-      - "Únava materiálu vonkajšieho plášťa"
-      - "Strácanie farby z tlmiča vplyvom UV žiarenia"
-    correct: 1
-    explanation: "Mechanické opotrebenie piestnice -- to nie je fading, ale bežné opotrebenie.<br>Únava materiálu vonkajšieho plášťa -- to tiež nie je fading.<br>Strácanie farby z tlmiča -- fading v kontexte tlmičov sa vzťahuje na stratu tlmiacej schopnosti, nie na farbu."
-
-  - id: "teleskopicke-tlmice-06"
-    type: single
     question: "V akom maximálnom uhle od zvislice smie byť montovaný dvojplášťový tlmič?"
     options:
       - "Maximálne 45°"
@@ -68,18 +59,18 @@ questions:
     correct: 1
     explanation: "Maximálne 90° -- pri takomto uhle by vzduch zo zásobníkovej komory prenikol do pracovného priestoru.<br>V ľubovoľnom uhle -- v ľubovoľnom uhle sa smie montovať jednoplášťový tlmič, nie dvojplášťový.<br>Maximálne 10° -- to je príliš prísne obmedzenie, dvojplášťový tlmič zvláda do 45°."
 
-  - id: "teleskopicke-tlmice-07"
+  - id: "teleskopicke-tlmice-06"
     type: single
     question: "Čím sa v jednoplášťovom tlmiči oddeľuje olej od plynu?"
     options:
       - "Pružnou membránou alebo plávajúcim piestom"
-      - "Vonkajším plášťom"
-      - "Jednocestnými ventilmi"
+      - "Vnútorným plášťom"
+      - "Dnom s jednocestnými ventily"
       - "Ničím -- olej a plyn sú zmiešané"
     correct: 1
-    explanation: "Vonkajším plášťom -- jednoplášťový tlmič má len jeden plášť, vonkajší plášť je súčasťou dvojplášťového tlmiča.<br>Jednocestnými ventilmi -- ventily regulujú prietok oleja, nie oddeľovanie oleja od plynu.<br>Ničím -- olej a plyn sú v jednoplášťovom tlmiči oddelené, inak by došlo k peneniu."
+    explanation: ""
 
-  - id: "teleskopicke-tlmice-08"
+  - id: "teleskopicke-tlmice-07"
     type: single
     question: "Ktorá z možností najviac zodpovedá výhodám jednoplášťového tlmiča?"
     options:
@@ -90,18 +81,7 @@ questions:
     correct: 1
     explanation: "Nižšie výrobné náklady, komfortnejšia jazda, tichšia prevádzka a väčšia odolnosť voči mechanickému poškodeniu -- toto sú výhody dvojplášťového tlmiča.<br>Samotlmiaci efekt, nízka cena a izolácia hluku -- toto sú výhody gumového pruženia.<br>Stála svetlá výška, nastaviteľná výška podvozku a progresívna charakteristika -- toto sú výhody pneumatického pruženia."
 
-  - id: "teleskopicke-tlmice-09"
-    type: single
-    question: "Prečo je jednoplášťový tlmič citlivejší na mechanické poškodenie ako dvojplášťový?"
-    options:
-      - "Pretože má len jeden plášť -- akékoľvek vyhnutie alebo preliačenie valca priamo ovplyvní pohyb piestu"
-      - "Pretože je vyrobený z mäkšieho materiálu"
-      - "Pretože je dlhší a teda náchylnejší na ohyb"
-      - "Pretože vonkajší plášť dvojplášťového tlmiča je hrubší"
-    correct: 1
-    explanation: "Mäkší materiál -- materiál nie je mäkší, problém je v absencii ochranného vonkajšieho plášťa.<br>Dlhší a náchylnejší na ohyb -- dĺžka nie je hlavný faktor, problém je, že nemá ochranný vonkajší plášť.<br>Vonkajší plášť dvojplášťového je hrubší -- nie je hrubší, ale chráni vnútorný pracovný valec pred poškodením."
-
-  - id: "teleskopicke-tlmice-10"
+  - id: "teleskopicke-tlmice-08"
     type: single
     question: "Kde sa najčastejšie používajú dvojplášťové tlmiče?"
     options:
@@ -112,15 +92,7 @@ questions:
     correct: 1
     explanation: "Športové a pretekárske vozidlá -- tam sa prednostne používajú jednoplášťové tlmiče pre ich lepší výkon.<br>Terénne vozidlá a motocykle vyšších kategórií -- aj tam sa častejšie používajú jednoplášťové tlmiče.<br>Výhradne na nákladných automobiloch -- dvojplášťové tlmiče sa nepoužívajú výhradne na nákladných automobiloch."
 
-  - id: "teleskopicke-tlmice-11"
-    type: write
-    question: "Aký plyn sa používa v jednoplášťovom tlmiči a pod akým tlakom? (stačí uviesť plyn a rozsah tlaku)"
-    accepted_answers:
-      - "dusík pod tlakom 20 až 30 barov"
-      - "dusík, 20-30 barov"
-      - "dusík"
-
-  - id: "teleskopicke-tlmice-12"
+  - id: "teleskopicke-tlmice-09"
     type: write
     question: "Ako sa nazýva jav, pri ktorom sa olej v tlmiči mieša so vzduchom pri prehriatí a výrazne sa tým zníži tlmiaca schopnosť? (prosím, píšte aj s diakritikou)"
     accepted_answers:
@@ -128,7 +100,7 @@ questions:
       - "penenie oleja"
       - "aerácia"
 
-  - id: "teleskopicke-tlmice-13"
+  - id: "teleskopicke-tlmice-10"
     type: write
     question: "Ako sa nazýva táto časť dvojplášťového tlmiča? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/vnutorny-plast-dvojplastovy.png"
@@ -155,7 +127,10 @@ questions:
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/piest-dvojplastovy.png"
     accepted_answers:
       - "piest"
+      - "piest s ventilmi"
       - "piest s prietokovými jednocestnými ventilmi"
+      - "piest s prietokovými ventilmi"
+      - "piest s jednocestnými ventilmi"
 
   - id: "teleskopicke-tlmice-17"
     type: write
@@ -180,16 +155,19 @@ questions:
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/dno-dvojplastovy.png"
     accepted_answers:
       - "dno"
+      - "dno s ventilmi"
       - "dno s prietokovými jednocestnými ventilmi"
+      - "dno s prietokovými ventilmi"
+      - "dno s jednocestnými ventilmi"
 
   - id: "teleskopicke-tlmice-20"
     type: write
-    question: "Ako sa nazýva táto časť dvojplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    question: "Ako sa nazývajú tieto časti dvojplášťového tlmiča? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/oka-dvojplastovy.png"
     accepted_answers:
       - "oká na uchytenie"
       - "oká"
-      - "oko na uchytenie"
+      - "uchytenia"
 
   - id: "teleskopicke-tlmice-21"
     type: write
@@ -219,7 +197,10 @@ questions:
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/piest-jednoplastovy.png"
     accepted_answers:
       - "piest"
+      - "piest s ventilmi"
       - "piest s prietokovými jednocestnými ventilmi"
+      - "piest s prietokovými ventilmi"
+      - "piest s jednocestnými ventilmi"
 
   - id: "teleskopicke-tlmice-25"
     type: write
@@ -241,9 +222,9 @@ questions:
 
   - id: "teleskopicke-tlmice-27"
     type: write
-    question: "Ako sa nazýva táto časť jednoplášťového tlmiča? (prosím, píšte aj s diakritikou)"
+    question: "Ako sa nazývajú tieto časti jednoplášťového tlmiča? (prosím, píšte aj s diakritikou)"
     image: "/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice/oka-jednoplastovy.png"
     accepted_answers:
       - "oká na uchytenie"
       - "oká"
-      - "oko na uchytenie"
+      - "uchytenie"

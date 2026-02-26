@@ -4,60 +4,50 @@ year: 2
 questions:
   - id: "posilnovace-riadenia-01"
     type: single
-    question: "Na čo slúži posilňovač riadenia?"
+    question: "Ktorá z možností najviac zodpovedá výhodám hydraulického posilňovača riadenia (HPS) oproti ostatným typom posilňovačov riadenia?"
     options:
-      - "Na zníženie sily potrebnej na otáčanie volantu"
-      - "Na zvýšenie sily potrebnej na otáčanie volantu"
-      - "Na zmenu prevodového pomeru riadenia"
-      - "Na zamedzenie otáčaniu volantu pri vysokých rýchlostiach"
+      - "Prirodzená spätná väzba, nižšie výrobné náklady a veľká pomocná sila"
+      - "Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora"
+      - "Menšia spätná väzba, vysoká cena a menšia pomocná sila"
+      - "Zaťažuje motor, vyžaduje pravidelnú údržbu a závislosť od chodu motora"
     correct: 1
-    explanation: "Zvýšenie sily -- posilňovač silu ZNIŽUJE, nie zvyšuje.<br>Zmena prevodového pomeru -- posilňovač nemení prevodový pomer, ten je daný konštrukciou prevodovky riadenia.<br>Zamedzenie otáčaniu volantu -- posilňovač neblokuje volant, ale uľahčuje jeho otáčanie."
+    explanation: ""
 
   - id: "posilnovace-riadenia-02"
     type: single
-    question: "O koľko percent dokážu posilňovače riadenia znížiť potrebnú ovládaciu silu?"
+    question: "Ktorá z možností najviac zodpovedá nevýhodám hydraulického posilňovača riadenia (HPS) oproti ostatným typom posilňovačov riadenia?"
+
     options:
-      - "Až o 80%"
-      - "Až o 20%"
-      - "Až o 50%"
-      - "Až o 100%"
-    correct: 1
-    explanation: "Až o 20% -- to by bolo príliš málo, posilňovače znižujú silu výrazne viac.<br>Až o 50% -- posilňovače dokážu znížiť silu ešte viac.<br>Až o 100% -- pri 100% znížení by vodič nemusel vyvíjať žiadnu silu, čo by znemožnilo spätnú väzbu."
+      - "Prirodzená spätná väzba, nižšie výrobné náklady a veľká pomocná sila"
+      - "Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora"
+      - "Menšia spätná väzba, vysoká cena a menšia pomocná sila"
+      - "Zaťažuje motor, vyžaduje pravidelnú údržbu a závislosť od chodu motora"
+    correct: 4
+    explanation: ""
 
   - id: "posilnovace-riadenia-03"
     type: single
-    question: "Ktorá z možností najviac zodpovedá výhodám hydraulického posilňovača riadenia (HPS)?"
+    question: "Ktorá z možností najviac zodpovedá výhodám elektrohydraulického posilňovača riadenia (EHPS) oproti hydraulickému posilňovaču riadenia (HPS)?"
     options:
-      - "Prirodzená spätná väzba, nižšie výrobné náklady a veľká sila"
+      - "Prirodzená spätná väzba, nižšie výrobné náklady a veľká pomocná sila"
       - "Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora"
-      - "Nezaťažuje motor, nezávislosť od otáčok motora a jednoduchá regulácia"
-      - "Extrémne rýchla odozva, žiadne mechanické ventily a tichá prevádzka"
-    correct: 1
-    explanation: "Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora -- toto sú výhody elektronického posilňovača riadenia (EPS).<br>Nezaťažuje motor, nezávislosť od otáčok motora a jednoduchá regulácia -- toto sú výhody elektrohydraulického posilňovača (EHPS).<br>Extrémne rýchla odozva a žiadne mechanické ventily -- toto sú výhody magnetoreologických tlmičov, nie posilňovačov riadenia."
+      - "Nezaťažuje motor, nie je od neho závislí a umožňuje reguláciu zosilovacieho účinku"
+      - "Stále vyžaduje údržbu, má zložitejšiu konštrukciu a je náchylný na poruchy"
+    correct: 3
+    explanation: ""
 
   - id: "posilnovace-riadenia-04"
     type: single
-    question: "Ktorá z možností najviac zodpovedá nevýhodám hydraulického posilňovača riadenia (HPS)?"
+    question: "Ktorá z možností najviac zodpovedá nevýhodám elektrohydraulického posilňovača riadenia (EHPS) oproti hydraulickému posilňovaču riadenia (HPS)?"
     options:
-      - "Záťaž motora (čerpadlo beží neustále), nutnosť údržby (riziko úniku kvapaliny) a závislosť od chodu motora"
-      - "Menšia spätná väzba, vyššia cena a menšia maximálna pomocná sila"
-      - "Zložitejšia konštrukcia a vyššia náchylnosť na poruchy"
-      - "Nemožnosť integrácie asistenčných systémov a nízka sila"
-    correct: 1
-    explanation: "Menšia spätná väzba, vyššia cena a menšia maximálna pomocná sila -- toto sú nevýhody elektronického posilňovača riadenia (EPS).<br>Zložitejšia konštrukcia a vyššia náchylnosť na poruchy -- toto sú nevýhody elektrohydraulického posilňovača (EHPS).<br>Nemožnosť integrácie asistenčných systémov -- HPS skutočne nedokáže jednoducho integrovať asistenčné systémy, ale to nie je jeho hlavná nevýhoda."
+      - "Prirodzená spätná väzba, nižšie výrobné náklady a veľká pomocná sila"
+      - "Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora"
+      - "Nezaťažuje motor, nie je od neho závislí a umožňuje reguláciu zosilovacieho účinku"
+      - "Stále vyžaduje údržbu, má zložitejšiu konštrukciu a je náchylný na poruchy"
+    correct: 4
+    explanation: "
 
   - id: "posilnovace-riadenia-05"
-    type: single
-    question: "Čo je EHPS a aký je jeho hlavný rozdiel oproti HPS?"
-    options:
-      - "Elektrohydraulický posilňovač -- namiesto čerpadla poháňaného motorom využíva elektrické čerpadlo"
-      - "Elektronický posilňovač -- namiesto hydrauliky využíva elektromotor"
-      - "Extra hydraulický posilňovač -- má dva hydraulické okruhy namiesto jedného"
-      - "Hybridný posilňovač -- kombinuje pneumatiku s hydraulikou"
-    correct: 1
-    explanation: "Elektronický posilňovač s elektromotrom -- to popisuje EPS, nie EHPS.<br>Extra hydraulický s dvoma okruhmi -- EHPS nemá dva hydraulické okruhy, ale jedno elektrické čerpadlo.<br>Hybridný kombinujúci pneumatiku s hydraulikou -- taký systém v posilňovačoch riadenia neexistuje."
-
-  - id: "posilnovace-riadenia-06"
     type: single
     question: "Aký posilňovač riadenia sa v súčasnosti používa vo väčšine nových osobných automobilov?"
     options:
@@ -68,7 +58,7 @@ questions:
     correct: 3
     explanation: "Hydraulický posilňovač (HPS) -- ten sa používal v starších osobných automobiloch, dnes ho nahradil EPS.<br>Elektrohydraulický (EHPS) -- ten bol prechodnou technológiou medzi HPS a EPS.<br>Pneumatický posilňovač -- pneumatický posilňovač riadenia sa v osobných automobiloch nepoužíva."
 
-  - id: "posilnovace-riadenia-07"
+  - id: "posilnovace-riadenia-06"
     type: single
     question: "Ako funguje elektronický posilňovač riadenia (EPS)?"
     options:
@@ -79,32 +69,35 @@ questions:
     correct: 1
     explanation: "Hydraulické čerpadlo poháňané motorom -- takto funguje HPS, nie EPS.<br>Elektrické čerpadlo generujúce hydraulický tlak -- takto funguje EHPS, nie EPS.<br>Stlačený vzduch z kompresora -- pneumatický posilňovač sa v osobných autách nepoužíva."
 
+  - id: "posilnovace-riadenia-07"
+    type: single
+    question: "Ktorá z možností najviac zodpovedá výhodám elektronického posilňovača riadenia (EPS) oproti iným typom posilňovačov riadenia?"
+    options:
+      - "Prirodzená spätná väzba, nižšie výrobné náklady a veľká pomocná sila"
+      - "Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora"
+      - "Menšia spätná väzba, vysoká cena a menšia pomocná sila"
+      - "Zaťažuje motor, vyžaduje pravidelnú údržbu a závislosť od chodu motora"
+    correct: 2
+    explanation: ""
+
+  - id: "posilnovace-riadenia-07"
+    type: single
+    question: "Ktorá z možností najviac zodpovedá nevýhodám elektronického posilňovača riadenia (EPS) oproti iným typom posilňovačov riadenia?"
+    options:
+      - "Prirodzená spätná väzba, nižšie výrobné náklady a veľká pomocná sila"
+      - "Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora"
+      - "Menšia spätná väzba, vysoká cena a menšia pomocná sila"
+      - "Zaťažuje motor, vyžaduje pravidelnú údržbu a závislosť od chodu motora"
+    correct: 3
+    explanation: ""
+
   - id: "posilnovace-riadenia-08"
     type: single
-    question: "Aký typ EPS poskytuje najvyššiu pomocnú silu a používa sa v luxusných vozidlách a veľkých SUV?"
+    question: "Aké typy elektronických posilňovačov riadenia poznáme?"
     options:
-      - "C-EPS (motor na stĺpiku riadenia)"
-      - "P-EPS (motor na pastorku)"
-      - "R-EPS (motor na hrebeni)"
-      - "Všetky typy poskytujú rovnakú silu"
-    correct: 3
-    explanation: "C-EPS -- poskytuje pomocnú silu do 11 kN, používa sa v malých a kompaktných vozidlách.<br>P-EPS -- poskytuje pomocnú silu do 12 kN, vhodný pre stredne veľké vozidlá.<br>Všetky typy rovnakú silu -- R-EPS poskytuje najvyššiu silu (až 16 kN)."
-
-  - id: "posilnovace-riadenia-09"
-    type: single
-    question: "Ktorá z možností najviac zodpovedá výhodám EPS?"
-    options:
-      - "Bezúdržbový, umožňuje integráciu asistenčných systémov (LKA, parkovací asistent) a funguje aj pri vypnutom motore"
-      - "Prirodzená spätná väzba, nízke výrobné náklady a veľká sila"
-      - "Nezaťažuje motor a umožňuje reguláciu elektronického čerpadla"
-      - "Nemá žiadne nevýhody"
+      - "C-EPS, P-EPS, R-EPS"
+      - "EPS, EHPS, HPS"
+      - "A-EPS, B-EPS, C-EPS"
+      - "C-EPS, R-EPS"
     correct: 1
-    explanation: "Prirodzená spätná väzba, nízke výrobné náklady a veľká sila -- toto sú výhody HPS.<br>Nezaťažuje motor a regulácia elektronického čerpadla -- toto sú výhody EHPS.<br>Nemá žiadne nevýhody -- EPS má nevýhody (menšia spätná väzba, vyššia cena, menšia maximálna sila)."
-
-  - id: "posilnovace-riadenia-10"
-    type: write
-    question: "Ako sa nazýva asistenčný systém, ktorý udržiava vozidlo v jazdnom pruhu jemnými korekciami riadenia? Uveďte skratku. (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "LKA"
-      - "Lane Keeping Assist"
-      - "asistent pre udržanie v jazdnom pruhu"
+    explanation: ""

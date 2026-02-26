@@ -4,29 +4,7 @@ year: 2
 questions:
   - id: "geometria-riadenia-01"
     type: single
-    question: "Čo je to geometria riadenia?"
-    options:
-      - "Súbor uhlov a rozmerov, ktoré určujú polohu kolies voči vozovke a karosérii vozidla"
-      - "Tvar volantu a jeho umiestnenie v kabíne vodiča"
-      - "Tvar pneumatík a ich umiestnenie na diskoch"
-      - "Geometrický tvar prevodovky riadenia"
-    correct: 1
-    explanation: "Tvar volantu -- geometria riadenia sa nevzťahuje na volant, ale na polohu kolies.<br>Tvar pneumatík -- geometria riadenia sa nezaoberá tvarom pneumatík, ale uhlami a rozmermi kolies voči vozovke.<br>Geometrický tvar prevodovky -- geometria riadenia nie je o tvare prevodovky."
-
-  - id: "geometria-riadenia-02"
-    type: single
-    question: "Čo zabezpečuje správne nastavená geometria kolies?"
-    options:
-      - "Rovnomerné odvaľovanie pneumatík bez bočného šmyku, stabilitu v priamom smere a samovoľné vracanie kolies po prejazde zákrutou"
-      - "Iba rovnomerné odvaľovanie pneumatík"
-      - "Iba stabilitu vozidla v priamom smere"
-      - "Maximálnu rýchlosť vozidla"
-    correct: 1
-    explanation: "Iba rovnomerné odvaľovanie pneumatík -- geometria zabezpečuje aj stabilitu a samovoľné vracanie kolies.<br>Iba stabilitu v priamom smere -- chýba rovnomerné odvaľovanie a samovoľné vracanie kolies.<br>Maximálna rýchlosť -- geometria riadenia nemá priamy vplyv na maximálnu rýchlosť."
-
-  - id: "geometria-riadenia-03"
-    type: single
-    question: "Čo je to zbiehavosť (toe-in) kolies?"
+    question: "Čo je to zbiehavosť kolies?"
     options:
       - "Predné časti kolies sú k sebe bližšie ako zadné časti"
       - "Zadné časti kolies sú k sebe bližšie ako predné časti"
@@ -34,30 +12,89 @@ questions:
       - "Horná časť kolesa je naklonená dovnútra k vozidlu"
     correct: 1
     explanation: "Zadné časti kolies bližšie ako predné -- to je rozbiehavosť (toe-out), nie zbiehavosť.<br>Horná časť kolesa naklonená von -- to je pozitívny odklon kolesa (camber), nie zbiehavosť.<br>Horná časť kolesa naklonená dovnútra -- to je negatívny odklon (príklon) kolesa, nie zbiehavosť."
-
-  - id: "geometria-riadenia-04"
+  
+  - id: "geometria-riadenia-02"
     type: single
-    question: "Aký je vplyv zbiehavosti (toe-in) na jazdné vlastnosti?"
+    question: "Čo je to rozbiehavosť kolies?"
+    options:
+      - "Predné časti kolies sú k sebe bližšie ako zadné časti"
+      - "Zadné časti kolies sú k sebe bližšie ako predné časti"
+      - "Horná časť kolesa je naklonená von od vozidla"
+      - "Horná časť kolesa je naklonená dovnútra k vozidlu"
+    correct: 2
+    explanation: ""
+
+  - id: "geometria-riadenia-03"
+    type: single
+    question: "Aký je vplyv zbiehavosti kolies na jazdné vlastnosti vozidla?"
     options:
       - "Zlepšuje stabilitu vozidla v priamom smere jazdy"
       - "Zlepšuje reakciu vozidla pri zatáčaní"
       - "Zvyšuje maximálnu rýchlosť vozidla"
-      - "Znižuje spotrebu paliva"
+      - "Znižuje opotrebenie pneumatík"
     correct: 1
-    explanation: "Zlepšuje reakciu pri zatáčaní -- to je vplyv rozbiehavosti, nie zbiehavosti.<br>Zvyšuje maximálnu rýchlosť -- zbiehavosť priamo neovplyvňuje maximálnu rýchlosť.<br>Znižuje spotrebu paliva -- zbiehavosť nemá priamy pozitívny vplyv na spotrebu paliva."
+    explanation: ""
+
+  - id: "geometria-riadenia-04"
+    type: single
+    question: "Čo je to odklon kolesa a aký je rozdiel medzi pozitívnym a negatívnym odklonom?"
+    options:
+      - "Uhol medzi rovinou kolesa a zvislicou. Pozitívny odklon: horná časť kolesa je ďalej od vozidla, ako dolná. Negatívny odklon: dolná časť kolesa je ďalej od vozidla, ako horná."
+      - "Uhol medzi rovinou kolesa a zvislicou. Pozitívny odklon: dolná časť kolesa je ďalej od vozidla, ako horná. Negatívny odklon: horná časť kolesa je ďalej od vozidla, ako dolná."
+      - "Uhol medzi rovinou kolesa a osou riadenia. Pozitívny odklon: horná časť kolesa je ďalej od vozidla, ako dolná. Negatívny odklon: dolná časť kolesa je ďalej od vozidla, ako horná."
+      - "Uhol medzi rovinou kolesa a osou riadenia. Pozitívny odklon: dolná časť kolesa je ďalej od vozidla, ako horná. Negatívny odklon: horná časť kolesa je ďalej od vozidla, ako dolná."
+    correct: 1
+    explanation: ""
 
   - id: "geometria-riadenia-05"
     type: single
-    question: "Čo je to odklon kolesa (camber) a aký je rozdiel medzi pozitívnym a negatívnym odklonom?"
+    question: "Čo je to príklon osi riadenia?"
     options:
-      - "Uhol medzi rovinou kolesa a zvislicou -- pozitívny: horná časť kolesa von od vozidla, negatívny: dovnútra k vozidlu"
-      - "Uhol medzi rovinou kolesa a vozovkou -- pozitívny: koleso smeruje dopredu, negatívny: dozadu"
-      - "Vzdialenosť medzi kolesami -- pozitívna: kolesá sú ďalej od seba, negatívna: bližšie k sebe"
-      - "Uhol natočenia volantu -- pozitívny: doprava, negatívny: doľava"
+      - "Je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade spredu na vozidlo."
+      - "Je uhol medzi osou otáčania kolesa pri riadení a osou riadenia, meraný pri pohľade spredu na vozidlo."
+      - "Je uhol medzi osou otáčania kolesa pri riadení a vozovkou, meraný pri pohľade spredu na vozidlo."
+      - "Je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade zboku na vozidlo."
     correct: 1
-    explanation: "Uhol medzi rovinou kolesa a vozovkou smerujúci dopredu/dozadu -- to skôr popisuje záklon osi riadenia.<br>Vzdialenosť medzi kolesami -- to je rozchod kolies, nie odklon.<br>Uhol natočenia volantu -- to je úplne iný parameter."
+    explanation: ""
 
   - id: "geometria-riadenia-06"
+    type: single
+    question: "Čo je to záklon osi riadenia?"
+    options:
+      - "Je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade spredu na vozidlo."
+      - "Je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade zboku na vozidlo."
+      - "Je uhol medzi osou otáčania kolesa pri riadení a osou riadenia, meraný pri pohľade spredu na vozidlo."
+      - "Je uhol medzi osou otáčania kolesa pri riadení a osou riadenia, meraný pri pohľade zboku na vozidlo."
+    correct: 2
+    explanation: ""
+
+  - id: "geometria-riadenia-07"
+    type: single
+    question: "Čo je to závlek kolesa?"
+    options:
+      - "Je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná zboku vozidla."
+      - "Je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade zboku na vozidlo."
+      - "Je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína zvislicu, a stredom dotykovej plochy pneumatiky, meraná zboku vozidla."
+      - "Je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná spredu vozidla."
+    correct: 1
+    explanation: ""
+
+  - id: "geometria-riadenia-08"
+    type: single
+    question: "Čo je to polomer riadenia?"
+    options:
+      - "Je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná zboku vozidla."
+      - "Je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade zboku na vozidlo."
+      - "Je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína zvislicu, a stredom dotykovej plochy pneumatiky, meraná zboku vozidla."
+      - "Je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná zpredu vozidla"
+    correct: 4
+    explanation: ""
+
+
+
+
+
+  - id: "geometria-riadenia-05"
     type: single
     question: "Prečo majú moderné športové vozidlá často negatívny odklon kolies?"
     options:

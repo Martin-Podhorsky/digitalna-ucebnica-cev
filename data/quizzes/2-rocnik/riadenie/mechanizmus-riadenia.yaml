@@ -4,38 +4,75 @@ year: 2
 questions:
   - id: "mechanizmus-riadenia-01"
     type: single
-    question: "Z čoho pozostáva stĺpik riadenia?"
+    question: "Aké sú hlavné časti mechanizmu riadenia?"
     options:
-      - "Z hriadeľa riadenia, jeho ochranného obalu a kĺbov"
-      - "Z volantu, ozubeného hrebeňa a riadiacich tyčí"
-      - "Z brzdového pedálu a hlavného brzdového valca"
-      - "Z prevodovky a kardanového hriadeľa"
+      - "Volant a hriadeľ volantu, prevodovka riadenia a riadiace tyče a ťahadlá"
+      - "Volant, ozubený hrebeň a riadiace tyče"
+      - "Volant, hriadeľ volantu a riadiace tyče"
+      - "Hriadeľ volantu, pastorok, hrebeň, delená spojovacia tyč, čapy a tiahla"
     correct: 1
-    explanation: "Volant, ozubený hrebeň a riadiace tyče -- volant je nasadený na stĺpik, ale hrebeň a tyče sú súčasťou prevodovky riadenia, nie stĺpika.<br>Brzdový pedál a hlavný brzdový valec -- to sú časti brzdového systému.<br>Prevodovka a kardanový hriadeľ -- to sú časti pohonného systému."
+    explanation: ""
 
   - id: "mechanizmus-riadenia-02"
     type: single
-    question: "Ako je zabezpečená bezpečnosť stĺpika riadenia pri čelnom náraze?"
+    question: "Čo je to stĺpik riadenia?"
     options:
-      - "Deformačnými zónami (hriadeľ sa skladá z viacerých častí, ktoré sa pri náraze zalomia) a teleskopickou funkciou (časti sa zasunú do seba)"
-      - "Stĺpik je vyrobený z nerozbitného materiálu"
-      - "Stĺpik sa pri náraze odpojí od volantu a vypadne pod vozidlo"
-      - "Stĺpik je obložený mäkkým materiálom"
+      - "Jednotný názov pre volant, hriadeľ volantu a jeho ochranný obal a kĺby"
+      - "Je to áčkový (A) stĺpik, nachádzajúci sa na vodičovej strane"
+      - "Stĺpik riadenia je len iný názov (synonymum) pre hriadeľ volantu"
+      - "Stĺpik riadenia je názov pre časť volantu, ktorá spája obvodový veniec so stredom volantu"
     correct: 1
-    explanation: "Nerozbitný materiál -- podstatou nie je nerozbitnosť, ale kontrolovaná deformácia a pohltenie energie.<br>Odpojenie a vypadnutie -- stĺpik sa neodpojuje od volantu a nevypadáva pod vozidlo.<br>Obloženie mäkkým materiálom -- mäkký materiál chráni vodiča pri kontakte s volantom, ale bezpečnostná konštrukcia stĺpika je o deformačných zónach a teleskopickej funkcii."
+    explanation: ""
 
   - id: "mechanizmus-riadenia-03"
     type: single
-    question: "Aká je úloha prevodovky riadenia?"
+    question: "Aký typ prevodovky riadenia sa nachádza na obrázku?"
+    image: "/ucivo/2-rocnik/03-riadenie/maticova-prevodovka.png"
     options:
-      - "Premeniť otáčavý pohyb volantu na posuvný pohyb natáčajúci kolesá a zároveň zväčšiť silu vodiča"
-      - "Premeniť otáčavý pohyb kolies na posuvný pohyb volantu"
-      - "Zmenšiť silu vodiča a tým sťažiť ovládanie volantu"
-      - "Prenášať krútiaci moment z motora na prevodovku"
+      - "Maticová prevodovka"
+      - "Závitovkový mechanizmus"
+      - "Hrebeňové riadenie"
+      - "Recirkulačná guľôčková skrutka"
     correct: 1
-    explanation: "Premeniť pohyb kolies na pohyb volantu -- prevodovka riadenia funguje naopak, premieňa pohyb volantu na pohyb kolies.<br>Zmenšiť silu vodiča -- prevodovka riadenia silu ZVÄČŠUJE, nie zmenšuje.<br>Prenášať krútiaci moment z motora -- to je úloha prevodovky pohonu, nie prevodovky riadenia."
+    explanation: ""
 
   - id: "mechanizmus-riadenia-04"
+    type: single
+    question: "Aký typ prevodovky riadenia sa nachádza na obrázku?"
+    image: "/ucivo/2-rocnik/03-riadenie/worm-and-sector.jpg"
+    options:
+      - "Maticová prevodovka"
+      - "Závitovkový mechanizmus"
+      - "Hrebeňové riadenie"
+      - "Recirkulačná guľôčková skrutka"
+    correct: 2
+    explanation: ""
+
+  - id: "mechanizmus-riadenia-05"
+    type: single
+    question: "Aký typ prevodovky riadenia sa nachádza na obrázku?"
+    image: "/ucivo/2-rocnik/03-riadenie/rack-and-pinion.webp"
+    options:
+      - "Maticová prevodovka"
+      - "Závitovkový mechanizmus"
+      - "Hrebeňové riadenie"
+      - "Recirkulačná guľôčková skrutka"
+    correct: 3
+    explanation: ""
+
+  - id: "mechanizmus-riadenia-06"
+    type: single
+    question: "Aký typ prevodovky riadenia sa nachádza na obrázku?"
+    image: "/ucivo/2-rocnik/03-riadenie/recirculating-ball.avif"
+    options:
+      - "Maticová prevodovka"
+      - "Závitovkový mechanizmus"
+      - "Hrebeňové riadenie"
+      - "Recirkulačná guľôčková skrutka"
+    correct: 4
+    explanation: ""
+
+  - id: "mechanizmus-riadenia-07"
     type: single
     question: "Čo znamená prevodový pomer 15:1 pri riadení?"
     options:
@@ -46,18 +83,18 @@ questions:
     correct: 1
     explanation: "Pri otočení volantu o 1° sa kolesá natočia o 15° -- to by bol prevodový pomer 1:15, nie 15:1.<br>Volant sa musí otočiť 15 krát na jedno otočenie kolesa -- kolesá sa neotáčajú o plné otočky, natáčajú sa len o uhol.<br>15 prevodových stupňov -- prevodovka riadenia nemá prevodové stupne, prevodový pomer udáva vzťah medzi natočením volantu a kolies."
 
-  - id: "mechanizmus-riadenia-05"
+  - id: "mechanizmus-riadenia-08"
     type: single
     question: "Ako funguje variabilný prevodový pomer riadenia?"
     options:
-      - "V stredovej polohe volantu je prevodový pomer väčší (stabilnejšia jazda na diaľnici), v krajnej polohe je menší (ľahšie parkovanie)"
+      - "V stredovej polohe volantu je prevodový pomer väčší, v krajnej polohe je menší"
       - "V stredovej polohe volantu je prevodový pomer menší a v krajnej polohe väčší"
-      - "Prevodový pomer sa mení podľa rýchlosti motora"
-      - "Prevodový pomer sa mení podľa teploty vonkajšieho prostredia"
+      - "Prevodový pomer sa mení podľa rýchlosti vozdila (väčší pri väčšej rýchlosti a menší pri menšej rýchlosti)"
+      - "Prevodový pomer sa mení podľa rýchlosti vozdila (väčší pri menšej rýchlosti a menší pri väčšej rýchlosti)"
     correct: 1
-    explanation: "V stredovej menší a v krajnej väčší -- je to presne naopak; väčší pomer v strede (stabilita), menší v kraji (manévrovateľnosť).<br>Podľa rýchlosti motora -- variabilný prevodový pomer závisí od polohy volantu, nie od otáčok motora.<br>Podľa teploty -- teplota nemá vplyv na prevodový pomer riadenia."
+    explanation: ""
 
-  - id: "mechanizmus-riadenia-06"
+  - id: "mechanizmus-riadenia-09"
     type: single
     question: "Aký je dnes najbežnejší typ prevodovky riadenia v osobných autách?"
     options:
@@ -68,39 +105,6 @@ questions:
     correct: 3
     explanation: "Maticová prevodovka -- je to starší systém s väčším trením, v moderných osobných autách sa už nepoužíva.<br>Závitovkový mechanizmus -- používa sa v niektorých ťažších vozidlách, ale nie je najbežnejší v osobných autách.<br>Recirkulačná guľôčková skrutka -- používa sa hlavne v nákladných autách, autobusoch a veľkých SUV."
 
-  - id: "mechanizmus-riadenia-07"
-    type: single
-    question: "Ako funguje hrebeňové riadenie?"
-    options:
-      - "Malé ozubené koleso (pastorok) na konci hriadeľa volantu posúva dlhú ozubenú tyč (hrebeň) doľava alebo doprava, čím natáča kolesá"
-      - "Závitovka (červík) na konci hriadeľa otáča ozubeným sektorom"
-      - "Závitová tyč (skrutka) posúva maticu hore alebo dole"
-      - "Oceľové guľôčky obiehajú medzi závitmi skrutky a matice"
-    correct: 1
-    explanation: "Závitovka otáča ozubeným sektorom -- takto funguje závitovkový mechanizmus.<br>Závitová tyč posúva maticu -- takto funguje maticová prevodovka.<br>Guľôčky obiehajú medzi závitmi -- takto funguje recirkulačná guľôčková skrutka."
-
-  - id: "mechanizmus-riadenia-08"
-    type: single
-    question: "Kde sa najčastejšie používa recirkulačná guľôčková skrutka?"
-    options:
-      - "V nákladných autách, autobusoch a veľkých SUV"
-      - "V malých osobných automobiloch"
-      - "V motocykloch"
-      - "V závodných formulách"
-    correct: 1
-    explanation: "V malých osobných automobiloch -- tam sa používa hrebeňové riadenie.<br>V motocykloch -- motocykle nepoužívajú prevodovku riadenia, riadenie je priame cez vidlicu.<br>V závodných formulách -- tam sa používa hrebeňové riadenie pre svoju presnosť."
-
-  - id: "mechanizmus-riadenia-09"
-    type: single
-    question: "Aký je maximálny uhol natočenia kolies na každú stranu?"
-    options:
-      - "Zvyčajne 35° až 45°"
-      - "Zvyčajne 90° až 180°"
-      - "Zvyčajne 5° až 10°"
-      - "Zvyčajne 360°"
-    correct: 1
-    explanation: "90° až 180° -- to by bol extrémne veľký uhol, kolesá by narážali do karosérie.<br>5° až 10° -- to by bol príliš malý uhol, vozidlo by nedokázalo zatočiť v meste.<br>360° -- kolesá sa nemôžu otočiť o celú otáčku, sú obmedzené dorazmi."
-
   - id: "mechanizmus-riadenia-10"
     type: write
     question: "Ako sa nazývajú pohyblivé spoje na riadiacich tyčiach, ktoré umožňujú vertikálny aj horizontálny pohyb? (prosím, píšte aj s diakritikou)"
@@ -110,8 +114,6 @@ questions:
 
   - id: "mechanizmus-riadenia-11"
     type: write
-    question: "Ako sa nazýva drážkovanie, pomocou ktorého je volant nasadený na hriadeľ riadenia? (prosím, píšte aj s diakritikou)"
+    question: "Ako sa nazýva drážkovanie, pomocou ktorého je volant nasadený na hriadeľ volantu? (prosím, píšte aj s diakritikou)"
     accepted_answers:
       - "tisíchran"
-      - "jemné drážkovanie"
-      - "drážkovanie"

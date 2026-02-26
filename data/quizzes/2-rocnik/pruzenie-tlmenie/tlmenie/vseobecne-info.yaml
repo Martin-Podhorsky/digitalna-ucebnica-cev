@@ -4,14 +4,14 @@ year: 2
 questions:
   - id: "tlmenie-vseobecne-01"
     type: single
-    question: "Na čo slúžia tlmiče?"
+    question: "Na čo slúžia tlmiče pruženia?"
     options:
-      - "Na zabránenie rozkmitania pružín -- premieňajú kinetickú energiu kmitania na teplo"
+      - "Na zabránenie rozkmitania pružín po prejazde nerovnosťou"
       - "Na zvýšenie únosnosti pružín pri veľkom zaťažení"
-      - "Na nastavovanie svetlej výšky vozidla"
-      - "Na vedenie nápravy v správnom smere"
+      - "Na tlmenie hluku vytváraného motorom"
+      - "Na tlmenie nárazov spôsobených nerovnosťami vozovky"
     correct: 1
-    explanation: "Zvýšenie únosnosti pružín -- tlmiče nezvyšujú únosnosť, ale tlmia kmitanie pružín.<br>Nastavovanie svetlej výšky -- to je funkcia pneumatického alebo hydropneumatického pruženia, nie tlmičov.<br>Vedenie nápravy -- na to slúžia ramená zavesenia, nie tlmiče (hoci niektoré typy tlmičov, napr. MacPherson, čiastočne plnia aj vodiacu funkciu)."
+    explanation: ""
 
   - id: "tlmenie-vseobecne-02"
     type: single
@@ -39,7 +39,7 @@ questions:
     type: single
     question: "Ako delíme tlmiče podľa konštrukcie?"
     options:
-      - "Dvojplášťové (twin-tube) a jednoplášťové (mono-tube)"
+      - "Dvojplášťové a jednoplášťové"
       - "Olejové (hydraulické) a plynokvapalinové"
       - "Pasívne, nastaviteľné a adaptívne"
       - "Jednolistové a viaclistové"
@@ -50,39 +50,40 @@ questions:
     type: single
     question: "Ako delíme tlmiče podľa tlmiaceho média?"
     options:
-      - "Dvojplášťové (twin-tube) a jednoplášťové (mono-tube)"
+      - "Dvojplášťové a jednoplášťové"
       - "Olejové (hydraulické) a plynokvapalinové"
       - "Pasívne, nastaviteľné a adaptívne"
-      - "Lineárne a progresívne"
+      - "Vlnovcové a valivé"
     correct: 2
-    explanation: "Dvojplášťové a jednoplášťové -- toto je rozdelenie podľa konštrukcie, nie podľa tlmiaceho média.<br>Pasívne, nastaviteľné a adaptívne -- toto je rozdelenie podľa možnosti nastavenia.<br>Lineárne a progresívne -- toto je rozdelenie vinutých pružín podľa charakteristiky."
+    explanation: ""
 
   - id: "tlmenie-vseobecne-06"
     type: single
     question: "Ako delíme tlmiče podľa možnosti nastavenia?"
     options:
-      - "Dvojplášťové (twin-tube) a jednoplášťové (mono-tube)"
+      - "Dvojplášťové a jednoplášťové"
       - "Olejové (hydraulické) a plynokvapalinové"
-      - "Pasívne, nastaviteľné a adaptívne (elektronicky riadené)"
-      - "Vlnovcové a valivé"
+      - "Pasívne, nastaviteľné a adaptívne"
+      - "Lineárne a progresívne"
     correct: 3
-    explanation: "Dvojplášťové a jednoplášťové -- toto je rozdelenie podľa konštrukcie.<br>Olejové a plynokvapalinové -- toto je rozdelenie podľa tlmiaceho média.<br>Vlnovcové a valivé -- toto je rozdelenie vzduchových mechov pneumatického pruženia."
-
-  - id: "tlmenie-vseobecne-07"
-    type: single
-    question: "Aký je hlavný rozdiel medzi plynokvapalinovou a olejovou náplňou tlmiča?"
-    options:
-      - "Plynokvapalinové tlmiče obsahujú olej aj stlačený dusík, čo znižuje náchylnosť na spenenie oleja"
-      - "Plynokvapalinové tlmiče neobsahujú olej, iba stlačený plyn"
-      - "Olejové tlmiče sú vždy jednoplášťové a plynokvapalinové vždy dvojplášťové"
-      - "Olejové tlmiče sú drahšie ako plynokvapalinové"
-    correct: 1
-    explanation: "Plynokvapalinové neobsahujú olej -- obsahujú olej aj stlačený plyn (dusík).<br>Olejové sú vždy jednoplášťové -- obidva typy môžu byť jednoplášťové aj dvojplášťové.<br>Olejové sú drahšie -- plynokvapalinové sú spravidla drahšie kvôli zložitejšej konštrukcii."
+    explanation: ""
 
   - id: "tlmenie-vseobecne-08"
     type: write
     question: "Na akú energiu premieňajú tlmiče kinetickú energiu kmitania pružín? (prosím, píšte aj s diakritikou)"
     accepted_answers:
       - "teplo"
+      - "tepelnú"
       - "tepelnú energiu"
       - "tepelná energia"
+
+  - id: "tlmenie-vseobecne-09"
+    type: single
+    question: "Podľa akých kritérií vieme rozdeliť tlmiče pruženia?"
+    options:
+      - "Podľa konštrukcie, tlmiaceho média a možnosti nastavenia"
+      - "Dvojplášťové a jednoplášťové"
+      - "Olejové (hydraulické) a plynokvapalinové"
+      - "Pasívne, nastaviteľné a adaptívne"
+    correct: 1
+    explanation: ""

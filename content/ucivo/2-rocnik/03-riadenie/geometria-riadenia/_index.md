@@ -75,7 +75,7 @@ Odklon kolesa spôsobuje vznik axiálnej sily, ktorá vymedzuje vôlu v ložisk�
 
 ## Príklon osi riadenia (σ)
 
-Príklon osi riadenia (σ) je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade spredu na vozidlo.
+Príklon osi riadenia (σ) je uhol medzi osou otáčania kolesa pri riadení (osou riadenia) a zvislicou, meraný pri pohľade spredu na vozidlo.
 
 {{< figure src="priklon-osi-riadenia.png" alt="Príklon osi riadenia" width="100%" caption="Obr. 12.16 - Príklon osi riadenia (σ)" >}}
 

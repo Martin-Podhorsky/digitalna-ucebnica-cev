@@ -17,7 +17,7 @@ questions:
     type: single
     question: "Ako funguje manuálna regulácia tlmenia?"
     options:
-      - "Otáčaním regulátora sa mení prierez prietokového kanála v tlmiči, čím sa ovplyvňuje tvrdosť tlmenia -- nastavenie sa vykonáva pri stojiacom vozidle"
+      - "Otáčaním regulátora sa mení prierez prietokového kanála v tlmiči, čím sa ovplyvňuje tvrdosť tlmenia (vykonáva sa pri stojacom vozidle)"
       - "Riadiaca jednotka automaticky upravuje tlmenie podľa jazdných podmienok"
       - "Vodič mení tvrdosť tlmenia počas jazdy pomocou tlačidla v kabíne"
       - "Tlmenie sa nastavuje výmenou oleja s rôznou viskozitou"
@@ -26,104 +26,23 @@ questions:
 
   - id: "tlmice-s-regulaciou-03"
     type: single
-    question: "Čím sa líši poloautomatická regulácia od manuálnej?"
+    question: "Aké veličiny monitoruje riadiaca jednotka pri aktívnom tlmení?"
     options:
-      - "Vodič môže prepínať medzi režimami (napr. Comfort, Normal, Sport) počas jazdy pomocou tlačidla, namiesto mechanického nastavovania pri stojiacom vozidle"
-      - "Poloautomatická regulácia nevyžaduje žiadny zásah vodiča"
-      - "Poloautomatická regulácia sa nastavuje iba v servise"
-      - "Manuálna regulácia je drahšia ako poloautomatická"
+      - "Polohu karosérie voči kolesám, rýchlosť vozidla, uhol natočenia volantu, polohu plynového a brzdového pedálu, teplotu oleja v tlmiči"
+      - "Rýchlostné senzory, senzory zrýchlenia, senzory polohy plynového a brzdového pedálu, senzor uhla natočenia volantu"
+      - "Stav nádrže, stav batérie, počet najazdených kilometrov"
+      - "Iba teplotu oleja v tlmiči, polohu karosérie voči kolesám a uhol natočenia volantu"
     correct: 1
-    explanation: "Nevyžaduje žiadny zásah vodiča -- poloautomatická regulácia vyžaduje zásah vodiča (výber režimu), úplne automatická je len adaptívna regulácia.<br>Nastavuje sa iba v servise -- poloautomatická sa nastavuje priamo z kabíny vodiča počas jazdy.<br>Manuálna je drahšia -- spravidla naopak, poloautomatická je drahšia vďaka elektronike."
-
-  - id: "tlmice-s-regulaciou-04"
-    type: single
-    question: "Ako funguje aktívne (adaptívne) tlmenie?"
-    options:
-      - "Riadiaca jednotka automaticky a nepretržite upravuje tlmenie každého kolesa nezávisle na základe údajov zo senzorov v reálnom čase"
-      - "Vodič manuálne prepína medzi režimami Comfort, Normal a Sport"
-      - "Mechanik nastavuje tvrdosť tlmenia otáčaním regulátora pri stojiacom vozidle"
-      - "Tlmiče sa automaticky vymenia po dosiahnutí určitého počtu kilometrov"
-    correct: 1
-    explanation: "Vodič manuálne prepína medzi režimami -- to popisuje poloautomatickú reguláciu, nie aktívnu.<br>Mechanik nastavuje tvrdosť otáčaním regulátora -- to popisuje manuálnu reguláciu.<br>Automatická výmena tlmičov -- tlmiče sa nevymieňajú automaticky, aktívne tlmenie znamená automatické prispôsobovanie charakteristiky."
-
-  - id: "tlmice-s-regulaciou-05"
-    type: single
-    question: "Aké snímače monitoruje riadiaca jednotka pri aktívnom tlmení?"
-    options:
-      - "Pohyby karosérie, rýchlosť vozidla, uhol natočenia volantu, polohu plynového a brzdového pedálu"
-      - "Iba rýchlosť vozidla"
-      - "Iba teplotu oleja v tlmiči"
-      - "Iba otáčky motora a stupeň zaradený v prevodovke"
-    correct: 1
-    explanation: "Iba rýchlosť vozidla -- riadiaca jednotka vyhodnocuje viacero údajov, nielen rýchlosť.<br>Iba teplotu oleja -- teplota oleja nie je primárnym vstupom pre riadenie adaptívneho tlmenia.<br>Iba otáčky motora a stupeň prevodovky -- tieto údaje priamo nesúvisia s riadením tlmenia."
-
-  - id: "tlmice-s-regulaciou-06"
-    type: single
-    question: "Ako fungujú tlmiče s elektromagnetickými (solenoidovými) ventilmi?"
-    options:
-      - "Prúd prechádzajúci cievkou ventilu vytvára magnetické pole, ktoré ovláda polohu ihly alebo klapky -- zmenou prúdu sa mení prierez prietokového otvoru a tým aj tvrdosť tlmenia"
-      - "Ventily sa otvárajú a zatvárajú pomocou mechanických pružín"
-      - "Ventily sú ovládané stlačeným vzduchom z kompresora"
-      - "Ventily sa otvárajú len pri vysokých teplotách oleja"
-    correct: 1
-    explanation: "Mechanické pružiny -- solenoidové ventily sú ovládané elektricky (elektromagneticky), nie mechanicky.<br>Stlačený vzduch z kompresora -- pneumatické ovládanie sa pri solenoidových ventiloch nepoužíva.<br>Otvárajú sa len pri vysokých teplotách -- solenoidové ventily reagujú na elektrický prúd, nie na teplotu."
-
-  - id: "tlmice-s-regulaciou-07"
-    type: single
-    question: "Čo obsahuje magnetoreologická kvapalina?"
-    options:
-      - "Mikroskopické kovové častice (železný prášok) rozptýlené v syntetickom oleji"
-      - "Stlačený dusík zmiešaný s brzdovou kvapalinou"
-      - "Vodu s antikoróznou prísadou"
-      - "Gumové guličky rozptýlené v minerálnom oleji"
-    correct: 1
-    explanation: "Stlačený dusík s brzdovou kvapalinou -- to nemá nič spoločné s magnetoreologickou kvapalinou.<br>Vodu s antikoróznou prísadou -- to popisuje chladiacu kvapalinu, nie magnetoreologickú.<br>Gumové guličky -- magnetoreologická kvapalina obsahuje kovové (železné) častice, nie gumové."
-
-  - id: "tlmice-s-regulaciou-08"
-    type: single
-    question: "Čo sa stane s magnetoreologickou kvapalinou, keď elektromagnetická cievka v pieste vytvorí magnetické pole?"
-    options:
-      - "Kovové častice sa zoradia do reťazcov v smere magnetických siločiar, čím sa zvýši viskozita kvapaliny a tým aj tlmiaca sila"
-      - "Kvapalina sa zahrieva a mení skupenstvo na plyn"
-      - "Kovové častice sa usadia na dne tlmiča"
-      - "Kvapalina sa stane menej viskóznou a tlmenie sa zmäkčí"
-    correct: 1
-    explanation: "Kvapalina sa zahrieva a mení na plyn -- magnetické pole nemení skupenstvo kvapaliny.<br>Kovové častice sa usadia na dne -- magnetické pole ich zoraďuje do reťazcov, neusadzuje ich na dno.<br>Kvapalina sa stane menej viskóznou -- naopak, magnetické pole viskozitu zvyšuje, čím sa tlmenie stvrdne."
-
-  - id: "tlmice-s-regulaciou-09"
-    type: single
-    question: "Aká je odozva magnetoreologických tlmičov v porovnaní so solenoidovými?"
-    options:
-      - "Magnetoreologické tlmiče sú rýchlejšie -- ich odozva je menej ako 1 milisekunda, kým solenoidové reagujú v niekoľkých milisekundách"
-      - "Solenoidové tlmiče sú rýchlejšie ako magnetoreologické"
-      - "Oba typy majú rovnakú odozvu"
-      - "Magnetoreologické tlmiče reagujú až po niekoľkých sekundách"
-    correct: 1
-    explanation: "Solenoidové sú rýchlejšie -- naopak, magnetoreologické sú rýchlejšie (pod 1 ms vs. niekoľko ms).<br>Oba majú rovnakú odozvu -- magnetoreologické sú rýchlejšie.<br>Magnetoreologické reagujú po sekundách -- ich odozva je pod 1 milisekundu, čo je extrémne rýchle."
+    explanation: ""
 
   - id: "tlmice-s-regulaciou-10"
     type: single
-    question: "Aké sú nevýhody magnetoreologických tlmičov?"
+    question: "Ako fungujú Magnetoreologické tlmiče (MagneRide)?"
     options:
-      - "Vysoká cena kvapaliny aj tlmičov, špeciálna kvapalina vyžaduje pravidelnú výmenu a náročná výroba a údržba"
-      - "Pomalá odozva, hlučná prevádzka a nízka spoľahlivosť"
-      - "Nemožnosť plynulej regulácie a obmedzený rozsah nastavenia"
-      - "Závislosti vlastností od teploty a stárnutie vplyvom UV žiarenia"
+      - "V hydraulickom oleji sú rozptýlené malé kovové častice. V normálnom stave sa častice voľne pohybujú a kvapalina má nízku viskozitu. Keď elektromagnetická cievka v pieste vytvorí magnetické pole, kovové častice sa zoradia do reťazcov v smere magnetických siločiar. Tieto reťazce vytvárajú odpor voči prúdeniu kvapaliny, čím sa zvyšuje viskozita a tým aj tlmiaca sila."
+      - "Na oboch koncoch tlmiča sa nachádzajú elektromagnety. V pieste je vložený permanentný magnet. Zmenou prúdu pretekajúceho cievkami elektromagnetov sa mení sila magnetického poľa, ktoré kladie odpor voči pohybu piesta, a tým sa tlmenie stáva tvrdším alebo mäkkším (podľa veľkosti prúdu)."
+      - "Jednocestné ventily v pieste majú variabilný prierez, ktorého veľkosť sa ovláda pomocou elektromagentov. Zmena prierezu priamo ovplyvňuje veľkosť tlmiacej sily."
+      - "V tlmiči sa nachádza hydrualický olej s prvkami Mangánu (Mn), ktorý zlepšuje jeho vlastnosti"
     correct: 1
-    explanation: "Pomalá odozva, hlučná prevádzka a nízka spoľahlivosť -- naopak, magnetoreologické tlmiče majú extrémne rýchlu odozvu, tichú prevádzku a vysokú spoľahlivosť.<br>Nemožnosť plynulej regulácie -- naopak, plynulá regulácia v širokom rozsahu je jednou z ich výhod.<br>Závislosť od teploty a UV žiarenia -- to sú nevýhody gumového pruženia."
+    explanation: ""
 
-  - id: "tlmice-s-regulaciou-11"
-    type: write
-    question: "Ako sa nazýva systém adaptívneho tlmenia od VW/Audi/Škoda? (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "DCC"
-      - "Dynamic Chassis Control"
-
-  - id: "tlmice-s-regulaciou-12"
-    type: write
-    question: "Ako sa nazýva technológia adaptívneho tlmenia využívajúca magnetoreologickú kvapalinu, ktorú používa napr. Audi, Cadillac, Ferrari alebo Corvette? (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "MagneRide"
-      - "Magneride"
-      - "magnetoreologické tlmiče"
-      - "magnetoreologické tlmenie"
