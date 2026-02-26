@@ -90,98 +90,35 @@ questions:
     correct: 4
     explanation: ""
 
-
-
-
-
-  - id: "geometria-riadenia-05"
-    type: single
-    question: "Prečo majú moderné športové vozidlá často negatívny odklon kolies?"
-    options:
-      - "Pretože pri náklone karosérie v zákrute sa vonkajšie koleso vyrovná a pneumatika má väčšiu styčnú plochu s vozovkou"
-      - "Pretože negatívny odklon znižuje opotrebenie pneumatík v priamom smere"
-      - "Pretože negatívny odklon zvyšuje maximálnu rýchlosť"
-      - "Pretože negatívny odklon zjednodušuje parkovanie"
-    correct: 1
-    explanation: "Znižuje opotrebenie pneumatík v priamom smere -- naopak, negatívny odklon spôsobuje opotrebenie vnútornej strany pneumatiky v priamom smere.<br>Zvyšuje maximálnu rýchlosť -- negatívny odklon priamo neovplyvňuje maximálnu rýchlosť.<br>Zjednodušuje parkovanie -- negatívny odklon nesúvisí s parkovaním."
-
-  - id: "geometria-riadenia-07"
-    type: single
-    question: "Čo zabezpečuje príklon osi riadenia (σ)?"
-    options:
-      - "Samovoľné vracanie kolies do priameho smeru, pretože pri natočení kolesa dochádza k zdvihnutiu prednej časti vozidla, ktoré sa vplyvom gravitácie snaží vrátiť"
-      - "Zvýšenie maximálnej rýchlosti vozidla"
-      - "Zníženie spotreby paliva"
-      - "Zlepšenie brzdného účinku"
-    correct: 1
-    explanation: "Zvýšenie maximálnej rýchlosti -- príklon osi riadenia neovplyvňuje maximálnu rýchlosť.<br>Zníženie spotreby paliva -- príklon osi riadenia priamo nesúvisí so spotrebou paliva.<br>Zlepšenie brzdného účinku -- príklon osi riadenia priamo neovplyvňuje brzdenie."
-
-  - id: "geometria-riadenia-08"
-    type: single
-    question: "Čo je to záklon osi riadenia (τ) a aký je jeho hlavný vplyv?"
-    options:
-      - "Uhol medzi osou otáčania kolesa a zvislicou pri pohľade zboku -- je hlavným faktorom zabezpečujúcim samovoľné vracanie kolies do priameho smeru"
-      - "Uhol medzi osou otáčania kolesa a zvislicou pri pohľade spredu -- znižuje hmotnosť riadenia"
-      - "Vzdialenosť medzi prednou a zadnou nápravou -- zlepšuje komfort jazdy"
-      - "Uhol natočenia kolies v zákrute -- zmenšuje polomer otáčania"
-    correct: 1
-    explanation: "Uhol pri pohľade spredu -- to je príklon osi riadenia, nie záklon. Záklon sa meria pri pohľade zboku.<br>Vzdialenosť medzi nápravami -- to je rázvor náprav.<br>Uhol natočenia v zákrute -- to je diferenčný uhol."
-
   - id: "geometria-riadenia-09"
     type: single
-    question: "Čo je to závlek kolesa (nₖ)?"
+    question: "Čo je to diferenčný uhol?"
     options:
-      - "Vzdialenosť medzi bodom pretnutia predĺženej osi riadenia s vozovkou a stredom dotykovej plochy pneumatiky v pozdĺžnom smere -- je priamym dôsledkom záklonu osi riadenia"
-      - "Vzdialenosť medzi ľavým a pravým kolesom na jednej náprave"
-      - "Vzdialenosť medzi prednou a zadnou nápravou"
-      - "Uhol medzi rovinou kolesa a zvislicou"
+      - "Je rozdiel medzi uhlom natočenia vnútorného a vonkajšieho kolesa pri prejazde zákrutou."
+      - "Je rozdiel medzi uhlom natočenia zadného a predného kolesa pri prejazde zákrutou."
+      - "Je rozdiel medzi uhlom natočenia pravého a ľavého kolesa pri prejazde zákrutou."
+      - "Je rozdiel medzi uhlom natočenia lavého a pravého kolesa pri prejazde zákrutou."
     correct: 1
-    explanation: "Vzdialenosť medzi ľavým a pravým kolesom -- to je rozchod kolies.<br>Vzdialenosť medzi prednou a zadnou nápravou -- to je rázvor náprav.<br>Uhol medzi rovinou kolesa a zvislicou -- to je odklon kolesa."
+    explanation: ""
 
   - id: "geometria-riadenia-10"
     type: single
-    question: "Čo platí pre negatívny polomer riadenia (r₀)?"
+    question: "Čo je to rozchod kolies?"
     options:
-      - "Pri rozdielnej intenzite brzdenia ľavého a pravého kolesa automaticky kompenzuje ťahanie vozidla do strany -- je štandardom pre moderné vozidlá s predným náhonom a ABS"
-      - "Poskytuje lepšiu spätnú väzbu od vozovky cez volant a uľahčuje parkovanie"
-      - "Minimalizuje spätnú väzbu od vozovky a sťažuje otáčanie volantom pri státí"
-      - "Používa sa výhradne na závodných vozidlách"
+      - "Je vzdialenosť medzi stredmi styčných plôch ľavej a pravej pneumatiky na jednej náprave."
+      - "Je vzdialenosť medzi prednou a zadnou nápravou."
+      - "Je rozdiel vzdialenosti medzi pravým a ľavým zadným kolesom a vzdialenosti medzi pravým a ľavým predným kolesom."
+      - "Je vzdialenosť medzi stredmi styčných plôch prednej a zadnej pneumatiky."
     correct: 1
-    explanation: "Lepšia spätná väzba a ľahšie parkovanie -- to sú vlastnosti pozitívneho polomeru riadenia, nie negatívneho.<br>Minimálna spätná väzba a sťažené otáčanie -- to sú vlastnosti nulového polomeru riadenia.<br>Výhradne na závodných vozidlách -- negatívny polomer riadenia je štandardom pre moderné sériové vozidlá s predným náhonom."
+    explanation: ""
 
   - id: "geometria-riadenia-11"
     type: single
-    question: "Prečo musí vnútorné koleso pri prejazde zákrutou zvierať väčší uhol natočenia ako vonkajšie?"
+    question: "Čo je to rázvor náprav?"
     options:
-      - "Pretože vnútorné koleso opisuje oblúk s menším polomerom, a ak by boli uhly rovnaké, pneumatiky by sa bočne šmýkali"
-      - "Pretože vnútorné koleso je ťažšie zaťažené"
-      - "Pretože vonkajšie koleso je bližšie k okraju cesty"
-      - "Pretože vnútorné koleso sa otáča rýchlejšie"
-    correct: 1
-    explanation: "Vnútorné koleso je ťažšie zaťažené -- pri zatáčaní je naopak ťažšie zaťažené vonkajšie koleso, a to nie je dôvod rozdielneho uhla.<br>Vonkajšie koleso je bližšie k okraju cesty -- poloha voči okraju cesty nesúvisí s diferenčným uhlom.<br>Vnútorné koleso sa otáča rýchlejšie -- naopak, vonkajšie koleso sa otáča rýchlejšie, pretože opisuje väčší oblúk."
-
-  - id: "geometria-riadenia-12"
-    type: single
-    question: "Aký vplyv má dlhý rázvor náprav?"
-    options:
-      - "Lepšia stabilita pri vysokých rýchlostiach, väčší priestor, plynulejšia jazda, ale väčší polomer otáčania"
-      - "Lepšia manévrovateľnosť, menší polomer otáčania, ale menšia stabilita"
-      - "Zvyšuje maximálnu rýchlosť a znižuje spotrebu paliva"
-      - "Nemá žiadny vplyv na jazdné vlastnosti"
-    correct: 1
-    explanation: "Lepšia manévrovateľnosť a menší polomer otáčania -- toto je vplyv krátkeho rázvoru, nie dlhého.<br>Zvyšuje maximálnu rýchlosť -- rázvor náprav priamo neovplyvňuje maximálnu rýchlosť.<br>Nemá žiadny vplyv -- rázvor náprav má výrazný vplyv na jazdné vlastnosti."
-
-  - id: "geometria-riadenia-13"
-    type: write
-    question: "Ako sa nazýva geometria, ktorá zabezpečuje správny diferenčný uhol medzi vnútorným a vonkajším kolesom pri prejazde zákrutou? (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "Ackermannova geometria"
-      - "Ackermann"
-      - "Ackermannova"
-
-  - id: "geometria-riadenia-14"
-    type: write
-    question: "Ako sa nazýva vzdialenosť medzi stredmi styčných plôch ľavej a pravej pneumatiky na jednej náprave? (prosím, píšte aj s diakritikou)"
-    accepted_answers:
-      - "rozchod kolies"
-      - "rozchod"
+      - "Je vzdialenosť medzi stredmi styčných plôch ľavej a pravej pneumatiky na jednej náprave."
+      - "Je vzdialenosť medzi prednou a zadnou nápravou."
+      - "Je rozdiel vzdialenosti medzi pravým a ľavým zadným kolesom a vzdialenosti medzi pravým a ľavým predným kolesom."
+      - "Je vzdialenosť medzi vzdialenými koncami prednej a zadnej pneumatiky."
+    correct: 2
+    explanation: ""

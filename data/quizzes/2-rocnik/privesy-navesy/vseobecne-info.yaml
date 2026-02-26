@@ -4,17 +4,6 @@ year: 2
 questions:
   - id: "privesy-navesy-vseobecne-01"
     type: single
-    question: "Čo sú to prívesy a návesy?"
-    options:
-      - "Prípojné vozidlá bez vlastného pohonu, ktoré sa pripájajú za ťažné vozidlo na prepravu nákladu alebo osôb"
-      - "Samostatné motorové vozidlá určené na prepravu nákladu"
-      - "Časti karosérie ťažného vozidla"
-      - "Prídavné motory pripojené k ťažnému vozidlu pre zvýšenie výkonu"
-    correct: 1
-    explanation: "Samostatné motorové vozidlá -- prívesy a návesy nemajú vlastný pohon, nie sú to motorové vozidlá.<br>Časti karosérie ťažného vozidla -- sú to samostatné prípojné vozidlá, nie časti ťažného vozidla.<br>Prídavné motory -- prívesy a návesy neslúžia na zvýšenie výkonu, ale na prepravu."
-
-  - id: "privesy-navesy-vseobecne-02"
-    type: single
     question: "Aký je hlavný rozdiel medzi prívesom a návesom?"
     options:
       - "Príves má vlastnú prednú nápravu a pripája sa ojom, náves nemá prednú nápravu a opiera sa o ťahač prostredníctvom točnice a kráľovského čapu"
@@ -24,18 +13,7 @@ questions:
     correct: 1
     explanation: "Príves je väčší ako náves -- veľkosť nie je definujúci rozdiel, existujú veľké prívesy aj malé návesy.<br>Príves má vlastný motor -- ani príves, ani náves nemá vlastný motor.<br>Príves na osoby a náves na náklad -- obidva sa môžu používať na rôzne účely."
 
-  - id: "privesy-navesy-vseobecne-03"
-    type: single
-    question: "Koľko percent hmotnosti návesu sa prenáša na zadnú nápravu ťahača?"
-    options:
-      - "30 až 40%"
-      - "Iba 1 až 5%"
-      - "80 až 90%"
-      - "Presne 50%"
-    correct: 1
-    explanation: "Iba 1 až 5% -- pri prívesu sa prenáša iba minimálna časť (50-100 kg), ale pri návese je to 30-40%.<br>80 až 90% -- to by bolo príliš veľa, zvyšok hmotnosti nesú vlastné nápravy návesu.<br>Presne 50% -- typická hodnota je 30-40%, nie presne 50%."
-
-  - id: "privesy-navesy-vseobecne-04"
+  - id: "privesy-navesy-vseobecne-02"
     type: single
     question: "Prečo musí byť náves po odpojení od ťahača podopretý podpornými nohami?"
     options:
@@ -46,7 +24,7 @@ questions:
     correct: 1
     explanation: "Podporné nohy slúžia ako brzdy -- podporné nohy neslúžia na brzdenie, ale na podopretie prednej časti návesu.<br>Náves je príliš ľahký -- náves býva veľmi ťažký, problém je v tom, že nemá prednú nápravu.<br>Legislatíva vyžaduje, hoci by stál -- bez podporných nôh by náves skutočne spadol na zem."
 
-  - id: "privesy-navesy-vseobecne-05"
+  - id: "privesy-navesy-vseobecne-03"
     type: single
     question: "Aká je maximálna povolená dĺžka návesovej súpravy (ťahač + náves) v Európe?"
     options:
@@ -57,45 +35,106 @@ questions:
     correct: 1
     explanation: "18,75 m -- to je maximálna dĺžka prívesovej súpravy (vozidlo + príves), nie návesovej.<br>12,00 m -- to je maximálna dĺžka samotného prívesu.<br>25,00 m -- to presahuje maximálne povolené rozmery v Európe."
 
-  - id: "privesy-navesy-vseobecne-06"
+  - id: "privesy-navesy-vseobecne-04"
     type: single
-    question: "Aká je maximálna povolená šírka chladiarenských vozidiel v Európe?"
+    question: "Aká je maximálna povolená dĺžka prívesovej súpravy (vozidlo + príves) v Európe?"
     options:
-      - "2,55 m"
-      - "2,60 m"
-      - "3,00 m"
-      - "2,45 m"
+      - "16,50 m"
+      - "18,75 m"
+      - "12,00 m"
+      - "25,00 m"
     correct: 2
-    explanation: "2,55 m -- to je maximálna šírka všetkých bežných vozidiel, chladiarenské majú výnimku 2,60 m kvôli izolačným stenám.<br>3,00 m -- to presahuje maximálne povolené rozmery.<br>2,45 m -- to je šírka ložnej plochy, nie celková šírka vozidla."
+    explanation: ""
 
-  - id: "privesy-navesy-vseobecne-07"
+  - id: "privesy-navesy-vseobecne-05"
     type: write
     question: "Ako sa nazýva čap na spodnej strane prednej časti návesu, pomocou ktorého sa náves pripája k ťahači? (prosím, píšte aj s diakritikou)"
     accepted_answers:
       - "kráľovský čap"
       - "kráľovský"
+      - "kingpin"
 
-  - id: "privesy-navesy-vseobecne-08"
+  - id: "privesy-navesy-vseobecne-06"
     type: write
     question: "Ako sa nazýva zariadenie na ťahači, do ktorého sa uchytáva kráľovský čap návesu? (prosím, píšte aj s diakritikou)"
     accepted_answers:
       - "točnica"
       - "sedlová točnica"
+      - "fifth wheel"
 
-  - id: "privesy-navesy-vseobecne-09"
+  - id: "privesy-navesy-vseobecne-07"
     type: write
     question: "Ako sa nazýva tyč, pomocou ktorej sa príves pripája k ťažnému závesu? (prosím, píšte aj s diakritikou)"
     accepted_answers:
       - "oj"
       - "oje"
 
+  - id: "privesy-navesy-vseobecne-08"
+    type: write
+    question: "Ako sa nazýva časť ťažného vozidla, o ktorú sa pripája oj prívesu? (prosím, píšte aj s diakritikou)"
+    accepted_answers:
+      - "záves"
+      - "ťažný záves"
+      - "závesná časť"
+
+  - id: "privesy-navesy-vseobecne-09"
+    type: single
+    question: "Ako sa rozdeľujú prívesy podľa účelu použitia?"
+    options:
+      - "Nákladné, traktorové, karavanové, autobusové, špeciálne"
+      - "Valníkové, plachtové, skriňové, cisternové, chladiace, sklápacie, nízkoložné, kontajnerové"
+      - "Jednonápravové, dvojnápravové, trojnápravové, viacnápravové"
+      - "Ľahké, stredné, ťažké"
+    correct: 1
+    explanation: ""
+
   - id: "privesy-navesy-vseobecne-10"
     type: single
-    question: "Aký je normalizovaný priemer kráľovského čapu pre bežné návesy v Európe?"
+    question: "Čo sa nachádza na obrázku?"
+    image: "/ucivo/2-rocnik/04-privesy-navesy/autobusovy-prives.jpg"
     options:
-      - "2 palce (50,8 mm)"
-      - "3,5 palca (88,9 mm)"
-      - "40 mm"
-      - "50 mm"
+      - "Autobusový príves"
+      - "Autobusový náves"
+      - "Starý Volkswagen Microbus"
+      - "Valník"
     correct: 1
-    explanation: "3,5 palca (88,9 mm) -- to je priemer pre ťažké návesy (nad 60 t), nie pre bežné.<br>40 mm -- to je priemer otvoru na oku oja pre ľahké prívesy.<br>50 mm -- to je priemer guľovej hlavice na guľovej spojke, nie kráľovského čapu."
+    explanation: ""
+
+  - id: "privesy-navesy-vseobecne-11"
+    type: single
+    question: "Čo sa nachádza na obrázku?"
+    image: "/ucivo/2-rocnik/04-privesy-navesy/plachtovy-naves.jpg"
+    options:
+      - "Plachtový náves"
+      - "Skriňový náves"
+      - "Plachtový príves"
+      - "Skriňový príves"
+      - "Valník"
+    correct: 1
+    explanation: ""
+
+  - id: "privesy-navesy-vseobecne-12"
+    type: single
+    question: "Čo sa nachádza na obrázku?"
+    image: "/ucivo/2-rocnik/04-privesy-navesy/skrinovy-naves.jpg"
+    options:
+      - "Plachtový náves"
+      - "Skriňový náves"
+      - "Plachtový príves"
+      - "Skriňový príves"
+      - "Valník"
+    correct: 2
+    explanation: ""
+
+  - id: "privesy-navesy-vseobecne-12"
+    type: single
+    question: "Čo sa nachádza na obrázku?"
+    image: "/ucivo/2-rocnik/04-privesy-navesy/valnik.jpg"
+    options:
+      - "Plachtový náves"
+      - "Skriňový náves"
+      - "Plachtový príves"
+      - "Skriňový príves"
+      - "Valník"
+    correct: 5
+    explanation: ""

@@ -45,7 +45,7 @@ questions:
       - "Nezaťažuje motor, nie je od neho závislí a umožňuje reguláciu zosilovacieho účinku"
       - "Stále vyžaduje údržbu, má zložitejšiu konštrukciu a je náchylný na poruchy"
     correct: 4
-    explanation: "
+    explanation: ""
 
   - id: "posilnovace-riadenia-05"
     type: single

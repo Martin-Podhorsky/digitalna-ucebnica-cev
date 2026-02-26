@@ -4,17 +4,6 @@ year: 2
 questions:
   - id: "manevrovatelnost-01"
     type: single
-    question: "Čo je to manévrovateľnosť súpravy?"
-    options:
-      - "Schopnosť vozidla s prívesom/návesom prechádzať zákrutami, cúvať a pohybovať sa v stiesnených priestoroch"
-      - "Maximálna rýchlosť, ktorú súprava dokáže dosiahnuť"
-      - "Schopnosť prívesu jazdiť bez ťažného vozidla"
-      - "Hmotnosť nákladu, ktorý dokáže súprava previezť"
-    correct: 1
-    explanation: "Maximálna rýchlosť -- manévrovateľnosť sa netýka rýchlosti, ale schopnosti pohybovať sa v stiesnených priestoroch.<br>Jazda bez ťažného vozidla -- príves sa bez ťažného vozidla nepohybuje, to nie je manévrovateľnosť.<br>Hmotnosť nákladu -- to je nosnosť, nie manévrovateľnosť."
-
-  - id: "manevrovatelnost-02"
-    type: single
     question: "Ako ovplyvňuje dĺžka súpravy jej manévrovateľnosť?"
     options:
       - "Dlhšia súprava má väčší polomer otáčania a horšiu manévrovateľnosť"
@@ -24,7 +13,7 @@ questions:
     correct: 1
     explanation: "Menší polomer otáčania -- naopak, dlhšia súprava má väčší polomer otáčania.<br>Dĺžka nemá vplyv -- dĺžka je jedným z hlavných faktorov ovplyvňujúcich manévrovateľnosť.<br>Lepšia manévrovateľnosť pri cúvaní -- naopak, dlhšia súprava je ťažšie ovládateľná pri cúvaní."
 
-  - id: "manevrovatelnost-03"
+  - id: "manevrovatelnost-02"
     type: single
     question: "Čo je to off-tracking?"
     options:
@@ -35,12 +24,23 @@ questions:
     correct: 1
     explanation: "Odpojenie prívesu -- off-tracking nie je odpojenie, ale vybočenie zadnej časti z dráhy prednej.<br>Prehrievanie pneumatík -- to nesúvisí s off-trackingom.<br>Príves predbeháva ťažné vozidlo -- príves nemôže predbehať ťažné vozidlo, pretože nemá vlastný pohon."
 
+  - id: "manevrovatelnost-03"
+    type: single
+    question: "Aký vplyv má rýchlosť jazdnej súpravy na off-tracking?"
+    options:
+      - "Čím väčšia rýchlosť, tým viac sa náves zarezáva do vnútra zákruty"
+      - "Čím väčšia rýchlosť, tým menej sa náves zarezáva do vnútra zákruty"
+      - "Rýchlosť nemá vplyv na off-tracking"
+      - "Čím väčšia rýchlosť, tým viac sa náves zarezáva do vonkajšej strany zákruty"
+    correct: 1
+    explanation: ""
+
   - id: "manevrovatelnost-04"
     type: single
     question: "Ktorý typ súpravy má lepšiu manévrovateľnosť?"
     options:
-      - "Návesová súprava (s točnicou) -- kratší polomer otáčania"
-      - "Prívesová súprava (s ojom) -- príves sleduje stopu presnejšie"
+      - "Návesová súprava"
+      - "Prívesová súprava"
       - "Oba typy majú rovnakú manévrovateľnosť"
       - "Závisí výhradne od rýchlosti jazdy"
     correct: 1
@@ -48,9 +48,9 @@ questions:
 
   - id: "manevrovatelnost-05"
     type: single
-    question: "Čo sa stane, ak je zadná časť návesu preťažená?"
+    question: "Čo sa stane, ak je zadná časť návesu preťažená (ťažisko nákladu je príliš vzadu) ?"
     options:
-      - "Hrozí nebezpečenstvo 'bičovania' (whip effect) pri prudkých manévroch"
+      - "Hrozí nebezpečenstvo 'bičovania' (whip effect) a straty stability"
       - "Náves bude stabilnejší v zákrutách"
       - "Zlepší sa trakcia ťahača"
       - "Zmenší sa polomer otáčania"
@@ -58,26 +58,15 @@ questions:
     explanation: "Náves bude stabilnejší -- naopak, preťaženie zadnej časti znižuje stabilitu a spôsobuje bičovanie.<br>Zlepší sa trakcia ťahača -- preťaženie zadnej časti návesu nemá pozitívny vplyv na trakciu ťahača; naopak, preťažená predná časť by preťažila zadnú nápravu ťahača.<br>Zmenší sa polomer otáčania -- preťaženie zadnej časti priamo neovplyvňuje polomer otáčania."
 
   - id: "manevrovatelnost-06"
-    type: single
-    question: "Ako riadené (natáčacie) nápravy ovplyvňujú manévrovateľnosť dlhých súprav?"
-    options:
-      - "Zlepšujú manévrovateľnosť, pretože sa natáčajú do smeru zákruty"
-      - "Zhoršujú manévrovateľnosť, pretože pridávajú hmotnosť"
-      - "Nemajú žiadny vplyv na manévrovateľnosť"
-      - "Zlepšujú iba stabilitu, nie manévrovateľnosť"
-    correct: 1
-    explanation: "Zhoršujú manévrovateľnosť pridaním hmotnosti -- pridaná hmotnosť je zanedbateľná v porovnaní so zlepšením manévrovateľnosti.<br>Nemajú žiadny vplyv -- riadené nápravy majú výrazný pozitívny vplyv na manévrovateľnosť.<br>Zlepšujú iba stabilitu -- zlepšujú predovšetkým manévrovateľnosť, pretože zmenšujú polomer otáčania."
-
-  - id: "manevrovatelnost-07"
     type: write
     question: "Ako sa nazýva krivka, ktorá určuje priestor potrebný na prejazd súpravy zákrutou? (prosím, píšte aj s diakritikou)"
     accepted_answers:
       - "vlečná krivka"
       - "swept path"
 
-  - id: "manevrovatelnost-08"
+  - id: "manevrovatelnost-07"
     type: write
-    question: "Ako sa po anglicky nazýva jav, kedy sa zadné kolesá prívesu zarezávajú do vnútra zákruty? (prosím, píšte aj s diakritikou)"
+    question: "Ako sa nazýva jav, kedy sa zadné kolesá prívesu zarezávajú do vnútra zákruty? (prosím, píšte aj s diakritikou)"
     accepted_answers:
       - "off-tracking"
       - "offtracking"

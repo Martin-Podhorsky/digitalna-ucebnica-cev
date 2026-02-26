@@ -96,7 +96,7 @@ questions:
 
   - id: "hydraulicky-brzdovy-system-10"
     type: single
-    question: "Ako sa nazýva toto usporiadanie brzdových okruhov? (prosím písať aj s diakritikou)"
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/TT.png"
     options:
       - "TT"
@@ -109,7 +109,7 @@ questions:
 
   - id: "hydraulicky-brzdovy-system-11"
     type: single
-    question: "Ako sa nazýva toto usporiadanie brzdových okruhov? (prosím písať aj s diakritikou)"
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/diagonalne.png"
     options:
       - "TT"
@@ -122,7 +122,7 @@ questions:
 
   - id: "hydraulicky-brzdovy-system-12"
     type: single
-    question: "Ako sa nazýva toto usporiadanie brzdových okruhov? (prosím písať aj s diakritikou)"
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/hh.png"
     options:
       - "TT"
@@ -135,7 +135,7 @@ questions:
 
   - id: "hydraulicky-brzdovy-system-13"
     type: single
-    question: "Ako sa nazýva toto usporiadanie brzdových okruhov? (prosím písať aj s diakritikou)"
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/LL.png"
     options:
       - "TT"
@@ -148,7 +148,7 @@ questions:
 
   - id: "hydraulicky-brzdovy-system-14"
     type: single
-    question: "Ako sa nazýva toto usporiadanie brzdových okruhov? (prosím písať aj s diakritikou)"
+    question: "Ako sa nazýva toto usporiadanie brzdových okruhov?"
     image: "/ucivo/2-rocnik/01-brzdy/hydraulicky-brzdovy-system/HT.png"
     options:
       - "TT"
