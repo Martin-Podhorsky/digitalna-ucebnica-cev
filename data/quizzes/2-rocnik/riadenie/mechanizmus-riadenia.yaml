@@ -11,7 +11,7 @@ questions:
       - "Volant, hriadeľ volantu a riadiace tyče"
       - "Hriadeľ volantu, pastorok, hrebeň, delená spojovacia tyč, čapy a tiahla"
     correct: 1
-    explanation: ""
+    explanation: "Volant, ozubený hrebeň a riadiace tyče -- chýba hriadeľ volantu a prevodovka riadenia; ozubený hrebeň je len jeden typ prevodovky.<br>Volant, hriadeľ volantu a riadiace tyče -- chýba prevodovka riadenia, ktorá je kľúčovou súčasťou mechanizmu.<br>Hriadeľ, pastorok, hrebeň, delená spojovacia tyč, čapy a tiahla -- toto sú konkrétne diely jedného typu systému (hrebeňové riadenie s delenou tyčou), nie všeobecné hlavné časti."
 
   - id: "mechanizmus-riadenia-02"
     type: single
@@ -22,7 +22,7 @@ questions:
       - "Stĺpik riadenia je len iný názov (synonymum) pre hriadeľ volantu"
       - "Stĺpik riadenia je názov pre časť volantu, ktorá spája obvodový veniec so stredom volantu"
     correct: 1
-    explanation: ""
+    explanation: "Áčkový (A) stĺpik na vodičovej strane -- A-stĺpik je konštrukčný prvok karosérie (stĺpik predného okna), nie súčasť riadenia.<br>Iný názov pre hriadeľ volantu -- stĺpik riadenia zahŕňa aj volant, obal a kĺby, nie len samotný hriadeľ.<br>Časť volantu spájajúca veniec so stredom -- to sú lúče (ramená) volantu, nie stĺpik riadenia."
 
   - id: "mechanizmus-riadenia-03"
     type: single
@@ -34,7 +34,7 @@ questions:
       - "Hrebeňové riadenie"
       - "Recirkulačná guľôčková skrutka"
     correct: 1
-    explanation: ""
+    explanation: "Závitovkový mechanizmus -- závitovkový mechanizmus používa závitovku (worm) a výsečový segment, nie skrutku s maticou.<br>Hrebeňové riadenie -- hrebeňové riadenie používa pastorok a ozubený hrebeň, nie skrutku s maticou.<br>Recirkulačná guľôčková skrutka -- recirkulačná guľôčková skrutka používa guľôčky cirkulujúce medzi skrutkou a maticou na zníženie trenia."
 
   - id: "mechanizmus-riadenia-04"
     type: single
@@ -46,7 +46,7 @@ questions:
       - "Hrebeňové riadenie"
       - "Recirkulačná guľôčková skrutka"
     correct: 2
-    explanation: ""
+    explanation: "Maticová prevodovka -- maticová prevodovka používa skrutku a maticu bez guľôčok, nie závitovku a výsečový segment.<br>Hrebeňové riadenie -- hrebeňové riadenie používa pastorok a ozubený hrebeň.<br>Recirkulačná guľôčková skrutka -- recirkulačná guľôčková skrutka je vylepšená verzia maticovej prevodovky s guľôčkami."
 
   - id: "mechanizmus-riadenia-05"
     type: single
@@ -58,7 +58,7 @@ questions:
       - "Hrebeňové riadenie"
       - "Recirkulačná guľôčková skrutka"
     correct: 3
-    explanation: ""
+    explanation: "Maticová prevodovka -- maticová prevodovka používa skrutku a maticu, nie pastorok a hrebeň.<br>Závitovkový mechanizmus -- závitovkový mechanizmus používa závitovku a výsečový segment.<br>Recirkulačná guľôčková skrutka -- recirkulačná guľôčková skrutka používa guľôčky v matici, nie ozubený hrebeň."
 
   - id: "mechanizmus-riadenia-06"
     type: single
@@ -70,7 +70,7 @@ questions:
       - "Hrebeňové riadenie"
       - "Recirkulačná guľôčková skrutka"
     correct: 4
-    explanation: ""
+    explanation: "Maticová prevodovka -- maticová prevodovka používa skrutku a maticu bez guľôčok; recirkulačná guľôčková skrutka je jej vylepšená verzia.<br>Závitovkový mechanizmus -- závitovkový mechanizmus používa závitovku a výsečový segment.<br>Hrebeňové riadenie -- hrebeňové riadenie používa pastorok a ozubený hrebeň."
 
   - id: "mechanizmus-riadenia-07"
     type: single
@@ -92,7 +92,7 @@ questions:
       - "Prevodový pomer sa mení podľa rýchlosti vozdila (väčší pri väčšej rýchlosti a menší pri menšej rýchlosti)"
       - "Prevodový pomer sa mení podľa rýchlosti vozdila (väčší pri menšej rýchlosti a menší pri väčšej rýchlosti)"
     correct: 1
-    explanation: ""
+    explanation: "V stredovej polohe menší, v krajnej väčší -- je to naopak; v strede je väčší pomer (menšia citlivosť pre stabilitu pri priamej jazde) a v krajnej polohe menší (rýchlejšie natáčanie kolies pri parkovaní).<br>Mení sa podľa rýchlosti, väčší pri väčšej -- variabilný prevodový pomer sa mení podľa polohy volantu, nie podľa rýchlosti vozidla.<br>Mení sa podľa rýchlosti, väčší pri menšej -- opäť, variabilný prevodový pomer závisí od polohy volantu, nie od rýchlosti."
 
   - id: "mechanizmus-riadenia-09"
     type: single

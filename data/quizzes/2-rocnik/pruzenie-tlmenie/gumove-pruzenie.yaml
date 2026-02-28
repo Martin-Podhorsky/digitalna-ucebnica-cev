@@ -11,7 +11,7 @@ questions:
       - "Horší komfort jazdy, obmedzený zdvih, náchylnosť na netesnosti"
       - "Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch"
     correct: 1
-    explanation: ""
+    explanation: "Jednoduchá konštrukcia, nízka cena, izolácia hluku a vibrácií -- toto sú výhody gumového pruženia, nie nevýhody.<br>Horší komfort jazdy, obmedzený zdvih, náchylnosť na netesnosti -- toto sú nevýhody listových pružín a pneumatického pruženia, nie gumového.<br>Lineárna charakteristika, obmedzený zdvih a koncentrácia napätia na koncoch -- toto sú nevýhody skrutných (torzných) tyčí, nie gumového pruženia."
   
   - id: "gumove-pruzenie-02"
     type: single
@@ -22,7 +22,7 @@ questions:
       - "Teplota nemá vplyv na vlastnosti gumy"
       - "Guma môže pri náhlej zmene teploty prasknúť"
     correct: 1
-    explanation: ""
+    explanation: "Guma mäkne v mraze a tvrdne v teple -- je to naopak: v mraze guma tvrdne (stráca pružnosť) a v teple mäkne.<br>Teplota nemá vplyv -- teplota má výrazný vplyv na vlastnosti gumy; preto sa napr. rozlišujú letné a zimné pneumatiky.<br>Guma môže pri náhlej zmene teploty prasknúť -- bežné teplotné zmeny nespôsobujú prasknutie gumy; hlavný problém je zmena tuhosti."
 
   - id: "gumove-pruzenie-03"
     type: single
@@ -33,7 +33,7 @@ questions:
       - "Na ťažkých nákladných automobiloch a prívesoch"
       - "Na závodných autách a formulách"
     correct: 1
-    explanation: ""
+    explanation: "Ako hlavné pruženie na motocykloch -- na motocykloch sa ako hlavné pruženie používajú vinuté pružiny (v teleskopickej vidlici a tlmiči), nie gumové prvky.<br>Na ťažkých nákladných automobiloch a prívesoch -- tam sa používajú listové alebo pneumatické pružiny; gumové pruženie sa používa len ako doplnok (silentbloky).<br>Na závodných autách a formulách -- tam sa používajú vysoko výkonné vinuté pružiny a tlmiče; gumové pruženie sa nepoužíva ako hlavné pruženie."
 
   - id: "gumove-pruzenie-04"
     type: write
@@ -53,4 +53,4 @@ questions:
       - "Kyslík a voda"
       - "Jej neustále namáhanie"
     correct: 1
-    explanation: ""
+    explanation: "Nečistoty -- nečistoty môžu gumy mechanicky poškodiť, ale hlavnou príčinou stárnutia je chemická degradácia spôsobená UV žiarením a ozónom.<br>Kyslík a voda -- kyslík a voda môžu prispievať k degradácii, ale hlavnými činiteľmi stárnutia gumy sú UV žiarenie a ozón, ktoré rozkladajú polymérové reťazce.<br>Neustále namáhanie -- mechanické namáhanie spôsobuje únavu materiálu, ale stárnutie (chemická degradácia) je spôsobené predovšetkým UV žiarením a ozónom."

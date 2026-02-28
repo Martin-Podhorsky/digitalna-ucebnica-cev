@@ -33,7 +33,7 @@ questions:
       - "Stav nádrže, stav batérie, počet najazdených kilometrov"
       - "Iba teplotu oleja v tlmiči, polohu karosérie voči kolesám a uhol natočenia volantu"
     correct: 1
-    explanation: ""
+    explanation: "Rýchlostné senzory, senzory zrýchlenia... -- toto sú typy snímačov (hardvér), nie monitorované veličiny; otázka sa pýta na veličiny, nie na snímače.<br>Stav nádrže, stav batérie, počet najazdených kilometrov -- tieto údaje nesúvisia s reguláciou tlmenia.<br>Iba teplotu oleja, polohu karosérie a uhol natočenia volantu -- riadiaca jednotka monitoruje oveľa viac veličín (aj rýchlosť, polohu pedálov), nie iba tri."
 
   - id: "tlmice-s-regulaciou-10"
     type: single
@@ -44,5 +44,5 @@ questions:
       - "Jednocestné ventily v pieste majú variabilný prierez, ktorého veľkosť sa ovláda pomocou elektromagentov. Zmena prierezu priamo ovplyvňuje veľkosť tlmiacej sily."
       - "V tlmiči sa nachádza hydrualický olej s prvkami Mangánu (Mn), ktorý zlepšuje jeho vlastnosti"
     correct: 1
-    explanation: ""
+    explanation: "Elektromagnety na koncoch a permanentný magnet v pieste -- MagneRide nepoužíva permanentný magnet v pieste; využíva elektromagnetickú cievku, ktorá mení vlastnosti magnetoreologickej kvapaliny.<br>Jednocestné ventily s variabilným prierezom -- takto fungujú solenoidové tlmiče, nie magnetoreologické; MagneRide nemá mechanické ventily.<br>Olej s prvkami mangánu -- MagneRide nepoužíva mangán; využíva magnetoreologickú kvapalinu s mikročasticami železa, ktorých usporiadanie sa mení v magnetickom poli."
 

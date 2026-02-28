@@ -44,7 +44,7 @@ questions:
       - "12,00 m"
       - "25,00 m"
     correct: 2
-    explanation: ""
+    explanation: "16,50 m -- to je maximálna dĺžka návesovej súpravy (ťahač + náves), nie prívesovej.<br>12,00 m -- to je maximálna dĺžka samotného prívesu, nie celej prívesovej súpravy.<br>25,00 m -- to presahuje maximálne povolené rozmery v Európe."
 
   - id: "privesy-navesy-vseobecne-05"
     type: write
@@ -86,7 +86,7 @@ questions:
       - "Jednonápravové, dvojnápravové, trojnápravové, viacnápravové"
       - "Ľahké, stredné, ťažké"
     correct: 1
-    explanation: ""
+    explanation: "Valníkové, plachtové, skriňové, cisternové, chladiace, sklápacie, nízkoložné, kontajnerové -- toto je rozdelenie podľa typu nadstavby (konštrukcie nákladového priestoru), nie podľa účelu.<br>Jednonápravové, dvojnápravové, trojnápravové, viacnápravové -- toto je rozdelenie podľa počtu náprav.<br>Ľahké, stredné, ťažké -- toto je rozdelenie podľa hmotnosti, nie podľa účelu."
 
   - id: "privesy-navesy-vseobecne-10"
     type: single
@@ -98,7 +98,7 @@ questions:
       - "Starý Volkswagen Microbus"
       - "Valník"
     correct: 1
-    explanation: ""
+    explanation: "Autobusový náves -- autobusový náves sa pripája k ťahači cez točnicu; na obrázku je príves s vlastnou nápravou pripojený ojom.<br>Starý Volkswagen Microbus -- Microbus je samostatné vozidlo, nie príves.<br>Valník -- valník je nákladné vozidlo s otvorenou nákladovou plochou, nie autobusový príves."
 
   - id: "privesy-navesy-vseobecne-11"
     type: single
@@ -111,7 +111,7 @@ questions:
       - "Skriňový príves"
       - "Valník"
     correct: 1
-    explanation: ""
+    explanation: "Skriňový náves -- skriňový náves má pevné steny bez plachty; na obrázku je plachtový náves s plachtovými bočnicami.<br>Plachtový príves -- príves má vlastnú prednú nápravu a pripája sa ojom; na obrázku je náves bez prednej nápravy.<br>Skriňový príves -- na obrázku nie je ani skriňový, ani príves.<br>Valník -- valník má otvorenú nákladovú plochu bez plachty."
 
   - id: "privesy-navesy-vseobecne-12"
     type: single
@@ -124,7 +124,7 @@ questions:
       - "Skriňový príves"
       - "Valník"
     correct: 2
-    explanation: ""
+    explanation: "Plachtový náves -- plachtový náves má plachtové bočnice; na obrázku je skriňový náves s pevnými stenami.<br>Plachtový príves -- na obrázku nie je ani plachtový, ani príves.<br>Skriňový príves -- príves má vlastnú prednú nápravu; na obrázku je náves bez prednej nápravy.<br>Valník -- valník má otvorenú nákladovú plochu; na obrázku je uzavretá skriňa."
 
   - id: "privesy-navesy-vseobecne-12"
     type: single
@@ -137,4 +137,4 @@ questions:
       - "Skriňový príves"
       - "Valník"
     correct: 5
-    explanation: ""
+    explanation: "Plachtový náves -- plachtový náves má plachtové bočnice; na obrázku je otvorená nákladová plocha bez plachty.<br>Skriňový náves -- skriňový náves má uzavretú skriňu s pevnými stenami.<br>Plachtový príves -- na obrázku nie je ani plachtový, ani príves.<br>Skriňový príves -- na obrázku nie je ani skriňový, ani príves."

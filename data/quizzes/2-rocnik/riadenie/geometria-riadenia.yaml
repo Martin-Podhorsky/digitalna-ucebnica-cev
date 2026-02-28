@@ -22,7 +22,7 @@ questions:
       - "Horná časť kolesa je naklonená von od vozidla"
       - "Horná časť kolesa je naklonená dovnútra k vozidlu"
     correct: 2
-    explanation: ""
+    explanation: "Predné časti kolies bližšie ako zadné -- to je zbiehavosť (toe-in), nie rozbiehavosť.<br>Horná časť kolesa naklonená von -- to je pozitívny odklon kolesa (camber), nie rozbiehavosť.<br>Horná časť kolesa naklonená dovnútra -- to je negatívny odklon (príklon) kolesa, nie rozbiehavosť."
 
   - id: "geometria-riadenia-03"
     type: single
@@ -33,7 +33,7 @@ questions:
       - "Zvyšuje maximálnu rýchlosť vozidla"
       - "Znižuje opotrebenie pneumatík"
     correct: 1
-    explanation: ""
+    explanation: "Zlepšuje reakciu pri zatáčaní -- na reakciu pri zatáčaní vplýva skôr rozbiehavosť alebo odklon kolies, nie zbiehavosť.<br>Zvyšuje maximálnu rýchlosť -- zbiehavosť priamo neovplyvňuje maximálnu rýchlosť; jej účelom je stabilita v priamom smere.<br>Znižuje opotrebenie pneumatík -- naopak, zbiehavosť aj rozbiehavosť spôsobujú zvýšené opotrebenie pneumatík; ich účelom je optimalizácia jazdných vlastností."
 
   - id: "geometria-riadenia-04"
     type: single
@@ -44,7 +44,7 @@ questions:
       - "Uhol medzi rovinou kolesa a osou riadenia. Pozitívny odklon: horná časť kolesa je ďalej od vozidla, ako dolná. Negatívny odklon: dolná časť kolesa je ďalej od vozidla, ako horná."
       - "Uhol medzi rovinou kolesa a osou riadenia. Pozitívny odklon: dolná časť kolesa je ďalej od vozidla, ako horná. Negatívny odklon: horná časť kolesa je ďalej od vozidla, ako dolná."
     correct: 1
-    explanation: ""
+    explanation: "Uhol medzi rovinou kolesa a zvislicou, pozitívny: dolná ďalej, negatívny: horná ďalej -- definícia pozitívneho a negatívneho odklonu je prehodená; pri pozitívnom odklone je horná časť ďalej.<br>Uhol medzi rovinou kolesa a osou riadenia, pozitívny: horná ďalej -- odklon sa meria voči zvislici, nie voči osi riadenia; uhol voči osi riadenia je príklon.<br>Uhol medzi rovinou kolesa a osou riadenia, pozitívny: dolná ďalej -- odklon sa meria voči zvislici a definícia pozitívneho/negatívneho je prehodená."
 
   - id: "geometria-riadenia-05"
     type: single
@@ -55,7 +55,7 @@ questions:
       - "Je uhol medzi osou otáčania kolesa pri riadení a vozovkou, meraný pri pohľade spredu na vozidlo."
       - "Je uhol medzi osou otáčania kolesa pri riadení a zvislicou, meraný pri pohľade zboku na vozidlo."
     correct: 1
-    explanation: ""
+    explanation: "Uhol medzi osou riadenia a osou riadenia -- os riadenia sa nemeria voči sebe samej, ale voči zvislici.<br>Uhol medzi osou riadenia a vozovkou -- príklon sa meria voči zvislici, nie voči vozovke.<br>Uhol meraný zboku -- príklon osi riadenia sa meria pri pohľade spredu na vozidlo, nie zboku; zboku sa meria záklon."
 
   - id: "geometria-riadenia-06"
     type: single
@@ -66,7 +66,7 @@ questions:
       - "Je uhol medzi osou otáčania kolesa pri riadení a osou riadenia, meraný pri pohľade spredu na vozidlo."
       - "Je uhol medzi osou otáčania kolesa pri riadení a osou riadenia, meraný pri pohľade zboku na vozidlo."
     correct: 2
-    explanation: ""
+    explanation: "Uhol meraný spredu -- záklon sa meria pri pohľade zboku na vozidlo, nie spredu; spredu sa meria príklon.<br>Uhol medzi osou riadenia a osou riadenia -- os riadenia sa nemeria voči sebe samej.<br>Uhol medzi osou riadenia a osou riadenia, meraný zboku -- opäť, os riadenia sa nemeria voči sebe samej, ale voči zvislici."
 
   - id: "geometria-riadenia-07"
     type: single
@@ -77,7 +77,7 @@ questions:
       - "Je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína zvislicu, a stredom dotykovej plochy pneumatiky, meraná zboku vozidla."
       - "Je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná spredu vozidla."
     correct: 1
-    explanation: ""
+    explanation: "Uhol medzi osou riadenia a zvislicou, meraný zboku -- to je záklon osi riadenia, nie závlek.<br>Vzdialenosť, kde os pretína zvislicu -- os riadenia pretína vozovku, nie zvislicu; závlek je vzdialenosť meraná na vozovke.<br>Vzdialenosť meraná spredu vozidla -- závlek sa meria pri pohľade zboku na vozidlo, nie spredu; spredu sa meria polomer riadenia."
 
   - id: "geometria-riadenia-08"
     type: single
@@ -88,7 +88,7 @@ questions:
       - "Je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína zvislicu, a stredom dotykovej plochy pneumatiky, meraná zboku vozidla."
       - "Je vzdialenosť medzi bodom, kde predĺžená os riadenia pretína vozovku, a stredom dotykovej plochy pneumatiky, meraná zpredu vozidla"
     correct: 4
-    explanation: ""
+    explanation: "Vzdialenosť meraná zboku -- to je závlek kolesa, nie polomer riadenia; polomer riadenia sa meria pri pohľade spredu.<br>Uhol medzi osou riadenia a zvislicou, meraný zboku -- to je záklon osi riadenia, nie polomer riadenia.<br>Vzdialenosť, kde os pretína zvislicu -- os riadenia pretína vozovku, nie zvislicu; polomer riadenia je vzdialenosť na vozovke."
 
   - id: "geometria-riadenia-09"
     type: single
@@ -99,7 +99,7 @@ questions:
       - "Je rozdiel medzi uhlom natočenia pravého a ľavého kolesa pri prejazde zákrutou."
       - "Je rozdiel medzi uhlom natočenia lavého a pravého kolesa pri prejazde zákrutou."
     correct: 1
-    explanation: ""
+    explanation: "Rozdiel medzi zadným a predným kolesom -- diferenčný uhol sa týka kolies na jednej náprave (vnútorné vs. vonkajšie), nie predných vs. zadných.<br>Rozdiel medzi pravým a ľavým kolesom -- vnútorné koleso sa musí natočiť viac ako vonkajšie; správne sa rozlišuje vnútorné a vonkajšie, nie pravé a ľavé (závisí od smeru zákruty).<br>Rozdiel medzi ľavým a pravým kolesom -- rovnaká chyba; správna terminológia je vnútorné a vonkajšie koleso."
 
   - id: "geometria-riadenia-10"
     type: single
@@ -110,7 +110,7 @@ questions:
       - "Je rozdiel vzdialenosti medzi pravým a ľavým zadným kolesom a vzdialenosti medzi pravým a ľavým predným kolesom."
       - "Je vzdialenosť medzi stredmi styčných plôch prednej a zadnej pneumatiky."
     correct: 1
-    explanation: ""
+    explanation: "Vzdialenosť medzi prednou a zadnou nápravou -- to je rázvor náprav, nie rozchod kolies.<br>Rozdiel vzdialenosti medzi zadnými a prednými kolesami -- to nie je štandardný parameter geometrie riadenia.<br>Vzdialenosť medzi prednou a zadnou pneumatikou -- to je opäť rázvor náprav; rozchod je vzdialenosť medzi ľavým a pravým kolesom na jednej náprave."
 
   - id: "geometria-riadenia-11"
     type: single
@@ -121,4 +121,4 @@ questions:
       - "Je rozdiel vzdialenosti medzi pravým a ľavým zadným kolesom a vzdialenosti medzi pravým a ľavým predným kolesom."
       - "Je vzdialenosť medzi vzdialenými koncami prednej a zadnej pneumatiky."
     correct: 2
-    explanation: ""
+    explanation: "Vzdialenosť medzi ľavou a pravou pneumatikou na jednej náprave -- to je rozchod kolies, nie rázvor náprav.<br>Rozdiel vzdialenosti medzi zadnými a prednými kolesami -- to nie je štandardný parameter geometrie riadenia.<br>Vzdialenosť medzi vzdialenými koncami prednej a zadnej pneumatiky -- rázvor sa meria medzi stredmi náprav (osí kolies), nie medzi koncami pneumatík."

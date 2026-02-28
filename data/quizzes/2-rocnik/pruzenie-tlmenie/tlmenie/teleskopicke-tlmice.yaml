@@ -68,7 +68,7 @@ questions:
       - "Dnom s jednocestnými ventily"
       - "Ničím -- olej a plyn sú zmiešané"
     correct: 1
-    explanation: ""
+    explanation: "Vnútorným plášťom -- vnútorný plášť je súčasťou dvojplášťového tlmiča; jednoplášťový má len jeden plášť.<br>Dnom s jednocestnými ventilmi -- dno s ventilmi je súčasťou dvojplášťového tlmiča; v jednoplášťovom je olej od plynu oddelený membránou alebo plávajúcim piestom.<br>Olej a plyn sú zmiešané -- keby boli zmiešané, dochádzalo by k peneniu oleja (fading); membrána alebo plávajúci piest ich spoľahlivo oddeľuje."
 
   - id: "teleskopicke-tlmice-07"
     type: single

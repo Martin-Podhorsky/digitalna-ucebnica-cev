@@ -33,7 +33,7 @@ questions:
       - "Rýchlosť nemá vplyv na off-tracking"
       - "Čím väčšia rýchlosť, tým viac sa náves zarezáva do vonkajšej strany zákruty"
     correct: 1
-    explanation: ""
+    explanation: "Čím väčšia rýchlosť, tým menej sa zarezáva -- naopak, vyššia rýchlosť zvyšuje off-tracking; pri nižšej rýchlosti majú kolesá viac času sledovať stopu ťažného vozidla.<br>Rýchlosť nemá vplyv -- rýchlosť je jedným z kľúčových faktorov ovplyvňujúcich off-tracking.<br>Zarezáva sa do vonkajšej strany -- off-tracking spôsobuje zarezávanie do vnútra zákruty, nie do vonkajšej strany."
 
   - id: "manevrovatelnost-04"
     type: single

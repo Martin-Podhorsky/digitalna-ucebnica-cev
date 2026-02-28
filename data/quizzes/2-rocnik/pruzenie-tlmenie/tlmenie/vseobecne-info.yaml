@@ -11,7 +11,7 @@ questions:
       - "Na tlmenie hluku vytváraného motorom"
       - "Na tlmenie nárazov spôsobených nerovnosťami vozovky"
     correct: 1
-    explanation: ""
+    explanation: "Zvýšenie únosnosti pružín -- tlmiče nezvyšujú únosnosť, ale utlmujú kmitanie pružín po prejazde nerovnosťou.<br>Tlmenie hluku motora -- na tlmenie hluku a vibrácií motora slúžia silentbloky (gumové pruženie), nie tlmiče pruženia.<br>Tlmenie nárazov od nerovností -- nárazy primárne absorbujú pružiny; úlohou tlmičov je zabrániť rozkmitaniu pružín po absorbovaní nárazu."
 
   - id: "tlmenie-vseobecne-02"
     type: single
@@ -55,7 +55,7 @@ questions:
       - "Pasívne, nastaviteľné a adaptívne"
       - "Vlnovcové a valivé"
     correct: 2
-    explanation: ""
+    explanation: "Dvojplášťové a jednoplášťové -- toto je rozdelenie podľa konštrukcie, nie podľa tlmiaceho média.<br>Pasívne, nastaviteľné a adaptívne -- toto je rozdelenie podľa možnosti nastavenia, nie podľa tlmiaceho média.<br>Vlnovcové a valivé -- toto je rozdelenie vzduchových mechov pneumatického pruženia, nie tlmičov."
 
   - id: "tlmenie-vseobecne-06"
     type: single
@@ -66,7 +66,7 @@ questions:
       - "Pasívne, nastaviteľné a adaptívne"
       - "Lineárne a progresívne"
     correct: 3
-    explanation: ""
+    explanation: "Dvojplášťové a jednoplášťové -- toto je rozdelenie podľa konštrukcie, nie podľa možnosti nastavenia.<br>Olejové (hydraulické) a plynokvapalinové -- toto je rozdelenie podľa tlmiaceho média, nie podľa možnosti nastavenia.<br>Lineárne a progresívne -- toto je rozdelenie vinutých pružín podľa charakteristiky, nie tlmičov podľa možnosti nastavenia."
 
   - id: "tlmenie-vseobecne-08"
     type: write
@@ -86,4 +86,4 @@ questions:
       - "Olejové (hydraulické) a plynokvapalinové"
       - "Pasívne, nastaviteľné a adaptívne"
     correct: 1
-    explanation: ""
+    explanation: "Dvojplášťové a jednoplášťové -- toto je len jedno z troch kritérií (konštrukcia), nie celkový prehľad.<br>Olejové (hydraulické) a plynokvapalinové -- toto je len jedno z troch kritérií (tlmiace médium), nie celkový prehľad.<br>Pasívne, nastaviteľné a adaptívne -- toto je len jedno z troch kritérií (možnosť nastavenia), nie celkový prehľad."

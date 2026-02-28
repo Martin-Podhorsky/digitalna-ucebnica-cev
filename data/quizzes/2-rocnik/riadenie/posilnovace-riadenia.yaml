@@ -11,7 +11,7 @@ questions:
       - "Menšia spätná väzba, vysoká cena a menšia pomocná sila"
       - "Zaťažuje motor, vyžaduje pravidelnú údržbu a závislosť od chodu motora"
     correct: 1
-    explanation: ""
+    explanation: "Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora -- toto sú výhody elektronického posilňovača (EPS), nie HPS.<br>Menšia spätná väzba, vysoká cena a menšia pomocná sila -- toto sú nevýhody EPS, nie výhody HPS.<br>Zaťažuje motor, vyžaduje pravidelnú údržbu a závislosť od chodu motora -- toto sú nevýhody HPS, nie výhody."
 
   - id: "posilnovace-riadenia-02"
     type: single
@@ -23,7 +23,7 @@ questions:
       - "Menšia spätná väzba, vysoká cena a menšia pomocná sila"
       - "Zaťažuje motor, vyžaduje pravidelnú údržbu a závislosť od chodu motora"
     correct: 4
-    explanation: ""
+    explanation: "Prirodzená spätná väzba, nižšie výrobné náklady a veľká pomocná sila -- toto sú výhody HPS, nie nevýhody.<br>Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora -- toto sú výhody EPS, nie nevýhody HPS.<br>Menšia spätná väzba, vysoká cena a menšia pomocná sila -- toto sú nevýhody EPS, nie nevýhody HPS."
 
   - id: "posilnovace-riadenia-03"
     type: single
@@ -34,7 +34,7 @@ questions:
       - "Nezaťažuje motor, nie je od neho závislí a umožňuje reguláciu zosilovacieho účinku"
       - "Stále vyžaduje údržbu, má zložitejšiu konštrukciu a je náchylný na poruchy"
     correct: 3
-    explanation: ""
+    explanation: "Prirodzená spätná väzba, nižšie výrobné náklady a veľká pomocná sila -- toto sú výhody HPS, nie výhody EHPS oproti HPS.<br>Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora -- toto sú výhody EPS, nie EHPS.<br>Stále vyžaduje údržbu, má zložitejšiu konštrukciu a je náchylný na poruchy -- toto sú nevýhody EHPS, nie výhody."
 
   - id: "posilnovace-riadenia-04"
     type: single
@@ -45,7 +45,7 @@ questions:
       - "Nezaťažuje motor, nie je od neho závislí a umožňuje reguláciu zosilovacieho účinku"
       - "Stále vyžaduje údržbu, má zložitejšiu konštrukciu a je náchylný na poruchy"
     correct: 4
-    explanation: ""
+    explanation: "Prirodzená spätná väzba, nižšie výrobné náklady a veľká pomocná sila -- toto sú výhody HPS, nie nevýhody EHPS.<br>Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora -- toto sú výhody EPS, nie nevýhody EHPS.<br>Nezaťažuje motor, nie je od neho závislý a umožňuje reguláciu zosilovacieho účinku -- toto sú výhody EHPS oproti HPS, nie nevýhody."
 
   - id: "posilnovace-riadenia-05"
     type: single
@@ -78,7 +78,7 @@ questions:
       - "Menšia spätná väzba, vysoká cena a menšia pomocná sila"
       - "Zaťažuje motor, vyžaduje pravidelnú údržbu a závislosť od chodu motora"
     correct: 2
-    explanation: ""
+    explanation: "Prirodzená spätná väzba, nižšie výrobné náklady a veľká pomocná sila -- toto sú výhody HPS, nie EPS.<br>Menšia spätná väzba, vysoká cena a menšia pomocná sila -- toto sú nevýhody EPS, nie výhody.<br>Zaťažuje motor, vyžaduje pravidelnú údržbu a závislosť od chodu motora -- toto sú nevýhody HPS; EPS je nezávislý od motora a bezúdržbový."
 
   - id: "posilnovace-riadenia-07"
     type: single
@@ -89,7 +89,7 @@ questions:
       - "Menšia spätná väzba, vysoká cena a menšia pomocná sila"
       - "Zaťažuje motor, vyžaduje pravidelnú údržbu a závislosť od chodu motora"
     correct: 3
-    explanation: ""
+    explanation: "Prirodzená spätná väzba, nižšie výrobné náklady a veľká pomocná sila -- toto sú výhody HPS, nie nevýhody EPS.<br>Bezúdržbový, integrácia asistenčných systémov a nezávislosť od motora -- toto sú výhody EPS, nie nevýhody.<br>Zaťažuje motor, vyžaduje pravidelnú údržbu a závislosť od chodu motora -- toto sú nevýhody HPS, nie EPS."
 
   - id: "posilnovace-riadenia-08"
     type: single
@@ -100,4 +100,4 @@ questions:
       - "A-EPS, B-EPS, C-EPS"
       - "C-EPS, R-EPS"
     correct: 1
-    explanation: ""
+    explanation: "EPS, EHPS, HPS -- toto sú tri rôzne typy posilňovačov riadenia, nie typy EPS.<br>A-EPS, B-EPS, C-EPS -- A-EPS a B-EPS neexistujú; správne typy sú C-EPS (column), P-EPS (pinion) a R-EPS (rack).<br>C-EPS, R-EPS -- chýba P-EPS (pinion-type), kde je elektromotor umiestnený na pastorku."

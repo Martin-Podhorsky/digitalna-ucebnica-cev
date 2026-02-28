@@ -32,7 +32,7 @@ questions:
       - "Hlava, záverný čap, odpruženie, poistka"
       - "Točnica sa skladá z jedného kusu kovu a je to oceľový čap umiestnený na spodnej strane prednej časti návesu."
     correct: 1
-    explanation: ""
+    explanation: "Ťažné zariadenie, trubica, gulový čap -- toto sú časti guľového závesu pre osobné prívesy, nie točnice.<br>Hlava, záverný čap, odpruženie, poistka -- toto sú časti ťažného závesu pre ťažké prívesy, nie točnice.<br>Točnica z jedného kusu kovu, oceľový čap na spodnej strane návesu -- to je popis kráľovského čapu, nie točnice; točnica je zariadenie na ťahači, do ktorého sa kráľovský čap zasúva."
 
   - id: "pripajacie-zariadenia-04"
     type: write
@@ -51,4 +51,4 @@ questions:
       - "Mať vlastné brzdy"
       - "Pneumatickú poistku a elektronickú signalizáciu"
     correct: 1
-    explanation: 
+    explanation: "Malé prívesné vozíky nemusia mať žiadne bezpečnostné prvky -- každý príves musí mať bezpečnostné prvky; ľahké prívesy musia mať bezpečnostné laná alebo reťaze.<br>Mať vlastné brzdy -- vlastné brzdy sú povinné pre prívesy nad určitú hmotnosť, nie pre všetky ľahké prívesy.<br>Pneumatickú poistku a elektronickú signalizáciu -- pneumatická poistka sa používa pri ťažkých prívesoch so vzduchovými brzdami, nie pri ľahkých prívesoch."

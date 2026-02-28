@@ -11,7 +11,7 @@ questions:
       - "Vôla v riadení, vozidlo udržuje priamy smer, stĺpik riadnia nezraní vodiča pri náraze, volant sa dá ovládať bez vynaloženia väčšej námahy"
       - "Nebezpečné, nepresné, vysoká námaha, nevratnosť, nestabilita"
     correct: 1
-    explanation: ""
+    explanation: "Neprenášať nárazy, ľahké, presné, nebezpečné, kolesá sa vrátia -- obsahuje správne požiadavky, ale aj nesprávnu (nebezpečné); riadenie musí byť bezpečné.<br>Vôla v riadení, udržiava priamy smer, stĺpik nezraní vodiča, ľahké ovládanie -- vôľa v riadení nie je požiadavkou, ale naopak nežiaducou vlastnosťou.<br>Nebezpečné, nepresné, vysoká námaha, nevratnosť, nestabilita -- toto sú presné opaky skutočných požiadaviek."
 
   - id: "riadenie-vseobecne-02"
     type: single
@@ -55,7 +55,7 @@ questions:
       - "Predné, zadné a všetky kolesá"
       - "S dvoma ťahadlami, so spájacou tyčou a s delenou spojovacou tyčou"
     correct: 1
-    explanation: ""
+    explanation: "Priame, nepriame a kombinované (posilňované) -- toto je rozdelenie podľa prenosu energie, nie celkový prehľad kritérií.<br>Predné, zadné a všetky kolesá -- toto je rozdelenie podľa riadených kolies, nie celkový prehľad kritérií.<br>S dvoma ťahadlami, so spájacou tyčou a s delenou spojovacou tyčou -- toto je rozdelenie podľa konštrukcie, nie celkový prehľad kritérií."
 
   - id: "riadenie-vseobecne-06"
     type: single
@@ -77,7 +77,7 @@ questions:
       - "Riadenie predných, zadných a všetkých kolies"
       - "S dvoma ťahadlami, so spájacou tyčou a s delenou spojovacou tyčou"
     correct: 4
-    explanation: ""
+    explanation: "Riadených kolies, podľa prenosu energie a podľa konštrukcie -- toto sú tri kritériá delenia riadenia, nie samotné delenie podľa konštrukcie.<br>Priame, nepriame a kombinované (posilňované) -- toto je rozdelenie podľa prenosu energie, nie podľa konštrukcie.<br>Predné, zadné a všetky kolesá -- toto je rozdelenie podľa riadených kolies, nie podľa konštrukcie."
 
   - id: "riadenie-vseobecne-08"
     type: single
@@ -88,7 +88,7 @@ questions:
       - "Riadenie predných, zadných a všetkých kolies"
       - "S dvoma ťahadlami, so spájacou tyčou a s delenou spojovacou tyčou"
     correct: 3
-    explanation: ""
+    explanation: "Riadených kolies, podľa prenosu energie a podľa konštrukcie -- toto sú tri kritériá delenia riadenia, nie samotné delenie podľa riadených kolies.<br>Priame, nepriame a kombinované (posilňované) -- toto je rozdelenie podľa prenosu energie, nie podľa riadených kolies.<br>S dvoma ťahadlami, so spájacou tyčou a s delenou spojovacou tyčou -- toto je rozdelenie podľa konštrukcie, nie podľa riadených kolies."
 
   - id: "riadenie-vseobecne-09"
     type: single
@@ -100,7 +100,7 @@ questions:
       - "S delenou spojovacou tyčou"
       - "S dvoma spojovacími tyčami"
     correct: 1
-    explanation: ""
+    explanation: "So spojovacou (priečnou) tyčou -- pri tomto type je medzi kolesami jedna priečna tyč; na obrázku sú dve samostatné ťahadlá vedúce od prevodovky riadenia ku každému kolesu zvlášť.<br>S delenou spojovacou tyčou -- pri tomto type ide spojovacia tyč od prevodovky cez stredový čap a delí sa na dve časti; používa sa pri nezávislom zavesení.<br>S dvoma spojovacími tyčami -- tento typ neexistuje; správny názov je s dvoma ťahadlami."
 
   - id: "riadenie-vseobecne-10"
     type: single
@@ -112,7 +112,7 @@ questions:
       - "S delenou spojovacou tyčou"
       - "S dvoma spojovacími tyčami"
     correct: 2
-    explanation: ""
+    explanation: "S dvoma ťahadlami -- pri tomto type vedú od prevodovky riadenia dve samostatné ťahadlá ku každému kolesu; na obrázku je jedna priečna tyč spájajúca obe kolesá.<br>S delenou spojovacou tyčou -- pri tomto type ide spojovacia tyč cez stredový čap a delí sa; používa sa pri nezávislom zavesení.<br>S dvoma spojovacími tyčami -- tento typ neexistuje."
     
   - id: "riadenie-vseobecne-11"
     type: single
@@ -124,4 +124,4 @@ questions:
       - "S delenou spojovacou tyčou"
       - "S dvoma spojovacími tyčami"
     correct: 3
-    explanation: ""
+    explanation: "S dvoma ťahadlami -- pri tomto type vedú dve samostatné ťahadlá od prevodovky ku kolesám; na obrázku je spojovacia tyč delená stredovým čapom.<br>So spojovacou (priečnou) tyčou -- pri tomto type je jedna priečna tyč spájajúca obe kolesá; na obrázku je tyč delená na dve časti.<br>S dvoma spojovacími tyčami -- tento typ neexistuje; na obrázku je delená spojovacia tyč používaná pri nezávislom zavesení."

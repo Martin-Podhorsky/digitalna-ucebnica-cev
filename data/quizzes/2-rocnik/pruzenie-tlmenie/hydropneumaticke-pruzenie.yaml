@@ -11,7 +11,7 @@ questions:
       - "Renault v 50. rokoch 20. storočia"
       - "Citroën v 30. rokoch 20. storočia"
     correct: 1
-    explanation: ""
+    explanation: "Mercedes-Benz v 70. rokoch -- Mercedes-Benz prevzal technológiu neskôr, ale nevyvinul ju; Citroën ju predstavil v modeli DS v roku 1954.<br>Renault v 50. rokoch -- Renault nebol priekopníkom hydropneumatického pruženia, bol to Citroën.<br>Citroën v 30. rokoch -- v 30. rokoch ešte táto technológia neexistovala; bola vyvinutá až v 50. rokoch."
 
   - id: "hydropneumaticke-pruzenie-02"
     type: single
@@ -22,7 +22,7 @@ questions:
       - "Hydraulická kvapalina a stlačený vodík, ktoré sú oddelené pružnou membránou"
       - "Hydraulický olej a stlačený vzduch, ktoré sú oddelené pružnou membránou"
     correct: 1
-    explanation: ""
+    explanation: "Hydraulický olej a stlačený kyslík, oddelené plávajúcim piestom -- používa sa dusík, nie kyslík (kyslík by reagoval s olejom a spôsobil koróziu); oddelenie je membránou, nie plávajúcim piestom.<br>Hydraulická kvapalina a stlačený vodík, oddelené pružnou membránou -- vodík je výbušný a nepoužíva sa; používa sa inertný dusík.<br>Hydraulický olej a stlačený vzduch, oddelené pružnou membránou -- vzduch obsahuje kyslík a vlhkosť, ktoré by spôsobili koróziu a degradáciu; používa sa inertný dusík."
 
   - id: "hydropneumaticke-pruzenie-03"
     type: single
@@ -33,7 +33,7 @@ questions:
       - "Piest tlačí plyn (dusík) do hydropneumatickej gule, plyn stláča hydraulickú kvapalinu, ktorá pôsobí ako pružina"
       - "Piest tlačí hydraulickú kvapalinu do hydropneumatickej gule, kvapalina stláča plyn (vodík), ktorý pôsobí ako pružina"
     correct: 1
-    explanation: ""
+    explanation: "Piest stláča plyn, do ktorého sa vpúšťa kvapalina -- piest nepracuje priamo s plynom; tlačí hydraulickú kvapalinu, ktorá následne stláča plyn cez membránu.<br>Piest tlačí plyn do gule, plyn stláča kvapalinu -- je to naopak: piest tlačí kvapalinu, ktorá stláča plyn (dusík), nie plyn kvapalinu.<br>Kvapalina stláča vodík -- používa sa dusík, nie vodík; vodík je výbušný a nepoužíva sa."
 
   - id: "hydropneumaticke-pruzenie-04"
     type: single
@@ -44,7 +44,7 @@ questions:
       - "Pomocou samostatných teleskopických tlmičov"
       - "Pomocou gumových silentblokov"
     correct: 1
-    explanation: ""
+    explanation: "Plyn (dusík) má samotlmiaci efekt -- dusík pôsobí ako pružina, nie ako tlmič; tlmenie zabezpečujú jednocestné ventily obmedzujúce prietok kvapaliny.<br>Pomocou samostatných teleskopických tlmičov -- hydropneumatický systém má integrované tlmenie cez ventily, nepotrebuje samostatné tlmiče.<br>Pomocou gumových silentblokov -- silentbloky slúžia na tlmenie vibrácií motora/prevodovky, nie na tlmenie v hydropneumatickom systéme."
 
   - id: "hydropneumaticke-pruzenie-05"
     type: single
@@ -55,7 +55,7 @@ questions:
       - "Výmenou celého systému hydropneumatického pruženia za tvrdší alebo mäkší"
       - "Znižovaním a zvyšovaním svetlej výšky vozidla. Pri znížení sa pruženie stáva tvrdším a pri zvýšení mäkším."
     correct: 1
-    explanation: ""
+    explanation: "Zvýšením množstva plynu v guli -- množstvo plynu sa po naplnení nemení; tuhosť sa mení aktivovaním prídavných gulí.<br>Výmenou celého systému -- tuhosť sa reguluje elektronicky za jazdy, nie fyzickou výmenou komponentov.<br>Znižovaním a zvyšovaním svetlej výšky -- zmena svetlej výšky a zmena tuhosti sú dva nezávislé procesy; tuhosť sa mení pripojením alebo odpojením prídavných hydropneumatických gulí."
 
   - id: "hydropneumaticke-pruzenie-06"
     type: single
@@ -66,7 +66,7 @@ questions:
       - "Nízka cena, jednoduchá konštrukcia, minimálna údržba"
       - "Lineárna charakteristika, obmedzený zdvih a vysoké servisné náklady"
     correct: 2
-    explanation: ""
+    explanation: "Vysoké servisné náklady, náchylnosť na netesnosti, nutnosť pravidelnej údržby, veľká hmotnosť -- toto sú nevýhody hydropneumatického pruženia, nie výhody.<br>Nízka cena, jednoduchá konštrukcia, minimálna údržba -- toto sú výhody gumového pruženia, nie hydropneumatického.<br>Lineárna charakteristika, obmedzený zdvih a vysoké servisné náklady -- hydropneumatické pruženie má progresívnu charakteristiku (nie lineárnu) a vysoké servisné náklady sú nevýhodou, nie výhodou."
 
   - id: "hydropneumaticke-pruzenie-07"
     type: single
@@ -77,7 +77,7 @@ questions:
       - "Nízka cena, jednoduchá konštrukcia, minimálna údržba"
       - "Lineárna charakteristika, obmedzený zdvih a vysoké servisné náklady"
     correct: 1
-    explanation: ""
+    explanation: "Konštantná svetlá výška, nastaviteľná svetlá výška, vysoký komfort jazdy, progresívne pruženie, bezpečnosť a stabilita -- toto sú výhody hydropneumatického pruženia, nie nevýhody.<br>Nízka cena, jednoduchá konštrukcia, minimálna údržba -- toto sú výhody gumového pruženia a zároveň presný opak vlastností hydropneumatického systému.<br>Lineárna charakteristika, obmedzený zdvih a vysoké servisné náklady -- hydropneumatické pruženie má progresívnu (nie lineárnu) charakteristiku a nemá obmedzený zdvih; vysoké servisné náklady sú správne, ale zvyšok nie."
 
   - id: "hydropneumaticke-pruzenie-08"
     type: single
@@ -88,7 +88,7 @@ questions:
       - "Pretože nebol taký dobrý"
       - "Pretože automobilka, ktorá ho vynašla a patentovala, zanikla a nikto iný tento systém nevyrába"
     correct: 1
-    explanation: ""
+    explanation: "Kvôli jeho vysokej hmotnosti -- hmotnosť nie je hlavným dôvodom ústupu; rozhodujúce sú vysoké náklady na výrobu a údržbu.<br>Pretože nebol taký dobrý -- hydropneumatické pruženie poskytovalo vynikajúci komfort, ale bolo príliš drahé na výrobu a údržbu.<br>Automobilka zanikla -- Citroën nezanikol, je súčasťou skupiny Stellantis; od systému sa upúšťa kvôli ekonomickým dôvodom."
 
   - id: "hydropneumaticke-pruzenie-09"
     type: write
