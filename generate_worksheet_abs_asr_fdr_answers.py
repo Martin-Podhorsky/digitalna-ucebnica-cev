@@ -195,26 +195,9 @@ def build():
     story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q3 – Fill in the blanks (ABS principle)
+    #  Q3 – True / False (ABS)
     # ================================================================
-    story.append(Paragraph("3) Doplň do textu:", s_q))
-    story.append(Paragraph(
-        f"Systém ABS neustále monitoruje rýchlosť otáčania každého kolesa "
-        f"pomocou {A('snímačov')}. Tieto údaje porovnáva "
-        f"{A('elektronická riadiaca jednotka (ECU)')} s rýchlosťou vozidla. "
-        f"Keď ECU zistí, že niektoré koleso spomaľuje rýchlejšie, než spomaľuje "
-        f"vozidlo, okamžite {A('zníži')} brzdný tlak na tomto kolese pomocou "
-        f"{A('hydraulických ventilov')}. Tým umožní kolesu opätovne sa "
-        f"{A('roztočiť')} a obnoviť priľnavosť "
-        f"k vozovke. Tento proces sa opakuje {A('niekoľkokrát')} za sekundu.",
-        s_body,
-    ))
-    story.append(Spacer(1, 3))
-
-    # ================================================================
-    #  Q4 – True / False (ABS)
-    # ================================================================
-    story.append(Paragraph("4) Rozhodni – Pravda / Nepravda:", s_q))
+    story.append(Paragraph("3) Rozhodni – Pravda / Nepravda:", s_q))
     q4 = [
         ("ABS zabraňuje zablokovaniu kolies počas brzdenia.", "Pravda"),
         ("Na štrku a hlbokom snehu ABS skracuje brzdnú dráhu.", "Nepravda"),
@@ -234,7 +217,7 @@ def build():
     # ================================================================
     #  Q5 – ASR regulation methods
     # ================================================================
-    story.append(Paragraph("5) ASR – metódy regulácie:", s_q))
+    story.append(Paragraph("4) ASR – metódy regulácie:", s_q))
     story.append(Paragraph(
         "ASR zabraňuje preklzu hnacích kolies dvoma hlavnými spôsobmi:",
         s_body,
@@ -259,14 +242,14 @@ def build():
     #  Q6 – FDR interventions table
     # ================================================================
     story.append(Paragraph(
-        "6) Doplň, ako zasahuje systém FDR v nasledujúcich situáciách:", s_q,
+        "5) Doplň, ako zasahuje systém FDR v nasledujúcich situáciách:", s_q,
     ))
     fdr_data = [
         [Paragraph("<b>Situácia</b>", s_table_b),
          Paragraph("<b>Zásah systému FDR</b>", s_table_b)],
-        [Paragraph("Pretáčavosť (oversteer)", s_table),
+        [Paragraph("Pretáčavosť", s_table),
          Paragraph(A("Pribrzdi predné vonkajšie koleso"), s_table_ans)],
-        [Paragraph("Nedotáčavosť (understeer)", s_table),
+        [Paragraph("Nedotáčavosť", s_table),
          Paragraph(A("Pribrzdi zadné vnútorné koleso"), s_table_ans)],
         [Paragraph("Preklz pri rozjazde", s_table),
          Paragraph(A("Aktivuje sa funkcia ASR"), s_table_ans)],
@@ -289,7 +272,7 @@ def build():
     # ================================================================
     #  Q7 – True / False (ASR + FDR)
     # ================================================================
-    story.append(Paragraph("7) Rozhodni – Pravda / Nepravda:", s_q))
+    story.append(Paragraph("6) Rozhodni – Pravda / Nepravda:", s_q))
     q7 = [
         ("ASR využíva rovnaké snímače otáčok kolies ako ABS.", "Pravda"),
         ("ASR zabraňuje preklzu kolies iba znížením výkonu motora.", "Nepravda"),
@@ -306,7 +289,7 @@ def build():
     # ================================================================
     #  Q8 – Short answers
     # ================================================================
-    story.append(Paragraph("8) Krátke odpovede:", s_q))
+    story.append(Paragraph("7) Krátke odpovede:", s_q))
     story.append(Paragraph(
         "a) Aký je vzťah medzi systémami ABS, ASR a FDR/ESP?", s_body,
     ))

@@ -197,12 +197,11 @@ def build():
     # ================================================================
     story.append(Paragraph("2) Doplň do textu:", s_q))
     story.append(Paragraph(
-        f"Keď vodič stlačí brzdový {A('pedál')}, piest v hlavnom brzdovom "
-        f"{A('valci')} vytvorí tlak v brzdovej {A('kvapaline')}. Tento tlak "
-        f"sa prenáša {A('potrubím')} do brzdových {A('valčekov')} pri kolesách, "
-        f"kde posúva piesty. Piesty pritláčajú brzdové {A('doštičky')} na kotúče "
-        f"alebo brzdové {A('čeľuste')} na bubny, čím vzniká trenie "
-        f"a {A('brzdná')} sila.",
+        f"Keď vodič stlačí {A('brzdový pedál')}, piest v {A('hlavnom brzdovom valci')} "
+        f"vytvorí tlak v brzdovej kvapaline. Keďže kvapalina je {A('nestlačiteľná')}, "
+        f"tlak sa prenáša na hydraulické piestiky a posúva ich. Piestiky sú spojené "
+        f"s {A('doštičkami')} alebo {A('čeľusťami')} a tlačia ich voči "
+        f"{A('brzdnému kotúču')} alebo {A('bubnu')}.",
         s_body,
     ))
     story.append(Spacer(1, 3))
@@ -335,7 +334,7 @@ def build():
     story.append(Paragraph("6) Doplň do textu:", s_q))
     story.append(Paragraph(
         f"Keď vodič nestláča brzdový pedál, v podtlakovej aj v {A('pracovnej')} "
-        f"komore je rovnaký tlak ({A('podtlak')}). Pri stlačení pedála sa do "
+        f"komore je {A('podtlak')}. Pri stlačení pedála sa do "
         f"pracovnej komory vpustí {A('atmosférický')} tlak a zablokuje sa "
         f"{A('prepúšťací')} kanál. Rozdiel tlakov vytvára silu, ktorá tlačí na "
         f"{A('piest')} a prenáša sa do hlavného brzdového valca pomocou "
@@ -351,12 +350,12 @@ def build():
     q7 = [
         ("Brzdový posilňovač zosilňuje silu vyvinutú vodičom na brzdový pedál.",
          "Pravda"),
-        ("Podtlakový posilňovač využíva podtlak z výfukového potrubia motora.",
+        ("Podtlakový posilňovač môže využívať podtlak len z výfukového potrubia motora.",
          "Nepravda"),
         ("Membrána oddeľuje podtlakovú komoru od pracovnej komory.",
          "Pravda"),
-        ("Zosílenie brzdového posilňovača býva zvyčajne od 300% do 500%.",
-         "Pravda"),
+        ("Atmosferický kanál je otváraný a zatváraný reakčným kotúčom.",
+         "Nepravda"),
         ("Tanierový ventil pri stlačení brzdového pedálu otvára prepúšťací kanál.",
          "Nepravda"),
     ]
@@ -369,24 +368,30 @@ def build():
     # ================================================================
     story.append(Paragraph("8) Krátke odpovede:", s_q))
     story.append(Paragraph(
-        "a) Aká je hlavná funkcia brzdového posilňovača?", s_body,
+        "a) Ako funguje podtlakový brzdový posilňovač?", s_body,
     ))
     story.append(Paragraph(
-        A("Brzdový posilňovač je zariadenie zosilňujúce silu, ktorú vodič vyvinie "
-          "stlačením brzdového pedálu pri brzdení. Tým pádom taktiež znižuje silu, "
-          "ktorú musí vodič pri brzdení na pedál vyvinúť. Zosílenie býva zvyčajne "
-          "od 300% do 500%."),
+        A("Podtlakový posilňovač využíva rozdiel tlakov medzi podtlakovou a pracovnou "
+          "komorou. Keď vodič nestláča pedál, v oboch komorách je rovnaký podtlak. "
+          "Pri stlačení pedála sa do pracovnej komory vpustí atmosferický tlak "
+          "a zablokuje sa prepúšťací kanál. Vzniknutý rozdiel tlakov tlačí na piest "
+          "a membrána prenáša túto silu cez tlačnú tyč do hlavného brzdového valca, "
+          "čím zosilňuje silu vodiča na pedál."),
         s_answer_line,
     ))
     story.append(Spacer(1, 4))
     story.append(Paragraph(
-        "b) Čo vyhodnocuje systém BAS a ako reaguje pri núdzovom brzdení?",
+        "b) Aký problém podtlakového posilňovača rieši BAS? Akým spôsobom tento problém rieši?",
         s_body,
     ))
     story.append(Paragraph(
-        A("Systém BAS vyhodnocuje rýchlosť stláčania brzdového pedála. Pri zistení "
-          "náhlého, rýchleho stlačenia (typické pre núdzovú situáciu) systém "
-          "automaticky zvyšuje brzdný tlak na maximum."),
+        A("Problém: Podtlakový posilňovač zosilňuje silu úmerne tomu, ako rýchlo vodič "
+          "stláča pedál. Pri panike vodič často stláča pedál príliš pomaly a neistí, "
+          "čím nevyužije plný brzdný účinok. "
+          "Riešenie: BAS (Brake Assist System) vyhodnocuje rýchlosť stláčania brzdového "
+          "pedála. Pri zistení náhleho, rýchleho stlačenia (typické pre núdzovú situáciu) "
+          "systém automaticky zvýši brzdný tlak na maximum, aj keď vodič pedál nestlačil "
+          "naplno."),
         s_answer_line,
     ))
 

@@ -9,7 +9,7 @@ sidebar:
 
 ## Definícia
 
-Brzdy sú **mechanické zariadenie, ktoré zamedzuje pohybu vozidla absorbovaním jeho pohybovovej energie alebo jej premenou na inú energiu**. Najčastejšie sa pohyb mení na energiu tepelnú pomocou trenia, ale môže sa meniť aj na energiu elektrickú pomocou elektromagentickej indukcie (rekuperačné brzdenie pri elektromobiloch). Pri brzdení motorom zabezpečuje spomalenie odpor stlačeného vzduchu vo valcoch a pri aerodynamickej brzde zase zvýšený odpor vzduchu pri vyššej rýchlosti.
+Brzdy sú **mechanické zariadenie, ktoré zamedzuje pohybu vozidla absorbovaním jeho pohybovej energie alebo jej premenou na inú energiu**. Najčastejšie sa pohyb mení na energiu tepelnú pomocou trenia, ale môže sa meniť aj na energiu elektrickú pomocou elektromagentickej indukcie (rekuperačné brzdenie pri elektromobiloch). Pri brzdení motorom zabezpečuje spomalenie odpor stlačeného vzduchu vo valcoch a pri aerodynamickej brzde zase zvýšený odpor vzduchu pri vyššej rýchlosti.
 
 {{< figure src="brakes.jpg" alt="Príklad trecieho, rekuperačného a aerodynamického brzdenia" width="100%" caption="Obr. 10. 1 - Príklad trecieho, rekuperačného a aerodynamického brzdenia" >}}
 

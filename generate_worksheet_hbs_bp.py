@@ -176,11 +176,10 @@ def build():
     # ================================================================
     story.append(Paragraph("2) Doplň do textu:", s_q))
     story.append(Paragraph(
-        f"Keď vodič stlačí brzdový {BL}, piest v hlavnom brzdovom {BL} "
-        f"vytvorí tlak v brzdovej {BL}. Tento tlak sa prenáša {BL} "
-        f"do brzdových {BL} pri kolesách, kde posúva piesty. Piesty "
-        f"pritláčajú brzdové {BL} na kotúče alebo brzdové {BL} "
-        f"na bubny, čím vzniká trenie a {BL} sila.",
+        f"Keď vodič stlačí {BL}, piest v {BL} vytvorí tlak v brzdovej "
+        f"kvapaline. Keďže kvapalina je {BL}, tlak sa prenáša na hydraulické "
+        f"piestiky a posúva ich. Piestiky sú spojené s {BL} alebo {BL} "
+        f"a tlačia ich voči {BL} alebo {BL}.",
         s_body,
     ))
     story.append(Spacer(1, 3))
@@ -306,7 +305,7 @@ def build():
     story.append(Paragraph("6) Doplň do textu:", s_q))
     story.append(Paragraph(
         f"Keď vodič nestláča brzdový pedál, v podtlakovej aj v {BL} komore "
-        f"je rovnaký tlak ({BL}). Pri stlačení pedála sa do pracovnej komory "
+        f"je {BL}. Pri stlačení pedála sa do pracovnej komory "
         f"vpustí {BL} tlak a zablokuje sa {BL} kanál. "
         f"Rozdiel tlakov vytvára silu, ktorá tlačí na {BL} a prenáša sa "
         f"do hlavného brzdového valca pomocou {BL} tyče.",
@@ -320,9 +319,9 @@ def build():
     story.append(Paragraph("7) Rozhodni – Pravda / Nepravda:", s_q))
     for stmt in [
         "Brzdový posilňovač zosilňuje silu vyvinutú vodičom na brzdový pedál.",
-        "Podtlakový posilňovač využíva podtlak z výfukového potrubia motora.",
+        "Podtlakový posilňovač môže využívať podtlak len z výfukového potrubia motora.",
         "Membrána oddeľuje podtlakovú komoru od pracovnej komory.",
-        "Zosílenie brzdového posilňovača býva zvyčajne od 300% do 500%.",
+        "Atmosferický kanál je otváraný a zatváraný reakčným kotúčom.",
         "Tanierový ventil pri stlačení brzdového pedálu otvára prepúšťací kanál.",
     ]:
         story.append(pn_row(stmt))
@@ -333,14 +332,14 @@ def build():
     # ================================================================
     story.append(Paragraph("8) Krátke odpovede:", s_q))
     story.append(Paragraph(
-        "a) Aká je hlavná funkcia brzdového posilňovača?", s_body,
+        "a) Ako funguje podtlakový brzdový posilňovač?", s_body,
     ))
     for _ in range(3):
         story.append(Spacer(1, 14))
         story.append(HRFlowable(width="100%", thickness=0.5, color=black))
     story.append(Spacer(1, 4))
     story.append(Paragraph(
-        "b) Čo vyhodnocuje systém BAS a ako reaguje pri núdzovom brzdení?",
+        "b) Aký problém podtlakového posilňovača rieši BAS? Akým spôsobom tento problém rieši?",
         s_body,
     ))
     for _ in range(3):

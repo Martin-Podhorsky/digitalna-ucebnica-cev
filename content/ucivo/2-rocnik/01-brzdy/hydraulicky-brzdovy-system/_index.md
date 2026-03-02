@@ -23,7 +23,7 @@ sidebar:
 
 ## Princíp činnosti:
 
-Keď vodič stlačí brzdový pedál, piest v hlavnom brzdovom valci vytvorí tlak v brzdovej kvapaline. Tento tlak sa prenáša potrubím do brzdových valčekov pri kolesách, kde posúva piesty. Piesty pritláčajú brzdové doštičky na kotúče alebo brzdové čeľuste na bubny, čím vzniká trenie a brzdná sila.
+Keď vodič stlačí brzdový pedál, piest v hlavnom brzdovom valci vytvorí tlak v brzdovej kvapaline. Keďže kvapalina je nestlačiteľná, tlak sa prenáša na hydraulické piestiky a posúva ich. Piestiky sú spojené s doštičkami alebo čeľusťami a tlačí ich voči brzdnému kotúču alebo bubnu.
 
 ## Usporiadanie brzdových okruhov
 
