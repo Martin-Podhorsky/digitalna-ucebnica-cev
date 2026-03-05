@@ -27,7 +27,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONTENT_DIR = os.path.join(BASE_DIR, "content", "ucivo", "2-rocnik", "01-brzdy")
 HBS_IMG = os.path.join(CONTENT_DIR, "hydraulicky-brzdovy-system", "hydraulicky-brzdovy-system.png")
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-hbs-bp.pdf")
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_hbs-bp.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup

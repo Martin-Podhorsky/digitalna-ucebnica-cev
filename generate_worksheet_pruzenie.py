@@ -27,7 +27,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONTENT_DIR = os.path.join(BASE_DIR, "content", "ucivo", "2-rocnik", "02-pruzenie-tlmenie")
 LEAF_IMG = os.path.join(CONTENT_DIR, "listove-pruziny", "listova-pruzina-casti.png")
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-pruzenie.pdf")
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_listove-vinute-skrutne.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -149,8 +149,9 @@ def build():
     story.append(Paragraph(
         f"Pruženie a tlmenie vozidla je súbor komponentov, ktoré spájajú "
         f"{BL} vozidla s {BL} tak, že umožnujú ich vzájomné pohybovanie "
-        f"sa. Jednou z požiadaviek je stály kontakt kolies s vozovkou, pretože "
-        f"je nevyhnutný pre efektívne {BL}, {BL} a prenos hnacích síl. "
+        f"sa. Jednou z požiadaviek kladených na pruženie je udržovať stály kontakt "
+        f"kolies s vozovkou, pretože je nevyhnutný pre efektívne {BL}, {BL} "
+        f"a prenos hnacích síl. "
         f"Hmotnosť komponentov pod pružinami sa nazýva {BL} hmotnosť.",
         s_body,
     ))
@@ -301,7 +302,7 @@ def build():
         story += answer_line()
     story.append(Spacer(1, 4))
     story.append(Paragraph(
-        "b) Na čo slúžia stabilizačné tyče (anti-roll bars)?",
+        "b) Na čo slúžia stabilizačné tyče?",
         s_body,
     ))
     for _ in range(3):

@@ -11,7 +11,7 @@ import os
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import cm
 from reportlab.lib.styles import ParagraphStyle
-from reportlab.lib.enums import TA_LEFT, TA_CENTER
+from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_RIGHT
 from reportlab.lib.colors import black, HexColor
 from reportlab.lib.utils import ImageReader
 from reportlab.platypus import (
@@ -29,7 +29,7 @@ IMG_DIR = os.path.join(BASE_DIR, "content", "ucivo", "2-rocnik", "03-riadenie")
 IMG_A = os.path.join(IMG_DIR, "so-spojovacou-tycou.png")
 IMG_B = os.path.join(IMG_DIR, "s-riadiacimi-tycami.png")
 IMG_C = os.path.join(IMG_DIR, "s-dvoma-tahadlami.png")
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-riadenie.pdf")
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_riadenie.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -79,9 +79,6 @@ s_table_c = ParagraphStyle(
 s_img_label = ParagraphStyle(
     "ImgLbl", fontName="FB", fontSize=11, leading=14, alignment=TA_CENTER,
 )
-s_match_lbl = ParagraphStyle(
-    "MatchLbl", fontName="FB", fontSize=10, leading=13, alignment=TA_CENTER,
-)
 
 BL = "_______________"
 
@@ -118,7 +115,7 @@ def pn_row(statement):
 
 
 def answer_line():
-    return [Spacer(1, 14), HRFlowable(width="100%", thickness=0.5, color=black)]
+    return [Spacer(1, 20), HRFlowable(width="100%", thickness=0.5, color=black)]
 
 
 # ---------------------------------------------------------------------------
@@ -154,84 +151,76 @@ def build():
     story.append(Spacer(1, 4))
 
     # ================================================================
-    #  Q1 – Fill in the blanks (general info)
+    #  Q1 – Requirements for steering
     # ================================================================
-    story.append(Paragraph("1) Doplň do textu:", s_q))
     story.append(Paragraph(
-        f"Riadenie je mechanizmus, ktorý umožňuje vodičovi ovládať "
-        f"{BL} jazdy vozidla. Jednou z požiadaviek je "
-        f"{BL}, čo znamená, že po uvoľnení volantu sa kolesá "
-        f"musia samočinne vrátiť do polohy pre priamu jazdu. "
-        f"Najrozšírenejší spôsob riadenia podľa riadených kolies je "
-        f"riadenie {BL} kolies.",
-        s_body,
+        "1) Vymenuj a popíš aspoň 4 požiadavky kladené na riadenie:", s_q,
     ))
+    for _ in range(6):
+        story += answer_line()
     story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q2 – Match images to construction types
+    #  Q2 – Match terms to images (terms left, images right in column)
     # ================================================================
     story.append(Paragraph(
-        "2) Priraď obrázok (A, B, C) k správnemu názvu konštrukcie "
-        "riadiaceho ústrojenstva:",
+        "2) Priraď názov konštrukcie k správnemu obrázku:",
         s_q,
     ))
 
-    cell_w = UW / 3
-    img_h = 3.8 * cm
-    img_row = [
-        scaled_img(IMG_A, cell_w * 0.9, max_h=img_h),
-        scaled_img(IMG_B, cell_w * 0.9, max_h=img_h),
-        scaled_img(IMG_C, cell_w * 0.9, max_h=img_h),
-    ]
-    lbl_row = [
-        Paragraph("<b>A</b>", s_img_label),
-        Paragraph("<b>B</b>", s_img_label),
-        Paragraph("<b>C</b>", s_img_label),
-    ]
-    img_tbl = Table([img_row, lbl_row], colWidths=[cell_w] * 3)
-    img_tbl.setStyle(TableStyle([
-        ("ALIGN", (0, 0), (-1, -1), "CENTER"),
-        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-        ("TOPPADDING", (0, 0), (-1, -1), 2),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
-    ]))
-    story.append(img_tbl)
-    story.append(Spacer(1, 3))
+    img_col_w = UW * 0.55
+    term_col_w = UW * 0.45
+    img_h = 2.8 * cm
 
+    # Terms shuffled so they don't match images in order
     names = [
         "S dvoma ťahadlami",
         "So spájacou (priečnou) tyčou",
         "S delenou spojovacou tyčou",
     ]
-    match_rows = []
-    for name in names:
-        match_rows.append([
-            Paragraph(name, s_table),
-            Paragraph("____", s_match_lbl),
-        ])
-    mt = Table(match_rows, colWidths=[UW * 0.80, UW * 0.20])
-    mt.setStyle(TableStyle([
+    images = [IMG_A, IMG_B, IMG_C]
+    labels = ["1", "2", "3"]
+
+    s_term = ParagraphStyle("Term", fontName="F", fontSize=10, leading=14)
+    s_lbl = ParagraphStyle("Lbl", fontName="FB", fontSize=10, leading=14, alignment=TA_CENTER)
+
+    rows = []
+    for i, (name, img_path, lbl) in enumerate(zip(names, images, labels)):
+        term_cell = Paragraph(name, s_term)
+        img_obj = scaled_img(img_path, img_col_w * 0.95, max_h=img_h)
+        lbl_cell = Paragraph(f"<b>{lbl}</b>", s_lbl)
+        img_inner = Table([[img_obj], [lbl_cell]], colWidths=[img_col_w])
+        img_inner.setStyle(TableStyle([
+            ("ALIGN", (0, 0), (-1, -1), "CENTER"),
+            ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+            ("TOPPADDING", (0, 0), (-1, -1), 1),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 1),
+        ]))
+        rows.append([term_cell, img_inner])
+
+    match_tbl = Table(rows, colWidths=[term_col_w, img_col_w])
+    match_tbl.setStyle(TableStyle([
         ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-        ("TOPPADDING", (0, 0), (-1, -1), 3),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
+        # Tighter padding on the terms column, normal on image column
+        ("TOPPADDING", (0, 0), (0, -1), 2),
+        ("BOTTOMPADDING", (0, 0), (0, -1), 2),
+        ("TOPPADDING", (1, 0), (1, -1), 4),
+        ("BOTTOMPADDING", (1, 0), (1, -1), 4),
         ("LINEBELOW", (0, 0), (-1, -2), 0.3, HexColor("#CCCCCC")),
     ]))
-    story.append(mt)
+    story.append(match_tbl)
     story.append(Spacer(1, 3))
 
     # ================================================================
     #  Q3 – Fill in the blanks (prevodovka riadenia)
     # ================================================================
-    story.append(Paragraph(
-        "3) Doplň do textu (prevodovka riadenia):", s_q,
-    ))
+    story.append(Paragraph("3) Doplň do textu:", s_q))
     story.append(Paragraph(
         f"Prevodovka riadenia premieňa {BL} pohyb volantu na "
-        f"{BL} pohyb, ktorý natáča kolesá. Prevodový pomer "
+        f"{BL} pohyb. Prevodový pomer "
         f"15:1 znamená, že pri otočení volantu o {BL} sa kolesá "
-        f"natočia o 1°. Dnes najbežnejším typom prevodovky riadenia v "
-        f"osobných autách je {BL} riadenie.",
+        f"natočia o {BL}. Dnes najbežnejším typom prevodovky "
+        f"riadenia v osobných autách je {BL}.",
         s_body,
     ))
 
@@ -250,6 +239,7 @@ def build():
     ))
     props = [
         "Zdroj pomocnej sily",
+        "Veľkosť pomocnej sily (väčšia/menšia)",
         "Spätná väzba z cesty",
         "Údržba",
         "Závislosť od chodu motora",
@@ -291,7 +281,7 @@ def build():
         "až o 80%.",
         "Pri riadení všetkých kolies (4WS) sa zadné kolesá pri "
         "nízkych rýchlostiach natáčajú rovnakým smerom ako predné.",
-        "Elektronický posilňovač riadenia (EPS) využíva na "
+        "Elektronický posilňovač riadenia využíva na "
         "posilňovanie hydraulickú kvapalinu.",
         "Bezpečnostný stĺpik riadenia je navrhnutý tak, aby sa pri "
         "čelnom náraze zalomil alebo teleskopicky zasunul.",
@@ -304,16 +294,14 @@ def build():
     # ================================================================
     story.append(Paragraph("6) Krátke odpovede:", s_q))
     story.append(Paragraph(
-        "a) Vysvetli, čo je variabilný prevodový pomer riadenia "
-        "a prečo je výhodný.",
+        "a) Vysvetli, čo je variabilný prevodový pomer riadenia.",
         s_body,
     ))
     for _ in range(3):
         story += answer_line()
     story.append(Spacer(1, 4))
     story.append(Paragraph(
-        "b) Uveď 2 funkcie moderných elektronických posilňovačov "
-        "riadenia (EPS).",
+        "b) Uveď 2 funkcie moderných elektronických posilňovačov riadenia.",
         s_body,
     ))
     for _ in range(3):

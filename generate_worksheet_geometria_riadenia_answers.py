@@ -20,6 +20,7 @@ from reportlab.platypus import (
 )
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib import pdfencrypt
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -38,7 +39,7 @@ IMG_DIFERENCNY   = os.path.join(IMG_DIR, "diferencny-uhol.jpg")
 IMG_ROZCHOD      = os.path.join(IMG_DIR, "rozchod.jpg")
 IMG_RAZVOR       = os.path.join(IMG_DIR, "razvor.jpg")
 
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-geometria-riadenia-odpovede.pdf")
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_geometria-riadenia_odpovede.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -148,6 +149,7 @@ def build():
         OUTPUT, pagesize=A4,
         leftMargin=MARGIN_LR, rightMargin=MARGIN_LR,
         topMargin=MARGIN_TB,  bottomMargin=MARGIN_TB,
+        encrypt=pdfencrypt.StandardEncryption("skus-hadat-123", canPrint=1),
     )
     story = []
 

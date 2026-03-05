@@ -20,6 +20,7 @@ from reportlab.platypus import (
 )
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib import pdfencrypt
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -32,7 +33,7 @@ IMG_PLACHTA  = os.path.join(IMG_DIR, "plachtovy-naves.jpg")
 IMG_SKRINA   = os.path.join(IMG_DIR, "skrinovy-naves.jpg")
 IMG_VALNIK   = os.path.join(IMG_DIR, "valnik.jpg")
 
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-privesy-navesy-odpovede.pdf")
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_privesy-navesy_odpovede.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -141,6 +142,7 @@ def build():
         OUTPUT, pagesize=A4,
         leftMargin=MARGIN_LR, rightMargin=MARGIN_LR,
         topMargin=MARGIN_TB,  bottomMargin=MARGIN_TB,
+        encrypt=pdfencrypt.StandardEncryption("skus-hadat-123", canPrint=1),
     )
     story = []
 
@@ -380,9 +382,8 @@ def build():
         A("Off-tracking je jav, kedy zadné kolesá prívesu alebo návesu nesledujú presnú stopu "
           "predných kolies ťažného vozidla a zarezávajú sa do vnútra zákruty. "
           "Dochádza k nemu pri každom zatáčaní. "
-          "Ovplyvňuje ho dĺžka vozidla medzi nápravami, uhol zatočenia a rýchlosť jazdy "
-          "(čím väčšia rýchlosť, tým väčší off-tracking). "
-          "Pri projektovaní ciest a parkovísk sa musí počítať s vlečnou krivkou (swept path)."),
+          "Ovplyvňuje ho rázvor náprav, uhol zatočenia a rýchlosť jazdy "
+          "(čím menšia rýchlosť, tým viac sa náves/príves zarezáva do zákruty)."),
         s_answer_line,
     ))
     story.append(Spacer(1, 5))
@@ -394,7 +395,7 @@ def build():
     factors = [
         "Dĺžka súpravy a rázvor náprav",
         "Vzdialenosť kráľovského čapu od zadnej nápravy ťahača (u návesov)",
-        "Typ pripájacieho zariadenia (točnica vs. oj)",
+        "Typ pripájacieho zariadenia",
         "Rozloženie hmotnosti nákladu",
         "Počet a usporiadanie náprav (vrátane riadených/zdvíhacích náprav)",
         "Rýchlosť jazdy",

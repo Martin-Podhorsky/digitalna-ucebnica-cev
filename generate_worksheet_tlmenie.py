@@ -13,8 +13,9 @@ from reportlab.lib.units import cm
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_RIGHT
 from reportlab.lib.colors import black, HexColor
+from reportlab.lib.utils import ImageReader
 from reportlab.platypus import (
-    SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle,
+    SimpleDocTemplate, Paragraph, Spacer, Image, Table, TableStyle,
     HRFlowable, PageBreak,
 )
 from reportlab.pdfbase import pdfmetrics
@@ -24,7 +25,11 @@ from reportlab.pdfbase.ttfonts import TTFont
 # Paths
 # ---------------------------------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-tlmenie.pdf")
+TWINTUBE_IMG = os.path.join(
+    BASE_DIR, "content", "ucivo", "2-rocnik", "02-pruzenie-tlmenie",
+    "tlmenie", "teleskopicke-tlmice", "twintube.png"
+)
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_tlmenie.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -98,7 +103,15 @@ def pn_row(statement):
 
 
 def answer_line():
-    return [Spacer(1, 14), HRFlowable(width="100%", thickness=0.5, color=black)]
+    return [Spacer(1, 20), HRFlowable(width="100%", thickness=0.5, color=black)]
+
+
+def lines_block(n, width):
+    """Return a Paragraph containing n stacked answer lines fitting given width."""
+    items = []
+    for _ in range(n):
+        items += answer_line()
+    return items
 
 
 # ---------------------------------------------------------------------------
@@ -134,33 +147,80 @@ def build():
     story.append(Spacer(1, 4))
 
     # ================================================================
-    #  Q1 – True / False (general damping info)
+    #  Q1 – Describe the twin-tube shock absorber from image
+    #  Image on LEFT, answer lines on RIGHT
     # ================================================================
-    story.append(Paragraph("1) Rozhodni – Pravda / Nepravda:", s_q))
+    story.append(Paragraph(
+        "1) Vyznač a pomenuj jednotlivé časti dvojplášťového teleskopického tlmiča:",
+        s_q,
+    ))
+
+    IMG_W = 5.5 * cm
+    IMG_H = 16.5 * cm   # force tall render – shock content fills the height
+    img_obj = Image(TWINTUBE_IMG, width=IMG_W, height=IMG_H)
+    img_obj.hAlign = "CENTER"
+
+    GAP = 0.9 * cm  # gap between image and lines (3× original 0.3 cm)
+    lines_col_w = UW - IMG_W - GAP
+    # ~23 lines to fill the full image height (16.5 cm / ~0.71 cm per line)
+    line_rows = []
+    for _ in range(23):
+        line_rows.append([Spacer(1, 20)])
+        line_rows.append([HRFlowable(width="100%", thickness=0.5, color=black)])
+    lines_tbl = Table(line_rows, colWidths=[lines_col_w])
+    lines_tbl.setStyle(TableStyle([
+        ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+    ]))
+
+    side_tbl = Table(
+        [[img_obj, lines_tbl]],
+        colWidths=[IMG_W + GAP, lines_col_w],
+    )
+    side_tbl.setStyle(TableStyle([
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 4),
+    ]))
+    story.append(side_tbl)
+    story.append(Spacer(1, 4))
+
+    # ================================================================
+    #  Q2 – True / False (general damping info)
+    # ================================================================
+    story.append(Paragraph("2) Rozhodni – Pravda / Nepravda:", s_q))
     for stmt in [
         "Tlmiče slúžia na zvýšenie únosnosti pružín pri veľkom zaťažení.",
         "Tlmiče premieňajú kinetickú energiu kmitania pružín na teplo.",
         "Jednoplášťový tlmič sa môže montovať v ľubovoľnej polohe.",
         "Dvojplášťový tlmič má lepšie chladenie ako jednoplášťový.",
-        "Fading je jav, pri ktorom sa olej v tlmiči mieša so vzduchom "
-        "a výrazne sa zníži tlmiaca schopnosť.",
+        "Fading tlmiča je jav, pri ktorom v dôsledku prehriatia dochádza "
+        "k zníženiu viskozity oleja a k jeho prevzdušneniu či kavitácii "
+        "(vzniku bublín), čo vedie k výraznej strate tlmiaceho účinku.",
     ]:
         story.append(pn_row(stmt))
-    story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q2 – Comparison table (twin-tube vs mono-tube)
+    #  PAGE 2
+    # ================================================================
+    story.append(PageBreak())
+
+    # ================================================================
+    #  Q3 – Comparison table (twin-tube vs mono-tube)
     # ================================================================
     story.append(Paragraph(
-        "2) Doplň porovnávaciu tabuľku (dvojplášťový vs. jednoplášťový tlmič):",
+        "3) Doplň porovnávaciu tabuľku (dvojplášťový vs. jednoplášťový tlmič):",
         s_q,
     ))
     props = [
-        "Chladenie",
-        "Odozva na nerovnosti",
+        "Chladenie (lepšie/horšie)",
+        "Odozva na nerovnosti (pomalšia/rýchlejšia)",
         "Montážna poloha",
-        "Komfort jazdy",
-        "Výrobné náklady",
+        "Výrobné náklady (menšie/väčšie)",
         "Použitie",
     ]
     cmp_data = [[
@@ -174,7 +234,7 @@ def build():
             Paragraph("", s_table_c),
             Paragraph("", s_table_c),
         ])
-    ct = Table(cmp_data, colWidths=[UW * 0.30, UW * 0.35, UW * 0.35])
+    ct = Table(cmp_data, colWidths=[UW * 0.36, UW * 0.32, UW * 0.32])
     ct.setStyle(TableStyle([
         ("GRID", (0, 0), (-1, -1), 0.5, black),
         ("BACKGROUND", (0, 0), (-1, 0), GRAY_BG),
@@ -189,30 +249,27 @@ def build():
     story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q3 – Fill in the blanks (twin-tube principle)
+    #  Q4 – Fill in the blanks (twin-tube principle)
     # ================================================================
+    story.append(Paragraph("4) Doplň do textu:", s_q))
     story.append(Paragraph(
-        "3) Doplň do textu (princíp činnosti dvojplášťového tlmiča):", s_q,
-    ))
-    story.append(Paragraph(
-        f"Dvojplášťový tlmič sa skladá z dvoch valcov – {BL} a {BL}. "
-        f"Pri stláčaní sa piest pohybuje nadol a vytláča hydraulickú "
-        f"kvapalinu cez ventil z pod piesta nad piest. Pri {BL} sa piest "
-        f"pohybuje nahor. Ventil B má spravidla {BL} prierez, aby tlmič "
-        f"kládol väčší odpor pri rozťahovaní.",
+        f"Dvojplášťový tlmič sa skladá z dvoch valcov (plášťov) – {BL}. "
+        f"Medzi týmito valcami sa nachádza priestor slúžiaci ako {BL}. "
+        f"Pri stláčaní sa piest pohybuje {BL} a vytláča hydraulickú "
+        f"kvapalinu z pod piesta nad piest. Pri rozťahovaní sa piest pohybuje "
+        f"{BL} a kvapalina prúdi z priestoru nad piestom do priestoru pod "
+        f"piestom. Ventil, cez ktorý kvapalina preteká pri rozťahovaní, má "
+        f"spravidla {BL} prierez alebo {BL} tlak potrebný na otvorenie, aby "
+        f"tlmič kládol {BL} odpor pri rozťahovaní ako pri stláčaní.",
         s_body,
     ))
+    story.append(Spacer(1, 3))
 
     # ================================================================
-    #  PAGE 2
-    # ================================================================
-    story.append(PageBreak())
-
-    # ================================================================
-    #  Q4 – Match descriptions to regulation types
+    #  Q5 – Match descriptions to regulation types
     # ================================================================
     story.append(Paragraph(
-        "4) Priraď opis k správnemu typu regulácie tlmenia (A, B alebo C):",
+        "5) Priraď opis k správnemu typu regulácie tlmenia (A, B alebo C):",
         s_q,
     ))
     story.append(Paragraph(
@@ -248,51 +305,19 @@ def build():
     story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q5 – Fill in the blanks (MagneRide)
+    #  Q6 – Fill in the blanks (MagneRide)
     # ================================================================
+    story.append(Paragraph("6) Doplň do textu:", s_q))
     story.append(Paragraph(
-        "5) Doplň do textu (magnetoreologické tlmiče – MagneRide):", s_q,
-    ))
-    story.append(Paragraph(
-        f"Magnetoreologická kvapalina obsahuje mikroskopické {BL} "
-        f"častice rozptýlené v syntetickom oleji. Bez magnetického poľa "
-        f"má kvapalina {BL} viskozitu ({BL} tlmenie). Keď "
-        f"elektromagnetická cievka vytvorí magnetické pole, častice "
-        f"sa zoradia do {BL} a vytvoria odpor proti prúdeniu. Tým sa "
-        f"zvýši viskozita a tlmenie sa stane {BL}.",
+        f"Magnetoreologická kvapalina obsahuje {BL}. "
+        f"V normálnom stave sa častice voľne pohybujú a kvapalina má "
+        f"{BL} viskozitu. "
+        f"Keď elektromagnetická cievka v pieste vytvorí magnetické pole, "
+        f"kovové častice sa zoradia do reťazcov v smere magnetických siločiar. "
+        f"Tieto reťazce vytvárajú odpor voči prúdeniu kvapaliny, čím sa "
+        f"{BL} jej zdanlivá viskozita a tým aj tlmiaca sila.",
         s_body,
     ))
-    story.append(Spacer(1, 3))
-
-    # ================================================================
-    #  Q6 – Match system to manufacturer
-    # ================================================================
-    story.append(Paragraph(
-        "6) Priraď systém adaptívneho tlmenia k jeho výrobcovi:", s_q,
-    ))
-    sys_data = [[
-        Paragraph("<b>Systém</b>", s_table_b),
-        Paragraph("<b>Výrobca</b>", s_table_b),
-    ]]
-    for sys_name in ["CDC (Continuous Damping Control)",
-                     "DCC (Dynamic Chassis Control)",
-                     "MagneRide",
-                     "PASM (Porsche Active Suspension Management)"]:
-        sys_data.append([
-            Paragraph(sys_name, s_table),
-            Paragraph("", s_table),
-        ])
-    st = Table(sys_data, colWidths=[UW * 0.55, UW * 0.45])
-    st.setStyle(TableStyle([
-        ("GRID", (0, 0), (-1, -1), 0.5, black),
-        ("BACKGROUND", (0, 0), (-1, 0), GRAY_BG),
-        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-        ("TOPPADDING", (0, 0), (-1, -1), 4),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
-        ("LEFTPADDING", (0, 0), (-1, -1), 5),
-        ("RIGHTPADDING", (0, 0), (-1, -1), 5),
-    ]))
-    story.append(st)
     story.append(Spacer(1, 3))
 
     # ================================================================
@@ -300,15 +325,14 @@ def build():
     # ================================================================
     story.append(Paragraph("7) Krátke odpovede:", s_q))
     story.append(Paragraph(
-        "a) Uveď 3 úlohy tlmičov pruženia.",
+        "a) Uveď aspoň 3 úlohy tlmičov pruženia.",
         s_body,
     ))
     for _ in range(3):
         story += answer_line()
     story.append(Spacer(1, 4))
     story.append(Paragraph(
-        "b) Uveď 2 výhody magnetoreologických tlmičov oproti "
-        "solenoidovým.",
+        "b) Uveď 2 výhody magnetoreologických tlmičov oproti solenoidovým.",
         s_body,
     ))
     for _ in range(3):

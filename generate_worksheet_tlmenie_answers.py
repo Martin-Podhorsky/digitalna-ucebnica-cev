@@ -13,18 +13,28 @@ from reportlab.lib.units import cm
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_RIGHT
 from reportlab.lib.colors import black, HexColor
+from reportlab.lib.utils import ImageReader
 from reportlab.platypus import (
-    SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle,
+    SimpleDocTemplate, Paragraph, Spacer, Image, Table, TableStyle,
     HRFlowable, PageBreak,
 )
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib import pdfencrypt
 
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-tlmenie-odpovede.pdf")
+TWINTUBE_IMG = os.path.join(
+    BASE_DIR, "content", "ucivo", "2-rocnik", "02-pruzenie-tlmenie",
+    "tlmenie", "teleskopicke-tlmice", "twintube.png"
+)
+TWINTUBE_NUMBERED_IMG = os.path.join(
+    BASE_DIR, "content", "ucivo", "2-rocnik", "02-pruzenie-tlmenie",
+    "tlmenie", "teleskopicke-tlmice", "twin-tube-numbers.png"
+)
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_tlmenie_odpovede.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -107,7 +117,7 @@ def pn_row(statement, answer):
 
 
 def answer_line():
-    return [Spacer(1, 14), HRFlowable(width="100%", thickness=0.5, color=black)]
+    return [Spacer(1, 20), HRFlowable(width="100%", thickness=0.5, color=black)]
 
 
 # ---------------------------------------------------------------------------
@@ -118,6 +128,7 @@ def build():
         OUTPUT, pagesize=A4,
         leftMargin=MARGIN_LR, rightMargin=MARGIN_LR,
         topMargin=MARGIN_TB, bottomMargin=MARGIN_TB,
+        encrypt=pdfencrypt.StandardEncryption("skus-hadat-123", canPrint=1),
     )
     story = []
 
@@ -144,9 +155,62 @@ def build():
     story.append(Spacer(1, 4))
 
     # ================================================================
-    #  Q1 – True / False
+    #  Q1 – Describe the twin-tube shock absorber from image
+    #  Image on LEFT, answer lines on RIGHT
     # ================================================================
-    story.append(Paragraph("1) Rozhodni – Pravda / Nepravda:", s_q))
+    story.append(Paragraph(
+        "1) Vyznač a pomenuj jednotlivé časti dvojplášťového teleskopického tlmiča:",
+        s_q,
+    ))
+
+    IMG_W = 5.5 * cm
+    IMG_H = 16.5 * cm
+    img_obj = Image(TWINTUBE_NUMBERED_IMG, width=IMG_W, height=IMG_H)
+    img_obj.hAlign = "CENTER"
+
+    parts = [
+        "1 – Vnútorný plášť",
+        "2 – Vonkajší plášť",
+        "3 – Piestnica",
+        "4 – Piest s prietokovými jednocestnými ventilmi A a B",
+        "5 – Pracovný priestor",
+        "6 – Priestor zásobníka (vzduch alebo dusík)",
+        "7 – Dno s prietokovými jednocestnými ventilmi C a D",
+        "8 – Vedenie piestice",
+        "9 – Tesnenie",
+        "10 – Oká na uchytenie",
+    ]
+    s_part = ParagraphStyle(
+        "Part", fontName="FI", fontSize=10, leading=15, textColor=BLUE,
+    )
+    parts_content = [Spacer(1, 4)]
+    for p in parts:
+        parts_content.append(Paragraph(f'<i><font color="#0033AA">{p}</font></i>', s_part))
+
+    GAP = 0.9 * cm
+    lines_col_w = UW - IMG_W - GAP
+
+    from reportlab.platypus import KeepInFrame
+    parts_frame = KeepInFrame(lines_col_w, IMG_H, parts_content, mode="shrink")
+
+    side_tbl = Table(
+        [[img_obj, parts_frame]],
+        colWidths=[IMG_W + GAP, lines_col_w],
+    )
+    side_tbl.setStyle(TableStyle([
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 4),
+    ]))
+    story.append(side_tbl)
+    story.append(Spacer(1, 4))
+
+    # ================================================================
+    #  Q2 – True / False
+    # ================================================================
+    story.append(Paragraph("2) Rozhodni – Pravda / Nepravda:", s_q))
     for stmt, ans in [
         ("Tlmiče slúžia na zvýšenie únosnosti pružín pri veľkom "
          "zaťažení.", False),
@@ -156,26 +220,31 @@ def build():
          True),
         ("Dvojplášťový tlmič má lepšie chladenie ako jednoplášťový.",
          False),
-        ("Fading je jav, pri ktorom sa olej v tlmiči mieša so vzduchom "
-         "a výrazne sa zníži tlmiaca schopnosť.", True),
+        ("Fading tlmiča je jav, pri ktorom v dôsledku prehriatia "
+         "dochádza k zníženiu viskozity oleja a k jeho prevzdušneniu "
+         "či kavitácii (vzniku bublín), čo vedie k výraznej strate "
+         "tlmiaceho účinku.", True),
     ]:
         story.append(pn_row(stmt, ans))
-    story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q2 – Comparison table
+    #  PAGE 2
+    # ================================================================
+    story.append(PageBreak())
+
+    # ================================================================
+    #  Q3 – Comparison table
     # ================================================================
     story.append(Paragraph(
-        "2) Doplň porovnávaciu tabuľku (dvojplášťový vs. jednoplášťový "
+        "3) Doplň porovnávaciu tabuľku (dvojplášťový vs. jednoplášťový "
         "tlmič):",
         s_q,
     ))
     props_answers = [
-        ("Chladenie", "Horšie", "Lepšie"),
-        ("Odozva na nerovnosti", "Pomalšia", "Rýchlejšia a presnejšia"),
+        ("Chladenie (lepšie/horšie)", "Horšie", "Lepšie"),
+        ("Odozva na nerovnosti (pomalšia/rýchlejšia)", "Pomalšia", "Rýchlejšia"),
         ("Montážna poloha", "Max. 45° od zvislice", "Ľubovoľná"),
-        ("Komfort jazdy", "Mäkší, tichší", "Tvrdší, viac vibrácií"),
-        ("Výrobné náklady", "Nižšie", "Vyššie"),
+        ("Výrobné náklady (menšie/väčšie)", "Menšie", "Väčšie"),
         ("Použitie", "Bežné osobné autá", "Športové, terénne, pretekárske"),
     ]
     cmp_data = [[
@@ -189,7 +258,7 @@ def build():
             Paragraph(A(d), s_table_c),
             Paragraph(A(j), s_table_c),
         ])
-    ct = Table(cmp_data, colWidths=[UW * 0.30, UW * 0.35, UW * 0.35])
+    ct = Table(cmp_data, colWidths=[UW * 0.36, UW * 0.32, UW * 0.32])
     ct.setStyle(TableStyle([
         ("GRID", (0, 0), (-1, -1), 0.5, black),
         ("BACKGROUND", (0, 0), (-1, 0), GRAY_BG),
@@ -204,32 +273,30 @@ def build():
     story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q3 – Fill in the blanks (twin-tube principle)
+    #  Q4 – Fill in the blanks (twin-tube principle)
     # ================================================================
+    story.append(Paragraph("4) Doplň do textu:", s_q))
     story.append(Paragraph(
-        "3) Doplň do textu (princíp činnosti dvojplášťového tlmiča):", s_q,
-    ))
-    story.append(Paragraph(
-        f"Dvojplášťový tlmič sa skladá z dvoch valcov – "
-        f"{A('vnútorného')} a {A('vonkajšieho')}. "
-        f"Pri stláčaní sa piest pohybuje nadol a vytláča hydraulickú "
-        f"kvapalinu cez ventil z pod piesta nad piest. Pri "
-        f"{A('rozťahovaní')} sa piest pohybuje nahor. Ventil B má "
-        f"spravidla {A('menší')} prierez, aby tlmič kládol väčší odpor "
-        f"pri rozťahovaní.",
+        f"Dvojplášťový tlmič sa skladá z dvoch valcov (plášťov) – "
+        f"{A('vnútorného pracovného valca (plášťa) a vonkajšieho zásobníkového valca (plášťa)')}. "
+        f"Medzi týmito valcami sa nachádza priestor slúžiaci ako "
+        f"{A('zásobník oleja')}. "
+        f"Pri stláčaní sa piest pohybuje {A('nadol')} a vytláča hydraulickú "
+        f"kvapalinu z pod piesta nad piest. Pri rozťahovaní sa piest pohybuje "
+        f"{A('nahor')} a kvapalina prúdi z priestoru nad piestom do priestoru pod "
+        f"piestom. Ventil, cez ktorý kvapalina preteká pri rozťahovaní, má "
+        f"spravidla {A('menší')} prierez alebo {A('väčší')} tlak potrebný na "
+        f"otvorenie, aby tlmič kládol {A('väčší')} odpor pri rozťahovaní ako "
+        f"pri stláčaní.",
         s_body,
     ))
+    story.append(Spacer(1, 3))
 
     # ================================================================
-    #  PAGE 2
-    # ================================================================
-    story.append(PageBreak())
-
-    # ================================================================
-    #  Q4 – Match descriptions to regulation types
+    #  Q5 – Match descriptions to regulation types
     # ================================================================
     story.append(Paragraph(
-        "4) Priraď opis k správnemu typu regulácie tlmenia (A, B alebo C):",
+        "5) Priraď opis k správnemu typu regulácie tlmenia (A, B alebo C):",
         s_q,
     ))
     story.append(Paragraph(
@@ -265,55 +332,20 @@ def build():
     story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q5 – Fill in the blanks (MagneRide)
+    #  Q6 – Fill in the blanks (MagneRide)
     # ================================================================
+    story.append(Paragraph("6) Doplň do textu:", s_q))
     story.append(Paragraph(
-        "5) Doplň do textu (magnetoreologické tlmiče – MagneRide):", s_q,
-    ))
-    story.append(Paragraph(
-        f"Magnetoreologická kvapalina obsahuje mikroskopické "
-        f"{A('kovové')} "
-        f"častice rozptýlené v syntetickom oleji. Bez magnetického poľa "
-        f"má kvapalina {A('nízku')} viskozitu ({A('mäkké')} tlmenie). Keď "
-        f"elektromagnetická cievka vytvorí magnetické pole, častice "
-        f"sa zoradia do {A('reťazcov')} a vytvoria odpor proti prúdeniu. "
-        f"Tým sa zvýši viskozita a tlmenie sa stane {A('tvrdším')}.",
+        f"Magnetoreologická kvapalina obsahuje "
+        f"{A('mikroskopické kovové častice (železný prášok)')}. "
+        f"V normálnom stave sa častice voľne pohybujú a kvapalina má "
+        f"{A('nízku')} viskozitu. "
+        f"Keď elektromagnetická cievka v pieste vytvorí magnetické pole, "
+        f"kovové častice sa zoradia do reťazcov v smere magnetických siločiar. "
+        f"Tieto reťazce vytvárajú odpor voči prúdeniu kvapaliny, čím sa "
+        f"{A('zvyšuje')} jej zdanlivá viskozita a tým aj tlmiaca sila.",
         s_body,
     ))
-    story.append(Spacer(1, 3))
-
-    # ================================================================
-    #  Q6 – Match system to manufacturer
-    # ================================================================
-    story.append(Paragraph(
-        "6) Priraď systém adaptívneho tlmenia k jeho výrobcovi:", s_q,
-    ))
-    sys_answers = [
-        ("CDC (Continuous Damping Control)", "Opel, GM"),
-        ("DCC (Dynamic Chassis Control)", "VW, Audi, Škoda"),
-        ("MagneRide", "Audi, Cadillac, Ferrari, Corvette"),
-        ("PASM (Porsche Active Suspension Management)", "Porsche"),
-    ]
-    sys_data = [[
-        Paragraph("<b>Systém</b>", s_table_b),
-        Paragraph("<b>Výrobca</b>", s_table_b),
-    ]]
-    for sys_name, mfr in sys_answers:
-        sys_data.append([
-            Paragraph(sys_name, s_table),
-            Paragraph(A(mfr), s_table),
-        ])
-    st = Table(sys_data, colWidths=[UW * 0.55, UW * 0.45])
-    st.setStyle(TableStyle([
-        ("GRID", (0, 0), (-1, -1), 0.5, black),
-        ("BACKGROUND", (0, 0), (-1, 0), GRAY_BG),
-        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-        ("TOPPADDING", (0, 0), (-1, -1), 4),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
-        ("LEFTPADDING", (0, 0), (-1, -1), 5),
-        ("RIGHTPADDING", (0, 0), (-1, -1), 5),
-    ]))
-    story.append(st)
     story.append(Spacer(1, 3))
 
     # ================================================================
@@ -321,28 +353,25 @@ def build():
     # ================================================================
     story.append(Paragraph("7) Krátke odpovede:", s_q))
     story.append(Paragraph(
-        "a) Uveď 3 úlohy tlmičov pruženia.",
+        "a) Uveď aspoň 3 úlohy tlmičov pruženia.",
         s_body,
     ))
     story.append(Paragraph(
-        A("Napr.: 1) Rýchlo utlmiť kmitanie pružín po prejazde "
-          "nerovnosťou. 2) Udržať kolesá v stálom kontakte s vozovkou. "
-          "3) Zlepšiť stabilitu a ovládateľnosť vozidla. "
-          "(Tiež: zabrániť dlhodobému hojdaniu karosérie, "
-          "zvýšiť komfort jazdy.)"),
+        A("1) Rýchlo utlmiť kmitanie pružín po prejazde nerovnosťou; "
+          "2) Zabrániť dlhodobému hojdaniu karosérie; "
+          "3) Udržať kolesá v stálom kontakte s vozovkou; "
+          "4) Zlepšiť stabilitu a ovládateľnosť vozidla; "
+          "5) Zvýšiť komfort jazdy."),
         s_answer_line,
     ))
     story.append(Spacer(1, 4))
     story.append(Paragraph(
-        "b) Uveď 2 výhody magnetoreologických tlmičov oproti "
-        "solenoidovým.",
+        "b) Uveď 2 výhody magnetoreologických tlmičov oproti solenoidovým.",
         s_body,
     ))
     story.append(Paragraph(
-        A("Napr.: 1) Extrémne rýchla odozva (menej ako 1 ms). "
-          "2) Žiadne mechanické ventily = vyššia spoľahlivosť. "
-          "(Tiež: plynulá regulácia v širokom rozsahu, "
-          "tichá prevádzka.)"),
+        A("Rýchlejšia odozva, vyššia spoľahlivosť, plynulá regulácia, "
+          "široký rozsah regulácie, tichá prevádzka."),
         s_answer_line,
     ))
 

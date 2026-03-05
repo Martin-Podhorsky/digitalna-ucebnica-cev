@@ -20,6 +20,7 @@ from reportlab.platypus import (
 )
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib import pdfencrypt
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -27,7 +28,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONTENT_DIR = os.path.join(BASE_DIR, "content", "ucivo", "2-rocnik", "01-brzdy")
 ABS_IMG = os.path.join(CONTENT_DIR, "ABS", "ABS.png")
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-abs-asr-fdr-odpovede.pdf")
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_abs-asr-fdr_odpovede.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -124,6 +125,7 @@ def build():
         OUTPUT, pagesize=A4,
         leftMargin=MARGIN_LR, rightMargin=MARGIN_LR,
         topMargin=MARGIN_TB, bottomMargin=MARGIN_TB,
+        encrypt=pdfencrypt.StandardEncryption("skus-hadat-123", canPrint=1),
     )
     story = []
 

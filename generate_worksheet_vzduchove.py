@@ -27,7 +27,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONTENT_DIR = os.path.join(BASE_DIR, "content", "ucivo", "2-rocnik", "01-brzdy")
 SCHEME_IMG = os.path.join(CONTENT_DIR, "vzduchove-brzdy", "air-brake-scheme.png")
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-vzduchove-brzdy.pdf")
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_vzduchove-brzdy.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -106,7 +106,7 @@ def pn_row(statement):
 
 
 def answer_line():
-    return [Spacer(1, 14), HRFlowable(width="100%", thickness=0.5, color=black)]
+    return [Spacer(1, 20), HRFlowable(width="100%", thickness=0.5, color=black)]
 
 
 # ---------------------------------------------------------------------------
@@ -141,17 +141,24 @@ def build():
     story.append(Spacer(1, 4))
 
     # ================================================================
-    #  Q1 – Fill in the blanks (general + service brake principle)
+    #  Q1 – Fill in the blanks (service brake + parking brake)
     # ================================================================
     story.append(Paragraph("1) Doplň do textu:", s_q))
     story.append(Paragraph(
-        f"Vzduchotlakové brzdy používajú na prenos sily od brzdového pedálu "
-        f"{BL} namiesto brzdovej kvapaliny. Používajú sa pri ťažkých "
-        f"{BL}, {BL} a súpravách s prívesmi. "
-        f"Typický prevádzkový tlak je približne {BL} bar. "
-        f"Keď vodič stlačí brzdový pedál, vzduch je vedený zo {BL} "
-        f"do brzdových {BL} pri kolesách. Tlak vzduchu posunie "
-        f"{BL}, ktoré pritlačia brzdové platničky na kotúče.",
+        f"Keď vodič stlačí brzdový pedál, vzduch je pod tlakom vedený zo "
+        f"{BL} do {BL} pri kolesách. Tlak vzduchu posunie membrány alebo "
+        f"piesty, ktoré pritlačia brzdové doštičky alebo čeľuste na "
+        f"{BL}. Po uvoľnení pedála sa stlačený vzduch {BL} "
+        f"a vratné pružiny vrátia brzdové doštičky/čeľuste do pôvodnej pozície.",
+        s_body,
+    ))
+    story.append(Spacer(1, 4))
+    story.append(Paragraph(
+        f"Parkovacie brzdy fungujú {BL} spôsobom. Brzdy sú držané v polohe "
+        f"brzdenia silnou pružinou a po naštartovaní motora, keď kompresor vytvorí "
+        f"v systéme požadovaný tlak vzduchu, tento tlak pružinu {BL} a tým "
+        f"{BL} brzdu. Pri náhlej strate tlaku vzduchu sa pružina {BL} "
+        f"a okamžite aktivuje parkovaciu brzdu (kvôli bezpečnosti).",
         s_body,
     ))
     story.append(Spacer(1, 3))
@@ -162,7 +169,7 @@ def build():
     story.append(Paragraph(
         "2) Popíš vybrané časti schémy systému vzduchových bŕzd:", s_q,
     ))
-    story.append(scaled_img(SCHEME_IMG, UW * 0.80, max_h=6 * cm))
+    story.append(scaled_img(SCHEME_IMG, UW * 0.98, max_h=11 * cm))
     story.append(Spacer(1, 3))
 
     selected = ["1", "3", "5", "6", "9", "12"]
@@ -180,38 +187,6 @@ def build():
         ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
     ]))
     story.append(t)
-    story.append(Spacer(1, 3))
-
-    # ================================================================
-    #  Q3 – Fill in the blanks (parking brake principle)
-    # ================================================================
-    story.append(Paragraph("3) Princíp parkovacej brzdy – doplň do textu:", s_q))
-    story.append(Paragraph(
-        f"Parkovacie brzdy fungujú {BL} ako prevádzkové – sú "
-        f"držané v polohe brzdenia silnou {BL}. Po naštartovaní motora "
-        f"{BL} vytvorí v systéme požadovaný tlak, ktorý pružinu {BL} "
-        f"a tým uvoľní brzdu. Pri náhlej strate tlaku vzduchu sa pružina "
-        f"{BL} a okamžite aktivuje {BL}.",
-        s_body,
-    ))
-    story.append(Spacer(1, 3))
-
-    # ================================================================
-    #  Q4 – True / False
-    # ================================================================
-    story.append(Paragraph("4) Rozhodni – Pravda / Nepravda:", s_q))
-    for stmt in [
-        "Vzduchotlakové brzdy sa používajú predovšetkým pri osobných "
-        "automobiloch.",
-        "Vzduch je nestlačiteľný, preto je reakcia vzduchových bŕzd okamžitá.",
-        "Sušič vzduchu odstraňuje vlhkosť, ktorá by v zime mohla zamrznúť "
-        "a zablokovať ventily.",
-        "Štvorkanálový ochranný ventil rozdeľuje vzduch do štyroch "
-        "samostatných okruhov.",
-        "Stlačený vzduch z nádrží sa dá využiť aj na iné účely, napr. na "
-        "pohon klaksónu alebo dohusťovanie pneumatík.",
-    ]:
-        story.append(pn_row(stmt))
 
     # ================================================================
     #  PAGE 2
@@ -219,10 +194,26 @@ def build():
     story.append(PageBreak())
 
     # ================================================================
-    #  Q5 – Advantages and disadvantages table
+    #  Q3 – True / False
+    # ================================================================
+    story.append(Paragraph("3) Rozhodni – Pravda / Nepravda:", s_q))
+    for stmt in [
+        "Vzduchotlakové brzdy sa používajú predovšetkým pri osobných "
+        "automobiloch.",
+        "Vzduch je stlačiteľný, preto je reakcia vzduchových bŕzd okamžitá.",
+        "Sušič vzduchu slúži na zachytávanie vlhkosti.",
+        "Menší únik vzduchu pri strojových brzdách nie je kritický.",
+        "Stlačený vzduch z nádrží sa dá využiť aj na iné účely, napr. na "
+        "pohon klaksónu alebo dohusťovanie pneumatík.",
+    ]:
+        story.append(pn_row(stmt))
+    story.append(Spacer(1, 3))
+
+    # ================================================================
+    #  Q4 – Advantages and disadvantages table
     # ================================================================
     story.append(Paragraph(
-        "5) Napíš 3 výhody a 3 nevýhody vzduchotlakových bŕzd:", s_q,
+        "4) Napíš 3 výhody a 3 nevýhody vzduchotlakových bŕzd:", s_q,
     ))
     adv_data = [
         [Paragraph("<b>Výhody</b>", s_table_b),
@@ -245,9 +236,9 @@ def build():
     story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q6 – Short answers
+    #  Q5 – Short answers
     # ================================================================
-    story.append(Paragraph("6) Krátke odpovede:", s_q))
+    story.append(Paragraph("5) Krátke odpovede:", s_q))
     story.append(Paragraph(
         "a) Prečo sú moderné vzduchotlakové brzdové systémy vždy dvojokruhové?",
         s_body,

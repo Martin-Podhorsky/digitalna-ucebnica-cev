@@ -27,7 +27,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONTENT_DIR = os.path.join(BASE_DIR, "content", "ucivo", "2-rocnik", "02-pruzenie-tlmenie")
 PNEUM_IMG = os.path.join(CONTENT_DIR, "pneumaticke-pruzenie", "konstrukcia.png")
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-pruzenie2.pdf")
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_pneu-hydropneu-gumove.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -145,24 +145,12 @@ def build():
     story.append(Spacer(1, 4))
 
     # ================================================================
-    #  Q1 – Fill in the blanks (general info + pneumatické intro)
-    # ================================================================
-    story.append(Paragraph("1) Doplň do textu (všeobecné info):", s_q))
-    story.append(Paragraph(
-        f"Medzi hlavné požiadavky kladené na pruženie a tlmenie patrí "
-        f"stály kontakt kolies s {BL}, absorbcia {BL} vozovky, "
-        f"zabezpečenie stability a {BL} jazdy.",
-        s_body,
-    ))
-    story.append(Spacer(1, 3))
-
-    # ================================================================
-    #  Q2 – Label pneumatic suspension diagram (all 8 parts)
+    #  Q1 – Label pneumatic suspension diagram (all 8 parts)
     # ================================================================
     story.append(Paragraph(
-        "2) Popíš časti pneumatického pruženia:", s_q,
+        "1) Popíš časti pneumatického pruženia:", s_q,
     ))
-    story.append(scaled_img(PNEUM_IMG, UW * 0.75, max_h=6.5 * cm))
+    story.append(scaled_img(PNEUM_IMG, UW * 0.85, max_h=8.2 * cm))
     story.append(Spacer(1, 3))
 
     rows = []
@@ -179,52 +167,47 @@ def build():
     story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q3 – Fill in the blanks (pneumatické pruženie – principle)
+    #  Q2 – Fill in the blanks (pneumatické pruženie – principle)
     # ================================================================
-    story.append(Paragraph("3) Doplň do textu (pneumatické pruženie):", s_q))
+    story.append(Paragraph("2) Doplň do textu (pneumatické pruženie):", s_q))
     story.append(Paragraph(
-        f"Snímače výšky sledujú polohu karosérie voči kolesám. Keď sa zmení "
-        f"zaťaženie, {BL} vyhodnotí údaje a cez {BL} upraví tlak vzduchu "
-        f"v mechoch. Keď sa tlak zvýši, vozidlo sa {BL} a pruženie "
-        f"{BL}.",
+        f"Snímače výšky sledujú {BL}. Keď sa zmení zaťaženie "
+        f"(napr. do vozidla nastúpi ďalší cestujúci), {BL} vyhodnotí "
+        f"údaje zo snímačov a aktivovaním {BL} upraví tlak vzduchu "
+        f"v mechoch.",
         s_body,
     ))
 
     # ================================================================
-    #  PAGE 2
+    #  Q3 – Fill in the blanks (hydropneumatické pruženie)
     # ================================================================
-    story.append(PageBreak())
-
-    # ================================================================
-    #  Q4 – Fill in the blanks (hydropneumatické pruženie)
-    # ================================================================
-    story.append(Paragraph("4) Doplň do textu (hydropneumatické pruženie):", s_q))
+    story.append(Paragraph("3) Doplň do textu (hydropneumatické pruženie):", s_q))
     story.append(Paragraph(
-        f"Hydropneumatické pruženie kombinuje {BL} (kvapalinu) "
-        f"s {BL} (plynom). Vyvinula ho spoločnosť {BL}. "
-        f"Vo vnútri hydropneumatickej gule sa nachádza hydraulická kvapalina "
-        f"a stlačený {BL}, oddelené pružnou membránou. Tlmenie je "
-        f"zabezpečené prietokom kvapaliny cez {BL} ventily.",
+        f"Hydropneumatické pruženie kombinuje {BL}. "
+        f"Vyvinula ho spoločnosť {BL}. "
+        f"Vo vnútri hydropneumatickej gule sa nachádza {BL} "
+        f"a {BL}, oddelené {BL}. Tlmenie je "
+        f"zabezpečené {BL}.",
         s_body,
     ))
     story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q5 – Match properties to suspension types
+    #  Q4 – Match properties/characteristics to suspension types
     # ================================================================
     story.append(Paragraph(
-        "5) Priraď vlastnosť k správnemu druhu pruženia (zaškrtni):", s_q,
+        "4) Priraď vlastnosť/charakteristiku k správnemu druhu pruženia (zaškrtni):", s_q,
     ))
     props = [
         "Stála svetlá výška bez ohľadu na zaťaženie",
+        "Progresívna charakteristika",
         "Samotlmiaci efekt",
         "Izolácia hluku a vibrácií",
-        "Progresívna charakteristika",
-        "Prepojenie s brzdami a posilňovačom riadenia",
+        "Vysoké servisné náklady",
         "Nízka cena a jednoduchá výroba",
     ]
     match_data = [[
-        Paragraph("<b>Vlastnosť</b>", s_table_b),
+        Paragraph("<b>Vlastnosť / charakteristika</b>", s_table_b),
         Paragraph("<b>Pneum.</b>", s_table_b),
         Paragraph("<b>Hydropn.</b>", s_table_b),
         Paragraph("<b>Gumové</b>", s_table_b),
@@ -248,32 +231,35 @@ def build():
         ("ALIGN", (1, 0), (-1, -1), "CENTER"),
     ]))
     story.append(mt)
-    story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q6 – True / False
+    #  PAGE 2
     # ================================================================
-    story.append(Paragraph("6) Rozhodni – Pravda / Nepravda:", s_q))
+    story.append(PageBreak())
+
+    # ================================================================
+    #  Q5 – True / False
+    # ================================================================
+    story.append(Paragraph("5) Rozhodni – Pravda / Nepravda:", s_q))
     for stmt in [
-        "Pneumatické pruženie sa používa predovšetkým na malých "
+        "Pneumatické pruženie sa používa výhradne na malých "
         "osobných automobiloch.",
-        "Gumové prvky (silentbloky) sa používajú na uloženie motora "
-        "a prevodovky.",
+        "Silentblok je jedným z príkladov gumového pruženia.",
         "Hydropneumatické pruženie nepotrebuje samostatné tlmiče, pretože "
         "tlmenie zabezpečujú jednocestné ventily.",
-        "Vlnovcové mechy sa používajú v nákladných automobiloch "
-        "a autobusoch.",
-        "Guma tvrdne v mraze a mäkne v teple.",
+        "Pri pneumatickom pružení sa vlnovcové mechy používajú prevažne "
+        "v nákladných automobiloch a autobusoch.",
+        "Starnutie gumy je spôsobené UV žiarením.",
     ]:
         story.append(pn_row(stmt))
     story.append(Spacer(1, 3))
 
     # ================================================================
-    #  Q7 – Short answers
+    #  Q6 – Short answers
     # ================================================================
-    story.append(Paragraph("7) Krátke odpovede:", s_q))
+    story.append(Paragraph("6) Krátke odpovede:", s_q))
     story.append(Paragraph(
-        "a) Uveď 3 výhody pneumatického pruženia.",
+        "a) Uveď 4 výhody pneumatického pruženia.",
         s_body,
     ))
     for _ in range(3):

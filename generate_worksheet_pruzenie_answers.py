@@ -20,6 +20,7 @@ from reportlab.platypus import (
 )
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib import pdfencrypt
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -27,7 +28,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONTENT_DIR = os.path.join(BASE_DIR, "content", "ucivo", "2-rocnik", "02-pruzenie-tlmenie")
 LEAF_IMG = os.path.join(CONTENT_DIR, "listove-pruziny", "listova-pruzina-casti.png")
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-pruzenie-odpovede.pdf")
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_listove-vinute-skrutne_odpovede.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -128,6 +129,7 @@ def build():
         OUTPUT, pagesize=A4,
         leftMargin=MARGIN_LR, rightMargin=MARGIN_LR,
         topMargin=MARGIN_TB, bottomMargin=MARGIN_TB,
+        encrypt=pdfencrypt.StandardEncryption("skus-hadat-123", canPrint=1),
     )
     story = []
 
@@ -159,9 +161,9 @@ def build():
     story.append(Paragraph(
         f"Pruženie a tlmenie vozidla je súbor komponentov, ktoré spájajú "
         f"{A('karosériu (alebo rám)')} vozidla s {A('nápravou (kolesami)')} tak, že "
-        f"umožnujú ich vzájomné pohybovanie sa. Jednou z požiadaviek je stály "
-        f"kontakt kolies s vozovkou, pretože je nevyhnutný pre efektívne "
-        f"{A('brzdenie')}, {A('riadenie')} a prenos hnacích síl. "
+        f"umožnujú ich vzájomné pohybovanie sa. Jednou z požiadaviek kladených na "
+        f"pruženie je udržovať stály kontakt kolies s vozovkou, pretože je nevyhnutný "
+        f"pre efektívne {A('brzdenie')}, {A('riadenie')} a prenos hnacích síl. "
         f"Hmotnosť komponentov pod pružinami sa nazýva {A('neodpružená')} hmotnosť.",
         s_body,
     ))
@@ -236,13 +238,15 @@ def build():
         "4) Uveď 4 parametre, ktoré ovplyvňujú tuhosť vinutej pružiny:",
         s_q,
     ))
-    params = ["Priemer drôtu", "Šírka pružiny", "Počet činných závitov", "Materiál"]
+    params = ["Priemer drôtu", "Šírka pružiny", "Počet činných závitov", "Materiál", "Tepelné spracovanie"]
     pt = Table(
         [
             [Paragraph(f"1. {A(params[0])}", s_ans),
              Paragraph(f"2. {A(params[1])}", s_ans)],
             [Paragraph(f"3. {A(params[2])}", s_ans),
              Paragraph(f"4. {A(params[3])}", s_ans)],
+            [Paragraph(f"5. {A(params[4])}", s_ans),
+             Paragraph("", s_ans)],
         ],
         colWidths=[UW * 0.5] * 2,
     )
@@ -280,9 +284,9 @@ def build():
     for prop, l, v, s in props_answers:
         match_data.append([
             Paragraph(prop, s_table),
-            Paragraph(A("✓") if l else "", s_table_c),
-            Paragraph(A("✓") if v else "", s_table_c),
-            Paragraph(A("✓") if s else "", s_table_c),
+            Paragraph(A("<b>X</b>") if l else "", s_table_c),
+            Paragraph(A("<b>X</b>") if v else "", s_table_c),
+            Paragraph(A("<b>X</b>") if s else "", s_table_c),
         ])
     mt = Table(match_data, colWidths=[UW * 0.52, UW * 0.16, UW * 0.16, UW * 0.16])
     mt.setStyle(TableStyle([
@@ -336,7 +340,7 @@ def build():
     ))
     story.append(Spacer(1, 4))
     story.append(Paragraph(
-        "b) Na čo slúžia stabilizačné tyče (anti-roll bars)?",
+        "b) Na čo slúžia stabilizačné tyče?",
         s_body,
     ))
     story.append(Paragraph(

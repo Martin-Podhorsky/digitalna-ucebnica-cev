@@ -32,7 +32,6 @@ Snímače výšky sledujú polohu karosérie voči kolesám. Keď vozidlo prejde
 
 - **Stála svetlá výška:** Vozidlo si udržiava rovnakú výšku bez ohľadu na to, či je prázdne alebo plne naložené.
 - **Nastaviteľná výška podvozku:** Vodič môže meniť svetlú výšku vozidla podľa potreby - napríklad zdvihnúť pre terén alebo znížiť pre ľahšie nastupovanie a vystupovanie.
-- **Nastaviteľná tuhosť:** Dá sa meniť tvrdosť pruženia - mäkšie pre pohodlnú jazdu, tvrdšie pre športovejší pocit.
 - **Vysoký komfort:** Vzduchové mechy veľmi dobre pohlcujú otrasy a chvenie od vozovky.
 - **Progresívna charakteristika:** Tuhosť pruženia rastie so stlačením - čím viac sa vzduchový mech stlačí, tým je tvrdší. To zabraňuje tvrdému nárazu na doraz pri väčších nerovnostiach alebo väčšom zaťažení.
 

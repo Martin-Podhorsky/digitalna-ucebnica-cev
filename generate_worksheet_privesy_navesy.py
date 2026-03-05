@@ -32,7 +32,7 @@ IMG_PLACHTA  = os.path.join(IMG_DIR, "plachtovy-naves.jpg")
 IMG_SKRINA   = os.path.join(IMG_DIR, "skrinovy-naves.jpg")
 IMG_VALNIK   = os.path.join(IMG_DIR, "valnik.jpg")
 
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-privesy-navesy.pdf")
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_privesy-navesy.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup

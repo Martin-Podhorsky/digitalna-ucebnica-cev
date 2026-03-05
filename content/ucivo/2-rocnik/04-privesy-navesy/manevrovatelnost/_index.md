@@ -28,7 +28,7 @@ Manévrovateľnosť súpravy je schopnosť vozidla s prívesom/návesom prechád
 {{< figure src="off-tracking-100km.jpg" alt="Off-tracking (vybočenie)" width="60%" caption="Obr. 13.15 - Off-tracking (vybočenie) pri rýchlosti 5 km/h" >}}
 
 **Faktory ovplyvňujúce off-tracking:**
-- Dĺžka vozidla medzi nápravami
+- Rázvor náprav
 - Uhol zatočenia
 - Rýchlosť jazdy
 

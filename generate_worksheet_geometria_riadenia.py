@@ -38,7 +38,7 @@ IMG_DIFERENCNY   = os.path.join(IMG_DIR, "diferencny-uhol.jpg")
 IMG_ROZCHOD      = os.path.join(IMG_DIR, "rozchod.jpg")
 IMG_RAZVOR       = os.path.join(IMG_DIR, "razvor.jpg")
 
-OUTPUT = os.path.join(BASE_DIR, "pracovny-list-geometria-riadenia.pdf")
+OUTPUT = os.path.join(BASE_DIR, "Pracovny-list_geometria-riadenia.pdf")
 
 # ---------------------------------------------------------------------------
 # Page setup
