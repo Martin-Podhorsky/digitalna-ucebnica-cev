@@ -46,7 +46,7 @@ V Európskej únii je systém ABS povinnou výbavou všetkých nových osobných
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/brzdy/abs" count="5" >}}
+{{< quiz topic="2-rocnik/01-brzdy/05-abs" count="5" >}}
 
 ---
 

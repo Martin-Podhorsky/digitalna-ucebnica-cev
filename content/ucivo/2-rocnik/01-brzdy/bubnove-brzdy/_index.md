@@ -90,7 +90,7 @@ Bubnové brzdy sa rozdeľujú podľa usporiadania čeľustí a ich ovládania na
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/brzdy/bubnove-brzdy" count="5" >}}
+{{< quiz topic="2-rocnik/01-brzdy/01-bubnove-brzdy" count="5" >}}
 
 ---
 

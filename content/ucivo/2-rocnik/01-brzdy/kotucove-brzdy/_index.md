@@ -103,7 +103,7 @@ Drvivá väčšina sériovo vyrábaných osobných automobilov na prednej aj zad
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/brzdy/kotucove-brzdy" count="5" >}}
+{{< quiz topic="2-rocnik/01-brzdy/02-kotucove-brzdy" count="5" >}}
 
 ---
 

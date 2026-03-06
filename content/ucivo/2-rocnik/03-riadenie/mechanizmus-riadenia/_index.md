@@ -97,7 +97,7 @@ Všetky pohyblivé spoje sú realizované pomocou **guľových čapov**, ktoré 
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/riadenie/mechanizmus-riadenia" count="5" >}}
+{{< quiz topic="2-rocnik/03-riadenie/01-mechanizmus-riadenia" count="5" >}}
 
 ---
 

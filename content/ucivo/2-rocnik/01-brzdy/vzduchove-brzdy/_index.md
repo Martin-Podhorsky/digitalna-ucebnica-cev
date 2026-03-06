@@ -83,7 +83,7 @@ Pri poruche jedného okruhu zostáva druhý plne funkčný. Štvorkanálový och
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/brzdy/vzduchove-brzdy" count="5" >}}
+{{< quiz topic="2-rocnik/01-brzdy/08-vzduchove-brzdy" count="5" >}}
 
 ---
 

@@ -66,7 +66,7 @@ Systém vyhodnocuje rýchlosť stláčania brzdového pedála. Pri zistení náh
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/brzdy/brzdovy-posilnovac" count="5" >}}
+{{< quiz topic="2-rocnik/01-brzdy/04-brzdovy-posilnovac" count="5" >}}
 
 ---
 

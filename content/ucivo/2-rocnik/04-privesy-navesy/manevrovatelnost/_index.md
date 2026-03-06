@@ -62,7 +62,7 @@ Pri projektovaní ciest a parkovísk sa musí počítať s tzv. **vlečnou krivk
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/privesy-navesy/manevrovatelnost" count="5" >}}
+{{< quiz topic="2-rocnik/04-privesy-navesy/02-manevrovatelnost" count="5" >}}
 
 ---
 

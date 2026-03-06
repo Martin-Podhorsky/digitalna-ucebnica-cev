@@ -4,7 +4,7 @@ title: "Pruženie a Tlmenie"
 type: docs
 weight: 2
 sidebar:
-  open: false
+  open: true
 ---
 
 Pojem "pruženie a tlmenie vozidla" odkazuje na súbor komponentov, ktoré spájajú karosériu (alebo rám) vozidla s nápravou tak, že umožnujú ich vzájomné pohybovanie sa.
@@ -41,7 +41,7 @@ Pojem "pruženie a tlmenie vozidla" odkazuje na súbor komponentov, ktoré spáj
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/pruzenie-tlmenie/vseobecne-info" count="5" >}}
+{{< quiz topic="2-rocnik/02-pruzenie-tlmenie/00-vseobecne-info" count="5" >}}
 
 ---
 

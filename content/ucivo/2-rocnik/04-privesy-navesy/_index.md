@@ -4,7 +4,7 @@ title: "Prívesy a návesy"
 type: docs
 weight: 4
 sidebar:
-  open: false
+  open: true
 ---
 
 Prívesy a návesy sú prípojné vozidlá bez vlastného pohonu, ktoré sa pripájajú za ťažné vozidlo na prepravu nákladu alebo osôb. Líšia sa spôsobom pripojenia a rozložením hmotnosti.
@@ -112,7 +112,7 @@ Maximálne povolené rozmery vozidiel sú stanovené európskou legislatívou (S
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/privesy-navesy/vseobecne-info" count="5" >}}
+{{< quiz topic="2-rocnik/04-privesy-navesy/00-vseobecne-info" count="5" >}}
 
 ---
 

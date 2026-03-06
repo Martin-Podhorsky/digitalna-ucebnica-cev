@@ -65,7 +65,7 @@ Vinuté pružiny sa rozdeľujú podľa týchto kritérií:
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/pruzenie-tlmenie/vinute-pruziny" count="5" >}}
+{{< quiz topic="2-rocnik/02-pruzenie-tlmenie/02-vinute-pruziny" count="5" >}}
 
 ---
 

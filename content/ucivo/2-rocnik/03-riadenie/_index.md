@@ -4,7 +4,7 @@ title: "Riadenie"
 type: docs
 weight: 3
 sidebar:
-  open: false
+  open: true
 ---
 
 Riadenie je **mechanizmus, ktorý umožňuje vodičovi ovládať smer jazdy vozidla**. Zmenu smeru jazdy dosahujeme zmenou uhlov, ktoré zvierajú roviny riadených kolies s pozdĺžnou osou vozidla.
@@ -83,7 +83,7 @@ Riadiaci systém slúži na:
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/riadenie/vseobecne-info" count="5" >}}
+{{< quiz topic="2-rocnik/03-riadenie/00-vseobecne-info" count="5" >}}
 
 ---
 

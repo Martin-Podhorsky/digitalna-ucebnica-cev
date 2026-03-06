@@ -73,7 +73,7 @@ Systém FDR je v Európskej únii povinný od novembra 2011 pre nové modely voz
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/brzdy/fdr" count="5" >}}
+{{< quiz topic="2-rocnik/01-brzdy/07-fdr" count="5" >}}
 
 ---
 

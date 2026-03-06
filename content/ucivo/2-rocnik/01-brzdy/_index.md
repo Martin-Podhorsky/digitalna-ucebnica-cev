@@ -4,7 +4,7 @@ title: "Brzdy"
 type: docs
 weight: 1
 sidebar:
-  open: false
+  open: true
 ---
 
 ## Definícia
@@ -114,7 +114,7 @@ Tie hlavné sú:
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/brzdy/vseobecne-info" count="5" >}}
+{{< quiz topic="2-rocnik/01-brzdy/00-vseobecne-info" count="5" >}}
 
 ---
 

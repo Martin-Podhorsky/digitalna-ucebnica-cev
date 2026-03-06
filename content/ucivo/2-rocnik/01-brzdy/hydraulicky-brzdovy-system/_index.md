@@ -55,7 +55,7 @@ Ako sme spomínali už v požiadavkách, prevádzková brzda musí mať vždy dv
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/brzdy/hydraulicky-brzdovy-system" count="5" >}}
+{{< quiz topic="2-rocnik/01-brzdy/03-hydraulicky-brzdovy-system" count="5" >}}
 
 ---
 

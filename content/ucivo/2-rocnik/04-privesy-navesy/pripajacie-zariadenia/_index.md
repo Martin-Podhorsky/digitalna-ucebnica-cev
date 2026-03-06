@@ -160,7 +160,7 @@ Kráľovský čap:
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/privesy-navesy/pripajacie-zariadenia" count="5" >}}
+{{< quiz topic="2-rocnik/04-privesy-navesy/01-pripajacie-zariadenia" count="5" >}}
 
 ---
 

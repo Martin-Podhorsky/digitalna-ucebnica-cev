@@ -125,7 +125,7 @@ EPS (Electric Power Steering) je moderný systém posilňovania riadenia pomocou
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/riadenie/posilnovace-riadenia" count="5" >}}
+{{< quiz topic="2-rocnik/03-riadenie/02-posilnovace-riadenia" count="5" >}}
 
 ---
 

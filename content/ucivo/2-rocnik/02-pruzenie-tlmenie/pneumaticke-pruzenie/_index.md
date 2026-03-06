@@ -72,7 +72,7 @@ Snímače výšky sledujú polohu karosérie voči kolesám. Keď vozidlo prejde
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/pruzenie-tlmenie/pneumaticke-pruzenie" count="5" >}}
+{{< quiz topic="2-rocnik/02-pruzenie-tlmenie/04-pneumaticke-pruzenie" count="5" >}}
 
 ---
 

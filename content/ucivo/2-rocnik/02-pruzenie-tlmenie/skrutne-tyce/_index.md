@@ -69,7 +69,7 @@ Torzná tyč sa využíva aj v stabilizačných tyčiach (tzv. anti-roll bar ale
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/pruzenie-tlmenie/skrutne-tyce" count="5" >}}
+{{< quiz topic="2-rocnik/02-pruzenie-tlmenie/03-skrutne-tyce" count="5" >}}
 
 
 ---

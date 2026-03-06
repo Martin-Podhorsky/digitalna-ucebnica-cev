@@ -42,7 +42,7 @@ Gumové pruženie využíva elastické vlastnosti gumy (prírodnej alebo synteti
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/pruzenie-tlmenie/gumove-pruzenie" count="5" >}}
+{{< quiz topic="2-rocnik/02-pruzenie-tlmenie/06-gumove-pruzenie" count="5" >}}
 
 ---
 

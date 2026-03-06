@@ -195,7 +195,7 @@ Rázvor náprav je vzdialenosť medzi osami prednej a zadnej nápravy.
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/riadenie/geometria-riadenia" count="5" >}}
+{{< quiz topic="2-rocnik/03-riadenie/03-geometria-riadenia" count="5" >}}
 
 ---
 

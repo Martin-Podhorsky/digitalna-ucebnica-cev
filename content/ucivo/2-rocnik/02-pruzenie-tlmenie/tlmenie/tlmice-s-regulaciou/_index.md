@@ -102,7 +102,7 @@ Keď elektromagnetická cievka v pieste vytvorí magnetické pole, kovové čast
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/pruzenie-tlmenie/tlmenie/tlmice-s-regulaciou" count="5" >}}
+{{< quiz topic="2-rocnik/02-pruzenie-tlmenie/tlmenie/02-tlmice-s-regulaciou" count="5" >}}
 
 ---
 

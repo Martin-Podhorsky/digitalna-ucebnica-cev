@@ -67,7 +67,7 @@ Pri prudkom znížení otáčok motora (napríklad pri radení na nižší prevo
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/brzdy/asr" count="5" >}}
+{{< quiz topic="2-rocnik/01-brzdy/06-asr" count="5" >}}
 
 ---
 

@@ -89,7 +89,7 @@ V súčasnosti sa od hydropneumatického pruženia postupne upúšťa kvôli vys
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/pruzenie-tlmenie/hydropneumaticke-pruzenie" count="5" >}}
+{{< quiz topic="2-rocnik/02-pruzenie-tlmenie/05-hydropneumaticke-pruzenie" count="5" >}}
 
 ---
 

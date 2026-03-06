@@ -83,7 +83,7 @@ Listové pružiny sa rozdeľujú podľa rôznych kritérii:
 
 Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
 
-{{< quiz topic="2-rocnik/pruzenie-tlmenie/listove-pruziny" count="5" >}}
+{{< quiz topic="2-rocnik/02-pruzenie-tlmenie/01-listove-pruziny" count="5" >}}
 
 ---
 
