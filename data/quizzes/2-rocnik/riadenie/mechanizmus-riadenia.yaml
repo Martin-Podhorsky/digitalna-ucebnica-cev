@@ -27,7 +27,7 @@ questions:
   - id: "mechanizmus-riadenia-03"
     type: single
     question: "Aký typ prevodovky riadenia sa nachádza na obrázku?"
-    image: "/ucivo/2-rocnik/03-riadenie/maticova-prevodovka.png"
+    image: "/ucivo/2-rocnik/03-riadenie/mechanizmus-riadenia/maticova-prevodovka.png"
     options:
       - "Maticová prevodovka"
       - "Závitovkový mechanizmus"
@@ -39,7 +39,7 @@ questions:
   - id: "mechanizmus-riadenia-04"
     type: single
     question: "Aký typ prevodovky riadenia sa nachádza na obrázku?"
-    image: "/ucivo/2-rocnik/03-riadenie/worm-and-sector.jpg"
+    image: "/ucivo/2-rocnik/03-riadenie/mechanizmus-riadenia/worm-and-sector.jpg"
     options:
       - "Maticová prevodovka"
       - "Závitovkový mechanizmus"
@@ -51,7 +51,7 @@ questions:
   - id: "mechanizmus-riadenia-05"
     type: single
     question: "Aký typ prevodovky riadenia sa nachádza na obrázku?"
-    image: "/ucivo/2-rocnik/03-riadenie/rack-and-pinion.webp"
+    image: "/ucivo/2-rocnik/03-riadenie/mechanizmus-riadenia/rack-and-pinion.webp"
     options:
       - "Maticová prevodovka"
       - "Závitovkový mechanizmus"
@@ -63,7 +63,7 @@ questions:
   - id: "mechanizmus-riadenia-06"
     type: single
     question: "Aký typ prevodovky riadenia sa nachádza na obrázku?"
-    image: "/ucivo/2-rocnik/03-riadenie/recirculating-ball.avif"
+    image: "/ucivo/2-rocnik/03-riadenie/mechanizmus-riadenia/recirculating-ball.avif"
     options:
       - "Maticová prevodovka"
       - "Závitovkový mechanizmus"

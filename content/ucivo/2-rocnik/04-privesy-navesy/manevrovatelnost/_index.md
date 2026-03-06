@@ -58,6 +58,14 @@ Pri projektovaní ciest a parkovísk sa musí počítať s tzv. **vlečnou krivk
 
 ---
 
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/privesy-navesy/manevrovatelnost" count="5" >}}
+
+---
+
 Koniec učiva druhého ročníka. Vyber si, kam chceš ísť ďalej:
 {{< cards >}}
   {{< card url="/ucivo/3-rocnik" title="3. ročník" subtitle="Rozdelenie spaľovacích motorov, ich konštrukcia, pevné časti, kľukový a rozvodový mechanizmus...">}}

@@ -37,6 +37,14 @@ Pojem "pruženie a tlmenie vozidla" odkazuje na súbor komponentov, ktoré spáj
 
 ---
 
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/pruzenie-tlmenie/vseobecne-info" count="5" >}}
+
+---
+
 Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucivo/2-rocnik/02-pruzenie-tlmenie/listove-pruziny" title="Listové pružiny" subtitle="Princíp činnosti, konštrukcia, hlavné časti, výhody a nevýhody...">}}

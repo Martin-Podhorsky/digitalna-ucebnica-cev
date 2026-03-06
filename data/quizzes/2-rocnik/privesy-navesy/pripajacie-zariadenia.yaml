@@ -5,7 +5,7 @@ questions:
   - id: "pripajacie-zariadenia-01"
     type: write
     question: "Čo sa nachádza na obrázku?"
-    image: "/ucivo/2-rocnik/04-privesy-navesy/nesamocinny.png"
+    image: "/ucivo/2-rocnik/04-privesy-navesy/pripajacie-zariadenia/nesamocinny.png"
     options:
       - "Záves"
       - "Ťažný záves"
@@ -37,7 +37,7 @@ questions:
   - id: "pripajacie-zariadenia-04"
     type: write
     question: "Čo sa nachádza na obrázku? (prosím, píšte aj s diakritikou)"
-    image: "/ucivo/2-rocnik/04-privesy-navesy/kralovsky-cap-a-tocnica.png"
+    image: "/ucivo/2-rocnik/04-privesy-navesy/pripajacie-zariadenia/kralovsky-cap-a-tocnica.png"
     accepted_answers:
       - "Kráľovský čap a točnica"
       - "Točnica a kráľovský čap"

@@ -79,6 +79,14 @@ Riadiaci systém slúži na:
 
 ---
 
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/riadenie/vseobecne-info" count="5" >}}
+
+---
+
 Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucivo/2-rocnik/03-riadenie/mechanizmus-riadenia" title="Mechanizmus Riadenia" subtitle="Typy, konštrukcia, hlavné časti...">}}

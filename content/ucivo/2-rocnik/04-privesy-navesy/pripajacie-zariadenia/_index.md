@@ -156,6 +156,14 @@ Kráľovský čap:
 
 ---
 
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/privesy-navesy/pripajacie-zariadenia" count="5" >}}
+
+---
+
 Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucivo/2-rocnik/04-privesy-navesy/manevrovatelnost" title="Činitele ovplyvňujúce manévrovateľnosť súprav" subtitle="Popis, vplyv...">}}

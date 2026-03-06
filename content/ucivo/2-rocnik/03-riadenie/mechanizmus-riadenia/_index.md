@@ -93,6 +93,14 @@ Všetky pohyblivé spoje sú realizované pomocou **guľových čapov**, ktoré 
 
 ---
 
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/riadenie/mechanizmus-riadenia" count="5" >}}
+
+---
+
 Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucivo/2-rocnik/03-riadenie/posilnovace-riadenia" title="Posilňovače riadenia" subtitle="Typy, ich konštrukcia, vlastnosti, výhody, nevýhody...">}}

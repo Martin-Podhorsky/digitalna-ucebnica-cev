@@ -65,6 +65,15 @@ Snímače výšky sledujú polohu karosérie voči kolesám. Keď vozidlo prejde
 - Prívesy a návesy
 - Terénne vozidlá
 
+
+---
+
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/pruzenie-tlmenie/pneumaticke-pruzenie" count="5" >}}
+
 ---
 
 Nasledujúce učivo:

@@ -77,6 +77,16 @@ Pre bezpečnosť sú moderné vzduchotlakové brzdové systémy vždy dvojokruho
 
 Pri poruche jedného okruhu zostáva druhý plne funkčný. Štvorkanálový ochranný ventil automaticky izoluje poškodený okruh, čím sa zabráni strate tlaku v celom systéme.
 
+---
+
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/brzdy/vzduchove-brzdy" count="5" >}}
+
+---
+
 Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucivo/2-rocnik/02-pruzenie-tlmenie" title="Pruženie a Tlmenie" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}

@@ -41,6 +41,14 @@ Bez tlmičov by sa vozidlo po každej nerovnosti húpalo, kolesá by odskakovali
 
 ---
 
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/pruzenie-tlmenie/tlmenie/vseobecne-info" count="5" >}}
+
+---
+
 Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/teleskopicke-tlmice" title="Teleskopické hydraulické tlmiče" subtitle="Rozdelenie, hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}

@@ -63,6 +63,14 @@ Pri prudkom znížení otáčok motora (napríklad pri radení na nižší prevo
 
 ---
 
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/brzdy/asr" count="5" >}}
+
+---
+
 Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucivo/2-rocnik/01-brzdy/FDR" title="Elektronická kontrola stability (ESP/FDR)" subtitle="Princíp činnosti, Konštrukcia, výhody, nevýhody...">}}

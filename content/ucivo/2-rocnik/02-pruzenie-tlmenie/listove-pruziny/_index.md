@@ -76,6 +76,15 @@ Listové pružiny sa rozdeľujú podľa rôznych kritérii:
 - **S pevným uložením na oboch koncoch** -- jednoduchšie, ale menej pružné
 - **S jedným pevným a jedným posuvným uložením** -- jedno uško je pripevnené priamo k rámu a druhé je pripevnené cez záves, ktorý umožňuje zmenu dĺžky pružiny pri zaťažení.
 
+
+---
+
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/pruzenie-tlmenie/listove-pruziny" count="5" >}}
+
 ---
 
 Nasledujúce učivo:

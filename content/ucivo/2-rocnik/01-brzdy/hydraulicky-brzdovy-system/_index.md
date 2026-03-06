@@ -49,6 +49,13 @@ Ako sme spomínali už v požiadavkách, prevádzková brzda musí mať vždy dv
 
 {{< figure src="hh.png" alt="Schéma usporiadanie dvoch brzdových okruhov HH" width="40%" caption="Obr. 10.13 - Schéma usporiadanie dvoch brzdových okruhov HH" >}}
 
+---
+
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/brzdy/hydraulicky-brzdovy-system" count="5" >}}
 
 ---
 

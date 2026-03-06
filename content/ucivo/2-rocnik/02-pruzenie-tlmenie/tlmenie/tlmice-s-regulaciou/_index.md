@@ -98,6 +98,14 @@ Keď elektromagnetická cievka v pieste vytvorí magnetické pole, kovové čast
 
 ---
 
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/pruzenie-tlmenie/tlmenie/tlmice-s-regulaciou" count="5" >}}
+
+---
+
 Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucivo/2-rocnik/03-riadenie/" title="Riadenie" subtitle="Spôsoby riadenia, mechanizmus riadenia, hlavné časti, geometria riadenia...">}}

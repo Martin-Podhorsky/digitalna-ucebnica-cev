@@ -82,6 +82,15 @@ Hydropneumatické pruženie bolo historicky spojené predovšetkým so značkou 
 
 V súčasnosti sa od hydropneumatického pruženia postupne upúšťa kvôli vysokým nákladom na výrobu a údržbu. Nahrádza ho pneumatické pruženie, ktoré je jednoduchšie a lacnejšie na údržbu.
 
+
+---
+
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/pruzenie-tlmenie/hydropneumaticke-pruzenie" count="5" >}}
+
 ---
 
 Nasledujúce učivo:

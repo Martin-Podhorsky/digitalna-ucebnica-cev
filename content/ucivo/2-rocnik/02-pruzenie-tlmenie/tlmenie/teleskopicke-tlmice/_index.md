@@ -108,6 +108,14 @@ Obdobný princíp, ako pri dvoj-plášťovom. Namiesto zásobníkovej komory je 
 
 ---
 
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/pruzenie-tlmenie/tlmenie/teleskopicke-tlmice" count="5" >}}
+
+---
+
 Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucivo/2-rocnik/02-pruzenie-tlmenie/tlmenie/tlmice-s-regulaciou" title="Tlmiče s reguláciou" subtitle="Rozdelenie, rôzne druhy systémov, ich popis, výhody a nevýhody...">}}

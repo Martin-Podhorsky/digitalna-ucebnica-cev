@@ -61,6 +61,14 @@ Vinuté pružiny sa rozdeľujú podľa týchto kritérií:
 
 ---
 
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/pruzenie-tlmenie/vinute-pruziny" count="5" >}}
+
+---
+
 Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucivo/2-rocnik/02-pruzenie-tlmenie/skrutne-tyce" title="Skrutné tyče" subtitle="Hlavné časti, princíp činnosti, výhody, nevýhody, použitie...">}}

@@ -62,6 +62,14 @@ Systém vyhodnocuje rýchlosť stláčania brzdového pedála. Pri zistení náh
 
 ---
 
+## Kontrolné otázky
+
+Overte si svoje znalosti z tejto kapitoly. Otázky sú náhodne vybrané z databázy.
+
+{{< quiz topic="2-rocnik/brzdy/brzdovy-posilnovac" count="5" >}}
+
+---
+
 Nasledujúce učivo:
 {{< cards >}}
   {{< card url="/ucivo/2-rocnik/01-brzdy/ABS" title="Systém ABS" subtitle="Princíp činnosti, význam, konštrukcia...">}}
