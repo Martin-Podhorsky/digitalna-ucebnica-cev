@@ -4,7 +4,7 @@ title: "Tlmenie"
 type: docs
 weight: 6
 sidebar:
-  open: true
+  open: false
 ---
 
 Tlmiče sú súčasťou odpruženia vozidla. Slúžia na zabránenie rozkmitania pružín. Pružiny samotné by po prejazde nerovnosťou kmitali ešte dlhú dobu - tlmiče tento pohyb brzdia tým, že premieňajú kinetickú energiu kmitania na teplo.

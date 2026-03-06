@@ -388,7 +388,7 @@ function buildTopicTree(topicTree) {
         updateParentCheckboxes(container);
       });
       
-      // Build individual topics
+      // Build individual topics (direct leaves under parent)
       Object.entries(parentData.topics || {}).forEach(([topicKey, topicData]) => {
         const topicDiv = document.createElement('div');
         topicDiv.className = 'topic-item topic-leaf';
@@ -407,6 +407,64 @@ function buildTopicTree(topicTree) {
         });
         
         parentChildrenDiv.appendChild(topicDiv);
+      });
+
+      // Build subgroups (3rd level: subfolder under parent)
+      Object.entries(parentData.subgroups || {}).forEach(([subgroupKey, subgroupData]) => {
+        const subgroupDiv = document.createElement('div');
+        subgroupDiv.className = 'topic-parent topic-subgroup';
+        const subgroupLabel = subgroupKey.charAt(0).toUpperCase() + subgroupKey.slice(1).replace(/-/g, ' ');
+        const subgroupPath = `${yearKey}/${parentKey}/${subgroupKey}`;
+        subgroupDiv.innerHTML = `
+          <div class="topic-item topic-parent-header">
+            <span class="topic-toggle">›</span>
+            <label class="topic-checkbox">
+              <input type="checkbox" data-parent="${subgroupPath}">
+              <span>${subgroupLabel}</span>
+            </label>
+          </div>
+          <div class="topic-children" style="display: none;"></div>
+        `;
+
+        const subgroupChildrenDiv = subgroupDiv.querySelector('.topic-children');
+        const subgroupToggle = subgroupDiv.querySelector('.topic-toggle');
+        const subgroupCheckbox = subgroupDiv.querySelector(`input[data-parent="${subgroupPath}"]`);
+
+        subgroupToggle.addEventListener('click', () => {
+          const isExpanded = subgroupChildrenDiv.style.display !== 'none';
+          subgroupChildrenDiv.style.display = isExpanded ? 'none' : 'block';
+          subgroupToggle.classList.toggle('expanded', !isExpanded);
+        });
+
+        subgroupCheckbox.addEventListener('change', (e) => {
+          subgroupChildrenDiv.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+            cb.checked = e.target.checked;
+          });
+          updateSelectedTopics();
+          updateParentCheckboxes(container);
+        });
+
+        Object.entries(subgroupData.topics || {}).forEach(([topicKey, topicData]) => {
+          const topicDiv = document.createElement('div');
+          topicDiv.className = 'topic-item topic-leaf';
+          const topicPath = `${yearKey}/${parentKey}/${topicKey}`;
+          topicDiv.innerHTML = `
+            <label class="topic-checkbox">
+              <input type="checkbox" data-topic="${topicPath}">
+              <span>${topicData.name} (${topicData.count})</span>
+            </label>
+          `;
+
+          const topicCheckbox = topicDiv.querySelector('input');
+          topicCheckbox.addEventListener('change', () => {
+            updateSelectedTopics();
+            updateParentCheckboxes(container);
+          });
+
+          subgroupChildrenDiv.appendChild(topicDiv);
+        });
+
+        parentChildrenDiv.appendChild(subgroupDiv);
       });
       
       childrenDiv.appendChild(parentDiv);

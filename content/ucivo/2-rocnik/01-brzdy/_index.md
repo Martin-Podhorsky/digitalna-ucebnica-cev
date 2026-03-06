@@ -4,7 +4,7 @@ title: "Brzdy"
 type: docs
 weight: 1
 sidebar:
-  open: true
+  open: false
 ---
 
 ## Definícia

@@ -7,16 +7,18 @@
   {{- $yearTopics := dict -}}
   {{- range $parentKey, $parentData := $yearData -}}
     {{- $parentTopics := dict -}}
+    {{- $parentSubgroups := dict -}}
     {{- range $topicKey, $topicData := $parentData -}}
       {{- if $topicData.questions -}}
-        {{- /* This is a leaf topic with questions */ -}}
+        {{- /* Leaf topic directly under parent */ -}}
         {{- range $topicData.questions -}}
           {{- $questionWithMeta := merge . (dict "topicKey" $topicKey "parentKey" $parentKey "yearKey" $yearKey "topicName" $topicData.topic "parentName" $topicData.parent) -}}
           {{- $allQuestions = $allQuestions | append $questionWithMeta -}}
         {{- end -}}
         {{- $parentTopics = merge $parentTopics (dict $topicKey (dict "name" $topicData.topic "count" (len $topicData.questions))) -}}
       {{- else -}}
-        {{- /* This might be a nested folder - check for sub-topics */ -}}
+        {{- /* This is a subfolder — collect its leaf topics into a subgroup */ -}}
+        {{- $subgroupTopics := dict -}}
         {{- range $subTopicKey, $subTopicData := $topicData -}}
           {{- if $subTopicData.questions -}}
             {{- $nestedKey := printf "%s/%s" $topicKey $subTopicKey -}}
@@ -24,13 +26,16 @@
               {{- $questionWithMeta := merge . (dict "topicKey" $nestedKey "parentKey" $parentKey "yearKey" $yearKey "topicName" $subTopicData.topic "parentName" $subTopicData.parent) -}}
               {{- $allQuestions = $allQuestions | append $questionWithMeta -}}
             {{- end -}}
-            {{- $parentTopics = merge $parentTopics (dict $nestedKey (dict "name" $subTopicData.topic "count" (len $subTopicData.questions))) -}}
+            {{- $subgroupTopics = merge $subgroupTopics (dict $nestedKey (dict "name" $subTopicData.topic "count" (len $subTopicData.questions))) -}}
           {{- end -}}
+        {{- end -}}
+        {{- if $subgroupTopics -}}
+          {{- $parentSubgroups = merge $parentSubgroups (dict $topicKey (dict "topics" $subgroupTopics)) -}}
         {{- end -}}
       {{- end -}}
     {{- end -}}
-    {{- if $parentTopics -}}
-      {{- $yearTopics = merge $yearTopics (dict $parentKey (dict "name" $parentKey "topics" $parentTopics)) -}}
+    {{- if or $parentTopics $parentSubgroups -}}
+      {{- $yearTopics = merge $yearTopics (dict $parentKey (dict "name" $parentKey "topics" $parentTopics "subgroups" $parentSubgroups)) -}}
     {{- end -}}
   {{- end -}}
   {{- if $yearTopics -}}
