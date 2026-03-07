@@ -112,7 +112,7 @@ questions:
   - id: "kotucove-12"
     type: write
     question: "Ako sa volajú tieto časti kotúčovej brzdy s pevným strmeňom? (prosím písať aj s diakritikou)"
-    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/tesnenie-pevny.png"
+    image: "/ucivo/2-rocnik/01-brzdy/kotucove-brzdy/prachovky-pevny.png"
     accepted_answers:
       - "Tesnenie"
       - "Tesnenia"

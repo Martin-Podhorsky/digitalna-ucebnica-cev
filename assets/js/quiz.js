@@ -527,6 +527,34 @@ function updateStartButton() {
   startBtn.disabled = !hasTopics;
 }
 
+/** Leave-tab protection: reload after this many seconds if user leaves the tab during test */
+const LEAVE_TAB_SECONDS = 5;
+let leaveTabTimeoutId = null;
+
+function handleTestVisibilityChange() {
+  if (document.visibilityState === 'hidden') {
+    if (leaveTabTimeoutId) clearTimeout(leaveTabTimeoutId);
+    leaveTabTimeoutId = setTimeout(() => location.reload(), LEAVE_TAB_SECONDS * 1000);
+  } else {
+    if (leaveTabTimeoutId) {
+      clearTimeout(leaveTabTimeoutId);
+      leaveTabTimeoutId = null;
+    }
+  }
+}
+
+function setupLeaveTabProtection() {
+  document.addEventListener('visibilitychange', handleTestVisibilityChange);
+}
+
+function clearLeaveTabProtection() {
+  document.removeEventListener('visibilitychange', handleTestVisibilityChange);
+  if (leaveTabTimeoutId) {
+    clearTimeout(leaveTabTimeoutId);
+    leaveTabTimeoutId = null;
+  }
+}
+
 /**
  * Start the test
  */
@@ -569,6 +597,9 @@ function startTest() {
   
   // Start timer
   startTimer(timeLimit * 60);
+  
+  // If user leaves tab (switch tab, minimize, other window), reload after 5s to reset test
+  setupLeaveTabProtection();
 }
 
 /**
@@ -609,6 +640,7 @@ function startTimer(seconds) {
  */
 function submitTest() {
   clearInterval(window.testTimer);
+  clearLeaveTabProtection();
   
   let score = 0;
   const questions = window.testQuestions;
