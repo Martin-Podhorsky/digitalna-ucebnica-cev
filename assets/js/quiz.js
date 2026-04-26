@@ -271,8 +271,8 @@ function initTestGenerator() {
   });
   
   // Start test button
-  document.getElementById('start-test').addEventListener('click', () => {
-    startTest();
+  document.getElementById('start-test').addEventListener('click', async () => {
+    await startTestWithFullscreen();
   });
   
   // Submit test button
@@ -527,31 +527,76 @@ function updateStartButton() {
   startBtn.disabled = !hasTopics;
 }
 
-/** Leave-tab protection: reload after this many seconds if user leaves the tab during test */
-const LEAVE_TAB_SECONDS = 5;
-let leaveTabTimeoutId = null;
+/** Anti-cheat protection */
+const RESET_GRACE_SECONDS = 3;
+let resetTimeoutId = null;
 
-function handleTestVisibilityChange() {
-  if (document.visibilityState === 'hidden') {
-    if (leaveTabTimeoutId) clearTimeout(leaveTabTimeoutId);
-    leaveTabTimeoutId = setTimeout(() => location.reload(), LEAVE_TAB_SECONDS * 1000);
-  } else {
-    if (leaveTabTimeoutId) {
-      clearTimeout(leaveTabTimeoutId);
-      leaveTabTimeoutId = null;
-    }
+function scheduleTestReset() {
+  if (resetTimeoutId) clearTimeout(resetTimeoutId);
+  resetTimeoutId = setTimeout(() => location.reload(), RESET_GRACE_SECONDS * 1000);
+}
+
+function cancelScheduledTestReset() {
+  if (resetTimeoutId) {
+    clearTimeout(resetTimeoutId);
+    resetTimeoutId = null;
   }
 }
 
-function setupLeaveTabProtection() {
-  document.addEventListener('visibilitychange', handleTestVisibilityChange);
+function handleTestVisibilityChange() {
+  if (document.visibilityState === 'hidden') {
+    scheduleTestReset();
+  } else {
+    cancelScheduledTestReset();
+  }
 }
 
-function clearLeaveTabProtection() {
+function isFullscreenLike() {
+  if (document.fullscreenElement) return true;
+  return (
+    window.innerWidth >= (screen.availWidth - 2) &&
+    window.innerHeight >= (screen.availHeight - 2)
+  );
+}
+
+function reevaluateFullscreenRequirement() {
+  if (isFullscreenLike()) {
+    cancelScheduledTestReset();
+    return;
+  }
+
+  if (document.visibilityState === 'visible') {
+    scheduleTestReset();
+  }
+}
+
+function handleFullscreenChange() {
+  reevaluateFullscreenRequirement();
+}
+
+function handleWindowResize() {
+  reevaluateFullscreenRequirement();
+}
+
+function setupAntiCheatProtection() {
+  document.addEventListener('visibilitychange', handleTestVisibilityChange);
+  document.addEventListener('fullscreenchange', handleFullscreenChange);
+  window.addEventListener('resize', handleWindowResize);
+}
+
+function clearAntiCheatProtection() {
   document.removeEventListener('visibilitychange', handleTestVisibilityChange);
-  if (leaveTabTimeoutId) {
-    clearTimeout(leaveTabTimeoutId);
-    leaveTabTimeoutId = null;
+  document.removeEventListener('fullscreenchange', handleFullscreenChange);
+  window.removeEventListener('resize', handleWindowResize);
+  cancelScheduledTestReset();
+}
+
+async function startTestWithFullscreen() {
+  try {
+    await document.documentElement.requestFullscreen();
+    startTest();
+  } catch (e) {
+    alert('Test sa musí spustiť v režime celej obrazovky.');
   }
 }
 
@@ -598,8 +643,8 @@ function startTest() {
   // Start timer
   startTimer(timeLimit * 60);
   
-  // If user leaves tab (switch tab, minimize, other window), reload after 5s to reset test
-  setupLeaveTabProtection();
+  // If user leaves tab or exits fullscreen, reset test after grace period
+  setupAntiCheatProtection();
 }
 
 /**
@@ -640,7 +685,7 @@ function startTimer(seconds) {
  */
 function submitTest() {
   clearInterval(window.testTimer);
-  clearLeaveTabProtection();
+  clearAntiCheatProtection();
   
   let score = 0;
   const questions = window.testQuestions;

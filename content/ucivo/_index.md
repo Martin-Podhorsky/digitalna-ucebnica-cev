@@ -21,4 +21,4 @@ Cieľom tejto učebnej pomôcky je poskytnúť žiakom informácie potrebné po�
 
 **Momentálne táto učebná pomôcka obsahuje len učivo 2. ročníka.** Ale ak chceš a cítiš sa na to, máš možnosť pomôcť s dokončením ďalších ročníkov, čo môžeš následne použiť ako SOČku. 
 
-Pre viac informácií kontaktuj pani učiteľku Görögovú alebo pani učiteľku Gabaľovú.
+Pre viac informácií kontaktuj pani učiteľku Ing. Ingrid Görögovú, PhD. alebo pani učiteľku PaedDr. Veroniku Gabaľovú, PhD.

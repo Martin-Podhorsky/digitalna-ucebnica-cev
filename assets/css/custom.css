@@ -838,6 +838,18 @@ html {
   cursor: not-allowed;
 }
 
+.test-warning-text {
+  margin-top: 0.75rem;
+  color: #dc2626;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.dark .test-warning-text {
+  color: #f87171;
+}
+
 /* Test Area */
 .test-area {
   max-width: 800px;
