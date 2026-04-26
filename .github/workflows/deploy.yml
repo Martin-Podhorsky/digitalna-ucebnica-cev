@@ -87,20 +87,6 @@ jobs:
       id: pages
       uses: actions/configure-pages@v5
 
-    - name: Build with Hugo
-      env:
-        HUGO_ENVIRONMENT: production
-      run: |
-        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-
-    - name: Generate Pagefind search index (if applicable)
-      run: |
-        # Check if site uses Pagefind search
-        if [ -f "package.json" ] && grep -q "pagefind" package.json; then
-          pnpm dlx pagefind --source "public" || npx pagefind --source "public"
-        fi
-
     - name: Check FTP secrets
       id: ftp-check
       env:
@@ -116,6 +102,23 @@ jobs:
           echo "FTP deploy skipped: missing one or more FTP secrets."
         fi
 
+    # ----- School server build (baseURL = https://cev.eckari.sk/) -----
+    - name: Build with Hugo for school server
+      if: ${{ steps.ftp-check.outputs.enabled == 'true' }}
+      env:
+        HUGO_ENVIRONMENT: production
+      run: |
+        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+        rm -rf public
+        hugo --minify --baseURL "https://cev.eckari.sk/"
+
+    - name: Generate Pagefind search index for school server
+      if: ${{ steps.ftp-check.outputs.enabled == 'true' }}
+      run: |
+        if [ -f "package.json" ] && grep -q "pagefind" package.json; then
+          pnpm dlx pagefind --source "public" || npx pagefind --source "public"
+        fi
+
     - name: Deploy to school FTP server
       if: ${{ steps.ftp-check.outputs.enabled == 'true' }}
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -127,6 +130,20 @@ jobs:
         port: 21
         local-dir: ./public/
         server-dir: ${{ secrets.FTP_SERVER_DIR }}
+
+    # ----- GitHub Pages build (baseURL = github.io URL) -----
+    - name: Build with Hugo for GitHub Pages
+      env:
+        HUGO_ENVIRONMENT: production
+      run: |
+        rm -rf public
+        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+    - name: Generate Pagefind search index for GitHub Pages
+      run: |
+        if [ -f "package.json" ] && grep -q "pagefind" package.json; then
+          pnpm dlx pagefind --source "public" || npx pagefind --source "public"
+        fi
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v4
