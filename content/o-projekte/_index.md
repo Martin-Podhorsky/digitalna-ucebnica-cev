@@ -32,7 +32,8 @@ sections:
 
         ## Martin Podhorský
         → vybudovanie a nadizajnovanie webovej stránky<br>
-        → spísanie učiva pre druhý ročník
+        → vytvorenie funkcionality testov<br>
+        → spísanie učiva, kontrolných otázok a pracovných listov pre druhý ročník
 
         ---
         
