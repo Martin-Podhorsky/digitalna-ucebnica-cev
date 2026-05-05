@@ -10,7 +10,7 @@ design:
 sections:
   - block: hero
     content:
-      title: Cestné Vozidlá
+      title: Test Cestné Vozidlá
       text: Všetko z predmetu Cestné vozidlá na jednom mieste dostupné kedykoľvek a kdekoľvek!
       primary_action:
         text: Otvoriť
